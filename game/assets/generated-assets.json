@@ -1,0 +1,10 @@
+{
+  "tool": "built-in image_gen",
+  "asset": "prologue-atlas.png",
+  "prompt": "Create a game asset PNG with TRUE TRANSPARENT BACKGROUND: a strictly aligned 3 column by 3 row sprite atlas, each cell equally sized, generous transparent padding, no text labels, no board, no lines, no scenery, no shadows. Crisp low resolution square-pixel JRPG sprite art, about 48x64 source pixels per character, enlarged nearest-neighbor. Full body heads and feet visible in every cell. Row 1 AEL brown tousled hair green eyes cream tunic green cloak leather herb satchel brown boots, matching reference 1. Row 2 LEON silver gray low ponytail navy cloak silver breastplate dark trousers boots, matching reference 2. Row 3 MARTA middle-aged herbalist gray-brown tied hair brown shawl cream apron long olive skirt brown boots, matching reference 3. Columns for EACH row: FRONT facing viewer, BACK facing away, SIDE facing right. Neutral standing poses with consistent baseline, same outfit and dimensions across each row. Nine isolated sprites TOTAL, pixel art only. No portrait illustrations. All non-character pixels completely transparent. Keep characters centered within their individual equal grid cells; no weapons extending outside cells.",
+  "reference_boards": [
+    "ael-board-v1.png",
+    "leon-board-v2.png",
+    "marta-board-v1.png"
+  ]
+}
