@@ -6,5 +6,19 @@
     "ael-board-v1.png",
     "leon-board-v2.png",
     "marta-board-v1.png"
+  ],
+  "revisions": [
+    {
+      "asset": "ael-walk.png",
+      "prompt": "Use case stylized-concept. GAME SPRITE SHEET, square canvas, TRUE TRANSPARENT BACKGROUND, no background, no text, no grid lines. EXACTLY 4 COLUMNS by 4 ROWS of equally sized cells. SIXTEEN full-body pixel-art sprites of the SAME AEL hero from reference 1: tousled brown hair, green cloak, cream tunic, dark brown trousers, brown boots, herb satchel. Match reference 2 village's classic grounded JRPG pixel proportions (about 3.5 heads tall), crisp chunky square pixels, no smoothing. Row1 FRONT/SOUTH facing camera all four cells. Row2 BACK/NORTH facing away all four cells. Row3 RIGHT/EAST profile all four cells. Row4 LEFT/WEST profile all four cells. Columns within EVERY row: 1 neutral standing feet together; 2 left leg forward/right leg back and opposite arm swing; 3 passing stance one knee bent feet passing beneath hips; 4 right leg forward/left leg back and opposite arm swing. Distinct visible leg and boot changes, not merely cloak changes. Every head same size and same height; feet contact same baseline within every cell, NO vertical bounce or hovering, NO ground shadow. Strict equal grid with sprite centered in each cell, all pixels confined to individual cells with 10% transparent padding. Consistent outfit equipment side, anatomy, scale and palette. Only 16 pixel sprites, no portraits, no scene. Designed for frame animation in game."
+    },
+    {
+      "asset": "winter-materials.png",
+      "prompt": "Use case stylized-concept. Create a square production terrain MATERIAL TEXTURE ATLAS for a classic pixel-art JRPG matching the provided snowy village reference closely. Flat orthographic surface samples only, NOT a scene or an illustration. EXACTLY SIX equally sized SQUARE swatches arranged 3 COLUMNS x 2 ROWS, edge-to-edge with NO gaps, NO border, NO text. Top row left: worn gray-brown medieval cobblestone road with small uneven stones, cracks and tiny snow remnants; top middle: densely textured white snow in cool pale lavender blue shadows and many fine clustered pixels; top right: irregular aged gray medieval stone brick wall with mortar, moss subtle. Bottom row left: weathered dark brown timber planks, fine grain and coarse clustered pixel texture; bottom middle: dark blue-gray slate roof shingles; bottom right: warm cream plaster with subtle aging and tiny cracks. Every swatch a repeatable material, no objects/windows/doors/people. Rich hand-crafted pixel texture, square hard pixels, limited nuanced palette, cool snowy shadows warm wood, visual detail like reference. Texture fills entire image, no perspective, no directional cast shadows."
+    },
+    {
+      "asset": "snow-spruce.png",
+      "prompt": "Use case stylized-concept. One isolated tall snow-covered spruce tree game prop on TRUE TRANSPARENT background, no ground plane, no scenery, no text. Match the provided classic winter village pixel art reference EXACTLY in material feel: finely clustered hard-edged pixels, dense irregular dark evergreen branches, thick broken layers of cool white snow with pale lavender-blue shadows, rough brown trunk visible at base, natural asymmetrical branch silhouette. Orthographic high oblique view suitable for a fixed isometric JRPG camera. Full tree tip to trunk base completely visible with generous transparent padding, no cast shadow. NOT smooth vector cones, NOT a geometric Christmas tree, NOT photoreal. A richly detailed sprite for a 3D game world billboard."
+    }
   ]
 }

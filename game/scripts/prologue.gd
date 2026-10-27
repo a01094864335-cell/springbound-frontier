@@ -5,7 +5,8 @@ const SAVE_PATH := "user://prologue_save.json"
 const NAMES := ["마르타의 집", "서리골", "고요한 산길", "돌샘 연락소"]
 const CHAPTERS := ["01 / 집 안의 아침", "02 / 봄을 기다리는 마을", "03 / 눈 아래의 길", "04 / 국경의 작은 불빛"]
 const MAP_SIZES := [Vector2(18, 16), Vector2(40, 38), Vector2(34, 54), Vector2(36, 34)]
-const HERO_SPEED := 5.2
+const GridWalker = preload("res://scripts/grid_walker.gd")
+const CAMERA_OFFSET := Vector3(0,22,18)
 
 var map_root: Node3D
 var hero: Node3D
@@ -47,11 +48,19 @@ var dialog_action: Callable
 var current_interaction: Dictionary = {}
 var rng := RandomNumberGenerator.new()
 var elapsed := 0.0
-var step_clock := 0.0
+var walker = GridWalker.new()
+var pending_step := Vector2i.ZERO
+var last_input_axis := 0
+var walk_atlas: Texture2D
+var terrain_atlas: Texture2D
+var terrain_materials: Array[StandardMaterial3D] = []
+var foot_offsets: Array[float] = []
+var tree_texture: Texture2D
+var tree_used := Rect2i()
 var facing := 0
 var walk_target := Vector3.ZERO
 var has_walk_target := false
-var zoom := 18.0
+var zoom := 17.5
 var ui_scale := 1.0
 var body_font: SystemFont
 var title_font: SystemFont
@@ -73,6 +82,14 @@ func _ready() -> void:
 	title_font.font_names = PackedStringArray(["Georgia", "Noto Serif", "serif"])
 	if ResourceLoader.exists("res://assets/prologue-atlas.png"):
 		sprite_atlas = load("res://assets/prologue-atlas.png")
+	if ResourceLoader.exists("res://assets/ael-walk.png"):
+		walk_atlas = load("res://assets/ael-walk.png")
+	if ResourceLoader.exists("res://assets/winter-materials.png"):
+		terrain_atlas = load("res://assets/winter-materials.png")
+	if ResourceLoader.exists("res://assets/snow-spruce.png"):
+		tree_texture = load("res://assets/snow-spruce.png")
+		tree_used = tree_texture.get_image().get_used_rect()
+	_prepare_surface_materials()
 	_setup_world()
 	_setup_ui()
 	_load_map(1, Vector3(0, 0, 9))
@@ -80,6 +97,8 @@ func _ready() -> void:
 	title_screen.show()
 	if qa_mode:
 		call_deferred("_run_qa")
+	elif "--walk-capture" in OS.get_cmdline_user_args():
+		call_deferred("_run_walk_capture")
 	elif "--capture" in OS.get_cmdline_user_args():
 		call_deferred("_run_capture")
 
@@ -87,16 +106,16 @@ func _setup_world() -> void:
 	atmosphere = WorldEnvironment.new()
 	var environment := Environment.new()
 	environment.background_mode = Environment.BG_COLOR
-	environment.background_color = Color("99b8bd")
+	environment.background_color = Color("c3cce7")
 	environment.ambient_light_source = Environment.AMBIENT_SOURCE_COLOR
-	environment.ambient_light_color = Color("b6cdcc")
+	environment.ambient_light_color = Color("c2c9ed")
 	environment.ambient_light_energy = 0.32
 	environment.tonemap_mode = Environment.TONE_MAPPER_LINEAR
 	atmosphere.environment = environment
 	add_child(atmosphere)
 	sun = DirectionalLight3D.new()
-	sun.rotation_degrees = Vector3(-48, -32, 0)
-	sun.light_color = Color("eff6ff")
+	sun.rotation_degrees = Vector3(-48, -25, 0)
+	sun.light_color = Color("fff1dc")
 	sun.light_energy = 0.65
 	sun.shadow_enabled = true
 	sun.directional_shadow_max_distance = 65
@@ -106,9 +125,18 @@ func _setup_world() -> void:
 	camera.size = zoom
 	camera.far = 150
 	add_child(camera)
+	# Controls and navigation use screen-facing ground axes, not the rotated map axes.
+	walker.axis_z = Vector3(CAMERA_OFFSET.x,0,CAMERA_OFFSET.z).normalized()
+	walker.axis_x = Vector3(walker.axis_z.z,0,-walker.axis_z.x)
 	hero = _actor(0)
 	add_child(hero)
 	hero_sprite = hero.get_node("Sprite") as Sprite3D
+	if walk_atlas:
+		hero_sprite.texture = walk_atlas
+		hero_sprite.hframes = 4
+		hero_sprite.vframes = 4
+		_anchor_sprite_feet(hero_sprite,4,4)
+		_prepare_walk_offsets()
 
 func _material(color: Color, translucent := false) -> StandardMaterial3D:
 	var key := str(color) + str(translucent)
@@ -144,6 +172,7 @@ func _cylinder(pos: Vector3, radius: float, height: float, color: Color, top_rad
 	mesh.mesh = geometry
 	mesh.position = pos
 	mesh.material_override = _material(color)
+	if color.r > 0.8 and color.g > 0.8: _texture_surface(mesh,1)
 	map_root.add_child(mesh)
 	return mesh
 
@@ -156,6 +185,7 @@ func _rock(pos: Vector3, scale_value: Vector3, snow := true) -> void:
 	rock.position = pos
 	rock.scale = scale_value
 	rock.material_override = _material(Color("637977"))
+	_texture_surface(rock,2)
 	map_root.add_child(rock)
 	if scale_value.x > 1.0:
 		obstacles.append(Rect2(Vector2(pos.x-scale_value.x*0.4,pos.z-scale_value.z*0.4),Vector2(scale_value.x*0.8,scale_value.z*0.8)))
@@ -163,16 +193,19 @@ func _rock(pos: Vector3, scale_value: Vector3, snow := true) -> void:
 		_cylinder(pos + Vector3(0, scale_value.y * 0.35, 0), scale_value.x * 0.44, 0.12, Color("dce9de"))
 
 func _tree(x: float, z: float, tree_scale := 1.0) -> void:
-	var base := Vector3(x, 0, z)
-	_cylinder(base + Vector3(0, 1.2 * tree_scale, 0), 0.19 * tree_scale, 2.4 * tree_scale, Color("5d5141"))
-	var crown: Array[MeshInstance3D] = []
-	for i in range(3):
-		var h := (1.9 + i * 1.05) * tree_scale
-		var radius := (1.5 - i * 0.31) * tree_scale
-		crown.append(_cylinder(base + Vector3(0, h, 0), radius, 2.35 * tree_scale, Color("244f49"), 0))
-		crown.append(_cylinder(base + Vector3(0, h + 0.42 * tree_scale, 0), radius * 0.78, 1.65 * tree_scale, Color("dbe7dc"), 0))
-	obstacles.append(Rect2(Vector2(x - 0.42, z - 0.42), Vector2(0.84, 0.84)))
-	occluders.append({"pos": Vector2(x, z), "width": 1.7 * tree_scale, "meshes": crown})
+	if not tree_texture: return
+	var tree := Sprite3D.new()
+	tree.texture = tree_texture
+	tree.billboard = BaseMaterial3D.BILLBOARD_ENABLED
+	tree.texture_filter = BaseMaterial3D.TEXTURE_FILTER_NEAREST
+	tree.alpha_cut = SpriteBase3D.ALPHA_CUT_DISCARD
+	tree.shaded = false
+	tree.position = Vector3(x,0.025,z)
+	tree.pixel_size = 5.8*tree_scale/maxf(1,tree_used.size.y)
+	tree.offset.y = float(tree_texture.get_height())/2-(tree_texture.get_height()-tree_used.end.y)
+	map_root.add_child(tree)
+	obstacles.append(Rect2(Vector2(x-0.42,z-0.42),Vector2(0.84,0.84)))
+	occluders.append({"pos":Vector2(x,z),"width":1.7*tree_scale,"sprite":tree,"height":5.8*tree_scale})
 
 func _roof(center: Vector3, width: float, depth: float, height: float, color: Color) -> MeshInstance3D:
 	var vertices := PackedVector3Array([
@@ -193,14 +226,17 @@ func _roof(center: Vector3, width: float, depth: float, height: float, color: Co
 	var mat := _material(color).duplicate() as StandardMaterial3D
 	mat.cull_mode = BaseMaterial3D.CULL_DISABLED
 	mesh.material_override = mat
+	_texture_surface(mesh,1 if color.r > 0.8 else 4)
 	map_root.add_child(mesh)
 	return mesh
 
 func _house(x: float, z: float, width: float, depth: float, roof_color: Color) -> void:
 	var walls := _box(Vector3(x, 1.55, z), Vector3(width, 3.1, depth), Color("d8d0b5"), true)
-	_box(Vector3(x, 0.25, z), Vector3(width + 0.25, 0.5, depth + 0.25), Color("7c8274"))
+	_texture_surface(walls,3)
+	var base := _box(Vector3(x, 0.4, z), Vector3(width + 0.25, 0.8, depth + 0.25), Color("7c8274"))
+	_texture_surface(base,2)
 	var roof := _roof(Vector3(x, 3.1, z), width + 1.0, depth + 0.9, 2.15, roof_color)
-	var snow := _roof(Vector3(x - 0.06, 3.24, z), width + 1.0, depth + 0.95, 2.15, Color("e1ebe0"))
+	var snow := _roof(Vector3(x - 0.06, 3.24, z), width + 0.65, depth * 0.78, 2.15, Color("e1ebe0"))
 	for offset in [-width * 0.32, width * 0.32]:
 		_box(Vector3(x + offset, 1.6, z + depth/2 + 0.04), Vector3(0.85, 0.95, 0.12), Color("6c5744"))
 		_box(Vector3(x + offset, 1.6, z + depth/2 + 0.11), Vector3(0.63, 0.73, 0.04), Color("e6c888"))
@@ -209,7 +245,9 @@ func _house(x: float, z: float, width: float, depth: float, roof_color: Color) -
 	_box(Vector3(x + width*0.25, 4.45, z - 0.9), Vector3(0.65, 1.6, 0.7), Color("9c9985"))
 	for offset in [-width/2 + 0.12, width/2 - 0.12]:
 		_box(Vector3(x + offset, 1.5, z + depth/2 + 0.08), Vector3(0.15, 3.1, 0.15), Color("6c6754"))
-	occluders.append({"pos": Vector2(x,z), "width": width/2 + 0.6, "meshes": [walls,roof,snow]})
+	var details := _house_details(x,z,width,depth)
+	details.append_array([walls,roof,snow])
+	occluders.append({"pos": Vector2(x,z), "width": width/2 + 0.6, "meshes": details})
 
 func _fence(start: Vector2, end: Vector2) -> void:
 	var length_value := start.distance_to(end)
@@ -227,8 +265,9 @@ func _fence(start: Vector2, end: Vector2) -> void:
 
 func _path(rect: Rect2, color := Color("a1ab96")) -> void:
 	map_paths.append(rect)
-	_box(Vector3(rect.get_center().x, 0.035, rect.get_center().y),Vector3(rect.size.x,0.05,rect.size.y),color)
-	for i in range(int(rect.get_area() / 1.6)):
+	var road := _box(Vector3(rect.get_center().x, 0.035, rect.get_center().y),Vector3(rect.size.x,0.05,rect.size.y),color)
+	_texture_surface(road,3 if map_id == 0 else 0)
+	for i in range(int(rect.get_area() / 6.0)):
 		var p := Vector3(rng.randf_range(rect.position.x,rect.end.x),0.07,rng.randf_range(rect.position.y,rect.end.y))
 		var stone := _box(p,Vector3(rng.randf_range(0.15,0.45),0.03,rng.randf_range(0.1,0.3)),color.darkened(0.10))
 		stone.rotation.y = rng.randf_range(-1,1)
@@ -255,6 +294,7 @@ func _marker(pos: Vector3, text: String, color := Color("eee1b3")) -> void:
 	label.modulate = color
 	label.outline_size = 8
 	label.no_depth_test = true
+	label.visibility_range_end = 14.0
 	map_root.add_child(label)
 
 func _actor(row: int) -> Node3D:
@@ -265,13 +305,14 @@ func _actor(row: int) -> Node3D:
 	sprite.texture_filter = BaseMaterial3D.TEXTURE_FILTER_NEAREST
 	sprite.shaded = false
 	sprite.alpha_cut = SpriteBase3D.ALPHA_CUT_DISCARD
-	sprite.position.y = 1.12
+	sprite.position.y = 0.04
 	if sprite_atlas:
 		sprite.texture = sprite_atlas
 		sprite.hframes = 3
 		sprite.vframes = 3
 		sprite.frame = row * 3
 		sprite.pixel_size = 2.5 / (sprite_atlas.get_height() / 3.0)
+		_anchor_sprite_feet(sprite,3,3)
 	actor.add_child(sprite)
 	var shadow := MeshInstance3D.new()
 	var circle := CylinderMesh.new()
@@ -317,7 +358,8 @@ func _load_map(index: int, spawn: Vector3) -> void:
 	route.clear()
 	rng.seed = 370 + index
 	var ground_color := Color("aebfbb") if index != 0 else Color("947e5b")
-	_box(Vector3(0,-0.45,0),Vector3(map_size.x if index == 0 else map_size.x+40,0.9,map_size.y if index == 0 else map_size.y+40),ground_color)
+	var ground := _box(Vector3(0,-0.45,0),Vector3(map_size.x if index == 0 else map_size.x+40,0.9,map_size.y if index == 0 else map_size.y+40),ground_color)
+	_texture_surface(ground,3 if index == 0 else 1)
 	_box(Vector3(0,-1.1,0),Vector3(map_size.x+0.2,0.7,map_size.y+0.2),Color("536d64"))
 	match index:
 		0: _build_home()
@@ -325,7 +367,9 @@ func _load_map(index: int, spawn: Vector3) -> void:
 		2: _build_trail()
 		3: _build_well()
 	_build_navigation()
-	hero.position = spawn
+	walker.reset(spawn)
+	hero.position = walker.position
+	pending_step = Vector2i.ZERO
 	camera.size = zoom
 	_update_camera(1.0, true)
 	_update_quest()
@@ -379,10 +423,9 @@ func _build_village() -> void:
 	_house(9,-8,6.5,5.5,Color("6c7c7c"))
 	_house(-10,-12,5.5,4.5,Color("7d7568"))
 	_house(10,9,6,5,Color("707f6a"))
-	_cylinder(Vector3(0,0.48,6.2),1.0,0.95,Color("9ba695"))
-	_cylinder(Vector3(0,1.0,6.2),0.74,0.1,Color("426d6c"))
+	_stone_well(Vector2(0,6.2),false)
 	obstacles.append(Rect2(-1,5.2,2,2))
-	_box(Vector3(0,2,6.2),Vector3(0.14,2.1,0.14),Color("5d6c56"))
+	_border_gate(Vector2(0,-15.2))
 	_lantern(-3.8,8.8)
 	_lantern(3.6,-9)
 	_fence(Vector2(-17,10),Vector2(-5,10))
@@ -435,12 +478,8 @@ func _build_well() -> void:
 	_path(Rect2(-13,-1,27,5),Color("a5ac91"))
 	_house(8,-6,8,6,Color("6a7b70"))
 	_house(-10,-8,5,5,Color("7b7461"))
-	_cylinder(Vector3(-1,0.5,0),1.35,1.0,Color("929b84"))
-	_cylinder(Vector3(-1,1.02,0),0.96,0.08,Color("527f7a"))
+	_stone_well(Vector2(-1,0),true)
 	obstacles.append(Rect2(-2.4,-1.4,2.8,2.8))
-	for x in [-2.4,0.4]:
-		_box(Vector3(x,1.5,0),Vector3(0.17,3,0.17),Color("655b43"))
-	_roof(Vector3(-1,3,0),3.7,2.3,0.9,Color("7c7c61"))
 	_lantern(2.0,6)
 	_lantern(5.4,-1)
 	for x in [-15,15]:
@@ -485,45 +524,55 @@ func _physics_process(delta: float) -> void:
 	elapsed += delta
 	if not started or paused or transitioning or dialog_panel.visible:
 		return
-	var axis := Vector2(Input.get_action_strength("move_right")-Input.get_action_strength("move_left"),Input.get_action_strength("move_down")-Input.get_action_strength("move_up"))
-	if axis.length_squared() > 0.01:
+	var input_direction := _cardinal_input()
+	if input_direction != Vector2i.ZERO:
 		has_walk_target = false
 		route.clear()
-	elif has_walk_target:
-		axis = Vector2(walk_target.x-hero.position.x,walk_target.z-hero.position.z)
-		if axis.length() < 0.2:
-			if not route.is_empty():
-				walk_target = route.pop_front()
-			else:
+	if not walker.moving:
+		var requested := pending_step if pending_step != Vector2i.ZERO else input_direction
+		pending_step = Vector2i.ZERO
+		if requested == Vector2i.ZERO and has_walk_target:
+			while not route.is_empty() and hero.position.distance_to(route[0]) < 0.01:
+				route.pop_front()
+			if route.is_empty():
 				has_walk_target = false
-			axis = Vector2.ZERO
-	axis = axis.limit_length(1.0)
-	var speed := HERO_SPEED * (1.5 if Input.is_key_pressed(KEY_SHIFT) else 1.0)
-	var movement := Vector3(axis.x,0,axis.y) * speed * delta
-	var before := hero.position
-	var next := hero.position + Vector3(movement.x,0,0)
-	if not _blocked(next): hero.position = next
-	next = hero.position + Vector3(0,0,movement.z)
-	if not _blocked(next): hero.position = next
-	var moving := hero.position.distance_to(before) > 0.001
-	if moving:
-		step_clock += delta * 11
-		if abs(axis.x) > abs(axis.y):
-			facing = 2
-			hero_sprite.flip_h = axis.x < 0
-		else:
-			facing = 0 if axis.y > 0 else 1
-			hero_sprite.flip_h = false
-		hero_sprite.position.y = 1.12 + abs(sin(step_clock)) * 0.065
-		hero_sprite.rotation.z = sin(step_clock) * 0.025
-	else:
-		hero_sprite.position.y = lerpf(hero_sprite.position.y,1.12,0.25)
-		hero_sprite.rotation.z = 0
-	hero_sprite.frame = facing
+			else:
+				var difference: Vector2 = walker.to_grid(route[0]-hero.position)
+				requested = Vector2i(signi(roundi(difference.x*100)),0) if abs(difference.x)>0.01 else Vector2i(0,signi(roundi(difference.y*100)))
+		if requested != Vector2i.ZERO:
+			if not walker.begin(requested,_blocked,0.14 if Input.is_key_pressed(KEY_SHIFT) else GridWalker.STEP_SECONDS):
+				route.clear()
+				has_walk_target = false
+	walker.advance(delta)
+	hero.position = walker.position
+	_set_walk_frame()
 	_update_camera(delta)
 	_update_nearest()
 	_update_occlusion()
 	minimap.queue_redraw()
+
+func _cardinal_input() -> Vector2i:
+	var x := int(Input.get_action_strength("move_right")-Input.get_action_strength("move_left"))
+	var z := int(Input.get_action_strength("move_down")-Input.get_action_strength("move_up"))
+	if x != 0 and z != 0:
+		return Vector2i(x,0) if last_input_axis == 0 else Vector2i(0,z)
+	return Vector2i(x,z)
+
+func _set_walk_frame() -> void:
+	var direction: Vector2i = walker.direction
+	if direction.y > 0: facing = 0
+	elif direction.y < 0: facing = 1
+	elif direction.x > 0: facing = 2
+	else: facing = 3
+	hero_sprite.position = Vector3(0,0.04,0)
+	hero_sprite.rotation = Vector3.ZERO
+	hero_sprite.flip_h = false
+	if walk_atlas:
+		hero_sprite.frame = facing*4 + walker.animation_column()
+		if not foot_offsets.is_empty(): hero_sprite.offset.y = foot_offsets[hero_sprite.frame]
+	else:
+		hero_sprite.frame = mini(facing,2)
+		hero_sprite.flip_h = facing == 3
 
 func _process(delta: float) -> void:
 	if not paused:
@@ -537,15 +586,36 @@ func _update_camera(delta: float, snap := false) -> void:
 	var limit_x := maxf(0,map_size.x/2-view_width/2)
 	var limit_z := maxf(0,map_size.y/2-zoom*0.55)
 	var focus := Vector3(clampf(hero.position.x,-limit_x,limit_x),0,clampf(hero.position.z,-limit_z,limit_z))
-	var desired := focus + Vector3(0,19,17)
+	var desired := focus + CAMERA_OFFSET
 	camera.position = desired if snap else camera.position.lerp(desired,1-exp(-delta*6))
-	camera.look_at(camera.position-Vector3(0,19,17),Vector3.UP)
+	camera.look_at(camera.position-CAMERA_OFFSET,Vector3.UP)
 	camera.size = lerpf(camera.size,zoom,1-exp(-delta*8))
 
 func _update_occlusion() -> void:
+	var hero_screen := camera.unproject_position(hero.position+Vector3(0,0.9,0))
 	for item in occluders:
 		var p: Vector2 = item.pos
-		var hidden: bool = abs(hero.position.x-p.x) < item.width and hero.position.z < p.y+0.4 and hero.position.z > p.y-6
+		var base := Vector3(p.x,0,p.y)
+		var behind := camera.global_position.distance_squared_to(hero.position) > camera.global_position.distance_squared_to(base)
+		if item.has("sprite"):
+			var tree: Sprite3D = item.sprite
+			var foot := camera.unproject_position(base)
+			var pixels := get_viewport().get_visible_rect().size.y/camera.size
+			var bounds := Rect2(foot-Vector2(item.width*pixels,item.height*pixels),Vector2(item.width*2*pixels,item.height*pixels))
+			tree.modulate.a = 0.32 if behind and bounds.has_point(hero_screen) else 1.0
+			continue
+		var screen_bounds := Rect2()
+		var initial := true
+		for mesh: MeshInstance3D in item.meshes:
+			var aabb := mesh.get_aabb()
+			for i in range(8):
+				var point := camera.unproject_position(mesh.global_transform*aabb.get_endpoint(i))
+				if initial:
+					screen_bounds = Rect2(point,Vector2.ZERO)
+					initial = false
+				else:
+					screen_bounds = screen_bounds.expand(point)
+		var hidden := behind and screen_bounds.has_point(hero_screen)
 		for mesh: MeshInstance3D in item.meshes:
 			mesh.transparency = 0.74 if hidden else 0.0
 
@@ -577,6 +647,10 @@ func _unhandled_input(event: InputEvent) -> void:
 			rebind_action = ""
 			bind_help.text = "바꿀 동작을 누른 뒤 사용할 키를 누르세요."
 			return
+		for action in ["move_left","move_right","move_up","move_down"]:
+			if event.is_action_pressed(action) and started and not paused and not dialog_panel.visible:
+				pending_step = {"move_left":Vector2i.LEFT,"move_right":Vector2i.RIGHT,"move_up":Vector2i.UP,"move_down":Vector2i.DOWN}[action]
+				last_input_axis = 0 if pending_step.x != 0 else 1
 		if event.keycode == KEY_F5 and started and not dialog_panel.visible and not transitioning:
 			_save_game()
 			return
@@ -596,7 +670,7 @@ func _unhandled_input(event: InputEvent) -> void:
 		if event.is_action_pressed("interact"):
 			_activate_interaction()
 		if event.keycode == KEY_M:
-			minimap.visible = not minimap.visible
+			minimap.get_parent().visible = not minimap.get_parent().visible
 	if event is InputEventMouseButton and started and not paused and not dialog_panel.visible and not transitioning:
 		if event.button_index == MOUSE_BUTTON_WHEEL_UP and event.pressed: zoom = clampf(zoom-1,13,24)
 		if event.button_index == MOUSE_BUTTON_WHEEL_DOWN and event.pressed: zoom = clampf(zoom+1,13,24)
@@ -608,7 +682,7 @@ func _unhandled_input(event: InputEvent) -> void:
 				_set_click_route(ground)
 
 func _activate_interaction() -> void:
-	if current_interaction.is_empty(): return
+	if current_interaction.is_empty() or walker.moving: return
 	var point := current_interaction.duplicate()
 	match point.kind:
 		"exit":
@@ -691,7 +765,7 @@ func _update_quest() -> void:
 		objective_label.text = "여행 준비\n집 안에서 약 꾸러미 챙기기"
 
 func _save_game(notify := true) -> bool:
-	var save := {"version":1,"map":map_id,"position":[hero.position.x,hero.position.z],"medicine":has_medicine,"leon":met_leon,"arrived":arrived}
+	var save := {"version":1,"map":map_id,"position":[walker.target.x,walker.target.z],"medicine":has_medicine,"leon":met_leon,"arrived":arrived}
 	var file := FileAccess.open(SAVE_PATH,FileAccess.WRITE)
 	if file == null:
 		if notify: _toast("저장하지 못했습니다. 저장 공간을 확인해 주세요.")
@@ -732,7 +806,9 @@ func _load_game() -> void:
 	dialog_action = Callable()
 	hud.show()
 	_load_map(index,Vector3(float(coords[0]),0,float(coords[1])))
-	if _blocked(hero.position): hero.position = _safe_spawn(index)
+	if _blocked(hero.position):
+		walker.reset(_safe_spawn(index))
+		hero.position = walker.position
 	_update_camera(1.0,true)
 	_toast("기록한 여행을 이어갑니다")
 
@@ -766,12 +842,12 @@ func _toast(message: String) -> void:
 	tween.tween_interval(2.5)
 	tween.tween_property(toast_label,"modulate:a",0.0,0.6)
 
-func _panel_style(color: Color, border := Color("a9ad8d")) -> StyleBoxFlat:
+func _panel_style(color: Color, border := Color("c1ac78")) -> StyleBoxFlat:
 	var style := StyleBoxFlat.new()
 	style.bg_color = color
 	style.border_color = border
 	style.set_border_width_all(1)
-	style.set_corner_radius_all(4)
+	style.set_corner_radius_all(0)
 	style.content_margin_left = 22
 	style.content_margin_right = 22
 	style.content_margin_top = 16
@@ -795,9 +871,9 @@ func _button(parent: Node, text: String, action: Callable) -> Button:
 	button.add_theme_font_override("font",body_font)
 	button.add_theme_font_size_override("font_size",19)
 	button.add_theme_color_override("font_color",Color("efe8ce"))
-	button.add_theme_stylebox_override("normal",_panel_style(Color("203d37"),Color("798779")))
-	button.add_theme_stylebox_override("hover",_panel_style(Color("365b4b"),Color("d5ba80")))
-	button.add_theme_stylebox_override("pressed",_panel_style(Color("4c6c54"),Color("e8d39d")))
+	button.add_theme_stylebox_override("normal",_panel_style(Color("101d39"),Color("b7a06e")))
+	button.add_theme_stylebox_override("hover",_panel_style(Color("233459"),Color("d5ba80")))
+	button.add_theme_stylebox_override("pressed",_panel_style(Color("344465"),Color("e8d39d")))
 	button.pressed.connect(action)
 	parent.add_child(button)
 	return button
@@ -817,7 +893,7 @@ func _setup_ui() -> void:
 	var location := PanelContainer.new()
 	location.position = Vector2(30,26)
 	location.custom_minimum_size = Vector2(290,88)
-	location.add_theme_stylebox_override("panel",_panel_style(Color(0.09,0.18,0.16,0.92)))
+	location.add_theme_stylebox_override("panel",_panel_style(Color(0.035,0.065,0.16,0.96)))
 	hud.add_child(location)
 	var location_stack := VBoxContainer.new()
 	location.add_child(location_stack)
@@ -826,7 +902,7 @@ func _setup_ui() -> void:
 	var quest := PanelContainer.new()
 	quest.position = Vector2(30,132)
 	quest.custom_minimum_size = Vector2(290,96)
-	quest.add_theme_stylebox_override("panel",_panel_style(Color(0.09,0.18,0.16,0.88),Color("687b68")))
+	quest.add_theme_stylebox_override("panel",_panel_style(Color(0.035,0.065,0.16,0.91),Color("8b7c57")))
 	hud.add_child(quest)
 	var quest_stack := VBoxContainer.new()
 	quest.add_child(quest_stack)
@@ -844,22 +920,37 @@ func _setup_ui() -> void:
 	minimap.world = self
 	minimap.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	map_container.add_child(minimap)
+	map_container.hide()
 	var bottom := PanelContainer.new()
 	bottom.set_anchors_and_offsets_preset(Control.PRESET_BOTTOM_WIDE)
 	bottom.offset_left = 30
-	bottom.offset_right = -30
+	bottom.anchor_right = 0
+	bottom.offset_right = 330
 	bottom.offset_top = -82
 	bottom.offset_bottom = -24
-	bottom.add_theme_stylebox_override("panel",_panel_style(Color(0.09,0.18,0.16,0.94),Color("697f6a")))
+	bottom.add_theme_stylebox_override("panel",_panel_style(Color(0.035,0.065,0.16,0.96),Color("b7a06e")))
 	hud.add_child(bottom)
 	var bottom_row := HBoxContainer.new()
 	bottom_row.add_theme_constant_override("separation",20)
 	bottom.add_child(bottom_row)
 	_label(bottom_row,"エイル".replace("エイル","에일") + "   /   여행자",18,Color("e4d2a1"))
-	var spacer := Control.new()
-	spacer.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	bottom_row.add_child(spacer)
-	_label(bottom_row,"WASD 이동   ·   E 대화 / 조사   ·   Shift 달리기   ·   Esc 메뉴",14,Color("c0cbb6"))
+	var face := TextureRect.new()
+	var face_atlas := AtlasTexture.new()
+	face_atlas.atlas = load("res://assets/ael-portrait.png")
+	face_atlas.region = Rect2(560,615,225,250)
+	face.texture = face_atlas
+	face.custom_minimum_size = Vector2(45,48)
+	face.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	face.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+	bottom_row.add_child(face)
+	bottom_row.move_child(face,0)
+	var controls := _label(hud,"WASD 한 걸음 이동   ·   E 대화   ·   Esc 메뉴",13,Color("f0e6cf"))
+	controls.set_anchors_and_offsets_preset(Control.PRESET_BOTTOM_RIGHT)
+	controls.position = Vector2(-470,-42)
+	controls.size = Vector2(440,24)
+	controls.horizontal_alignment = HORIZONTAL_ALIGNMENT_RIGHT
+	controls.add_theme_color_override("font_shadow_color",Color("101a36"))
+	controls.add_theme_constant_override("shadow_outline_size",6)
 	prompt_label = _label(hud,"",19,Color("fff0c2"))
 	prompt_label.set_anchors_and_offsets_preset(Control.PRESET_CENTER_BOTTOM)
 	prompt_label.position = Vector2(-270,-132)
@@ -982,22 +1073,48 @@ func _run_qa() -> void:
 	_activate_interaction()
 	while dialog_panel.visible: _advance_dialog()
 	if not has_medicine: errors.append("Medicine interaction failed")
+	if not is_equal_approx(hero_sprite.position.y,0.04) or hero_sprite.rotation != Vector3.ZERO: errors.append("Sprite is not foot anchored")
+	var prior := hero.position
+	Input.action_press("move_right")
+	Input.action_press("move_up")
+	_physics_process(0.05)
+	Input.action_release("move_right")
+	Input.action_release("move_up")
+	var difference: Vector2 = walker.to_grid(hero.position-prior)
+	if abs(difference.x)>0.01 and abs(difference.y)>0.01: errors.append("Diagonal keyboard movement")
+	var screen_delta := camera.unproject_position(hero.position)-camera.unproject_position(prior)
+	if abs(screen_delta.x)>0.1 and abs(screen_delta.y)>0.1: errors.append("Keyboard movement is diagonal on screen")
+	for i in range(5): _physics_process(0.05)
+	if not is_equal_approx(prior.distance_to(hero.position),GridWalker.CELL): errors.append("One tap did not finish exactly one step")
+	walker.reset(prior)
+	hero.position = walker.position
 	var before_move := hero.position
 	Input.action_press("move_right")
 	_physics_process(0.1)
 	Input.action_release("move_right")
-	if hero.position.x <= before_move.x: errors.append("WASD movement failed")
-	_set_click_route(Vector3(5,0,3.8))
+	if walker.to_grid(hero.position-before_move).x <= 0: errors.append("WASD movement failed")
+	_set_click_route(Vector3(6,0,4))
 	if not has_walk_target or route.is_empty(): errors.append("Click route missing")
 	for waypoint in route:
 		if _blocked(waypoint): errors.append("Click route crosses collider")
 	for index in range(4):
 		_load_map(index,_safe_spawn(index))
 		if _blocked(hero.position): errors.append("Blocked map spawn " + str(index))
+		for road in map_paths:
+			var center := Vector3(road.get_center().x,0,road.get_center().y)
+			var right := camera.unproject_position(center+Vector3.RIGHT)-camera.unproject_position(center)
+			var down := camera.unproject_position(center+Vector3.BACK)-camera.unproject_position(center)
+			if abs(right.y)>0.1 or abs(down.x)>0.1: errors.append("Background roads are diagonal on screen")
 		# Every exit must have a reachable approach, not a collider covering its marker.
 		for point in interactions:
 			if point.kind == "exit" and _blocked(Vector3(point.pos.x,0,point.pos.y),0.1): errors.append("Blocked exit: " + point.title)
 		if not _route_reachable(): errors.append("Disconnected route in map " + str(index))
+		_set_click_route(hero.position+Vector3(2,0,2))
+		var previous := hero.position
+		for point in route:
+			var route_delta: Vector2 = walker.to_grid(point-previous)
+			if abs(route_delta.x)>0.01 and abs(route_delta.y)>0.01: errors.append("Diagonal click route in map " + str(index))
+			previous = point
 	_load_map(2,Vector3(8,0,4))
 	current_interaction = interactions.filter(func(p): return p.kind == "leon")[0]
 	_activate_interaction()
@@ -1022,27 +1139,23 @@ func _run_qa() -> void:
 	get_tree().quit(0 if errors.is_empty() else 1)
 
 func _route_reachable() -> bool:
-	# Flood-fill a half-meter navigation grid using the same collision predicate as movement.
-	var step := 0.5
-	var start := Vector2i(roundi(hero.position.x/step),roundi(hero.position.z/step))
-	var frontier: Array[Vector2i] = [start]
-	var visited := {start:true}
-	var cursor := 0
-	while cursor < frontier.size():
-		var cell := frontier[cursor]
-		cursor += 1
-		for offset in [Vector2i.LEFT,Vector2i.RIGHT,Vector2i.UP,Vector2i.DOWN]:
-			var neighbor: Vector2i = cell + offset
-			if visited.has(neighbor): continue
-			if _blocked(Vector3(neighbor.x*step,0,neighbor.y*step)): continue
-			visited[neighbor] = true
-			frontier.append(neighbor)
+	# Test the actual screen-aligned navigation grid used by click movement.
+	var logical: Vector2 = walker.to_grid(hero.position)/GridWalker.CELL
+	var start := Vector2i(roundi(logical.x),roundi(logical.y))
+	if navigation.is_point_solid(start): return false
 	for point in interactions:
+		var center: Vector2 = walker.to_grid(Vector3(point.pos.x,0,point.pos.y))/GridWalker.CELL
 		var reachable := false
-		for cell in visited:
-			if (Vector2(cell)*step).distance_to(point.pos) < 2.2:
-				reachable = true
-				break
+		for dx in range(-4,5):
+			if reachable: break
+			for dz in range(-4,5):
+				var cell := Vector2i(roundi(center.x)+dx,roundi(center.y)+dz)
+				if not navigation.is_in_boundsv(cell) or navigation.is_point_solid(cell): continue
+				var world: Vector3 = walker.from_grid(Vector2(cell)*GridWalker.CELL)
+				if Vector2(world.x,world.z).distance_to(point.pos) >= 2.2: continue
+				if not navigation.get_id_path(start,cell).is_empty():
+					reachable = true
+					break
 		if not reachable: return false
 	return true
 
@@ -1071,31 +1184,38 @@ func _run_capture() -> void:
 	get_tree().quit()
 
 func _build_navigation() -> void:
-	navigation.region = Rect2i(-int(map_size.x),-int(map_size.y),int(map_size.x*2)+1,int(map_size.y*2)+1)
-	navigation.cell_size = Vector2(0.5,0.5)
-	navigation.diagonal_mode = AStarGrid2D.DIAGONAL_MODE_ONLY_IF_NO_OBSTACLES
+	var half_x: float = (abs(walker.axis_x.x)*map_size.x+abs(walker.axis_x.z)*map_size.y)/2.0
+	var half_z: float = (abs(walker.axis_z.x)*map_size.x+abs(walker.axis_z.z)*map_size.y)/2.0
+	var extent_x := ceili(half_x/GridWalker.CELL)
+	var extent_z := ceili(half_z/GridWalker.CELL)
+	navigation.region = Rect2i(-extent_x,-extent_z,extent_x*2+1,extent_z*2+1)
+	navigation.cell_size = Vector2.ONE*GridWalker.CELL
+	navigation.diagonal_mode = AStarGrid2D.DIAGONAL_MODE_NEVER
 	navigation.update()
 	for x in range(navigation.region.position.x,navigation.region.end.x):
 		for y in range(navigation.region.position.y,navigation.region.end.y):
-			navigation.set_point_solid(Vector2i(x,y),_blocked(Vector3(x*0.5,0,y*0.5),0.37))
+			var world_point: Vector3 = walker.from_grid(Vector2(x,y)*GridWalker.CELL)
+			navigation.set_point_solid(Vector2i(x,y),_blocked(world_point,0.37))
 
 func _set_click_route(target: Vector3) -> void:
-	var start := Vector2i(roundi(hero.position.x*2),roundi(hero.position.z*2))
-	var end := Vector2i(roundi(target.x*2),roundi(target.z*2))
+	var start_position: Vector3 = walker.target if walker.moving else hero.position
+	var logical_start: Vector2 = walker.to_grid(start_position)/GridWalker.CELL
+	var logical_end: Vector2 = walker.to_grid(target)/GridWalker.CELL
+	var start := Vector2i(roundi(logical_start.x),roundi(logical_start.y))
+	var end := Vector2i(roundi(logical_end.x),roundi(logical_end.y))
 	if not navigation.is_in_boundsv(start) or not navigation.is_in_boundsv(end): return
 	if navigation.is_point_solid(start) or navigation.is_point_solid(end): return
 	var points := navigation.get_point_path(start,end)
 	route.clear()
-	for point in points: route.append(Vector3(point.x,0,point.y))
+	for point in points: route.append(walker.from_grid(point))
 	if not route.is_empty():
-		walk_target = route.pop_front()
 		has_walk_target = true
 
 func _make_binding_ui() -> void:
 	binding_panel = PanelContainer.new()
 	binding_panel.position = Vector2(820,120)
 	binding_panel.custom_minimum_size = Vector2(380,440)
-	binding_panel.add_theme_stylebox_override("panel",_panel_style(Color("203d37")))
+	binding_panel.add_theme_stylebox_override("panel",_panel_style(Color("101d39")))
 	pause_screen.add_child(binding_panel)
 	var stack := VBoxContainer.new()
 	stack.add_theme_constant_override("separation",10)
@@ -1151,7 +1271,178 @@ func _add_ground_details() -> void:
 		for rect in map_paths:
 			if rect.has_point(Vector2(x,z)): on_path = true
 		if not on_path:
-			_cylinder(Vector3(x,0.025,z),rng.randf_range(0.25,0.9),0.025,Color("c6d2cd"))
+			var patch := _cylinder(Vector3(x,0.025,z),rng.randf_range(0.25,0.9),0.025,Color("c6d2cd"))
+			_texture_surface(patch,1)
 
 func _key_name(action: String) -> String:
 	return OS.get_keycode_string(InputMap.action_get_events(action)[0].physical_keycode)
+
+func _prepare_surface_materials() -> void:
+	if not terrain_atlas: return
+	var image := terrain_atlas.get_image()
+	if image.is_compressed(): image.decompress()
+	var width := image.get_width()/3
+	var height := image.get_height()/2
+	for index in range(6):
+		var region := image.get_region(Rect2i((index%3)*width,(index/3)*height,width,height))
+		var material := StandardMaterial3D.new()
+		material.albedo_texture = ImageTexture.create_from_image(region)
+		material.texture_filter = BaseMaterial3D.TEXTURE_FILTER_NEAREST
+		material.uv1_triplanar = true
+		material.uv1_world_triplanar = true
+		material.uv1_scale = Vector3.ONE * (0.24 if index == 1 else 0.42)
+		material.roughness = 1.0
+		material.metallic_specular = 0.05
+		material.cull_mode = BaseMaterial3D.CULL_DISABLED
+		terrain_materials.append(material)
+
+func _texture_surface(mesh: MeshInstance3D, index: int) -> void:
+	if terrain_materials.size() > index:
+		mesh.material_override = terrain_materials[index]
+
+func _sprite_bounds(texture: Texture2D, columns: int, rows: int, frame: int) -> Rect2i:
+	var image := texture.get_image()
+	if image.is_compressed(): image.decompress()
+	var width := image.get_width()/columns
+	var height := image.get_height()/rows
+	var region := Rect2i((frame%columns)*width,(frame/columns)*height,width,height)
+	var used := image.get_region(region).get_used_rect()
+	return used
+
+func _anchor_sprite_feet(sprite: Sprite3D, columns: int, rows: int) -> void:
+	var height := float(sprite.texture.get_height())/rows
+	var used := _sprite_bounds(sprite.texture,columns,rows,sprite.frame)
+	var padding := height-used.end.y
+	sprite.pixel_size = 1.95/maxf(1,used.size.y)
+	sprite.offset = Vector2(0,height/2-padding)
+	sprite.position = Vector3(0,0.04,0)
+
+func _prepare_walk_offsets() -> void:
+	foot_offsets.clear()
+	var height := float(walk_atlas.get_height())/4
+	for frame in range(16):
+		var used := _sprite_bounds(walk_atlas,4,4,frame)
+		foot_offsets.append(height/2 - height+used.end.y)
+
+func _beam(a: Vector3, b: Vector3, thickness := 0.16) -> MeshInstance3D:
+	var mesh := _box((a+b)/2,Vector3(thickness,a.distance_to(b),thickness),Color("45372c"))
+	mesh.quaternion = Quaternion(Vector3.UP,(b-a).normalized())
+	_texture_surface(mesh,3)
+	return mesh
+
+func _barrel(x: float, z: float) -> void:
+	obstacles.append(Rect2(x-0.38,z-0.38,0.76,0.76))
+	var barrel := _cylinder(Vector3(x,0.44,z),0.4,0.88,Color("67503a"))
+	_texture_surface(barrel,3)
+	for y in [0.15,0.7]:
+		_cylinder(Vector3(x,y,z),0.415,0.055,Color("3e4247"))
+	var cap := _cylinder(Vector3(x,0.91,z),0.41,0.08,Color("e2e4ef"))
+	_texture_surface(cap,1)
+
+func _house_details(x: float, z: float, width: float, depth: float) -> Array[MeshInstance3D]:
+	var pieces: Array[MeshInstance3D] = []
+	var front := z+depth/2+0.15
+	var triangle := SurfaceTool.new()
+	triangle.begin(Mesh.PRIMITIVE_TRIANGLES)
+	for vertex in [Vector3(x-width/2,3.1,front-0.04),Vector3(x+width/2,3.1,front-0.04),Vector3(x,5.22,front-0.04)]:
+		triangle.add_vertex(vertex)
+	triangle.generate_normals()
+	var gable := MeshInstance3D.new()
+	gable.mesh = triangle.commit()
+	_texture_surface(gable,5)
+	map_root.add_child(gable)
+	pieces.append(gable)
+	for y in [0.75,2.75,3.1]:
+		var horizontal := _box(Vector3(x,y,front),Vector3(width+0.2,0.16,0.22),Color("4a3a2d"))
+		_texture_surface(horizontal,3)
+		pieces.append(horizontal)
+	for offset in [-width/2+0.1,-width/4,0.0,width/4,width/2-0.1]:
+		pieces.append(_beam(Vector3(x+offset,0.7,front),Vector3(x+offset,3.1,front),0.14))
+	pieces.append(_beam(Vector3(x-width/2-0.35,3.05,front),Vector3(x,5.25,front),0.22))
+	pieces.append(_beam(Vector3(x,5.25,front),Vector3(x+width/2+0.35,3.05,front),0.22))
+	pieces.append(_beam(Vector3(x,3.1,front),Vector3(x,5.22,front),0.16))
+	for offset in [-width*0.32,width*0.32]:
+		var window := _box(Vector3(x+offset,1.7,front+0.08),Vector3(0.65,0.9,0.06),Color("f3bd63"))
+		var warm := _material(Color("f3bd63")).duplicate() as StandardMaterial3D
+		warm.shading_mode = BaseMaterial3D.SHADING_MODE_UNSHADED
+		window.material_override = warm
+		pieces.append(window)
+		pieces.append(_box(Vector3(x+offset,1.7,front+0.13),Vector3(0.07,0.95,0.08),Color("49392c")))
+		pieces.append(_box(Vector3(x+offset,1.7,front+0.14),Vector3(0.7,0.07,0.08),Color("49392c")))
+		var sill := _box(Vector3(x+offset,1.17,front+0.14),Vector3(0.9,0.12,0.5),Color("6b6053"))
+		_texture_surface(sill,2)
+		pieces.append(sill)
+	# Side-facing timber and masonry give the fixed oblique camera a readable building volume.
+	for side in [-1,1]:
+		for offset in [-depth/2+0.2,0.0,depth/2-0.2]:
+			pieces.append(_beam(Vector3(x+side*(width/2+0.06),0.7,z+offset),Vector3(x+side*(width/2+0.06),3.1,z+offset),0.16))
+		for y in [0.75,2.75]:
+			pieces.append(_box(Vector3(x+side*(width/2+0.06),y,z),Vector3(0.17,0.16,depth),Color("4a3a2d")))
+	_barrel(x+width/2+0.8,front+0.15)
+	_barrel(x-width/2-0.7,front+0.5)
+	var sign_post := _box(Vector3(x+width/2+0.5,2.7,front),Vector3(1.4,0.13,0.13),Color("4a3a2d"))
+	pieces.append(sign_post)
+	var sign_board := _box(Vector3(x+width/2+1,2.1,front),Vector3(0.9,0.6,0.13),Color("67523b"))
+	_texture_surface(sign_board,3)
+	pieces.append(sign_board)
+	return pieces
+
+func _stone_well(center: Vector2, covered: bool) -> void:
+	var radius := 1.1 if covered else 0.8
+	for layer in range(2):
+		for i in range(12):
+			var angle := TAU*(float(i)+(0.5 if layer == 1 else 0.0))/12
+			var block := _box(Vector3(center.x+cos(angle)*radius,0.25+layer*0.36,center.y+sin(angle)*radius),Vector3(0.55,0.36,0.38),Color("8b8d80"))
+			block.rotation.y = -angle+PI/2
+			_texture_surface(block,2)
+	var water := _cylinder(Vector3(center.x,0.12,center.y),radius,0.08,Color("263e50"))
+	water.material_override = _material(Color("263e50"))
+	if covered:
+		for side in [-1,1]:
+			var pole := _box(Vector3(center.x+side*1.45,1.5,center.y),Vector3(0.16,3,0.16),Color("503e31"))
+			_texture_surface(pole,3)
+		_roof(Vector3(center.x,3,center.y),3.7,2.3,0.9,Color("6d747e"))
+		_roof(Vector3(center.x,3.1,center.y),3.5,1.8,0.9,Color("e1ebe0"))
+
+func _border_gate(center: Vector2) -> void:
+	for side in [-1,1]:
+		var x: float = center.x+side*3.5
+		var pillar := _box(Vector3(x,1.3,center.y),Vector3(0.9,2.6,0.9),Color("8c8e88"),true)
+		_texture_surface(pillar,2)
+		var cap := _box(Vector3(x,2.65,center.y),Vector3(1.1,0.18,1.1),Color("dfe4f5"))
+		_texture_surface(cap,1)
+		var post := _box(Vector3(x-side*0.7,2.3,center.y),Vector3(0.1,4.6,0.1),Color("554631"))
+		_texture_surface(post,3)
+		_box(Vector3(x-side*0.7,4.4,center.y),Vector3(0.9,0.1,0.14),Color("bca36a"))
+		_box(Vector3(x-side*0.7,3.55,center.y),Vector3(0.8,1.6,0.07),Color("172b59"))
+		var emblem := _box(Vector3(x-side*0.7,3.7,center.y+0.06),Vector3(0.2,0.2,0.05),Color("d2b56e"))
+		emblem.rotation.z = PI/4
+
+func _run_walk_capture() -> void:
+	_new_game()
+	has_medicine = true
+	_load_map(1,Vector3(0,0,10))
+	paused = true
+	toast_label.modulate.a = 0
+	var output := "/private/tmp/springbound-walk-frames"
+	DirAccess.make_dir_recursive_absolute(output)
+	await get_tree().create_timer(0.3).timeout
+	var frame_index := 0
+	var center := camera.unproject_position(hero.position+Vector3(0,0.9,0))
+	var crop := Rect2i(int(center.x)-240,int(center.y)-170,480,340)
+	for direction in [Vector2i.RIGHT,Vector2i.UP,Vector2i.LEFT,Vector2i.DOWN]:
+		for step_index in range(2):
+			if not walker.begin(direction,_blocked):
+				push_error("Walk preview route is blocked")
+				get_tree().quit(1)
+				return
+			for sample in range(8):
+				walker.advance(GridWalker.STEP_SECONDS/8.0)
+				hero.position = walker.position
+				_set_walk_frame()
+				_update_occlusion()
+				await RenderingServer.frame_post_draw
+				get_viewport().get_texture().get_image().get_region(crop).save_png(output+"/frame-%03d.png"%frame_index)
+				frame_index += 1
+	print("WALK_CAPTURE_COMPLETE: ",frame_index," frames")
+	get_tree().quit()

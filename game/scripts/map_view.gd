@@ -24,8 +24,8 @@ func _draw() -> void:
 
 func _panel() -> StyleBoxFlat:
 	var style := StyleBoxFlat.new()
-	style.bg_color = Color("233d38")
-	style.border_color = Color("8f9b7a")
+	style.bg_color = Color("101d39")
+	style.border_color = Color("b7a06e")
 	style.set_border_width_all(1)
 	style.set_corner_radius_all(3)
 	return style
