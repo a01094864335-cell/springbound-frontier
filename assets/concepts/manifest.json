@@ -1,0 +1,22 @@
+[
+  {
+    "file": "assets/concepts/ael.png",
+    "sha256": "e33fcb771f1f86861d992d3ad702f6a66aad5de6c3fa1ab2b5579458931aa1cc",
+    "description": "장식을 줄인 최신 단독 시안. 캐릭터의 기본 의상과 장식 밀도 참고."
+  },
+  {
+    "file": "assets/concepts/world-key-visual.png",
+    "sha256": "b9f8563cf2bb6d46631aeef79f8e7c1fcd22508e8c1ab4258186167e6400c2fe",
+    "description": "에일, 레온, 리아, 세나, 카이, 이리스, 마르타가 등장하는 표지 구도. 세부 의상과 지리는 가안."
+  },
+  {
+    "file": "assets/concepts/frost-village.png",
+    "sha256": "fc982e666271de4a9cd54e6c63794f27e491147704de09a232b9788b1224c356",
+    "description": "고정 사선 시점과 작은 2D 캐릭터의 미술 참고. 실제 동작하는 게임 화면이 아님."
+  },
+  {
+    "file": "assets/concepts/world-map.png",
+    "sha256": "08766f583b9cebebc3b0d7ad45d259400a7ba1c8ebd734d0097f79623a3791d7",
+    "description": "최신 지도 시안이나 경로 오류가 남아 있음. 아래 정정 내용을 우선 적용."
+  }
+]
