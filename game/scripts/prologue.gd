@@ -51,10 +51,12 @@ var elapsed := 0.0
 var walker = GridWalker.new()
 var pending_step := Vector2i.ZERO
 var last_input_axis := 0
+var step_settle_remaining := 0.0
 var walk_atlas: Texture2D
 var terrain_atlas: Texture2D
 var terrain_materials: Array[StandardMaterial3D] = []
 var foot_offsets: Array[float] = []
+var leon_texture: Texture2D
 var tree_texture: Texture2D
 var tree_used := Rect2i()
 var facing := 0
@@ -86,6 +88,8 @@ func _ready() -> void:
 		walk_atlas = load("res://assets/ael-walk.png")
 	if ResourceLoader.exists("res://assets/winter-materials.png"):
 		terrain_atlas = load("res://assets/winter-materials.png")
+	if ResourceLoader.exists("res://assets/leon-sprite.png"):
+		leon_texture = load("res://assets/leon-sprite.png")
 	if ResourceLoader.exists("res://assets/snow-spruce.png"):
 		tree_texture = load("res://assets/snow-spruce.png")
 		tree_used = tree_texture.get_image().get_used_rect()
@@ -97,6 +101,8 @@ func _ready() -> void:
 	title_screen.show()
 	if qa_mode:
 		call_deferred("_run_qa")
+	elif "--compare-capture" in OS.get_cmdline_user_args():
+		call_deferred("_run_compare_capture")
 	elif "--walk-capture" in OS.get_cmdline_user_args():
 		call_deferred("_run_walk_capture")
 	elif "--capture" in OS.get_cmdline_user_args():
@@ -313,6 +319,13 @@ func _actor(row: int) -> Node3D:
 		sprite.frame = row * 3
 		sprite.pixel_size = 2.5 / (sprite_atlas.get_height() / 3.0)
 		_anchor_sprite_feet(sprite,3,3)
+	if row == 1 and leon_texture:
+		sprite.texture = leon_texture
+		sprite.hframes = 3
+		sprite.vframes = 1
+		sprite.frame = 0
+		_anchor_sprite_feet(sprite,3,1)
+		sprite.pixel_size *= 1.05
 	actor.add_child(sprite)
 	var shadow := MeshInstance3D.new()
 	var circle := CylinderMesh.new()
@@ -327,6 +340,7 @@ func _actor(row: int) -> Node3D:
 
 func _npc(row: int, pos: Vector3, npc_name: String) -> void:
 	var actor := _actor(row)
+	actor.name = npc_name
 	actor.position = pos
 	map_root.add_child(actor)
 	_marker(pos + Vector3(0,2.65,0),npc_name)
@@ -370,6 +384,7 @@ func _load_map(index: int, spawn: Vector3) -> void:
 	walker.reset(spawn)
 	hero.position = walker.position
 	pending_step = Vector2i.ZERO
+	step_settle_remaining = 0.0
 	camera.size = zoom
 	_update_camera(1.0, true)
 	_update_quest()
@@ -524,11 +539,12 @@ func _physics_process(delta: float) -> void:
 	elapsed += delta
 	if not started or paused or transitioning or dialog_panel.visible:
 		return
+	step_settle_remaining = maxf(0,step_settle_remaining-delta)
 	var input_direction := _cardinal_input()
 	if input_direction != Vector2i.ZERO:
 		has_walk_target = false
 		route.clear()
-	if not walker.moving:
+	if not walker.moving and step_settle_remaining <= 0:
 		var requested := pending_step if pending_step != Vector2i.ZERO else input_direction
 		pending_step = Vector2i.ZERO
 		if requested == Vector2i.ZERO and has_walk_target:
@@ -543,7 +559,10 @@ func _physics_process(delta: float) -> void:
 			if not walker.begin(requested,_blocked,0.14 if Input.is_key_pressed(KEY_SHIFT) else GridWalker.STEP_SECONDS):
 				route.clear()
 				has_walk_target = false
+	var was_moving: bool = walker.moving
 	walker.advance(delta)
+	if was_moving and not walker.moving:
+		step_settle_remaining = 0.06
 	hero.position = walker.position
 	_set_walk_frame()
 	_update_camera(delta)
@@ -566,9 +585,11 @@ func _set_walk_frame() -> void:
 	else: facing = 3
 	hero_sprite.position = Vector3(0,0.04,0)
 	hero_sprite.rotation = Vector3.ZERO
-	hero_sprite.flip_h = false
+	hero_sprite.flip_h = facing == 3
 	if walk_atlas:
-		hero_sprite.frame = facing*4 + walker.animation_column()
+		# Reuse the same gait and foot registration for both horizontal directions.
+		var animation_row := 2 if facing == 3 else facing
+		hero_sprite.frame = animation_row*4 + walker.animation_column()
 		if not foot_offsets.is_empty(): hero_sprite.offset.y = foot_offsets[hero_sprite.frame]
 	else:
 		hero_sprite.frame = mini(facing,2)
@@ -1073,6 +1094,11 @@ func _run_qa() -> void:
 	_activate_interaction()
 	while dialog_panel.visible: _advance_dialog()
 	if not has_medicine: errors.append("Medicine interaction failed")
+	walker.direction = Vector2i.LEFT
+	_set_walk_frame()
+	if not hero_sprite.flip_h or hero_sprite.frame < 8 or hero_sprite.frame > 11: errors.append("Left walk does not reuse right gait")
+	walker.direction = Vector2i.RIGHT
+	_set_walk_frame()
 	if not is_equal_approx(hero_sprite.position.y,0.04) or hero_sprite.rotation != Vector3.ZERO: errors.append("Sprite is not foot anchored")
 	var prior := hero.position
 	Input.action_press("move_right")
@@ -1180,6 +1206,15 @@ func _run_capture() -> void:
 	await get_tree().create_timer(0.4).timeout
 	await RenderingServer.frame_post_draw
 	get_viewport().get_texture().get_image().save_png(output + "/05-dialogue.png")
+	_load_map(2,Vector3(8,0,3))
+	walker.direction = Vector2i.DOWN
+	_set_walk_frame()
+	toast_label.modulate.a = 0
+	await get_tree().create_timer(0.3).timeout
+	await RenderingServer.frame_post_draw
+	var foot := camera.unproject_position(hero.position)
+	var compare := Rect2i(clampi(int(foot.x)-120,0,860),clampi(int(foot.y)-210,0,400),420,310)
+	get_viewport().get_texture().get_image().get_region(compare).save_png(output+"/06-proportions.png")
 	print("CAPTURE_COMPLETE: ",output)
 	get_tree().quit()
 
@@ -1417,6 +1452,20 @@ func _border_gate(center: Vector2) -> void:
 		_box(Vector3(x-side*0.7,3.55,center.y),Vector3(0.8,1.6,0.07),Color("172b59"))
 		var emblem := _box(Vector3(x-side*0.7,3.7,center.y+0.06),Vector3(0.2,0.2,0.05),Color("d2b56e"))
 		emblem.rotation.z = PI/4
+
+func _run_compare_capture() -> void:
+	_new_game()
+	_load_map(2,Vector3(8,0,3))
+	walker.direction = Vector2i.DOWN
+	_set_walk_frame()
+	toast_label.modulate.a = 0
+	await get_tree().create_timer(0.5).timeout
+	await RenderingServer.frame_post_draw
+	var foot := camera.unproject_position(hero.position)
+	var compare := Rect2i(clampi(int(foot.x)-120,0,860),clampi(int(foot.y)-210,0,400),420,310)
+	get_viewport().get_texture().get_image().get_region(compare).save_png(ProjectSettings.globalize_path("res://../docs/screenshots/06-proportions.png"))
+	print("COMPARE_CAPTURE_COMPLETE")
+	get_tree().quit()
 
 func _run_walk_capture() -> void:
 	_new_game()

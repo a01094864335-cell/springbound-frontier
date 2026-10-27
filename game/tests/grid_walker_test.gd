@@ -15,13 +15,13 @@ func _initialize() -> void:
 		frames[walker.animation_column()] = true
 		assert(is_zero_approx(walker.position.y),"Feet cannot bob vertically")
 		assert(is_zero_approx(walker.position.z),"Right step cannot drift on the other axis")
-	assert(walker.position == Vector3(0.5,0,0),"Tap must complete exactly one grid step")
+	assert(walker.position == Vector3(Walker.CELL,0,0),"Tap must complete exactly one grid step")
 	assert(not walker.moving)
 	assert(walker.animation_column() == 0,"Stopped character must use idle pose")
 	assert(frames.has(1) and frames.has(2) and frames.has(3),"Walk must use distinct leg frames")
-	var wall := func(point): return point.x > 0.6
+	var wall := func(point): return point.x > Walker.CELL+0.1
 	assert(not walker.begin(Vector2i.RIGHT,wall),"Cannot cross a collider")
-	assert(walker.position == Vector3(0.5,0,0))
+	assert(walker.position == Vector3(Walker.CELL,0,0))
 	for direction in [Vector2i.UP,Vector2i.LEFT,Vector2i.DOWN]:
 		assert(walker.begin(direction,empty))
 		walker.advance(1.0)

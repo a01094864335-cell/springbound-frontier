@@ -1,6 +1,6 @@
 extends RefCounted
 
-const CELL := 0.5
+const CELL := 1.0
 const STEP_SECONDS := 0.20
 
 var position := Vector3.ZERO

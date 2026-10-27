@@ -19,6 +19,11 @@
     {
       "asset": "snow-spruce.png",
       "prompt": "Use case stylized-concept. One isolated tall snow-covered spruce tree game prop on TRUE TRANSPARENT background, no ground plane, no scenery, no text. Match the provided classic winter village pixel art reference EXACTLY in material feel: finely clustered hard-edged pixels, dense irregular dark evergreen branches, thick broken layers of cool white snow with pale lavender-blue shadows, rough brown trunk visible at base, natural asymmetrical branch silhouette. Orthographic high oblique view suitable for a fixed isometric JRPG camera. Full tree tip to trunk base completely visible with generous transparent padding, no cast shadow. NOT smooth vector cones, NOT a geometric Christmas tree, NOT photoreal. A richly detailed sprite for a 3D game world billboard."
+    },
+    {
+      "asset": "leon-sprite.png",
+      "tool": "built-in image_gen",
+      "prompt": "Create a transparent game sprite atlas, exactly 3 equally sized columns in ONE row, three fullbody sprites FRONT BACK RIGHT PROFILE of LEON. Reference 1 AEL walk sheet is the STRICT style and BODY PROPORTION template: match its roughly 3-head-tall classic pixel JRPG proportions, same head-to-body ratio, same head width relative to shoulders, same short leg length, same chunky pixel size and shading density. LEON should be only 5% taller than Ael, NOT a long-legged 4-head tall figure, NOT realistic anime proportions. Reference 2 establishes ONLY Leon's identity and outfit, NOT its sprite proportions: adult male29 silver gray ponytail, blue eyes, navy cloak, silver practical armor, dark trousers, brown boots, sheathed sword. Keep him visibly adult through facial expression and armor, not through elongating body. All three views same dimensions, neutral standing pose, feet same baseline, 10% transparent padding per equal cell, no shadows, no backgrounds, no labels, no board. Crisp pixel art with coherent limited palette like Ael in reference1. Must look like same artist drew both game sprites."
     }
   ]
 }
