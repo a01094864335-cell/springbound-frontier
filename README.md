@@ -14,6 +14,8 @@ Springbound Frontier · 가제
 
 ## 작업자 시작 문서
 
+[환경 에셋 HTML 도감](docs/assets-viewer/index.html) — 다운로드 후 브라우저에서 열기
+
 [환경 에셋 43종과 배치 가이드](docs/environment-assets.md) — 개별 3D 장면·나무 스프라이트·검수 뷰어
 
 [구현 전 확정한 게임 기획](docs/confirmed-design.md)
