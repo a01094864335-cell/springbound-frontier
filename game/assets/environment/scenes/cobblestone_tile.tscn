@@ -1,0 +1,16 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/environment/materials/surface_0.tres" id="1_ttq0x"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_rgyrm"]
+size = Vector3(3, 0.05, 3)
+
+[node name="CobblestoneTile" type="Node3D" unique_id=2146759923]
+metadata/grid_obstacles = []
+metadata/display_name = "돌길 바닥"
+metadata/asset_id = "cobblestone_tile"
+
+[node name="@MeshInstance3D@605" type="MeshInstance3D" parent="." unique_id=755847305]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.025, 0)
+material_override = ExtResource("1_ttq0x")
+mesh = SubResource("BoxMesh_rgyrm")

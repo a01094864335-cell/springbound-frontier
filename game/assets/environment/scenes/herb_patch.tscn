@@ -1,0 +1,87 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cda6x"]
+albedo_color = Color(0.4392157, 0.5176471, 0.32156864, 1)
+roughness = 0.95
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_qengo"]
+top_radius = 0.0
+bottom_radius = 0.04
+height = 0.32
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_0y3be"]
+top_radius = 0.0
+bottom_radius = 0.04
+height = 0.32
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_xc0x1"]
+top_radius = 0.0
+bottom_radius = 0.04
+height = 0.32
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_2gf7x"]
+top_radius = 0.0
+bottom_radius = 0.04
+height = 0.32
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_bwuhi"]
+top_radius = 0.0
+bottom_radius = 0.04
+height = 0.32
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_6s2p5"]
+top_radius = 0.0
+bottom_radius = 0.04
+height = 0.32
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_o4vbk"]
+top_radius = 0.0
+bottom_radius = 0.04
+height = 0.32
+radial_segments = 8
+
+[node name="HerbPatch" type="Node3D" unique_id=864619778]
+metadata/grid_obstacles = []
+metadata/display_name = "약초 군락"
+metadata/asset_id = "herb_patch"
+
+[node name="@MeshInstance3D@390" type="MeshInstance3D" parent="." unique_id=460898203]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.16, 0.3)
+material_override = SubResource("StandardMaterial3D_cda6x")
+mesh = SubResource("CylinderMesh_qengo")
+
+[node name="@MeshInstance3D@391" type="MeshInstance3D" parent="." unique_id=1969484458]
+transform = Transform3D(0.9683055, -0.24976861, 0, 0.24976861, 0.9683055, 0, 0, 0, 1, 0.20263895, 0.16, -0.22121811)
+material_override = SubResource("StandardMaterial3D_cda6x")
+mesh = SubResource("CylinderMesh_0y3be")
+
+[node name="@MeshInstance3D@392" type="MeshInstance3D" parent="." unique_id=291961169]
+transform = Transform3D(0.9630232, -0.2694186, 0, 0.2694186, 0.9630232, 0, 0, 0, 1, -0.29884937, 0.16, 0.026249696)
+material_override = SubResource("StandardMaterial3D_cda6x")
+mesh = SubResource("CylinderMesh_xc0x1")
+
+[node name="@MeshInstance3D@393" type="MeshInstance3D" parent="." unique_id=390649842]
+transform = Transform3D(0.99910396, -0.042323355, 0, 0.042323355, 0.99910396, 0, 0, 0, 1, 0.23810036, 0.16, 0.1825054)
+material_override = SubResource("StandardMaterial3D_cda6x")
+mesh = SubResource("CylinderMesh_2gf7x")
+
+[node name="@MeshInstance3D@394" type="MeshInstance3D" parent="." unique_id=1814133188]
+transform = Transform3D(0.97433674, 0.22509521, 0, -0.22509521, 0.97433674, 0, 0, 0, 1, -0.052298035, 0.16, -0.29540637)
+material_override = SubResource("StandardMaterial3D_cda6x")
+mesh = SubResource("CylinderMesh_bwuhi")
+
+[node name="@MeshInstance3D@395" type="MeshInstance3D" parent="." unique_id=500763169]
+transform = Transform3D(0.95890546, 0.28372574, 0, -0.28372574, 0.95890546, 0, 0, 0, 1, -0.16097188, 0.16, 0.2531562)
+material_override = SubResource("StandardMaterial3D_cda6x")
+mesh = SubResource("CylinderMesh_6s2p5")
+
+[node name="@MeshInstance3D@396" type="MeshInstance3D" parent="." unique_id=2042625978]
+transform = Transform3D(0.99648875, 0.08372652, 0, -0.08372652, 0.99648875, 0, 0, 0, 1, 0.28969732, 0.16, -0.07794521)
+material_override = SubResource("StandardMaterial3D_cda6x")
+mesh = SubResource("CylinderMesh_o4vbk")

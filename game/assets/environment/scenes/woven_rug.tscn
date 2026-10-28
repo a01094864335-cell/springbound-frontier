@@ -1,0 +1,38 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6thot"]
+albedo_color = Color(0.42352942, 0.5019608, 0.44705883, 1)
+roughness = 0.95
+
+[sub_resource type="BoxMesh" id="BoxMesh_4171m"]
+size = Vector3(5.5, 0.05, 4.5)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jrvve"]
+albedo_color = Color(0.7137255, 0.6431373, 0.46666667, 1)
+roughness = 0.95
+
+[sub_resource type="BoxMesh" id="BoxMesh_2mfeb"]
+size = Vector3(5.2, 0.01, 0.13)
+
+[sub_resource type="BoxMesh" id="BoxMesh_bu3fh"]
+size = Vector3(5.2, 0.01, 0.13)
+
+[node name="WovenRug" type="Node3D" unique_id=1286750042]
+metadata/grid_obstacles = []
+metadata/display_name = "작업실 깔개"
+metadata/asset_id = "woven_rug"
+
+[node name="@MeshInstance3D@595" type="MeshInstance3D" parent="." unique_id=142542228]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.025, 0)
+material_override = SubResource("StandardMaterial3D_6thot")
+mesh = SubResource("BoxMesh_4171m")
+
+[node name="@MeshInstance3D@596" type="MeshInstance3D" parent="." unique_id=260726745]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.055, -2.1)
+material_override = SubResource("StandardMaterial3D_jrvve")
+mesh = SubResource("BoxMesh_2mfeb")
+
+[node name="@MeshInstance3D@597" type="MeshInstance3D" parent="." unique_id=1364954729]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.055, 2.1)
+material_override = SubResource("StandardMaterial3D_jrvve")
+mesh = SubResource("BoxMesh_bu3fh")

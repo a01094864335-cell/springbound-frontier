@@ -1,0 +1,57 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/environment/materials/surface_3.tres" id="1_27bk0"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_l31ht"]
+size = Vector3(3, 0.9, 3.5)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ahvl0"]
+albedo_color = Color(0.4117647, 0.5411765, 0.5058824, 1)
+roughness = 0.95
+
+[sub_resource type="BoxMesh" id="BoxMesh_rm0gd"]
+size = Vector3(2.8, 0.25, 2.3)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4qocg"]
+albedo_color = Color(0.8862745, 0.85490197, 0.7607843, 1)
+roughness = 0.95
+
+[sub_resource type="BoxMesh" id="BoxMesh_vwolw"]
+size = Vector3(2.3, 0.22, 0.65)
+
+[sub_resource type="BoxMesh" id="BoxMesh_5bkeg"]
+size = Vector3(3.1, 1.4, 0.15)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_inm15"]
+size = Vector3(3, 1.2, 3.5)
+
+[node name="HerbalistBed" type="Node3D" unique_id=1237365965]
+metadata/grid_obstacles = [[-1.5, -1.75, 3.0, 3.5]]
+metadata/display_name = "에일의 침대"
+metadata/asset_id = "herbalist_bed"
+
+[node name="@MeshInstance3D@553" type="MeshInstance3D" parent="." unique_id=1563927991]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 0)
+material_override = ExtResource("1_27bk0")
+mesh = SubResource("BoxMesh_l31ht")
+
+[node name="@MeshInstance3D@554" type="MeshInstance3D" parent="." unique_id=409948438]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1, 0.35)
+material_override = SubResource("StandardMaterial3D_ahvl0")
+mesh = SubResource("BoxMesh_rm0gd")
+
+[node name="@MeshInstance3D@555" type="MeshInstance3D" parent="." unique_id=625975910]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.16, -1.05)
+material_override = SubResource("StandardMaterial3D_4qocg")
+mesh = SubResource("BoxMesh_vwolw")
+
+[node name="@MeshInstance3D@556" type="MeshInstance3D" parent="." unique_id=2024196999]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, -1.65)
+material_override = ExtResource("1_27bk0")
+mesh = SubResource("BoxMesh_5bkeg")
+
+[node name="Collision" type="StaticBody3D" parent="." unique_id=819766172]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 0)
+
+[node name="@CollisionShape3D@557" type="CollisionShape3D" parent="Collision" unique_id=1519220167]
+shape = SubResource("BoxShape3D_inm15")

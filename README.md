@@ -14,6 +14,8 @@ Springbound Frontier · 가제
 
 ## 작업자 시작 문서
 
+[환경 에셋 43종과 배치 가이드](docs/environment-assets.md) — 개별 3D 장면·나무 스프라이트·검수 뷰어
+
 [구현 전 확정한 게임 기획](docs/confirmed-design.md)
 
 [다음 질문과 미정 사항](docs/next-design-questions.md) — 전투는 그로우랜서 1편 Windows PC CD판 기준 · 추가 전투 설계 3개 완료 · 프롤로그 준비 9개 항목 완료

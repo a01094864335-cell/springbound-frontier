@@ -1,0 +1,16 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/environment/materials/surface_4.tres" id="1_432qd"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_fkyrf"]
+size = Vector3(3, 0.05, 3)
+
+[node name="SlateRoofPanel" type="Node3D" unique_id=324369164]
+metadata/grid_obstacles = []
+metadata/display_name = "슬레이트 지붕면"
+metadata/asset_id = "slate_roof_panel"
+
+[node name="@MeshInstance3D@610" type="MeshInstance3D" parent="." unique_id=450865738]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.025, 0)
+material_override = ExtResource("1_432qd")
+mesh = SubResource("BoxMesh_fkyrf")

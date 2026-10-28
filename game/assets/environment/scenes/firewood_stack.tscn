@@ -1,0 +1,116 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/environment/materials/surface_3.tres" id="1_dfxk2"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_yl5tf"]
+top_radius = 0.18
+bottom_radius = 0.18
+height = 1.2
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_c5ina"]
+top_radius = 0.18
+bottom_radius = 0.18
+height = 1.2
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_ktc7o"]
+top_radius = 0.18
+bottom_radius = 0.18
+height = 1.2
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_0opjj"]
+top_radius = 0.18
+bottom_radius = 0.18
+height = 1.2
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_sg37g"]
+top_radius = 0.18
+bottom_radius = 0.18
+height = 1.2
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_vsium"]
+top_radius = 0.18
+bottom_radius = 0.18
+height = 1.2
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_asrqd"]
+top_radius = 0.18
+bottom_radius = 0.18
+height = 1.2
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_wqrsm"]
+top_radius = 0.18
+bottom_radius = 0.18
+height = 1.2
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_w426e"]
+top_radius = 0.18
+bottom_radius = 0.18
+height = 1.2
+radial_segments = 8
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_5shyv"]
+size = Vector3(1.6, 1.2, 1.4)
+
+[node name="FirewoodStack" type="Node3D" unique_id=1867859984]
+metadata/grid_obstacles = [[-0.8, -0.7, 1.6, 1.4]]
+metadata/display_name = "쌓아둔 장작"
+metadata/asset_id = "firewood_stack"
+
+[node name="@MeshInstance3D@527" type="MeshInstance3D" parent="." unique_id=1544750126]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, -0.54, 0.18, 0)
+material_override = ExtResource("1_dfxk2")
+mesh = SubResource("CylinderMesh_yl5tf")
+
+[node name="@MeshInstance3D@528" type="MeshInstance3D" parent="." unique_id=1186039123]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, -0.18, 0.18, 0)
+material_override = ExtResource("1_dfxk2")
+mesh = SubResource("CylinderMesh_c5ina")
+
+[node name="@MeshInstance3D@529" type="MeshInstance3D" parent="." unique_id=589908365]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0.18, 0.18, 0)
+material_override = ExtResource("1_dfxk2")
+mesh = SubResource("CylinderMesh_ktc7o")
+
+[node name="@MeshInstance3D@530" type="MeshInstance3D" parent="." unique_id=13659988]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0.54, 0.18, 0)
+material_override = ExtResource("1_dfxk2")
+mesh = SubResource("CylinderMesh_0opjj")
+
+[node name="@MeshInstance3D@531" type="MeshInstance3D" parent="." unique_id=1788514648]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, -0.36, 0.48, 0)
+material_override = ExtResource("1_dfxk2")
+mesh = SubResource("CylinderMesh_sg37g")
+
+[node name="@MeshInstance3D@532" type="MeshInstance3D" parent="." unique_id=1253821833]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.48, 0)
+material_override = ExtResource("1_dfxk2")
+mesh = SubResource("CylinderMesh_vsium")
+
+[node name="@MeshInstance3D@533" type="MeshInstance3D" parent="." unique_id=1222448276]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0.36, 0.48, 0)
+material_override = ExtResource("1_dfxk2")
+mesh = SubResource("CylinderMesh_asrqd")
+
+[node name="@MeshInstance3D@534" type="MeshInstance3D" parent="." unique_id=624202360]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, -0.18, 0.78, 0)
+material_override = ExtResource("1_dfxk2")
+mesh = SubResource("CylinderMesh_wqrsm")
+
+[node name="@MeshInstance3D@535" type="MeshInstance3D" parent="." unique_id=530440499]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0.18, 0.78, 0)
+material_override = ExtResource("1_dfxk2")
+mesh = SubResource("CylinderMesh_w426e")
+
+[node name="Collision" type="StaticBody3D" parent="." unique_id=1179447823]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 0)
+
+[node name="@CollisionShape3D@536" type="CollisionShape3D" parent="Collision" unique_id=1445964394]
+shape = SubResource("BoxShape3D_5shyv")

@@ -1,0 +1,36 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/environment/materials/surface_3.tres" id="1_asonv"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0ef07"]
+albedo_color = Color(0.49019608, 0.3764706, 0.25882354, 1)
+roughness = 0.95
+
+[sub_resource type="BoxMesh" id="BoxMesh_7cifa"]
+size = Vector3(0.6, 0.48, 0.45)
+
+[sub_resource type="BoxMesh" id="BoxMesh_as7h8"]
+size = Vector3(0.06, 0.48, 0.04)
+
+[sub_resource type="BoxMesh" id="BoxMesh_mnmcm"]
+size = Vector3(0.06, 0.48, 0.04)
+
+[node name="TravelerPack" type="Node3D" unique_id=1513756326]
+metadata/grid_obstacles = []
+metadata/display_name = "레온 곁 여행 짐"
+metadata/asset_id = "traveler_pack"
+
+[node name="@MeshInstance3D@537" type="MeshInstance3D" parent="." unique_id=1549732166]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.24, 0)
+material_override = SubResource("StandardMaterial3D_0ef07")
+mesh = SubResource("BoxMesh_7cifa")
+
+[node name="@MeshInstance3D@538" type="MeshInstance3D" parent="." unique_id=985005346]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.26, 0.24)
+material_override = ExtResource("1_asonv")
+mesh = SubResource("BoxMesh_as7h8")
+
+[node name="@MeshInstance3D@539" type="MeshInstance3D" parent="." unique_id=1168175429]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.26, 0.24)
+material_override = ExtResource("1_asonv")
+mesh = SubResource("BoxMesh_mnmcm")

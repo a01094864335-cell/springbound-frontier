@@ -1,0 +1,29 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/environment/materials/surface_2.tres" id="1_u5g3y"]
+[ext_resource type="Material" path="res://assets/environment/materials/surface_1.tres" id="2_p3h4k"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_e73mm"]
+radial_segments = 7
+rings = 3
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_woyc4"]
+top_radius = 0.176
+bottom_radius = 0.176
+height = 0.12
+radial_segments = 8
+
+[node name="SnowPebble" type="Node3D" unique_id=976569583]
+metadata/grid_obstacles = []
+metadata/display_name = "적설 바위"
+metadata/asset_id = "snow_pebble"
+
+[node name="@MeshInstance3D@379" type="MeshInstance3D" parent="." unique_id=435045737]
+transform = Transform3D(0.4, 0, 0, 0, 0.35, 0, 0, 0, 0.4, 0, 0.15, 0)
+material_override = ExtResource("1_u5g3y")
+mesh = SubResource("SphereMesh_e73mm")
+
+[node name="@MeshInstance3D@380" type="MeshInstance3D" parent="." unique_id=1957204513]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.2725, 0)
+material_override = ExtResource("2_p3h4k")
+mesh = SubResource("CylinderMesh_woyc4")

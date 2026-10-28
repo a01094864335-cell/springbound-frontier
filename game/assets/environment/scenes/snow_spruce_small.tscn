@@ -1,0 +1,26 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/snow-spruce.png" id="1_m7tbr"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_j1pyn"]
+size = Vector3(0.84, 1.2, 0.84)
+
+[node name="SnowSpruceSmall" type="Node3D" unique_id=1960630340]
+metadata/grid_obstacles = [[-0.42, -0.42, 0.84, 0.84]]
+metadata/display_name = "눈 덮인 침엽수"
+metadata/asset_id = "snow_spruce_small"
+
+[node name="@Sprite3D@372" type="Sprite3D" parent="." unique_id=1870759741]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.025, 0)
+offset = Vector2(0, 768)
+pixel_size = 0.0026976743
+billboard = 1
+alpha_cut = 1
+texture_filter = 0
+texture = ExtResource("1_m7tbr")
+
+[node name="Collision" type="StaticBody3D" parent="." unique_id=1452725837]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 0)
+
+[node name="@CollisionShape3D@373" type="CollisionShape3D" parent="Collision" unique_id=929815168]
+shape = SubResource("BoxShape3D_j1pyn")

@@ -1,0 +1,52 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/environment/materials/surface_3.tres" id="1_fayxm"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_l1plc"]
+size = Vector3(0.15, 1.6, 0.15)
+
+[sub_resource type="BoxMesh" id="BoxMesh_xnvjy"]
+size = Vector3(1.3, 0.45, 0.16)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_k76cs"]
+albedo_color = Color(0.9098039, 0.8745098, 0.7411765, 1)
+roughness = 0.95
+
+[sub_resource type="BoxMesh" id="BoxMesh_kqpa7"]
+size = Vector3(0.6, 0.04, 0.02)
+
+[sub_resource type="BoxMesh" id="BoxMesh_gac4i"]
+size = Vector3(0.24, 0.04, 0.02)
+
+[sub_resource type="BoxMesh" id="BoxMesh_y2tc3"]
+size = Vector3(0.24, 0.04, 0.02)
+
+[node name="TrailSign" type="Node3D" unique_id=822340330]
+metadata/grid_obstacles = []
+metadata/display_name = "산길 방향 표지"
+metadata/asset_id = "trail_sign"
+
+[node name="@MeshInstance3D@487" type="MeshInstance3D" parent="." unique_id=2036512037]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8, 0)
+material_override = ExtResource("1_fayxm")
+mesh = SubResource("BoxMesh_l1plc")
+
+[node name="@MeshInstance3D@488" type="MeshInstance3D" parent="." unique_id=782364654]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.55, 0)
+material_override = ExtResource("1_fayxm")
+mesh = SubResource("BoxMesh_xnvjy")
+
+[node name="@MeshInstance3D@489" type="MeshInstance3D" parent="." unique_id=381911237]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.55, 0.1)
+material_override = SubResource("StandardMaterial3D_k76cs")
+mesh = SubResource("BoxMesh_kqpa7")
+
+[node name="@MeshInstance3D@490" type="MeshInstance3D" parent="." unique_id=1473118313]
+transform = Transform3D(0.7960838, 0.6051864, 0, -0.6051864, 0.7960838, 0, 0, 0, 1, 0.24, 1.4955332, 0.1)
+material_override = SubResource("StandardMaterial3D_k76cs")
+mesh = SubResource("BoxMesh_gac4i")
+
+[node name="@MeshInstance3D@491" type="MeshInstance3D" parent="." unique_id=735171]
+transform = Transform3D(0.7960838, -0.6051864, 0, 0.6051864, 0.7960838, 0, 0, 0, 1, 0.24, 1.6044668, 0.1)
+material_override = SubResource("StandardMaterial3D_k76cs")
+mesh = SubResource("BoxMesh_y2tc3")

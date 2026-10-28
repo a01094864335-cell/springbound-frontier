@@ -1,0 +1,46 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j8vrl"]
+albedo_color = Color(0.29411766, 0.35686275, 0.32156864, 1)
+roughness = 0.95
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_j1ue3"]
+top_radius = 0.08
+bottom_radius = 0.08
+height = 2.5
+radial_segments = 8
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mrgum"]
+albedo_color = Color(0.8901961, 0.76862746, 0.5137255, 1)
+roughness = 0.95
+
+[sub_resource type="BoxMesh" id="BoxMesh_8cab5"]
+size = Vector3(0.38, 0.5, 0.38)
+
+[sub_resource type="BoxMesh" id="BoxMesh_euqsn"]
+size = Vector3(0.5, 0.12, 0.5)
+
+[node name="LanternPost" type="Node3D" unique_id=313725155]
+metadata/grid_obstacles = []
+metadata/display_name = "따뜻한 가로등"
+metadata/asset_id = "lantern_post"
+
+[node name="@MeshInstance3D@475" type="MeshInstance3D" parent="." unique_id=1699444212]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.25, 0)
+material_override = SubResource("StandardMaterial3D_j8vrl")
+mesh = SubResource("CylinderMesh_j1ue3")
+
+[node name="@MeshInstance3D@476" type="MeshInstance3D" parent="." unique_id=760203541]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, 0)
+material_override = SubResource("StandardMaterial3D_mrgum")
+mesh = SubResource("BoxMesh_8cab5")
+
+[node name="@MeshInstance3D@477" type="MeshInstance3D" parent="." unique_id=168794657]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.8, 0)
+material_override = SubResource("StandardMaterial3D_j8vrl")
+mesh = SubResource("BoxMesh_euqsn")
+
+[node name="@OmniLight3D@478" type="OmniLight3D" parent="." unique_id=757847302]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, 0)
+light_color = Color(1, 0.8392157, 0.6, 1)
+light_energy = 0.8

@@ -1,0 +1,25 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/environment/materials/surface_2.tres" id="1_3vx33"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_x8cgy"]
+size = Vector3(3, 3, 0.2)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_uv45j"]
+size = Vector3(3, 1.2, 0.2)
+
+[node name="StoneWallPanel" type="Node3D" unique_id=1031597063]
+metadata/grid_obstacles = [[-1.5, -0.1, 3.0, 0.2]]
+metadata/display_name = "돌벽 모듈"
+metadata/asset_id = "stone_wall_panel"
+
+[node name="@MeshInstance3D@607" type="MeshInstance3D" parent="." unique_id=2022451338]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 0)
+material_override = ExtResource("1_3vx33")
+mesh = SubResource("BoxMesh_x8cgy")
+
+[node name="Collision" type="StaticBody3D" parent="." unique_id=1581866445]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 0)
+
+[node name="@CollisionShape3D@608" type="CollisionShape3D" parent="Collision" unique_id=1194825888]
+shape = SubResource("BoxShape3D_uv45j")

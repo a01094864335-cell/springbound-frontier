@@ -1,0 +1,73 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/environment/materials/surface_1.tres" id="1_howwu"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_w6uph"]
+albedo_color = Color(0.46666667, 0.45490196, 0.38039216, 1)
+roughness = 0.95
+
+[sub_resource type="BoxMesh" id="BoxMesh_vaehs"]
+size = Vector3(0.17, 1.3, 0.17)
+
+[sub_resource type="BoxMesh" id="BoxMesh_bxuow"]
+size = Vector3(0.17, 1.3, 0.17)
+
+[sub_resource type="BoxMesh" id="BoxMesh_qs2i2"]
+size = Vector3(0.17, 1.3, 0.17)
+
+[sub_resource type="BoxMesh" id="BoxMesh_rrf3o"]
+size = Vector3(0.17, 1.3, 0.17)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pkhx2"]
+albedo_color = Color(0.57254905, 0.5647059, 0.48235294, 1)
+roughness = 0.95
+
+[sub_resource type="BoxMesh" id="BoxMesh_0alsy"]
+size = Vector3(3, 0.13, 0.12)
+
+[sub_resource type="BoxMesh" id="BoxMesh_j8j0v"]
+size = Vector3(3.1, 0.06, 0.18)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7u1dx"]
+size = Vector3(3, 1.2, 0.2)
+
+[node name="WoodFence" type="Node3D" unique_id=960813765]
+metadata/grid_obstacles = [[-1.5, -0.1, 3.0, 0.2]]
+metadata/display_name = "3m 목책 모듈"
+metadata/asset_id = "wood_fence"
+
+[node name="@MeshInstance3D@468" type="MeshInstance3D" parent="." unique_id=1052072506]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0.65, 0)
+material_override = SubResource("StandardMaterial3D_w6uph")
+mesh = SubResource("BoxMesh_vaehs")
+
+[node name="@MeshInstance3D@469" type="MeshInstance3D" parent="." unique_id=198141146]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0.65, 0)
+material_override = SubResource("StandardMaterial3D_w6uph")
+mesh = SubResource("BoxMesh_bxuow")
+
+[node name="@MeshInstance3D@470" type="MeshInstance3D" parent="." unique_id=1092594730]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 0.65, 0)
+material_override = SubResource("StandardMaterial3D_w6uph")
+mesh = SubResource("BoxMesh_qs2i2")
+
+[node name="@MeshInstance3D@471" type="MeshInstance3D" parent="." unique_id=378976693]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, 0.65, 0)
+material_override = SubResource("StandardMaterial3D_w6uph")
+mesh = SubResource("BoxMesh_rrf3o")
+
+[node name="@MeshInstance3D@472" type="MeshInstance3D" parent="." unique_id=355141513]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.85, 0)
+material_override = SubResource("StandardMaterial3D_pkhx2")
+mesh = SubResource("BoxMesh_0alsy")
+
+[node name="@MeshInstance3D@473" type="MeshInstance3D" parent="." unique_id=1470491763]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.97, 0)
+material_override = ExtResource("1_howwu")
+mesh = SubResource("BoxMesh_j8j0v")
+
+[node name="Collision" type="StaticBody3D" parent="." unique_id=978479430]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 0)
+
+[node name="@CollisionShape3D@474" type="CollisionShape3D" parent="Collision" unique_id=887251558]
+shape = SubResource("BoxShape3D_7u1dx")

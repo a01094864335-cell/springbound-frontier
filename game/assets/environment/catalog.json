@@ -1,0 +1,838 @@
+[
+	{
+		"category": "buildings",
+		"grid_obstacles": [
+			[
+				-3.0,
+				-2.5,
+				6.0,
+				5.0
+			],
+			[
+				3.42000007629395,
+				2.42000007629395,
+				0.759999990463257,
+				0.759999990463257
+			],
+			[
+				-4.07999992370605,
+				2.76999998092651,
+				0.759999990463257,
+				0.759999990463257
+			]
+		],
+		"id": "herbalist_house",
+		"maps": [
+			"서리골"
+		],
+		"name": "마르타의 약초사 집",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/herbalist_house.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "buildings",
+		"grid_obstacles": [
+			[
+				-2.75,
+				-2.25,
+				5.5,
+				4.5
+			],
+			[
+				3.17000007629395,
+				2.17000007629395,
+				0.759999990463257,
+				0.759999990463257
+			],
+			[
+				-3.82999992370605,
+				2.51999998092651,
+				0.759999990463257,
+				0.759999990463257
+			]
+		],
+		"id": "village_cottage",
+		"maps": [
+			"서리골"
+		],
+		"name": "서리골 민가",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/village_cottage.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "buildings",
+		"grid_obstacles": [
+			[
+				-3.25,
+				-2.75,
+				6.5,
+				5.5
+			],
+			[
+				3.67000007629395,
+				2.67000007629395,
+				0.759999990463257,
+				0.759999990463257
+			],
+			[
+				-4.32999992370605,
+				3.01999998092651,
+				0.759999990463257,
+				0.759999990463257
+			]
+		],
+		"id": "village_inn",
+		"maps": [
+			"서리골"
+		],
+		"name": "서리골 여관",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/village_inn.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "buildings",
+		"grid_obstacles": [
+			[
+				-3.0,
+				-2.5,
+				6.0,
+				5.0
+			],
+			[
+				3.42000007629395,
+				2.42000007629395,
+				0.759999990463257,
+				0.759999990463257
+			],
+			[
+				-4.07999992370605,
+				2.76999998092651,
+				0.759999990463257,
+				0.759999990463257
+			]
+		],
+		"id": "village_store",
+		"maps": [
+			"서리골"
+		],
+		"name": "서리골 잡화점",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/village_store.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "buildings",
+		"grid_obstacles": [
+			[
+				-4.0,
+				-3.0,
+				8.0,
+				6.0
+			],
+			[
+				4.42000007629395,
+				2.92000007629395,
+				0.759999990463257,
+				0.759999990463257
+			],
+			[
+				-5.07999992370605,
+				3.26999998092651,
+				0.759999990463257,
+				0.759999990463257
+			]
+		],
+		"id": "border_office",
+		"maps": [
+			"돌샘"
+		],
+		"name": "돌샘 연락소",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/border_office.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "buildings",
+		"grid_obstacles": [
+			[
+				-2.5,
+				-2.5,
+				5.0,
+				5.0
+			],
+			[
+				2.92000007629395,
+				2.42000007629395,
+				0.759999990463257,
+				0.759999990463257
+			],
+			[
+				-3.57999992370605,
+				2.76999998092651,
+				0.759999990463257,
+				0.759999990463257
+			]
+		],
+		"id": "mountain_cottage",
+		"maps": [
+			"돌샘"
+		],
+		"name": "돌샘 산촌 민가",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/mountain_cottage.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "vegetation",
+		"grid_obstacles": [
+			[
+				-0.419999986886978,
+				-0.419999986886978,
+				0.839999973773956,
+				0.839999973773956
+			]
+		],
+		"id": "snow_spruce_tall",
+		"maps": [
+			"서리골",
+			"산길",
+			"돌샘"
+		],
+		"name": "눈 덮인 침엽수",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/snow_spruce_tall.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "vegetation",
+		"grid_obstacles": [
+			[
+				-0.419999986886978,
+				-0.419999986886978,
+				0.839999973773956,
+				0.839999973773956
+			]
+		],
+		"id": "snow_spruce_small",
+		"maps": [
+			"서리골",
+			"산길",
+			"돌샘"
+		],
+		"name": "눈 덮인 침엽수",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/snow_spruce_small.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "vegetation",
+		"grid_obstacles": [
+			[
+				-0.419999986886978,
+				-0.419999986886978,
+				0.839999973773956,
+				0.839999973773956
+			]
+		],
+		"id": "snow_spruce_wide",
+		"maps": [
+			"서리골",
+			"산길",
+			"돌샘"
+		],
+		"name": "눈 덮인 침엽수",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/snow_spruce_wide.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "landscape",
+		"grid_obstacles": [
+			[
+				-0.639999985694885,
+				-0.639999985694885,
+				1.27999997138977,
+				1.27999997138977
+			]
+		],
+		"id": "snow_boulder",
+		"maps": [
+			"서리골",
+			"산길"
+		],
+		"name": "적설 바위",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/snow_boulder.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "landscape",
+		"grid_obstacles": [],
+		"id": "snow_pebble",
+		"maps": [
+			"서리골",
+			"산길"
+		],
+		"name": "적설 바위",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/snow_pebble.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "landscape",
+		"grid_obstacles": [
+			[
+				-0.639999985694885,
+				-0.560000002384186,
+				1.27999997138977,
+				1.12000000476837
+			]
+		],
+		"id": "cliff_rock",
+		"maps": [
+			"서리골",
+			"산길"
+		],
+		"name": "적설 바위",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/cliff_rock.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "landscape",
+		"grid_obstacles": [
+			[
+				-3.29999995231628,
+				-2.5,
+				6.59999990463257,
+				5.0
+			]
+		],
+		"id": "frozen_stream_segment",
+		"maps": [
+			"산길"
+		],
+		"name": "얼어붙은 계류 모듈",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/frozen_stream_segment.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "landscape",
+		"grid_obstacles": [],
+		"id": "snow_drift",
+		"maps": [
+			"서리골",
+			"산길",
+			"돌샘"
+		],
+		"name": "길 가장자리 눈더미",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/snow_drift.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "vegetation",
+		"grid_obstacles": [],
+		"id": "herb_patch",
+		"maps": [
+			"산길"
+		],
+		"name": "약초 군락",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/herb_patch.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "street",
+		"grid_obstacles": [
+			[
+				-1.0,
+				-1.0,
+				2.0,
+				2.0
+			]
+		],
+		"id": "village_well",
+		"maps": [
+			"서리골"
+		],
+		"name": "마을 우물",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/village_well.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "street",
+		"grid_obstacles": [
+			[
+				-1.39999997615814,
+				-1.39999997615814,
+				2.79999995231628,
+				2.79999995231628
+			]
+		],
+		"id": "covered_well",
+		"maps": [
+			"돌샘"
+		],
+		"name": "지붕 우물",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/covered_well.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "street",
+		"grid_obstacles": [
+			[
+				-3.95000004768372,
+				-0.449999988079071,
+				0.899999976158142,
+				0.899999976158142
+			],
+			[
+				3.04999995231628,
+				-0.449999988079071,
+				0.899999976158142,
+				0.899999976158142
+			]
+		],
+		"id": "border_gate",
+		"maps": [
+			"서리골"
+		],
+		"name": "북쪽 국경문",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/border_gate.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "street",
+		"grid_obstacles": [
+			[
+				-1.5,
+				-0.100000001490116,
+				3.0,
+				0.200000002980232
+			]
+		],
+		"id": "wood_fence",
+		"maps": [
+			"서리골",
+			"산길",
+			"돌샘"
+		],
+		"name": "3m 목책 모듈",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/wood_fence.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "street",
+		"grid_obstacles": [],
+		"id": "lantern_post",
+		"maps": [
+			"서리골",
+			"산길",
+			"돌샘"
+		],
+		"name": "따뜻한 가로등",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/lantern_post.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "street",
+		"grid_obstacles": [
+			[
+				-0.800000011920929,
+				-0.200000002980232,
+				1.60000002384186,
+				0.400000005960464
+			]
+		],
+		"id": "notice_board",
+		"maps": [
+			"서리골"
+		],
+		"name": "마을 게시판",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/notice_board.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "street",
+		"grid_obstacles": [],
+		"id": "trail_sign",
+		"maps": [
+			"산길"
+		],
+		"name": "산길 방향 표지",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/trail_sign.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "supplies",
+		"grid_obstacles": [
+			[
+				-0.379999995231628,
+				-0.379999995231628,
+				0.759999990463257,
+				0.759999990463257
+			]
+		],
+		"id": "snow_barrel",
+		"maps": [
+			"서리골",
+			"돌샘"
+		],
+		"name": "눈 덮인 나무통",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/snow_barrel.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "supplies",
+		"grid_obstacles": [
+			[
+				-0.75,
+				-0.550000011920929,
+				1.5,
+				1.10000002384186
+			]
+		],
+		"id": "supply_crate",
+		"maps": [
+			"돌샘"
+		],
+		"name": "보급 상자",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/supply_crate.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "supplies",
+		"grid_obstacles": [
+			[
+				-1.29999995231628,
+				-0.5,
+				1.20000004768372,
+				1.0
+			],
+			[
+				0.0499999523162842,
+				-0.5,
+				1.20000004768372,
+				1.0
+			],
+			[
+				-1.0,
+				-0.400000005960464,
+				0.800000011920929,
+				0.800000011920929
+			]
+		],
+		"id": "stacked_crates",
+		"maps": [
+			"돌샘"
+		],
+		"name": "적재한 보급품",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/stacked_crates.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "supplies",
+		"grid_obstacles": [
+			[
+				-0.800000011920929,
+				-0.699999988079071,
+				1.60000002384186,
+				1.39999997615814
+			]
+		],
+		"id": "firewood_stack",
+		"maps": [
+			"서리골"
+		],
+		"name": "쌓아둔 장작",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/firewood_stack.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "supplies",
+		"grid_obstacles": [],
+		"id": "traveler_pack",
+		"maps": [
+			"산길"
+		],
+		"name": "레온 곁 여행 짐",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/traveler_pack.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "interior",
+		"grid_obstacles": [
+			[
+				-1.60000002384186,
+				-0.949999988079071,
+				3.20000004768372,
+				1.89999997615814
+			]
+		],
+		"id": "wood_table",
+		"maps": [
+			"집"
+		],
+		"name": "마르타의 작업 탁자",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/wood_table.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "interior",
+		"grid_obstacles": [
+			[
+				-0.400000005960464,
+				-0.400000005960464,
+				0.800000011920929,
+				0.800000011920929
+			]
+		],
+		"id": "wood_chair",
+		"maps": [
+			"집"
+		],
+		"name": "작업 의자",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/wood_chair.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "interior",
+		"grid_obstacles": [
+			[
+				-1.5,
+				-1.75,
+				3.0,
+				3.5
+			]
+		],
+		"id": "herbalist_bed",
+		"maps": [
+			"집"
+		],
+		"name": "에일의 침대",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/herbalist_bed.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "interior",
+		"grid_obstacles": [
+			[
+				-1.70000004768372,
+				-0.800000011920929,
+				3.40000009536743,
+				1.60000002384186
+			]
+		],
+		"id": "medicine_shelf",
+		"maps": [
+			"집"
+		],
+		"name": "약병 선반",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/medicine_shelf.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "interior",
+		"grid_obstacles": [],
+		"id": "medicine_parcel",
+		"maps": [
+			"집"
+		],
+		"name": "돌샘에 전할 약 꾸러미",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/medicine_parcel.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "interior",
+		"grid_obstacles": [
+			[
+				-0.600000023841858,
+				-0.5,
+				1.20000004768372,
+				1.0
+			]
+		],
+		"id": "medicine_stand",
+		"maps": [
+			"집"
+		],
+		"name": "약 꾸러미 받침 상자",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/medicine_stand.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "interior",
+		"grid_obstacles": [],
+		"id": "mortar_and_pestle",
+		"maps": [
+			"집"
+		],
+		"name": "약초 절구",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/mortar_and_pestle.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "interior",
+		"grid_obstacles": [],
+		"id": "medicine_bottle",
+		"maps": [
+			"집"
+		],
+		"name": "약병",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/medicine_bottle.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "interior",
+		"grid_obstacles": [],
+		"id": "woven_rug",
+		"maps": [
+			"집"
+		],
+		"name": "작업실 깔개",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/woven_rug.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "interior",
+		"grid_obstacles": [],
+		"id": "interior_window",
+		"maps": [
+			"집"
+		],
+		"name": "작업실 창문",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/interior_window.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "modules",
+		"grid_obstacles": [],
+		"id": "cobblestone_tile",
+		"maps": [
+			"집",
+			"서리골",
+			"산길",
+			"돌샘"
+		],
+		"name": "돌길 바닥",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/cobblestone_tile.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "modules",
+		"grid_obstacles": [],
+		"id": "snow_tile",
+		"maps": [
+			"집",
+			"서리골",
+			"산길",
+			"돌샘"
+		],
+		"name": "눈 바닥",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/snow_tile.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "modules",
+		"grid_obstacles": [
+			[
+				-1.5,
+				-0.100000001490116,
+				3.0,
+				0.200000002980232
+			]
+		],
+		"id": "stone_wall_panel",
+		"maps": [
+			"집",
+			"서리골",
+			"산길",
+			"돌샘"
+		],
+		"name": "돌벽 모듈",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/stone_wall_panel.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "modules",
+		"grid_obstacles": [],
+		"id": "wood_floor_tile",
+		"maps": [
+			"집",
+			"서리골",
+			"산길",
+			"돌샘"
+		],
+		"name": "목재 바닥",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/wood_floor_tile.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "modules",
+		"grid_obstacles": [],
+		"id": "slate_roof_panel",
+		"maps": [
+			"집",
+			"서리골",
+			"산길",
+			"돌샘"
+		],
+		"name": "슬레이트 지붕면",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/slate_roof_panel.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	},
+	{
+		"category": "modules",
+		"grid_obstacles": [
+			[
+				-1.5,
+				-0.100000001490116,
+				3.0,
+				0.200000002980232
+			]
+		],
+		"id": "plaster_wall_panel",
+		"maps": [
+			"집",
+			"서리골",
+			"산길",
+			"돌샘"
+		],
+		"name": "회벽 모듈",
+		"origin": "ground center; front +Z",
+		"scene": "res://assets/environment/scenes/plaster_wall_panel.tscn",
+		"source": "procedural geometry with existing project winter materials"
+	}
+]

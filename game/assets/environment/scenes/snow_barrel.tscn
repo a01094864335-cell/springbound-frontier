@@ -1,0 +1,66 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/environment/materials/surface_3.tres" id="1_8rpsl"]
+[ext_resource type="Material" path="res://assets/environment/materials/surface_1.tres" id="2_jnlo1"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_6aw3y"]
+top_radius = 0.4
+bottom_radius = 0.4
+height = 0.88
+radial_segments = 8
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_c1k3e"]
+albedo_color = Color(0.24313726, 0.25882354, 0.2784314, 1)
+roughness = 0.95
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_80hxn"]
+top_radius = 0.415
+bottom_radius = 0.415
+height = 0.055
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_5kapl"]
+top_radius = 0.415
+bottom_radius = 0.415
+height = 0.055
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_mf5j0"]
+top_radius = 0.41
+bottom_radius = 0.41
+height = 0.08
+radial_segments = 8
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3bojd"]
+size = Vector3(0.76, 1.2, 0.76)
+
+[node name="SnowBarrel" type="Node3D" unique_id=159509468]
+metadata/grid_obstacles = [[-0.38, -0.38, 0.76, 0.76]]
+metadata/display_name = "눈 덮인 나무통"
+metadata/asset_id = "snow_barrel"
+
+[node name="@MeshInstance3D@492" type="MeshInstance3D" parent="." unique_id=1703457410]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.44, 0)
+material_override = ExtResource("1_8rpsl")
+mesh = SubResource("CylinderMesh_6aw3y")
+
+[node name="@MeshInstance3D@493" type="MeshInstance3D" parent="." unique_id=203397446]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.15, 0)
+material_override = SubResource("StandardMaterial3D_c1k3e")
+mesh = SubResource("CylinderMesh_80hxn")
+
+[node name="@MeshInstance3D@494" type="MeshInstance3D" parent="." unique_id=551360481]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.7, 0)
+material_override = SubResource("StandardMaterial3D_c1k3e")
+mesh = SubResource("CylinderMesh_5kapl")
+
+[node name="@MeshInstance3D@495" type="MeshInstance3D" parent="." unique_id=425125640]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.91, 0)
+material_override = ExtResource("2_jnlo1")
+mesh = SubResource("CylinderMesh_mf5j0")
+
+[node name="Collision" type="StaticBody3D" parent="." unique_id=1438238]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 0)
+
+[node name="@CollisionShape3D@496" type="CollisionShape3D" parent="Collision" unique_id=1666637220]
+shape = SubResource("BoxShape3D_3bojd")

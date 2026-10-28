@@ -1,0 +1,47 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mrev7"]
+albedo_color = Color(0.3882353, 0.54509807, 0.4117647, 1)
+roughness = 0.95
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_jrbdv"]
+top_radius = 0.13
+bottom_radius = 0.13
+height = 0.3
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_n2df0"]
+top_radius = 0.065
+bottom_radius = 0.065
+height = 0.12
+radial_segments = 8
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_iuva8"]
+albedo_color = Color(0.6156863, 0.5019608, 0.3254902, 1)
+roughness = 0.95
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_uaoxe"]
+top_radius = 0.07
+bottom_radius = 0.07
+height = 0.05
+radial_segments = 8
+
+[node name="MedicineBottle" type="Node3D" unique_id=887738209]
+metadata/grid_obstacles = []
+metadata/display_name = "약병"
+metadata/asset_id = "medicine_bottle"
+
+[node name="@MeshInstance3D@592" type="MeshInstance3D" parent="." unique_id=749385679]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.18, 0)
+material_override = SubResource("StandardMaterial3D_mrev7")
+mesh = SubResource("CylinderMesh_jrbdv")
+
+[node name="@MeshInstance3D@593" type="MeshInstance3D" parent="." unique_id=192183081]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.37, 0)
+material_override = SubResource("StandardMaterial3D_mrev7")
+mesh = SubResource("CylinderMesh_n2df0")
+
+[node name="@MeshInstance3D@594" type="MeshInstance3D" parent="." unique_id=567592447]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.45, 0)
+material_override = SubResource("StandardMaterial3D_iuva8")
+mesh = SubResource("CylinderMesh_uaoxe")

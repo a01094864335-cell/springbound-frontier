@@ -1,0 +1,65 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/environment/materials/surface_3.tres" id="1_gsq8v"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_nj1tl"]
+size = Vector3(0.8, 0.12, 0.8)
+
+[sub_resource type="BoxMesh" id="BoxMesh_0w3nk"]
+size = Vector3(0.1, 0.55, 0.1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_cfxvb"]
+size = Vector3(0.1, 0.55, 0.1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_h6666"]
+size = Vector3(0.1, 0.55, 0.1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_8b1t4"]
+size = Vector3(0.1, 0.55, 0.1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_u38kd"]
+size = Vector3(0.8, 0.85, 0.12)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_uprpj"]
+size = Vector3(0.8, 1.2, 0.8)
+
+[node name="WoodChair" type="Node3D" unique_id=404977275]
+metadata/grid_obstacles = [[-0.4, -0.4, 0.8, 0.8]]
+metadata/display_name = "작업 의자"
+metadata/asset_id = "wood_chair"
+
+[node name="@MeshInstance3D@546" type="MeshInstance3D" parent="." unique_id=12500822]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.55, 0)
+material_override = ExtResource("1_gsq8v")
+mesh = SubResource("BoxMesh_nj1tl")
+
+[node name="@MeshInstance3D@547" type="MeshInstance3D" parent="." unique_id=696326474]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3, 0.28, -0.3)
+material_override = ExtResource("1_gsq8v")
+mesh = SubResource("BoxMesh_0w3nk")
+
+[node name="@MeshInstance3D@548" type="MeshInstance3D" parent="." unique_id=514079543]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3, 0.28, 0.3)
+material_override = ExtResource("1_gsq8v")
+mesh = SubResource("BoxMesh_cfxvb")
+
+[node name="@MeshInstance3D@549" type="MeshInstance3D" parent="." unique_id=858860684]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3, 0.28, -0.3)
+material_override = ExtResource("1_gsq8v")
+mesh = SubResource("BoxMesh_h6666")
+
+[node name="@MeshInstance3D@550" type="MeshInstance3D" parent="." unique_id=167003617]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3, 0.28, 0.3)
+material_override = ExtResource("1_gsq8v")
+mesh = SubResource("BoxMesh_8b1t4")
+
+[node name="@MeshInstance3D@551" type="MeshInstance3D" parent="." unique_id=1809988871]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, -0.35)
+material_override = ExtResource("1_gsq8v")
+mesh = SubResource("BoxMesh_u38kd")
+
+[node name="Collision" type="StaticBody3D" parent="." unique_id=1955128457]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 0)
+
+[node name="@CollisionShape3D@552" type="CollisionShape3D" parent="Collision" unique_id=385766234]
+shape = SubResource("BoxShape3D_uprpj")

@@ -1,0 +1,16 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/environment/materials/surface_3.tres" id="1_k130q"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_she2o"]
+size = Vector3(3, 0.05, 3)
+
+[node name="WoodFloorTile" type="Node3D" unique_id=1227836731]
+metadata/grid_obstacles = []
+metadata/display_name = "목재 바닥"
+metadata/asset_id = "wood_floor_tile"
+
+[node name="@MeshInstance3D@609" type="MeshInstance3D" parent="." unique_id=1417303238]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.025, 0)
+material_override = ExtResource("1_k130q")
+mesh = SubResource("BoxMesh_she2o")

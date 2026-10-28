@@ -1,0 +1,36 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2e1id"]
+albedo_color = Color(0.72156864, 0.6862745, 0.54901963, 1)
+roughness = 0.95
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_gul4r"]
+top_radius = 0.35
+bottom_radius = 0.28
+height = 0.28
+radial_segments = 8
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8r65j"]
+albedo_color = Color(0.5882353, 0.5254902, 0.44313726, 1)
+roughness = 0.95
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_2koc7"]
+top_radius = 0.05
+bottom_radius = 0.05
+height = 0.5
+radial_segments = 8
+
+[node name="MortarAndPestle" type="Node3D" unique_id=1219807690]
+metadata/grid_obstacles = []
+metadata/display_name = "약초 절구"
+metadata/asset_id = "mortar_and_pestle"
+
+[node name="@MeshInstance3D@590" type="MeshInstance3D" parent="." unique_id=647419621]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.14, 0)
+material_override = SubResource("StandardMaterial3D_2e1id")
+mesh = SubResource("CylinderMesh_gul4r")
+
+[node name="@MeshInstance3D@591" type="MeshInstance3D" parent="." unique_id=1542396726]
+transform = Transform3D(0.921061, 0.38941833, 0, -0.38941833, 0.921061, 0, 0, 0, 1, 0.08, 0.35, 0)
+material_override = SubResource("StandardMaterial3D_8r65j")
+mesh = SubResource("CylinderMesh_2koc7")
