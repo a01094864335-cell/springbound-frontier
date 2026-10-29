@@ -41,3 +41,5 @@ Springbound Frontier · 가제
 [캐릭터 설정 — 에일 성격 및 동료 후보 전체 초안](docs/characters.md)
 
 [캐릭터 보드 7장](docs/character-boards.md)
+
+[방패 조합 기획과 시안](docs/shield-loadouts.md) — 한손검+방패·단검+버클러 각 16포즈, 방패 외형 5종. [통합 HTML 갤러리](assets/combat-motion-boards/ael/index.html).
