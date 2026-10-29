@@ -37,3 +37,5 @@ Springbound Frontier · 가제
 [캐릭터 설정 — 에일 성격 및 동료 후보 전체 초안](docs/characters.md)
 
 [캐릭터 보드 7장](docs/character-boards.md)
+
+[인간 적군 보드 14종](docs/enemy-character-boards.md) — 주요 인물 6명·일반 병종 8종. [HTML 갤러리](assets/enemy-boards/index.html).
