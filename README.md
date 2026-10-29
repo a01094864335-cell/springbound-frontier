@@ -14,6 +14,10 @@ Springbound Frontier · 가제
 
 ## 작업자 시작 문서
 
+[전투 장비 권한·모션 기획](docs/combat-equipment-and-motion-spec.md) · [에셋 기획·구현 가드레일](docs/asset-planning-guardrails.md)
+
+[에일 무기별 전투·승리 키포즈 시안](docs/ael-combat-motion-boards.md)
+
 [환경 에셋 43종과 배치 가이드](docs/environment-assets.md) — 개별 3D 장면·나무 스프라이트·검수 뷰어
 
 [구현 전 확정한 게임 기획](docs/confirmed-design.md)

@@ -1,0 +1,198 @@
+{
+  "date": "2026-10-29",
+  "character": "ael",
+  "scope": "5 weapon keypose reference sheets; not animation clips or production atlases",
+  "pose_count": 60,
+  "boards": [
+    {
+      "id": "sword",
+      "name": "한손검",
+      "weapon": "practical straight steel one-handed sword with navy leather grip, simple silver guard, no shield",
+      "attack_brief": "right-handed low ready with tip diagonally forward; draw sword back beside right shoulder; step into one controlled diagonal forward cut to the right; follow-through with tip lowered away from others",
+      "victory_brief": "lower sword safely; exhale with a hand briefly against chest; glance toward companions and offer a small relieved smile, no blade salute",
+      "prompt": "Create ONE LANDSCAPE combat ANIMATION KEY-POSE REFERENCE SHEET for AEL, original fantasy JRPG Springbound Frontier. This is a PIXEL ART motion development sheet, NOT a portrait board, NOT an anime fullbody illustration. Reference establishes exact identity: youthful male brown tousled hair, green eyes, plain forest-green cloak, ivory lace-up tunic, brown gloves, dark trousers, boots, modest herb satchel. Maintain same identity, costume and roughly 3-head-tall classic JRPG sprite proportions in ALL poses, crisp chunky square pixels, 48x64 source-pixel design language enlarged nearest-neighbor, NO smooth painted figures. Warm ivory background, thin understated grid lines and a small clear header. EXACTLY TWO ROWS of SIX equally sized cells, 12 full-body sprites TOTAL; generous transparent-looking ivory padding, no figures cut off, no poses overlap cells. Row1 columns 1-6: FRONT READY, RIGHT SIDE READY, BACK READY, RIGHT-SIDE ATTACK ANTICIPATION, RIGHT-SIDE ATTACK CONTACT, RIGHT-SIDE FOLLOW-THROUGH. Row2 columns 1-6: RIGHT-SIDE RECOVERY, RIGHT-SIDE HIT REACTION, RIGHT-SIDE KNOCKED OUT lying sideways, FRONT VICTORY START, FRONT VICTORY BREATH, FRONT VICTORY ALLY CHECK. Each pose appears once. Small simple English labels beneath cells. Standing feet share exact same baseline and body scale. Camera is fixed slight elevated game view. Only intentional attack footwork, no arbitrary vertical bouncing. One same weapon across all cells. No enemies, no scenery, no big shadows, no damage numbers or visual effects, no extra portraits. Sheet is a pose reference, not claimed as finished animated atlas. Character is earnest and caring, initially nervous and learning, not an arrogant master warrior. TITLE AEL / 한손검. WEAPON: practical straight steel one-handed sword with navy leather grip, simple silver guard, no shield. Attack staging: right-handed low ready with tip diagonally forward; draw sword back beside right shoulder; step into one controlled diagonal forward cut to the right; follow-through with tip lowered away from others. The three consecutive victory key poses must express: lower sword safely; exhale with a hand briefly against chest; glance toward companions and offer a small relieved smile, no blade salute. His right hand is the weapon hand except bow where left holds bow and right draws; BACK view must preserve anatomy not mirror equipment randomly.",
+      "file": "ael-sword-keyposes-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8ee2f942c4758c52b11630a5ef15aeeba5272ee7520a4d3feeb1847bca9499ee",
+      "pose_count": 12,
+      "pose_order": [
+        "front_ready",
+        "right_ready",
+        "back_ready",
+        "attack_prepare",
+        "attack_contact",
+        "follow_through",
+        "recovery",
+        "hit_reaction",
+        "knocked_out",
+        "victory_start",
+        "victory_breath",
+        "victory_ally_check"
+      ],
+      "grid": {
+        "rows": 2,
+        "columns": 6
+      },
+      "status": "keypose_reference_not_runtime_animation",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 투명 프레임·4방향 중간 프레임·발 원점·클립 타이밍 정리 필요"
+      ]
+    },
+    {
+      "id": "spear",
+      "name": "창",
+      "weapon": "plain steel leaf-headed spear on ashwood shaft, simple navy binding",
+      "attack_brief": "two-handed spear low forward ready; pull shaft back and shift weight; one straight thrust toward right; retract along the same line and return to guard",
+      "victory_brief": "plant butt gently on ground with blade upright away from others; relax shoulders and breathe; look toward companions with a relieved small smile",
+      "prompt": "Edit this Ael pixel-art combat pose reference sheet to fix LONG WEAPON CLIPPING. Preserve Ael's exact identity, proportions, costume, weapon, pixel-art style and ALL twelve pose concepts. REARRANGE into THREE ROWS of FOUR equal-width cells instead of two rows of six, giving each pose enough horizontal width. Each cell has generous ivory margin and one small label below, absolutely no sprite, spearhead or staff tip touching the cell boundary or outer image edge. Show every complete weapon including both ends in EVERY pose, especially forward attack and follow-through. No cropping, no missing hands or weapons. Maintain coherent body size and grounded feet across standing poses. Order in reading order: 1 FRONT READY, 2 RIGHT READY, 3 BACK READY, 4 ATTACK PREPARE, 5 ATTACK CONTACT, 6 FOLLOW THROUGH, 7 RECOVERY, 8 HIT REACTION, 9 KNOCKED OUT, 10 VICTORY START, 11 VICTORY BREATH, 12 VICTORY ALLY CHECK. Avoid overlapping adjacent cells. Title AEL / 창. Weapon plain steel leaf-headed spear on ashwood shaft, simple navy binding. Attack two-handed spear low forward ready; pull shaft back and shift weight; one straight thrust toward right; retract along the same line and return to guard. Victory plant butt gently on ground with blade upright away from others; relax shoulders and breathe; look toward companions with a relieved small smile. No scenic backgrounds, no additional figures, only 12 distinct fullbody pixel keyposes, no animation playback claims.",
+      "revision": 2,
+      "file": "ael-spear-keyposes-v2.png",
+      "version": 2,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "1b62f0d2962e8115c1b54ce1bb192df65fd4b940577740af3857f6f3f6ca2939",
+      "pose_count": 12,
+      "pose_order": [
+        "front_ready",
+        "right_ready",
+        "back_ready",
+        "attack_prepare",
+        "attack_contact",
+        "follow_through",
+        "recovery",
+        "hit_reaction",
+        "knocked_out",
+        "victory_start",
+        "victory_breath",
+        "victory_ally_check"
+      ],
+      "grid": {
+        "rows": 3,
+        "columns": 4
+      },
+      "status": "keypose_reference_not_runtime_animation",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 투명 프레임·4방향 중간 프레임·발 원점·클립 타이밍 정리 필요",
+        "05 ATTACK CONTACT의 창끝이 옆 칸 영역과 겹쳐 있어 프레임 분리 전 여백 정리 필요"
+      ]
+    },
+    {
+      "id": "bow",
+      "name": "활",
+      "weapon": "simple wooden recurved hunting bow with plain leather grip, one arrow only during attack, no oversized quiver",
+      "attack_brief": "left hand holds bow, right hand draws string; brace feet; nock and draw toward cheek with arrow aimed right; release and let bow arm settle without reversing handedness",
+      "victory_brief": "lower bow with no arrow nocked; release tension in shoulders and exhale; look toward companions with a small reassuring smile",
+      "prompt": "Create ONE LANDSCAPE combat ANIMATION KEY-POSE REFERENCE SHEET for AEL, original fantasy JRPG Springbound Frontier. This is a PIXEL ART motion development sheet, NOT a portrait board, NOT an anime fullbody illustration. Reference establishes exact identity: youthful male brown tousled hair, green eyes, plain forest-green cloak, ivory lace-up tunic, brown gloves, dark trousers, boots, modest herb satchel. Maintain same identity, costume and roughly 3-head-tall classic JRPG sprite proportions in ALL poses, crisp chunky square pixels, 48x64 source-pixel design language enlarged nearest-neighbor, NO smooth painted figures. Warm ivory background, thin understated grid lines and a small clear header. EXACTLY TWO ROWS of SIX equally sized cells, 12 full-body sprites TOTAL; generous transparent-looking ivory padding, no figures cut off, no poses overlap cells. Row1 columns 1-6: FRONT READY, RIGHT SIDE READY, BACK READY, RIGHT-SIDE ATTACK ANTICIPATION, RIGHT-SIDE ATTACK CONTACT, RIGHT-SIDE FOLLOW-THROUGH. Row2 columns 1-6: RIGHT-SIDE RECOVERY, RIGHT-SIDE HIT REACTION, RIGHT-SIDE KNOCKED OUT lying sideways, FRONT VICTORY START, FRONT VICTORY BREATH, FRONT VICTORY ALLY CHECK. Each pose appears once. Small simple English labels beneath cells. Standing feet share exact same baseline and body scale. Camera is fixed slight elevated game view. Only intentional attack footwork, no arbitrary vertical bouncing. One same weapon across all cells. No enemies, no scenery, no big shadows, no damage numbers or visual effects, no extra portraits. Sheet is a pose reference, not claimed as finished animated atlas. Character is earnest and caring, initially nervous and learning, not an arrogant master warrior. TITLE AEL / 활. WEAPON: simple wooden recurved hunting bow with plain leather grip, one arrow only during attack, no oversized quiver. Attack staging: left hand holds bow, right hand draws string; brace feet; nock and draw toward cheek with arrow aimed right; release and let bow arm settle without reversing handedness. The three consecutive victory key poses must express: lower bow with no arrow nocked; release tension in shoulders and exhale; look toward companions with a small reassuring smile. His right hand is the weapon hand except bow where left holds bow and right draws; BACK view must preserve anatomy not mirror equipment randomly.",
+      "file": "ael-bow-keyposes-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "2926aed3413e93e8de8992aca1a0ecec61939e934ab2baa427c4f4fcecf10caa",
+      "pose_count": 12,
+      "pose_order": [
+        "front_ready",
+        "right_ready",
+        "back_ready",
+        "attack_prepare",
+        "attack_contact",
+        "follow_through",
+        "recovery",
+        "hit_reaction",
+        "knocked_out",
+        "victory_start",
+        "victory_breath",
+        "victory_ally_check"
+      ],
+      "grid": {
+        "rows": 2,
+        "columns": 6
+      },
+      "status": "keypose_reference_not_runtime_animation",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 투명 프레임·4방향 중간 프레임·발 원점·클립 타이밍 정리 필요"
+      ]
+    },
+    {
+      "id": "dagger",
+      "name": "단검",
+      "weapon": "single short practical steel dagger with simple brown grip, no second weapon",
+      "attack_brief": "right hand holds dagger in ordinary forward grip, left hand open for balance; short guarded preparation; one compact forward diagonal slash toward right, no acrobatic spin; controlled recovery",
+      "victory_brief": "lower dagger away from body and companions; check surroundings with a quick glance; relax and smile gently toward companions, no tossing blade",
+      "prompt": "Create ONE LANDSCAPE combat ANIMATION KEY-POSE REFERENCE SHEET for AEL, original fantasy JRPG Springbound Frontier. This is a PIXEL ART motion development sheet, NOT a portrait board, NOT an anime fullbody illustration. Reference establishes exact identity: youthful male brown tousled hair, green eyes, plain forest-green cloak, ivory lace-up tunic, brown gloves, dark trousers, boots, modest herb satchel. Maintain same identity, costume and roughly 3-head-tall classic JRPG sprite proportions in ALL poses, crisp chunky square pixels, 48x64 source-pixel design language enlarged nearest-neighbor, NO smooth painted figures. Warm ivory background, thin understated grid lines and a small clear header. EXACTLY TWO ROWS of SIX equally sized cells, 12 full-body sprites TOTAL; generous transparent-looking ivory padding, no figures cut off, no poses overlap cells. Row1 columns 1-6: FRONT READY, RIGHT SIDE READY, BACK READY, RIGHT-SIDE ATTACK ANTICIPATION, RIGHT-SIDE ATTACK CONTACT, RIGHT-SIDE FOLLOW-THROUGH. Row2 columns 1-6: RIGHT-SIDE RECOVERY, RIGHT-SIDE HIT REACTION, RIGHT-SIDE KNOCKED OUT lying sideways, FRONT VICTORY START, FRONT VICTORY BREATH, FRONT VICTORY ALLY CHECK. Each pose appears once. Small simple English labels beneath cells. Standing feet share exact same baseline and body scale. Camera is fixed slight elevated game view. Only intentional attack footwork, no arbitrary vertical bouncing. One same weapon across all cells. No enemies, no scenery, no big shadows, no damage numbers or visual effects, no extra portraits. Sheet is a pose reference, not claimed as finished animated atlas. Character is earnest and caring, initially nervous and learning, not an arrogant master warrior. TITLE AEL / 단검. WEAPON: single short practical steel dagger with simple brown grip, no second weapon. Attack staging: right hand holds dagger in ordinary forward grip, left hand open for balance; short guarded preparation; one compact forward diagonal slash toward right, no acrobatic spin; controlled recovery. The three consecutive victory key poses must express: lower dagger away from body and companions; check surroundings with a quick glance; relax and smile gently toward companions, no tossing blade. His right hand is the weapon hand except bow where left holds bow and right draws; BACK view must preserve anatomy not mirror equipment randomly.",
+      "file": "ael-dagger-keyposes-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "a9b814d84c294e8624977d8164bdcc8ff8648131910963a1ac1ff25c9fc33d7c",
+      "pose_count": 12,
+      "pose_order": [
+        "front_ready",
+        "right_ready",
+        "back_ready",
+        "attack_prepare",
+        "attack_contact",
+        "follow_through",
+        "recovery",
+        "hit_reaction",
+        "knocked_out",
+        "victory_start",
+        "victory_breath",
+        "victory_ally_check"
+      ],
+      "grid": {
+        "rows": 2,
+        "columns": 6
+      },
+      "status": "keypose_reference_not_runtime_animation",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 투명 프레임·4방향 중간 프레임·발 원점·클립 타이밍 정리 필요"
+      ]
+    },
+    {
+      "id": "staff",
+      "name": "지팡이",
+      "weapon": "simple ashwood travel staff with compact small teal resonance stone held in a modest metal cap, no huge orb",
+      "attack_brief": "two-handed staff held diagonally in guard; turn shoulders to prepare; one restrained horizontal staff strike toward right; return staff to upright guard. This sheet shows basic physical attack, no spell casting or spell effects",
+      "victory_brief": "stand staff gently upright; steady breath with shoulders relaxing; turn toward companions with a small relieved smile",
+      "prompt": "Edit this Ael pixel-art combat pose reference sheet to fix LONG WEAPON CLIPPING. Preserve Ael's exact identity, proportions, costume, weapon, pixel-art style and ALL twelve pose concepts. REARRANGE into THREE ROWS of FOUR equal-width cells instead of two rows of six, giving each pose enough horizontal width. Each cell has generous ivory margin and one small label below, absolutely no sprite, spearhead or staff tip touching the cell boundary or outer image edge. Show every complete weapon including both ends in EVERY pose, especially forward attack and follow-through. No cropping, no missing hands or weapons. Maintain coherent body size and grounded feet across standing poses. Order in reading order: 1 FRONT READY, 2 RIGHT READY, 3 BACK READY, 4 ATTACK PREPARE, 5 ATTACK CONTACT, 6 FOLLOW THROUGH, 7 RECOVERY, 8 HIT REACTION, 9 KNOCKED OUT, 10 VICTORY START, 11 VICTORY BREATH, 12 VICTORY ALLY CHECK. Avoid overlapping adjacent cells. Title AEL / 지팡이. Weapon simple ashwood travel staff with compact small teal resonance stone held in a modest metal cap, no huge orb. Attack two-handed staff held diagonally in guard; turn shoulders to prepare; one restrained horizontal staff strike toward right; return staff to upright guard. This sheet shows basic physical attack, no spell casting or spell effects. Victory stand staff gently upright; steady breath with shoulders relaxing; turn toward companions with a small relieved smile. No scenic backgrounds, no additional figures, only 12 distinct fullbody pixel keyposes, no animation playback claims.",
+      "revision": 2,
+      "file": "ael-staff-keyposes-v2.png",
+      "version": 2,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "526654ef652bcef00b055ad6b2a03bf2ccb009cad28182a024fbcf76274e56bf",
+      "pose_count": 12,
+      "pose_order": [
+        "front_ready",
+        "right_ready",
+        "back_ready",
+        "attack_prepare",
+        "attack_contact",
+        "follow_through",
+        "recovery",
+        "hit_reaction",
+        "knocked_out",
+        "victory_start",
+        "victory_breath",
+        "victory_ally_check"
+      ],
+      "grid": {
+        "rows": 3,
+        "columns": 4
+      },
+      "status": "keypose_reference_not_runtime_animation",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 투명 프레임·4방향 중간 프레임·발 원점·클립 타이밍 정리 필요",
+        "현재 시안은 전방 찌르기형 물리 타격. 가로 스윙 대안은 후속 검토"
+      ]
+    }
+  ],
+  "reference": "assets/character-boards/ael-board-v1.png"
+}
