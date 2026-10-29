@@ -14,6 +14,8 @@ Springbound Frontier · 가제
 
 ## 작업자 시작 문서
 
+[NPC 전체 제작 목록](docs/npc-registry.md) · [이름 없는 NPC 14종 보드](docs/generic-npc-boards.md)
+
 [조연 캐릭터 보드 26명](docs/supporting-cast-boards.md)
 
 [환경 에셋 43종과 배치 가이드](docs/environment-assets.md) — 개별 3D 장면·나무 스프라이트·검수 뷰어
