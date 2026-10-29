@@ -14,6 +14,8 @@ Springbound Frontier · 가제
 
 ## 작업자 시작 문서
 
+[아이템 외형 80종](docs/item-design-boards.md) — 장비 각 5종 변형과 기본 물품, 보드 15장
+
 [환경 에셋 43종과 배치 가이드](docs/environment-assets.md) — 개별 3D 장면·나무 스프라이트·검수 뷰어
 
 [구현 전 확정한 게임 기획](docs/confirmed-design.md)
