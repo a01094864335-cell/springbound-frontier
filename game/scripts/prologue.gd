@@ -31,6 +31,7 @@ var location_label: Label
 var chapter_label: Label
 var objective_label: Label
 var toast_label: Label
+var toast_tween: Tween
 var minimap: Control
 var fade: ColorRect
 var map_size := Vector2(18, 16)
@@ -762,52 +763,20 @@ func _activate_interaction() -> void:
 				_dialog([["에일","한쪽 발을 끈 자국이 저 굽이로 이어져. 다친 사람이 있는지 살펴보고 가자.",0]])
 				return
 			_transition(point.map,point.spawn)
-		"medicine":
-			if has_medicine:
-				_dialog([["에일","배달 꾸러미는 가방 안쪽에, 여분 붕대는 바깥쪽에. 빠뜨린 건 없어.",0]])
-			elif not story.done("request"):
-				_dialog([["에일","마르타가 묶어 둔 약이야. 받는 사람이 따로 있을 테니 먼저 여쭤보자.",0]])
-			else: _play_scene("medicine")
-		"marta":
-			if arrived: _play_scene("marta_return")
-			elif not story.done("morning"): _play_scene("opening")
-			elif not story.errands_done(): _play_scene("marta_wait")
-			elif not story.done("request"): _play_scene("request")
-			elif not has_medicine: _dialog([["마르타","문 옆 받침대의 꾸러미를 챙기렴. 끈 색과 쪽지가 있는지 같이 확인하자.",2]])
-			elif not story.done("farewell"): _play_scene("farewell")
-			else: _play_scene("marta_departed")
-		"water", "inn":
-			if not story.done("morning"):
-				_dialog([["에일","마르타가 아침에 부탁할 일이 있다고 했지. 먼저 집에 들러 보자.",0]])
-			else:
-				var flag: String = "water" if point.kind == "water" else "towels"
-				var prefix: String = "well" if point.kind == "water" else "inn"
-				_play_scene(prefix + ("_again" if story.done(flag) else "_first"))
-		"leon": _play_scene("leon_again" if met_leon else "leon_first")
-		"leon_arrival":
-			_play_scene(("rest_again" if story.done("closing") else "closing") if arrived else ("leon_arrival_again" if story.done("leon_arrival") else "leon_arrival"))
-		"delivery", "halven", "eda":
-			if not has_medicine or not met_leon:
-				_dialog([["에다","배달과 치료는 여기서 맡고 있어. 준비가 되면 연락소 앞에서 불러 줘.",-1]])
-			elif not arrived: _play_scene("delivery")
-			else: _play_scene("delivery_again" if point.kind == "delivery" else (point.kind+"_again" if story.done(point.kind) else point.kind))
-		"room_map": _play_scene("map_after" if arrived else "map")
-		"nia":
-			_play_scene(("nia_return" if story.done("nia") else "nia_late") if arrived else ("nia_again" if story.done("nia") else "nia"))
-		"doren", "vera", "roke": _play_scene(point.kind+"_again" if story.done(point.kind) else point.kind)
-		"tracks": _play_scene("tracks_after" if met_leon else "tracks")
-		_: _play_scene(point.kind)
+		_: _play_scene(story.scene_for(point.kind,has_medicine,met_leon,arrived))
 
 func _play_scene(scene: String) -> void:
+	if scene in story.data.get("planned_scenes",[]):
+		push_error("Unconnected story event: " + scene)
+		return
 	_dialog(story.lines(scene),func():
 		story.finish(scene)
 		if scene == "medicine": has_medicine = true
-		if scene == "leon_first":
-			_play_scene("leon_bridge")
-			return
 		if scene == "leon_bridge": met_leon = true
 		if scene == "delivery": arrived = true
 		_update_quest()
+		var feedback: String = story.data.get("completion_feedback",{}).get(scene,"")
+		if not feedback.is_empty(): _toast(feedback)
 		if not qa_mode: _save_game(false)
 	,scene)
 
@@ -878,6 +847,8 @@ func _update_quest() -> void:
 		objective_label.text = "전달을 마쳤다\n레온과 따뜻한 차 한 잔 나누기"
 	elif met_leon:
 		objective_label.text = "에다에게 약과 환자 인계하기\n돌샘 우물 오른편 연락소" if map_id == 3 else "레온과 돌샘으로 향하기\n북쪽 굽이를 따라 천천히 이동"
+	elif story.done("leon_found"):
+		objective_label.text = "레온의 응급처치 돕기\n레온에게 다시 말 걸기"
 	elif has_medicine:
 		objective_label.text = "마르타에게 출발 인사하기" if not story.done("farewell") else ("돌샘으로 향하기\n산길의 흔적도 살펴보자" if map_id == 2 else "돌샘에 약 전하기\n서리골 북문으로 이동")
 	elif story.done("request"):
@@ -888,6 +859,9 @@ func _update_quest() -> void:
 		objective_label.text = "아침 심부름 · 순서 자유\n%s 물 긷기  /  %s 여관 수건" % ["✓" if story.done("water") else "○","✓" if story.done("towels") else "○"]
 	else:
 		objective_label.text = "서리골의 아침\n마르타와 아침 이야기 나누기"
+	for point in interactions:
+		if point.kind == "leon":
+			point.title = "레온과 대화" if met_leon else ("레온의 붕대 고정 돕기" if story.done("leon_found") else "부상당한 여행자 살피기")
 
 func _save_game(notify := true) -> bool:
 	var save := {"version":2,"story":story.flags.duplicate(),"map":map_id,"position":[walker.target.x,walker.target.z],"medicine":has_medicine,"leon":met_leon,"arrived":arrived}
@@ -975,9 +949,10 @@ func _toast(message: String) -> void:
 	if qa_mode: print("QA_NOTICE: ",message)
 	toast_label.text = message
 	toast_label.modulate.a = 1
-	var tween := create_tween()
-	tween.tween_interval(2.5)
-	tween.tween_property(toast_label,"modulate:a",0.0,0.6)
+	if toast_tween: toast_tween.kill()
+	toast_tween = create_tween()
+	toast_tween.tween_interval(2.5)
+	toast_tween.tween_property(toast_label,"modulate:a",0.0,0.6)
 
 func _panel_style(color: Color, border := Color("c1ac78")) -> StyleBoxFlat:
 	var style := StyleBoxFlat.new()
@@ -1047,8 +1022,10 @@ func _setup_ui() -> void:
 	objective_label = _label(quest_stack,"",17)
 	var map_container := VBoxContainer.new()
 	map_container.set_anchors_and_offsets_preset(Control.PRESET_TOP_RIGHT)
-	map_container.position = Vector2(-210,26)
-	map_container.size = Vector2(180,180)
+	map_container.offset_left = -210
+	map_container.offset_right = -30
+	map_container.offset_top = 26
+	map_container.offset_bottom = 206
 	hud.add_child(map_container)
 	var map_title := _label(map_container,"N   /   주변 지도",12,Color("e7ddbd"))
 	map_title.horizontal_alignment = HORIZONTAL_ALIGNMENT_RIGHT
@@ -1083,22 +1060,28 @@ func _setup_ui() -> void:
 	bottom_row.move_child(face,0)
 	var controls := _label(hud,"WASD 한 걸음 이동   ·   E 대화   ·   Esc 메뉴",13,Color("f0e6cf"))
 	controls.set_anchors_and_offsets_preset(Control.PRESET_BOTTOM_RIGHT)
-	controls.position = Vector2(-470,-42)
-	controls.size = Vector2(440,24)
+	controls.offset_left = -470
+	controls.offset_right = -30
+	controls.offset_top = -42
+	controls.offset_bottom = -18
 	controls.horizontal_alignment = HORIZONTAL_ALIGNMENT_RIGHT
 	controls.add_theme_color_override("font_shadow_color",Color("101a36"))
 	controls.add_theme_constant_override("shadow_outline_size",6)
 	prompt_label = _label(hud,"",19,Color("fff0c2"))
 	prompt_label.set_anchors_and_offsets_preset(Control.PRESET_CENTER_BOTTOM)
-	prompt_label.position = Vector2(-270,-132)
-	prompt_label.size = Vector2(540,40)
+	prompt_label.offset_left = -270
+	prompt_label.offset_right = 270
+	prompt_label.offset_top = -132
+	prompt_label.offset_bottom = -92
 	prompt_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	prompt_label.add_theme_color_override("font_shadow_color",Color("172f28"))
 	prompt_label.add_theme_constant_override("shadow_outline_size",10)
 	toast_label = _label(ui_root,"",18,Color("f1dfae"))
 	toast_label.set_anchors_and_offsets_preset(Control.PRESET_CENTER_TOP)
-	toast_label.position = Vector2(-350,36)
-	toast_label.size = Vector2(700,40)
+	toast_label.offset_left = -350
+	toast_label.offset_right = 350
+	toast_label.offset_top = 36
+	toast_label.offset_bottom = 76
 	toast_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	toast_label.add_theme_color_override("font_shadow_color",Color("183b32"))
 	toast_label.add_theme_constant_override("shadow_outline_size",8)
@@ -1187,8 +1170,10 @@ func _make_pause_ui() -> void:
 	pause_screen.add_child(shade)
 	var stack := VBoxContainer.new()
 	stack.set_anchors_and_offsets_preset(Control.PRESET_CENTER)
-	stack.position = Vector2(-180,-260)
-	stack.size = Vector2(360,520)
+	stack.offset_left = -180
+	stack.offset_right = 180
+	stack.offset_top = -260
+	stack.offset_bottom = 260
 	stack.add_theme_constant_override("separation",12)
 	pause_screen.add_child(stack)
 	_label(stack,"잠시 쉬어 가기",30,Color("e8dbb4"))
@@ -1287,6 +1272,8 @@ func _run_qa() -> void:
 	current_interaction = interactions.filter(func(p): return p.kind == "leon")[0]
 	_activate_interaction()
 	while dialog_panel.visible: _advance_dialog()
+	if met_leon or not story.done("leon_found"): errors.append("Leon encounter skipped player control")
+	_qa_interact("leon")
 	if not met_leon: errors.append("Leon interaction failed")
 	_load_map(3,Vector3(-2,0,13))
 	var old_save := FileAccess.get_file_as_string(SAVE_PATH) if FileAccess.file_exists(SAVE_PATH) else ""
@@ -1765,23 +1752,31 @@ func _qa_interact(kind: String) -> void:
 func _run_story_capture() -> void:
 	qa_mode = true
 	_new_game()
-	for i in range(5): _advance_dialog()
+	for i in range(4): _advance_dialog()
 	await _story_screenshot("07-story-home")
 	_qa_finish_dialog()
-	_load_map(1,Vector3(-3,0,11))
+	_load_map(1,Vector3(-2,0,6))
 	await _story_screenshot("08-story-village")
 	_play_scene("inn_first")
-	for i in range(6): _advance_dialog()
+	for i in range(3): _advance_dialog()
 	await _story_screenshot("09-story-orman")
 	_qa_finish_dialog()
+	_play_scene("well_first")
+	_qa_finish_dialog()
+	_load_map(0,_safe_spawn(0))
+	for scene in ["request","medicine","farewell"]:
+		_play_scene(scene)
+		_qa_finish_dialog()
 	_load_map(2,Vector3(8,0,5))
 	_play_scene("leon_first")
-	for i in range(10): _advance_dialog()
+	for i in range(4): _advance_dialog()
 	await _story_screenshot("10-story-leon")
+	_qa_finish_dialog()
+	_play_scene("leon_bridge")
 	_qa_finish_dialog()
 	_load_map(3,Vector3(5,0,1))
 	_play_scene("delivery")
-	for i in range(8): _advance_dialog()
+	for i in range(4): _advance_dialog()
 	await _story_screenshot("11-story-delivery")
 	_qa_finish_dialog()
 	_play_scene("closing")

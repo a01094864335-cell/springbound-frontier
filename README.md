@@ -8,9 +8,9 @@ Springbound Frontier · 가제
 
 현재 Mac에서 `프롤로그 플레이.command`를 실행하거나, Godot 4.6.3으로 `game/project.godot`를 열어 실행합니다.
 
-마르타와 아침 이야기를 나누고 물 긷기·여관 심부름을 마친 뒤, 약을 챙겨 서리골 → 산길 → 돌샘으로 이동합니다. 41개 대화 장면과 진행별 재대화가 연결되어 있습니다. WASD 상하좌우 한 걸음 이동 · E 대화/조사 · 우클릭 목적지 이동 · Esc 메뉴 · F5 저장 · F9 불러오기.
+마르타와 아침 이야기를 나누고 물 긷기·여관 심부름을 마친 뒤, 약을 챙겨 서리골 → 산길 → 돌샘으로 이동합니다. 상황별 대화와 완료 알림·목표 갱신이 연결되어 있습니다. WASD 상하좌우 한 걸음 이동 · E 대화/조사 · 우클릭 목적지 이동 · Esc 메뉴 · F5 저장 · F9 불러오기.
 
-[실행 방법·구현 범위·실제 화면](docs/prologue-spaces.md) · [프롤로그 대화·진행·전체 원고](docs/prologue-dialogue.md) · [소설로 읽는 프롤로그](docs/prologue-novel.md)
+[실행 방법·구현 범위·실제 화면](docs/prologue-spaces.md) · [프롤로그 대화·진행·전체 원고](docs/prologue-dialogue.md)
 
 ## 작업자 시작 문서
 
