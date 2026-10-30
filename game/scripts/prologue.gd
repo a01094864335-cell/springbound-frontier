@@ -1,5 +1,8 @@
 extends Node3D
 
+const PrologueStory = preload("res://scripts/prologue_story.gd")
+const CAST := {"오르만":"orman", "니아":"nia", "도렌":"doren", "베라":"vera", "로크":"roke", "에다":"eda", "할벤":"halven"}
+
 const MapView = preload("res://scripts/map_view.gd")
 const SAVE_PATH := "user://prologue_save.json"
 const NAMES := ["마르타의 집", "서리골", "고요한 산길", "돌샘 연락소"]
@@ -45,6 +48,17 @@ var paused := false
 var transitioning := false
 var dialog_lines: Array = []
 var dialog_action: Callable
+var story = PrologueStory.new()
+var dialogue_history: Array = []
+var history_panel: PanelContainer
+var history_text: RichTextLabel
+var history_return_focus: Control
+var dialog_progress: Label
+var dialog_next: Button
+var dialogue_total := 0
+var dialogue_index := 0
+var active_scene := ""
+var cast_textures := {}
 var current_interaction: Dictionary = {}
 var rng := RandomNumberGenerator.new()
 var elapsed := 0.0
@@ -101,6 +115,8 @@ func _ready() -> void:
 	title_screen.show()
 	if qa_mode:
 		call_deferred("_run_qa")
+	elif "--story-capture" in OS.get_cmdline_user_args():
+		call_deferred("_run_story_capture")
 	elif "--compare-capture" in OS.get_cmdline_user_args():
 		call_deferred("_run_compare_capture")
 	elif "--walk-capture" in OS.get_cmdline_user_args():
@@ -300,7 +316,7 @@ func _marker(pos: Vector3, text: String, color := Color("eee1b3")) -> void:
 	label.modulate = color
 	label.outline_size = 8
 	label.no_depth_test = true
-	label.visibility_range_end = 14.0
+	label.visibility_range_end = 65.0
 	map_root.add_child(label)
 
 func _actor(row: int) -> Node3D:
@@ -343,7 +359,7 @@ func _npc(row: int, pos: Vector3, npc_name: String) -> void:
 	actor.name = npc_name
 	actor.position = pos
 	map_root.add_child(actor)
-	_marker(pos + Vector3(0,2.65,0),npc_name)
+	_marker(pos + Vector3(0,4.2,0),npc_name)
 	obstacles.append(Rect2(Vector2(pos.x-0.35,pos.z-0.35),Vector2(0.7,0.7)))
 
 func _interact(pos: Vector2, title: String, kind: String, data: Dictionary = {}) -> void:
@@ -427,7 +443,9 @@ func _build_home() -> void:
 	_box(Vector3(-2.5,1.7,-7.2),Vector3(2,1.7,0.12),Color("a8c9c3"))
 	_box(Vector3(-2.5,1.7,-7.05),Vector3(0.12,1.8,0.1),Color("655c44"))
 	_box(Vector3(-2.5,1.7,-7.05),Vector3(2.1,0.12,0.1),Color("655c44"))
-	_interact(Vector2(0,6.7),"서리골로","exit",{"map":1,"spawn":Vector3(-7,0,7),"requires_medicine":true})
+	_interact(Vector2(-5.6,-3),"침대 옆 지도 살피기","room_map")
+	_interact(Vector2(-2.5,-6.4),"창가의 약초 살피기","window")
+	_interact(Vector2(0,6.7),"서리골로","exit",{"map":1,"spawn":Vector3(-7,0,7)})
 	_path(Rect2(-1.4,4.8,2.8,3.0),Color("b3a17b"))
 
 func _build_village() -> void:
@@ -445,13 +463,22 @@ func _build_village() -> void:
 	_lantern(3.6,-9)
 	_fence(Vector2(-17,10),Vector2(-5,10))
 	_fence(Vector2(5,-17),Vector2(16,-17))
-	for p in [Vector2(-17,-15),Vector2(-17,-7),Vector2(-17,1),Vector2(-16,15),Vector2(17,15),Vector2(17,-2),Vector2(17,-13),Vector2(6,17),Vector2(-7,17)]:
+	for p in [Vector2(-17,-15),Vector2(-17,-7),Vector2(-17,1),Vector2(-16,15),Vector2(17,15),Vector2(17,-2),Vector2(17,-13),Vector2(9,17),Vector2(-7,17)]:
 		_tree(p.x,p.y,rng.randf_range(0.8,1.15))
 	for i in range(35):
 		var x := rng.randf_range(-18,18)
 		var z := rng.randf_range(-17,17)
-		if abs(x) > 3 and not _blocked(Vector3(x,0,z),0.6):
+		if abs(x) > 3 and not _blocked(Vector3(x,0,z),0.6) and not _near_story_cast(Vector2(x,z)):
 			_rock(Vector3(x,0.1,z),Vector3(0.4,0.35,0.4))
+	_story_npc("오르만",Vector3(-12,0,-7),"inn")
+	_story_npc("니아",Vector3(5,0,12),"nia")
+	_story_npc("도렌",Vector3(-5,0,6.5),"doren")
+	_story_npc("베라",Vector3(12,0,-3.5),"vera")
+	_story_npc("로크",Vector3(3.5,0,-13),"roke")
+	# Keep the well and all residents reachable from the village road.
+	_interact(Vector2(0,6.2),"우물에서 물 긷기","water")
+	for p in [Vector2(4.6,12),Vector2(5.3,12),Vector2(6,12)]:
+		_cylinder(Vector3(p.x,0.32,p.y),0.38,0.6,Color("e0e8e1"),0.23)
 	_interact(Vector2(-8,1.7),"マ르타의 집으로".replace("マ","마"),"exit",{"map":0,"spawn":Vector3(0,0,5)})
 	_interact(Vector2(0,-16.4),"산길 · 돌샘 방면","exit",{"map":2,"spawn":Vector3(0,0,23),"requires_medicine":true})
 	_marker(Vector3(0,2.0,-13),"돌샘  ↑")
@@ -485,6 +512,8 @@ func _build_trail() -> void:
 	_interact(Vector2(0,24),"서리골로","exit",{"map":1,"spawn":Vector3(0,0,-14.2)})
 	_interact(Vector2(-6,-24),"돌샘 연락소로","exit",{"map":3,"spawn":Vector3(-2,0,13),"requires_leon":true})
 	_marker(Vector3(4,1.3,9),"돌샘  →")
+	_interact(Vector2(2,9),"산길 표지 살피기","trail_sign")
+	_interact(Vector2(8,6.5),"눈 위의 발자국 살피기","tracks")
 	_lantern(5.4,9.4)
 	_fence(Vector2(10.8,-4),Vector2(10.8,-12))
 
@@ -502,9 +531,14 @@ func _build_well() -> void:
 	_fence(Vector2(-15,-14),Vector2(15,-14))
 	_box(Vector3(3,0.6,6),Vector3(2,1.2,1.2),Color("8b7857"),true)
 	_box(Vector3(5.3,0.4,6),Vector3(1.5,0.8,1.1),Color("a28a64"),true)
+	_environment_prop("wood_table",Vector3(-6.5,0,7))
+	_cylinder(Vector3(-7.1,1.25,7),0.16,0.2,Color("c6b393"))
+	_cylinder(Vector3(-5.8,1.25,7),0.16,0.2,Color("c6b393"))
 	_npc(1,Vector3(-5,0,4),"레온")
-	_interact(Vector2(-5,4),"레온과 대화","leon_arrival")
-	_interact(Vector2(8,-2),"약 꾸러미 전달하기","delivery")
+	_interact(Vector2(-5,4),"레온과 쉬어 가기","leon_arrival")
+	_story_npc("할벤",Vector3(8,0,1.5),"halven")
+	_story_npc("에다",Vector3(11,0,1.5),"eda")
+	_interact(Vector2(6,1.5),"약 꾸러미 전달하기","delivery")
 	_marker(Vector3(8,2,-2),"◇  국경 연락소")
 	_interact(Vector2(-2,14.7),"산길로","exit",{"map":2,"spawn":Vector3(-6,0,-21.7)})
 
@@ -537,7 +571,7 @@ func _blocked(pos: Vector3, radius := 0.29) -> bool:
 
 func _physics_process(delta: float) -> void:
 	elapsed += delta
-	if not started or paused or transitioning or dialog_panel.visible:
+	if not started or paused or transitioning or dialog_panel.visible or history_panel.visible:
 		return
 	step_settle_remaining = maxf(0,step_settle_remaining-delta)
 	var input_direction := _cardinal_input()
@@ -668,6 +702,13 @@ func _unhandled_input(event: InputEvent) -> void:
 			rebind_action = ""
 			bind_help.text = "바꿀 동작을 누른 뒤 사용할 키를 누르세요."
 			return
+		if history_panel.visible:
+			if event.keycode in [KEY_ESCAPE,KEY_TAB]: _toggle_history()
+			get_viewport().set_input_as_handled()
+			return
+		if event.keycode == KEY_TAB and started and not transitioning:
+			_toggle_history()
+			return
 		for action in ["move_left","move_right","move_up","move_down"]:
 			if event.is_action_pressed(action) and started and not paused and not dialog_panel.visible:
 				pending_step = {"move_left":Vector2i.LEFT,"move_right":Vector2i.RIGHT,"move_up":Vector2i.UP,"move_down":Vector2i.DOWN}[action]
@@ -675,10 +716,11 @@ func _unhandled_input(event: InputEvent) -> void:
 		if event.keycode == KEY_F5 and started and not dialog_panel.visible and not transitioning:
 			_save_game()
 			return
-		if event.keycode == KEY_F9 and not transitioning:
+		if event.keycode == KEY_F9 and not transitioning and not dialog_panel.visible:
 			_load_game()
 			return
 		if dialog_panel.visible:
+			get_viewport().set_input_as_handled()
 			if event.is_action_pressed("interact") or event.keycode in [KEY_ENTER,KEY_SPACE]: _advance_dialog()
 			return
 		if event.keycode == KEY_ESCAPE and started and not transitioning:
@@ -692,7 +734,7 @@ func _unhandled_input(event: InputEvent) -> void:
 			_activate_interaction()
 		if event.keycode == KEY_M:
 			minimap.get_parent().visible = not minimap.get_parent().visible
-	if event is InputEventMouseButton and started and not paused and not dialog_panel.visible and not transitioning:
+	if event is InputEventMouseButton and started and not paused and not dialog_panel.visible and not transitioning and not history_panel.visible:
 		if event.button_index == MOUSE_BUTTON_WHEEL_UP and event.pressed: zoom = clampf(zoom-1,13,24)
 		if event.button_index == MOUSE_BUTTON_WHEEL_DOWN and event.pressed: zoom = clampf(zoom+1,13,24)
 		if event.button_index == MOUSE_BUTTON_RIGHT and event.pressed:
@@ -703,35 +745,71 @@ func _unhandled_input(event: InputEvent) -> void:
 				_set_click_route(ground)
 
 func _activate_interaction() -> void:
-	if current_interaction.is_empty() or walker.moving: return
+	if current_interaction.is_empty() or walker.moving or dialog_panel.visible or transitioning: return
 	var point := current_interaction.duplicate()
 	match point.kind:
 		"exit":
+			if map_id == 0 and not story.done("morning"):
+				_play_scene("opening")
+				return
 			if point.get("requires_medicine",false) and not has_medicine:
-				_dialog([["에일","약 꾸러미를 먼저 챙겨야 해. 돌샘에서 기다리고 계실 테니까.",0]])
+				_dialog([["에일","마르타와 준비를 마친 뒤 출발하자. 아직 돌샘에 전할 약이 가방에 없어.",0]])
+				return
+			if point.get("requires_medicine",false) and not story.done("farewell"):
+				_dialog([["에일","마르타가 출발 전에 한 번 더 보자고 했지. 집에 들러 인사하고 가자.",0]])
 				return
 			if point.get("requires_leon",false) and not met_leon:
-				_dialog([["에일","저쪽에 사람이 있어. 다친 것 같은데… 먼저 살펴보자.",0]])
+				_dialog([["에일","한쪽 발을 끈 자국이 저 굽이로 이어져. 다친 사람이 있는지 살펴보고 가자.",0]])
 				return
 			_transition(point.map,point.spawn)
 		"medicine":
 			if has_medicine:
-				_toast("약 꾸러미는 가방에 잘 넣어 두었다.")
-			else:
-				_dialog([["에일","붕대, 말린 약초, 해열제… 빠진 건 없겠지?",0],["마르타","돌샘에 도착하면 연락소에 맡겨. 그리고 네 점심도 가방 안에 있다.",2],["에일","약보다 먼저 확인했어요. 걱정 마세요.",0]],func(): has_medicine = true; _update_quest())
+				_dialog([["에일","배달 꾸러미는 가방 안쪽에, 여분 붕대는 바깥쪽에. 빠뜨린 건 없어.",0]])
+			elif not story.done("request"):
+				_dialog([["에일","마르타가 묶어 둔 약이야. 받는 사람이 따로 있을 테니 먼저 여쭤보자.",0]])
+			else: _play_scene("medicine")
 		"marta":
-			_dialog([["마르타","산길 그늘에는 아직 눈이 남아 있을 거다. 서두르지 말고.",2],["에일","다녀올게요. 저녁 전에 돌아오면 따뜻한 차 부탁해요.",0],["마르타","힘들면 쉬어 가렴. 괜찮다는 말로 다 해결되는 건 아니야.",2]])
-		"notice":
-			_dialog([["서리골 게시판","돌샘 방면 여행자께. 해가 진 뒤에는 산길을 피하십시오. 약재 운반은 국경 연락소로 문의 바랍니다.",-1]])
-		"leon":
-			_dialog([["에일","움직이지 마세요. 상처부터 볼게요. 돌샘에서 오셨어요?",0],["레온","…연락소로 가던 길이야. 네가 약초사인가?",1],["에일","아직 배우는 중이에요. 그래도 붕대는 자신 있어요.",0],["레온","고맙다. 길은 내가 알려 주지. 돌샘은 저 굽이를 지나면 돼.",1]],func(): met_leon = true; _update_quest())
-		"leon_arrival":
-			_dialog([["레온","여기가 돌샘이다. 연락소는 우물 오른편 건물이고.",1],["에일","다 왔네요. 이번에는 제가 먼저 쉬자고 할게요.",0],["레온","좋은 생각이야. 약을 전하면 따뜻한 것을 구해 보자.",1]])
-		"delivery":
-			if arrived:
-				_dialog([["에일","약은 잘 전했어. 조금 쉬었다가 돌아가자.",0]])
+			if arrived: _play_scene("marta_return")
+			elif not story.done("morning"): _play_scene("opening")
+			elif not story.errands_done(): _play_scene("marta_wait")
+			elif not story.done("request"): _play_scene("request")
+			elif not has_medicine: _dialog([["마르타","문 옆 받침대의 꾸러미를 챙기렴. 끈 색과 쪽지가 있는지 같이 확인하자.",2]])
+			elif not story.done("farewell"): _play_scene("farewell")
+			else: _play_scene("marta_departed")
+		"water", "inn":
+			if not story.done("morning"):
+				_dialog([["에일","마르타가 아침에 부탁할 일이 있다고 했지. 먼저 집에 들러 보자.",0]])
 			else:
-				_dialog([["돌샘 연락소","서리골에서 오셨군요. 기다리던 약입니다. 정말 고맙습니다.",-1],["에일","마르타가 보내셨어요. 젖지 않게 안쪽에 넣어 뒀어요.",0],["레온","네가 챙겨 온 덕분에 살았군. 오늘은 내가 차를 사지.",1]],func(): arrived = true; _update_quest(); _save_game())
+				var flag: String = "water" if point.kind == "water" else "towels"
+				var prefix: String = "well" if point.kind == "water" else "inn"
+				_play_scene(prefix + ("_again" if story.done(flag) else "_first"))
+		"leon": _play_scene("leon_again" if met_leon else "leon_first")
+		"leon_arrival":
+			_play_scene(("rest_again" if story.done("closing") else "closing") if arrived else ("leon_arrival_again" if story.done("leon_arrival") else "leon_arrival"))
+		"delivery", "halven", "eda":
+			if not has_medicine or not met_leon:
+				_dialog([["에다","배달과 치료는 여기서 맡고 있어. 준비가 되면 연락소 앞에서 불러 줘.",-1]])
+			elif not arrived: _play_scene("delivery")
+			else: _play_scene("delivery_again" if point.kind == "delivery" else (point.kind+"_again" if story.done(point.kind) else point.kind))
+		"room_map": _play_scene("map_after" if arrived else "map")
+		"nia":
+			_play_scene(("nia_return" if story.done("nia") else "nia_late") if arrived else ("nia_again" if story.done("nia") else "nia"))
+		"doren", "vera", "roke": _play_scene(point.kind+"_again" if story.done(point.kind) else point.kind)
+		"tracks": _play_scene("tracks_after" if met_leon else "tracks")
+		_: _play_scene(point.kind)
+
+func _play_scene(scene: String) -> void:
+	_dialog(story.lines(scene),func():
+		story.finish(scene)
+		if scene == "medicine": has_medicine = true
+		if scene == "leon_first":
+			_play_scene("leon_bridge")
+			return
+		if scene == "leon_bridge": met_leon = true
+		if scene == "delivery": arrived = true
+		_update_quest()
+		if not qa_mode: _save_game(false)
+	,scene)
 
 func _transition(index: int, spawn: Vector3) -> void:
 	if transitioning: return
@@ -748,8 +826,13 @@ func _transition(index: int, spawn: Vector3) -> void:
 	transitioning = false
 	_toast(NAMES[index])
 
-func _dialog(lines: Array, action := Callable()) -> void:
+func _dialog(lines: Array, action := Callable(), scene := "") -> void:
+	active_scene = scene
 	dialog_lines = lines.duplicate(true)
+	dialogue_total = lines.size()
+	dialogue_index = 0
+	pending_step = Vector2i.ZERO
+	route.clear()
 	dialog_action = action
 	has_walk_target = false
 	prompt_label.hide()
@@ -757,15 +840,28 @@ func _dialog(lines: Array, action := Callable()) -> void:
 	_advance_dialog()
 
 func _advance_dialog() -> void:
+	if history_panel.visible: return
 	if dialog_lines.is_empty():
 		dialog_panel.hide()
-		if dialog_action.is_valid(): dialog_action.call()
+		var completion := dialog_action
 		dialog_action = Callable()
+		if completion.is_valid(): completion.call()
 		return
 	var line: Array = dialog_lines.pop_front()
+	dialogue_index += 1
+	dialog_progress.text = "%d / %d" % [dialogue_index,dialogue_total]
+	dialog_next.text = ("대화 마치기" if dialog_lines.is_empty() else "다음") + "  ·  " + _key_name("interact") + " / Enter"
+	dialogue_history.append({"speaker":line[0],"text":line[1],"scene":active_scene})
+	if dialogue_history.size() > 400: dialogue_history.pop_front()
 	speaker_label.text = line[0]
 	dialog_label.text = line[1]
-	portrait.visible = int(line[2]) >= 0
+	portrait.visible = int(line[2]) >= 0 or CAST.has(line[0])
+	if CAST.has(line[0]):
+		var cast_portrait := AtlasTexture.new()
+		cast_portrait.atlas = load("res://story/cast/" + CAST[line[0]] + "-board-v1.png")
+		cast_portrait.region = Rect2(590,640,220,335)
+		portrait.texture = cast_portrait
+		return
 	if portrait.visible:
 		var files := ["ael-portrait.png","leon-portrait.png","marta-portrait.png"]
 		var path: String = "res://assets/" + files[int(line[2])]
@@ -776,17 +872,25 @@ func _advance_dialog() -> void:
 			portrait.texture = atlas
 
 func _update_quest() -> void:
-	if arrived:
-		objective_label.text = "약을 무사히 전했다\n돌샘에서 잠시 쉬어 가자"
+	if story.done("closing"):
+		objective_label.text = "오늘의 배달을 마쳤다\n돌샘에서 쉬거나 마을을 둘러보자"
+	elif arrived:
+		objective_label.text = "전달을 마쳤다\n레온과 따뜻한 차 한 잔 나누기"
 	elif met_leon:
-		objective_label.text = "국경 연락소에 약 전달하기\n우물 오른편 건물로 이동" if map_id == 3 else "돌샘으로 향하기\n산길 북쪽 굽이를 따라 이동"
+		objective_label.text = "에다에게 약과 환자 인계하기\n돌샘 우물 오른편 연락소" if map_id == 3 else "레온과 돌샘으로 향하기\n북쪽 굽이를 따라 천천히 이동"
 	elif has_medicine:
-		objective_label.text = "돌샘에 약 전하기\n굽이진 산길을 따라 이동" if map_id == 2 else "돌샘에 약 전하기\n서리골 북쪽 산길로 이동"
+		objective_label.text = "마르타에게 출발 인사하기" if not story.done("farewell") else ("돌샘으로 향하기\n산길의 흔적도 살펴보자" if map_id == 2 else "돌샘에 약 전하기\n서리골 북문으로 이동")
+	elif story.done("request"):
+		objective_label.text = "돌샘에 갈 준비\n집 문 옆의 약 꾸러미 챙기기"
+	elif story.errands_done():
+		objective_label.text = "아침 심부름 완료\n집으로 돌아가 마르타와 이야기하기"
+	elif story.done("morning"):
+		objective_label.text = "아침 심부름 · 순서 자유\n%s 물 긷기  /  %s 여관 수건" % ["✓" if story.done("water") else "○","✓" if story.done("towels") else "○"]
 	else:
-		objective_label.text = "여행 준비\n집 안에서 약 꾸러미 챙기기"
+		objective_label.text = "서리골의 아침\n마르타와 아침 이야기 나누기"
 
 func _save_game(notify := true) -> bool:
-	var save := {"version":1,"map":map_id,"position":[walker.target.x,walker.target.z],"medicine":has_medicine,"leon":met_leon,"arrived":arrived}
+	var save := {"version":2,"story":story.flags.duplicate(),"map":map_id,"position":[walker.target.x,walker.target.z],"medicine":has_medicine,"leon":met_leon,"arrived":arrived}
 	var file := FileAccess.open(SAVE_PATH,FileAccess.WRITE)
 	if file == null:
 		if notify: _toast("저장하지 못했습니다. 저장 공간을 확인해 주세요.")
@@ -800,7 +904,7 @@ func _load_game() -> void:
 		_toast("아직 저장된 여행이 없습니다")
 		return
 	var value = JSON.parse_string(FileAccess.get_file_as_string(SAVE_PATH))
-	if not value is Dictionary or value.get("version") != 1:
+	if not value is Dictionary or (value.get("version") != 1 and value.get("version") != 2):
 		_toast("저장 기록을 읽을 수 없습니다")
 		return
 	var index := int(value.get("map",-1))
@@ -815,6 +919,11 @@ func _load_game() -> void:
 	if not (coords[0] is float or coords[0] is int) or not (coords[1] is float or coords[1] is int):
 		_toast("저장 기록을 읽을 수 없습니다")
 		return
+	if not story.restore(int(value.version),value.medicine,value.leon,value.arrived,value.get("story")):
+		_toast("이야기 진행 기록을 읽을 수 없습니다")
+		return
+	history_panel.hide()
+	dialogue_history.clear()
 	has_medicine = value.medicine
 	met_leon = value.leon
 	arrived = value.arrived
@@ -837,6 +946,12 @@ func _safe_spawn(index: int) -> Vector3:
 	return [Vector3(0,0,4),Vector3(0,0,12),Vector3(0,0,23),Vector3(-2,0,13)][index]
 
 func _new_game() -> void:
+	story.reset()
+	dialogue_history.clear()
+	history_panel.hide()
+	dialog_panel.hide()
+	dialog_lines.clear()
+	dialog_action = Callable()
 	has_medicine = false
 	met_leon = false
 	arrived = false
@@ -846,7 +961,7 @@ func _new_game() -> void:
 	pause_screen.hide()
 	hud.show()
 	_load_map(0,Vector3(-3,0,3.8))
-	_toast("서리골의 아침 · 마르타가 여행 준비를 하고 있다")
+	_play_scene("opening")
 
 func _set_pause(value: bool) -> void:
 	paused = value
@@ -857,6 +972,7 @@ func _set_pause(value: bool) -> void:
 	prompt_label.visible = false
 
 func _toast(message: String) -> void:
+	if qa_mode: print("QA_NOTICE: ",message)
 	toast_label.text = message
 	toast_label.modulate.a = 1
 	var tween := create_tween()
@@ -987,6 +1103,7 @@ func _setup_ui() -> void:
 	toast_label.add_theme_color_override("font_shadow_color",Color("183b32"))
 	toast_label.add_theme_constant_override("shadow_outline_size",8)
 	_make_dialog_ui()
+	_make_history_ui()
 	_make_title_ui()
 	_make_pause_ui()
 	fade = ColorRect.new()
@@ -1000,7 +1117,7 @@ func _make_dialog_ui() -> void:
 	dialog_panel.set_anchors_and_offsets_preset(Control.PRESET_BOTTOM_WIDE)
 	dialog_panel.offset_left = 100
 	dialog_panel.offset_right = -100
-	dialog_panel.offset_top = -228
+	dialog_panel.offset_top = -270
 	dialog_panel.offset_bottom = -32
 	dialog_panel.add_theme_stylebox_override("panel",_panel_style(Color("e9e1c8"),Color("9e9169")))
 	ui_root.add_child(dialog_panel)
@@ -1020,9 +1137,16 @@ func _make_dialog_ui() -> void:
 	dialog_label = _label(stack,"",22,Color("293b31"))
 	dialog_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	dialog_label.size_flags_vertical = Control.SIZE_EXPAND_FILL
-	var next := _button(stack,"다음  ·  E / Enter",_advance_dialog)
-	next.custom_minimum_size = Vector2(180,32)
-	next.size_flags_horizontal = Control.SIZE_SHRINK_END
+	var actions := HBoxContainer.new()
+	stack.add_child(actions)
+	dialog_progress = _label(actions,"",14,Color("49624e"))
+	dialog_progress.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	var history_button := _button(actions,"지난 대화 · Tab",_toggle_history)
+	history_button.custom_minimum_size = Vector2(180,36)
+	history_button.focus_mode = Control.FOCUS_NONE
+	dialog_next = _button(actions,"다음",_advance_dialog)
+	dialog_next.custom_minimum_size = Vector2(240,36)
+	dialog_next.focus_mode = Control.FOCUS_NONE
 	dialog_panel.hide()
 
 func _make_title_ui() -> void:
@@ -1063,13 +1187,14 @@ func _make_pause_ui() -> void:
 	pause_screen.add_child(shade)
 	var stack := VBoxContainer.new()
 	stack.set_anchors_and_offsets_preset(Control.PRESET_CENTER)
-	stack.position = Vector2(-180,-220)
-	stack.size = Vector2(360,440)
+	stack.position = Vector2(-180,-260)
+	stack.size = Vector2(360,520)
 	stack.add_theme_constant_override("separation",12)
 	pause_screen.add_child(stack)
 	_label(stack,"잠시 쉬어 가기",30,Color("e8dbb4"))
 	_label(stack,"F5 저장   ·   F9 불러오기   ·   M 지도\n우클릭 목적지 이동   ·   휠 화면 확대",15,Color("aebfa9"))
 	_button(stack,"여행 계속하기",func(): _set_pause(false))
+	_button(stack,"지난 대화 보기 · Tab",_toggle_history)
 	_button(stack,"여행 기록하기",func(): _save_game())
 	_button(stack,"기록 불러오기",_load_game)
 	_button(stack,"글자 크기 조절",_toggle_text_scale)
@@ -1088,12 +1213,29 @@ func _run_qa() -> void:
 	await get_tree().process_frame
 	var errors: Array[String] = []
 	_new_game()
+	if story.done("morning"): errors.append("Opening committed before conversation finished")
+	_qa_finish_dialog()
+	if not story.done("morning"): errors.append("Opening did not complete")
+	_qa_interact("medicine")
+	if has_medicine: errors.append("Parcel available before request")
+	_load_map(1,_safe_spawn(1))
+	_qa_interact("inn")
+	if not story.done("towels") or story.done("water"): errors.append("Inn errand state incorrect")
+	_qa_interact("water")
+	if not story.errands_done(): errors.append("Morning errands did not complete")
+	_qa_interact("water")
+	if active_scene != "well_again": errors.append("Repeat errand repeats first scene")
+	_load_map(0,_safe_spawn(0))
+	_qa_interact("marta")
+	if not story.done("request"): errors.append("Delivery request not connected")
 	if not _blocked(Vector3(0,0,0)): errors.append("Home table collision missing")
 	if _blocked(hero.position): errors.append("Home spawn blocked")
 	current_interaction = interactions.filter(func(p): return p.kind == "medicine")[0]
 	_activate_interaction()
 	while dialog_panel.visible: _advance_dialog()
 	if not has_medicine: errors.append("Medicine interaction failed")
+	_qa_interact("marta")
+	if not story.done("farewell"): errors.append("Farewell missing")
 	walker.direction = Vector2i.LEFT
 	_set_walk_frame()
 	if not hero_sprite.flip_h or hero_sprite.frame < 8 or hero_sprite.frame > 11: errors.append("Left walk does not reuse right gait")
@@ -1152,10 +1294,19 @@ func _run_qa() -> void:
 	_activate_interaction()
 	while dialog_panel.visible: _advance_dialog()
 	if not arrived: errors.append("Delivery interaction failed")
+	_qa_interact("leon_arrival")
+	if not story.done("closing"): errors.append("Closing scene missing")
+	var history_key := InputEventKey.new()
+	history_key.keycode = KEY_TAB
+	history_key.pressed = true
+	_input(history_key)
+	if not history_panel.visible or not history_text.text.contains("그래서 둘 이름을 적는 거다"): errors.append("Dialogue history missing")
+	_input(history_key)
+	if history_panel.visible: errors.append("Tab failed to close history")
 	if not _save_game(false): errors.append("Save failed")
 	_load_map(0,_safe_spawn(0))
 	_load_game()
-	if map_id != 3 or not arrived or not has_medicine or not met_leon: errors.append("Save roundtrip failed")
+	if map_id != 3 or not arrived or not has_medicine or not met_leon or not story.done("closing"): errors.append("Save roundtrip failed")
 	if old_save.is_empty():
 		DirAccess.remove_absolute(SAVE_PATH)
 	else:
@@ -1266,7 +1417,7 @@ func _make_binding_ui() -> void:
 	binding_panel.hide()
 
 func _rebind(event: InputEventKey) -> void:
-	if event.keycode in [KEY_F5,KEY_F9,KEY_SPACE,KEY_ESCAPE,KEY_SHIFT,KEY_M]:
+	if event.keycode in [KEY_F5,KEY_F9,KEY_SPACE,KEY_ESCAPE,KEY_SHIFT,KEY_M,KEY_TAB]:
 		_toast("이 키는 메뉴·저장·지도 조작에 사용 중입니다")
 		return
 	for action: String in rebind_buttons:
@@ -1495,3 +1646,168 @@ func _run_walk_capture() -> void:
 				frame_index += 1
 	print("WALK_CAPTURE_COMPLETE: ",frame_index," frames")
 	get_tree().quit()
+
+func _near_story_cast(pos: Vector2) -> bool:
+	for point in [Vector2(-12,-7),Vector2(5,12),Vector2(-5,6.5),Vector2(12,-3.5),Vector2(3.5,-13)]:
+		if pos.distance_to(point) < 2.8: return true
+	return false
+
+func _story_npc(npc_name: String, pos: Vector3, kind: String) -> void:
+	# Import a board's front pose at runtime. Flood only the connected paper
+	# background, preserving enclosed cream clothes, then anchor the opaque feet.
+	var key: String = CAST[npc_name]
+	if not cast_textures.has(key):
+		var source: Texture2D = load("res://story/cast/" + key + "-board-v1.png")
+		var image := source.get_image().get_region(Rect2i(600,150,295,390))
+		image.convert(Image.FORMAT_RGBA8)
+		var width := image.get_width()
+		var height := image.get_height()
+		var visited := PackedByteArray()
+		visited.resize(width*height)
+		var queue: Array[Vector2i] = []
+		for x in range(width):
+			queue.append(Vector2i(x,0))
+			queue.append(Vector2i(x,height-1))
+		for y in range(height):
+			queue.append(Vector2i(0,y))
+			queue.append(Vector2i(width-1,y))
+		var cursor := 0
+		while cursor < queue.size():
+			var cell := queue[cursor]
+			cursor += 1
+			if cell.x < 0 or cell.y < 0 or cell.x >= width or cell.y >= height: continue
+			var index := cell.y*width+cell.x
+			if visited[index]: continue
+			visited[index] = 1
+			var color := image.get_pixelv(cell)
+			if color.r < 0.76 or color.g < 0.72 or color.b < 0.62: continue
+			image.set_pixelv(cell,Color.TRANSPARENT)
+			for offset in [Vector2i.LEFT,Vector2i.RIGHT,Vector2i.UP,Vector2i.DOWN]: queue.append(cell+offset)
+		var used := image.get_used_rect()
+		cast_textures[key] = ImageTexture.create_from_image(image.get_region(used))
+	var actor := Node3D.new()
+	actor.name = key
+	actor.position = pos
+	map_root.add_child(actor)
+	var sprite := Sprite3D.new()
+	sprite.texture = cast_textures[key]
+	sprite.billboard = BaseMaterial3D.BILLBOARD_ENABLED
+	sprite.texture_filter = BaseMaterial3D.TEXTURE_FILTER_NEAREST
+	sprite.shaded = false
+	sprite.alpha_cut = SpriteBase3D.ALPHA_CUT_DISCARD
+	var character_height := 1.65 if key == "nia" else 2.35
+	sprite.pixel_size = character_height / sprite.texture.get_height()
+	sprite.offset.y = sprite.texture.get_height()/2.0
+	sprite.position.y = 0.04
+	actor.add_child(sprite)
+	_marker(pos+Vector3(0,character_height*CAMERA_OFFSET.length()/CAMERA_OFFSET.z+0.4,0),npc_name)
+	obstacles.append(Rect2(pos.x-0.35,pos.z-0.35,0.7,0.7))
+	_interact(Vector2(pos.x,pos.z),npc_name+"와 이야기하기",kind)
+
+func _make_history_ui() -> void:
+	history_panel = PanelContainer.new()
+	history_panel.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	history_panel.offset_left = 100
+	history_panel.offset_top = 70
+	history_panel.offset_right = -100
+	history_panel.offset_bottom = -70
+	history_panel.add_theme_stylebox_override("panel",_panel_style(Color("101d39")))
+	ui_root.add_child(history_panel)
+	var stack := VBoxContainer.new()
+	history_panel.add_child(stack)
+	_label(stack,"여행 중 나눈 이야기",27,Color("efddb4"))
+	_label(stack,"이번에 이어서 플레이한 대화 기록 · Tab / Esc 닫기",14,Color("b7c5b9"))
+	history_text = RichTextLabel.new()
+	history_text.size_flags_vertical = Control.SIZE_EXPAND_FILL
+	history_text.add_theme_font_override("normal_font",body_font)
+	history_text.add_theme_font_size_override("normal_font_size",20)
+	history_text.add_theme_color_override("default_color",Color("ece4cf"))
+	history_text.add_theme_constant_override("line_separation",8)
+	stack.add_child(history_text)
+	var close := _button(stack,"이야기로 돌아가기",_toggle_history)
+	close.focus_mode = Control.FOCUS_NONE
+	history_panel.hide()
+
+func _toggle_history() -> void:
+	if history_panel.visible:
+		history_panel.hide()
+		if is_instance_valid(history_return_focus): history_return_focus.grab_focus()
+		return
+	history_return_focus = get_viewport().gui_get_focus_owner()
+	pending_step = Vector2i.ZERO
+	has_walk_target = false
+	route.clear()
+	var text := ""
+	var prior_scene := "__none__"
+	for line in dialogue_history:
+		if line.scene != prior_scene:
+			text += "\n── " + story.title(line.scene) + " ──\n\n"
+			prior_scene = line.scene
+		text += line.speaker + "\n" + line.text + "\n\n"
+	history_text.text = text if not text.is_empty() else "아직 나눈 이야기가 없습니다."
+	history_panel.show()
+	ui_root.move_child(history_panel,-1)
+	history_text.call_deferred("scroll_to_line",maxi(0,history_text.get_line_count()-1))
+
+
+func _qa_finish_dialog() -> void:
+	var budget := 1000
+	while dialog_panel.visible and budget > 0:
+		_advance_dialog()
+		budget -= 1
+	assert(budget > 0,"Dialogue callback loop")
+
+func _qa_interact(kind: String) -> void:
+	current_interaction = interactions.filter(func(point): return point.kind == kind)[0]
+	_activate_interaction()
+	_qa_finish_dialog()
+
+func _run_story_capture() -> void:
+	qa_mode = true
+	_new_game()
+	for i in range(5): _advance_dialog()
+	await _story_screenshot("07-story-home")
+	_qa_finish_dialog()
+	_load_map(1,Vector3(-3,0,11))
+	await _story_screenshot("08-story-village")
+	_play_scene("inn_first")
+	for i in range(6): _advance_dialog()
+	await _story_screenshot("09-story-orman")
+	_qa_finish_dialog()
+	_load_map(2,Vector3(8,0,5))
+	_play_scene("leon_first")
+	for i in range(10): _advance_dialog()
+	await _story_screenshot("10-story-leon")
+	_qa_finish_dialog()
+	_load_map(3,Vector3(5,0,1))
+	_play_scene("delivery")
+	for i in range(8): _advance_dialog()
+	await _story_screenshot("11-story-delivery")
+	_qa_finish_dialog()
+	_play_scene("closing")
+	_qa_finish_dialog()
+	_toggle_history()
+	await _story_screenshot("12-story-history")
+	get_tree().quit()
+
+func _story_screenshot(filename: String) -> void:
+	for frame in range(8): await get_tree().process_frame
+	await RenderingServer.frame_post_draw
+	get_viewport().get_texture().get_image().save_png("res://../docs/screenshots/"+filename+".png")
+	print("STORY_CAPTURE: ",filename)
+
+
+func _environment_prop(id: String, pos: Vector3) -> void:
+	var scene: PackedScene = load("res://assets/environment/scenes/"+id+".tscn")
+	var node := scene.instantiate() as Node3D
+	node.position = pos
+	map_root.add_child(node)
+	for rect in node.get_meta("grid_obstacles",[]):
+		obstacles.append(Rect2(pos.x+float(rect[0]),pos.z+float(rect[1]),float(rect[2]),float(rect[3])))
+
+func _input(event: InputEvent) -> void:
+	# Tab must reach the history action before GUI keyboard focus consumes it.
+	if event is InputEventKey and event.pressed and not event.echo and rebind_action.is_empty():
+		if (event.keycode == KEY_TAB and started and not transitioning) or (event.keycode == KEY_ESCAPE and history_panel.visible):
+			_toggle_history()
+			get_viewport().set_input_as_handled()
