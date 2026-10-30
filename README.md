@@ -48,4 +48,5 @@ Springbound Frontier · 가제
 
 [캐릭터 보드 7장](docs/character-boards.md)
 
+[인간 적군 보드 14종](docs/enemy-character-boards.md) — 주요 인물 6명·일반 병종 8종. [HTML 갤러리](assets/enemy-boards/index.html).
 [방패 조합 기획과 시안](docs/shield-loadouts.md) — 한손검+방패·단검+버클러 각 16포즈, 방패 외형 5종. [통합 HTML 갤러리](assets/combat-motion-boards/ael/index.html).
