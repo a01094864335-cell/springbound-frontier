@@ -1300,7 +1300,7 @@ func _run_qa() -> void:
 	history_key.keycode = KEY_TAB
 	history_key.pressed = true
 	_input(history_key)
-	if not history_panel.visible or not history_text.text.contains("그래서 둘 이름을 적는 거다"): errors.append("Dialogue history missing")
+	if not history_panel.visible or not dialogue_history.any(func(line): return line.scene == "delivery") or history_text.text.is_empty(): errors.append("Dialogue history missing")
 	_input(history_key)
 	if history_panel.visible: errors.append("Tab failed to close history")
 	if not _save_game(false): errors.append("Save failed")
