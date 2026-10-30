@@ -14,6 +14,9 @@ Springbound Frontier · 가제
 
 ## 작업자 시작 문서
 
+[전투 장비 권한·모션 기획](docs/combat-equipment-and-motion-spec.md) · [에셋 기획·구현 가드레일](docs/asset-planning-guardrails.md)
+
+[에일 무기별 전투·승리 키포즈 시안](docs/ael-combat-motion-boards.md)
 [아이템 외형 80종](docs/item-design-boards.md) — 장비 각 5종 변형과 기본 물품, 보드 15장
 [NPC 전체 제작 목록](docs/npc-registry.md) · [이름 없는 NPC 14종 보드](docs/generic-npc-boards.md)
 
