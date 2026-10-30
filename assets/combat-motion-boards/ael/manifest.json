@@ -1,8 +1,8 @@
 {
   "date": "2026-10-29",
   "character": "ael",
-  "scope": "5 weapon keypose reference sheets; not animation clips or production atlases",
-  "pose_count": 60,
+  "scope": "7 loadout keypose reference sheets; not animation clips or production atlases",
+  "pose_count": 92,
   "boards": [
     {
       "id": "sword",
@@ -191,6 +191,84 @@
       "review_notes": [
         "개별 투명 프레임·4방향 중간 프레임·발 원점·클립 타이밍 정리 필요",
         "현재 시안은 전방 찌르기형 물리 타격. 가로 스윙 대안은 후속 검토"
+      ]
+    },
+    {
+      "id": "sword-shield",
+      "name": "한손검 + 방패",
+      "file": "ael-sword-shield-keyposes-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "20c4c246d2a84c140450cd62b62692eef3983bd5af9b033dd8afaa2500c15f85",
+      "prompt": "Create a LANDSCAPE PIXEL-ART COMBAT KEY-POSE REFERENCE SHEET for AEL from the supplied board. Preserve the exact brown tousled hair, green eyes, simple forest-green cloak, ivory tunic, brown gloves, dark trousers, brown boots and small herb satchel, roughly 3-head-tall crisp classic JRPG pixel proportions. No smooth illustrated characters or extra portraits. Warm ivory background, fine thin grid and modest header AEL. EXACTLY FOUR ROWS BY FOUR COLUMNS, 16 cells, one complete full-body pixel-art pose per cell, consistent body scale, feet on same baseline in standing cells. Generous padding so all weapon and shield edges stay within own cell. Directions and order in reading order: 1 FRONT READY, 2 RIGHT READY, 3 BACK READY, 4 ATTACK PREPARE; 5 ATTACK CONTACT, 6 ATTACK RECOVER, 7 GUARD RAISE, 8 GUARD IMPACT; 9 GUARD RECOVER, 10 HIT REACTION, 11 KNOCKED OUT, 12 VICTORY START; 13 VICTORY BREATH, 14 VICTORY ALLY CHECK, 15 RIGHT WALK STEP A, 16 RIGHT WALK STEP B. Front/right/back ready show equipment correctly oriented; action poses face right except victory faces front. Guard poses show shield raised to protect front, then braced impact with actual distinct elbow/body positions, then lower to ready, no huge sparks or enemies. Hit reaction is a failure to guard, not another shield impact. Victory: lower blade AND shield safely, shoulders relax with a short breath, then turn head toward companions with gentle relieved smile, never drop shield or use an occupied hand to touch chest. Walk step A/B legs visibly different, grounded contact no arbitrary bounce. No text paragraphs, no stats, no scene, no UI. Labels short English under each cell. This is a motion design reference, not a production animation atlas. TITLE: AEL / 한손검 + 방패. Equipment: one practical straight steel one-handed sword with navy grip held in Ael's RIGHT hand; medium-small round wooden shield with plain steel rim and dark navy central boss firmly strapped to LEFT forearm, never swapping hands. Shield about torso-width, below face. Attack: controlled diagonal sword cut to the right, while the shield stays protecting the left/front torso; sword arm is independent of shield, never two-handed grip.",
+      "runtime_connected": false,
+      "pose_count": 16,
+      "pose_order": [
+        "front_ready",
+        "right_ready",
+        "back_ready",
+        "attack_prepare",
+        "attack_contact",
+        "attack_recover",
+        "guard_raise",
+        "guard_impact",
+        "guard_recover",
+        "hit_reaction",
+        "knocked_out",
+        "victory_start",
+        "victory_breath",
+        "victory_ally_check",
+        "right_walk_step_a",
+        "right_walk_step_b"
+      ],
+      "grid": {
+        "rows": 4,
+        "columns": 4
+      },
+      "status": "keypose_reference_not_runtime_animation",
+      "review_notes": [
+        "개별 투명 프레임·4방향 중간 프레임·발 원점·클립 타이밍 정리 필요",
+        "방어 키포즈는 방어 판정 구현을 의미하지 않음"
+      ]
+    },
+    {
+      "id": "dagger-buckler",
+      "name": "단검 + 소형 방패",
+      "file": "ael-dagger-buckler-keyposes-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "90f232d42e92d662a8a585b0c78e6d3623f9511fabba01f13f977dbbc237c1e6",
+      "prompt": "Create a LANDSCAPE PIXEL-ART COMBAT KEY-POSE REFERENCE SHEET for AEL from the supplied board. Preserve the exact brown tousled hair, green eyes, simple forest-green cloak, ivory tunic, brown gloves, dark trousers, brown boots and small herb satchel, roughly 3-head-tall crisp classic JRPG pixel proportions. No smooth illustrated characters or extra portraits. Warm ivory background, fine thin grid and modest header AEL. EXACTLY FOUR ROWS BY FOUR COLUMNS, 16 cells, one complete full-body pixel-art pose per cell, consistent body scale, feet on same baseline in standing cells. Generous padding so all weapon and shield edges stay within own cell. Directions and order in reading order: 1 FRONT READY, 2 RIGHT READY, 3 BACK READY, 4 ATTACK PREPARE; 5 ATTACK CONTACT, 6 ATTACK RECOVER, 7 GUARD RAISE, 8 GUARD IMPACT; 9 GUARD RECOVER, 10 HIT REACTION, 11 KNOCKED OUT, 12 VICTORY START; 13 VICTORY BREATH, 14 VICTORY ALLY CHECK, 15 RIGHT WALK STEP A, 16 RIGHT WALK STEP B. Front/right/back ready show equipment correctly oriented; action poses face right except victory faces front. Guard poses show shield raised to protect front, then braced impact with actual distinct elbow/body positions, then lower to ready, no huge sparks or enemies. Hit reaction is a failure to guard, not another shield impact. Victory: lower blade AND shield safely, shoulders relax with a short breath, then turn head toward companions with gentle relieved smile, never drop shield or use an occupied hand to touch chest. Walk step A/B legs visibly different, grounded contact no arbitrary bounce. No text paragraphs, no stats, no scene, no UI. Labels short English under each cell. This is a motion design reference, not a production animation atlas. TITLE: AEL / 단검 + 소형 방패. Equipment: one short simple steel dagger in Ael's RIGHT hand in forward grip; one compact round iron buckler in LEFT hand via center grip, buckler diameter much smaller than torso width, no large shield and no second dagger; never swap hands. Attack: compact short forward dagger slash to the right, while left buckler covers front hand/torso; no throwing weapons, no acrobatic spin.",
+      "runtime_connected": false,
+      "pose_count": 16,
+      "pose_order": [
+        "front_ready",
+        "right_ready",
+        "back_ready",
+        "attack_prepare",
+        "attack_contact",
+        "attack_recover",
+        "guard_raise",
+        "guard_impact",
+        "guard_recover",
+        "hit_reaction",
+        "knocked_out",
+        "victory_start",
+        "victory_breath",
+        "victory_ally_check",
+        "right_walk_step_a",
+        "right_walk_step_b"
+      ],
+      "grid": {
+        "rows": 4,
+        "columns": 4
+      },
+      "status": "keypose_reference_not_runtime_animation",
+      "review_notes": [
+        "개별 투명 프레임·4방향 중간 프레임·발 원점·클립 타이밍 정리 필요",
+        "방어 키포즈는 방어 판정 구현을 의미하지 않음"
       ]
     }
   ],

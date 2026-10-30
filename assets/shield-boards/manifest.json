@@ -1,0 +1,20 @@
+{
+  "id": "shields",
+  "name": "방패 5종",
+  "file": "shields-board-v1.png",
+  "version": 1,
+  "width": 1774,
+  "height": 887,
+  "sha256": "fbd73caee3b857aa49b85bcab9fda434dd3b9816374f9f6b61f7f6030e4edefd",
+  "prompt": "Create ONE landscape equipment design board for original fantasy JRPG Springbound Frontier. Warm ivory background, fine charcoal rules, clear restrained serif heading SHIELDS / 방패. FIVE equal-width columns, one complete shield illustration per column, no people, no hands, no mannequins or scenery. Classic late-1990s fantasy anime clean ink and restrained cel shading. TOP 70% each column ONE complete shield front in subtle three-quarter view, LOWER each column ONE small separate crisp chunky square-pixel inventory icon of same shield, 32x32-style enlarged, then short Korean label and number. Five visual alternatives not power tiers. Left to right: 01 소형 철제 버클러: compact simple round iron buckler with center boss, subtly worn, dark brown grip barely visible at side. 02 여행자 목제 방패: modest round wood board shield with plain leather rim, simple central iron boss, no paint. 03 국경 수비 방패: practical round dark wood shield with plain steel rim, restrained navy center panel and tiny grey geometric faction mark. 04 왕국 제식 방패: simple small heater-shaped steel-edged wood shield, cream-and-muted-burgundy panel and one modest geometric bronze mark, no real-world coat of arms. 05 고대 각인 방패: compact round aged dark steel shield with shallow restrained geometric grooves and tiny muted teal inlay, no glow or huge jewels. All edges completely visible, generous margins, consistent lighting, understated practical designs. No stats, prices, rarity stars, spikes, huge ornament, logos or body paragraphs. Match original item's simple readable visual language.",
+  "runtime_connected": false,
+  "design_count": 5,
+  "status": "equipment_design_reference_not_runtime_sprites",
+  "designs": [
+    "소형 철제 버클러",
+    "여행자 목제 방패",
+    "국경 수비 방패",
+    "왕국 제식 방패",
+    "고대 각인 방패"
+  ]
+}
