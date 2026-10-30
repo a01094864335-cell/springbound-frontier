@@ -1,0 +1,276 @@
+{
+  "date": "2026-10-29",
+  "count": 14,
+  "entries": [
+    {
+      "id": "village-man",
+      "name": "마을 주민 남성",
+      "group": "주민",
+      "regions": [
+        "서리골",
+        "돌샘"
+      ],
+      "design": "man age 38, broad nose, short dark hair, clean-shaven, muted olive wool vest over cream shirt, patched grey trousers, brown boots, wool scarf, a plain market basket, rounded sturdy body",
+      "expressions_ko": "평상·웃음·걱정·놀람",
+      "expressions": "neutral, friendly smile, worried, surprised",
+      "prompt": "Create ONE LANDSCAPE production character archetype reference board for original fantasy JRPG Springbound Frontier. Match reference board LAYOUT AND ART STYLE ONLY, invent a DIFFERENT person: ivory background, fine charcoal rules, restrained serif headings, clean generous spacing. LEFT 35 percent exactly one full-body cel-shaded classic late-1990s Japanese fantasy anime figure from head to boots. TOP RIGHT exactly THREE distinct enlarged low-resolution pixel-art neutral standing sprites FRONT, BACK, RIGHT SIDE, roughly 3-head-tall grounded JRPG proportions, crisp square pixels and 48x64 design language. BOTTOM RIGHT exactly FOUR separate equal head-and-shoulders expression portraits with clear different acting. Exactly 1 full body +3 sprites +4 portraits, same person/outfit across all. No scenes, no additional people, no stats/lore, no animation frames. This is an anonymous reusable NPC archetype, not a unique named hero. Understated common clothing, few belts, little ornament, recognizable job silhouette. No royal jewelry. Main illustration and portraits smooth cel shading; sprite section actual chunky pixel-art. Labels FULL BODY / IN-GAME / FRONT BACK SIDE / EXPRESSIONS. Keep all components fully visible. Title VILLAGE MAN / 마을 주민 남성. Design: man age 38, broad nose, short dark hair, clean-shaven, muted olive wool vest over cream shirt, patched grey trousers, brown boots, wool scarf, a plain market basket, rounded sturdy body. Four expression portraits: neutral, friendly smile, worried, surprised.",
+      "file": "village-man-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "107f143e08a22af9bdf8fbc2d6db96c5a07c348381d5b183de24bf37b5b8388e",
+      "asset_status": "visual_reference_board",
+      "version": 1
+    },
+    {
+      "id": "village-woman",
+      "name": "마을 주민 여성",
+      "group": "주민",
+      "regions": [
+        "서리골",
+        "돌샘"
+      ],
+      "design": "woman age 35, copper-brown hair in a tight braid, freckled round face, muted dusty blue shawl, cream blouse, practical russet long skirt, brown boots, carrying folded linen, average sturdy build",
+      "expressions_ko": "평상·환영·불만·안도",
+      "expressions": "neutral, welcoming smile, irritated, relieved",
+      "prompt": "Create ONE LANDSCAPE production character archetype reference board for original fantasy JRPG Springbound Frontier. Match reference board LAYOUT AND ART STYLE ONLY, invent a DIFFERENT person: ivory background, fine charcoal rules, restrained serif headings, clean generous spacing. LEFT 35 percent exactly one full-body cel-shaded classic late-1990s Japanese fantasy anime figure from head to boots. TOP RIGHT exactly THREE distinct enlarged low-resolution pixel-art neutral standing sprites FRONT, BACK, RIGHT SIDE, roughly 3-head-tall grounded JRPG proportions, crisp square pixels and 48x64 design language. BOTTOM RIGHT exactly FOUR separate equal head-and-shoulders expression portraits with clear different acting. Exactly 1 full body +3 sprites +4 portraits, same person/outfit across all. No scenes, no additional people, no stats/lore, no animation frames. This is an anonymous reusable NPC archetype, not a unique named hero. Understated common clothing, few belts, little ornament, recognizable job silhouette. No royal jewelry. Main illustration and portraits smooth cel shading; sprite section actual chunky pixel-art. Labels FULL BODY / IN-GAME / FRONT BACK SIDE / EXPRESSIONS. Keep all components fully visible. Title VILLAGE WOMAN / 마을 주민 여성. Design: woman age 35, copper-brown hair in a tight braid, freckled round face, muted dusty blue shawl, cream blouse, practical russet long skirt, brown boots, carrying folded linen, average sturdy build. Four expression portraits: neutral, welcoming smile, irritated, relieved.",
+      "file": "village-woman-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e667ecaa5ec0bfa904e51877cad5f3e0572d96791e6069622970ebe3c181c1e4",
+      "asset_status": "visual_reference_board",
+      "version": 1
+    },
+    {
+      "id": "village-child",
+      "name": "마을 아이 공통형",
+      "group": "주민",
+      "regions": [
+        "서리골",
+        "돌샘"
+      ],
+      "design": "boy age 8, short straight black hair, round child face, muted blue knitted hat, moss green puffy wool coat, mittens, charcoal leggings and small brown boots, simple wooden spinning top in hand, clear childlike proportions, no makeup",
+      "expressions_ko": "호기심·즐거움·겁먹음·삐침",
+      "expressions": "curious, delighted, frightened, pouting",
+      "prompt": "Create ONE LANDSCAPE production character archetype reference board for original fantasy JRPG Springbound Frontier. Match reference board LAYOUT AND ART STYLE ONLY, invent a DIFFERENT person: ivory background, fine charcoal rules, restrained serif headings, clean generous spacing. LEFT 35 percent exactly one full-body cel-shaded classic late-1990s Japanese fantasy anime figure from head to boots. TOP RIGHT exactly THREE distinct enlarged low-resolution pixel-art neutral standing sprites FRONT, BACK, RIGHT SIDE, roughly 3-head-tall grounded JRPG proportions, crisp square pixels and 48x64 design language. BOTTOM RIGHT exactly FOUR separate equal head-and-shoulders expression portraits with clear different acting. Exactly 1 full body +3 sprites +4 portraits, same person/outfit across all. No scenes, no additional people, no stats/lore, no animation frames. This is an anonymous reusable NPC archetype, not a unique named hero. Understated common clothing, few belts, little ornament, recognizable job silhouette. No royal jewelry. Main illustration and portraits smooth cel shading; sprite section actual chunky pixel-art. Labels FULL BODY / IN-GAME / FRONT BACK SIDE / EXPRESSIONS. Keep all components fully visible. Title VILLAGE CHILD / 마을 아이 공통형. Design: boy age 8, short straight black hair, round child face, muted blue knitted hat, moss green puffy wool coat, mittens, charcoal leggings and small brown boots, simple wooden spinning top in hand, clear childlike proportions, no makeup. Four expression portraits: curious, delighted, frightened, pouting.",
+      "file": "village-child-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7f01b6aded6e44a65488b4c243c9de8c517988d895bdc93debfb8753f5e20126",
+      "asset_status": "visual_reference_board",
+      "version": 1
+    },
+    {
+      "id": "elder-resident",
+      "name": "노년 주민 공통형",
+      "group": "주민",
+      "regions": [
+        "서리골",
+        "돌샘"
+      ],
+      "design": "woman age 72 visibly elderly, silver hair in a compact bun, warm wrinkled broad face and heavy eyelids, muted plum shawl, layered brown dress, practical cane, plain boots, slightly stooped posture, capable and dignified not frail caricature",
+      "expressions_ko": "평상·인자함·걱정·단호함",
+      "expressions": "neutral, warm smile, concerned, firm",
+      "prompt": "Create ONE LANDSCAPE production character archetype reference board for original fantasy JRPG Springbound Frontier. Match reference board LAYOUT AND ART STYLE ONLY, invent a DIFFERENT person: ivory background, fine charcoal rules, restrained serif headings, clean generous spacing. LEFT 35 percent exactly one full-body cel-shaded classic late-1990s Japanese fantasy anime figure from head to boots. TOP RIGHT exactly THREE distinct enlarged low-resolution pixel-art neutral standing sprites FRONT, BACK, RIGHT SIDE, roughly 3-head-tall grounded JRPG proportions, crisp square pixels and 48x64 design language. BOTTOM RIGHT exactly FOUR separate equal head-and-shoulders expression portraits with clear different acting. Exactly 1 full body +3 sprites +4 portraits, same person/outfit across all. No scenes, no additional people, no stats/lore, no animation frames. This is an anonymous reusable NPC archetype, not a unique named hero. Understated common clothing, few belts, little ornament, recognizable job silhouette. No royal jewelry. Main illustration and portraits smooth cel shading; sprite section actual chunky pixel-art. Labels FULL BODY / IN-GAME / FRONT BACK SIDE / EXPRESSIONS. Keep all components fully visible. Title ELDER RESIDENT / 노년 주민 공통형. Design: woman age 72 visibly elderly, silver hair in a compact bun, warm wrinkled broad face and heavy eyelids, muted plum shawl, layered brown dress, practical cane, plain boots, slightly stooped posture, capable and dignified not frail caricature. Four expression portraits: neutral, warm smile, concerned, firm.",
+      "file": "elder-resident-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "dd0ae09ced7198a87f2a4ab12bf7db8202d4a368b9507b399b2a4720bc2a9b8c",
+      "asset_status": "visual_reference_board",
+      "version": 1
+    },
+    {
+      "id": "wood-worker",
+      "name": "벌목꾼 공통형",
+      "group": "노동자",
+      "regions": [
+        "서리골",
+        "산길"
+      ],
+      "design": "man age 32, muscular broad heavy build, warm brown skin, black close-cropped hair, short beard, faded ochre padded work jacket, dark trousers with knee patches, leather work gloves, heavy boots, wood axe head secured in leather cover at belt, modest small log bundle",
+      "expressions_ko": "평상·웃음·경계·피로",
+      "expressions": "neutral, laugh, alert, tired",
+      "prompt": "Create ONE LANDSCAPE production character archetype reference board for original fantasy JRPG Springbound Frontier. Match reference board LAYOUT AND ART STYLE ONLY, invent a DIFFERENT person: ivory background, fine charcoal rules, restrained serif headings, clean generous spacing. LEFT 35 percent exactly one full-body cel-shaded classic late-1990s Japanese fantasy anime figure from head to boots. TOP RIGHT exactly THREE distinct enlarged low-resolution pixel-art neutral standing sprites FRONT, BACK, RIGHT SIDE, roughly 3-head-tall grounded JRPG proportions, crisp square pixels and 48x64 design language. BOTTOM RIGHT exactly FOUR separate equal head-and-shoulders expression portraits with clear different acting. Exactly 1 full body +3 sprites +4 portraits, same person/outfit across all. No scenes, no additional people, no stats/lore, no animation frames. This is an anonymous reusable NPC archetype, not a unique named hero. Understated common clothing, few belts, little ornament, recognizable job silhouette. No royal jewelry. Main illustration and portraits smooth cel shading; sprite section actual chunky pixel-art. Labels FULL BODY / IN-GAME / FRONT BACK SIDE / EXPRESSIONS. Keep all components fully visible. Title WOOD WORKER / 벌목꾼 공통형. Design: man age 32, muscular broad heavy build, warm brown skin, black close-cropped hair, short beard, faded ochre padded work jacket, dark trousers with knee patches, leather work gloves, heavy boots, wood axe head secured in leather cover at belt, modest small log bundle. Four expression portraits: neutral, laugh, alert, tired.",
+      "file": "wood-worker-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e0177e1ac7e9eef407b979dbb981fd8d2b29d4451afb0d490b32c81489b5d854",
+      "asset_status": "visual_reference_board",
+      "version": 1
+    },
+    {
+      "id": "miner-common",
+      "name": "광부 공통형",
+      "group": "노동자",
+      "regions": [
+        "돌샘"
+      ],
+      "design": "woman age 30, short dark auburn hair under simple brown cloth cap, square angular face, light coal dust, rolled slate-grey sleeves, reinforced leather work vest, canvas work trousers, heavy boots, short pickaxe safely lowered, plain oil lamp secured at belt, no modern hard hat",
+      "expressions_ko": "집중·동료와 웃음·불안·안도",
+      "expressions": "focused, joking smile, worried, relieved",
+      "prompt": "Create ONE LANDSCAPE production character archetype reference board for original fantasy JRPG Springbound Frontier. Match reference board LAYOUT AND ART STYLE ONLY, invent a DIFFERENT person: ivory background, fine charcoal rules, restrained serif headings, clean generous spacing. LEFT 35 percent exactly one full-body cel-shaded classic late-1990s Japanese fantasy anime figure from head to boots. TOP RIGHT exactly THREE distinct enlarged low-resolution pixel-art neutral standing sprites FRONT, BACK, RIGHT SIDE, roughly 3-head-tall grounded JRPG proportions, crisp square pixels and 48x64 design language. BOTTOM RIGHT exactly FOUR separate equal head-and-shoulders expression portraits with clear different acting. Exactly 1 full body +3 sprites +4 portraits, same person/outfit across all. No scenes, no additional people, no stats/lore, no animation frames. This is an anonymous reusable NPC archetype, not a unique named hero. Understated common clothing, few belts, little ornament, recognizable job silhouette. No royal jewelry. Main illustration and portraits smooth cel shading; sprite section actual chunky pixel-art. Labels FULL BODY / IN-GAME / FRONT BACK SIDE / EXPRESSIONS. Keep all components fully visible. Title MINER COMMON / 광부 공통형. Design: woman age 30, short dark auburn hair under simple brown cloth cap, square angular face, light coal dust, rolled slate-grey sleeves, reinforced leather work vest, canvas work trousers, heavy boots, short pickaxe safely lowered, plain oil lamp secured at belt, no modern hard hat. Four expression portraits: focused, joking smile, worried, relieved.",
+      "file": "miner-common-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "05a8ce2f73aa9d8005086544525e9ddbf05b17ae7e5b8ac0fc3729f0b6dafd3c",
+      "asset_status": "visual_reference_board",
+      "version": 1
+    },
+    {
+      "id": "merchant-common",
+      "name": "행상인 공통형",
+      "group": "상인·여행자",
+      "regions": [
+        "서리골",
+        "돌샘",
+        "남방 도시연맹"
+      ],
+      "design": "man age 42, heavyset round body, warm medium skin, dark neatly trimmed mustache and short hair under a soft rust cap, faded teal coat over brown waistcoat, plain trousers and boots, compact portable goods pack with rolled cloth and small wooden boxes, modest coin purse, everyday merchant not rich noble",
+      "expressions_ko": "영업 미소·흥정·곤란·감사",
+      "expressions": "welcoming sales smile, bargaining appraisal, troubled, grateful",
+      "prompt": "Create ONE LANDSCAPE production character archetype reference board for original fantasy JRPG Springbound Frontier. Match reference board LAYOUT AND ART STYLE ONLY, invent a DIFFERENT person: ivory background, fine charcoal rules, restrained serif headings, clean generous spacing. LEFT 35 percent exactly one full-body cel-shaded classic late-1990s Japanese fantasy anime figure from head to boots. TOP RIGHT exactly THREE distinct enlarged low-resolution pixel-art neutral standing sprites FRONT, BACK, RIGHT SIDE, roughly 3-head-tall grounded JRPG proportions, crisp square pixels and 48x64 design language. BOTTOM RIGHT exactly FOUR separate equal head-and-shoulders expression portraits with clear different acting. Exactly 1 full body +3 sprites +4 portraits, same person/outfit across all. No scenes, no additional people, no stats/lore, no animation frames. This is an anonymous reusable NPC archetype, not a unique named hero. Understated common clothing, few belts, little ornament, recognizable job silhouette. No royal jewelry. Main illustration and portraits smooth cel shading; sprite section actual chunky pixel-art. Labels FULL BODY / IN-GAME / FRONT BACK SIDE / EXPRESSIONS. Keep all components fully visible. Title MERCHANT COMMON / 행상인 공통형. Design: man age 42, heavyset round body, warm medium skin, dark neatly trimmed mustache and short hair under a soft rust cap, faded teal coat over brown waistcoat, plain trousers and boots, compact portable goods pack with rolled cloth and small wooden boxes, modest coin purse, everyday merchant not rich noble. Four expression portraits: welcoming sales smile, bargaining appraisal, troubled, grateful.",
+      "file": "merchant-common-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4afcb8387aee8ec7b2137f62f5d897b6bd068ad826cedc9f923d4a45543fc054",
+      "asset_status": "visual_reference_board",
+      "version": 1
+    },
+    {
+      "id": "traveler-common",
+      "name": "여행자 공통형",
+      "group": "상인·여행자",
+      "regions": [
+        "산길",
+        "남방 도시연맹"
+      ],
+      "design": "woman age 27, slim athletic medium build, straight black bob with a short side braid, tan skin, muted clay-red hooded travel cloak, olive tunic, practical trousers and wrapped boots, simple sturdy backpack and walking staff, no armor or ornate jewelry",
+      "expressions_ko": "평상·친근함·경계·피로",
+      "expressions": "neutral, friendly, guarded, exhausted",
+      "prompt": "Create ONE LANDSCAPE production character archetype reference board for original fantasy JRPG Springbound Frontier. Match reference board LAYOUT AND ART STYLE ONLY, invent a DIFFERENT person: ivory background, fine charcoal rules, restrained serif headings, clean generous spacing. LEFT 35 percent exactly one full-body cel-shaded classic late-1990s Japanese fantasy anime figure from head to boots. TOP RIGHT exactly THREE distinct enlarged low-resolution pixel-art neutral standing sprites FRONT, BACK, RIGHT SIDE, roughly 3-head-tall grounded JRPG proportions, crisp square pixels and 48x64 design language. BOTTOM RIGHT exactly FOUR separate equal head-and-shoulders expression portraits with clear different acting. Exactly 1 full body +3 sprites +4 portraits, same person/outfit across all. No scenes, no additional people, no stats/lore, no animation frames. This is an anonymous reusable NPC archetype, not a unique named hero. Understated common clothing, few belts, little ornament, recognizable job silhouette. No royal jewelry. Main illustration and portraits smooth cel shading; sprite section actual chunky pixel-art. Labels FULL BODY / IN-GAME / FRONT BACK SIDE / EXPRESSIONS. Keep all components fully visible. Title TRAVELER COMMON / 여행자 공통형. Design: woman age 27, slim athletic medium build, straight black bob with a short side braid, tan skin, muted clay-red hooded travel cloak, olive tunic, practical trousers and wrapped boots, simple sturdy backpack and walking staff, no armor or ornate jewelry. Four expression portraits: neutral, friendly, guarded, exhausted.",
+      "file": "traveler-common-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e8b04a7127ebf0537a1843a5e4706fc40b149d0e3818cbacb558237dad257e63",
+      "asset_status": "visual_reference_board",
+      "version": 1
+    },
+    {
+      "id": "arden-soldier-common",
+      "name": "아르덴 일반병",
+      "group": "병사",
+      "regions": [
+        "아르덴",
+        "서리골",
+        "피난 교량"
+      ],
+      "design": "adult man age 25, average build, short brown hair mostly covered by simple iron kettle helmet, clean-shaven, practical common infantry steel breastplate over quilted cream tunic, muted burgundy scarf and cloth insignia, dark trousers, brown boots, plain spear upright and small round shield, rank-and-file not hero, no fancy gold trim",
+      "expressions_ko": "근무·동료와 웃음·경계·두려움",
+      "expressions": "dutiful neutral, small smile, alert, afraid",
+      "prompt": "Create ONE LANDSCAPE production character archetype reference board for original fantasy JRPG Springbound Frontier. Match reference board LAYOUT AND ART STYLE ONLY, invent a DIFFERENT person: ivory background, fine charcoal rules, restrained serif headings, clean generous spacing. LEFT 35 percent exactly one full-body cel-shaded classic late-1990s Japanese fantasy anime figure from head to boots. TOP RIGHT exactly THREE distinct enlarged low-resolution pixel-art neutral standing sprites FRONT, BACK, RIGHT SIDE, roughly 3-head-tall grounded JRPG proportions, crisp square pixels and 48x64 design language. BOTTOM RIGHT exactly FOUR separate equal head-and-shoulders expression portraits with clear different acting. Exactly 1 full body +3 sprites +4 portraits, same person/outfit across all. No scenes, no additional people, no stats/lore, no animation frames. This is an anonymous reusable NPC archetype, not a unique named hero. Understated common clothing, few belts, little ornament, recognizable job silhouette. No royal jewelry. Main illustration and portraits smooth cel shading; sprite section actual chunky pixel-art. Labels FULL BODY / IN-GAME / FRONT BACK SIDE / EXPRESSIONS. Keep all components fully visible. Title ARDEN SOLDIER COMMON / 아르덴 일반병. Design: adult man age 25, average build, short brown hair mostly covered by simple iron kettle helmet, clean-shaven, practical common infantry steel breastplate over quilted cream tunic, muted burgundy scarf and cloth insignia, dark trousers, brown boots, plain spear upright and small round shield, rank-and-file not hero, no fancy gold trim. Four expression portraits: dutiful neutral, small smile, alert, afraid.",
+      "file": "arden-soldier-common-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e8fa900d6da98bb79d6753aa5712098d1676de77cbd41aeaf1134893b8706fc1",
+      "asset_status": "visual_reference_board",
+      "version": 1
+    },
+    {
+      "id": "velk-soldier-common",
+      "name": "벨크 일반병",
+      "group": "병사",
+      "regions": [
+        "벨크",
+        "국경",
+        "북방 시설"
+      ],
+      "design": "adult woman age 28, strong average build, short dark blonde hair mostly covered by simple iron helmet, stern grey eyes, practical common infantry steel breastplate over dark navy quilted tunic, muted blue scarf and plain grey rank tab, dark trousers, fur-lined boots, plain spear and small round shield, rank-and-file not officer, no ornate armor",
+      "expressions_ko": "근무·짧은 웃음·명령·피로",
+      "expressions": "dutiful neutral, restrained smile, calling out, weary",
+      "prompt": "Create ONE LANDSCAPE production character archetype reference board for original fantasy JRPG Springbound Frontier. Match reference board LAYOUT AND ART STYLE ONLY, invent a DIFFERENT person: ivory background, fine charcoal rules, restrained serif headings, clean generous spacing. LEFT 35 percent exactly one full-body cel-shaded classic late-1990s Japanese fantasy anime figure from head to boots. TOP RIGHT exactly THREE distinct enlarged low-resolution pixel-art neutral standing sprites FRONT, BACK, RIGHT SIDE, roughly 3-head-tall grounded JRPG proportions, crisp square pixels and 48x64 design language. BOTTOM RIGHT exactly FOUR separate equal head-and-shoulders expression portraits with clear different acting. Exactly 1 full body +3 sprites +4 portraits, same person/outfit across all. No scenes, no additional people, no stats/lore, no animation frames. This is an anonymous reusable NPC archetype, not a unique named hero. Understated common clothing, few belts, little ornament, recognizable job silhouette. No royal jewelry. Main illustration and portraits smooth cel shading; sprite section actual chunky pixel-art. Labels FULL BODY / IN-GAME / FRONT BACK SIDE / EXPRESSIONS. Keep all components fully visible. Title VELK SOLDIER COMMON / 벨크 일반병. Design: adult woman age 28, strong average build, short dark blonde hair mostly covered by simple iron helmet, stern grey eyes, practical common infantry steel breastplate over dark navy quilted tunic, muted blue scarf and plain grey rank tab, dark trousers, fur-lined boots, plain spear and small round shield, rank-and-file not officer, no ornate armor. Four expression portraits: dutiful neutral, restrained smile, calling out, weary.",
+      "file": "velk-soldier-common-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "ae8ad103b540050f4498dfd91c156ac23b7bb46a8fa74b9fdc864544921b427b",
+      "asset_status": "visual_reference_board",
+      "version": 1
+    },
+    {
+      "id": "dock-worker-common",
+      "name": "항만 인부",
+      "group": "노동자",
+      "regions": [
+        "남방 항구",
+        "해양국"
+      ],
+      "design": "man age 40, muscular stocky build, deep tan skin, short black curly hair and short beard, faded indigo sleeveless work vest over rolled ivory shirt, olive trousers, rope belt, sea boots, thick rope coil slung over shoulder, simple cargo hook kept on belt, weathered broad face",
+      "expressions_ko": "평상·농담·구조 외침·슬픔",
+      "expressions": "neutral, joking grin, urgent shout, saddened",
+      "prompt": "Create ONE LANDSCAPE production character archetype reference board for original fantasy JRPG Springbound Frontier. Match reference board LAYOUT AND ART STYLE ONLY, invent a DIFFERENT person: ivory background, fine charcoal rules, restrained serif headings, clean generous spacing. LEFT 35 percent exactly one full-body cel-shaded classic late-1990s Japanese fantasy anime figure from head to boots. TOP RIGHT exactly THREE distinct enlarged low-resolution pixel-art neutral standing sprites FRONT, BACK, RIGHT SIDE, roughly 3-head-tall grounded JRPG proportions, crisp square pixels and 48x64 design language. BOTTOM RIGHT exactly FOUR separate equal head-and-shoulders expression portraits with clear different acting. Exactly 1 full body +3 sprites +4 portraits, same person/outfit across all. No scenes, no additional people, no stats/lore, no animation frames. This is an anonymous reusable NPC archetype, not a unique named hero. Understated common clothing, few belts, little ornament, recognizable job silhouette. No royal jewelry. Main illustration and portraits smooth cel shading; sprite section actual chunky pixel-art. Labels FULL BODY / IN-GAME / FRONT BACK SIDE / EXPRESSIONS. Keep all components fully visible. Title DOCK WORKER COMMON / 항만 인부. Design: man age 40, muscular stocky build, deep tan skin, short black curly hair and short beard, faded indigo sleeveless work vest over rolled ivory shirt, olive trousers, rope belt, sea boots, thick rope coil slung over shoulder, simple cargo hook kept on belt, weathered broad face. Four expression portraits: neutral, joking grin, urgent shout, saddened.",
+      "file": "dock-worker-common-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "be750bd8d38a449f2ca6a5366375f1bfb2e1ea07441c98e9bbcf9d9ea36b27b4",
+      "asset_status": "visual_reference_board",
+      "version": 1
+    },
+    {
+      "id": "field-acolyte-common",
+      "name": "구호 사제 공통형",
+      "group": "교단·연구",
+      "regions": [
+        "성역",
+        "피난 거점"
+      ],
+      "design": "woman age 24, dark brown skin, tightly curled black hair tied back under a plain ivory headscarf, soft oval face, simple off-white practical clerical robe to calf over dark trousers, muted plum shoulder cloth, plain boots, canvas relief satchel and clean bandage rolls, humble field worker no fancy religious symbols",
+      "expressions_ko": "평상·위로·단호함·애도",
+      "expressions": "attentive, reassuring smile, firm, grieving",
+      "prompt": "Create ONE LANDSCAPE production character archetype reference board for original fantasy JRPG Springbound Frontier. Match reference board LAYOUT AND ART STYLE ONLY, invent a DIFFERENT person: ivory background, fine charcoal rules, restrained serif headings, clean generous spacing. LEFT 35 percent exactly one full-body cel-shaded classic late-1990s Japanese fantasy anime figure from head to boots. TOP RIGHT exactly THREE distinct enlarged low-resolution pixel-art neutral standing sprites FRONT, BACK, RIGHT SIDE, roughly 3-head-tall grounded JRPG proportions, crisp square pixels and 48x64 design language. BOTTOM RIGHT exactly FOUR separate equal head-and-shoulders expression portraits with clear different acting. Exactly 1 full body +3 sprites +4 portraits, same person/outfit across all. No scenes, no additional people, no stats/lore, no animation frames. This is an anonymous reusable NPC archetype, not a unique named hero. Understated common clothing, few belts, little ornament, recognizable job silhouette. No royal jewelry. Main illustration and portraits smooth cel shading; sprite section actual chunky pixel-art. Labels FULL BODY / IN-GAME / FRONT BACK SIDE / EXPRESSIONS. Keep all components fully visible. Title FIELD ACOLYTE COMMON / 구호 사제 공통형. Design: woman age 24, dark brown skin, tightly curled black hair tied back under a plain ivory headscarf, soft oval face, simple off-white practical clerical robe to calf over dark trousers, muted plum shoulder cloth, plain boots, canvas relief satchel and clean bandage rolls, humble field worker no fancy religious symbols. Four expression portraits: attentive, reassuring smile, firm, grieving.",
+      "file": "field-acolyte-common-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d78566125a7fae1a3cad0d7834a6352ed8dc1ff418fd634d85362c94b19daedc",
+      "asset_status": "visual_reference_board",
+      "version": 1
+    },
+    {
+      "id": "researcher-common",
+      "name": "연구 보조원",
+      "group": "교단·연구",
+      "regions": [
+        "남방 학술도시",
+        "성역",
+        "고대 시설"
+      ],
+      "design": "man age 31, slender slightly tall build, straight dark chestnut hair neatly side-parted, small rectangular wire spectacles, pale olive skin, muted sage long research coat over beige shirt, charcoal trousers, plain boots, modest document satchel, calipers and rolled measuring chart, no mage robes or glowing items",
+      "expressions_ko": "집중·발견·의문·당황",
+      "expressions": "focused neutral, delighted discovery, skeptical, flustered",
+      "prompt": "Create ONE LANDSCAPE production character archetype reference board for original fantasy JRPG Springbound Frontier. Match reference board LAYOUT AND ART STYLE ONLY, invent a DIFFERENT person: ivory background, fine charcoal rules, restrained serif headings, clean generous spacing. LEFT 35 percent exactly one full-body cel-shaded classic late-1990s Japanese fantasy anime figure from head to boots. TOP RIGHT exactly THREE distinct enlarged low-resolution pixel-art neutral standing sprites FRONT, BACK, RIGHT SIDE, roughly 3-head-tall grounded JRPG proportions, crisp square pixels and 48x64 design language. BOTTOM RIGHT exactly FOUR separate equal head-and-shoulders expression portraits with clear different acting. Exactly 1 full body +3 sprites +4 portraits, same person/outfit across all. No scenes, no additional people, no stats/lore, no animation frames. This is an anonymous reusable NPC archetype, not a unique named hero. Understated common clothing, few belts, little ornament, recognizable job silhouette. No royal jewelry. Main illustration and portraits smooth cel shading; sprite section actual chunky pixel-art. Labels FULL BODY / IN-GAME / FRONT BACK SIDE / EXPRESSIONS. Keep all components fully visible. Title RESEARCHER COMMON / 연구 보조원. Design: man age 31, slender slightly tall build, straight dark chestnut hair neatly side-parted, small rectangular wire spectacles, pale olive skin, muted sage long research coat over beige shirt, charcoal trousers, plain boots, modest document satchel, calipers and rolled measuring chart, no mage robes or glowing items. Four expression portraits: focused neutral, delighted discovery, skeptical, flustered.",
+      "file": "researcher-common-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "1225112a68b468243563b967e8d76327d2099cc7f98e09d0eecde9f37bb6e215",
+      "asset_status": "visual_reference_board",
+      "version": 1
+    },
+    {
+      "id": "refugee-common",
+      "name": "피난민 공통형",
+      "group": "피난민",
+      "regions": [
+        "서리골",
+        "피난 교량",
+        "해양국"
+      ],
+      "design": "woman age 39, medium sturdy build, tired weathered face, loosely tied brown hair with a few grey strands, worn muted ochre winter coat under a patched grey blanket shawl, plain charcoal skirt over practical leggings, boots, bundled household belongings in faded blue cloth held close, no weapons, dignified civilian survivor not poverty caricature, outfit can be derived from village resident",
+      "expressions_ko": "피로·경계·슬픔·작은 안도",
+      "expressions": "exhausted, guarded, sorrowful, cautiously relieved",
+      "prompt": "Create ONE LANDSCAPE production character archetype reference board for original fantasy JRPG Springbound Frontier. Match reference board LAYOUT AND ART STYLE ONLY, invent a DIFFERENT person: ivory background, fine charcoal rules, restrained serif headings, clean generous spacing. LEFT 35 percent exactly one full-body cel-shaded classic late-1990s Japanese fantasy anime figure from head to boots. TOP RIGHT exactly THREE distinct enlarged low-resolution pixel-art neutral standing sprites FRONT, BACK, RIGHT SIDE, roughly 3-head-tall grounded JRPG proportions, crisp square pixels and 48x64 design language. BOTTOM RIGHT exactly FOUR separate equal head-and-shoulders expression portraits with clear different acting. Exactly 1 full body +3 sprites +4 portraits, same person/outfit across all. No scenes, no additional people, no stats/lore, no animation frames. This is an anonymous reusable NPC archetype, not a unique named hero. Understated common clothing, few belts, little ornament, recognizable job silhouette. No royal jewelry. Main illustration and portraits smooth cel shading; sprite section actual chunky pixel-art. Labels FULL BODY / IN-GAME / FRONT BACK SIDE / EXPRESSIONS. Keep all components fully visible. Title REFUGEE COMMON / 피난민 공통형. Design: woman age 39, medium sturdy build, tired weathered face, loosely tied brown hair with a few grey strands, worn muted ochre winter coat under a patched grey blanket shawl, plain charcoal skirt over practical leggings, boots, bundled household belongings in faded blue cloth held close, no weapons, dignified civilian survivor not poverty caricature, outfit can be derived from village resident. Four expression portraits: exhausted, guarded, sorrowful, cautiously relieved.",
+      "file": "refugee-common-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "409cafe991c41c88e9bc5dd61a415cd7538750b16d4a7fbf6cc7ca9b76156e9e",
+      "asset_status": "visual_reference_board",
+      "version": 1
+    }
+  ]
+}
