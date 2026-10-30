@@ -1,16 +1,25 @@
 extends Node3D
 
+const FirstBattleView = preload("res://scripts/first_battle_view.gd")
+const CombatProgress = preload("res://scripts/combat_progress.gd")
 const PrologueStory = preload("res://scripts/prologue_story.gd")
 const CAST := {"오르만":"orman", "니아":"nia", "도렌":"doren", "베라":"vera", "로크":"roke", "에다":"eda", "할벤":"halven"}
 
 const MapView = preload("res://scripts/map_view.gd")
 const SAVE_PATH := "user://prologue_save.json"
+var save_path: String = SAVE_PATH
 const NAMES := ["마르타의 집", "서리골", "고요한 산길", "돌샘 연락소"]
 const CHAPTERS := ["01 / 집 안의 아침", "02 / 봄을 기다리는 마을", "03 / 눈 아래의 길", "04 / 국경의 작은 불빛"]
 const MAP_SIZES := [Vector2(18, 16), Vector2(40, 38), Vector2(34, 54), Vector2(36, 34)]
 const GridWalker = preload("res://scripts/grid_walker.gd")
 const CAMERA_OFFSET := Vector3(0,22,18)
 
+var battle_view: Node
+var combat: Dictionary = CombatProgress.fresh()
+var difficulty_button: Button
+var title_resume: Button
+var hero_status_label: Label
+var exploration_controls: Label
 var map_root: Node3D
 var hero: Node3D
 var hero_sprite: Sprite3D
@@ -92,7 +101,14 @@ var bind_help: Label
 var binding_panel: PanelContainer
 
 func _ready() -> void:
-	qa_mode = "--qa" in OS.get_cmdline_user_args()
+	var arguments := OS.get_cmdline_user_args()
+	if "--battle-test" in arguments: save_path = "user://first_battle_review_save.json"
+	elif "--battle-input-qa" in arguments: save_path = "user://first_battle_input_qa_save.json"
+	elif "--battle-qa" in arguments: save_path = "user://first_battle_qa_save.json"
+	elif "--battle-capture" in arguments: save_path = "user://first_battle_capture_save.json"
+	elif "--story-capture" in arguments: save_path = "user://story_capture_save.json"
+	elif "--qa" in arguments: save_path = "user://prologue_qa_save.json"
+	qa_mode = "--qa" in arguments
 	body_font = SystemFont.new()
 	body_font.font_names = PackedStringArray(["Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans CJK KR", "sans-serif"])
 	title_font = SystemFont.new()
@@ -111,11 +127,25 @@ func _ready() -> void:
 	_prepare_surface_materials()
 	_setup_world()
 	_setup_ui()
+	battle_view = FirstBattleView.new()
+	add_child(battle_view)
+	battle_view.setup(self)
 	_load_map(1, Vector3(0, 0, 9))
 	hud.hide()
 	title_screen.show()
 	if qa_mode:
 		call_deferred("_run_qa")
+	elif "--battle-input-qa" in arguments:
+		qa_mode = true
+		call_deferred("_run_battle_input_qa")
+	elif "--battle-qa" in OS.get_cmdline_user_args():
+		qa_mode = true
+		call_deferred("_run_battle_qa")
+	elif "--battle-capture" in OS.get_cmdline_user_args():
+		qa_mode = true
+		call_deferred("_run_battle_capture")
+	elif "--battle-test" in OS.get_cmdline_user_args():
+		call_deferred("_launch_battle_test")
 	elif "--story-capture" in OS.get_cmdline_user_args():
 		call_deferred("_run_story_capture")
 	elif "--compare-capture" in OS.get_cmdline_user_args():
@@ -371,6 +401,7 @@ func _interact(pos: Vector2, title: String, kind: String, data: Dictionary = {})
 		_marker(Vector3(pos.x,1.0,pos.y),"◇  " + title,Color("e8ca8e"))
 
 func _load_map(index: int, spawn: Vector3) -> void:
+	if battle_view: battle_view.stop()
 	if map_root:
 		remove_child(map_root)
 		map_root.queue_free()
@@ -507,8 +538,9 @@ func _build_trail() -> void:
 		_rock(Vector3(-3.7,0.3,z),Vector3(1.5,1.5,1.6))
 	for z in [-21,-16,-11]:
 		_rock(Vector3(0,0.3,z),Vector3(1.6,2,1.4))
-	_npc(1,Vector3(10.2,0,3),"레온")
-	_interact(Vector2(10.2,3),"부상당한 여행자 살피기","leon")
+	if not arrived:
+		_npc(1,Vector3(10.2,0,3),"레온 · 부상")
+		_interact(Vector2(10.2,3),"부상당한 여행자 살피기","leon")
 	_cylinder(Vector3(11.4,0.15,3.8),0.25,0.25,Color("75664a"))
 	_interact(Vector2(0,24),"서리골로","exit",{"map":1,"spawn":Vector3(0,0,-14.2)})
 	_interact(Vector2(-6,-24),"돌샘 연락소로","exit",{"map":3,"spawn":Vector3(-2,0,13),"requires_leon":true})
@@ -574,6 +606,10 @@ func _physics_process(delta: float) -> void:
 	elapsed += delta
 	if not started or paused or transitioning or dialog_panel.visible or history_panel.visible:
 		return
+	if battle_view and battle_view.busy():
+		battle_view.tick(delta)
+		return
+	if battle_view: battle_view._sync_weapon()
 	step_settle_remaining = maxf(0,step_settle_remaining-delta)
 	var input_direction := _cardinal_input()
 	if input_direction != Vector2i.ZERO:
@@ -631,7 +667,7 @@ func _set_walk_frame() -> void:
 		hero_sprite.flip_h = facing == 3
 
 func _process(delta: float) -> void:
-	if not paused:
+	if not paused and not (battle_view and battle_view.busy() and battle_view.model.paused):
 		for flake in particles:
 			flake.position.y -= delta * 0.42
 			flake.position.x += delta * 0.08
@@ -697,6 +733,9 @@ func _configure_inputs() -> void:
 		InputMap.action_add_event(action,key)
 
 func _unhandled_input(event: InputEvent) -> void:
+	if battle_view and battle_view.busy() and not dialog_panel.visible:
+		if battle_view.handle(event): get_viewport().set_input_as_handled()
+		return
 	if event is InputEventKey and event.pressed and not event.echo:
 		if not rebind_action.is_empty():
 			if event.keycode != KEY_ESCAPE: _rebind(event)
@@ -746,7 +785,7 @@ func _unhandled_input(event: InputEvent) -> void:
 				_set_click_route(ground)
 
 func _activate_interaction() -> void:
-	if current_interaction.is_empty() or walker.moving or dialog_panel.visible or transitioning: return
+	if current_interaction.is_empty() or walker.moving or dialog_panel.visible or transitioning or (battle_view and battle_view.busy()): return
 	var point := current_interaction.duplicate()
 	match point.kind:
 		"exit":
@@ -766,14 +805,29 @@ func _activate_interaction() -> void:
 		_: _play_scene(story.scene_for(point.kind,has_medicine,met_leon,arrived))
 
 func _play_scene(scene: String) -> void:
-	if scene in story.data.get("planned_scenes",[]):
-		push_error("Unconnected story event: " + scene)
+	if scene == "leon_bridge" and not combat.won:
+		battle_view.show_threat()
+		_play_scene("leon_danger")
 		return
 	_dialog(story.lines(scene),func():
 		story.finish(scene)
 		if scene == "medicine": has_medicine = true
+		if scene == "leon_danger":
+			_play_scene("sword_loan")
+			return
+		if scene == "sword_loan":
+			combat.sword = true
+			_start_first_battle()
+			_play_scene("firstbattle_help")
+			return
+		if scene == "firstbattle_help":
+			battle_view.panel.show()
+			battle_view._refresh()
+			return
 		if scene == "leon_bridge": met_leon = true
-		if scene == "delivery": arrived = true
+		if scene == "delivery":
+			arrived = true
+			combat.sword = false
 		_update_quest()
 		var feedback: String = story.data.get("completion_feedback",{}).get(scene,"")
 		if not feedback.is_empty(): _toast(feedback)
@@ -806,6 +860,7 @@ func _dialog(lines: Array, action := Callable(), scene := "") -> void:
 	has_walk_target = false
 	prompt_label.hide()
 	dialog_panel.show()
+	ui_root.move_child(dialog_panel,-1)
 	_advance_dialog()
 
 func _advance_dialog() -> void:
@@ -841,12 +896,18 @@ func _advance_dialog() -> void:
 			portrait.texture = atlas
 
 func _update_quest() -> void:
+	if hero_status_label: hero_status_label.text = "에일  HP %d / 48" % int(combat.hp)
+	if difficulty_button: difficulty_button.text = "난이도: " + ("전술" if combat.mode == "tactical" else "스토리")
 	if story.done("closing"):
 		objective_label.text = "오늘의 배달을 마쳤다\n돌샘에서 쉬거나 마을을 둘러보자"
 	elif arrived:
 		objective_label.text = "전달을 마쳤다\n레온과 따뜻한 차 한 잔 나누기"
 	elif met_leon:
 		objective_label.text = "에다에게 약과 환자 인계하기\n돌샘 우물 오른편 연락소" if map_id == 3 else "레온과 돌샘으로 향하기\n북쪽 굽이를 따라 천천히 이동"
+	elif combat.won and not met_leon:
+		objective_label.text = "레온에게 돌아가기\n붕대 처치를 마무리하자"
+	elif battle_view and battle_view.busy():
+		objective_label.text = "레온을 지키기\n가시털 들쥐를 쓰러뜨리자"
 	elif story.done("leon_found"):
 		objective_label.text = "레온의 응급처치 돕기\n레온에게 다시 말 걸기"
 	elif has_medicine:
@@ -863,22 +924,35 @@ func _update_quest() -> void:
 		if point.kind == "leon":
 			point.title = "레온과 대화" if met_leon else ("레온의 붕대 고정 돕기" if story.done("leon_found") else "부상당한 여행자 살피기")
 
-func _save_game(notify := true) -> bool:
-	var save := {"version":2,"story":story.flags.duplicate(),"map":map_id,"position":[walker.target.x,walker.target.z],"medicine":has_medicine,"leon":met_leon,"arrived":arrived}
-	var file := FileAccess.open(SAVE_PATH,FileAccess.WRITE)
+func _save_game(notify := true, internal := false) -> bool:
+	if battle_view and battle_view.busy() and not internal:
+		if notify: _toast("전투 중에는 전투 직전 기록을 유지합니다")
+		return false
+	var save := {"version":3,"combat":combat.duplicate(true),"story":story.flags.duplicate(),"map":map_id,"position":[walker.target.x,walker.target.z],"medicine":has_medicine,"leon":met_leon,"arrived":arrived}
+	var temporary := save_path + ".tmp"
+	var file := FileAccess.open(temporary,FileAccess.WRITE)
 	if file == null:
 		if notify: _toast("저장하지 못했습니다. 저장 공간을 확인해 주세요.")
 		return false
 	file.store_string(JSON.stringify(save))
+	file.flush()
+	file.close()
+	if DirAccess.rename_absolute(temporary,save_path) != OK:
+		if notify: _toast("기록을 교체하지 못했습니다. 저장 공간을 확인해 주세요.")
+		return false
+	if title_resume: title_resume.disabled = false
 	if notify: _toast("여행을 기록했습니다")
 	return true
 
 func _load_game() -> void:
-	if not FileAccess.file_exists(SAVE_PATH):
+	if battle_view and battle_view.busy():
+		_toast("전투 중에는 재도전을 이용해 주세요")
+		return
+	if not FileAccess.file_exists(save_path):
 		_toast("아직 저장된 여행이 없습니다")
 		return
-	var value = JSON.parse_string(FileAccess.get_file_as_string(SAVE_PATH))
-	if not value is Dictionary or (value.get("version") != 1 and value.get("version") != 2):
+	var value = JSON.parse_string(FileAccess.get_file_as_string(save_path))
+	if not value is Dictionary or (value.get("version") != 1 and value.get("version") != 2 and value.get("version") != 3):
 		_toast("저장 기록을 읽을 수 없습니다")
 		return
 	var index := int(value.get("map",-1))
@@ -893,9 +967,14 @@ func _load_game() -> void:
 	if not (coords[0] is float or coords[0] is int) or not (coords[1] is float or coords[1] is int):
 		_toast("저장 기록을 읽을 수 없습니다")
 		return
+	var loaded_combat := CombatProgress.decode(value.get("combat"),int(value.version),value.leon,value.arrived,index)
+	if loaded_combat.is_empty():
+		_toast("전투 진행 기록을 읽을 수 없습니다")
+		return
 	if not story.restore(int(value.version),value.medicine,value.leon,value.arrived,value.get("story")):
 		_toast("이야기 진행 기록을 읽을 수 없습니다")
 		return
+	combat = loaded_combat
 	history_panel.hide()
 	dialogue_history.clear()
 	has_medicine = value.medicine
@@ -914,12 +993,19 @@ func _load_game() -> void:
 		walker.reset(_safe_spawn(index))
 		hero.position = walker.position
 	_update_camera(1.0,true)
-	_toast("기록한 여행을 이어갑니다")
+	if not combat.checkpoint.is_empty():
+		_restore_combat_checkpoint()
+		battle_view.start(combat.checkpoint,true)
+		_update_quest()
+	else:
+		_toast("기록한 여행을 이어갑니다")
 
 func _safe_spawn(index: int) -> Vector3:
 	return [Vector3(0,0,4),Vector3(0,0,12),Vector3(0,0,23),Vector3(-2,0,13)][index]
 
 func _new_game() -> void:
+	if battle_view: battle_view.stop()
+	combat = CombatProgress.fresh()
 	story.reset()
 	dialogue_history.clear()
 	history_panel.hide()
@@ -1047,7 +1133,7 @@ func _setup_ui() -> void:
 	var bottom_row := HBoxContainer.new()
 	bottom_row.add_theme_constant_override("separation",20)
 	bottom.add_child(bottom_row)
-	_label(bottom_row,"エイル".replace("エイル","에일") + "   /   여행자",18,Color("e4d2a1"))
+	hero_status_label = _label(bottom_row,"에일  HP 48 / 48",16,Color("e4d2a1"))
 	var face := TextureRect.new()
 	var face_atlas := AtlasTexture.new()
 	face_atlas.atlas = load("res://assets/ael-portrait.png")
@@ -1059,6 +1145,7 @@ func _setup_ui() -> void:
 	bottom_row.add_child(face)
 	bottom_row.move_child(face,0)
 	var controls := _label(hud,"WASD 한 걸음 이동   ·   E 대화   ·   Esc 메뉴",13,Color("f0e6cf"))
+	exploration_controls = controls
 	controls.set_anchors_and_offsets_preset(Control.PRESET_BOTTOM_RIGHT)
 	controls.offset_left = -470
 	controls.offset_right = -30
@@ -1154,9 +1241,9 @@ func _make_title_ui() -> void:
 	panel.add_child(spacer)
 	var start := _button(panel,"새로운 여정   →",_new_game)
 	start.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
-	var resume := _button(panel,"여행 이어가기",_load_game)
-	resume.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
-	resume.disabled = not FileAccess.file_exists(SAVE_PATH)
+	title_resume = _button(panel,"여행 이어가기",_load_game)
+	title_resume.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
+	title_resume.disabled = not FileAccess.file_exists(save_path)
 	var footer := _label(title_screen,"PROLOGUE   /   서리골에서 돌샘까지",13,Color("c3c9b6"))
 	footer.position = Vector2(94,665)
 
@@ -1172,8 +1259,8 @@ func _make_pause_ui() -> void:
 	stack.set_anchors_and_offsets_preset(Control.PRESET_CENTER)
 	stack.offset_left = -180
 	stack.offset_right = 180
-	stack.offset_top = -260
-	stack.offset_bottom = 260
+	stack.offset_top = -310
+	stack.offset_bottom = 310
 	stack.add_theme_constant_override("separation",12)
 	pause_screen.add_child(stack)
 	_label(stack,"잠시 쉬어 가기",30,Color("e8dbb4"))
@@ -1182,6 +1269,7 @@ func _make_pause_ui() -> void:
 	_button(stack,"지난 대화 보기 · Tab",_toggle_history)
 	_button(stack,"여행 기록하기",func(): _save_game())
 	_button(stack,"기록 불러오기",_load_game)
+	difficulty_button = _button(stack,"난이도: 스토리",_toggle_difficulty)
 	_button(stack,"글자 크기 조절",_toggle_text_scale)
 	_button(stack,"이동·상호작용 키 설정",func(): binding_panel.visible = not binding_panel.visible)
 	_button(stack,"시작 화면으로",func(): paused = false; started = false; pause_screen.hide(); hud.hide(); title_screen.show())
@@ -1274,9 +1362,10 @@ func _run_qa() -> void:
 	while dialog_panel.visible: _advance_dialog()
 	if met_leon or not story.done("leon_found"): errors.append("Leon encounter skipped player control")
 	_qa_interact("leon")
-	if not met_leon: errors.append("Leon interaction failed")
+	_qa_win_first_battle()
+	if not met_leon or not combat.won: errors.append("First battle or Leon event failed")
 	_load_map(3,Vector3(-2,0,13))
-	var old_save := FileAccess.get_file_as_string(SAVE_PATH) if FileAccess.file_exists(SAVE_PATH) else ""
+	var old_save := FileAccess.get_file_as_string(save_path) if FileAccess.file_exists(save_path) else ""
 	current_interaction = interactions.filter(func(p): return p.kind == "delivery")[0]
 	_activate_interaction()
 	while dialog_panel.visible: _advance_dialog()
@@ -1295,9 +1384,9 @@ func _run_qa() -> void:
 	_load_game()
 	if map_id != 3 or not arrived or not has_medicine or not met_leon or not story.done("closing"): errors.append("Save roundtrip failed")
 	if old_save.is_empty():
-		DirAccess.remove_absolute(SAVE_PATH)
+		DirAccess.remove_absolute(save_path)
 	else:
-		var restore := FileAccess.open(SAVE_PATH,FileAccess.WRITE)
+		var restore := FileAccess.open(save_path,FileAccess.WRITE)
 		restore.store_string(old_save)
 	print("PROLOGUE_QA: ","PASS" if errors.is_empty() else "FAIL", " ",errors)
 	get_tree().quit(0 if errors.is_empty() else 1)
@@ -1774,6 +1863,7 @@ func _run_story_capture() -> void:
 	_qa_finish_dialog()
 	_play_scene("leon_bridge")
 	_qa_finish_dialog()
+	_qa_win_first_battle()
 	_load_map(3,Vector3(5,0,1))
 	_play_scene("delivery")
 	for i in range(4): _advance_dialog()
@@ -1801,8 +1891,332 @@ func _environment_prop(id: String, pos: Vector3) -> void:
 		obstacles.append(Rect2(pos.x+float(rect[0]),pos.z+float(rect[1]),float(rect[2]),float(rect[3])))
 
 func _input(event: InputEvent) -> void:
+	if battle_view and battle_view.busy() and event is InputEventKey and not dialog_panel.visible:
+		if battle_view.handle(event):
+			get_viewport().set_input_as_handled()
+			return
+		return
 	# Tab must reach the history action before GUI keyboard focus consumes it.
 	if event is InputEventKey and event.pressed and not event.echo and rebind_action.is_empty():
 		if (event.keycode == KEY_TAB and started and not transitioning) or (event.keycode == KEY_ESCAPE and history_panel.visible):
 			_toggle_history()
 			get_viewport().set_input_as_handled()
+
+func _toggle_difficulty() -> void:
+	if battle_view.busy() or not combat.checkpoint.is_empty():
+		_toast("전투 밖에서만 난이도를 바꿀 수 있습니다")
+		return
+	combat.mode = "tactical" if combat.mode == "story" else "story"
+	difficulty_button.text = "난이도: " + ("전술" if combat.mode == "tactical" else "스토리")
+	_save_game(false)
+
+func _start_first_battle() -> void:
+	if combat.won: return
+	if combat.checkpoint.is_empty():
+		combat.checkpoint = {
+			"hero":[walker.position.x,walker.position.z],"enemy":[5,5],
+			"hp":combat.hp,"mp":combat.mp,"mode":combat.mode,"story":story.flags.duplicate(true)
+		}
+	battle_view.start(combat.checkpoint)
+	if toast_tween: toast_tween.kill()
+	toast_label.modulate.a = 0
+	_update_quest()
+	if not qa_mode: _save_game(false,true)
+
+func _restore_combat_checkpoint() -> void:
+	var cp: Dictionary = combat.checkpoint
+	if cp.is_empty(): return
+	story.restore(3,true,false,false,cp.story)
+	has_medicine = true
+	met_leon = false
+	arrived = false
+	combat.hp = int(cp.hp)
+	combat.mp = int(cp.mp)
+	_update_quest()
+
+func _combat_item_used(remaining: int) -> void:
+	combat.potions = remaining
+	# Flush the spent inventory with the pre-battle checkpoint immediately.
+	if not qa_mode and not _save_game(false,true):
+		battle_view.model.paused = true
+		_toast("아이템 기록을 저장하지 못해 전투를 멈췄습니다. 저장 공간을 확인해 주세요.")
+
+func _combat_defeat(remaining: int) -> void:
+	combat.potions = remaining
+	if not qa_mode: _save_game(false,true)
+
+func _combat_victory(health: int, mana: int, remaining: int) -> void:
+	combat.hp = health
+	combat.mp = mana
+	combat.potions = remaining
+	combat.won = true
+	combat.checkpoint = {}
+	battle_view.stop()
+	_update_quest()
+	if not qa_mode: _save_game(false,true)
+	_play_scene("leon_after_battle")
+
+func _combat_to_title() -> void:
+	battle_view.stop()
+	paused = false
+	started = false
+	hud.hide()
+	pause_screen.hide()
+	title_screen.show()
+
+func _prepare_battle_test() -> void:
+	_new_game()
+	_qa_finish_dialog()
+	for scene in ["well_first","inn_first","request","medicine","farewell"]:
+		_play_scene(scene)
+		_qa_finish_dialog()
+	_load_map(2,Vector3(8,0,5))
+	_play_scene("leon_first")
+	_qa_finish_dialog()
+
+func _launch_battle_test() -> void:
+	# Review shortcut only; it never overwrites the player's regular save.
+	qa_mode = true
+	_prepare_battle_test()
+	qa_mode = false
+	_play_scene("leon_bridge")
+
+func _qa_win_first_battle(finish_treatment := true) -> void:
+	_qa_finish_dialog()
+	if not battle_view.model.active: return
+	battle_view.model.select_order("attack")
+	battle_view.model.paused = false
+	var budget := 4000
+	while battle_view.model.active and budget > 0:
+		if battle_view.model.hp < 20 and battle_view.model.hero_cooldown <= 0 and battle_view.model.potions > 0:
+			battle_view.model.select_item()
+			battle_view.model.paused = false
+		_physics_process(0.05)
+		budget -= 1
+	_qa_finish_dialog()
+	if finish_treatment and combat.won: _qa_complete_treatment()
+
+func _run_battle_qa() -> void:
+	await get_tree().process_frame
+	var errors: Array[String] = []
+	var old_save := FileAccess.get_file_as_string(save_path) if FileAccess.file_exists(save_path) else ""
+	_prepare_battle_test()
+	_play_scene("leon_bridge")
+	_qa_finish_dialog()
+	if met_leon or combat.won or not battle_view.model.active: errors.append("Encounter bypassed first fight")
+	if not combat.sword or combat.checkpoint.is_empty(): errors.append("Sword/checkpoint missing")
+	var before: Vector3 = hero.position
+	var enemy_before: Vector3 = battle_view.model.enemy.position
+	var snow_before: Vector3 = particles[0].position
+	_process(0.5)
+	if particles[0].position != snow_before: errors.append("World particles advanced during command pause")
+	_physics_process(0.5)
+	if hero.position != before or battle_view.model.enemy.position != enemy_before: errors.append("Paused world moved")
+	if _save_game(false): errors.append("Free save allowed during fight")
+	battle_view.model.hp = 20
+	if not battle_view.model.select_item(): errors.append("Could not select potion")
+	battle_view.model.paused = false
+	_physics_process(0.02)
+	if combat.potions != 1 or battle_view.model.hp != 44: errors.append("Item not synced to inventory")
+	if not _save_game(false,true):
+		print("FIRST_BATTLE_INTEGRATION_QA: FAIL [Cannot write isolated QA save]")
+		get_tree().quit(1)
+		return
+	var spent_save := FileAccess.get_file_as_string(save_path)
+	battle_view.stop()
+	_load_game()
+	if not battle_view.defeat_panel.visible or combat.potions != 1: errors.append("Checkpoint load refunded item or skipped retry screen")
+	battle_view._retry(false)
+	if battle_view.model.hp != 48 or battle_view.model.potions != 1 or hero.position != before: errors.append("Retry restoration invalid")
+	battle_view.model.select_order("wait")
+	battle_view.model.paused = false
+	for i in range(2000):
+		_physics_process(0.05)
+		if battle_view.model.outcome == "defeat": break
+	if not battle_view.defeat_panel.visible or met_leon or combat.won: errors.append("Defeat progresses story")
+	battle_view._retry(true)
+	if not dialog_panel.visible or active_scene != "firstbattle_help": errors.append("Retry help not optional/reachable")
+	_qa_finish_dialog()
+	_qa_win_first_battle(false)
+	if met_leon or battle_view.busy() or dialog_panel.visible: errors.append("Victory skipped return-to-Leon interaction")
+	_qa_complete_treatment()
+	if not combat.won or not met_leon or battle_view.busy(): errors.append("Victory does not finish treatment")
+	if combat.hp >= 48 or combat.hp <= 0: errors.append("Victory healed or lost survivor HP")
+	if not combat.sword or not combat.checkpoint.is_empty(): errors.append("Victory checkpoint not cleared")
+	var health_after := int(combat.hp)
+	if not _save_game(false): errors.append("Victory save failed")
+	_load_map(0,_safe_spawn(0))
+	_load_game()
+	if not combat.won or not met_leon or int(combat.hp) != health_after or battle_view.busy(): errors.append("Victory save replays fight or heals")
+	current_interaction = interactions.filter(func(point): return point.kind == "leon")[0]
+	_activate_interaction()
+	_qa_finish_dialog()
+	if battle_view.busy(): errors.append("Returning to Leon restarts fight")
+	_load_map(3,Vector3(5,0,2))
+	_qa_interact("delivery")
+	if not arrived or combat.sword: errors.append("Delivery or sword return failed")
+	_qa_interact("leon_arrival")
+	if not story.done("closing"): errors.append("Prologue ending unreachable after battle")
+	if not _qa_tactical_no_items(): errors.append("Tactical fight cannot be won without items on actual trail")
+	# Spent-item saves retain their inventory after a full application-style load.
+	var saved_record: Dictionary = JSON.parse_string(spent_save)
+	if saved_record.combat.potions != 1 or saved_record.combat.checkpoint.is_empty(): errors.append("Spent checkpoint not persisted")
+	if old_save.is_empty(): DirAccess.remove_absolute(save_path)
+	else:
+		var restore := FileAccess.open(save_path,FileAccess.WRITE)
+		restore.store_string(old_save)
+	print("FIRST_BATTLE_INTEGRATION_QA: ","PASS" if errors.is_empty() else "FAIL"," ",errors)
+	get_tree().quit(0 if errors.is_empty() else 1)
+
+func _run_battle_capture() -> void:
+	_prepare_battle_test()
+	_play_scene("leon_bridge")
+	_qa_finish_dialog()
+	await _story_screenshot("13-battle-paused")
+	battle_view.model.select_order("attack")
+	battle_view.model.paused = false
+	for i in range(150):
+		_physics_process(0.02)
+		if battle_view.model.enemy_windup > 0: break
+	battle_view.model.paused = true
+	await _story_screenshot("14-battle-attack")
+	battle_view.model.hp = 18
+	battle_view.model.hero_cooldown = 0
+	battle_view.model.select_item()
+	battle_view.model.paused = false
+	_physics_process(0.02)
+	battle_view.model.paused = true
+	await _story_screenshot("15-battle-item")
+	battle_view.model.select_order("wait")
+	battle_view.model.paused = false
+	for i in range(2000):
+		_physics_process(0.05)
+		if battle_view.model.outcome == "defeat": break
+	await _story_screenshot("16-battle-defeat")
+	battle_view._retry(false)
+	_qa_win_first_battle()
+	_play_scene("leon_after_battle")
+	await _story_screenshot("17-battle-victory")
+	get_tree().quit()
+
+func _qa_tactical_no_items() -> bool:
+	_prepare_battle_test()
+	combat.mode = "tactical"
+	combat.potions = 0
+	_play_scene("leon_bridge")
+	_qa_finish_dialog()
+	battle_view.model.select_order("attack")
+	battle_view.model.paused = false
+	for i in range(18000):
+		var model = battle_view.model
+		if not model.active: break
+		if model.enemy_windup > 0.4 and model.order == "attack" and not model.player.moving:
+			var choices: Array[Vector3] = []
+			for offset in [Vector3.LEFT*2,Vector3.RIGHT*2,Vector3.FORWARD*2,Vector3.BACK*2]:
+				var target: Vector3 = model.player.position+offset
+				if not _blocked(target) and not battle_view._path(model.player.position,target).is_empty() and target.distance_to(model.enemy.position) >= 2.5:
+					choices.append(target)
+			if not choices.is_empty():
+				choices.sort_custom(func(a,b): return a.distance_to(model.enemy.position) > b.distance_to(model.enemy.position))
+				model.select_order("move",choices[0])
+				model.paused = false
+		elif model.order == "wait" and model.enemy_windup <= 0:
+			model.select_order("attack")
+			model.paused = false
+		_physics_process(0.02)
+	_qa_finish_dialog()
+	if combat.won: _qa_complete_treatment()
+	return combat.won and met_leon and combat.potions == 0 and combat.hp > 0
+
+func _inject_battle_click(point: Vector2, mouse_button := MOUSE_BUTTON_LEFT) -> void:
+	var event := InputEventMouseButton.new()
+	event.position = point
+	event.global_position = point
+	event.button_index = mouse_button
+	event.pressed = true
+	Input.parse_input_event(event)
+	event = event.duplicate()
+	event.pressed = false
+	Input.parse_input_event(event)
+
+func _inject_battle_key(key: Key) -> void:
+	var event := InputEventKey.new()
+	event.keycode = key
+	event.physical_keycode = key
+	event.pressed = true
+	Input.parse_input_event(event)
+	event = event.duplicate()
+	event.pressed = false
+	Input.parse_input_event(event)
+
+func _run_battle_input_qa() -> void:
+	var errors: Array[String] = []
+	_prepare_battle_test()
+	_play_scene("leon_bridge")
+	_qa_finish_dialog()
+	for i in range(4): await get_tree().process_frame
+	_inject_battle_click(battle_view.attack_button.get_global_rect().get_center())
+	await get_tree().process_frame
+	if battle_view.target_mode != "attack": errors.append("Attack GUI button did not enter target selection")
+	_inject_battle_key(KEY_SPACE)
+	await get_tree().process_frame
+	if not battle_view.model.paused: errors.append("Incomplete selection resumed time")
+	var target: Vector2 = camera.unproject_position(battle_view.model.enemy.position)-Vector2(0,25)
+	_inject_battle_click(target)
+	await get_tree().process_frame
+	if battle_view.model.order != "attack" or not battle_view.model.paused: errors.append("Enemy click did not queue attack")
+	_inject_battle_key(KEY_SPACE)
+	await get_tree().process_frame
+	if battle_view.model.paused: errors.append("Space did not resume")
+	_inject_battle_key(KEY_SPACE)
+	await get_tree().process_frame
+	if not battle_view.model.paused: errors.append("Space did not pause")
+	var point := camera.unproject_position(Vector3(7,0,5))
+	_inject_battle_click(point,MOUSE_BUTTON_RIGHT)
+	await get_tree().process_frame
+	if battle_view.model.order != "move" or battle_view.model.destination != Vector3(7,0,5): errors.append("Right click did not queue tile movement")
+	_inject_battle_click(battle_view.move_button.get_global_rect().get_center())
+	await get_tree().process_frame
+	_inject_battle_key(KEY_ESCAPE)
+	await get_tree().process_frame
+	if not battle_view.target_mode.is_empty() or not battle_view.model.paused: errors.append("Escape failed to cancel target selection")
+	battle_view.model.hp = 20
+	battle_view.model.hero_cooldown = 0
+	battle_view._refresh()
+	await get_tree().process_frame
+	_inject_battle_click(battle_view.item_button.get_global_rect().get_center())
+	await get_tree().process_frame
+	if not battle_view.model.pending_item or battle_view.model.potions != 2: errors.append("Item GUI consumed before resume or failed selection")
+	_inject_battle_key(KEY_SPACE)
+	await get_tree().process_frame
+	_physics_process(0.02)
+	if battle_view.model.potions != 1: errors.append("Item GUI failed to consume exactly one")
+	battle_view._sound("strike")
+	battle_view._sound("hurt")
+	battle_view._sound("victory")
+	battle_view.model.hp = 1
+	battle_view.model.select_order("wait")
+	battle_view.model.paused = false
+	for i in range(2000):
+		_physics_process(0.05)
+		if battle_view.model.outcome == "defeat": break
+	await get_tree().process_frame
+	if not battle_view.defeat_panel.visible: errors.append("Defeat GUI not visible")
+	_inject_battle_key(KEY_ENTER)
+	await get_tree().process_frame
+	if not battle_view.model.active or battle_view.defeat_panel.visible or battle_view.model.potions != 1: errors.append("Keyboard retry did not preserve spent inventory")
+	battle_view.stop()
+	for audio in battle_view.audio_players: audio.stop()
+	for i in range(4): await get_tree().process_frame
+	print("FIRST_BATTLE_INPUT_QA: ","PASS" if errors.is_empty() else "FAIL"," ",errors)
+	get_tree().quit(0 if errors.is_empty() else 1)
+
+
+func _qa_complete_treatment() -> void:
+	_set_click_route(Vector3(9,0,4))
+	for i in range(400):
+		_physics_process(0.05)
+		if not has_walk_target and not walker.moving: break
+	_update_nearest()
+	_activate_interaction()
+	_qa_finish_dialog()
