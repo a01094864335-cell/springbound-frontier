@@ -37,6 +37,8 @@ var attack_button: Button
 var move_button: Button
 var resolved := false
 var threat_visible := false
+var cell_overlay: Node3D
+var overlay_key := ""
 
 func setup(owner_world: Node) -> void:
 	world = owner_world
@@ -97,6 +99,7 @@ func stop() -> void:
 	if is_instance_valid(destination_ring): destination_ring.queue_free()
 	target_ring = null
 	destination_ring = null
+	_clear_cells()
 	_sync_weapon()
 
 func tick(delta: float) -> void:
@@ -132,6 +135,7 @@ func tick(delta: float) -> void:
 		enemy_caption.text = "가시털 들쥐 · 공격 준비" if model.enemy_windup > 0 else "가시털 들쥐"
 	world.hero_sprite.modulate = Color("ff9b87") if hero_flash > 0 else Color.WHITE
 	_refresh()
+	_update_cells()
 
 func _event(event: Dictionary) -> void:
 	match event.kind:
@@ -237,13 +241,13 @@ func _refresh() -> void:
 	enemy_health.text = "가시털 들쥐  HP %d / %d" % [model.enemy_hp,Battle.ENEMY_HP]
 	hero_bar.value = model.hp
 	enemy_bar.value = model.enemy_hp
-	var labels := {"wait":"대기","attack":"마물에게 접근해 반복 공격","move":"선택한 지점으로 이동"}
+	var labels := {"wait":"대기","attack":"마물에게 접근해 반복 공격","move":"선택한 칸으로 이동"}
 	order_label.text = "에일의 명령: "+labels[model.order]+(" · 회복약 사용 예약" if model.pending_item else "")
 	if model.hero_cooldown > 0: order_label.text += " · 행동 후 대기 %.1f초" % model.hero_cooldown
 	resume_button.text = "재개 · Space" if model.paused else "정지 · Space"
 	item_button.text = "회복약 (%d)" % model.potions
 	item_button.disabled = not model.active or model.hp >= Battle.MAX_HP or model.potions <= 0 or model.hero_cooldown > 0 or model.pending_item
-	help_label.text = "길 위의 이동할 칸을 클릭하세요 · 우클릭으로도 이동 지정" if target_mode == "move" else ("가시털 들쥐를 클릭하세요" if target_mode == "attack" else "명령을 고른 뒤 Space로 재개 · 우클릭 이동 · 마물 클릭 공격")
+	help_label.text = "길 위의 이동할 칸을 클릭하세요 · 우클릭으로도 이동 지정" if target_mode == "move" else ("마물을 클릭하세요 · 상하좌우 인접 1칸에서 공격" if target_mode == "attack" else "명령을 고른 뒤 Space로 재개 · 우클릭 이동 · 마물 클릭 공격")
 	if target_mode.is_empty() and not model.commands_used.has("attack_hit"):
 		help_label.text = "① 공격 → 마물 클릭 → Space 재개. 사거리까지 다가가 반복 공격합니다."
 	elif target_mode.is_empty() and not model.commands_used.has("dodge"):
@@ -334,6 +338,7 @@ func _small_button(parent: Node, title: String, callback: Callable) -> Button:
 	return button
 
 func _show_defeat(interrupted := false) -> void:
+	_clear_cells()
 	defeat_heading.text = "전투 직전 기록을 불러왔다" if interrupted else "에일이 쓰러졌다"
 	panel.hide()
 	defeat_text.text = "체력·마나·위치·진행은 전투 직전으로 돌아갑니다.\n사용한 회복약은 돌아오지 않습니다.\n남은 회복약: %d개" % model.potions
@@ -507,3 +512,53 @@ func _exit_tree() -> void:
 	model.blocked = Callable()
 	model.pathfinder = Callable()
 	model.line_clear = Callable()
+
+
+func _clear_cells() -> void:
+	if is_instance_valid(cell_overlay): cell_overlay.queue_free()
+	cell_overlay = null
+	overlay_key = ""
+
+func _update_cells() -> void:
+	var point: Variant = _ground(world.get_viewport().get_mouse_position())
+	if point == null: return
+	var hover := Vector3(roundf(point.x),0,roundf(point.z))
+	var origin: Vector3 = model.player.target if model.player.moving else model.player.position
+	var key := str([origin,model.enemy.target,hover,model.paused,target_mode,model.order,model.destination])
+	if key == overlay_key: return
+	_clear_cells()
+	overlay_key = key
+	if not model.active: return
+	cell_overlay = Node3D.new()
+	world.map_root.add_child(cell_overlay)
+	# The board appears while issuing commands, keeping the moving field readable.
+	if model.paused:
+		for x in range(roundi(origin.x)-6,roundi(origin.x)+7):
+			for z in range(roundi(origin.z)-6,roundi(origin.z)+7):
+				var cell := Vector3(x,0,z)
+				if not world._blocked(cell): _cell_outline(cell,Color(0.55,0.8,0.9,0.26),0.018)
+		for direction in [Vector3.LEFT,Vector3.RIGHT,Vector3.FORWARD,Vector3.BACK]:
+			var cell: Vector3 = model.enemy.target+direction
+			if not world._blocked(cell): _cell_outline(cell,Color(1,0.48,0.25,0.85),0.04)
+	var goal: Vector3 = hover if model.paused and target_mode == "move" else model.destination
+	if model.order == "move" or (model.paused and target_mode == "move"):
+		var route := _path(origin,goal)
+		var valid: bool = not world._blocked(goal) and not route.is_empty() and goal.distance_to(model.enemy.target) > 0.8
+		if valid:
+			for cell: Vector3 in route: _cell_outline(cell,Color(0.35,0.95,0.8,0.85),0.045)
+		_cell_outline(goal,Color("f6d687") if valid else Color("ef6565"),0.08)
+	_cell_outline(origin,Color("8fcdf3"),0.045)
+
+func _cell_outline(cell: Vector3, color: Color, width: float) -> void:
+	var material := StandardMaterial3D.new()
+	material.shading_mode = BaseMaterial3D.SHADING_MODE_UNSHADED
+	material.transparency = BaseMaterial3D.TRANSPARENCY_ALPHA
+	material.albedo_color = color
+	for i in range(4):
+		var edge := MeshInstance3D.new()
+		var box := BoxMesh.new()
+		box.size = Vector3(0.94,0.012,width) if i < 2 else Vector3(width,0.012,0.94)
+		edge.mesh = box
+		edge.material_override = material
+		edge.position = cell+Vector3(0,0.085,(-0.47 if i == 0 else 0.47)) if i < 2 else cell+Vector3((-0.47 if i == 2 else 0.47),0.085,0)
+		cell_overlay.add_child(edge)

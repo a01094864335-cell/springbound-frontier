@@ -23,6 +23,13 @@ func _new(mode := "story", items := 2):
 
 func _initialize() -> void:
 	var b = _new()
+	b.enemy.reset(Vector3(1,0,1))
+	if b.in_reach(): errors.append("Diagonal cells allow sword attack")
+	b.enemy.reset(Vector3.RIGHT)
+	if not b.in_reach(): errors.append("Cardinal adjacent cell cannot be attacked")
+	b.player.begin(Vector2i.LEFT,_wall)
+	if b.in_reach(): errors.append("Moving actor can attack between cells")
+	b = _new()
 	b.select_order("attack")
 	b.advance(2)
 	if b.player.position != Vector3.ZERO or b.enemy_hp != Battle.ENEMY_HP or b.elapsed != 0: errors.append("Paused simulation advances")

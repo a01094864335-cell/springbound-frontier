@@ -99,3 +99,6 @@ godot --headless --path game --script res://tests/prologue_story_test.gd
 ![패배와 재도전](screenshots/16-battle-defeat.png)
 
 ![승리 후 레온 대화](screenshots/17-battle-victory.png)
+
+## 칸 단위 명령 표시 (2026-10-30)
+명령 정지 중 통행 가능한 길에 격자를 표시합니다. 이동 선택 후 마우스를 올리면 초록색 경로, 금색 도착 칸이 보이며 불가능한 도착 칸은 빨간색입니다. 선택한 경로는 시간 진행 중에도 남습니다. 적 주변 주황색 네 칸은 검의 사거리입니다. 양쪽이 칸에 멈추고 상하좌우로 인접해야 공격이 맞습니다. 대각선이나 이동 중 공격은 맞지 않습니다.

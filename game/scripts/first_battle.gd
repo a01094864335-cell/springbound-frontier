@@ -90,7 +90,10 @@ func toggle_time() -> void:
 	if active: paused = not paused
 
 func in_reach() -> bool:
-	return player.position.distance_to(enemy.position) <= REACH and line_clear.call(player.position,enemy.position)
+	# A sword connects only between settled cardinal neighbours.
+	if player.moving or enemy.moving: return false
+	var offset: Vector3 = player.position-enemy.position
+	return is_equal_approx(absf(offset.x)+absf(offset.z),1.0) and line_clear.call(player.position,enemy.position)
 
 func advance(delta: float) -> void:
 	if not active or paused or delta <= 0: return
