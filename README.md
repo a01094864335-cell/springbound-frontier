@@ -14,6 +14,7 @@ Springbound Frontier · 가제
 
 ## 작업자 시작 문서
 
+[아이템 외형 80종](docs/item-design-boards.md) — 장비 각 5종 변형과 기본 물품, 보드 15장
 [NPC 전체 제작 목록](docs/npc-registry.md) · [이름 없는 NPC 14종 보드](docs/generic-npc-boards.md)
 
 [조연 캐릭터 보드 26명](docs/supporting-cast-boards.md)
