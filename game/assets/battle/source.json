@@ -1,0 +1,6 @@
+{
+  "file": "spine-rat-board-v1.png",
+  "source": "assets/monster-boards/spine-rat-board-v1.png",
+  "sha256": "0751dcef8cbb4a7aa5f687e9ae4780b578b73c8d2bca0a116b7008aa8eae8696",
+  "usage": "Runtime front/back/side/prepare/contact cutouts; source board preserved; not final animation atlas"
+}
