@@ -14,6 +14,8 @@ Springbound Frontier · 가제
 
 ## 작업자 시작 문서
 
+[NPC 전체 제작 목록](docs/npc-registry.md) · [이름 없는 NPC 14종 보드](docs/generic-npc-boards.md)
+
 [조연 캐릭터 보드 26명](docs/supporting-cast-boards.md)
 [프롤로그 완성도 개선·구현 계획](docs/prologue-completion-plan.md) — 서리골 배치부터 첫 전투·완주·Windows 검증까지 단계별 작업 순서
 [환경 에셋 HTML 도감](docs/assets-viewer/index.html) — 다운로드 후 브라우저에서 열기
