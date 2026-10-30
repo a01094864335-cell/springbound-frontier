@@ -14,6 +14,7 @@ Springbound Frontier · 가제
 
 ## 작업자 시작 문서
 
+[프롤로그 완성도 개선·구현 계획](docs/prologue-completion-plan.md) — 서리골 배치부터 첫 전투·완주·Windows 검증까지 단계별 작업 순서
 [환경 에셋 HTML 도감](docs/assets-viewer/index.html) — 다운로드 후 브라우저에서 열기
 
 [환경 에셋 43종과 배치 가이드](docs/environment-assets.md) — 개별 3D 장면·나무 스프라이트·검수 뷰어
