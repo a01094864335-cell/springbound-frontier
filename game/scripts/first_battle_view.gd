@@ -25,6 +25,8 @@ var target_ring: MeshInstance3D
 var destination_ring: MeshInstance3D
 var textures: Dictionary = {}
 var target_mode := ""
+var keyboard_cell := Vector3.ZERO
+var keyboard_target := false
 var log_lines: Array[String] = []
 var enemy_flash := 0.0
 var hero_flash := 0.0
@@ -75,6 +77,7 @@ func start(checkpoint: Dictionary, restore_defeat := false) -> void:
 	hero_flash = 0
 	enemy_contact = 0
 	panel.show()
+	world.hud.hide()
 	world.exploration_controls.hide()
 	defeat_panel.hide()
 	if restore_defeat:
@@ -89,6 +92,7 @@ func stop() -> void:
 	model.outcome = ""
 	if world.exploration_controls: world.exploration_controls.show()
 	threat_visible = false
+	world.hud.show()
 	panel.hide()
 	defeat_panel.hide()
 	target_mode = ""
@@ -166,6 +170,24 @@ func handle(event: InputEvent) -> bool:
 	if world.dialog_panel.visible: return false
 	if event is InputEventKey and event.pressed and not event.echo:
 		if model.outcome == "defeat": return event.keycode not in [KEY_TAB,KEY_ENTER,KEY_SPACE,KEY_UP,KEY_DOWN]
+		if not target_mode.is_empty() and event.keycode in [KEY_UP,KEY_DOWN,KEY_LEFT,KEY_RIGHT,KEY_ENTER]:
+			if event.keycode == KEY_ENTER:
+				if target_mode == "attack":
+					model.select_order("attack")
+					target_mode = ""
+				else:
+					var click := InputEventMouseButton.new()
+					click.pressed = true
+					click.button_index = MOUSE_BUTTON_RIGHT
+					click.position = world.camera.unproject_position(keyboard_cell)
+					handle(click)
+			else:
+				keyboard_target = true
+				var directions := {KEY_UP:Vector3.FORWARD,KEY_DOWN:Vector3.BACK,KEY_LEFT:Vector3.LEFT,KEY_RIGHT:Vector3.RIGHT}
+				keyboard_cell += directions[event.keycode]
+			_refresh()
+			_update_cells()
+			return true
 		if event.keycode in [KEY_SPACE,KEY_ESCAPE]:
 			if event.keycode == KEY_ESCAPE and not target_mode.is_empty():
 				target_mode = ""
@@ -179,8 +201,11 @@ func handle(event: InputEvent) -> bool:
 		if event.keycode == KEY_1:
 			_log("에일 선택")
 			return true
+		if event.keycode in [KEY_TAB,KEY_ENTER,KEY_UP,KEY_DOWN] and target_mode.is_empty() and model.paused: return false
 		# Exploration, saving and loading cannot bypass the battle checkpoint.
 		return true
+	if event is InputEventMouseMotion:
+		keyboard_target = false
 	if event is InputEventMouseButton and event.pressed and model.active:
 		if event.button_index not in [MOUSE_BUTTON_LEFT,MOUSE_BUTTON_RIGHT]: return true
 		var point: Variant = _ground(event.position)
@@ -209,7 +234,10 @@ func _choose(value: String) -> void:
 	if value == "wait":
 		model.select_order("wait")
 		target_mode = ""
-	else: target_mode = value
+	else:
+		target_mode = value
+		keyboard_cell = model.player.target
+		keyboard_target = true
 	_refresh()
 
 func _item() -> void:
@@ -247,7 +275,7 @@ func _refresh() -> void:
 	resume_button.text = "재개 · Space" if model.paused else "정지 · Space"
 	item_button.text = "회복약 (%d)" % model.potions
 	item_button.disabled = not model.active or model.hp >= Battle.MAX_HP or model.potions <= 0 or model.hero_cooldown > 0 or model.pending_item
-	help_label.text = "길 위의 이동할 칸을 클릭하세요 · 우클릭으로도 이동 지정" if target_mode == "move" else ("마물을 클릭하세요 · 상하좌우 인접 1칸에서 공격" if target_mode == "attack" else "명령을 고른 뒤 Space로 재개 · 우클릭 이동 · 마물 클릭 공격")
+	help_label.text = "이동 칸: 방향키 → Enter · 마우스로도 선택" if target_mode == "move" else ("마물 선택: Enter / 클릭 · 인접 1칸 공격" if target_mode == "attack" else "명령을 고른 뒤 Space로 재개 · 우클릭 이동 · 마물 클릭 공격")
 	if target_mode.is_empty() and not model.commands_used.has("attack_hit"):
 		help_label.text = "① 공격 → 마물 클릭 → Space 재개. 사거리까지 다가가 반복 공격합니다."
 	elif target_mode.is_empty() and not model.commands_used.has("dodge"):
@@ -264,40 +292,57 @@ func _log(message: String) -> void:
 
 func _make_ui() -> void:
 	panel = PanelContainer.new()
-	panel.set_anchors_and_offsets_preset(Control.PRESET_BOTTOM_WIDE)
-	panel.offset_left = 70
-	panel.offset_right = -70
-	panel.offset_top = -256
-	panel.offset_bottom = -24
-	panel.add_theme_stylebox_override("panel",world._panel_style(Color("101d39")))
+	panel.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	panel.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	panel.add_theme_stylebox_override("panel",StyleBoxEmpty.new())
 	world.ui_root.add_child(panel)
-	var stack := VBoxContainer.new()
-	stack.add_theme_constant_override("separation",5)
-	panel.add_child(stack)
-	heading = world._label(stack,"",23,Color("ecd5a1"))
-	var stats := HBoxContainer.new()
-	stack.add_child(stats)
+	var layout := Control.new()
+	layout.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	panel.add_child(layout)
+	var status := _window(layout,Vector2(24,-158),Vector2(330,134),Control.PRESET_BOTTOM_LEFT)
 	var left := VBoxContainer.new()
-	left.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	stats.add_child(left)
-	health = world._label(left,"",17)
-	hero_bar = _bar(left,Battle.MAX_HP,Color("6dbb92"))
-	var right := VBoxContainer.new()
-	right.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	stats.add_child(right)
-	enemy_health = world._label(right,"",17)
-	enemy_bar = _bar(right,Battle.ENEMY_HP,Color("c36d65"))
-	order_label = world._label(stack,"",16)
-	var buttons := HBoxContainer.new()
-	stack.add_child(buttons)
+	status.add_child(left)
+	world._label(left,"PLAYER  /  에일",13,Color("d6d3bd"))
+	health = world._label(left,"",16)
+	hero_bar = _bar(left,Battle.MAX_HP,Color("76ba9d"))
+	order_label = world._label(left,"",14)
+	order_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	var target := _window(layout,Vector2(-298,24),Vector2(274,82),Control.PRESET_TOP_RIGHT)
+	var target_stack := VBoxContainer.new()
+	target.add_child(target_stack)
+	world._label(target_stack,"TARGET",12,Color("c8bca5"))
+	enemy_health = world._label(target_stack,"",16)
+	enemy_bar = _bar(target_stack,Battle.ENEMY_HP,Color("bb7470"))
+	var commands := _window(layout,Vector2(-218,-328),Vector2(194,304),Control.PRESET_BOTTOM_RIGHT)
+	var buttons := VBoxContainer.new()
+	buttons.add_theme_constant_override("separation",3)
+	commands.add_child(buttons)
+	world._label(buttons,"COMMAND  /  에일",14,Color("e6d3a3"))
 	attack_button = _small_button(buttons,"공격",func(): _choose("attack"))
 	move_button = _small_button(buttons,"이동",func(): _choose("move"))
 	_small_button(buttons,"대기",func(): _choose("wait"))
 	item_button = _small_button(buttons,"회복약",_item)
 	resume_button = _small_button(buttons,"재개 · Space",_toggle_time)
 	_small_button(buttons,"조작 안내",func(): model.paused = true; world._play_scene("firstbattle_help"))
-	help_label = world._label(stack,"",15,Color("e5c582"))
-	log_label = world._label(stack,"",14,Color("c6d7d2"))
+	heading = world._label(layout,"",18,Color("f1d89d"))
+	heading.set_anchors_and_offsets_preset(Control.PRESET_CENTER_TOP)
+	heading.position = Vector2(-160,24)
+	heading.size = Vector2(320,28)
+	heading.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	help_label = world._label(layout,"",14,Color("e5d9b5"))
+	help_label.set_anchors_and_offsets_preset(Control.PRESET_CENTER_BOTTOM)
+	help_label.position = Vector2(-250,-60)
+	help_label.size = Vector2(500,44)
+	help_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	log_label = world._label(layout,"",14,Color("e2e6dc"))
+	log_label.set_anchors_and_offsets_preset(Control.PRESET_TOP_LEFT)
+	log_label.position = Vector2(24,24)
+	log_label.size = Vector2(360,76)
+	log_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	for label in [heading,help_label,log_label]:
+		label.mouse_filter = Control.MOUSE_FILTER_IGNORE
+		label.add_theme_color_override("font_shadow_color",Color("10151c"))
+		label.add_theme_constant_override("shadow_outline_size",5)
 	panel.hide()
 	defeat_panel = PanelContainer.new()
 	defeat_panel.set_anchors_and_offsets_preset(Control.PRESET_CENTER)
@@ -331,10 +376,17 @@ func _bar(parent: Node, maximum: int, color: Color) -> ProgressBar:
 
 func _small_button(parent: Node, title: String, callback: Callable) -> Button:
 	var button: Button = world._button(parent,title,callback)
-	button.custom_minimum_size = Vector2(150,38)
+	button.custom_minimum_size = Vector2(166,32)
 	button.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	button.focus_mode = Control.FOCUS_NONE
-	button.add_theme_font_size_override("font_size",17)
+	button.focus_mode = Control.FOCUS_ALL
+	button.add_theme_font_size_override("font_size",16)
+	for state in ["normal","hover","pressed","focus"]:
+		var style := StyleBoxFlat.new()
+		style.bg_color = Color("34404a") if state in ["hover","focus"] else Color("17232d")
+		style.border_color = Color("d2c89d") if state in ["hover","focus"] else Color("657477")
+		style.set_border_width_all(1)
+		style.set_content_margin_all(5)
+		button.add_theme_stylebox_override(state,style)
 	return button
 
 func _show_defeat(interrupted := false) -> void:
@@ -522,7 +574,7 @@ func _clear_cells() -> void:
 func _update_cells() -> void:
 	var point: Variant = _ground(world.get_viewport().get_mouse_position())
 	if point == null: return
-	var hover := Vector3(roundf(point.x),0,roundf(point.z))
+	var hover := keyboard_cell if keyboard_target else Vector3(roundf(point.x),0,roundf(point.z))
 	var origin: Vector3 = model.player.target if model.player.moving else model.player.position
 	var key := str([origin,model.enemy.target,hover,model.paused,target_mode,model.order,model.destination])
 	if key == overlay_key: return
@@ -562,3 +614,19 @@ func _cell_outline(cell: Vector3, color: Color, width: float) -> void:
 		edge.material_override = material
 		edge.position = cell+Vector3(0,0.085,(-0.47 if i == 0 else 0.47)) if i < 2 else cell+Vector3((-0.47 if i == 2 else 0.47),0.085,0)
 		cell_overlay.add_child(edge)
+
+
+func _window(parent: Control, offset: Vector2, dimensions: Vector2, preset: int) -> PanelContainer:
+	var box := PanelContainer.new()
+	box.set_anchors_and_offsets_preset(preset)
+	box.position = offset
+	box.size = dimensions
+	box.custom_minimum_size = dimensions
+	var style := StyleBoxFlat.new()
+	style.bg_color = Color(0.08,0.12,0.16,0.94)
+	style.border_color = Color("b4b5a3")
+	style.set_border_width_all(2)
+	style.set_content_margin_all(10)
+	box.add_theme_stylebox_override("panel",style)
+	parent.add_child(box)
+	return box

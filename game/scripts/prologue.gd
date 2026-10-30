@@ -1090,22 +1090,22 @@ func _setup_ui() -> void:
 	ui_root.add_child(hud)
 	var location := PanelContainer.new()
 	location.position = Vector2(30,26)
-	location.custom_minimum_size = Vector2(290,88)
+	location.custom_minimum_size = Vector2(260,62)
 	location.add_theme_stylebox_override("panel",_panel_style(Color(0.035,0.065,0.16,0.96)))
 	hud.add_child(location)
 	var location_stack := VBoxContainer.new()
 	location.add_child(location_stack)
 	chapter_label = _label(location_stack,"",12,Color("b8c6ae"))
-	location_label = _label(location_stack,"",27,Color("f0e6c9"))
+	location_label = _label(location_stack,"",21,Color("f0e6c9"))
 	var quest := PanelContainer.new()
-	quest.position = Vector2(30,132)
-	quest.custom_minimum_size = Vector2(290,96)
+	quest.position = Vector2(30,104)
+	quest.custom_minimum_size = Vector2(260,76)
 	quest.add_theme_stylebox_override("panel",_panel_style(Color(0.035,0.065,0.16,0.91),Color("8b7c57")))
 	hud.add_child(quest)
 	var quest_stack := VBoxContainer.new()
 	quest.add_child(quest_stack)
 	_label(quest_stack,"◇  지금의 여정",13,Color("d3b77c"))
-	objective_label = _label(quest_stack,"",17)
+	objective_label = _label(quest_stack,"",15)
 	var map_container := VBoxContainer.new()
 	map_container.set_anchors_and_offsets_preset(Control.PRESET_TOP_RIGHT)
 	map_container.offset_left = -210
@@ -2155,6 +2155,18 @@ func _run_battle_input_qa() -> void:
 	_play_scene("leon_bridge")
 	_qa_finish_dialog()
 	for i in range(4): await get_tree().process_frame
+	battle_view._choose("move")
+	var keyboard_start: Vector3 = battle_view.keyboard_cell
+	_inject_battle_key(KEY_RIGHT)
+	await get_tree().process_frame
+	if battle_view.keyboard_cell != keyboard_start+Vector3.RIGHT: errors.append("Keyboard cell cursor failed")
+	_inject_battle_key(KEY_ENTER)
+	await get_tree().process_frame
+	if battle_view.model.order != "move" or battle_view.model.destination != keyboard_start+Vector3.RIGHT: errors.append("Keyboard move confirmation failed")
+	battle_view._choose("attack")
+	_inject_battle_key(KEY_ENTER)
+	await get_tree().process_frame
+	if battle_view.model.order != "attack" or not battle_view.target_mode.is_empty(): errors.append("Keyboard attack confirmation failed")
 	_inject_battle_click(battle_view.attack_button.get_global_rect().get_center())
 	await get_tree().process_frame
 	if battle_view.target_mode != "attack": errors.append("Attack GUI button did not enter target selection")
