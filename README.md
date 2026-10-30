@@ -37,3 +37,5 @@ Springbound Frontier · 가제
 [캐릭터 설정 — 에일 성격 및 동료 후보 전체 초안](docs/characters.md)
 
 [캐릭터 보드 7장](docs/character-boards.md)
+
+[에일 이동 동작 시제품](docs/ael-movement-assets.md) — 8개 장비 상태·4방향·256칸. [조작 가능한 이동 뷰어](assets/ael-movement/index.html).
