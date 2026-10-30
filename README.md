@@ -14,6 +14,16 @@ Springbound Frontier · 가제
 
 ## 작업자 시작 문서
 
+[전투 장비 권한·모션 기획](docs/combat-equipment-and-motion-spec.md) · [에셋 기획·구현 가드레일](docs/asset-planning-guardrails.md)
+
+[에일 무기별 전투·승리 키포즈 시안](docs/ael-combat-motion-boards.md)
+[아이템 외형 80종](docs/item-design-boards.md) — 장비 각 5종 변형과 기본 물품, 보드 15장
+[NPC 전체 제작 목록](docs/npc-registry.md) · [이름 없는 NPC 14종 보드](docs/generic-npc-boards.md)
+
+[조연 캐릭터 보드 26명](docs/supporting-cast-boards.md)
+[프롤로그 완성도 개선·구현 계획](docs/prologue-completion-plan.md) — 서리골 배치부터 첫 전투·완주·Windows 검증까지 단계별 작업 순서
+[환경 에셋 HTML 도감](docs/assets-viewer/index.html) — 다운로드 후 브라우저에서 열기
+
 [환경 에셋 43종과 배치 가이드](docs/environment-assets.md) — 개별 3D 장면·나무 스프라이트·검수 뷰어
 
 [구현 전 확정한 게임 기획](docs/confirmed-design.md)
@@ -39,3 +49,5 @@ Springbound Frontier · 가제
 [캐릭터 보드 7장](docs/character-boards.md)
 
 [몬스터 보드 16종](docs/monster-boards.md) — 일반 12종·보스 4종. [HTML 갤러리](assets/monster-boards/index.html).
+[인간 적군 보드 14종](docs/enemy-character-boards.md) — 주요 인물 6명·일반 병종 8종. [HTML 갤러리](assets/enemy-boards/index.html).
+[방패 조합 기획과 시안](docs/shield-loadouts.md) — 한손검+방패·단검+버클러 각 16포즈, 방패 외형 5종. [통합 HTML 갤러리](assets/combat-motion-boards/ael/index.html).

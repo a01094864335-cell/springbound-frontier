@@ -4,6 +4,16 @@
 
 현재 실행 화면 `docs/screenshots/01-map.png`부터 `04-map.png` 및 `game/scripts/prologue.gd`의 배치와 치수를 참고했습니다. 기존 겨울 재질·침엽수 이미지를 재사용하고, 원래 코드 안에 있던 구조물을 개별 3D 장면으로 구성했습니다. 상자·가구·창틀 등은 독립 재사용할 수 있도록 디테일을 추가했습니다. 43종 모두 새로운 AI 이미지라는 의미는 아닙니다.
 
+## 브라우저에서 전체 보기
+
+[환경 에셋 HTML 도감](assets-viewer/index.html)을 다운로드하여 브라우저에서 열면 43종을 볼 수 있습니다. 서버·Godot 설치 없이 동작하며, 메시와 텍스처를 파일 안에 포함합니다. GitHub 파일 페이지에서는 소스가 보이므로 Raw 파일을 저장한 뒤 여세요.
+
+분류·장소 필터, 한글 이름·ID 검색, 드래그 회전·휠 확대, 정면·게임 시점 전환, 충돌 범위 표시와 JSON 정보 내려받기를 지원합니다. 실제 .tscn 메시에서 추출했으나 웹 조명과 나무 빌보드 표현은 Godot와 차이가 있습니다.
+
+재생성 순서: `godot --headless --path game --script res://tools/export_environment_web.gd` 후 `python game/tools/build_environment_html.py`.
+
+검증: Chromium에서 43개 렌더링, 분류·검색·선택·충돌 토글·빈 결과, 390px 화면 가로 넘침 없음 및 JavaScript 오류 없음 확인.
+
 ## 사용
 
 - 개별 에셋: `game/assets/environment/scenes/*.tscn`. Godot의 파일 시스템에서 맵에 끌어다 놓습니다.

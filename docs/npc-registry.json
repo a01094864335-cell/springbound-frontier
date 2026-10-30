@@ -1,0 +1,1239 @@
+{
+  "date": "2026-10-29",
+  "scope_note": "기획/에셋 제작 목록. 공통형은 배치 인원 수가 아니며 런타임 스폰 데이터가 아닙니다.",
+  "counts": {
+    "player": 1,
+    "companions": 5,
+    "named_npcs": 27,
+    "generic_templates": 14,
+    "total_catalog_entries": 47,
+    "non_player_entries": 46
+  },
+  "entries": [
+    {
+      "id": "pc-ael",
+      "display_name": "에일",
+      "entry_kind": "player",
+      "regions": [
+        "서리골",
+        "산길",
+        "돌샘"
+      ],
+      "role": "고정 주인공",
+      "faction": "미정/해당 없음",
+      "priority": "P0 프롤로그",
+      "interaction_plan": [
+        "주요 대화·사건"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화",
+        "공격",
+        "피격",
+        "전투 불능",
+        "처치",
+        "검 받기"
+      ],
+      "board_path": "assets/character-boards/ael-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "기존 이동·대화·초기 걷기 구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "원설정: docs/characters.md"
+    },
+    {
+      "id": "npc-leon",
+      "display_name": "레온",
+      "entry_kind": "companion",
+      "regions": [
+        "산길",
+        "돌샘",
+        "국경"
+      ],
+      "role": "부상당한 기사·동료 후보",
+      "faction": "미정/해당 없음",
+      "priority": "P0 프롤로그",
+      "interaction_plan": [
+        "주요 대화·사건"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화",
+        "부상 대기",
+        "검 건네기",
+        "느린 동행"
+      ],
+      "board_path": "assets/character-boards/leon-board-v2.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "기존 임시 도트·대화 구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "레온은 첫 전투에서 전투 불참"
+    },
+    {
+      "id": "npc-ria",
+      "display_name": "리아",
+      "entry_kind": "companion",
+      "regions": [
+        "피난 교량",
+        "아르덴",
+        "북방 시설"
+      ],
+      "role": "창병·구조 담당",
+      "faction": "미정/해당 없음",
+      "priority": "P1 본편",
+      "interaction_plan": [
+        "주요 대화·사건"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화",
+        "공격",
+        "피격",
+        "전투 불능"
+      ],
+      "board_path": "assets/character-boards/ria-board-v2.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "원설정: docs/characters.md"
+    },
+    {
+      "id": "npc-sena",
+      "display_name": "세나",
+      "entry_kind": "companion",
+      "regions": [
+        "남방 학술도시",
+        "북방 시설",
+        "고대 중추"
+      ],
+      "role": "측량 연구원",
+      "faction": "미정/해당 없음",
+      "priority": "P1 본편",
+      "interaction_plan": [
+        "주요 대화·사건"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화",
+        "공격",
+        "피격",
+        "전투 불능"
+      ],
+      "board_path": "assets/character-boards/sena-board-v2.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "원설정: docs/characters.md"
+    },
+    {
+      "id": "npc-kai",
+      "display_name": "카이",
+      "entry_kind": "companion",
+      "regions": [
+        "남방 항구",
+        "해양국",
+        "고대 중추"
+      ],
+      "role": "항해·운송 담당",
+      "faction": "미정/해당 없음",
+      "priority": "P1 본편",
+      "interaction_plan": [
+        "주요 대화·사건"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화",
+        "공격",
+        "피격",
+        "전투 불능"
+      ],
+      "board_path": "assets/character-boards/kai-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "원설정: docs/characters.md"
+    },
+    {
+      "id": "npc-iris",
+      "display_name": "이리스",
+      "entry_kind": "companion",
+      "regions": [
+        "남방 학술도시",
+        "성역",
+        "고대 중추"
+      ],
+      "role": "기록 담당 사제",
+      "faction": "미정/해당 없음",
+      "priority": "P1 본편",
+      "interaction_plan": [
+        "주요 대화·사건"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화",
+        "공격",
+        "피격",
+        "전투 불능"
+      ],
+      "board_path": "assets/character-boards/iris-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "원설정: docs/characters.md"
+    },
+    {
+      "id": "npc-marta",
+      "display_name": "마르타",
+      "entry_kind": "named_npc",
+      "regions": [
+        "서리골"
+      ],
+      "role": "약초사·양육자·거점 지원",
+      "faction": "미정/해당 없음",
+      "priority": "P0 프롤로그",
+      "interaction_plan": [
+        "주요 대화·사건"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화"
+      ],
+      "board_path": "assets/character-boards/marta-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "기존 임시 도트·대화 구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "원설정: docs/characters.md"
+    },
+    {
+      "id": "npc-orman",
+      "display_name": "오르만",
+      "entry_kind": "named_npc",
+      "regions": [
+        "서리골"
+      ],
+      "role": "여관 주인",
+      "faction": "미정/해당 없음",
+      "priority": "P0 프롤로그 후보",
+      "interaction_plan": [
+        "아침 약 전달·겨울 물자 이야기"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화"
+      ],
+      "board_path": "assets/character-boards/supporting-cast/orman-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "프롤로그 제안 위치: 여관; NPC 추가 시 퀘스트/동선 검토 필요"
+    },
+    {
+      "id": "npc-nia",
+      "display_name": "니아",
+      "entry_kind": "named_npc",
+      "regions": [
+        "서리골"
+      ],
+      "role": "마을 아이",
+      "faction": "미정/해당 없음",
+      "priority": "P0 프롤로그 후보",
+      "interaction_plan": [
+        "눈사람·오빠에게 선물 부탁"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화",
+        "눈사람 작업"
+      ],
+      "board_path": "assets/character-boards/supporting-cast/nia-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "프롤로그 제안 위치: 우물 광장; NPC 추가 시 퀘스트/동선 검토 필요"
+    },
+    {
+      "id": "npc-doren",
+      "display_name": "도렌",
+      "entry_kind": "named_npc",
+      "regions": [
+        "서리골"
+      ],
+      "role": "장작꾼",
+      "faction": "미정/해당 없음",
+      "priority": "P0 프롤로그 후보",
+      "interaction_plan": [
+        "산길 상태 안내"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화",
+        "장작 운반"
+      ],
+      "board_path": "assets/character-boards/supporting-cast/doren-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "프롤로그 제안 위치: 장작터; NPC 추가 시 퀘스트/동선 검토 필요"
+    },
+    {
+      "id": "npc-vera",
+      "display_name": "베라",
+      "entry_kind": "named_npc",
+      "regions": [
+        "서리골"
+      ],
+      "role": "잡화점 주인",
+      "faction": "미정/해당 없음",
+      "priority": "P0 프롤로그 후보",
+      "interaction_plan": [
+        "물자·회복약 안내"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화"
+      ],
+      "board_path": "assets/character-boards/supporting-cast/vera-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "프롤로그 제안 위치: 잡화점; NPC 추가 시 퀘스트/동선 검토 필요"
+    },
+    {
+      "id": "npc-roke",
+      "display_name": "로크",
+      "entry_kind": "named_npc",
+      "regions": [
+        "서리골"
+      ],
+      "role": "마을 경비병",
+      "faction": "미정/해당 없음",
+      "priority": "P0 프롤로그 후보",
+      "interaction_plan": [
+        "통행·안전 안내"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화"
+      ],
+      "board_path": "assets/character-boards/supporting-cast/roke-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "프롤로그 제안 위치: 마을 출구; NPC 추가 시 퀘스트/동선 검토 필요"
+    },
+    {
+      "id": "npc-pell",
+      "display_name": "펠",
+      "entry_kind": "named_npc",
+      "regions": [
+        "돌샘"
+      ],
+      "role": "배달꾼",
+      "faction": "미정/해당 없음",
+      "priority": "P0 프롤로그 후보",
+      "interaction_plan": [
+        "돌샘의 약 요청 전달"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화",
+        "서신 전달"
+      ],
+      "board_path": "assets/character-boards/supporting-cast/pell-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "프롤로그 제안 위치: 약초사 집; NPC 추가 시 퀘스트/동선 검토 필요"
+    },
+    {
+      "id": "npc-eda",
+      "display_name": "에다",
+      "entry_kind": "named_npc",
+      "regions": [
+        "돌샘"
+      ],
+      "role": "의무실 책임자",
+      "faction": "미정/해당 없음",
+      "priority": "P0 프롤로그 후보",
+      "interaction_plan": [
+        "약 인계·레온 치료"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화",
+        "치료"
+      ],
+      "board_path": "assets/character-boards/supporting-cast/eda-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "프롤로그 제안 위치: 돌샘 의무실; NPC 추가 시 퀘스트/동선 검토 필요"
+    },
+    {
+      "id": "npc-bram",
+      "display_name": "브람",
+      "entry_kind": "named_npc",
+      "regions": [
+        "돌샘"
+      ],
+      "role": "광산 반장",
+      "faction": "미정/해당 없음",
+      "priority": "P1 후속 장",
+      "interaction_plan": [
+        "광산 반장 관련 대화·사건"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화"
+      ],
+      "board_path": "assets/character-boards/supporting-cast/bram-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "후속 장 등장 후보. 현재 맵 배치 완료 아님."
+    },
+    {
+      "id": "npc-toma",
+      "display_name": "토마",
+      "entry_kind": "named_npc",
+      "regions": [
+        "돌샘"
+      ],
+      "role": "견습 광부",
+      "faction": "미정/해당 없음",
+      "priority": "P1 후속 장",
+      "interaction_plan": [
+        "견습 광부 관련 대화·사건"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화"
+      ],
+      "board_path": "assets/character-boards/supporting-cast/toma-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "후속 장 등장 후보. 현재 맵 배치 완료 아님."
+    },
+    {
+      "id": "npc-halven",
+      "display_name": "할벤",
+      "entry_kind": "named_npc",
+      "regions": [
+        "돌샘"
+      ],
+      "role": "연락소 담당관",
+      "faction": "미정/해당 없음",
+      "priority": "P1 후속 장",
+      "interaction_plan": [
+        "연락소 담당관 관련 대화·사건"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화"
+      ],
+      "board_path": "assets/character-boards/supporting-cast/halven-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "후속 장 등장 후보. 현재 맵 배치 완료 아님."
+    },
+    {
+      "id": "npc-adel",
+      "display_name": "아델",
+      "entry_kind": "named_npc",
+      "regions": [
+        "국경",
+        "아르덴",
+        "벨크"
+      ],
+      "role": "레온의 부관",
+      "faction": "벨크",
+      "priority": "P1 후속 장",
+      "interaction_plan": [
+        "레온의 부관 관련 대화·사건"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화",
+        "공격",
+        "피격",
+        "전투 불능（전투 참여 확정 후）"
+      ],
+      "board_path": "assets/character-boards/supporting-cast/adel-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "후속 장 등장 후보. 현재 맵 배치 완료 아님."
+    },
+    {
+      "id": "npc-grain",
+      "display_name": "그레인",
+      "entry_kind": "named_npc",
+      "regions": [
+        "국경",
+        "아르덴",
+        "벨크"
+      ],
+      "role": "벨크 군 지휘관",
+      "faction": "벨크",
+      "priority": "P1 후속 장",
+      "interaction_plan": [
+        "벨크 군 지휘관 관련 대화·사건"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화",
+        "공격",
+        "피격",
+        "전투 불능（전투 참여 확정 후）"
+      ],
+      "board_path": "assets/character-boards/supporting-cast/grain-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "후속 장 등장 후보. 현재 맵 배치 완료 아님."
+    },
+    {
+      "id": "npc-selma",
+      "display_name": "셀마",
+      "entry_kind": "named_npc",
+      "regions": [
+        "국경",
+        "아르덴",
+        "벨크"
+      ],
+      "role": "북방 구호 행정관",
+      "faction": "벨크",
+      "priority": "P1 후속 장",
+      "interaction_plan": [
+        "북방 구호 행정관 관련 대화·사건"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화"
+      ],
+      "board_path": "assets/character-boards/supporting-cast/selma-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "후속 장 등장 후보. 현재 맵 배치 완료 아님."
+    },
+    {
+      "id": "npc-bern",
+      "display_name": "베른",
+      "entry_kind": "named_npc",
+      "regions": [
+        "국경",
+        "아르덴",
+        "벨크"
+      ],
+      "role": "아르덴 현장 지휘관",
+      "faction": "아르덴",
+      "priority": "P1 후속 장",
+      "interaction_plan": [
+        "아르덴 현장 지휘관 관련 대화·사건"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화",
+        "공격",
+        "피격",
+        "전투 불능（전투 참여 확정 후）"
+      ],
+      "board_path": "assets/character-boards/supporting-cast/bern-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "후속 장 등장 후보. 현재 맵 배치 완료 아님."
+    },
+    {
+      "id": "npc-raul",
+      "display_name": "라울",
+      "entry_kind": "named_npc",
+      "regions": [
+        "국경",
+        "아르덴",
+        "벨크"
+      ],
+      "role": "아르덴 협상관",
+      "faction": "아르덴",
+      "priority": "P1 후속 장",
+      "interaction_plan": [
+        "아르덴 협상관 관련 대화·사건"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화"
+      ],
+      "board_path": "assets/character-boards/supporting-cast/raul-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "후속 장 등장 후보. 현재 맵 배치 완료 아님."
+    },
+    {
+      "id": "npc-oswin",
+      "display_name": "오스윈",
+      "entry_kind": "named_npc",
+      "regions": [
+        "남방 도시연맹"
+      ],
+      "role": "세나의 스승·연구자",
+      "faction": "미정/해당 없음",
+      "priority": "P1 후속 장",
+      "interaction_plan": [
+        "세나의 스승·연구자 관련 대화·사건"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화"
+      ],
+      "board_path": "assets/character-boards/supporting-cast/oswin-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "후속 장 등장 후보. 현재 맵 배치 완료 아님."
+    },
+    {
+      "id": "npc-mirena",
+      "display_name": "미레나",
+      "entry_kind": "named_npc",
+      "regions": [
+        "남방 도시연맹"
+      ],
+      "role": "수리 기술자",
+      "faction": "미정/해당 없음",
+      "priority": "P1 후속 장",
+      "interaction_plan": [
+        "수리 기술자 관련 대화·사건"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화"
+      ],
+      "board_path": "assets/character-boards/supporting-cast/mirena-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "후속 장 등장 후보. 현재 맵 배치 완료 아님."
+    },
+    {
+      "id": "npc-vasco",
+      "display_name": "바스코",
+      "entry_kind": "named_npc",
+      "regions": [
+        "남방 도시연맹"
+      ],
+      "role": "상단 대표",
+      "faction": "미정/해당 없음",
+      "priority": "P1 후속 장",
+      "interaction_plan": [
+        "상단 대표 관련 대화·사건"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화"
+      ],
+      "board_path": "assets/character-boards/supporting-cast/vasco-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "후속 장 등장 후보. 현재 맵 배치 완료 아님."
+    },
+    {
+      "id": "npc-letia",
+      "display_name": "레티아",
+      "entry_kind": "named_npc",
+      "regions": [
+        "남방 도시연맹"
+      ],
+      "role": "도시 평의원",
+      "faction": "미정/해당 없음",
+      "priority": "P1 후속 장",
+      "interaction_plan": [
+        "도시 평의원 관련 대화·사건"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화"
+      ],
+      "board_path": "assets/character-boards/supporting-cast/letia-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "후속 장 등장 후보. 현재 맵 배치 완료 아님."
+    },
+    {
+      "id": "npc-nadia",
+      "display_name": "나디아",
+      "entry_kind": "named_npc",
+      "regions": [
+        "해양국"
+      ],
+      "role": "카이의 누나·함대 장교",
+      "faction": "미정/해당 없음",
+      "priority": "P1 후속 장",
+      "interaction_plan": [
+        "카이의 누나·함대 장교 관련 대화·사건"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화",
+        "공격",
+        "피격",
+        "전투 불능（전투 참여 확정 후）"
+      ],
+      "board_path": "assets/character-boards/supporting-cast/nadia-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "후속 장 등장 후보. 현재 맵 배치 완료 아님."
+    },
+    {
+      "id": "npc-yuno",
+      "display_name": "유노",
+      "entry_kind": "named_npc",
+      "regions": [
+        "해양국"
+      ],
+      "role": "항만 의사",
+      "faction": "미정/해당 없음",
+      "priority": "P1 후속 장",
+      "interaction_plan": [
+        "항만 의사 관련 대화·사건"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화"
+      ],
+      "board_path": "assets/character-boards/supporting-cast/yuno-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "후속 장 등장 후보. 현재 맵 배치 완료 아님."
+    },
+    {
+      "id": "npc-sabel",
+      "display_name": "사벨",
+      "entry_kind": "named_npc",
+      "regions": [
+        "해양국"
+      ],
+      "role": "조위 관측관",
+      "faction": "미정/해당 없음",
+      "priority": "P1 후속 장",
+      "interaction_plan": [
+        "조위 관측관 관련 대화·사건"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화"
+      ],
+      "board_path": "assets/character-boards/supporting-cast/sabel-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "후속 장 등장 후보. 현재 맵 배치 완료 아님."
+    },
+    {
+      "id": "npc-teo",
+      "display_name": "테오",
+      "entry_kind": "named_npc",
+      "regions": [
+        "해양국"
+      ],
+      "role": "피난선 선장",
+      "faction": "미정/해당 없음",
+      "priority": "P1 후속 장",
+      "interaction_plan": [
+        "피난선 선장 관련 대화·사건"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화"
+      ],
+      "board_path": "assets/character-boards/supporting-cast/teo-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "후속 장 등장 후보. 현재 맵 배치 완료 아님."
+    },
+    {
+      "id": "npc-estelle",
+      "display_name": "에스텔",
+      "entry_kind": "named_npc",
+      "regions": [
+        "성역",
+        "고대 시설"
+      ],
+      "role": "기록원 책임자",
+      "faction": "미정/해당 없음",
+      "priority": "P1 후속 장",
+      "interaction_plan": [
+        "기록원 책임자 관련 대화·사건"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화"
+      ],
+      "board_path": "assets/character-boards/supporting-cast/estelle-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "후속 장 등장 후보. 현재 맵 배치 완료 아님."
+    },
+    {
+      "id": "npc-luca",
+      "display_name": "루카",
+      "entry_kind": "named_npc",
+      "regions": [
+        "성역",
+        "고대 시설"
+      ],
+      "role": "현장 사제",
+      "faction": "미정/해당 없음",
+      "priority": "P1 후속 장",
+      "interaction_plan": [
+        "현장 사제 관련 대화·사건"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화"
+      ],
+      "board_path": "assets/character-boards/supporting-cast/luca-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "후속 장 등장 후보. 현재 맵 배치 완료 아님."
+    },
+    {
+      "id": "npc-sever",
+      "display_name": "세베르",
+      "entry_kind": "named_npc",
+      "regions": [
+        "성역",
+        "고대 시설"
+      ],
+      "role": "시설 연구 책임자·대립 인물 후보",
+      "faction": "미정/해당 없음",
+      "priority": "P1 후속 장",
+      "interaction_plan": [
+        "시설 연구 책임자·대립 인물 후보 관련 대화·사건"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화"
+      ],
+      "board_path": "assets/character-boards/supporting-cast/sever-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "후속 장 등장 후보. 현재 맵 배치 완료 아님."
+    },
+    {
+      "id": "npc-type-village-man",
+      "display_name": "마을 주민 남성",
+      "entry_kind": "generic_template",
+      "regions": [
+        "서리골",
+        "돌샘"
+      ],
+      "role": "상점 손님·길 안내",
+      "faction": "민간/중립",
+      "priority": "P0 프롤로그 후보",
+      "interaction_plan": [
+        "상점 손님·길 안내"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화",
+        "바구니 들기"
+      ],
+      "board_path": "assets/character-boards/generic-npcs/village-man-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "변형 제안: 머리·조끼색·바구니 유무."
+    },
+    {
+      "id": "npc-type-village-woman",
+      "display_name": "마을 주민 여성",
+      "entry_kind": "generic_template",
+      "regions": [
+        "서리골",
+        "돌샘"
+      ],
+      "role": "주민 생활·소문",
+      "faction": "민간/중립",
+      "priority": "P0 프롤로그 후보",
+      "interaction_plan": [
+        "주민 생활·소문"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화",
+        "세탁물 들기"
+      ],
+      "board_path": "assets/character-boards/generic-npcs/village-woman-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "변형 제안: 머리·숄색·짐 유무."
+    },
+    {
+      "id": "npc-type-village-child",
+      "display_name": "마을 아이 공통형",
+      "entry_kind": "generic_template",
+      "regions": [
+        "서리골",
+        "돌샘"
+      ],
+      "role": "놀이·짧은 선택 대화",
+      "faction": "민간/중립",
+      "priority": "P0 프롤로그 후보",
+      "interaction_plan": [
+        "놀이·짧은 선택 대화"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화",
+        "놀이"
+      ],
+      "board_path": "assets/character-boards/generic-npcs/village-child-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "변형 제안: 모자·코트색·장난감."
+    },
+    {
+      "id": "npc-type-elder-resident",
+      "display_name": "노년 주민 공통형",
+      "entry_kind": "generic_template",
+      "regions": [
+        "서리골",
+        "돌샘"
+      ],
+      "role": "마을 기억·계절 이야기",
+      "faction": "민간/중립",
+      "priority": "P0 프롤로그 후보",
+      "interaction_plan": [
+        "마을 기억·계절 이야기"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "느린 걷기",
+        "대화"
+      ],
+      "board_path": "assets/character-boards/generic-npcs/elder-resident-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "변형 제안: 숄색·지팡이·앉기."
+    },
+    {
+      "id": "npc-type-wood-worker",
+      "display_name": "벌목꾼 공통형",
+      "entry_kind": "generic_template",
+      "regions": [
+        "서리골",
+        "산길"
+      ],
+      "role": "장작 운반·산길 정보",
+      "faction": "민간/중립",
+      "priority": "P1 지역 확장",
+      "interaction_plan": [
+        "장작 운반·산길 정보"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화",
+        "짐 들기"
+      ],
+      "board_path": "assets/character-boards/generic-npcs/wood-worker-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "변형 제안: 모자·외투색·장작 유무."
+    },
+    {
+      "id": "npc-type-miner-common",
+      "display_name": "광부 공통형",
+      "entry_kind": "generic_template",
+      "regions": [
+        "돌샘"
+      ],
+      "role": "광산 노동·구조 대상",
+      "faction": "민간/중립",
+      "priority": "P1 지역 확장",
+      "interaction_plan": [
+        "광산 노동·구조 대상"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화",
+        "작업",
+        "부상"
+      ],
+      "board_path": "assets/character-boards/generic-npcs/miner-common-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "변형 제안: 머리·조끼색·도구."
+    },
+    {
+      "id": "npc-type-merchant-common",
+      "display_name": "행상인 공통형",
+      "entry_kind": "generic_template",
+      "regions": [
+        "서리골",
+        "돌샘",
+        "남방 도시연맹"
+      ],
+      "role": "노점·통행 소식·판매 후보",
+      "faction": "민간/중립",
+      "priority": "P0 프롤로그 후보",
+      "interaction_plan": [
+        "노점·통행 소식·판매 후보"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화",
+        "물건 건네기"
+      ],
+      "board_path": "assets/character-boards/generic-npcs/merchant-common-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "변형 제안: 짐·모자·외투색; 판매 기능 별도."
+    },
+    {
+      "id": "npc-type-traveler-common",
+      "display_name": "여행자 공통형",
+      "entry_kind": "generic_template",
+      "regions": [
+        "산길",
+        "남방 도시연맹"
+      ],
+      "role": "길 안내·여관 손님",
+      "faction": "민간/중립",
+      "priority": "P1 지역 확장",
+      "interaction_plan": [
+        "길 안내·여관 손님"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화",
+        "휴식"
+      ],
+      "board_path": "assets/character-boards/generic-npcs/traveler-common-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "변형 제안: 망토·배낭·머리."
+    },
+    {
+      "id": "npc-type-arden-soldier-common",
+      "display_name": "아르덴 일반병",
+      "entry_kind": "generic_template",
+      "regions": [
+        "아르덴",
+        "서리골",
+        "피난 교량"
+      ],
+      "role": "검문·경비·호위 후보",
+      "faction": "아르덴",
+      "priority": "P1 지역 확장",
+      "interaction_plan": [
+        "검문·경비·호위 후보"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화",
+        "공격",
+        "피격",
+        "전투 불능"
+      ],
+      "board_path": "assets/character-boards/generic-npcs/arden-soldier-common-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "변형 제안: 투구·무기·장비; 크림/적갈색 소속 유지."
+    },
+    {
+      "id": "npc-type-velk-soldier-common",
+      "display_name": "벨크 일반병",
+      "entry_kind": "generic_template",
+      "regions": [
+        "벨크",
+        "국경",
+        "북방 시설"
+      ],
+      "role": "국경 경비·수색·호위 후보",
+      "faction": "벨크",
+      "priority": "P1 지역 확장",
+      "interaction_plan": [
+        "국경 경비·수색·호위 후보"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화",
+        "공격",
+        "피격",
+        "전투 불능"
+      ],
+      "board_path": "assets/character-boards/generic-npcs/velk-soldier-common-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "변형 제안: 투구·무기·장비; 남색/회색 소속 유지."
+    },
+    {
+      "id": "npc-type-dock-worker-common",
+      "display_name": "항만 인부",
+      "entry_kind": "generic_template",
+      "regions": [
+        "남방 항구",
+        "해양국"
+      ],
+      "role": "하역·구조·항로 소식",
+      "faction": "민간/중립",
+      "priority": "P1 지역 확장",
+      "interaction_plan": [
+        "하역·구조·항로 소식"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화",
+        "짐 운반"
+      ],
+      "board_path": "assets/character-boards/generic-npcs/dock-worker-common-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "변형 제안: 두건·외투·로프."
+    },
+    {
+      "id": "npc-type-field-acolyte-common",
+      "display_name": "구호 사제 공통형",
+      "entry_kind": "generic_template",
+      "regions": [
+        "성역",
+        "피난 거점"
+      ],
+      "role": "구호·피난 안내",
+      "faction": "민간/중립",
+      "priority": "P1 지역 확장",
+      "interaction_plan": [
+        "구호·피난 안내"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화",
+        "처치"
+      ],
+      "board_path": "assets/character-boards/generic-npcs/field-acolyte-common-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "변형 제안: 머리·어깨천·구호 가방."
+    },
+    {
+      "id": "npc-type-researcher-common",
+      "display_name": "연구 보조원",
+      "entry_kind": "generic_template",
+      "regions": [
+        "남방 학술도시",
+        "성역",
+        "고대 시설"
+      ],
+      "role": "관측·유적 기록",
+      "faction": "민간/중립",
+      "priority": "P1 지역 확장",
+      "interaction_plan": [
+        "관측·유적 기록"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "걷기",
+        "대화",
+        "측량"
+      ],
+      "board_path": "assets/character-boards/generic-npcs/researcher-common-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "변형 제안: 안경·외투색·측량 도구."
+    },
+    {
+      "id": "npc-type-refugee-common",
+      "display_name": "피난민 공통형",
+      "entry_kind": "generic_template",
+      "regions": [
+        "서리골",
+        "피난 교량",
+        "해양국"
+      ],
+      "role": "대피·이송·전쟁 이후 변화",
+      "faction": "민간/중립",
+      "priority": "P1 지역 확장",
+      "interaction_plan": [
+        "대피·이송·전쟁 이후 변화"
+      ],
+      "required_motion_plan": [
+        "대기",
+        "느린 걷기",
+        "대화",
+        "짐 들기"
+      ],
+      "board_path": "assets/character-boards/generic-npcs/refugee-common-board-v1.png",
+      "asset_status": "보드 시안",
+      "runtime_status": "미구현",
+      "design_status": "제작·배치 가안; 기존 확정 기획 우선",
+      "notes": "변형 제안: 앞서 등장한 주민 의상/기록을 연결; 얼굴 재사용 가능."
+    }
+  ]
+}

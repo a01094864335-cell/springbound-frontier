@@ -1,0 +1,318 @@
+{
+  "date": "2026-10-29",
+  "scope": "6 named human enemies and 8 generic human enemy types; no monsters",
+  "count": 14,
+  "layout": {
+    "fullbody": 1,
+    "in_game_direction_concepts": [
+      "front",
+      "back",
+      "right_side"
+    ],
+    "portrait_panels": 4
+  },
+  "reference": "../character-boards/leon-board-v2.png",
+  "boards": [
+    {
+      "id": "valter",
+      "name": "발테르",
+      "title": "원정군 사령관",
+      "design": "male late 40s, swept-back dark brown hair with grey temples, short beard, stern compassionate face, restrained burgundy cape over practical steel armor; right-hand straight longsword, left medium heater shield. Broad upright commanding silhouette.",
+      "prompt": "Create ONE landscape original fantasy JRPG character reference board for Springbound Frontier. Match supplied reference board's layout, classic late-1990s anime clean fine ink and restrained cel shading, warm ivory paper, thin brown rules, minimal ornament. This is a NEW DISTINCT CHARACTER, do not copy Leon's face or costume. Left third ONE full-body character illustration with entire weapon and shield visible and generous margin. Upper right THREE crisp chunky pixel-art in-game standing sprites FRONT BACK RIGHT SIDE, same equipment and identity, roughly 3 heads tall, 48x64-style design enlarged, not blurred mini illustrations. Lower right FOUR expressive face portraits: neutral, resolve, anger, conflicted concern; helmet wearers may raise visor for expressions. Modest title VALTER / 발테르. Short section labels FULL BODY / IN-GAME / EXPRESSIONS. No stats or long text, no scene, no enemies, no logos, no real-world insignia. Practical readable design, avoid excessive trim, chains or gems. Exact character: male late 40s, swept-back dark brown hair with grey temples, short beard, stern compassionate face, restrained burgundy cape over practical steel armor; right-hand straight longsword, left medium heater shield. Broad upright commanding silhouette.. Weapons remain anatomically consistent in front back and side views, right/left hands never randomly mirror. Expressions share identity, no extra fullbody figures.",
+      "file": "valter-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "611804ce4cc53a6a3cefab52d6d7fa6e1549a172f0e34f25c5171542b152b5e4",
+      "kind": "named_enemy",
+      "role_proposal": "침공을 지휘하며 민간인 보호도 중시하는 사령관",
+      "weapon_proposal": "장검·방패",
+      "faction_visual_proposal": "원정군 / 버건디·강철",
+      "status": "visual_design_draft_not_runtime_asset",
+      "runtime_connected": false,
+      "review_notes": [
+        "외형·장비·앞/뒤/옆 도트·초상화 구성 시각 확인. 실제 48×64 투명 스프라이트와 애니메이션은 후속 제작.",
+        "표정의 차이가 작은 칸은 대화용 초상화 제작 시 강화. 장비를 쥔 손·장식·발 원점은 방향별 정합화 필요."
+      ]
+    },
+    {
+      "id": "karen",
+      "name": "카렌",
+      "title": "추격 기사대장",
+      "design": "female early 30s, short auburn bob, focused amber eyes, lean athletic build, muted burgundy short shoulder cape, light steel armor with brown leather, two-handed ashwood spear. Alert forward posture, no shield.",
+      "prompt": "Create ONE landscape original fantasy JRPG character reference board for Springbound Frontier. Match supplied reference board's layout, classic late-1990s anime clean fine ink and restrained cel shading, warm ivory paper, thin brown rules, minimal ornament. This is a NEW DISTINCT CHARACTER, do not copy Leon's face or costume. Left third ONE full-body character illustration with entire weapon and shield visible and generous margin. Upper right THREE crisp chunky pixel-art in-game standing sprites FRONT BACK RIGHT SIDE, same equipment and identity, roughly 3 heads tall, 48x64-style design enlarged, not blurred mini illustrations. Lower right FOUR expressive face portraits: neutral, resolve, anger, conflicted concern; helmet wearers may raise visor for expressions. Modest title KAREN / 카렌. Short section labels FULL BODY / IN-GAME / EXPRESSIONS. No stats or long text, no scene, no enemies, no logos, no real-world insignia. Practical readable design, avoid excessive trim, chains or gems. Exact character: female early 30s, short auburn bob, focused amber eyes, lean athletic build, muted burgundy short shoulder cape, light steel armor with brown leather, two-handed ashwood spear. Alert forward posture, no shield.. Weapons remain anatomically consistent in front back and side views, right/left hands never randomly mirror. Expressions share identity, no extra fullbody figures.",
+      "file": "karen-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8bcf705dedb7ae9df56a9aea7eb0193448aee0982691afb7e8353e2cb6d9ab28",
+      "kind": "named_enemy",
+      "role_proposal": "추격 임무 중 명령과 현장의 사실 사이에서 갈등",
+      "weapon_proposal": "창",
+      "faction_visual_proposal": "원정군 / 버건디·강철",
+      "status": "visual_design_draft_not_runtime_asset",
+      "runtime_connected": false,
+      "review_notes": [
+        "외형·장비·앞/뒤/옆 도트·초상화 구성 시각 확인. 실제 48×64 투명 스프라이트와 애니메이션은 후속 제작.",
+        "표정의 차이가 작은 칸은 대화용 초상화 제작 시 강화. 장비를 쥔 손·장식·발 원점은 방향별 정합화 필요.",
+        "대기 보드에는 한 손으로 무기를 세우거나 멘 모습이 있음. 공격 모션은 해당 양손 무기 그립으로 별도 제작."
+      ]
+    },
+    {
+      "id": "roek",
+      "name": "로에크",
+      "title": "국경 요새장",
+      "design": "male 50s, close-cropped black-grey hair, square weathered face, heavy practical steel armor, desaturated burgundy tabard, right-hand one-handed sword and left large rectangular shield. Stocky grounded silhouette.",
+      "prompt": "Create ONE landscape original fantasy JRPG character reference board for Springbound Frontier. Match supplied reference board's layout, classic late-1990s anime clean fine ink and restrained cel shading, warm ivory paper, thin brown rules, minimal ornament. This is a NEW DISTINCT CHARACTER, do not copy Leon's face or costume. Left third ONE full-body character illustration with entire weapon and shield visible and generous margin. Upper right THREE crisp chunky pixel-art in-game standing sprites FRONT BACK RIGHT SIDE, same equipment and identity, roughly 3 heads tall, 48x64-style design enlarged, not blurred mini illustrations. Lower right FOUR expressive face portraits: neutral, resolve, anger, conflicted concern; helmet wearers may raise visor for expressions. Modest title ROEK / 로에크. Short section labels FULL BODY / IN-GAME / EXPRESSIONS. No stats or long text, no scene, no enemies, no logos, no real-world insignia. Practical readable design, avoid excessive trim, chains or gems. Exact character: male 50s, close-cropped black-grey hair, square weathered face, heavy practical steel armor, desaturated burgundy tabard, right-hand one-handed sword and left large rectangular shield. Stocky grounded silhouette.. Weapons remain anatomically consistent in front back and side views, right/left hands never randomly mirror. Expressions share identity, no extra fullbody figures.",
+      "file": "roek-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f49d1d9c9455c8de7354be6142ee078059cab3ede30f0fd662bc7173c16e5d1a",
+      "kind": "named_enemy",
+      "role_proposal": "보급로와 성문을 장악하며 협상·우회 가능성을 가진 상대",
+      "weapon_proposal": "한손검·대형 방패",
+      "faction_visual_proposal": "원정군 / 버건디·강철",
+      "status": "visual_design_draft_not_runtime_asset",
+      "runtime_connected": false,
+      "review_notes": [
+        "외형·장비·앞/뒤/옆 도트·초상화 구성 시각 확인. 실제 48×64 투명 스프라이트와 애니메이션은 후속 제작.",
+        "표정의 차이가 작은 칸은 대화용 초상화 제작 시 강화. 장비를 쥔 손·장식·발 원점은 방향별 정합화 필요."
+      ]
+    },
+    {
+      "id": "silber",
+      "name": "실베르",
+      "title": "왕국 감찰관",
+      "design": "male early 40s, immaculate black hair parted to side, narrow calculating face, cream-and-muted-navy long formal military coat with modest bronze trim, right-hand slender rapier, sealed document case at belt. No shield, restrained aristocratic posture.",
+      "prompt": "Create ONE landscape original fantasy JRPG character reference board for Springbound Frontier. Match supplied reference board's layout, classic late-1990s anime clean fine ink and restrained cel shading, warm ivory paper, thin brown rules, minimal ornament. This is a NEW DISTINCT CHARACTER, do not copy Leon's face or costume. Left third ONE full-body character illustration with entire weapon and shield visible and generous margin. Upper right THREE crisp chunky pixel-art in-game standing sprites FRONT BACK RIGHT SIDE, same equipment and identity, roughly 3 heads tall, 48x64-style design enlarged, not blurred mini illustrations. Lower right FOUR expressive face portraits: neutral, resolve, anger, conflicted concern; helmet wearers may raise visor for expressions. Modest title SILBER / 실베르. Short section labels FULL BODY / IN-GAME / EXPRESSIONS. No stats or long text, no scene, no enemies, no logos, no real-world insignia. Practical readable design, avoid excessive trim, chains or gems. Exact character: male early 40s, immaculate black hair parted to side, narrow calculating face, cream-and-muted-navy long formal military coat with modest bronze trim, right-hand slender rapier, sealed document case at belt. No shield, restrained aristocratic posture.. Weapons remain anatomically consistent in front back and side views, right/left hands never randomly mirror. Expressions share identity, no extra fullbody figures.",
+      "file": "silber-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "bae3a12d2703888558b9c8835ead1a031e5d19db188abeb6384ad2c954aece6a",
+      "kind": "named_enemy",
+      "role_proposal": "왕국 내부에서 전쟁 기록을 은폐하는 감찰관",
+      "weapon_proposal": "세검",
+      "faction_visual_proposal": "왕국 / 크림·남색",
+      "status": "visual_design_draft_not_runtime_asset",
+      "runtime_connected": false,
+      "review_notes": [
+        "외형·장비·앞/뒤/옆 도트·초상화 구성 시각 확인. 실제 48×64 투명 스프라이트와 애니메이션은 후속 제작.",
+        "표정의 차이가 작은 칸은 대화용 초상화 제작 시 강화. 장비를 쥔 손·장식·발 원점은 방향별 정합화 필요."
+      ]
+    },
+    {
+      "id": "neria",
+      "name": "네리아",
+      "title": "유적 조사 책임자",
+      "design": "female late 30s, dark teal hair in low bun, analytical grey eyes, charcoal and muted teal practical research coat over plain travel clothes, small geometric pendant, modest ashwood staff with small stone cap held with two hands, field notebook at belt. No glowing effects.",
+      "prompt": "Create ONE landscape original fantasy JRPG character reference board for Springbound Frontier. Match supplied reference board's layout, classic late-1990s anime clean fine ink and restrained cel shading, warm ivory paper, thin brown rules, minimal ornament. This is a NEW DISTINCT CHARACTER, do not copy Leon's face or costume. Left third ONE full-body character illustration with entire weapon and shield visible and generous margin. Upper right THREE crisp chunky pixel-art in-game standing sprites FRONT BACK RIGHT SIDE, same equipment and identity, roughly 3 heads tall, 48x64-style design enlarged, not blurred mini illustrations. Lower right FOUR expressive face portraits: neutral, resolve, anger, conflicted concern; helmet wearers may raise visor for expressions. Modest title NERIA / 네리아. Short section labels FULL BODY / IN-GAME / EXPRESSIONS. No stats or long text, no scene, no enemies, no logos, no real-world insignia. Practical readable design, avoid excessive trim, chains or gems. Exact character: female late 30s, dark teal hair in low bun, analytical grey eyes, charcoal and muted teal practical research coat over plain travel clothes, small geometric pendant, modest ashwood staff with small stone cap held with two hands, field notebook at belt. No glowing effects.. Weapons remain anatomically consistent in front back and side views, right/left hands never randomly mirror. Expressions share identity, no extra fullbody figures.",
+      "file": "neria-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b0aac43d290289e82787e14480cb345633f4e98868f16e8997fbafc53ea75143",
+      "kind": "named_enemy",
+      "role_proposal": "재난을 막으려 위험한 고대 시설 실험을 강행",
+      "weapon_proposal": "지팡이",
+      "faction_visual_proposal": "유적 조사단 / 청록·차콜",
+      "status": "visual_design_draft_not_runtime_asset",
+      "runtime_connected": false,
+      "review_notes": [
+        "외형·장비·앞/뒤/옆 도트·초상화 구성 시각 확인. 실제 48×64 투명 스프라이트와 애니메이션은 후속 제작.",
+        "표정의 차이가 작은 칸은 대화용 초상화 제작 시 강화. 장비를 쥔 손·장식·발 원점은 방향별 정합화 필요."
+      ]
+    },
+    {
+      "id": "edran",
+      "name": "에드란",
+      "title": "독립 용병대장",
+      "design": "male late 30s, rough short sandy hair, small eyebrow scar, tired humorous eyes, patched ochre scarf, worn brown leather and mismatched steel plates, two-handed practical greatsword. Broad relaxed veteran, no shield.",
+      "prompt": "Create ONE landscape original fantasy JRPG character reference board for Springbound Frontier. Match supplied reference board's layout, classic late-1990s anime clean fine ink and restrained cel shading, warm ivory paper, thin brown rules, minimal ornament. This is a NEW DISTINCT CHARACTER, do not copy Leon's face or costume. Left third ONE full-body character illustration with entire weapon and shield visible and generous margin. Upper right THREE crisp chunky pixel-art in-game standing sprites FRONT BACK RIGHT SIDE, same equipment and identity, roughly 3 heads tall, 48x64-style design enlarged, not blurred mini illustrations. Lower right FOUR expressive face portraits: neutral, resolve, anger, conflicted concern; helmet wearers may raise visor for expressions. Modest title EDRAN / 에드란. Short section labels FULL BODY / IN-GAME / EXPRESSIONS. No stats or long text, no scene, no enemies, no logos, no real-world insignia. Practical readable design, avoid excessive trim, chains or gems. Exact character: male late 30s, rough short sandy hair, small eyebrow scar, tired humorous eyes, patched ochre scarf, worn brown leather and mismatched steel plates, two-handed practical greatsword. Broad relaxed veteran, no shield.. Weapons remain anatomically consistent in front back and side views, right/left hands never randomly mirror. Expressions share identity, no extra fullbody figures.",
+      "file": "edran-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e317ff73b586f96946ce74ec1b67ca06d62b4b3a6e7881a48def34aff6f841b3",
+      "kind": "named_enemy",
+      "role_proposal": "계약과 부하의 생존을 중시하는 재등장 용병대장",
+      "weapon_proposal": "양손검",
+      "faction_visual_proposal": "독립 용병 / 황토·갈색",
+      "status": "visual_design_draft_not_runtime_asset",
+      "runtime_connected": false,
+      "review_notes": [
+        "외형·장비·앞/뒤/옆 도트·초상화 구성 시각 확인. 실제 48×64 투명 스프라이트와 애니메이션은 후속 제작.",
+        "표정의 차이가 작은 칸은 대화용 초상화 제작 시 강화. 장비를 쥔 손·장식·발 원점은 방향별 정합화 필요.",
+        "대기 보드에는 한 손으로 무기를 세우거나 멘 모습이 있음. 공격 모션은 해당 양손 무기 그립으로 별도 제작."
+      ]
+    },
+    {
+      "id": "swordsman",
+      "name": "국경 검병",
+      "title": "일반 병종",
+      "design": "ordinary adult soldier, simple open-face steel helmet, steel breastplate over muted burgundy padded tunic, right-hand practical one-handed sword, left round wood-and-steel shield, average build. No cape or elite ornament.",
+      "prompt": "Create ONE landscape original fantasy JRPG character reference board for Springbound Frontier. Match supplied reference board's layout, classic late-1990s anime clean fine ink and restrained cel shading, warm ivory paper, thin brown rules, minimal ornament. This is a NEW DISTINCT CHARACTER, do not copy Leon's face or costume. Left third ONE full-body character illustration with entire weapon and shield visible and generous margin. Upper right THREE crisp chunky pixel-art in-game standing sprites FRONT BACK RIGHT SIDE, same equipment and identity, roughly 3 heads tall, 48x64-style design enlarged, not blurred mini illustrations. Lower right FOUR expressive face portraits: neutral, resolve, anger, conflicted concern; helmet wearers may raise visor for expressions. Modest title BORDER SWORDSMAN / 국경 검병. Short section labels FULL BODY / IN-GAME / EXPRESSIONS. No stats or long text, no scene, no enemies, no logos, no real-world insignia. Practical readable design, avoid excessive trim, chains or gems. Exact character: ordinary adult soldier, simple open-face steel helmet, steel breastplate over muted burgundy padded tunic, right-hand practical one-handed sword, left round wood-and-steel shield, average build. No cape or elite ornament.. Weapons remain anatomically consistent in front back and side views, right/left hands never randomly mirror. Expressions share identity, no extra fullbody figures.",
+      "file": "swordsman-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6a8412dd8e49383c73dc48e094654adfa9a0d26768ad1d4a80bb003e3902fa83",
+      "kind": "generic_enemy",
+      "role_proposal": "정면에서 접근로를 막는 기본 병종",
+      "weapon_proposal": "한손검·원형 방패",
+      "faction_visual_proposal": "원정군 / 버건디·강철",
+      "status": "visual_design_draft_not_runtime_asset",
+      "runtime_connected": false,
+      "review_notes": [
+        "외형·장비·앞/뒤/옆 도트·초상화 구성 시각 확인. 실제 48×64 투명 스프라이트와 애니메이션은 후속 제작.",
+        "표정의 차이가 작은 칸은 대화용 초상화 제작 시 강화. 장비를 쥔 손·장식·발 원점은 방향별 정합화 필요."
+      ]
+    },
+    {
+      "id": "spearman",
+      "name": "국경 창병",
+      "title": "일반 병종",
+      "design": "ordinary adult soldier, simple open-face kettle helmet, muted burgundy quilted tunic and modest steel shoulder protection, two-handed long ashwood spear with plain steel leaf tip, long narrow upright silhouette, no shield.",
+      "prompt": "Create ONE landscape original fantasy JRPG character reference board for Springbound Frontier. Match supplied reference board's layout, classic late-1990s anime clean fine ink and restrained cel shading, warm ivory paper, thin brown rules, minimal ornament. This is a NEW DISTINCT CHARACTER, do not copy Leon's face or costume. Left third ONE full-body character illustration with entire weapon and shield visible and generous margin. Upper right THREE crisp chunky pixel-art in-game standing sprites FRONT BACK RIGHT SIDE, same equipment and identity, roughly 3 heads tall, 48x64-style design enlarged, not blurred mini illustrations. Lower right FOUR expressive face portraits: neutral, resolve, anger, conflicted concern; helmet wearers may raise visor for expressions. Modest title BORDER SPEARMAN / 국경 창병. Short section labels FULL BODY / IN-GAME / EXPRESSIONS. No stats or long text, no scene, no enemies, no logos, no real-world insignia. Practical readable design, avoid excessive trim, chains or gems. Exact character: ordinary adult soldier, simple open-face kettle helmet, muted burgundy quilted tunic and modest steel shoulder protection, two-handed long ashwood spear with plain steel leaf tip, long narrow upright silhouette, no shield.. Weapons remain anatomically consistent in front back and side views, right/left hands never randomly mirror. Expressions share identity, no extra fullbody figures.",
+      "file": "spearman-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "3bfdbdd5c2f0a8934f1863c4ec9be36f49e1042e38a41b90a825e7cd65c79c61",
+      "kind": "generic_enemy",
+      "role_proposal": "긴 사거리로 좁은 길을 지키는 병종",
+      "weapon_proposal": "양손 창",
+      "faction_visual_proposal": "원정군 / 버건디·강철",
+      "status": "visual_design_draft_not_runtime_asset",
+      "runtime_connected": false,
+      "review_notes": [
+        "외형·장비·앞/뒤/옆 도트·초상화 구성 시각 확인. 실제 48×64 투명 스프라이트와 애니메이션은 후속 제작.",
+        "표정의 차이가 작은 칸은 대화용 초상화 제작 시 강화. 장비를 쥔 손·장식·발 원점은 방향별 정합화 필요.",
+        "대기 보드에는 한 손으로 무기를 세우거나 멘 모습이 있음. 공격 모션은 해당 양손 무기 그립으로 별도 제작."
+      ]
+    },
+    {
+      "id": "archer",
+      "name": "군 궁병",
+      "title": "일반 병종",
+      "design": "ordinary adult woman soldier, brown hair under muted burgundy cloth hood, light brown leather bracers and padded tunic, practical wooden bow held left hand, right hand free to draw, small quiver on back. No shield or heavy plate.",
+      "prompt": "Create ONE landscape original fantasy JRPG character reference board for Springbound Frontier. Match supplied reference board's layout, classic late-1990s anime clean fine ink and restrained cel shading, warm ivory paper, thin brown rules, minimal ornament. This is a NEW DISTINCT CHARACTER, do not copy Leon's face or costume. Left third ONE full-body character illustration with entire weapon and shield visible and generous margin. Upper right THREE crisp chunky pixel-art in-game standing sprites FRONT BACK RIGHT SIDE, same equipment and identity, roughly 3 heads tall, 48x64-style design enlarged, not blurred mini illustrations. Lower right FOUR expressive face portraits: neutral, resolve, anger, conflicted concern; helmet wearers may raise visor for expressions. Modest title MILITARY ARCHER / 군 궁병. Short section labels FULL BODY / IN-GAME / EXPRESSIONS. No stats or long text, no scene, no enemies, no logos, no real-world insignia. Practical readable design, avoid excessive trim, chains or gems. Exact character: ordinary adult woman soldier, brown hair under muted burgundy cloth hood, light brown leather bracers and padded tunic, practical wooden bow held left hand, right hand free to draw, small quiver on back. No shield or heavy plate.. Weapons remain anatomically consistent in front back and side views, right/left hands never randomly mirror. Expressions share identity, no extra fullbody figures.",
+      "file": "archer-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e86bab78c690248faead1e75d3f357b5b1398fd5bac37336c231fe5d5a32d663",
+      "kind": "generic_enemy",
+      "role_proposal": "후방 원거리 공격으로 접근 경로 선택 유도",
+      "weapon_proposal": "활",
+      "faction_visual_proposal": "원정군 / 버건디·갈색",
+      "status": "visual_design_draft_not_runtime_asset",
+      "runtime_connected": false,
+      "review_notes": [
+        "외형·장비·앞/뒤/옆 도트·초상화 구성 시각 확인. 실제 48×64 투명 스프라이트와 애니메이션은 후속 제작.",
+        "표정의 차이가 작은 칸은 대화용 초상화 제작 시 강화. 장비를 쥔 손·장식·발 원점은 방향별 정합화 필요.",
+        "현재 전신과 앞 도트에서 활을 쥔 손이 왼손 기준과 다름. 실제 제작 시 왼손 활·오른손 당김으로 통일."
+      ]
+    },
+    {
+      "id": "heavy-knight",
+      "name": "중장 기사",
+      "title": "일반 병종",
+      "design": "ordinary adult armored knight, enclosed plain steel helmet with simple visor, bulky functional plate armor, muted burgundy waist cloth, right-hand one-handed sword, left large heater shield. Strong wide silhouette, no spikes or horns.",
+      "prompt": "Create ONE landscape original fantasy JRPG character reference board for Springbound Frontier. Match supplied reference board's layout, classic late-1990s anime clean fine ink and restrained cel shading, warm ivory paper, thin brown rules, minimal ornament. This is a NEW DISTINCT CHARACTER, do not copy Leon's face or costume. Left third ONE full-body character illustration with entire weapon and shield visible and generous margin. Upper right THREE crisp chunky pixel-art in-game standing sprites FRONT BACK RIGHT SIDE, same equipment and identity, roughly 3 heads tall, 48x64-style design enlarged, not blurred mini illustrations. Lower right FOUR expressive face portraits: neutral, resolve, anger, conflicted concern; helmet wearers may raise visor for expressions. Modest title HEAVY KNIGHT / 중장 기사. Short section labels FULL BODY / IN-GAME / EXPRESSIONS. No stats or long text, no scene, no enemies, no logos, no real-world insignia. Practical readable design, avoid excessive trim, chains or gems. Exact character: ordinary adult armored knight, enclosed plain steel helmet with simple visor, bulky functional plate armor, muted burgundy waist cloth, right-hand one-handed sword, left large heater shield. Strong wide silhouette, no spikes or horns.. Weapons remain anatomically consistent in front back and side views, right/left hands never randomly mirror. Expressions share identity, no extra fullbody figures.",
+      "file": "heavy-knight-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b791ebf0c2b74652977d68412cf605844e06d648d7da9262ebf0f4d98f36b6b5",
+      "kind": "generic_enemy",
+      "role_proposal": "느리고 단단한 전열 압박 병종",
+      "weapon_proposal": "한손검·큰 방패",
+      "faction_visual_proposal": "원정군 / 버건디·강철",
+      "status": "visual_design_draft_not_runtime_asset",
+      "runtime_connected": false,
+      "review_notes": [
+        "외형·장비·앞/뒤/옆 도트·초상화 구성 시각 확인. 실제 48×64 투명 스프라이트와 애니메이션은 후속 제작.",
+        "표정의 차이가 작은 칸은 대화용 초상화 제작 시 강화. 장비를 쥔 손·장식·발 원점은 방향별 정합화 필요.",
+        "초상화 4칸이 닫힌 투구의 고개 각도 중심. 얼굴 표정이 필요한 대사는 투구를 벗은 별도 초상화 필요."
+      ]
+    },
+    {
+      "id": "scout",
+      "name": "척후병",
+      "title": "일반 병종",
+      "design": "ordinary adult lean soldier, cropped dark hair under low cloth cap, muted burgundy short scarf, dark brown light leather armor, right-hand short forward-grip dagger, left small round iron buckler with central grip. Compact nimble silhouette, no second dagger.",
+      "prompt": "Create ONE landscape original fantasy JRPG character reference board for Springbound Frontier. Match supplied reference board's layout, classic late-1990s anime clean fine ink and restrained cel shading, warm ivory paper, thin brown rules, minimal ornament. This is a NEW DISTINCT CHARACTER, do not copy Leon's face or costume. Left third ONE full-body character illustration with entire weapon and shield visible and generous margin. Upper right THREE crisp chunky pixel-art in-game standing sprites FRONT BACK RIGHT SIDE, same equipment and identity, roughly 3 heads tall, 48x64-style design enlarged, not blurred mini illustrations. Lower right FOUR expressive face portraits: neutral, resolve, anger, conflicted concern; helmet wearers may raise visor for expressions. Modest title SCOUT / 척후병. Short section labels FULL BODY / IN-GAME / EXPRESSIONS. No stats or long text, no scene, no enemies, no logos, no real-world insignia. Practical readable design, avoid excessive trim, chains or gems. Exact character: ordinary adult lean soldier, cropped dark hair under low cloth cap, muted burgundy short scarf, dark brown light leather armor, right-hand short forward-grip dagger, left small round iron buckler with central grip. Compact nimble silhouette, no second dagger.. Weapons remain anatomically consistent in front back and side views, right/left hands never randomly mirror. Expressions share identity, no extra fullbody figures.",
+      "file": "scout-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8917440f0cfca0afb5475dbbaaa4554db69715f8e9513e1ccc83d0d7eb41ac59",
+      "kind": "generic_enemy",
+      "role_proposal": "빠르게 이동하며 측면을 위협",
+      "weapon_proposal": "단검·버클러",
+      "faction_visual_proposal": "원정군 / 버건디·갈색",
+      "status": "visual_design_draft_not_runtime_asset",
+      "runtime_connected": false,
+      "review_notes": [
+        "외형·장비·앞/뒤/옆 도트·초상화 구성 시각 확인. 실제 48×64 투명 스프라이트와 애니메이션은 후속 제작.",
+        "표정의 차이가 작은 칸은 대화용 초상화 제작 시 강화. 장비를 쥔 손·장식·발 원점은 방향별 정합화 필요."
+      ]
+    },
+    {
+      "id": "battle-mage",
+      "name": "군 마도병",
+      "title": "일반 병종",
+      "design": "ordinary adult woman soldier, short ash brown hair, muted burgundy short hooded mantle over plain charcoal knee-length robe, small belt pouches, two-handed simple wooden staff with compact dull stone cap. No shield, restrained military equipment, no effects.",
+      "prompt": "Create ONE landscape original fantasy JRPG character reference board for Springbound Frontier. Match supplied reference board's layout, classic late-1990s anime clean fine ink and restrained cel shading, warm ivory paper, thin brown rules, minimal ornament. This is a NEW DISTINCT CHARACTER, do not copy Leon's face or costume. Left third ONE full-body character illustration with entire weapon and shield visible and generous margin. Upper right THREE crisp chunky pixel-art in-game standing sprites FRONT BACK RIGHT SIDE, same equipment and identity, roughly 3 heads tall, 48x64-style design enlarged, not blurred mini illustrations. Lower right FOUR expressive face portraits: neutral, resolve, anger, conflicted concern; helmet wearers may raise visor for expressions. Modest title BATTLE MAGE / 군 마도병. Short section labels FULL BODY / IN-GAME / EXPRESSIONS. No stats or long text, no scene, no enemies, no logos, no real-world insignia. Practical readable design, avoid excessive trim, chains or gems. Exact character: ordinary adult woman soldier, short ash brown hair, muted burgundy short hooded mantle over plain charcoal knee-length robe, small belt pouches, two-handed simple wooden staff with compact dull stone cap. No shield, restrained military equipment, no effects.. Weapons remain anatomically consistent in front back and side views, right/left hands never randomly mirror. Expressions share identity, no extra fullbody figures.",
+      "file": "battle-mage-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e5984c64bf50f948af2a955671d73e124880dfb2f55042a6de118e3d7c339575",
+      "kind": "generic_enemy",
+      "role_proposal": "시전 중인 적의 우선 처리 판단 유도",
+      "weapon_proposal": "지팡이",
+      "faction_visual_proposal": "원정군 / 버건디·차콜",
+      "status": "visual_design_draft_not_runtime_asset",
+      "runtime_connected": false,
+      "review_notes": [
+        "외형·장비·앞/뒤/옆 도트·초상화 구성 시각 확인. 실제 48×64 투명 스프라이트와 애니메이션은 후속 제작.",
+        "표정의 차이가 작은 칸은 대화용 초상화 제작 시 강화. 장비를 쥔 손·장식·발 원점은 방향별 정합화 필요.",
+        "대기 보드에는 한 손으로 무기를 세우거나 멘 모습이 있음. 공격 모션은 해당 양손 무기 그립으로 별도 제작."
+      ]
+    },
+    {
+      "id": "medic",
+      "name": "군 의무병",
+      "title": "일반 병종",
+      "design": "ordinary adult man, gentle tired face, cropped brown hair, cream sleeve band with original simple green leaf emblem not a red cross, muted burgundy padded coat, medicine satchel and rolled bandages, short plain staff in right hand left free. No shield.",
+      "prompt": "Create ONE landscape original fantasy JRPG character reference board for Springbound Frontier. Match supplied reference board's layout, classic late-1990s anime clean fine ink and restrained cel shading, warm ivory paper, thin brown rules, minimal ornament. This is a NEW DISTINCT CHARACTER, do not copy Leon's face or costume. Left third ONE full-body character illustration with entire weapon and shield visible and generous margin. Upper right THREE crisp chunky pixel-art in-game standing sprites FRONT BACK RIGHT SIDE, same equipment and identity, roughly 3 heads tall, 48x64-style design enlarged, not blurred mini illustrations. Lower right FOUR expressive face portraits: neutral, resolve, anger, conflicted concern; helmet wearers may raise visor for expressions. Modest title FIELD MEDIC / 군 의무병. Short section labels FULL BODY / IN-GAME / EXPRESSIONS. No stats or long text, no scene, no enemies, no logos, no real-world insignia. Practical readable design, avoid excessive trim, chains or gems. Exact character: ordinary adult man, gentle tired face, cropped brown hair, cream sleeve band with original simple green leaf emblem not a red cross, muted burgundy padded coat, medicine satchel and rolled bandages, short plain staff in right hand left free. No shield.. Weapons remain anatomically consistent in front back and side views, right/left hands never randomly mirror. Expressions share identity, no extra fullbody figures.",
+      "file": "medic-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4b4c33fb4b2f2bdddeb881db485d01f36a7e241a08d542447319a13140d83126",
+      "kind": "generic_enemy",
+      "role_proposal": "동료 회복으로 처치 우선순위를 바꾸는 병종",
+      "weapon_proposal": "짧은 지팡이·회복 도구",
+      "faction_visual_proposal": "원정군 / 버건디·크림",
+      "status": "visual_design_draft_not_runtime_asset",
+      "runtime_connected": false,
+      "review_notes": [
+        "외형·장비·앞/뒤/옆 도트·초상화 구성 시각 확인. 실제 48×64 투명 스프라이트와 애니메이션은 후속 제작.",
+        "표정의 차이가 작은 칸은 대화용 초상화 제작 시 강화. 장비를 쥔 손·장식·발 원점은 방향별 정합화 필요."
+      ]
+    },
+    {
+      "id": "axe-mercenary",
+      "name": "용병 도끼병",
+      "title": "일반 병종",
+      "design": "ordinary adult sturdy woman mercenary, tied-back dark brown hair, worn ochre scarf, patched brown padded armor and simple metal shoulder plate, two-handed long-handled practical single-bit battle axe. No shield, no oversized fantasy blade.",
+      "prompt": "Create ONE landscape original fantasy JRPG character reference board for Springbound Frontier. Match supplied reference board's layout, classic late-1990s anime clean fine ink and restrained cel shading, warm ivory paper, thin brown rules, minimal ornament. This is a NEW DISTINCT CHARACTER, do not copy Leon's face or costume. Left third ONE full-body character illustration with entire weapon and shield visible and generous margin. Upper right THREE crisp chunky pixel-art in-game standing sprites FRONT BACK RIGHT SIDE, same equipment and identity, roughly 3 heads tall, 48x64-style design enlarged, not blurred mini illustrations. Lower right FOUR expressive face portraits: neutral, resolve, anger, conflicted concern; helmet wearers may raise visor for expressions. Modest title MERCENARY AXEMAN / 용병 도끼병. Short section labels FULL BODY / IN-GAME / EXPRESSIONS. No stats or long text, no scene, no enemies, no logos, no real-world insignia. Practical readable design, avoid excessive trim, chains or gems. Exact character: ordinary adult sturdy woman mercenary, tied-back dark brown hair, worn ochre scarf, patched brown padded armor and simple metal shoulder plate, two-handed long-handled practical single-bit battle axe. No shield, no oversized fantasy blade.. Weapons remain anatomically consistent in front back and side views, right/left hands never randomly mirror. Expressions share identity, no extra fullbody figures.",
+      "file": "axe-mercenary-board-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6d3ecfa5e1231678e26da16979dbbb502428012cac8c6a29c4547e51c241789d",
+      "kind": "generic_enemy",
+      "role_proposal": "긴 준비 후 강한 일격을 가하는 병종",
+      "weapon_proposal": "양손도끼",
+      "faction_visual_proposal": "독립 용병 / 황토·갈색",
+      "status": "visual_design_draft_not_runtime_asset",
+      "runtime_connected": false,
+      "review_notes": [
+        "외형·장비·앞/뒤/옆 도트·초상화 구성 시각 확인. 실제 48×64 투명 스프라이트와 애니메이션은 후속 제작.",
+        "표정의 차이가 작은 칸은 대화용 초상화 제작 시 강화. 장비를 쥔 손·장식·발 원점은 방향별 정합화 필요.",
+        "대기 보드에는 한 손으로 무기를 세우거나 멘 모습이 있음. 공격 모션은 해당 양손 무기 그립으로 별도 제작."
+      ]
+    }
+  ]
+}
