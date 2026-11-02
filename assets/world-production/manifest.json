@@ -1,0 +1,382 @@
+{
+  "date": "2026-11-02",
+  "count": 23,
+  "scope": "12 construction module boards + 11 proposed location layouts; not runtime production assets",
+  "boards": [
+    {
+      "id": "kit-wall-straight",
+      "name": "목조 석벽 직선",
+      "prompt": "Create ONE individual ENVIRONMENT MODULE DESIGN BOARD for original fantasy JRPG Springbound Frontier. TITLE: 목조 석벽 직선. ONE modular building component type only, not a full building. Warm ivory ground, thin understated brown layout rules, clean classic fantasy game ink and restrained cel shading with broad simple readable materials, no excessive detail, no people, no text paragraphs, no logos. Match winter frontier village practical dark brown timber, cream plaster, muted grey stone and dark slate-blue roofing palette. The camera looks slightly down but horizontal ground axes stay aligned, no rotated diamond map. LEFT 60% one LARGE complete three-quarter module illustration, generous margins, no clipping. RIGHT top two small ORTHOGRAPHIC-like FRONT and SIDE drawings of SAME module, right bottom ONE small ATTACHMENT example showing only how this module joins a few ghosted grey neighboring pieces, active component in full color. Four views of same item, not four different items. Labels FRONT SIDE JOIN. Bottom small ORIGINAL ASSET ID: kit-wall-straight. No measurements or arbitrary written stats. All mating planes straight, modules practical rectangular construction, simple repeatable materials, grounded shape. Specific component: straight rectangular plaster wall bay with plain dark timber uprights and low grey stone base; no window no door. This is an appearance/modeling reference board, NOT a production mesh, no runtime implementation claims.",
+      "file": "kit-wall-straight-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "39fe84335a98380aa5cbf5eebfe373eaeda8ddb291c31be5ac7958b8862a76cf",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 외형·주요 뷰·연결/배치 예시 시각 확인. 실제 모델·타일·맵 데이터 아님.",
+        "부품별 크기·두께·맞댐 면·지붕 경사·재질 반복 간격은 모델링 때 통일. 배치 예시의 주변 부품을 별도 완성 애셋으로 집계하지 않음."
+      ]
+    },
+    {
+      "id": "kit-wall-corner",
+      "name": "목조 석벽 모서리",
+      "prompt": "Create ONE individual ENVIRONMENT MODULE DESIGN BOARD for original fantasy JRPG Springbound Frontier. TITLE: 목조 석벽 모서리. ONE modular building component type only, not a full building. Warm ivory ground, thin understated brown layout rules, clean classic fantasy game ink and restrained cel shading with broad simple readable materials, no excessive detail, no people, no text paragraphs, no logos. Match winter frontier village practical dark brown timber, cream plaster, muted grey stone and dark slate-blue roofing palette. The camera looks slightly down but horizontal ground axes stay aligned, no rotated diamond map. LEFT 60% one LARGE complete three-quarter module illustration, generous margins, no clipping. RIGHT top two small ORTHOGRAPHIC-like FRONT and SIDE drawings of SAME module, right bottom ONE small ATTACHMENT example showing only how this module joins a few ghosted grey neighboring pieces, active component in full color. Four views of same item, not four different items. Labels FRONT SIDE JOIN. Bottom small ORIGINAL ASSET ID: kit-wall-corner. No measurements or arbitrary written stats. All mating planes straight, modules practical rectangular construction, simple repeatable materials, grounded shape. Specific component: two same wall bays meeting at a right angle, interior and exterior corner visible. This is an appearance/modeling reference board, NOT a production mesh, no runtime implementation claims.",
+      "file": "kit-wall-corner-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d17b4bc2f6f7d771296c31bc671b6183af8a8eb48271d2116379d7f755c1f751",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 외형·주요 뷰·연결/배치 예시 시각 확인. 실제 모델·타일·맵 데이터 아님.",
+        "부품별 크기·두께·맞댐 면·지붕 경사·재질 반복 간격은 모델링 때 통일. 배치 예시의 주변 부품을 별도 완성 애셋으로 집계하지 않음.",
+        "모서리 시안에 처마가 함께 표현됨. 모델링 시 벽과 지붕을 분리해 공용 부품 경계를 유지."
+      ]
+    },
+    {
+      "id": "kit-door-frame",
+      "name": "목재 출입문 틀",
+      "prompt": "Create ONE individual ENVIRONMENT MODULE DESIGN BOARD for original fantasy JRPG Springbound Frontier. TITLE: 목재 출입문 틀. ONE modular building component type only, not a full building. Warm ivory ground, thin understated brown layout rules, clean classic fantasy game ink and restrained cel shading with broad simple readable materials, no excessive detail, no people, no text paragraphs, no logos. Match winter frontier village practical dark brown timber, cream plaster, muted grey stone and dark slate-blue roofing palette. The camera looks slightly down but horizontal ground axes stay aligned, no rotated diamond map. LEFT 60% one LARGE complete three-quarter module illustration, generous margins, no clipping. RIGHT top two small ORTHOGRAPHIC-like FRONT and SIDE drawings of SAME module, right bottom ONE small ATTACHMENT example showing only how this module joins a few ghosted grey neighboring pieces, active component in full color. Four views of same item, not four different items. Labels FRONT SIDE JOIN. Bottom small ORIGINAL ASSET ID: kit-door-frame. No measurements or arbitrary written stats. All mating planes straight, modules practical rectangular construction, simple repeatable materials, grounded shape. Specific component: one rectangular timber door frame in short plaster wall with grey stone threshold, opening empty. This is an appearance/modeling reference board, NOT a production mesh, no runtime implementation claims.",
+      "file": "kit-door-frame-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "ece047246f70dd53203683e8f1873988907984c991eb9db0a9ace26264860142",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 외형·주요 뷰·연결/배치 예시 시각 확인. 실제 모델·타일·맵 데이터 아님.",
+        "부품별 크기·두께·맞댐 면·지붕 경사·재질 반복 간격은 모델링 때 통일. 배치 예시의 주변 부품을 별도 완성 애셋으로 집계하지 않음."
+      ]
+    },
+    {
+      "id": "kit-door-leaf",
+      "name": "목재 문짝",
+      "prompt": "Create ONE individual ENVIRONMENT MODULE DESIGN BOARD for original fantasy JRPG Springbound Frontier. TITLE: 목재 문짝. ONE modular building component type only, not a full building. Warm ivory ground, thin understated brown layout rules, clean classic fantasy game ink and restrained cel shading with broad simple readable materials, no excessive detail, no people, no text paragraphs, no logos. Match winter frontier village practical dark brown timber, cream plaster, muted grey stone and dark slate-blue roofing palette. The camera looks slightly down but horizontal ground axes stay aligned, no rotated diamond map. LEFT 60% one LARGE complete three-quarter module illustration, generous margins, no clipping. RIGHT top two small ORTHOGRAPHIC-like FRONT and SIDE drawings of SAME module, right bottom ONE small ATTACHMENT example showing only how this module joins a few ghosted grey neighboring pieces, active component in full color. Four views of same item, not four different items. Labels FRONT SIDE JOIN. Bottom small ORIGINAL ASSET ID: kit-door-leaf. No measurements or arbitrary written stats. All mating planes straight, modules practical rectangular construction, simple repeatable materials, grounded shape. Specific component: one plain vertical plank wooden door leaf with two simple black iron hinges and small round handle, detached. This is an appearance/modeling reference board, NOT a production mesh, no runtime implementation claims.",
+      "file": "kit-door-leaf-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "61fa8d2acf08d6e7f2e37ac56e26b7724536d1bbf0b359177d3a63dfd6e2cf75",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 외형·주요 뷰·연결/배치 예시 시각 확인. 실제 모델·타일·맵 데이터 아님.",
+        "부품별 크기·두께·맞댐 면·지붕 경사·재질 반복 간격은 모델링 때 통일. 배치 예시의 주변 부품을 별도 완성 애셋으로 집계하지 않음."
+      ]
+    },
+    {
+      "id": "kit-window-frame",
+      "name": "목재 창틀",
+      "prompt": "Create ONE individual ENVIRONMENT MODULE DESIGN BOARD for original fantasy JRPG Springbound Frontier. TITLE: 목재 창틀. ONE modular building component type only, not a full building. Warm ivory ground, thin understated brown layout rules, clean classic fantasy game ink and restrained cel shading with broad simple readable materials, no excessive detail, no people, no text paragraphs, no logos. Match winter frontier village practical dark brown timber, cream plaster, muted grey stone and dark slate-blue roofing palette. The camera looks slightly down but horizontal ground axes stay aligned, no rotated diamond map. LEFT 60% one LARGE complete three-quarter module illustration, generous margins, no clipping. RIGHT top two small ORTHOGRAPHIC-like FRONT and SIDE drawings of SAME module, right bottom ONE small ATTACHMENT example showing only how this module joins a few ghosted grey neighboring pieces, active component in full color. Four views of same item, not four different items. Labels FRONT SIDE JOIN. Bottom small ORIGINAL ASSET ID: kit-window-frame. No measurements or arbitrary written stats. All mating planes straight, modules practical rectangular construction, simple repeatable materials, grounded shape. Specific component: one small square timber window frame set into short plaster wall, simple wooden crossbar no glass reflections. This is an appearance/modeling reference board, NOT a production mesh, no runtime implementation claims.",
+      "file": "kit-window-frame-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "21f5d08d4761d2a77fab6c0b1ae4c7750ae89e916d9cd78bedd36a52b87a890b",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 외형·주요 뷰·연결/배치 예시 시각 확인. 실제 모델·타일·맵 데이터 아님.",
+        "부품별 크기·두께·맞댐 면·지붕 경사·재질 반복 간격은 모델링 때 통일. 배치 예시의 주변 부품을 별도 완성 애셋으로 집계하지 않음."
+      ]
+    },
+    {
+      "id": "kit-window-shutters",
+      "name": "목재 덧문",
+      "prompt": "Create ONE individual ENVIRONMENT MODULE DESIGN BOARD for original fantasy JRPG Springbound Frontier. TITLE: 목재 덧문. ONE modular building component type only, not a full building. Warm ivory ground, thin understated brown layout rules, clean classic fantasy game ink and restrained cel shading with broad simple readable materials, no excessive detail, no people, no text paragraphs, no logos. Match winter frontier village practical dark brown timber, cream plaster, muted grey stone and dark slate-blue roofing palette. The camera looks slightly down but horizontal ground axes stay aligned, no rotated diamond map. LEFT 60% one LARGE complete three-quarter module illustration, generous margins, no clipping. RIGHT top two small ORTHOGRAPHIC-like FRONT and SIDE drawings of SAME module, right bottom ONE small ATTACHMENT example showing only how this module joins a few ghosted grey neighboring pieces, active component in full color. Four views of same item, not four different items. Labels FRONT SIDE JOIN. Bottom small ORIGINAL ASSET ID: kit-window-shutters. No measurements or arbitrary written stats. All mating planes straight, modules practical rectangular construction, simple repeatable materials, grounded shape. Specific component: one matched pair plain small wooden shutter leaves, detached, small black iron hinges. This is an appearance/modeling reference board, NOT a production mesh, no runtime implementation claims.",
+      "file": "kit-window-shutters-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "61f774d96edba8fd00018e3ddfe945b270aa8abdaad8fea92f8a028370753f2b",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 외형·주요 뷰·연결/배치 예시 시각 확인. 실제 모델·타일·맵 데이터 아님.",
+        "부품별 크기·두께·맞댐 면·지붕 경사·재질 반복 간격은 모델링 때 통일. 배치 예시의 주변 부품을 별도 완성 애셋으로 집계하지 않음."
+      ]
+    },
+    {
+      "id": "kit-roof-slope",
+      "name": "짙은 청색 지붕 경사면",
+      "prompt": "Create ONE individual ENVIRONMENT MODULE DESIGN BOARD for original fantasy JRPG Springbound Frontier. TITLE: 짙은 청색 지붕 경사면. ONE modular building component type only, not a full building. Warm ivory ground, thin understated brown layout rules, clean classic fantasy game ink and restrained cel shading with broad simple readable materials, no excessive detail, no people, no text paragraphs, no logos. Match winter frontier village practical dark brown timber, cream plaster, muted grey stone and dark slate-blue roofing palette. The camera looks slightly down but horizontal ground axes stay aligned, no rotated diamond map. LEFT 60% one LARGE complete three-quarter module illustration, generous margins, no clipping. RIGHT top two small ORTHOGRAPHIC-like FRONT and SIDE drawings of SAME module, right bottom ONE small ATTACHMENT example showing only how this module joins a few ghosted grey neighboring pieces, active component in full color. Four views of same item, not four different items. Labels FRONT SIDE JOIN. Bottom small ORIGINAL ASSET ID: kit-roof-slope. No measurements or arbitrary written stats. All mating planes straight, modules practical rectangular construction, simple repeatable materials, grounded shape. Specific component: one rectangular sloped dark slate blue roof shingle module with simple timber eave, no snow. This is an appearance/modeling reference board, NOT a production mesh, no runtime implementation claims.",
+      "file": "kit-roof-slope-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "ace1db8b7f76418e86ae4e271fd5f25fbb63bdc22cade7d34e61337ed42d56cb",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 외형·주요 뷰·연결/배치 예시 시각 확인. 실제 모델·타일·맵 데이터 아님.",
+        "부품별 크기·두께·맞댐 면·지붕 경사·재질 반복 간격은 모델링 때 통일. 배치 예시의 주변 부품을 별도 완성 애셋으로 집계하지 않음."
+      ]
+    },
+    {
+      "id": "kit-roof-corner",
+      "name": "짙은 청색 지붕 모서리",
+      "prompt": "Edit this module board. Keep ivory layout and title 짙은 청색 지붕 모서리 / kit-roof-corner, front side join views. SIMPLIFY to ONE DETACHED CONVEX HIP ROOF CORNER SECTION only: two straight dark slate-blue roof planes meeting at a diagonal raised hip seam, plain brown timber eaves. NO finial NO spire NO tower NO pointed pinnacle NO curved pagoda roof NO stone wall or room below active main piece. Main left view shows a detached trimmed wedge corner roof panel with straight mating edges continuing into neighboring roof slopes, not a complete roof. Front and side right views show SAME detached part. JOIN bottom shows only matching adjacent roof slopes ghosted grey with active corner colored, no tower walls. Practical plain European fantasy village style, simple broad shingles, match dark slate-blue slope module, no ornate stone caps, generous margins. Appearance modeling reference, no measurements or code.",
+      "version": 2,
+      "file": "kit-roof-corner-board-v2.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "0abb8f92680eadd771c45be6a0584cb38e327074835db38cc5c0c7f9a81c3e60",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 외형·주요 뷰·연결/배치 예시 시각 확인. 실제 모델·타일·맵 데이터 아님.",
+        "부품별 크기·두께·맞댐 면·지붕 경사·재질 반복 간격은 모델링 때 통일. 배치 예시의 주변 부품을 별도 완성 애셋으로 집계하지 않음.",
+        "v2에서 탑 벽체와 꼭대기 장식을 제거. 이음새 방향은 모델링 때 지붕 경사면과 맞춤."
+      ]
+    },
+    {
+      "id": "kit-roof-ridge",
+      "name": "짙은 청색 지붕 용마루",
+      "prompt": "Create ONE individual ENVIRONMENT MODULE DESIGN BOARD for original fantasy JRPG Springbound Frontier. TITLE: 짙은 청색 지붕 용마루. ONE modular building component type only, not a full building. Warm ivory ground, thin understated brown layout rules, clean classic fantasy game ink and restrained cel shading with broad simple readable materials, no excessive detail, no people, no text paragraphs, no logos. Match winter frontier village practical dark brown timber, cream plaster, muted grey stone and dark slate-blue roofing palette. The camera looks slightly down but horizontal ground axes stay aligned, no rotated diamond map. LEFT 60% one LARGE complete three-quarter module illustration, generous margins, no clipping. RIGHT top two small ORTHOGRAPHIC-like FRONT and SIDE drawings of SAME module, right bottom ONE small ATTACHMENT example showing only how this module joins a few ghosted grey neighboring pieces, active component in full color. Four views of same item, not four different items. Labels FRONT SIDE JOIN. Bottom small ORIGINAL ASSET ID: kit-roof-ridge. No measurements or arbitrary written stats. All mating planes straight, modules practical rectangular construction, simple repeatable materials, grounded shape. Specific component: one short horizontal dark slate blue roof ridge cap module with both sloped sides. This is an appearance/modeling reference board, NOT a production mesh, no runtime implementation claims.",
+      "file": "kit-roof-ridge-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "10a41b3aafd7a3090867ce255aff983f2c2fb874abe16f5bd5f004a5bc7ab55a",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 외형·주요 뷰·연결/배치 예시 시각 확인. 실제 모델·타일·맵 데이터 아님.",
+        "부품별 크기·두께·맞댐 면·지붕 경사·재질 반복 간격은 모델링 때 통일. 배치 예시의 주변 부품을 별도 완성 애셋으로 집계하지 않음."
+      ]
+    },
+    {
+      "id": "kit-timber-pillar",
+      "name": "목재 지지 기둥",
+      "prompt": "Create ONE individual ENVIRONMENT MODULE DESIGN BOARD for original fantasy JRPG Springbound Frontier. TITLE: 목재 지지 기둥. ONE modular building component type only, not a full building. Warm ivory ground, thin understated brown layout rules, clean classic fantasy game ink and restrained cel shading with broad simple readable materials, no excessive detail, no people, no text paragraphs, no logos. Match winter frontier village practical dark brown timber, cream plaster, muted grey stone and dark slate-blue roofing palette. The camera looks slightly down but horizontal ground axes stay aligned, no rotated diamond map. LEFT 60% one LARGE complete three-quarter module illustration, generous margins, no clipping. RIGHT top two small ORTHOGRAPHIC-like FRONT and SIDE drawings of SAME module, right bottom ONE small ATTACHMENT example showing only how this module joins a few ghosted grey neighboring pieces, active component in full color. Four views of same item, not four different items. Labels FRONT SIDE JOIN. Bottom small ORIGINAL ASSET ID: kit-timber-pillar. No measurements or arbitrary written stats. All mating planes straight, modules practical rectangular construction, simple repeatable materials, grounded shape. Specific component: one square weathered timber upright post on small grey stone foot, simple top joint. This is an appearance/modeling reference board, NOT a production mesh, no runtime implementation claims.",
+      "file": "kit-timber-pillar-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "27d7e0e434898a15aadffbd6359fe99582e7be4fa762ccc239bdac7195abb1e4",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 외형·주요 뷰·연결/배치 예시 시각 확인. 실제 모델·타일·맵 데이터 아님.",
+        "부품별 크기·두께·맞댐 면·지붕 경사·재질 반복 간격은 모델링 때 통일. 배치 예시의 주변 부품을 별도 완성 애셋으로 집계하지 않음."
+      ]
+    },
+    {
+      "id": "kit-stone-foundation",
+      "name": "석조 기단",
+      "prompt": "Create ONE individual ENVIRONMENT MODULE DESIGN BOARD for original fantasy JRPG Springbound Frontier. TITLE: 석조 기단. ONE modular building component type only, not a full building. Warm ivory ground, thin understated brown layout rules, clean classic fantasy game ink and restrained cel shading with broad simple readable materials, no excessive detail, no people, no text paragraphs, no logos. Match winter frontier village practical dark brown timber, cream plaster, muted grey stone and dark slate-blue roofing palette. The camera looks slightly down but horizontal ground axes stay aligned, no rotated diamond map. LEFT 60% one LARGE complete three-quarter module illustration, generous margins, no clipping. RIGHT top two small ORTHOGRAPHIC-like FRONT and SIDE drawings of SAME module, right bottom ONE small ATTACHMENT example showing only how this module joins a few ghosted grey neighboring pieces, active component in full color. Four views of same item, not four different items. Labels FRONT SIDE JOIN. Bottom small ORIGINAL ASSET ID: kit-stone-foundation. No measurements or arbitrary written stats. All mating planes straight, modules practical rectangular construction, simple repeatable materials, grounded shape. Specific component: one low rectangular grey rubble-stone building foundation block, flat top and straight edges. This is an appearance/modeling reference board, NOT a production mesh, no runtime implementation claims.",
+      "file": "kit-stone-foundation-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b088da296a973e1c6fa291b57c0410b0257e639c2bb76f0570f60008aa682225",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 외형·주요 뷰·연결/배치 예시 시각 확인. 실제 모델·타일·맵 데이터 아님.",
+        "부품별 크기·두께·맞댐 면·지붕 경사·재질 반복 간격은 모델링 때 통일. 배치 예시의 주변 부품을 별도 완성 애셋으로 집계하지 않음."
+      ]
+    },
+    {
+      "id": "kit-stone-stairs",
+      "name": "석조 계단",
+      "prompt": "Create ONE individual ENVIRONMENT MODULE DESIGN BOARD for original fantasy JRPG Springbound Frontier. TITLE: 석조 계단. ONE modular building component type only, not a full building. Warm ivory ground, thin understated brown layout rules, clean classic fantasy game ink and restrained cel shading with broad simple readable materials, no excessive detail, no people, no text paragraphs, no logos. Match winter frontier village practical dark brown timber, cream plaster, muted grey stone and dark slate-blue roofing palette. The camera looks slightly down but horizontal ground axes stay aligned, no rotated diamond map. LEFT 60% one LARGE complete three-quarter module illustration, generous margins, no clipping. RIGHT top two small ORTHOGRAPHIC-like FRONT and SIDE drawings of SAME module, right bottom ONE small ATTACHMENT example showing only how this module joins a few ghosted grey neighboring pieces, active component in full color. Four views of same item, not four different items. Labels FRONT SIDE JOIN. Bottom small ORIGINAL ASSET ID: kit-stone-stairs. No measurements or arbitrary written stats. All mating planes straight, modules practical rectangular construction, simple repeatable materials, grounded shape. Specific component: one straight short flight of exactly four modest grey stone steps with no railings. This is an appearance/modeling reference board, NOT a production mesh, no runtime implementation claims.",
+      "file": "kit-stone-stairs-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e4919c400f0d31492efb4bdd1408092993832e022a6412403f5ae0d634d3b0be",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 외형·주요 뷰·연결/배치 예시 시각 확인. 실제 모델·타일·맵 데이터 아님.",
+        "부품별 크기·두께·맞댐 면·지붕 경사·재질 반복 간격은 모델링 때 통일. 배치 예시의 주변 부품을 별도 완성 애셋으로 집계하지 않음.",
+        "단독/연결 예시의 단수와 높이 차이는 모델링 규격으로 통일 필요."
+      ]
+    },
+    {
+      "id": "map-frost",
+      "name": "서리골 전체 배치도",
+      "prompt": "Create ONE landscape LEVEL BLOCKOUT AND ENVIRONMENT LAYOUT REFERENCE BOARD for original classic fantasy JRPG Springbound Frontier. Title 서리골 and map-frost. One single coherent proposed location map, not collage of unrelated towns. Main 80 percent near-orthographic TOP DOWN readable painted environment plan, streets and passages aligned strictly SCREEN NORTH SOUTH EAST WEST, no isometric diamond rotation, no diagonal roads. Clean ink restrained cel-shaded materials, broad simple low detail forms, generous gaps. Buildings cutaway or low roofs so paths visible, no people no characters no monsters. Clear main traversal shown with one thin muted gold route line following actual paths with small arrowheads, from arrival to exit, not through buildings or water. Small numbered POI markers and compact English legend at right for key areas, entry exit labels. One small human silhouette near legend only for rough scale. Keep generous battlefield clearings and traversable connections. No battle UI no stats no fake screenshot claims. Caption DRAFT LAYOUT / NOT FINAL GAME MAP. Design: snowy mountain village, dark timber cream plaster homes blue slate roofs, herbalist house WEST, central well/plaza, shop EAST, common storage NORTHWEST, SOUTH entry, NORTH forest exit. Two simple straight cardinal streets. existing village expansion proposal.. Whole location fits within image and clear boundaries; route is a design proposal, not final quest or navigation data.",
+      "file": "map-frost-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "037f0f629c82b4337f1a7b8fccf5e39257d75dd67ca34d5561bdce172856f47e",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 외형·주요 뷰·연결/배치 예시 시각 확인. 실제 모델·타일·맵 데이터 아님.",
+        "그림 속 번호·출입구·상호·스케일·화살표는 생성 시안이며 자동으로 내비게이션·퀘스트·지리 확정 데이터로 가져오지 않음. 일부 곡선/대각선 길은 화면 상하좌우 이동 기준으로 정합화 필요.",
+        "북쪽 출구 마커가 6 대신 1로 중복 표기됨. 범례·번호 수정 후 구현."
+      ]
+    },
+    {
+      "id": "map-border",
+      "name": "돌샘·국경 연락소 전체 배치도",
+      "prompt": "Create ONE landscape LEVEL BLOCKOUT AND ENVIRONMENT LAYOUT REFERENCE BOARD for original classic fantasy JRPG Springbound Frontier. Title 돌샘·국경 연락소 and map-border. One single coherent proposed location map, not collage of unrelated towns. Main 80 percent near-orthographic TOP DOWN readable painted environment plan, streets and passages aligned strictly SCREEN NORTH SOUTH EAST WEST, no isometric diamond rotation, no diagonal roads. Clean ink restrained cel-shaded materials, broad simple low detail forms, generous gaps. Buildings cutaway or low roofs so paths visible, no people no characters no monsters. Clear main traversal shown with one thin muted gold route line following actual paths with small arrowheads, from arrival to exit, not through buildings or water. Small numbered POI markers and compact English legend at right for key areas, entry exit labels. One small human silhouette near legend only for rough scale. Keep generous battlefield clearings and traversable connections. No battle UI no stats no fake screenshot claims. Caption DRAFT LAYOUT / NOT FINAL GAME MAP. Design: winter border garrison village. WEST road entry EAST road exit. NORTHWEST inn, WEST supply store, NORTH clinic, NORTHEAST communication office and guard post, SOUTHEAST open rectangular training yard; central broad stone crossroads.. Whole location fits within image and clear boundaries; route is a design proposal, not final quest or navigation data.",
+      "file": "map-border-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "1bbe33b4193958fb101523a302110bd04a5cac1eadfa7ca48390fbd37c5207c5",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 외형·주요 뷰·연결/배치 예시 시각 확인. 실제 모델·타일·맵 데이터 아님.",
+        "그림 속 번호·출입구·상호·스케일·화살표는 생성 시안이며 자동으로 내비게이션·퀘스트·지리 확정 데이터로 가져오지 않음. 일부 곡선/대각선 길은 화면 상하좌우 이동 기준으로 정합화 필요."
+      ]
+    },
+    {
+      "id": "map-refugee",
+      "name": "피난 교량 전체 배치도",
+      "prompt": "Create ONE landscape LEVEL BLOCKOUT AND ENVIRONMENT LAYOUT REFERENCE BOARD for original classic fantasy JRPG Springbound Frontier. Title 피난 교량 and map-refugee. One single coherent proposed location map, not collage of unrelated towns. Main 80 percent near-orthographic TOP DOWN readable painted environment plan, streets and passages aligned strictly SCREEN NORTH SOUTH EAST WEST, no isometric diamond rotation, no diagonal roads. Clean ink restrained cel-shaded materials, broad simple low detail forms, generous gaps. Buildings cutaway or low roofs so paths visible, no people no characters no monsters. Clear main traversal shown with one thin muted gold route line following actual paths with small arrowheads, from arrival to exit, not through buildings or water. Small numbered POI markers and compact English legend at right for key areas, entry exit labels. One small human silhouette near legend only for rough scale. Keep generous battlefield clearings and traversable connections. No battle UI no stats no fake screenshot claims. Caption DRAFT LAYOUT / NOT FINAL GAME MAP. Design: broad horizontal river through middle with ONE north-south bridge crossing center, SOUTH approach/refugee camp with clear open routes, southwest supply carts, southeast triage tents, NORTH checkpoint with passage exit, bridge and approaches wide enough for fighting.. Whole location fits within image and clear boundaries; route is a design proposal, not final quest or navigation data.",
+      "file": "map-refugee-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "0a6b34b4641f95d385fa2bce6bad715487ddb6799e28486607deed2e1027e6c8",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 외형·주요 뷰·연결/배치 예시 시각 확인. 실제 모델·타일·맵 데이터 아님.",
+        "그림 속 번호·출입구·상호·스케일·화살표는 생성 시안이며 자동으로 내비게이션·퀘스트·지리 확정 데이터로 가져오지 않음. 일부 곡선/대각선 길은 화면 상하좌우 이동 기준으로 정합화 필요.",
+        "구호 천막 문양은 임시 시각 요소. 기존 의무병 보드의 잎사귀 표식으로 통일 검토."
+      ]
+    },
+    {
+      "id": "map-capital",
+      "name": "아르덴 왕도 전체 배치도",
+      "prompt": "Create ONE landscape LEVEL BLOCKOUT AND ENVIRONMENT LAYOUT REFERENCE BOARD for original classic fantasy JRPG Springbound Frontier. Title 아르덴 왕도 and map-capital. One single coherent proposed location map, not collage of unrelated towns. Main 80 percent near-orthographic TOP DOWN readable painted environment plan, streets and passages aligned strictly SCREEN NORTH SOUTH EAST WEST, no isometric diamond rotation, no diagonal roads. Clean ink restrained cel-shaded materials, broad simple low detail forms, generous gaps. Buildings cutaway or low roofs so paths visible, no people no characters no monsters. Clear main traversal shown with one thin muted gold route line following actual paths with small arrowheads, from arrival to exit, not through buildings or water. Small numbered POI markers and compact English legend at right for key areas, entry exit labels. One small human silhouette near legend only for rough scale. Keep generous battlefield clearings and traversable connections. No battle UI no stats no fake screenshot claims. Caption DRAFT LAYOUT / NOT FINAL GAME MAP. Design: bright stone capital proposal as compact connected districts, SOUTH main gate and broad straight central avenue to NORTH reception hall, WEST market and inn, EAST barracks and administration, homes along side streets, open central plaza and clear east west lanes. No giant entire metropolis.. Whole location fits within image and clear boundaries; route is a design proposal, not final quest or navigation data.",
+      "file": "map-capital-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6f49f54b5dbc1b14842b3783082e3835f842af6014fb2332a4cabbca83266706",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 외형·주요 뷰·연결/배치 예시 시각 확인. 실제 모델·타일·맵 데이터 아님.",
+        "그림 속 번호·출입구·상호·스케일·화살표는 생성 시안이며 자동으로 내비게이션·퀘스트·지리 확정 데이터로 가져오지 않음. 일부 곡선/대각선 길은 화면 상하좌우 이동 기준으로 정합화 필요."
+      ]
+    },
+    {
+      "id": "map-academy",
+      "name": "남방 학술도시 전체 배치도",
+      "prompt": "Create ONE landscape LEVEL BLOCKOUT AND ENVIRONMENT LAYOUT REFERENCE BOARD for original classic fantasy JRPG Springbound Frontier. Title 남방 학술도시 and map-academy. One single coherent proposed location map, not collage of unrelated towns. Main 80 percent near-orthographic TOP DOWN readable painted environment plan, streets and passages aligned strictly SCREEN NORTH SOUTH EAST WEST, no isometric diamond rotation, no diagonal roads. Clean ink restrained cel-shaded materials, broad simple low detail forms, generous gaps. Buildings cutaway or low roofs so paths visible, no people no characters no monsters. Clear main traversal shown with one thin muted gold route line following actual paths with small arrowheads, from arrival to exit, not through buildings or water. Small numbered POI markers and compact English legend at right for key areas, entry exit labels. One small human silhouette near legend only for rough scale. Keep generous battlefield clearings and traversable connections. No battle UI no stats no fake screenshot claims. Caption DRAFT LAYOUT / NOT FINAL GAME MAP. Design: warm pale sandstone and muted terracotta university town, SOUTH arrival, NORTH academic hall, WEST library and research wing, EAST dormitory and relic storage, SOUTHWEST inn and homes, central rectangular survey plaza with orthogonal streets.. Whole location fits within image and clear boundaries; route is a design proposal, not final quest or navigation data.",
+      "file": "map-academy-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "dee0601d51a4f8c1cb5ce3decfc0b1f331a9f206291fb61088ecd4d1c10219e8",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 외형·주요 뷰·연결/배치 예시 시각 확인. 실제 모델·타일·맵 데이터 아님.",
+        "그림 속 번호·출입구·상호·스케일·화살표는 생성 시안이며 자동으로 내비게이션·퀘스트·지리 확정 데이터로 가져오지 않음. 일부 곡선/대각선 길은 화면 상하좌우 이동 기준으로 정합화 필요."
+      ]
+    },
+    {
+      "id": "map-south-port",
+      "name": "남방 항구 전체 배치도",
+      "prompt": "Create ONE landscape LEVEL BLOCKOUT AND ENVIRONMENT LAYOUT REFERENCE BOARD for original classic fantasy JRPG Springbound Frontier. Title 남방 항구 and map-south-port. One single coherent proposed location map, not collage of unrelated towns. Main 80 percent near-orthographic TOP DOWN readable painted environment plan, streets and passages aligned strictly SCREEN NORTH SOUTH EAST WEST, no isometric diamond rotation, no diagonal roads. Clean ink restrained cel-shaded materials, broad simple low detail forms, generous gaps. Buildings cutaway or low roofs so paths visible, no people no characters no monsters. Clear main traversal shown with one thin muted gold route line following actual paths with small arrowheads, from arrival to exit, not through buildings or water. Small numbered POI markers and compact English legend at right for key areas, entry exit labels. One small human silhouette near legend only for rough scale. Keep generous battlefield clearings and traversable connections. No battle UI no stats no fake screenshot claims. Caption DRAFT LAYOUT / NOT FINAL GAME MAP. Design: working port, sea on EAST, north-south waterfront road, piers extend EAST into water, WEST inland entrance, NORTHWEST ship workshop, central market, SOUTHWEST inn and tavern, SOUTHEAST warehouses and boarding pier, wooden practical roofs.. Whole location fits within image and clear boundaries; route is a design proposal, not final quest or navigation data.",
+      "file": "map-south-port-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8493017d5cb06b68799bcc62b9e1bf92fcdc78c9faa2ffa426350bd8ba79ad6d",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 외형·주요 뷰·연결/배치 예시 시각 확인. 실제 모델·타일·맵 데이터 아님.",
+        "그림 속 번호·출입구·상호·스케일·화살표는 생성 시안이며 자동으로 내비게이션·퀘스트·지리 확정 데이터로 가져오지 않음. 일부 곡선/대각선 길은 화면 상하좌우 이동 기준으로 정합화 필요."
+      ]
+    },
+    {
+      "id": "map-north",
+      "name": "북방 시설 전체 배치도",
+      "prompt": "Create ONE landscape LEVEL BLOCKOUT AND ENVIRONMENT LAYOUT REFERENCE BOARD for original classic fantasy JRPG Springbound Frontier. Title 북방 시설 and map-north. One single coherent proposed location map, not collage of unrelated towns. Main 80 percent near-orthographic TOP DOWN readable painted environment plan, streets and passages aligned strictly SCREEN NORTH SOUTH EAST WEST, no isometric diamond rotation, no diagonal roads. Clean ink restrained cel-shaded materials, broad simple low detail forms, generous gaps. Buildings cutaway or low roofs so paths visible, no people no characters no monsters. Clear main traversal shown with one thin muted gold route line following actual paths with small arrowheads, from arrival to exit, not through buildings or water. Small numbered POI markers and compact English legend at right for key areas, entry exit labels. One small human silhouette near legend only for rough scale. Keep generous battlefield clearings and traversable connections. No battle UI no stats no fake screenshot claims. Caption DRAFT LAYOUT / NOT FINAL GAME MAP. Design: snowbound ancient installation, SOUTH arrival across snowfield, straight NORTH access to entrance and central hall, WEST observation room, EAST machinery wing, NORTH control room, closed dangerous collapsed corner northeast with alternate clear west path. Small teal ancient devices, no sci-fi neon.. Whole location fits within image and clear boundaries; route is a design proposal, not final quest or navigation data.",
+      "file": "map-north-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9c00778f8b769742137f2b3d750cd4a8b1aa3fb6b36d8fb08ce48c704573770d",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 외형·주요 뷰·연결/배치 예시 시각 확인. 실제 모델·타일·맵 데이터 아님.",
+        "그림 속 번호·출입구·상호·스케일·화살표는 생성 시안이며 자동으로 내비게이션·퀘스트·지리 확정 데이터로 가져오지 않음. 일부 곡선/대각선 길은 화면 상하좌우 이동 기준으로 정합화 필요."
+      ]
+    },
+    {
+      "id": "map-sea",
+      "name": "해양국 항만 도시 전체 배치도",
+      "prompt": "Create ONE landscape LEVEL BLOCKOUT AND ENVIRONMENT LAYOUT REFERENCE BOARD for original classic fantasy JRPG Springbound Frontier. Title 해양국 항만 도시 and map-sea. One single coherent proposed location map, not collage of unrelated towns. Main 80 percent near-orthographic TOP DOWN readable painted environment plan, streets and passages aligned strictly SCREEN NORTH SOUTH EAST WEST, no isometric diamond rotation, no diagonal roads. Clean ink restrained cel-shaded materials, broad simple low detail forms, generous gaps. Buildings cutaway or low roofs so paths visible, no people no characters no monsters. Clear main traversal shown with one thin muted gold route line following actual paths with small arrowheads, from arrival to exit, not through buildings or water. Small numbered POI markers and compact English legend at right for key areas, entry exit labels. One small human silhouette near legend only for rough scale. Keep generous battlefield clearings and traversable connections. No battle UI no stats no fake screenshot claims. Caption DRAFT LAYOUT / NOT FINAL GAME MAP. Design: distinct maritime city with white stone and muted sea-green shallow roofs, ocean SOUTH, SOUTH central arrival pier, NORTH trade hall, WEST houses and sailors hall, EAST observatory and inn, central rectangular market, canal only along west edge with one orthogonal bridge, straight streets.. Whole location fits within image and clear boundaries; route is a design proposal, not final quest or navigation data.",
+      "file": "map-sea-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e96b316154d6d1841e22fd434089fa027899fccee6eea9547035263e4eb3adf2",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 외형·주요 뷰·연결/배치 예시 시각 확인. 실제 모델·타일·맵 데이터 아님.",
+        "그림 속 번호·출입구·상호·스케일·화살표는 생성 시안이며 자동으로 내비게이션·퀘스트·지리 확정 데이터로 가져오지 않음. 일부 곡선/대각선 길은 화면 상하좌우 이동 기준으로 정합화 필요."
+      ]
+    },
+    {
+      "id": "map-sanctuary",
+      "name": "교단 성역 전체 배치도",
+      "prompt": "Create ONE landscape LEVEL BLOCKOUT AND ENVIRONMENT LAYOUT REFERENCE BOARD for original classic fantasy JRPG Springbound Frontier. Title 교단 성역 and map-sanctuary. One single coherent proposed location map, not collage of unrelated towns. Main 80 percent near-orthographic TOP DOWN readable painted environment plan, streets and passages aligned strictly SCREEN NORTH SOUTH EAST WEST, no isometric diamond rotation, no diagonal roads. Clean ink restrained cel-shaded materials, broad simple low detail forms, generous gaps. Buildings cutaway or low roofs so paths visible, no people no characters no monsters. Clear main traversal shown with one thin muted gold route line following actual paths with small arrowheads, from arrival to exit, not through buildings or water. Small numbered POI markers and compact English legend at right for key areas, entry exit labels. One small human silhouette near legend only for rough scale. Keep generous battlefield clearings and traversable connections. No battle UI no stats no fake screenshot claims. Caption DRAFT LAYOUT / NOT FINAL GAME MAP. Design: quiet pale limestone sanctuary, SOUTH pilgrimage entry, NORTH chapel, WEST lodging and clinic, EAST cloister and archive, central garden plaza, discreet archive basement entrance northeast, all paths aligned cardinal, no real-world religious symbols.. Whole location fits within image and clear boundaries; route is a design proposal, not final quest or navigation data.",
+      "file": "map-sanctuary-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f327329e47f27c827ca223bfa33c834a2e4fe621356fcce8f36d4b344aefb16d",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 외형·주요 뷰·연결/배치 예시 시각 확인. 실제 모델·타일·맵 데이터 아님.",
+        "그림 속 번호·출입구·상호·스케일·화살표는 생성 시안이며 자동으로 내비게이션·퀘스트·지리 확정 데이터로 가져오지 않음. 일부 곡선/대각선 길은 화면 상하좌우 이동 기준으로 정합화 필요.",
+        "남쪽 입구와 서쪽 숙소가 모두 1로 보이는 번호 오류. 도면 확정 때 정정."
+      ]
+    },
+    {
+      "id": "map-core",
+      "name": "고대 중추 전체 배치도",
+      "prompt": "Create ONE landscape LEVEL BLOCKOUT AND ENVIRONMENT LAYOUT REFERENCE BOARD for original classic fantasy JRPG Springbound Frontier. Title 고대 중추 and map-core. One single coherent proposed location map, not collage of unrelated towns. Main 80 percent near-orthographic TOP DOWN readable painted environment plan, streets and passages aligned strictly SCREEN NORTH SOUTH EAST WEST, no isometric diamond rotation, no diagonal roads. Clean ink restrained cel-shaded materials, broad simple low detail forms, generous gaps. Buildings cutaway or low roofs so paths visible, no people no characters no monsters. Clear main traversal shown with one thin muted gold route line following actual paths with small arrowheads, from arrival to exit, not through buildings or water. Small numbered POI markers and compact English legend at right for key areas, entry exit labels. One small human silhouette near legend only for rough scale. Keep generous battlefield clearings and traversable connections. No battle UI no stats no fake screenshot claims. Caption DRAFT LAYOUT / NOT FINAL GAME MAP. Design: ancient stone bronze structure inside cavern, SOUTH entry, central orthogonal connecting corridor to NORTH core chamber, WEST branch hall and control platform, EAST branch hall and sealed machine room, west-north bypass corridor to core, muted small teal cores. No teleport mechanic implied.. Whole location fits within image and clear boundaries; route is a design proposal, not final quest or navigation data.",
+      "file": "map-core-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "542e24642caa337e8fc11166fe39222e2358d4283cf3436739500219fd43ea00",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 외형·주요 뷰·연결/배치 예시 시각 확인. 실제 모델·타일·맵 데이터 아님.",
+        "그림 속 번호·출입구·상호·스케일·화살표는 생성 시안이며 자동으로 내비게이션·퀘스트·지리 확정 데이터로 가져오지 않음. 일부 곡선/대각선 길은 화면 상하좌우 이동 기준으로 정합화 필요.",
+        "중앙 회랑 화살표 방향 일부가 역방향. 장면 전환·통행·퀘스트 순서를 그림에서 추출하지 않음."
+      ]
+    },
+    {
+      "id": "map-leon-home",
+      "name": "레온의 고향 전체 배치도",
+      "prompt": "Create ONE landscape LEVEL BLOCKOUT AND ENVIRONMENT LAYOUT REFERENCE BOARD for original classic fantasy JRPG Springbound Frontier. Title 레온의 고향 and map-leon-home. One single coherent proposed location map, not collage of unrelated towns. Main 80 percent near-orthographic TOP DOWN readable painted environment plan, streets and passages aligned strictly SCREEN NORTH SOUTH EAST WEST, no isometric diamond rotation, no diagonal roads. Clean ink restrained cel-shaded materials, broad simple low detail forms, generous gaps. Buildings cutaway or low roofs so paths visible, no people no characters no monsters. Clear main traversal shown with one thin muted gold route line following actual paths with small arrowheads, from arrival to exit, not through buildings or water. Small numbered POI markers and compact English legend at right for key areas, entry exit labels. One small human silhouette near legend only for rough scale. Keep generous battlefield clearings and traversable connections. No battle UI no stats no fake screenshot claims. Caption DRAFT LAYOUT / NOT FINAL GAME MAP. Design: small peaceful rural village for epilogue, SOUTH entry, WEST Leon's modest old house, NORTH small memorial garden with plain tree and bench, EAST few houses, short central dirt crossroads, no fortress or large shops.. Whole location fits within image and clear boundaries; route is a design proposal, not final quest or navigation data.",
+      "file": "map-leon-home-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b5882f308c999c2207e70068e716445e7db203ec17c8b49840190a01955d22f1",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "개별 외형·주요 뷰·연결/배치 예시 시각 확인. 실제 모델·타일·맵 데이터 아님.",
+        "그림 속 번호·출입구·상호·스케일·화살표는 생성 시안이며 자동으로 내비게이션·퀘스트·지리 확정 데이터로 가져오지 않음. 일부 곡선/대각선 길은 화면 상하좌우 이동 기준으로 정합화 필요."
+      ]
+    }
+  ]
+}
