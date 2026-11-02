@@ -3235,9 +3235,9 @@
       "phase": 3,
       "region": "서리골",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-frost-01-board-v1.png",
       "dependencies": [
         "map-frost",
         "kit-wall-straight"
@@ -3252,9 +3252,9 @@
       "phase": 3,
       "region": "서리골",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-frost-02-board-v1.png",
       "dependencies": [
         "map-frost",
         "kit-wall-straight"
@@ -3269,9 +3269,9 @@
       "phase": 3,
       "region": "서리골",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-frost-03-board-v1.png",
       "dependencies": [
         "map-frost",
         "kit-wall-straight"
@@ -3286,9 +3286,9 @@
       "phase": 3,
       "region": "서리골",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-frost-04-board-v1.png",
       "dependencies": [
         "map-frost",
         "kit-wall-straight"
@@ -3303,9 +3303,9 @@
       "phase": 3,
       "region": "서리골",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-frost-05-board-v1.png",
       "dependencies": [
         "map-frost",
         "kit-wall-straight"
@@ -3400,9 +3400,9 @@
       "phase": 3,
       "region": "돌샘·국경 연락소",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-border-01-board-v1.png",
       "dependencies": [
         "map-border",
         "kit-wall-straight"
@@ -3417,9 +3417,9 @@
       "phase": 3,
       "region": "돌샘·국경 연락소",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-border-02-board-v1.png",
       "dependencies": [
         "map-border",
         "kit-wall-straight"
@@ -3434,9 +3434,9 @@
       "phase": 3,
       "region": "돌샘·국경 연락소",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-border-03-board-v1.png",
       "dependencies": [
         "map-border",
         "kit-wall-straight"
@@ -3451,9 +3451,9 @@
       "phase": 3,
       "region": "돌샘·국경 연락소",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-border-04-board-v1.png",
       "dependencies": [
         "map-border",
         "kit-wall-straight"
@@ -3468,9 +3468,9 @@
       "phase": 3,
       "region": "돌샘·국경 연락소",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-border-05-board-v1.png",
       "dependencies": [
         "map-border",
         "kit-wall-straight"
@@ -3485,9 +3485,9 @@
       "phase": 3,
       "region": "돌샘·국경 연락소",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-border-06-board-v1.png",
       "dependencies": [
         "map-border",
         "kit-wall-straight"
@@ -3582,9 +3582,9 @@
       "phase": 3,
       "region": "피난 교량",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-refugee-01-board-v1.png",
       "dependencies": [
         "map-refugee",
         "kit-wall-straight"
@@ -3599,9 +3599,9 @@
       "phase": 3,
       "region": "피난 교량",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-refugee-02-board-v1.png",
       "dependencies": [
         "map-refugee",
         "kit-wall-straight"
@@ -3616,9 +3616,9 @@
       "phase": 3,
       "region": "피난 교량",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-refugee-03-board-v1.png",
       "dependencies": [
         "map-refugee",
         "kit-wall-straight"
@@ -3633,9 +3633,9 @@
       "phase": 3,
       "region": "피난 교량",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-refugee-04-board-v1.png",
       "dependencies": [
         "map-refugee",
         "kit-wall-straight"
@@ -3650,9 +3650,9 @@
       "phase": 3,
       "region": "피난 교량",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-refugee-05-board-v1.png",
       "dependencies": [
         "map-refugee",
         "kit-wall-straight"
@@ -3747,9 +3747,9 @@
       "phase": 3,
       "region": "아르덴 왕도",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-capital-01-board-v1.png",
       "dependencies": [
         "map-capital",
         "kit-wall-straight"
@@ -3764,9 +3764,9 @@
       "phase": 3,
       "region": "아르덴 왕도",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-capital-02-board-v1.png",
       "dependencies": [
         "map-capital",
         "kit-wall-straight"
@@ -3781,9 +3781,9 @@
       "phase": 3,
       "region": "아르덴 왕도",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-capital-03-board-v1.png",
       "dependencies": [
         "map-capital",
         "kit-wall-straight"
@@ -3798,9 +3798,9 @@
       "phase": 3,
       "region": "아르덴 왕도",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-capital-04-board-v1.png",
       "dependencies": [
         "map-capital",
         "kit-wall-straight"
@@ -3815,9 +3815,9 @@
       "phase": 3,
       "region": "아르덴 왕도",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-capital-05-board-v1.png",
       "dependencies": [
         "map-capital",
         "kit-wall-straight"
@@ -3832,9 +3832,9 @@
       "phase": 3,
       "region": "아르덴 왕도",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-capital-06-board-v1.png",
       "dependencies": [
         "map-capital",
         "kit-wall-straight"
@@ -3849,9 +3849,9 @@
       "phase": 3,
       "region": "아르덴 왕도",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-capital-07-board-v1.png",
       "dependencies": [
         "map-capital",
         "kit-wall-straight"
@@ -3866,9 +3866,9 @@
       "phase": 3,
       "region": "아르덴 왕도",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-capital-08-board-v1.png",
       "dependencies": [
         "map-capital",
         "kit-wall-straight"
@@ -3883,9 +3883,9 @@
       "phase": 3,
       "region": "아르덴 왕도",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-capital-09-board-v1.png",
       "dependencies": [
         "map-capital",
         "kit-wall-straight"
@@ -3980,9 +3980,9 @@
       "phase": 3,
       "region": "남방 학술도시",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-academy-01-board-v1.png",
       "dependencies": [
         "map-academy",
         "kit-wall-straight"
@@ -3997,9 +3997,9 @@
       "phase": 3,
       "region": "남방 학술도시",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-academy-02-board-v1.png",
       "dependencies": [
         "map-academy",
         "kit-wall-straight"
@@ -4014,9 +4014,9 @@
       "phase": 3,
       "region": "남방 학술도시",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-academy-03-board-v1.png",
       "dependencies": [
         "map-academy",
         "kit-wall-straight"
@@ -4031,9 +4031,9 @@
       "phase": 3,
       "region": "남방 학술도시",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-academy-04-board-v1.png",
       "dependencies": [
         "map-academy",
         "kit-wall-straight"
@@ -4048,9 +4048,9 @@
       "phase": 3,
       "region": "남방 학술도시",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-academy-05-board-v1.png",
       "dependencies": [
         "map-academy",
         "kit-wall-straight"
@@ -4065,9 +4065,9 @@
       "phase": 3,
       "region": "남방 학술도시",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-academy-06-board-v1.png",
       "dependencies": [
         "map-academy",
         "kit-wall-straight"
@@ -4082,9 +4082,9 @@
       "phase": 3,
       "region": "남방 학술도시",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-academy-07-board-v1.png",
       "dependencies": [
         "map-academy",
         "kit-wall-straight"
@@ -4179,9 +4179,9 @@
       "phase": 3,
       "region": "남방 항구",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-south-port-01-board-v1.png",
       "dependencies": [
         "map-south-port",
         "kit-wall-straight"
@@ -4196,9 +4196,9 @@
       "phase": 3,
       "region": "남방 항구",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-south-port-02-board-v1.png",
       "dependencies": [
         "map-south-port",
         "kit-wall-straight"
@@ -4213,9 +4213,9 @@
       "phase": 3,
       "region": "남방 항구",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-south-port-03-board-v1.png",
       "dependencies": [
         "map-south-port",
         "kit-wall-straight"
@@ -4230,9 +4230,9 @@
       "phase": 3,
       "region": "남방 항구",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-south-port-04-board-v1.png",
       "dependencies": [
         "map-south-port",
         "kit-wall-straight"
@@ -4247,9 +4247,9 @@
       "phase": 3,
       "region": "남방 항구",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-south-port-05-board-v1.png",
       "dependencies": [
         "map-south-port",
         "kit-wall-straight"
@@ -4264,9 +4264,9 @@
       "phase": 3,
       "region": "남방 항구",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-south-port-06-board-v1.png",
       "dependencies": [
         "map-south-port",
         "kit-wall-straight"
@@ -4281,9 +4281,9 @@
       "phase": 3,
       "region": "남방 항구",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-south-port-07-board-v1.png",
       "dependencies": [
         "map-south-port",
         "kit-wall-straight"
@@ -4378,9 +4378,9 @@
       "phase": 3,
       "region": "북방 시설",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-north-01-board-v1.png",
       "dependencies": [
         "map-north",
         "kit-wall-straight"
@@ -4395,9 +4395,9 @@
       "phase": 3,
       "region": "북방 시설",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-north-02-board-v1.png",
       "dependencies": [
         "map-north",
         "kit-wall-straight"
@@ -4412,9 +4412,9 @@
       "phase": 3,
       "region": "북방 시설",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-north-03-board-v1.png",
       "dependencies": [
         "map-north",
         "kit-wall-straight"
@@ -4429,9 +4429,9 @@
       "phase": 3,
       "region": "북방 시설",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-north-04-board-v1.png",
       "dependencies": [
         "map-north",
         "kit-wall-straight"
@@ -4446,9 +4446,9 @@
       "phase": 3,
       "region": "북방 시설",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-north-05-board-v1.png",
       "dependencies": [
         "map-north",
         "kit-wall-straight"
@@ -4543,9 +4543,9 @@
       "phase": 3,
       "region": "해양국 항만 도시",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-sea-01-board-v1.png",
       "dependencies": [
         "map-sea",
         "kit-wall-straight"
@@ -4560,9 +4560,9 @@
       "phase": 3,
       "region": "해양국 항만 도시",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-sea-02-board-v1.png",
       "dependencies": [
         "map-sea",
         "kit-wall-straight"
@@ -4577,9 +4577,9 @@
       "phase": 3,
       "region": "해양국 항만 도시",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-sea-03-board-v1.png",
       "dependencies": [
         "map-sea",
         "kit-wall-straight"
@@ -4594,9 +4594,9 @@
       "phase": 3,
       "region": "해양국 항만 도시",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-sea-04-board-v1.png",
       "dependencies": [
         "map-sea",
         "kit-wall-straight"
@@ -4611,9 +4611,9 @@
       "phase": 3,
       "region": "해양국 항만 도시",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-sea-05-board-v1.png",
       "dependencies": [
         "map-sea",
         "kit-wall-straight"
@@ -4628,9 +4628,9 @@
       "phase": 3,
       "region": "해양국 항만 도시",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-sea-06-board-v1.png",
       "dependencies": [
         "map-sea",
         "kit-wall-straight"
@@ -4725,9 +4725,9 @@
       "phase": 3,
       "region": "교단 성역",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-sanctuary-01-board-v1.png",
       "dependencies": [
         "map-sanctuary",
         "kit-wall-straight"
@@ -4742,9 +4742,9 @@
       "phase": 3,
       "region": "교단 성역",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-sanctuary-02-board-v1.png",
       "dependencies": [
         "map-sanctuary",
         "kit-wall-straight"
@@ -4759,9 +4759,9 @@
       "phase": 3,
       "region": "교단 성역",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-sanctuary-03-board-v1.png",
       "dependencies": [
         "map-sanctuary",
         "kit-wall-straight"
@@ -4776,9 +4776,9 @@
       "phase": 3,
       "region": "교단 성역",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-sanctuary-04-board-v1.png",
       "dependencies": [
         "map-sanctuary",
         "kit-wall-straight"
@@ -4793,9 +4793,9 @@
       "phase": 3,
       "region": "교단 성역",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-sanctuary-05-board-v1.png",
       "dependencies": [
         "map-sanctuary",
         "kit-wall-straight"
@@ -4810,9 +4810,9 @@
       "phase": 3,
       "region": "교단 성역",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-sanctuary-06-board-v1.png",
       "dependencies": [
         "map-sanctuary",
         "kit-wall-straight"
@@ -4907,9 +4907,9 @@
       "phase": 3,
       "region": "고대 중추",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-core-01-board-v1.png",
       "dependencies": [
         "map-core",
         "kit-wall-straight"
@@ -4924,9 +4924,9 @@
       "phase": 3,
       "region": "고대 중추",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-core-02-board-v1.png",
       "dependencies": [
         "map-core",
         "kit-wall-straight"
@@ -4941,9 +4941,9 @@
       "phase": 3,
       "region": "고대 중추",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-core-03-board-v1.png",
       "dependencies": [
         "map-core",
         "kit-wall-straight"
@@ -4958,9 +4958,9 @@
       "phase": 3,
       "region": "고대 중추",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-core-04-board-v1.png",
       "dependencies": [
         "map-core",
         "kit-wall-straight"
@@ -4975,9 +4975,9 @@
       "phase": 3,
       "region": "고대 중추",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-core-05-board-v1.png",
       "dependencies": [
         "map-core",
         "kit-wall-straight"
@@ -5072,9 +5072,9 @@
       "phase": 3,
       "region": "레온의 고향",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-leon-home-01-board-v1.png",
       "dependencies": [
         "map-leon-home",
         "kit-wall-straight"
@@ -5089,9 +5089,9 @@
       "phase": 3,
       "region": "레온의 고향",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-leon-home-02-board-v1.png",
       "dependencies": [
         "map-leon-home",
         "kit-wall-straight"
@@ -5106,9 +5106,9 @@
       "phase": 3,
       "region": "레온의 고향",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/building-leon-home-03-board-v1.png",
       "dependencies": [
         "map-leon-home",
         "kit-wall-straight"

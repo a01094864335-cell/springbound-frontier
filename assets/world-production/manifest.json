@@ -1,7 +1,7 @@
 {
   "date": "2026-11-02",
-  "count": 23,
-  "scope": "12 construction module boards + 11 proposed location layouts; not runtime production assets",
+  "count": 87,
+  "scope": "12 construction modules + 11 proposed location layouts + 64 individual building/facility design boards; not runtime production assets",
   "boards": [
     {
       "id": "kit-wall-straight",
@@ -376,6 +376,1175 @@
       "review_notes": [
         "개별 외형·주요 뷰·연결/배치 예시 시각 확인. 실제 모델·타일·맵 데이터 아님.",
         "그림 속 번호·출입구·상호·스케일·화살표는 생성 시안이며 자동으로 내비게이션·퀘스트·지리 확정 데이터로 가져오지 않음. 일부 곡선/대각선 길은 화면 상하좌우 이동 기준으로 정합화 필요."
+      ]
+    },
+    {
+      "id": "building-frost-01",
+      "name": "서리골 약초사 집",
+      "region": "서리골",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 서리골 약초사 집, small ID building-frost-01. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: small winter mountain village, cream plaster and dark brown timber over grey rubble stone plinth, simple dark slate-blue pitched roofs, modest patches of snow, low one or two floors. Exact function: modest herbalist home with herb drying porch, a single modest leaf sign, small chimney, one front door, one window planter, not a shop full of clutter. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-frost-01-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6439043def78047b5c7833ec17b0e46d8159f4493cfb257b6bbeea84b63f3216",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음.",
+        "기존 서리골 환경 장면 보완용 시안. 기존 마을 배치와 집 구조를 자동 교체하지 않음."
+      ]
+    },
+    {
+      "id": "building-frost-02",
+      "name": "서리골 일반 주택",
+      "region": "서리골",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 서리골 일반 주택, small ID building-frost-02. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: small winter mountain village, cream plaster and dark brown timber over grey rubble stone plinth, simple dark slate-blue pitched roofs, modest patches of snow, low one or two floors. Exact function: small ordinary family dwelling with one entrance, two windows, short covered porch, no commercial sign. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-frost-02-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e1553f0c04231d5aeb4506ffb01b3b7f81403d5a604a2c575c039137efc54526",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음.",
+        "기존 서리골 환경 장면 보완용 시안. 기존 마을 배치와 집 구조를 자동 교체하지 않음."
+      ]
+    },
+    {
+      "id": "building-frost-03",
+      "name": "서리골 마을 상점",
+      "region": "서리골",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 서리골 마을 상점, small ID building-frost-03. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: small winter mountain village, cream plaster and dark brown timber over grey rubble stone plinth, simple dark slate-blue pitched roofs, modest patches of snow, low one or two floors. Exact function: small general store with covered trading window and modest empty hanging sign, one entrance, a couple crates under eave. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-frost-03-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "ae6b232ee8d9d958c5626d9bb7f92cae799462acf15addbb3e71b194a8517a1f",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음.",
+        "기존 서리골 환경 장면 보완용 시안. 기존 마을 배치와 집 구조를 자동 교체하지 않음."
+      ]
+    },
+    {
+      "id": "building-frost-04",
+      "name": "서리골 공용 창고",
+      "region": "서리골",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 서리골 공용 창고, small ID building-frost-04. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: small winter mountain village, cream plaster and dark brown timber over grey rubble stone plinth, simple dark slate-blue pitched roofs, modest patches of snow, low one or two floors. Exact function: low broad shared storehouse, double plank cargo doors, few high ventilation windows, stone base. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-frost-04-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "0dc681bd07931218f74bc7d7c9ca3c80624605b9e8e15bde2aaaadd83216ff35",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음.",
+        "기존 서리골 환경 장면 보완용 시안. 기존 마을 배치와 집 구조를 자동 교체하지 않음."
+      ]
+    },
+    {
+      "id": "building-frost-05",
+      "name": "서리골 마을 입구",
+      "region": "서리골",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 서리골 마을 입구, small ID building-frost-05. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: small winter mountain village, cream plaster and dark brown timber over grey rubble stone plinth, simple dark slate-blue pitched roofs, modest patches of snow, low one or two floors. Exact function: one short gateway boundary segment with open central passage and two simple fence returns, no surrounding village. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-frost-05-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "69aa05bc467fa67ceee7b401fc772ecfa4d5301238256d112dcd7d8eef660522",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음.",
+        "기존 서리골 환경 장면 보완용 시안. 기존 마을 배치와 집 구조를 자동 교체하지 않음."
+      ]
+    },
+    {
+      "id": "building-border-01",
+      "name": "돌샘·국경 연락소 여관",
+      "region": "돌샘·국경 연락소",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 돌샘·국경 연락소 여관, small ID building-border-01. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: practical winter border garrison, grey stone lower walls and dark timber upper walls, plain navy slate roof, small restrained navy flag, one or two floors. Exact function: welcoming two-floor inn with clearly visible main doorway, modest mug-and-bed pictogram sign, sheltered entry, readable row of upstairs guest windows. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-border-01-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7f14d51c458383e4a286ef1c5b1919baf0acc06bac1e0ca0a7ea345975dc7402",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-border-02",
+      "name": "돌샘·국경 연락소 보급 상점",
+      "region": "돌샘·국경 연락소",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 돌샘·국경 연락소 보급 상점, small ID building-border-02. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: practical winter border garrison, grey stone lower walls and dark timber upper walls, plain navy slate roof, small restrained navy flag, one or two floors. Exact function: military supply shop, low robust rectangular stone-timber building, wide shuttered service counter, small crate sign, one public door. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-border-02-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4f1f61ab2f6ea22ce5eae1501293eb9c39ee379c6507dadff4dfbfae209d8bfe",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-border-03",
+      "name": "돌샘·국경 연락소 진료소",
+      "region": "돌샘·국경 연락소",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 돌샘·국경 연락소 진료소, small ID building-border-03. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: practical winter border garrison, grey stone lower walls and dark timber upper walls, plain navy slate roof, small restrained navy flag, one or two floors. Exact function: quiet single-floor treatment house, wide accessible front entry, light awning, original small green leaf emblem not a red cross, side window for ventilation. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-border-03-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c2e8ce5ceacd863fe35859a7aa7706b8821df7fe56435c67d06e394095a4b99a",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음.",
+        "접근성 기준은 모델에서 별도 확인. 시안의 정문 계단이 무장애 이동 경로를 보장하지 않음."
+      ]
+    },
+    {
+      "id": "building-border-04",
+      "name": "돌샘·국경 연락소 연락소",
+      "region": "돌샘·국경 연락소",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 돌샘·국경 연락소 연락소, small ID building-border-04. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: practical winter border garrison, grey stone lower walls and dark timber upper walls, plain navy slate roof, small restrained navy flag, one or two floors. Exact function: modest official message office, protected front desk window and main door, short restrained signal mast, geometric navy pennant, no telephone wires or radar. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-border-04-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "440c18d77b2e9f405ed3969f0312f23ecf55026db983269728adc4c02afc7d1f",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-border-05",
+      "name": "돌샘·국경 연락소 초소",
+      "region": "돌샘·국경 연락소",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 돌샘·국경 연락소 초소, small ID building-border-05. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: practical winter border garrison, grey stone lower walls and dark timber upper walls, plain navy slate roof, small restrained navy flag, one or two floors. Exact function: single elevated compact guard post with short stairs and open sight windows, small roof and plain railing. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-border-05-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "524fc18846bee2bf432b707c57998edb414e3b2eff4ebf6cfa27605a22a0f66f",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-border-06",
+      "name": "돌샘·국경 연락소 훈련장",
+      "region": "돌샘·국경 연락소",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 돌샘·국경 연락소 훈련장, small ID building-border-06. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: practical winter border garrison, grey stone lower walls and dark timber upper walls, plain navy slate roof, small restrained navy flag, one or two floors. Exact function: single open rectangular fenced training yard with ONE plain equipment shelter, two wooden practice dummies, simple target rack, large clear central training space; not barracks building. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-border-06-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "3bb8d46c871120cac3e839104c912640b11f93fa691501c5ca39ee636a0537a4",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-refugee-01",
+      "name": "피난 교량 교량",
+      "region": "피난 교량",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 피난 교량 교량, small ID building-refugee-01. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: temporary wartime crossing infrastructure, rough untreated timber, plain cream canvas and grey stone, restrained practical improvised construction, no red cross symbols use original small green leaf emblem. Exact function: one long broad straight stone-and-timber bridge segment with two clear ends, simple low side rails, no water landscape, support arches visible from side, width permits small group to pass. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-refugee-01-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "489782c261084aea80bfe1edd2285c4979e7f214765890ace06cbfc48be82e8f",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-refugee-02",
+      "name": "피난 교량 검문소",
+      "region": "피난 교량",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 피난 교량 검문소, small ID building-refugee-02. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: temporary wartime crossing infrastructure, rough untreated timber, plain cream canvas and grey stone, restrained practical improvised construction, no red cross symbols use original small green leaf emblem. Exact function: two small timber guard shelters flanking one wide open passage with liftable timber barrier, one low fence return, no whole fort. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-refugee-02-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c65fe6db9b03848b892068ed21dab2c14e620f7ded39179fada9e2b6d96b22ec",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-refugee-03",
+      "name": "피난 교량 구호소",
+      "region": "피난 교량",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 피난 교량 구호소, small ID building-refugee-03. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: temporary wartime crossing infrastructure, rough untreated timber, plain cream canvas and grey stone, restrained practical improvised construction, no red cross symbols use original small green leaf emblem. Exact function: one broad cream-canvas triage shelter with open front, original green leaf emblem, a small clean cot silhouette inside, no people. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-refugee-03-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c277942cff74f9d823862a60682384044bea9053740af53a5906135f63a53c3f",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-refugee-04",
+      "name": "피난 교량 천막",
+      "region": "피난 교량",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 피난 교량 천막, small ID building-refugee-04. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: temporary wartime crossing infrastructure, rough untreated timber, plain cream canvas and grey stone, restrained practical improvised construction, no red cross symbols use original small green leaf emblem. Exact function: single plain low cream canvas pitched shelter with timber poles, guy ropes and open front flap, no camp scene. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-refugee-04-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e46c46e5ae5cc445cff34a321a523a843d8c7d7b8302e0fbe2d9cab15593ec88",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-refugee-05",
+      "name": "피난 교량 보급소",
+      "region": "피난 교량",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 피난 교량 보급소, small ID building-refugee-05. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: temporary wartime crossing infrastructure, rough untreated timber, plain cream canvas and grey stone, restrained practical improvised construction, no red cross symbols use original small green leaf emblem. Exact function: one open-sided rectangular timber supply shelter with canvas cover and a modest tidy stack of supply boxes, clear loading opening. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-refugee-05-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d7eceb7ffc0a0601d2d688b5f85fc3420a15ba767945aeb17bdc5f50e5650e97",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-capital-01",
+      "name": "아르덴 왕도 성문",
+      "region": "아르덴 왕도",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 아르덴 왕도 성문, small ID building-capital-01. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: orderly royal city, pale grey dressed stone walls, restrained navy-blue roofs, simple bronze geometric trim, two to three floors for civic buildings, no excessive gold. Exact function: one pale stone city gatehouse with two restrained square side towers and one large open rectangular arched passage, no entire city. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-capital-01-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7c981e207238aec2ae203773b933e4946b2d4495e3ea6fb9aac960891704146d",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-capital-02",
+      "name": "아르덴 왕도 성벽",
+      "region": "아르덴 왕도",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 아르덴 왕도 성벽, small ID building-capital-02. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: orderly royal city, pale grey dressed stone walls, restrained navy-blue roofs, simple bronze geometric trim, two to three floors for civic buildings, no excessive gold. Exact function: one repeatable straight pale stone city wall section, simple crenellations and upper walkway, no gate, no surrounding city. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-capital-02-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "05e1f32487df3e0fe7358ca637f38f136919535af38dce3b6f8e3c2de8642b5b",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음.",
+        "시안에는 양끝 탑이 포함됨. 반복 성벽과 탑을 모델 제작 시 분리."
+      ]
+    },
+    {
+      "id": "building-capital-03",
+      "name": "아르덴 왕도 주택",
+      "region": "아르덴 왕도",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 아르덴 왕도 주택, small ID building-capital-03. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: orderly royal city, pale grey dressed stone walls, restrained navy-blue roofs, simple bronze geometric trim, two to three floors for civic buildings, no excessive gold. Exact function: ordinary compact residential house, one entrance and modest windows, no shop sign, regional roof silhouette. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-capital-03-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "73b50bf3a0bfe4949d1dc2649eed4b67cfead6dfed8a451bf0702995d158db66",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-capital-04",
+      "name": "아르덴 왕도 무기 상점",
+      "region": "아르덴 왕도",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 아르덴 왕도 무기 상점, small ID building-capital-04. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: orderly royal city, pale grey dressed stone walls, restrained navy-blue roofs, simple bronze geometric trim, two to three floors for civic buildings, no excessive gold. Exact function: weaponsmith storefront with modest crossed-sword pictogram sign, protected front window, small attached forge chimney, no giant outdoor weapon piles. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-capital-04-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "3076b47890d6a44ca62b88ecad098e21ecf222506803f932826c2c9113223e9b",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-capital-05",
+      "name": "아르덴 왕도 방어구 상점",
+      "region": "아르덴 왕도",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 아르덴 왕도 방어구 상점, small ID building-capital-05. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: orderly royal city, pale grey dressed stone walls, restrained navy-blue roofs, simple bronze geometric trim, two to three floors for civic buildings, no excessive gold. Exact function: armor shop frontage with small shield pictogram sign, sturdy double-width entrance and broad display window, no mannequins or people. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-capital-05-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "a9df161fd44f9f8e4595b68d39ce12ed8499b54d17f7581902c7b6c74d1459f3",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-capital-06",
+      "name": "아르덴 왕도 여관",
+      "region": "아르덴 왕도",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 아르덴 왕도 여관, small ID building-capital-06. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: orderly royal city, pale grey dressed stone walls, restrained navy-blue roofs, simple bronze geometric trim, two to three floors for civic buildings, no excessive gold. Exact function: welcoming two-floor inn with clearly visible main doorway, modest mug-and-bed pictogram sign, sheltered entry, readable row of upstairs guest windows. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-capital-06-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7d98f239ef92adb9828fb108b21dbe53b3cf7fee6f2947f4fd4b71243d835fb1",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-capital-07",
+      "name": "아르덴 왕도 병영",
+      "region": "아르덴 왕도",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 아르덴 왕도 병영, small ID building-capital-07. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: orderly royal city, pale grey dressed stone walls, restrained navy-blue roofs, simple bronze geometric trim, two to three floors for civic buildings, no excessive gold. Exact function: long restrained rectangular barracks with rhythmic windows, one broad entry, small sheltered porch, no large courtyard. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-capital-07-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f7b452a4d042e497141181ce3352ec1a7537ce1ce63a11caed77d30167540508",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음.",
+        "장식·탑·창문 수를 실제 게임 배율에서 단순화 검토. 규모를 그림에서 확정하지 않음."
+      ]
+    },
+    {
+      "id": "building-capital-08",
+      "name": "아르덴 왕도 행정청",
+      "region": "아르덴 왕도",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 아르덴 왕도 행정청, small ID building-capital-08. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: orderly royal city, pale grey dressed stone walls, restrained navy-blue roofs, simple bronze geometric trim, two to three floors for civic buildings, no excessive gold. Exact function: formal civic administrative hall, central entry up short stairs, two symmetrical modest wings, geometric city seal above door, no palace spires. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-capital-08-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "033bff6bedc87f70e2ff39a085a7c0a6ff871347bbcda7eeac5ca57a1d90a002",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음.",
+        "장식·탑·창문 수를 실제 게임 배율에서 단순화 검토. 규모를 그림에서 확정하지 않음."
+      ]
+    },
+    {
+      "id": "building-capital-09",
+      "name": "아르덴 왕도 왕성 접견동",
+      "region": "아르덴 왕도",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 아르덴 왕도 왕성 접견동, small ID building-capital-09. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: orderly royal city, pale grey dressed stone walls, restrained navy-blue roofs, simple bronze geometric trim, two to three floors for civic buildings, no excessive gold. Exact function: royal reception wing only, broad central doorway and short steps, restrained symmetrical pale stone facade, moderate roof, no massive castle panorama. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-capital-09-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4cfcc6b7697332b00d726bc1fbc9a73236193c9390e778234fb931ecfa659b74",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음.",
+        "장식·탑·창문 수를 실제 게임 배율에서 단순화 검토. 규모를 그림에서 확정하지 않음."
+      ]
+    },
+    {
+      "id": "building-academy-01",
+      "name": "남방 학술도시 학술원",
+      "region": "남방 학술도시",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 남방 학술도시 학술원, small ID building-academy-01. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: warm academic town, pale sandstone with muted terracotta roofs, modest dark timber doors, restrained bronze geometric survey symbol, Mediterranean light. Exact function: academic main hall with compact central modest dome and two short side wings, clear columned entrance, simple survey instrument geometric sign, no palace grandeur. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-academy-01-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "68e942e20cde80f67fe6c6b5c751496197b906931229669ba750f38a703048e1",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-academy-02",
+      "name": "남방 학술도시 도서관",
+      "region": "남방 학술도시",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 남방 학술도시 도서관, small ID building-academy-02. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: warm academic town, pale sandstone with muted terracotta roofs, modest dark timber doors, restrained bronze geometric survey symbol, Mediterranean light. Exact function: library facade with tall evenly spaced windows and a simple book pictogram plaque, one sheltered main entry, not book-covered exterior. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-academy-02-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f9e75f61b7668ee47b465c893f9980a6c68b669afd9c0004f4c3aec24919c89c",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-academy-03",
+      "name": "남방 학술도시 연구실 동",
+      "region": "남방 학술도시",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 남방 학술도시 연구실 동, small ID building-academy-03. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: warm academic town, pale sandstone with muted terracotta roofs, modest dark timber doors, restrained bronze geometric survey symbol, Mediterranean light. Exact function: practical research wing with big workroom windows, small rooftop measurement vane, safe side service door, no smokestack factory. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-academy-03-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "60bd8b53ecf8b21fb93a6131b4fbc8b1720564123d740a282d7fc9313f9ac447",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-academy-04",
+      "name": "남방 학술도시 기숙사",
+      "region": "남방 학술도시",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 남방 학술도시 기숙사, small ID building-academy-04. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: warm academic town, pale sandstone with muted terracotta roofs, modest dark timber doors, restrained bronze geometric survey symbol, Mediterranean light. Exact function: long modest two-floor student residence, repeated small windows, central plain doorway and short side stair. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-academy-04-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "a330d3dea7b7aec7110b271ed86a7c23ee9892d8daf063ef80355e52970c1e72",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-academy-05",
+      "name": "남방 학술도시 유물 보관소",
+      "region": "남방 학술도시",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 남방 학술도시 유물 보관소, small ID building-academy-05. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: warm academic town, pale sandstone with muted terracotta roofs, modest dark timber doors, restrained bronze geometric survey symbol, Mediterranean light. Exact function: secure low archive storehouse with few high windows, reinforced double doors and simple geometric seal, no glowing artifacts outside. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-academy-05-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "63b5fcfea65ceefe2d28a6b8cb927c756a201a243e2783ec5b4cc00a96efe9d8",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-academy-06",
+      "name": "남방 학술도시 주택",
+      "region": "남방 학술도시",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 남방 학술도시 주택, small ID building-academy-06. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: warm academic town, pale sandstone with muted terracotta roofs, modest dark timber doors, restrained bronze geometric survey symbol, Mediterranean light. Exact function: ordinary compact residential house, one entrance and modest windows, no shop sign, regional roof silhouette. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-academy-06-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "445d51a39eccda9c2af1057b1c55a13203244533a68be5b2d15e0d184eed50a4",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음.",
+        "일반 주택에 학술 문장이 표현됨. 일반 주거용 모델은 문장 생략 검토."
+      ]
+    },
+    {
+      "id": "building-academy-07",
+      "name": "남방 학술도시 여관",
+      "region": "남방 학술도시",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 남방 학술도시 여관, small ID building-academy-07. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: warm academic town, pale sandstone with muted terracotta roofs, modest dark timber doors, restrained bronze geometric survey symbol, Mediterranean light. Exact function: welcoming two-floor inn with clearly visible main doorway, modest mug-and-bed pictogram sign, sheltered entry, readable row of upstairs guest windows. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-academy-07-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "489b40daf1738ae76961e90301a1271c54e47d70a95fd451f6152df2e1abe18a",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-south-port-01",
+      "name": "남방 항구 부두",
+      "region": "남방 항구",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 남방 항구 부두, small ID building-south-port-01. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: working southern port, weathered brown timber and pale stone, muted terracotta or worn navy roof, ropes and salt wear sparingly, no pirate skulls. Exact function: one standalone timber or stone passenger pier with shore connection at one end, widened boarding head at other end, plain posts, ladder and one mooring rope; no ships no city. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-south-port-01-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "0b88a460a1d760d4f040f61eb6b7363d1baee05cbb92af4077d76e07c0b71ee1",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-south-port-02",
+      "name": "남방 항구 시장 점포",
+      "region": "남방 항구",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 남방 항구 시장 점포, small ID building-south-port-02. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: working southern port, weathered brown timber and pale stone, muted terracotta or worn navy roof, ropes and salt wear sparingly, no pirate skulls. Exact function: one small open-front market stall with striped muted cloth awning, simple counter and side shutter, no surrounding market. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-south-port-02-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "064f3ea5a3c8a1e178e6a6a7e8e8848b921d740099868a8a87e051e6b28a49b1",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-south-port-03",
+      "name": "남방 항구 선술집",
+      "region": "남방 항구",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 남방 항구 선술집, small ID building-south-port-03. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: working southern port, weathered brown timber and pale stone, muted terracotta or worn navy roof, ropes and salt wear sparingly, no pirate skulls. Exact function: warm port tavern building, low wide ground floor, modest mug pictogram hanging sign, covered front bench, small upstairs loft. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-south-port-03-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c05da198ed4589bac374f7b705ee8491dbf7cd915e44a727d6b6be835a014cf6",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-south-port-04",
+      "name": "남방 항구 여관",
+      "region": "남방 항구",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 남방 항구 여관, small ID building-south-port-04. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: working southern port, weathered brown timber and pale stone, muted terracotta or worn navy roof, ropes and salt wear sparingly, no pirate skulls. Exact function: welcoming two-floor inn with clearly visible main doorway, modest mug-and-bed pictogram sign, sheltered entry, readable row of upstairs guest windows. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-south-port-04-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "1b881a99e452872545ec836ebfbfe1e504663b1b355c102825d8f066c1cd2abe",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-south-port-05",
+      "name": "남방 항구 화물 창고",
+      "region": "남방 항구",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 남방 항구 화물 창고, small ID building-south-port-05. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: working southern port, weathered brown timber and pale stone, muted terracotta or worn navy roof, ropes and salt wear sparingly, no pirate skulls. Exact function: broad low waterfront cargo warehouse, large loading doors and beam hoist above, a few high ventilation windows, no ship. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-south-port-05-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "07f28e610fb6fae0f95878827b9c370765f01b2b43ad15c578878d9380942e92",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-south-port-06",
+      "name": "남방 항구 조선 작업장",
+      "region": "남방 항구",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 남방 항구 조선 작업장, small ID building-south-port-06. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: working southern port, weathered brown timber and pale stone, muted terracotta or worn navy roof, ropes and salt wear sparingly, no pirate skulls. Exact function: one open timber boatbuilding shed with partial small wooden hull under roof and simple rack, clear work aisle, no workers or surrounding port. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-south-port-06-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "573b081ecb3cbb55af8811320abe281d72a89e35165ae31da2c6747e4efdd21c",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-south-port-07",
+      "name": "남방 항구 주택",
+      "region": "남방 항구",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 남방 항구 주택, small ID building-south-port-07. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: working southern port, weathered brown timber and pale stone, muted terracotta or worn navy roof, ropes and salt wear sparingly, no pirate skulls. Exact function: ordinary compact residential house, one entrance and modest windows, no shop sign, regional roof silhouette. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-south-port-07-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "914ab5dc310a3e2a14befa88178369a7bedcab0f789edf8a326ad68426fcff0d",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-north-01",
+      "name": "북방 시설 외곽 기지",
+      "region": "북방 시설",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 북방 시설 외곽 기지, small ID building-north-01. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: snowbound ancient stone and aged bronze installation, massive restrained geometric rectangular forms, small recessed muted teal core lights, no modern sci-fi panels. Exact function: one low rectangular stone shelter integrated with ancient bronze reinforcing ribs, protected entrance, a small weather observation mast, snow on roof. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-north-01-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "14c228e86d3c505b01637af336eeebcb1bee514efcdec734e217d87363ff7641",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-north-02",
+      "name": "북방 시설 관측동",
+      "region": "북방 시설",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 북방 시설 관측동, small ID building-north-02. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: snowbound ancient stone and aged bronze installation, massive restrained geometric rectangular forms, small recessed muted teal core lights, no modern sci-fi panels. Exact function: one compact ancient stone observation building, modest squat roof turret with narrow observation opening, small exterior geometric measurement ring, no telescope modern dish. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-north-02-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "78fccea778a12eee73bb22ae4174410003708755c3507f46e444d5ab1a067e6b",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-north-03",
+      "name": "북방 시설 동력실",
+      "region": "북방 시설",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 북방 시설 동력실, small ID building-north-03. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: snowbound ancient stone and aged bronze installation, massive restrained geometric rectangular forms, small recessed muted teal core lights, no modern sci-fi panels. Exact function: single roofless ancient stone power chamber cutaway, one recessed central small teal core within aged bronze supports, wall conduit channels, plain entry. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-north-03-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "1f1b4410831b3de227c7362dce6f2ec88bda717381973c6b396099846b1fc437",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음.",
+        "유사한 공명 핵 구조가 반복됨. 동력·분기·제어 기능은 장치 배치와 실루엣으로 후속 구분 검토."
+      ]
+    },
+    {
+      "id": "building-north-04",
+      "name": "북방 시설 통제동",
+      "region": "북방 시설",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 북방 시설 통제동, small ID building-north-04. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: snowbound ancient stone and aged bronze installation, massive restrained geometric rectangular forms, small recessed muted teal core lights, no modern sci-fi panels. Exact function: one low ancient stone control building with protected doorway and two short side buttresses, small teal inset marker, no screens. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-north-04-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "903aa79d3053d5a3a2d454c3800dc6bece7abe64c3f0c3576c0db8bf44031cad",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음.",
+        "유사한 공명 핵 구조가 반복됨. 동력·분기·제어 기능은 장치 배치와 실루엣으로 후속 구분 검토."
+      ]
+    },
+    {
+      "id": "building-north-05",
+      "name": "북방 시설 시설 입구",
+      "region": "북방 시설",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 북방 시설 시설 입구, small ID building-north-05. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: snowbound ancient stone and aged bronze installation, massive restrained geometric rectangular forms, small recessed muted teal core lights, no modern sci-fi panels. Exact function: one ancient stone portal facade built into low supporting wall, broad open doorway and worn bronze door panels to sides, snow at base, no entire mountain. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-north-05-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "dbea509bbd7ce482ae28d67a8fd38c23e08f978c18e630bca0662cdf474e33d1",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음.",
+        "핵과 조명은 최종 화면에서 더 절제할 수 있음. 문 열림/닫힘 상태는 별도 모델·동작 필요."
+      ]
+    },
+    {
+      "id": "building-sea-01",
+      "name": "해양국 항만 도시 부두",
+      "region": "해양국 항만 도시",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 해양국 항만 도시 부두, small ID building-sea-01. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: distinct maritime town, white limewashed stone, shallow muted sea-green roofs, dark weathered timber doors, modest bronze nautical geometric details, no pirate motifs. Exact function: one standalone timber or stone passenger pier with shore connection at one end, widened boarding head at other end, plain posts, ladder and one mooring rope; no ships no city. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-sea-01-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4a0b1a8a25fc5a9fcf51d9f8c4b912146ba93d41f30f69a6be219f36411eeb64",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-sea-02",
+      "name": "해양국 항만 도시 주택",
+      "region": "해양국 항만 도시",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 해양국 항만 도시 주택, small ID building-sea-02. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: distinct maritime town, white limewashed stone, shallow muted sea-green roofs, dark weathered timber doors, modest bronze nautical geometric details, no pirate motifs. Exact function: ordinary compact residential house, one entrance and modest windows, no shop sign, regional roof silhouette. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-sea-02-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e8476b61ad2ffcf30e6c628c7c445bc43e68aa8020cda9d5a5e9c0b4bace8e53",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-sea-03",
+      "name": "해양국 항만 도시 교역소",
+      "region": "해양국 항만 도시",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 해양국 항만 도시 교역소, small ID building-sea-03. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: distinct maritime town, white limewashed stone, shallow muted sea-green roofs, dark weathered timber doors, modest bronze nautical geometric details, no pirate motifs. Exact function: maritime trading hall with wide covered service arcade and central cargo entry, geometric bronze scale sign, white stone and sea-green roof. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-sea-03-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "3423f1d22da637688e229f7a1571ce706c50bcfa6f3c63b3055a9e0626b85d11",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-sea-04",
+      "name": "해양국 항만 도시 선원 회관",
+      "region": "해양국 항만 도시",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 해양국 항만 도시 선원 회관, small ID building-sea-04. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: distinct maritime town, white limewashed stone, shallow muted sea-green roofs, dark weathered timber doors, modest bronze nautical geometric details, no pirate motifs. Exact function: modest maritime meeting hall with sheltering porch and one small rope-ring pictogram plaque, sea-green roof, ordinary windows. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-sea-04-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "29ce7976484f2548997d72254e83a612a30e551341fd0ad0bdd5180c99d353cd",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-sea-05",
+      "name": "해양국 항만 도시 관측소",
+      "region": "해양국 항만 도시",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 해양국 항만 도시 관측소, small ID building-sea-05. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: distinct maritime town, white limewashed stone, shallow muted sea-green roofs, dark weathered timber doors, modest bronze nautical geometric details, no pirate motifs. Exact function: small coastal stone observation tower with sheltered upper viewing platform and attached low entry room, original simple compass ring, not lighthouse beacon. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-sea-05-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "5dce992e1920eb129c90715990a92cd3e26987247850618a584298fb5040bfa8",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-sea-06",
+      "name": "해양국 항만 도시 여관",
+      "region": "해양국 항만 도시",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 해양국 항만 도시 여관, small ID building-sea-06. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: distinct maritime town, white limewashed stone, shallow muted sea-green roofs, dark weathered timber doors, modest bronze nautical geometric details, no pirate motifs. Exact function: welcoming two-floor inn with clearly visible main doorway, modest mug-and-bed pictogram sign, sheltered entry, readable row of upstairs guest windows. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-sea-06-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "bf7d191fd655c0216ecc5187a9053fbf29eea57a39e6293f0654cc165482fd57",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-sanctuary-01",
+      "name": "교단 성역 성역 문",
+      "region": "교단 성역",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 교단 성역 성역 문, small ID building-sanctuary-01. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: quiet pale limestone sanctuary, restrained grey-blue shallow roofs, plain arches and cloister pillars, simple original leaf-and-ring geometric mark, no real-world religious symbols. Exact function: single pale stone sanctuary gateway, plain broad rounded arch and short wall returns, modest original leaf-ring mark, no cathedral. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-sanctuary-01-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "664785aae6ab32787377f152fd12f3c724fd42278a22eabc703c3c7efee4a16f",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-sanctuary-02",
+      "name": "교단 성역 숙소",
+      "region": "교단 성역",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 교단 성역 숙소, small ID building-sanctuary-02. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: quiet pale limestone sanctuary, restrained grey-blue shallow roofs, plain arches and cloister pillars, simple original leaf-and-ring geometric mark, no real-world religious symbols. Exact function: restrained pilgrim lodging with low plain roof, repeated simple windows and protected central entry, no luxury inn signs. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-sanctuary-02-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e0b01bcad38eacad5e285a05976d4f57b29972a39adff4f62dca3ad702be5f45",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-sanctuary-03",
+      "name": "교단 성역 진료소",
+      "region": "교단 성역",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 교단 성역 진료소, small ID building-sanctuary-03. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: quiet pale limestone sanctuary, restrained grey-blue shallow roofs, plain arches and cloister pillars, simple original leaf-and-ring geometric mark, no real-world religious symbols. Exact function: quiet single-floor treatment house, wide accessible front entry, light awning, original small green leaf emblem not a red cross, side window for ventilation. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-sanctuary-03-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "a39fa1bff3facf6b38cd3fe7e875524e80534b14ae4d3c5adad6c8d2de2afcab",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-sanctuary-04",
+      "name": "교단 성역 예배당",
+      "region": "교단 성역",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 교단 성역 예배당, small ID building-sanctuary-04. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: quiet pale limestone sanctuary, restrained grey-blue shallow roofs, plain arches and cloister pillars, simple original leaf-and-ring geometric mark, no real-world religious symbols. Exact function: small restrained sanctuary chapel, pale stone nave and a simple plain round window, broad entry, no crosses or real religious symbols, no giant cathedral spires. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-sanctuary-04-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d61c455f79ffbae7d5470bcd0b24af5e13e25df03c9a7339ad8860c0575b49bc",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-sanctuary-05",
+      "name": "교단 성역 회랑",
+      "region": "교단 성역",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 교단 성역 회랑, small ID building-sanctuary-05. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: quiet pale limestone sanctuary, restrained grey-blue shallow roofs, plain arches and cloister pillars, simple original leaf-and-ring geometric mark, no real-world religious symbols. Exact function: one L-shaped open cloister corridor segment with plain pale stone columns and low roof, courtyard side open, no entire monastery. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-sanctuary-05-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "5d9467ad4ce906c167226322f211e7593c193cebf09e83bcbb3932f7853130f2",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-sanctuary-06",
+      "name": "교단 성역 기록실",
+      "region": "교단 성역",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 교단 성역 기록실, small ID building-sanctuary-06. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: quiet pale limestone sanctuary, restrained grey-blue shallow roofs, plain arches and cloister pillars, simple original leaf-and-ring geometric mark, no real-world religious symbols. Exact function: quiet archive room wing, secure plain doorway, narrow high windows and small book-ring plaque, no exterior piles of books. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-sanctuary-06-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "a4f645d63aa5c1d2fd424abf05733f35837eedb954ff68b8e9ea73cebfc0a5cc",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-core-01",
+      "name": "고대 중추 진입문",
+      "region": "고대 중추",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 고대 중추 진입문, small ID building-core-01. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: ancient cavern stone and worn bronze architecture, broad rectangular panels with few shallow geometric grooves, very small restrained teal cores, no neon or high tech screens. Exact function: single massive ancient portal with plain stone piers and worn bronze inset, one small recessed teal core above opening, few shallow grooves. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-core-01-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "650f26aebf804ae185ebf655bf46b4ce0d46af6778dc8d40a122f45d20558ceb",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-core-02",
+      "name": "고대 중추 연결 회랑",
+      "region": "고대 중추",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 고대 중추 연결 회랑, small ID building-core-02. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: ancient cavern stone and worn bronze architecture, broad rectangular panels with few shallow geometric grooves, very small restrained teal cores, no neon or high tech screens. Exact function: single straight ancient corridor segment roofless cutaway with raised side walls and worn bronze floor channels, both ends open, no entire dungeon. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-core-02-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "ceb70cc195fad31a4cade663ca7dd25c1397bd930d34d625f1598150bdacf589",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-core-03",
+      "name": "고대 중추 분기실",
+      "region": "고대 중추",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 고대 중추 분기실, small ID building-core-03. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: ancient cavern stone and worn bronze architecture, broad rectangular panels with few shallow geometric grooves, very small restrained teal cores, no neon or high tech screens. Exact function: single square ancient junction chamber roofless cutaway, four cardinal openings and central low plain marker platform, ample movement space. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-core-03-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "06699dca79a9f637bb28115607f4b2dee71db166638ebcfaa28a6326b47aa6a8",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음.",
+        "유사한 공명 핵 구조가 반복됨. 동력·분기·제어 기능은 장치 배치와 실루엣으로 후속 구분 검토."
+      ]
+    },
+    {
+      "id": "building-core-04",
+      "name": "고대 중추 제어실",
+      "region": "고대 중추",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 고대 중추 제어실, small ID building-core-04. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: ancient cavern stone and worn bronze architecture, broad rectangular panels with few shallow geometric grooves, very small restrained teal cores, no neon or high tech screens. Exact function: single ancient control room roofless cutaway, one low bronze-stone control lectern against north wall, narrow conduits and one small teal node, no modern screens. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-core-04-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4bdb6e7e73c68ed5b51abf9fb847db977047bcedcb7e9554f2604f8e48cb1525",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음.",
+        "유사한 공명 핵 구조가 반복됨. 동력·분기·제어 기능은 장치 배치와 실루엣으로 후속 구분 검토."
+      ]
+    },
+    {
+      "id": "building-core-05",
+      "name": "고대 중추 중심 구조물",
+      "region": "고대 중추",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 고대 중추 중심 구조물, small ID building-core-05. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: ancient cavern stone and worn bronze architecture, broad rectangular panels with few shallow geometric grooves, very small restrained teal cores, no neon or high tech screens. Exact function: single ancient core housing with three broad stone-bronze supporting ribs around one restrained teal core and low circular base, no dungeon landscape. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-core-05-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "371004d4aefde923462ba53db6680065cb742be611d5ffee44d09a1ef17c2b77",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음.",
+        "핵과 조명은 최종 화면에서 더 절제할 수 있음. 문 열림/닫힘 상태는 별도 모델·동작 필요."
+      ]
+    },
+    {
+      "id": "building-leon-home-01",
+      "name": "레온의 고향 마을 입구",
+      "region": "레온의 고향",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 레온의 고향 마을 입구, small ID building-leon-home-01. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: peaceful small rural settlement, low cream plaster and dark timber, simple worn slate or terracotta roof, modest planted flowers, no fortress. Exact function: one short gateway boundary segment with open central passage and two simple fence returns, no surrounding village. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-leon-home-01-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c372f7d16c570f9c466ab384014466c88543d7337b2a528d1135c7af6eb35167",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-leon-home-02",
+      "name": "레온의 고향 레온의 옛집",
+      "region": "레온의 고향",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 레온의 고향 레온의 옛집, small ID building-leon-home-02. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: peaceful small rural settlement, low cream plaster and dark timber, simple worn slate or terracotta roof, modest planted flowers, no fortress. Exact function: modest old rural family house, plain slate roof and cream plaster timber walls, small front garden edge and worn wooden door, no military banners. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-leon-home-02-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "a44af700bc96e21b31a75f3a8211427dfceec78a2f2a5a585660cc4912694d8a",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "building-leon-home-03",
+      "name": "레온의 고향 기억의 장소",
+      "region": "레온의 고향",
+      "prompt": "Create ONE INDIVIDUAL BUILDING / FACILITY DESIGN BOARD for original classic fantasy JRPG Springbound Frontier. Title 레온의 고향 기억의 장소, small ID building-leon-home-03. Warm ivory background, thin charcoal-brown rules, restrained clean ink and cel shading matching game environment boards. Left 65 percent ONE complete three-quarter exterior concept of ONLY the named building/facility, all roof corners and foundations visible with generous margins. Right top FRONT elevation, middle SIDE elevation, bottom small simplified TOP FOOTPRINT showing doorway positions in one muted gold marker, no route or complex city map. Front and side show SAME architecture consistent with main image. No people, no NPCs, no monsters, no portraits, no unrelated buildings or street panorama. Practical readable broad simple silhouettes, avoid excessive ornament, flags, spikes, tiny clutter. Original fantasy architecture. Style: peaceful small rural settlement, low cream plaster and dark timber, simple worn slate or terracotta roof, modest planted flowers, no fortress. Exact function: one small memorial garden module, ONE broad quiet tree, plain stone ring planter and one bench, low short boundary wall, no readable epitaph no graveyard. If facility is an open yard, gate, pier, bridge, cloister or room rather than enclosed house show that exact facility, do not force a generic cottage. For indoor ancient rooms show roofless architectural cutaway of that single room with complete boundary, no entire dungeon. Small labels FRONT SIDE FOOTPRINT. No stats or lore paragraphs. Appearance/modeling reference, not a production mesh or game screenshot. Supplied map is palette and regional architecture reference only; create a NEW individual building board.",
+      "file": "building-leon-home-03-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "1a9016cd408ed3c59e59c93c59da70e2c3e9f7509b012bbdf8013aa643878e23",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
+        "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
+        "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
       ]
     }
   ]

@@ -293,120 +293,120 @@
 | 226 | map-sanctuary | 교단 성역 전체 배치도 | 맵 배치 | 2 | 외형 시안 제작 |
 | 227 | map-core | 고대 중추 전체 배치도 | 맵 배치 | 2 | 외형 시안 제작 |
 | 228 | map-leon-home | 레온의 고향 전체 배치도 | 맵 배치 | 2 | 외형 시안 제작 |
-| 229 | building-frost-01 | 서리골 약초사 집 | 건물·시설 | 3 | 대기 |
-| 230 | building-frost-02 | 서리골 일반 주택 | 건물·시설 | 3 | 대기 |
-| 231 | building-frost-03 | 서리골 마을 상점 | 건물·시설 | 3 | 대기 |
-| 232 | building-frost-04 | 서리골 공용 창고 | 건물·시설 | 3 | 대기 |
-| 233 | building-frost-05 | 서리골 마을 입구 | 건물·시설 | 3 | 대기 |
+| 229 | building-frost-01 | 서리골 약초사 집 | 건물·시설 | 3 | 외형 시안 제작 |
+| 230 | building-frost-02 | 서리골 일반 주택 | 건물·시설 | 3 | 외형 시안 제작 |
+| 231 | building-frost-03 | 서리골 마을 상점 | 건물·시설 | 3 | 외형 시안 제작 |
+| 232 | building-frost-04 | 서리골 공용 창고 | 건물·시설 | 3 | 외형 시안 제작 |
+| 233 | building-frost-05 | 서리골 마을 입구 | 건물·시설 | 3 | 외형 시안 제작 |
 | 234 | district-frost-1 | 서리골 광장 바닥 | 지역 환경 변형 | 3 | 대기 |
 | 235 | district-frost-2 | 서리골 주요 길 | 지역 환경 변형 | 3 | 대기 |
 | 236 | district-frost-3 | 서리골 지역 표지 | 지역 환경 변형 | 3 | 대기 |
 | 237 | district-frost-4 | 서리골 가로 조명 | 지역 환경 변형 | 3 | 대기 |
 | 238 | district-frost-5 | 서리골 경계 울타리 | 지역 환경 변형 | 3 | 대기 |
-| 239 | building-border-01 | 돌샘·국경 연락소 여관 | 건물·시설 | 3 | 대기 |
-| 240 | building-border-02 | 돌샘·국경 연락소 보급 상점 | 건물·시설 | 3 | 대기 |
-| 241 | building-border-03 | 돌샘·국경 연락소 진료소 | 건물·시설 | 3 | 대기 |
-| 242 | building-border-04 | 돌샘·국경 연락소 연락소 | 건물·시설 | 3 | 대기 |
-| 243 | building-border-05 | 돌샘·국경 연락소 초소 | 건물·시설 | 3 | 대기 |
-| 244 | building-border-06 | 돌샘·국경 연락소 훈련장 | 건물·시설 | 3 | 대기 |
+| 239 | building-border-01 | 돌샘·국경 연락소 여관 | 건물·시설 | 3 | 외형 시안 제작 |
+| 240 | building-border-02 | 돌샘·국경 연락소 보급 상점 | 건물·시설 | 3 | 외형 시안 제작 |
+| 241 | building-border-03 | 돌샘·국경 연락소 진료소 | 건물·시설 | 3 | 외형 시안 제작 |
+| 242 | building-border-04 | 돌샘·국경 연락소 연락소 | 건물·시설 | 3 | 외형 시안 제작 |
+| 243 | building-border-05 | 돌샘·국경 연락소 초소 | 건물·시설 | 3 | 외형 시안 제작 |
+| 244 | building-border-06 | 돌샘·국경 연락소 훈련장 | 건물·시설 | 3 | 외형 시안 제작 |
 | 245 | district-border-1 | 돌샘·국경 연락소 광장 바닥 | 지역 환경 변형 | 3 | 대기 |
 | 246 | district-border-2 | 돌샘·국경 연락소 주요 길 | 지역 환경 변형 | 3 | 대기 |
 | 247 | district-border-3 | 돌샘·국경 연락소 지역 표지 | 지역 환경 변형 | 3 | 대기 |
 | 248 | district-border-4 | 돌샘·국경 연락소 가로 조명 | 지역 환경 변형 | 3 | 대기 |
 | 249 | district-border-5 | 돌샘·국경 연락소 경계 울타리 | 지역 환경 변형 | 3 | 대기 |
-| 250 | building-refugee-01 | 피난 교량 교량 | 건물·시설 | 3 | 대기 |
-| 251 | building-refugee-02 | 피난 교량 검문소 | 건물·시설 | 3 | 대기 |
-| 252 | building-refugee-03 | 피난 교량 구호소 | 건물·시설 | 3 | 대기 |
-| 253 | building-refugee-04 | 피난 교량 천막 | 건물·시설 | 3 | 대기 |
-| 254 | building-refugee-05 | 피난 교량 보급소 | 건물·시설 | 3 | 대기 |
+| 250 | building-refugee-01 | 피난 교량 교량 | 건물·시설 | 3 | 외형 시안 제작 |
+| 251 | building-refugee-02 | 피난 교량 검문소 | 건물·시설 | 3 | 외형 시안 제작 |
+| 252 | building-refugee-03 | 피난 교량 구호소 | 건물·시설 | 3 | 외형 시안 제작 |
+| 253 | building-refugee-04 | 피난 교량 천막 | 건물·시설 | 3 | 외형 시안 제작 |
+| 254 | building-refugee-05 | 피난 교량 보급소 | 건물·시설 | 3 | 외형 시안 제작 |
 | 255 | district-refugee-1 | 피난 교량 광장 바닥 | 지역 환경 변형 | 3 | 대기 |
 | 256 | district-refugee-2 | 피난 교량 주요 길 | 지역 환경 변형 | 3 | 대기 |
 | 257 | district-refugee-3 | 피난 교량 지역 표지 | 지역 환경 변형 | 3 | 대기 |
 | 258 | district-refugee-4 | 피난 교량 가로 조명 | 지역 환경 변형 | 3 | 대기 |
 | 259 | district-refugee-5 | 피난 교량 경계 울타리 | 지역 환경 변형 | 3 | 대기 |
-| 260 | building-capital-01 | 아르덴 왕도 성문 | 건물·시설 | 3 | 대기 |
-| 261 | building-capital-02 | 아르덴 왕도 성벽 | 건물·시설 | 3 | 대기 |
-| 262 | building-capital-03 | 아르덴 왕도 주택 | 건물·시설 | 3 | 대기 |
-| 263 | building-capital-04 | 아르덴 왕도 무기 상점 | 건물·시설 | 3 | 대기 |
-| 264 | building-capital-05 | 아르덴 왕도 방어구 상점 | 건물·시설 | 3 | 대기 |
-| 265 | building-capital-06 | 아르덴 왕도 여관 | 건물·시설 | 3 | 대기 |
-| 266 | building-capital-07 | 아르덴 왕도 병영 | 건물·시설 | 3 | 대기 |
-| 267 | building-capital-08 | 아르덴 왕도 행정청 | 건물·시설 | 3 | 대기 |
-| 268 | building-capital-09 | 아르덴 왕도 왕성 접견동 | 건물·시설 | 3 | 대기 |
+| 260 | building-capital-01 | 아르덴 왕도 성문 | 건물·시설 | 3 | 외형 시안 제작 |
+| 261 | building-capital-02 | 아르덴 왕도 성벽 | 건물·시설 | 3 | 외형 시안 제작 |
+| 262 | building-capital-03 | 아르덴 왕도 주택 | 건물·시설 | 3 | 외형 시안 제작 |
+| 263 | building-capital-04 | 아르덴 왕도 무기 상점 | 건물·시설 | 3 | 외형 시안 제작 |
+| 264 | building-capital-05 | 아르덴 왕도 방어구 상점 | 건물·시설 | 3 | 외형 시안 제작 |
+| 265 | building-capital-06 | 아르덴 왕도 여관 | 건물·시설 | 3 | 외형 시안 제작 |
+| 266 | building-capital-07 | 아르덴 왕도 병영 | 건물·시설 | 3 | 외형 시안 제작 |
+| 267 | building-capital-08 | 아르덴 왕도 행정청 | 건물·시설 | 3 | 외형 시안 제작 |
+| 268 | building-capital-09 | 아르덴 왕도 왕성 접견동 | 건물·시설 | 3 | 외형 시안 제작 |
 | 269 | district-capital-1 | 아르덴 왕도 광장 바닥 | 지역 환경 변형 | 3 | 대기 |
 | 270 | district-capital-2 | 아르덴 왕도 주요 길 | 지역 환경 변형 | 3 | 대기 |
 | 271 | district-capital-3 | 아르덴 왕도 지역 표지 | 지역 환경 변형 | 3 | 대기 |
 | 272 | district-capital-4 | 아르덴 왕도 가로 조명 | 지역 환경 변형 | 3 | 대기 |
 | 273 | district-capital-5 | 아르덴 왕도 경계 울타리 | 지역 환경 변형 | 3 | 대기 |
-| 274 | building-academy-01 | 남방 학술도시 학술원 | 건물·시설 | 3 | 대기 |
-| 275 | building-academy-02 | 남방 학술도시 도서관 | 건물·시설 | 3 | 대기 |
-| 276 | building-academy-03 | 남방 학술도시 연구실 동 | 건물·시설 | 3 | 대기 |
-| 277 | building-academy-04 | 남방 학술도시 기숙사 | 건물·시설 | 3 | 대기 |
-| 278 | building-academy-05 | 남방 학술도시 유물 보관소 | 건물·시설 | 3 | 대기 |
-| 279 | building-academy-06 | 남방 학술도시 주택 | 건물·시설 | 3 | 대기 |
-| 280 | building-academy-07 | 남방 학술도시 여관 | 건물·시설 | 3 | 대기 |
+| 274 | building-academy-01 | 남방 학술도시 학술원 | 건물·시설 | 3 | 외형 시안 제작 |
+| 275 | building-academy-02 | 남방 학술도시 도서관 | 건물·시설 | 3 | 외형 시안 제작 |
+| 276 | building-academy-03 | 남방 학술도시 연구실 동 | 건물·시설 | 3 | 외형 시안 제작 |
+| 277 | building-academy-04 | 남방 학술도시 기숙사 | 건물·시설 | 3 | 외형 시안 제작 |
+| 278 | building-academy-05 | 남방 학술도시 유물 보관소 | 건물·시설 | 3 | 외형 시안 제작 |
+| 279 | building-academy-06 | 남방 학술도시 주택 | 건물·시설 | 3 | 외형 시안 제작 |
+| 280 | building-academy-07 | 남방 학술도시 여관 | 건물·시설 | 3 | 외형 시안 제작 |
 | 281 | district-academy-1 | 남방 학술도시 광장 바닥 | 지역 환경 변형 | 3 | 대기 |
 | 282 | district-academy-2 | 남방 학술도시 주요 길 | 지역 환경 변형 | 3 | 대기 |
 | 283 | district-academy-3 | 남방 학술도시 지역 표지 | 지역 환경 변형 | 3 | 대기 |
 | 284 | district-academy-4 | 남방 학술도시 가로 조명 | 지역 환경 변형 | 3 | 대기 |
 | 285 | district-academy-5 | 남방 학술도시 경계 울타리 | 지역 환경 변형 | 3 | 대기 |
-| 286 | building-south-port-01 | 남방 항구 부두 | 건물·시설 | 3 | 대기 |
-| 287 | building-south-port-02 | 남방 항구 시장 점포 | 건물·시설 | 3 | 대기 |
-| 288 | building-south-port-03 | 남방 항구 선술집 | 건물·시설 | 3 | 대기 |
-| 289 | building-south-port-04 | 남방 항구 여관 | 건물·시설 | 3 | 대기 |
-| 290 | building-south-port-05 | 남방 항구 화물 창고 | 건물·시설 | 3 | 대기 |
-| 291 | building-south-port-06 | 남방 항구 조선 작업장 | 건물·시설 | 3 | 대기 |
-| 292 | building-south-port-07 | 남방 항구 주택 | 건물·시설 | 3 | 대기 |
+| 286 | building-south-port-01 | 남방 항구 부두 | 건물·시설 | 3 | 외형 시안 제작 |
+| 287 | building-south-port-02 | 남방 항구 시장 점포 | 건물·시설 | 3 | 외형 시안 제작 |
+| 288 | building-south-port-03 | 남방 항구 선술집 | 건물·시설 | 3 | 외형 시안 제작 |
+| 289 | building-south-port-04 | 남방 항구 여관 | 건물·시설 | 3 | 외형 시안 제작 |
+| 290 | building-south-port-05 | 남방 항구 화물 창고 | 건물·시설 | 3 | 외형 시안 제작 |
+| 291 | building-south-port-06 | 남방 항구 조선 작업장 | 건물·시설 | 3 | 외형 시안 제작 |
+| 292 | building-south-port-07 | 남방 항구 주택 | 건물·시설 | 3 | 외형 시안 제작 |
 | 293 | district-south-port-1 | 남방 항구 광장 바닥 | 지역 환경 변형 | 3 | 대기 |
 | 294 | district-south-port-2 | 남방 항구 주요 길 | 지역 환경 변형 | 3 | 대기 |
 | 295 | district-south-port-3 | 남방 항구 지역 표지 | 지역 환경 변형 | 3 | 대기 |
 | 296 | district-south-port-4 | 남방 항구 가로 조명 | 지역 환경 변형 | 3 | 대기 |
 | 297 | district-south-port-5 | 남방 항구 경계 울타리 | 지역 환경 변형 | 3 | 대기 |
-| 298 | building-north-01 | 북방 시설 외곽 기지 | 건물·시설 | 3 | 대기 |
-| 299 | building-north-02 | 북방 시설 관측동 | 건물·시설 | 3 | 대기 |
-| 300 | building-north-03 | 북방 시설 동력실 | 건물·시설 | 3 | 대기 |
-| 301 | building-north-04 | 북방 시설 통제동 | 건물·시설 | 3 | 대기 |
-| 302 | building-north-05 | 북방 시설 시설 입구 | 건물·시설 | 3 | 대기 |
+| 298 | building-north-01 | 북방 시설 외곽 기지 | 건물·시설 | 3 | 외형 시안 제작 |
+| 299 | building-north-02 | 북방 시설 관측동 | 건물·시설 | 3 | 외형 시안 제작 |
+| 300 | building-north-03 | 북방 시설 동력실 | 건물·시설 | 3 | 외형 시안 제작 |
+| 301 | building-north-04 | 북방 시설 통제동 | 건물·시설 | 3 | 외형 시안 제작 |
+| 302 | building-north-05 | 북방 시설 시설 입구 | 건물·시설 | 3 | 외형 시안 제작 |
 | 303 | district-north-1 | 북방 시설 광장 바닥 | 지역 환경 변형 | 3 | 대기 |
 | 304 | district-north-2 | 북방 시설 주요 길 | 지역 환경 변형 | 3 | 대기 |
 | 305 | district-north-3 | 북방 시설 지역 표지 | 지역 환경 변형 | 3 | 대기 |
 | 306 | district-north-4 | 북방 시설 가로 조명 | 지역 환경 변형 | 3 | 대기 |
 | 307 | district-north-5 | 북방 시설 경계 울타리 | 지역 환경 변형 | 3 | 대기 |
-| 308 | building-sea-01 | 해양국 항만 도시 부두 | 건물·시설 | 3 | 대기 |
-| 309 | building-sea-02 | 해양국 항만 도시 주택 | 건물·시설 | 3 | 대기 |
-| 310 | building-sea-03 | 해양국 항만 도시 교역소 | 건물·시설 | 3 | 대기 |
-| 311 | building-sea-04 | 해양국 항만 도시 선원 회관 | 건물·시설 | 3 | 대기 |
-| 312 | building-sea-05 | 해양국 항만 도시 관측소 | 건물·시설 | 3 | 대기 |
-| 313 | building-sea-06 | 해양국 항만 도시 여관 | 건물·시설 | 3 | 대기 |
+| 308 | building-sea-01 | 해양국 항만 도시 부두 | 건물·시설 | 3 | 외형 시안 제작 |
+| 309 | building-sea-02 | 해양국 항만 도시 주택 | 건물·시설 | 3 | 외형 시안 제작 |
+| 310 | building-sea-03 | 해양국 항만 도시 교역소 | 건물·시설 | 3 | 외형 시안 제작 |
+| 311 | building-sea-04 | 해양국 항만 도시 선원 회관 | 건물·시설 | 3 | 외형 시안 제작 |
+| 312 | building-sea-05 | 해양국 항만 도시 관측소 | 건물·시설 | 3 | 외형 시안 제작 |
+| 313 | building-sea-06 | 해양국 항만 도시 여관 | 건물·시설 | 3 | 외형 시안 제작 |
 | 314 | district-sea-1 | 해양국 항만 도시 광장 바닥 | 지역 환경 변형 | 3 | 대기 |
 | 315 | district-sea-2 | 해양국 항만 도시 주요 길 | 지역 환경 변형 | 3 | 대기 |
 | 316 | district-sea-3 | 해양국 항만 도시 지역 표지 | 지역 환경 변형 | 3 | 대기 |
 | 317 | district-sea-4 | 해양국 항만 도시 가로 조명 | 지역 환경 변형 | 3 | 대기 |
 | 318 | district-sea-5 | 해양국 항만 도시 경계 울타리 | 지역 환경 변형 | 3 | 대기 |
-| 319 | building-sanctuary-01 | 교단 성역 성역 문 | 건물·시설 | 3 | 대기 |
-| 320 | building-sanctuary-02 | 교단 성역 숙소 | 건물·시설 | 3 | 대기 |
-| 321 | building-sanctuary-03 | 교단 성역 진료소 | 건물·시설 | 3 | 대기 |
-| 322 | building-sanctuary-04 | 교단 성역 예배당 | 건물·시설 | 3 | 대기 |
-| 323 | building-sanctuary-05 | 교단 성역 회랑 | 건물·시설 | 3 | 대기 |
-| 324 | building-sanctuary-06 | 교단 성역 기록실 | 건물·시설 | 3 | 대기 |
+| 319 | building-sanctuary-01 | 교단 성역 성역 문 | 건물·시설 | 3 | 외형 시안 제작 |
+| 320 | building-sanctuary-02 | 교단 성역 숙소 | 건물·시설 | 3 | 외형 시안 제작 |
+| 321 | building-sanctuary-03 | 교단 성역 진료소 | 건물·시설 | 3 | 외형 시안 제작 |
+| 322 | building-sanctuary-04 | 교단 성역 예배당 | 건물·시설 | 3 | 외형 시안 제작 |
+| 323 | building-sanctuary-05 | 교단 성역 회랑 | 건물·시설 | 3 | 외형 시안 제작 |
+| 324 | building-sanctuary-06 | 교단 성역 기록실 | 건물·시설 | 3 | 외형 시안 제작 |
 | 325 | district-sanctuary-1 | 교단 성역 광장 바닥 | 지역 환경 변형 | 3 | 대기 |
 | 326 | district-sanctuary-2 | 교단 성역 주요 길 | 지역 환경 변형 | 3 | 대기 |
 | 327 | district-sanctuary-3 | 교단 성역 지역 표지 | 지역 환경 변형 | 3 | 대기 |
 | 328 | district-sanctuary-4 | 교단 성역 가로 조명 | 지역 환경 변형 | 3 | 대기 |
 | 329 | district-sanctuary-5 | 교단 성역 경계 울타리 | 지역 환경 변형 | 3 | 대기 |
-| 330 | building-core-01 | 고대 중추 진입문 | 건물·시설 | 3 | 대기 |
-| 331 | building-core-02 | 고대 중추 연결 회랑 | 건물·시설 | 3 | 대기 |
-| 332 | building-core-03 | 고대 중추 분기실 | 건물·시설 | 3 | 대기 |
-| 333 | building-core-04 | 고대 중추 제어실 | 건물·시설 | 3 | 대기 |
-| 334 | building-core-05 | 고대 중추 중심 구조물 | 건물·시설 | 3 | 대기 |
+| 330 | building-core-01 | 고대 중추 진입문 | 건물·시설 | 3 | 외형 시안 제작 |
+| 331 | building-core-02 | 고대 중추 연결 회랑 | 건물·시설 | 3 | 외형 시안 제작 |
+| 332 | building-core-03 | 고대 중추 분기실 | 건물·시설 | 3 | 외형 시안 제작 |
+| 333 | building-core-04 | 고대 중추 제어실 | 건물·시설 | 3 | 외형 시안 제작 |
+| 334 | building-core-05 | 고대 중추 중심 구조물 | 건물·시설 | 3 | 외형 시안 제작 |
 | 335 | district-core-1 | 고대 중추 광장 바닥 | 지역 환경 변형 | 3 | 대기 |
 | 336 | district-core-2 | 고대 중추 주요 길 | 지역 환경 변형 | 3 | 대기 |
 | 337 | district-core-3 | 고대 중추 지역 표지 | 지역 환경 변형 | 3 | 대기 |
 | 338 | district-core-4 | 고대 중추 가로 조명 | 지역 환경 변형 | 3 | 대기 |
 | 339 | district-core-5 | 고대 중추 경계 울타리 | 지역 환경 변형 | 3 | 대기 |
-| 340 | building-leon-home-01 | 레온의 고향 마을 입구 | 건물·시설 | 3 | 대기 |
-| 341 | building-leon-home-02 | 레온의 고향 레온의 옛집 | 건물·시설 | 3 | 대기 |
-| 342 | building-leon-home-03 | 레온의 고향 기억의 장소 | 건물·시설 | 3 | 대기 |
+| 340 | building-leon-home-01 | 레온의 고향 마을 입구 | 건물·시설 | 3 | 외형 시안 제작 |
+| 341 | building-leon-home-02 | 레온의 고향 레온의 옛집 | 건물·시설 | 3 | 외형 시안 제작 |
+| 342 | building-leon-home-03 | 레온의 고향 기억의 장소 | 건물·시설 | 3 | 외형 시안 제작 |
 | 343 | district-leon-home-1 | 레온의 고향 광장 바닥 | 지역 환경 변형 | 3 | 대기 |
 | 344 | district-leon-home-2 | 레온의 고향 주요 길 | 지역 환경 변형 | 3 | 대기 |
 | 345 | district-leon-home-3 | 레온의 고향 지역 표지 | 지역 환경 변형 | 3 | 대기 |
