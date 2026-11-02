@@ -64,6 +64,14 @@ p=ROOT/'assets/world-production/manifest.json'
 if p.exists():
  for b in read('assets/world-production/manifest.json')['boards']:
   target=next(x for x in rows if x['id']==b['id']);target.update(design_status='외형 시안 제작',source='assets/world-production/'+b['file'],runtime_status='미연결')
+# Native resources have their own stage. Do not mark them as final or connected.
+native_manifest=ROOT/'game/assets/production/manifest.json'
+if native_manifest.exists():
+ for asset in json.loads(native_manifest.read_text())['entries']:
+  target=next(x for x in rows if x['id']==asset['id'])
+  target.update(design_status='제작 파일 1차',runtime_status='엔진 검증·플레이 미연결',source=asset['file'])
+  target['notes']+=' 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.'
+
 rows.sort(key=lambda x:x['phase'])
 for i,x in enumerate(rows,1):x['order']=i
 assert len({x['id'] for x in rows})==len(rows)

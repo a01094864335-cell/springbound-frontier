@@ -1,0 +1,45 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/linen.tres" id="m1"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/clay.tres" id="m2"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/wood.tres" id="m3"]
+
+[sub_resource type="CylinderMesh" id="r1"]
+top_radius = 0.22
+bottom_radius = 0.22
+height = 0.05
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="r2"]
+top_radius = 0.085
+bottom_radius = 0.07
+height = 0.2
+radial_segments = 12
+rings = 1
+
+[sub_resource type="BoxMesh" id="r3"]
+size = Vector3(0.035, 0.025, 0.28)
+
+[node name="prop_1_18" type="Node3D"]
+metadata/asset_id = "prop-1-18"
+metadata/display_name = "식기 세트"
+metadata/grid_obstacles = []
+metadata/origin = "ground center; entry +Z"
+
+[node name="Plate" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.025, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+
+[node name="Cup" type="MeshInstance3D" parent="."]
+position = Vector3(0.23, 0.12, -0.12)
+mesh = SubResource("r2")
+material_override = ExtResource("m2")
+
+[node name="Spoon" type="MeshInstance3D" parent="."]
+position = Vector3(-0.25, 0.035, 0)
+mesh = SubResource("r3")
+material_override = ExtResource("m3")

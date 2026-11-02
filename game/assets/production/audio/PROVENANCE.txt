@@ -1,0 +1,1 @@
+All recordings are original deterministic synthesis by build_runtime_audio.py. No sampled recordings, external melodies, licensed music, or voice performers. 23 original four-phrase instrumental themes; 40 stylized synthesized effects; 17 synthesized environmental beds. WAV PCM16 mono 22050 Hz. File/signal checks do not replace listening review.

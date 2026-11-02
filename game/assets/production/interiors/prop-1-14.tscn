@@ -1,0 +1,68 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/stone.tres" id="m1"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/fire.tres" id="m2"]
+
+[sub_resource type="BoxMesh" id="r1"]
+size = Vector3(0.3, 1.3, 0.85)
+
+[sub_resource type="BoxMesh" id="r2"]
+size = Vector3(0.3, 1.3, 0.85)
+
+[sub_resource type="BoxMesh" id="r3"]
+size = Vector3(1.8, 0.5, 0.62)
+
+[sub_resource type="BoxMesh" id="r4"]
+size = Vector3(1.9, 0.2, 1)
+
+[sub_resource type="BoxMesh" id="r5"]
+size = Vector3(1.3, 1.1, 0.12)
+
+[sub_resource type="BoxMesh" id="r6"]
+size = Vector3(0.5, 0.09, 0.4)
+
+[sub_resource type="BoxShape3D" id="r7"]
+size = Vector3(1.8, 1.8, 0.85)
+
+[node name="prop_1_14" type="Node3D"]
+metadata/asset_id = "prop-1-14"
+metadata/display_name = "벽난로"
+metadata/grid_obstacles = [[-0.9, -0.425, 1.8, 0.85]]
+metadata/origin = "ground center; entry +Z"
+
+[node name="Jamb-0.68" type="MeshInstance3D" parent="."]
+position = Vector3(-0.68, 0.65, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+
+[node name="Jamb0.68" type="MeshInstance3D" parent="."]
+position = Vector3(0.68, 0.65, 0)
+mesh = SubResource("r2")
+material_override = ExtResource("m1")
+
+[node name="Hood" type="MeshInstance3D" parent="."]
+position = Vector3(0, 1.4, -0.12)
+mesh = SubResource("r3")
+material_override = ExtResource("m1")
+
+[node name="Hearth" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.1, 0.08)
+mesh = SubResource("r4")
+material_override = ExtResource("m1")
+
+[node name="Back" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.65, -0.32)
+mesh = SubResource("r5")
+material_override = ExtResource("m1")
+
+[node name="Coals" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.23, 0.1)
+mesh = SubResource("r6")
+material_override = ExtResource("m2")
+
+[node name="Body1" type="StaticBody3D" parent="."]
+position = Vector3(0, 0.9, 0)
+
+[node name="Shape" type="CollisionShape3D" parent="Body1"]
+shape = SubResource("r7")

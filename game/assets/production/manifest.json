@@ -1,0 +1,1216 @@
+{
+  "date": "2026-11-02",
+  "baseline": "432c336f80b35b9fbd89888af1a8813317aae566",
+  "count": 151,
+  "scope": "Native first-pass assets. Not all remaining assets, not final art approval, not connected to prologue.",
+  "entries": [
+    {
+      "id": "prop-1-01",
+      "file": "game/assets/production/interiors/prop-1-01.tscn",
+      "sha256": "b67aa5100dd8c1ee0baffea0f5b81fef907a9ad5340239e4d6fd0f7edb3c4e45",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "prop-1-02",
+      "file": "game/assets/production/interiors/prop-1-02.tscn",
+      "sha256": "665c3a0efa96179d7338fcc3c3cd1298df897ad4e57fa6e23124a8d8d07ff79f",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "prop-1-03",
+      "file": "game/assets/production/interiors/prop-1-03.tscn",
+      "sha256": "5ba7b400356156e83a01b95e9bd55466cadeabfeaec98e5a1f7868d7c4983e2e",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "prop-1-04",
+      "file": "game/assets/production/interiors/prop-1-04.tscn",
+      "sha256": "c86efab370c41160b8a3696b81c96ec8da3dd60a7c9831759b8198446a0026d3",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "prop-1-05",
+      "file": "game/assets/production/interiors/prop-1-05.tscn",
+      "sha256": "acdc955dcbf897baafdc4b139f36fc534222d8578a16b0b457e347fb14f71cf6",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "prop-1-06",
+      "file": "game/assets/production/interiors/prop-1-06.tscn",
+      "sha256": "61d416eb56c3289c32722d18447ab434e2ebde82fb4e022042a66f8dd4063286",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "prop-1-07",
+      "file": "game/assets/production/interiors/prop-1-07.tscn",
+      "sha256": "f0b8d269a94fc529ac157015836af2596baf4b4ccf70fb6923207d490e8932e2",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "prop-1-08",
+      "file": "game/assets/production/interiors/prop-1-08.tscn",
+      "sha256": "a8f50be09e3de6c1d2d3a54d818803fecdc86dbf79ff2b3f4072a22394e2be78",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "prop-1-09",
+      "file": "game/assets/production/interiors/prop-1-09.tscn",
+      "sha256": "c049a078448a8c0659403dab2c5b077d7274a40bb8c422f9e551fc481f35092a",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "prop-1-10",
+      "file": "game/assets/production/interiors/prop-1-10.tscn",
+      "sha256": "de160d1964a4f2f37eea0451cd41ea315d7af62724858b5b08e57d8cce95e9dc",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "prop-1-11",
+      "file": "game/assets/production/interiors/prop-1-11.tscn",
+      "sha256": "1baad8d89ba8eb7ddb6eac26727da4d46a3d9739d2385a255bc7de176a974e76",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "prop-1-12",
+      "file": "game/assets/production/interiors/prop-1-12.tscn",
+      "sha256": "fb656ebaf91dfbdd049954f345408cef56aa3282e9e17775dc2b5ea824275c4e",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "prop-1-13",
+      "file": "game/assets/production/interiors/prop-1-13.tscn",
+      "sha256": "55251f26a31d660843b0d9b6c41a6ab1d5b1b38510afe3a8f42eda1cb87d4455",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "prop-1-14",
+      "file": "game/assets/production/interiors/prop-1-14.tscn",
+      "sha256": "8d76d50bd40c58b6246365a1371ec9ca4afe37ef4415964840b3e967f9133242",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "prop-1-15",
+      "file": "game/assets/production/interiors/prop-1-15.tscn",
+      "sha256": "295839abc19eddf9520d5d046b1e819708b5610c4c15918f1c3475b4d6b8823b",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "prop-1-16",
+      "file": "game/assets/production/interiors/prop-1-16.tscn",
+      "sha256": "d7570c8b5bf3872e7bf229ddfdeb6aa35ef03dcca7272def396f708c12453a1b",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "prop-1-17",
+      "file": "game/assets/production/interiors/prop-1-17.tscn",
+      "sha256": "9574999a66f044f1da56fc069427b2f8079dcd7de2863cc4722920ad2c1eea84",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "prop-1-18",
+      "file": "game/assets/production/interiors/prop-1-18.tscn",
+      "sha256": "c84fe5b1a51b6c08cc7abe6834f2b2fbade34bcd8f6af321cfe5446e0bb04e5a",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "prop-1-19",
+      "file": "game/assets/production/interiors/prop-1-19.tscn",
+      "sha256": "755f5e7d1956c714d3d8920c4ebf02fe4b3ecb8723d533a1a3a975b8e9a77c65",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "prop-1-20",
+      "file": "game/assets/production/interiors/prop-1-20.tscn",
+      "sha256": "2e6e58e3da27f219700c6346d07d929700236a97cc0849158ff96960d3f1145b",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "interior-01",
+      "file": "game/assets/production/interiors/interior-01.tscn",
+      "sha256": "33f070a00eae5406d1127cd12f5a11b5e2b2a4c405fa6d46d302809967fe4714",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "interior-02",
+      "file": "game/assets/production/interiors/interior-02.tscn",
+      "sha256": "14ff9f4a8d4e6ea497978b9ececbc35f2e0badd534422707735ac8afadd32591",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "interior-03",
+      "file": "game/assets/production/interiors/interior-03.tscn",
+      "sha256": "8044c71149db5cd3975ec25085bad3c86348b832f2665648e3d2ebf0af756cb2",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "interior-04",
+      "file": "game/assets/production/interiors/interior-04.tscn",
+      "sha256": "1ecb91d1d2cf8411856da1b105229dbc7f3abaadc58cbb49fbe68e87d4e6b66e",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "interior-05",
+      "file": "game/assets/production/interiors/interior-05.tscn",
+      "sha256": "25f3b95f8bbb9c88d9bb00dde66959c54dcd0889aeb6d127cb2c00fa4a774ae8",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "interior-06",
+      "file": "game/assets/production/interiors/interior-06.tscn",
+      "sha256": "24d9271f49a263cb49a04c16430450296c5c1e02e4aa40125463273b40d3becf",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "interior-07",
+      "file": "game/assets/production/interiors/interior-07.tscn",
+      "sha256": "9902b31092e52d6d93d0702f82c49a205055728e59c78797a9633bb610cff612",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "interior-08",
+      "file": "game/assets/production/interiors/interior-08.tscn",
+      "sha256": "aef48ba14d40a43439186ebaf15f7fe21a1df40ea89f009a33ea6ffa80b16c48",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "interior-09",
+      "file": "game/assets/production/interiors/interior-09.tscn",
+      "sha256": "cddc06b801a39f7b80694c6c0a545267e3aaacbeea71aa9c36a484a9cf8bd55c",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "interior-10",
+      "file": "game/assets/production/interiors/interior-10.tscn",
+      "sha256": "563049a504acc2bd630a45623285b4f6aab322f63135c075cdb9a0c522f824a2",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "interior-11",
+      "file": "game/assets/production/interiors/interior-11.tscn",
+      "sha256": "518912cc11c87a31c5b48a0a54069d38ff51359c82c5d2b2702239ef034d80d2",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "interior-12",
+      "file": "game/assets/production/interiors/interior-12.tscn",
+      "sha256": "249728a2d9b70511b47f89629fbc4eb506730f75d6acd6df9f5df758032703bb",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "interior-13",
+      "file": "game/assets/production/interiors/interior-13.tscn",
+      "sha256": "f2cd76bc56916b88a70392a23cd89f9daacc05896e456e240a2bc27f51da21d1",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "interior-14",
+      "file": "game/assets/production/interiors/interior-14.tscn",
+      "sha256": "58a239c3c800899a2b3c6a7c2a33e5452bf4955164ae6c6f7ce51cd5ea88a0aa",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "interior-15",
+      "file": "game/assets/production/interiors/interior-15.tscn",
+      "sha256": "799bbdb416a5cabf8caa3c4043af0fbce495b647bfefb9ec3ef55f5c3001b7a1",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "interior-16",
+      "file": "game/assets/production/interiors/interior-16.tscn",
+      "sha256": "b7aacb28100dd34a901ba1b8cc630c342b3f096780a138dea7e1a428a92554a8",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "interior-17",
+      "file": "game/assets/production/interiors/interior-17.tscn",
+      "sha256": "79b2f72cb391f9c303eec018c2de2d9878225e5b27e25e6baac0cdcf6f8a29e9",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "interior-18",
+      "file": "game/assets/production/interiors/interior-18.tscn",
+      "sha256": "83a5a8c7786d7555e2b4ef716852b4d67a40d06fc90de7297eeba5376d4dffcd",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "interior-19",
+      "file": "game/assets/production/interiors/interior-19.tscn",
+      "sha256": "c65ac866583c48c57ac178ab864540dbca7035a6b1eda5fc1516934823ec61be",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "interior-20",
+      "file": "game/assets/production/interiors/interior-20.tscn",
+      "sha256": "12080874e698752a41a4430140115f2bf2d1026a9fd88b72c2ea35956e721cfd",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "interior-21",
+      "file": "game/assets/production/interiors/interior-21.tscn",
+      "sha256": "3c404d3301f61b9cd6a99af975d1a82b8ef97ec20e14a3292daef76f96a87962",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "interior-22",
+      "file": "game/assets/production/interiors/interior-22.tscn",
+      "sha256": "167a53a6dede52aebbc1d488031484f4f71932869329039eec36d3af1e788bbf",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-0-01",
+      "file": "game/assets/production/vfx/presentation-0-01.tscn",
+      "sha256": "fcf6a6cb112c032e61c06056f1504b5ad039d2d463cc0133a801cb8808fcda26",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-0-02",
+      "file": "game/assets/production/vfx/presentation-0-02.tscn",
+      "sha256": "584bdd62f9e478bac1de9bdc40c142f8b2756cbe5fc95691293f22d360b78c54",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-0-03",
+      "file": "game/assets/production/vfx/presentation-0-03.tscn",
+      "sha256": "65620f999ac750fb2a55eba9e5b5dfb1027ced3a39f66e84dd2ae6432fa441b5",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-0-04",
+      "file": "game/assets/production/vfx/presentation-0-04.tscn",
+      "sha256": "677fc316105a957ee2f3f1c88ed531877df9fc7956a7ad7eaf0a697dc619012d",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-0-05",
+      "file": "game/assets/production/vfx/presentation-0-05.tscn",
+      "sha256": "45da9290131e8962628982bd12449486625910c62b8619a00a86bed48b4cd37b",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-0-06",
+      "file": "game/assets/production/vfx/presentation-0-06.tscn",
+      "sha256": "dc1a1421873268b5d30a7ec0afcad1ecf07e37c4fb0c1aeef7073f01a52cf862",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-0-07",
+      "file": "game/assets/production/vfx/presentation-0-07.tscn",
+      "sha256": "011f24599306e9ccabb2dfd02a44a483d8f3e6b8af617515eefd43897a7dae43",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-0-08",
+      "file": "game/assets/production/vfx/presentation-0-08.tscn",
+      "sha256": "1942028b066b5d61f082147abfb94c4670c683af2f5337428e36a8f6bff5f272",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-0-09",
+      "file": "game/assets/production/vfx/presentation-0-09.tscn",
+      "sha256": "857697cc6120dac9d41b38a7bf88b08a8711e29e2cac8174fae9c6b4c2737630",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-0-10",
+      "file": "game/assets/production/vfx/presentation-0-10.tscn",
+      "sha256": "cbdce363831a2d5075ae371d83f20ef63a55faeb771d2a8e2efd5e11c9aad79c",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-0-11",
+      "file": "game/assets/production/vfx/presentation-0-11.tscn",
+      "sha256": "c4c7a679d1fa040cb5943b6d6595a99d5ddee1a26616dbb14599c6e8c4e7d280",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-0-12",
+      "file": "game/assets/production/vfx/presentation-0-12.tscn",
+      "sha256": "af5c8ad0d1fe9fb79a028030f8b8615be82ad6aced12a03d03a210cf971baf2e",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-0-13",
+      "file": "game/assets/production/vfx/presentation-0-13.tscn",
+      "sha256": "1119a5a0875153011e094ba272c5973988c45a85f0de3ea4dcdaba239fdf46cd",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-0-14",
+      "file": "game/assets/production/vfx/presentation-0-14.tscn",
+      "sha256": "81067c5664cb7fd3675c7bc19339d6e7951ba3d5d8b494a24d3a3fdfc16cb3e9",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-0-15",
+      "file": "game/assets/production/vfx/presentation-0-15.tscn",
+      "sha256": "d80f4460126ddc46f906c3e6c0a5188fdc0aaaba240034ddfd773715400c6c53",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-0-16",
+      "file": "game/assets/production/vfx/presentation-0-16.tscn",
+      "sha256": "f39acf2775a513667228eca0165f3fc99ab6783cd6cbee15305b6d59002b0024",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-0-17",
+      "file": "game/assets/production/vfx/presentation-0-17.tscn",
+      "sha256": "9f6afe1123ac8ab77d52ab1c7befecff4e3a43890db2c0dcee0877cac3574645",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-1-01",
+      "file": "game/assets/production/vfx/presentation-1-01.tscn",
+      "sha256": "60757a2e3030bd6642b373c993fa5e691453a084c44e5165db3cbe81e0845efd",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-1-02",
+      "file": "game/assets/production/vfx/presentation-1-02.tscn",
+      "sha256": "461afb3daaa7e883d754e6916317398c8443abcd3cc245c1b0cf899ab2659d16",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-1-03",
+      "file": "game/assets/production/vfx/presentation-1-03.tscn",
+      "sha256": "4dcbcc5662b6dc6e6f029dec4524d55a98f593c0a30e0901eaa27a229ea139ae",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-1-04",
+      "file": "game/assets/production/vfx/presentation-1-04.tscn",
+      "sha256": "7b5a418b4b81bd0215a7a50fe57e63be5cc753dc8133266bf0e0f3fae1a7a85c",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-1-05",
+      "file": "game/assets/production/vfx/presentation-1-05.tscn",
+      "sha256": "c627af0d804f49a86a7d50af128632c8b4d381466b4ee8dd5f046508da0c7176",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-1-06",
+      "file": "game/assets/production/vfx/presentation-1-06.tscn",
+      "sha256": "4ff4952c91f8396ee786d103fc770cf7512186e8f8be8fc62f605a1f4130ebac",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-1-07",
+      "file": "game/assets/production/vfx/presentation-1-07.tscn",
+      "sha256": "73195989356f488a1f794bd144d173d15e980f6a112f332ad76af1a59d98b7a4",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-1-08",
+      "file": "game/assets/production/vfx/presentation-1-08.tscn",
+      "sha256": "f3b5d6c5ecf31a3be716f27d661bd56107e82ec2ca27d64f00e08b311aed6c0d",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-1-09",
+      "file": "game/assets/production/vfx/presentation-1-09.tscn",
+      "sha256": "6a2075f755bdb87db73fcd50d420f2b2684371385cdb66569d23d33803ce8202",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-1-10",
+      "file": "game/assets/production/vfx/presentation-1-10.tscn",
+      "sha256": "e77032c16418b91efbbafbed1eca0582df2505c3601dd6f41ce0f36f2d602eac",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-1-11",
+      "file": "game/assets/production/vfx/presentation-1-11.tscn",
+      "sha256": "3d235f7d4b673b1423bde34128bdcc7b9f0763539b0254cf1d38fc68ce8901cb",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "presentation-1-12",
+      "file": "game/assets/production/vfx/presentation-1-12.tscn",
+      "sha256": "dbeaf3593ff144d8a5676ffcce288785b8e074c7bc68f79005152c5c008a0b1d",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "engine load verified; production approval pending"
+    },
+    {
+      "id": "audio-0-01",
+      "file": "game/assets/production/audio/audio-0-01.wav",
+      "sha256": "fb5b9c077bae185dcf3eca336960f8f9b0dcc9f2996830a403fb1e32cbae2203",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-02",
+      "file": "game/assets/production/audio/audio-0-02.wav",
+      "sha256": "52e1d5675751c9413c0a4c6b8ca2e47b0a2a8b86e76db869bd2e95a508e6889a",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-03",
+      "file": "game/assets/production/audio/audio-0-03.wav",
+      "sha256": "f564037cfd6c2c880b7919b7a45f5ac4353317e67b26a85837dbeb4c62c9f856",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-04",
+      "file": "game/assets/production/audio/audio-0-04.wav",
+      "sha256": "44d2ec51b9aacbdced1d0c2f40a2cc1df6acda1c82b5d5e87e952a5bfdf95766",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-05",
+      "file": "game/assets/production/audio/audio-0-05.wav",
+      "sha256": "0c66f91d1616580ad72dcf459df5b0911169487b130375bd18cf84f48c1e47ed",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-06",
+      "file": "game/assets/production/audio/audio-0-06.wav",
+      "sha256": "f60cd9e4879873c018944699f3b5654d5ddf766448c512ecaeb167bb2adec0ca",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-07",
+      "file": "game/assets/production/audio/audio-0-07.wav",
+      "sha256": "bbdc7f51edf250c7a126f2c0ca8cd47ef5bb5ac018fc25d97348df9cd2dd3dd2",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-08",
+      "file": "game/assets/production/audio/audio-0-08.wav",
+      "sha256": "b4360ef8edb9f4405211aff268200eaac44ddcf39e2bacb6ee4ca8e28debc436",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-09",
+      "file": "game/assets/production/audio/audio-0-09.wav",
+      "sha256": "38d94f7f6d3c05013777f03e6d43388ba09cd0cde51edee29dd16c3917d57213",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-10",
+      "file": "game/assets/production/audio/audio-0-10.wav",
+      "sha256": "1c7db365384c351c7b984e12c3533ce6e044a572dbbe3af695f8721e07031758",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-11",
+      "file": "game/assets/production/audio/audio-0-11.wav",
+      "sha256": "09977cebc6014aa7ecb0c74eea87d925e6ac3e60a76943d68780f9b607b49779",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-12",
+      "file": "game/assets/production/audio/audio-0-12.wav",
+      "sha256": "f46a73392b36940a8c546b4808a3375a87ffa7a59ae3efb6f500a0e879dbadab",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-13",
+      "file": "game/assets/production/audio/audio-0-13.wav",
+      "sha256": "7174cae562b6e1fdd0fe95ca3fb9fb06f67e08cdbc5d26229de12a6c96435ed2",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-14",
+      "file": "game/assets/production/audio/audio-0-14.wav",
+      "sha256": "071418e3a96733a3aecde884225f783f7179d9d7fa0ecfd8dff9a2255c8e5493",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-15",
+      "file": "game/assets/production/audio/audio-0-15.wav",
+      "sha256": "bf72a657b48e0a5ddb1d74d4ead65b1a8885b25bffe52dd9693fdf12e1625b98",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-16",
+      "file": "game/assets/production/audio/audio-0-16.wav",
+      "sha256": "d8091e48c3c39bd68841e15a8fc36f3f947b68610fb610fc7caf21a81d5f352c",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-17",
+      "file": "game/assets/production/audio/audio-0-17.wav",
+      "sha256": "47f063e8ec91ac968169624ce2543be4e8327e3befc08f86914a95d559cb4167",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-18",
+      "file": "game/assets/production/audio/audio-0-18.wav",
+      "sha256": "5f5bd2753e4d86590d848abfea4cd485dff1af5f24437473056651900e15221a",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-19",
+      "file": "game/assets/production/audio/audio-0-19.wav",
+      "sha256": "7b6cb8cc27b6d51afbf9c9c0000981eee4196635bd574524b96ddab467c81daf",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-20",
+      "file": "game/assets/production/audio/audio-0-20.wav",
+      "sha256": "98e07ed386030f9eff8cbd8bbac49bbdecd94b21613d062328e04110c4c87a82",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-21",
+      "file": "game/assets/production/audio/audio-0-21.wav",
+      "sha256": "8fc8b7b484f2ecbdaf3a7812e423d99f70cea080d610d9467409cba6a66782ef",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-22",
+      "file": "game/assets/production/audio/audio-0-22.wav",
+      "sha256": "7a2599fbfb5759ca9e6942966fea6b984505259d4a9d19570b2859c6e1732374",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-23",
+      "file": "game/assets/production/audio/audio-0-23.wav",
+      "sha256": "4dfccde318913dadadc483af9fa98317e93aaccefec637ab4ac5d49cb580b334",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-24",
+      "file": "game/assets/production/audio/audio-0-24.wav",
+      "sha256": "d5ae6eaa6dacf68c6a533ac4daf8b5ce5c07e39278ccb9b0db9e7c80fe1e59a6",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-25",
+      "file": "game/assets/production/audio/audio-0-25.wav",
+      "sha256": "9701b51e1d0d891ce1350832f0291f2843435af9378e304641b440ff5910500f",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-26",
+      "file": "game/assets/production/audio/audio-0-26.wav",
+      "sha256": "622b56a0562f53092e204eee0e678e7483da5b741c74c8e425fe5247ef5345ad",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-27",
+      "file": "game/assets/production/audio/audio-0-27.wav",
+      "sha256": "df707a1b71389023c8902f0d8104a940b84a6387aadae2e222dbe2e154871643",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-28",
+      "file": "game/assets/production/audio/audio-0-28.wav",
+      "sha256": "83a8c70bb2a3ecc31662659ecb419e0b7705fb535f88ed3eeed73f0e79823153",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-29",
+      "file": "game/assets/production/audio/audio-0-29.wav",
+      "sha256": "23314eccccafc09397170d06213eddbd7ca78a3141a108d050198b7c782914b0",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-30",
+      "file": "game/assets/production/audio/audio-0-30.wav",
+      "sha256": "103d0104462edc800806c8765f8dacac98f040982d0456a2b654d4fc40143c31",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-31",
+      "file": "game/assets/production/audio/audio-0-31.wav",
+      "sha256": "1976519ad96862a8f3887d76abe491dc8039a1d022c2190955911115f9ed5b43",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-32",
+      "file": "game/assets/production/audio/audio-0-32.wav",
+      "sha256": "8e68a6ae9f2ec0deb83cc83ad13e7b7238fefcda14ab5ce0e036bc79abb3ad75",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-33",
+      "file": "game/assets/production/audio/audio-0-33.wav",
+      "sha256": "bd329b27c09b48e918dfc8c259a444b95f22ddf49c031dcb931de488fd813434",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-34",
+      "file": "game/assets/production/audio/audio-0-34.wav",
+      "sha256": "d7986d822b87cf30137ec136bb5f63428297e6af89d6473ecfa17966695d2117",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-35",
+      "file": "game/assets/production/audio/audio-0-35.wav",
+      "sha256": "20d476c401744553e1baf61b0182243bc169934d7eb949a658cc5235c3daf0dc",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-36",
+      "file": "game/assets/production/audio/audio-0-36.wav",
+      "sha256": "e224d9a6b8bc32e08df1436f6bd4c68d017d7bd1347bfe303103143b58f58b9e",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-37",
+      "file": "game/assets/production/audio/audio-0-37.wav",
+      "sha256": "e41f90209a7de5e9f5626dcd9706239dd605898982c60718e56d78744a7775e8",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-38",
+      "file": "game/assets/production/audio/audio-0-38.wav",
+      "sha256": "28e92b4d4da8541d39803e6f6f21304e03880eb146d77d81e8a482e9fcdd5eaa",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-39",
+      "file": "game/assets/production/audio/audio-0-39.wav",
+      "sha256": "b32bbfd4a1da004e4bd936c6014632d158a4ca8256fb461b08aecf0857a9b7c1",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-0-40",
+      "file": "game/assets/production/audio/audio-0-40.wav",
+      "sha256": "60acec3c8b6d7b78c1665cfca09d46779c2371453e1a3fd48142d71f4d504061",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-1-01",
+      "file": "game/assets/production/audio/audio-1-01.wav",
+      "sha256": "1083388271f25de4bf5716a00a10b1739f37b276893d7b0c7102184aa187b3db",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-1-02",
+      "file": "game/assets/production/audio/audio-1-02.wav",
+      "sha256": "6f0673aa204782255474c2821ab9f27efe5acc60caad74da1dd47bd7e303fcc4",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-1-03",
+      "file": "game/assets/production/audio/audio-1-03.wav",
+      "sha256": "1f462fabf6cde8c3e7b0b882c8c1dbdf3e7619a45f7870f6c0169392da71e791",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-1-04",
+      "file": "game/assets/production/audio/audio-1-04.wav",
+      "sha256": "2d8d30926ca75982c109909bc00bdd99718d3990f29292742870c3b0f01053ce",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-1-05",
+      "file": "game/assets/production/audio/audio-1-05.wav",
+      "sha256": "f4a063232ede931e7ecf85747052c270efd1e080f00cea6df7e71ca492f0d92d",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-1-06",
+      "file": "game/assets/production/audio/audio-1-06.wav",
+      "sha256": "741cc949d8b226c6a505b246a46186c136e5dafe6d535f698df9dbc7ec8c3757",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-1-07",
+      "file": "game/assets/production/audio/audio-1-07.wav",
+      "sha256": "80751b37a6c8df2eadfb8a4eeb491fb2dff7c3cb3339c2ccc5fa37a1781c4c15",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-1-08",
+      "file": "game/assets/production/audio/audio-1-08.wav",
+      "sha256": "9ab072116e0716be8610b87f843373b71d34652eb4453783b9495edd8e863d1d",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-1-09",
+      "file": "game/assets/production/audio/audio-1-09.wav",
+      "sha256": "176168a6479635c32779cff63f5e0f698c7c444f65545e89474678f6ee40cc7c",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-1-10",
+      "file": "game/assets/production/audio/audio-1-10.wav",
+      "sha256": "92a1a8de3d45eb907ce54ec8feeee2fea7331459cf06e713c90df495d0a5520a",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-1-11",
+      "file": "game/assets/production/audio/audio-1-11.wav",
+      "sha256": "49c5dd52a2efe0273f3baa21c0f61013aedff4278321f57353041f15e9aad30d",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-1-12",
+      "file": "game/assets/production/audio/audio-1-12.wav",
+      "sha256": "d00418ad97ecff688b4a68041e76239f3a006244a44679984a580cfb1b313dcb",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-1-13",
+      "file": "game/assets/production/audio/audio-1-13.wav",
+      "sha256": "6bed5de114d9a9e3c70eb8e89ebccc6fdd6f46f8f079d756200a456d3d46eb9c",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-1-14",
+      "file": "game/assets/production/audio/audio-1-14.wav",
+      "sha256": "8d976940c2fe2df76be44d9946635c776e9147320b0498cdb85c3d356cb332a6",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-1-15",
+      "file": "game/assets/production/audio/audio-1-15.wav",
+      "sha256": "6432e8decbfe6617090d3934418191d2061f687c632ec817c067dcc5cc43b597",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-1-16",
+      "file": "game/assets/production/audio/audio-1-16.wav",
+      "sha256": "1dd7130d177db4e342951cf271bf8886eef106bdcb0cb6c8ec03ac0bfef6b517",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-1-17",
+      "file": "game/assets/production/audio/audio-1-17.wav",
+      "sha256": "a4ee6fd3bb059dff34af37b1e49c560d11552da24cefa0d2de2c49df661853c8",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-2-01",
+      "file": "game/assets/production/audio/audio-2-01.wav",
+      "sha256": "2ee02e72fc35c7984e0bba95fbf217e92a73f3d59b8b8f36f9e617b3b8f8b733",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-2-02",
+      "file": "game/assets/production/audio/audio-2-02.wav",
+      "sha256": "36779365926b63726f39e6dc7530300a049957d6a0f368317707ddf699312b8d",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-2-03",
+      "file": "game/assets/production/audio/audio-2-03.wav",
+      "sha256": "c09172cd76af74f12b4a961daf1da9a11ed6ebbecadc0a378d6893e6f564007f",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-2-04",
+      "file": "game/assets/production/audio/audio-2-04.wav",
+      "sha256": "3965fffac9b8196cb2ec4dfb152bb927bc1af6f7fb61130e79721d2b0a8a3286",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-2-05",
+      "file": "game/assets/production/audio/audio-2-05.wav",
+      "sha256": "179b799f81b20fe68ef9c6963dc691475d27176fc9f2e516422b4ed96d304664",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-2-06",
+      "file": "game/assets/production/audio/audio-2-06.wav",
+      "sha256": "b4bd821fd0f2a101ac3ef6b9e5f274f2cdb294921794b8e9a67d53d2b94f4236",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-2-07",
+      "file": "game/assets/production/audio/audio-2-07.wav",
+      "sha256": "347431b4b63272ba720336315cfb183d9701ce2412ea19f104f09e6d6d150893",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-2-08",
+      "file": "game/assets/production/audio/audio-2-08.wav",
+      "sha256": "98869e068720fc2cc61758effc2623472b7fd1d6e7e773b2570003d425a73f6a",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-2-09",
+      "file": "game/assets/production/audio/audio-2-09.wav",
+      "sha256": "b129c7042b4cc2a87271e2a05565f5f2831529b2fc1ed160230e7e05812488a3",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-2-10",
+      "file": "game/assets/production/audio/audio-2-10.wav",
+      "sha256": "7b2106829395dea4912fd43c72a8068cbd3dab7a527b82aaf165510e5a23e748",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-2-11",
+      "file": "game/assets/production/audio/audio-2-11.wav",
+      "sha256": "d57734dababb1b7a2860311dce57d9e9ea4040e2e6cb185be6ea9769c54c9fdb",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-2-12",
+      "file": "game/assets/production/audio/audio-2-12.wav",
+      "sha256": "ae9123167395c68f650fbed553e0a14f3d389bab02bb98a89ee5b091aba7e94f",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-2-13",
+      "file": "game/assets/production/audio/audio-2-13.wav",
+      "sha256": "119ff454a825ed9fea8edcedb707d5a4f3f73615bd8057bc2f119a8e78725ac5",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-2-14",
+      "file": "game/assets/production/audio/audio-2-14.wav",
+      "sha256": "0e9e3a7bbc063b2eaf83e21659415e82bf010c148f4cd748ffee2645d9fd8d6f",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-2-15",
+      "file": "game/assets/production/audio/audio-2-15.wav",
+      "sha256": "0a8a240ccfa6f90827cd13052eaf71d966902cc4d9390170d0a5abf01fc19ae5",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-2-16",
+      "file": "game/assets/production/audio/audio-2-16.wav",
+      "sha256": "24778c961375e4649b4e355ffb22cdd46e432dce79c5699ada5a3e5260197083",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-2-17",
+      "file": "game/assets/production/audio/audio-2-17.wav",
+      "sha256": "a67bd5a11ff30398fcb07958738872fa57b5cf0c8ecd45ea0684371d291c1bcf",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-2-18",
+      "file": "game/assets/production/audio/audio-2-18.wav",
+      "sha256": "bd297458ceaf22390943695c59eb4b4597858a048ecc9b5bbaced11b21a96c3b",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-2-19",
+      "file": "game/assets/production/audio/audio-2-19.wav",
+      "sha256": "f2ab97b0cbdfd6bf23d3ebe9eabf291c626dec8bc881f941e4bbb16ff4969c6c",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-2-20",
+      "file": "game/assets/production/audio/audio-2-20.wav",
+      "sha256": "98a03068a21397a2dff7ee3fbc56118453e732a6ad4f835bc08052c51247d64d",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-2-21",
+      "file": "game/assets/production/audio/audio-2-21.wav",
+      "sha256": "d85653ab7994ecf7304ad2ec4f5b111a11c892be8432be743be11369705ff40b",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-2-22",
+      "file": "game/assets/production/audio/audio-2-22.wav",
+      "sha256": "0b361b3d85dd1402949893b6fd7abeca6b8a24f2b4d1f9be88124f6267fb2e85",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "audio-2-23",
+      "file": "game/assets/production/audio/audio-2-23.wav",
+      "sha256": "770716a6f30ffa88402244442d58b2108aa647c43d41468855396c2ec0ab8793",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "WAV signal checks and Godot import; listening review pending"
+    }
+  ]
+}

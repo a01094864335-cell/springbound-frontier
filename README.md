@@ -54,3 +54,5 @@ Springbound Frontier · 가제
 [방패 조합 기획과 시안](docs/shield-loadouts.md) — 한손검+방패·단검+버클러 각 16포즈, 방패 외형 5종. [통합 HTML 갤러리](assets/combat-motion-boards/ael/index.html).
 
 [본편 전체 애셋 개별 제작 대장](docs/full-asset-registry.md) — 2,412개 관리 항목. [검색·시안 갤러리](docs/assets-registry/index.html) · [제작 진행 기록](docs/full-asset-production-progress.md). 누적 시안 214장(이번 지역 건축 부품 72장 추가), 전체 제작 진행 중.
+
+[네이티브 애셋 1차 제작·검증](docs/runtime-asset-production.md) — 151항목 실제 파일, 미제작 1,842항목. 최종 미술·음원 청취·플레이 연결은 미완료.

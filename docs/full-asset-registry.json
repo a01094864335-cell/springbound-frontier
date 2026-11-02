@@ -6211,13 +6211,13 @@
       "phase": 4,
       "region": "공용",
       "deliverable": "실내 배치도·공용 부품 조립",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/interior-01.tscn",
       "dependencies": [
         "kit-wall-straight"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 420
     },
     {
@@ -6227,13 +6227,13 @@
       "phase": 4,
       "region": "공용",
       "deliverable": "실내 배치도·공용 부품 조립",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/interior-02.tscn",
       "dependencies": [
         "kit-wall-straight"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 421
     },
     {
@@ -6243,13 +6243,13 @@
       "phase": 4,
       "region": "공용",
       "deliverable": "실내 배치도·공용 부품 조립",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/interior-03.tscn",
       "dependencies": [
         "kit-wall-straight"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 422
     },
     {
@@ -6259,13 +6259,13 @@
       "phase": 4,
       "region": "공용",
       "deliverable": "실내 배치도·공용 부품 조립",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/interior-04.tscn",
       "dependencies": [
         "kit-wall-straight"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 423
     },
     {
@@ -6275,13 +6275,13 @@
       "phase": 4,
       "region": "공용",
       "deliverable": "실내 배치도·공용 부품 조립",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/interior-05.tscn",
       "dependencies": [
         "kit-wall-straight"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 424
     },
     {
@@ -6291,13 +6291,13 @@
       "phase": 4,
       "region": "공용",
       "deliverable": "실내 배치도·공용 부품 조립",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/interior-06.tscn",
       "dependencies": [
         "kit-wall-straight"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 425
     },
     {
@@ -6307,13 +6307,13 @@
       "phase": 4,
       "region": "공용",
       "deliverable": "실내 배치도·공용 부품 조립",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/interior-07.tscn",
       "dependencies": [
         "kit-wall-straight"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 426
     },
     {
@@ -6323,13 +6323,13 @@
       "phase": 4,
       "region": "공용",
       "deliverable": "실내 배치도·공용 부품 조립",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/interior-08.tscn",
       "dependencies": [
         "kit-wall-straight"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 427
     },
     {
@@ -6339,13 +6339,13 @@
       "phase": 4,
       "region": "공용",
       "deliverable": "실내 배치도·공용 부품 조립",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/interior-09.tscn",
       "dependencies": [
         "kit-wall-straight"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 428
     },
     {
@@ -6355,13 +6355,13 @@
       "phase": 4,
       "region": "공용",
       "deliverable": "실내 배치도·공용 부품 조립",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/interior-10.tscn",
       "dependencies": [
         "kit-wall-straight"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 429
     },
     {
@@ -6371,13 +6371,13 @@
       "phase": 4,
       "region": "공용",
       "deliverable": "실내 배치도·공용 부품 조립",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/interior-11.tscn",
       "dependencies": [
         "kit-wall-straight"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 430
     },
     {
@@ -6387,13 +6387,13 @@
       "phase": 4,
       "region": "공용",
       "deliverable": "실내 배치도·공용 부품 조립",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/interior-12.tscn",
       "dependencies": [
         "kit-wall-straight"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 431
     },
     {
@@ -6403,13 +6403,13 @@
       "phase": 4,
       "region": "공용",
       "deliverable": "실내 배치도·공용 부품 조립",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/interior-13.tscn",
       "dependencies": [
         "kit-wall-straight"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 432
     },
     {
@@ -6419,13 +6419,13 @@
       "phase": 4,
       "region": "공용",
       "deliverable": "실내 배치도·공용 부품 조립",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/interior-14.tscn",
       "dependencies": [
         "kit-wall-straight"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 433
     },
     {
@@ -6435,13 +6435,13 @@
       "phase": 4,
       "region": "공용",
       "deliverable": "실내 배치도·공용 부품 조립",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/interior-15.tscn",
       "dependencies": [
         "kit-wall-straight"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 434
     },
     {
@@ -6451,13 +6451,13 @@
       "phase": 4,
       "region": "공용",
       "deliverable": "실내 배치도·공용 부품 조립",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/interior-16.tscn",
       "dependencies": [
         "kit-wall-straight"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 435
     },
     {
@@ -6467,13 +6467,13 @@
       "phase": 4,
       "region": "공용",
       "deliverable": "실내 배치도·공용 부품 조립",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/interior-17.tscn",
       "dependencies": [
         "kit-wall-straight"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 436
     },
     {
@@ -6483,13 +6483,13 @@
       "phase": 4,
       "region": "공용",
       "deliverable": "실내 배치도·공용 부품 조립",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/interior-18.tscn",
       "dependencies": [
         "kit-wall-straight"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 437
     },
     {
@@ -6499,13 +6499,13 @@
       "phase": 4,
       "region": "공용",
       "deliverable": "실내 배치도·공용 부품 조립",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/interior-19.tscn",
       "dependencies": [
         "kit-wall-straight"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 438
     },
     {
@@ -6515,13 +6515,13 @@
       "phase": 4,
       "region": "공용",
       "deliverable": "실내 배치도·공용 부품 조립",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/interior-20.tscn",
       "dependencies": [
         "kit-wall-straight"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 439
     },
     {
@@ -6531,13 +6531,13 @@
       "phase": 4,
       "region": "공용",
       "deliverable": "실내 배치도·공용 부품 조립",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/interior-21.tscn",
       "dependencies": [
         "kit-wall-straight"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 440
     },
     {
@@ -6547,13 +6547,13 @@
       "phase": 4,
       "region": "공용",
       "deliverable": "실내 배치도·공용 부품 조립",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/interior-22.tscn",
       "dependencies": [
         "kit-wall-straight"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 441
     },
     {
@@ -6563,11 +6563,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/prop-1-01.tscn",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 442
     },
     {
@@ -6577,11 +6577,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/prop-1-02.tscn",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 443
     },
     {
@@ -6591,11 +6591,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/prop-1-03.tscn",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 444
     },
     {
@@ -6605,11 +6605,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/prop-1-04.tscn",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 445
     },
     {
@@ -6619,11 +6619,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/prop-1-05.tscn",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 446
     },
     {
@@ -6633,11 +6633,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/prop-1-06.tscn",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 447
     },
     {
@@ -6647,11 +6647,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/prop-1-07.tscn",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 448
     },
     {
@@ -6661,11 +6661,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/prop-1-08.tscn",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 449
     },
     {
@@ -6675,11 +6675,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/prop-1-09.tscn",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 450
     },
     {
@@ -6689,11 +6689,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/prop-1-10.tscn",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 451
     },
     {
@@ -6703,11 +6703,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/prop-1-11.tscn",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 452
     },
     {
@@ -6717,11 +6717,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/prop-1-12.tscn",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 453
     },
     {
@@ -6731,11 +6731,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/prop-1-13.tscn",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 454
     },
     {
@@ -6745,11 +6745,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/prop-1-14.tscn",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 455
     },
     {
@@ -6759,11 +6759,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/prop-1-15.tscn",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 456
     },
     {
@@ -6773,11 +6773,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/prop-1-16.tscn",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 457
     },
     {
@@ -6787,11 +6787,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/prop-1-17.tscn",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 458
     },
     {
@@ -6801,11 +6801,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/prop-1-18.tscn",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 459
     },
     {
@@ -6815,11 +6815,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/prop-1-19.tscn",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 460
     },
     {
@@ -6829,11 +6829,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/interiors/prop-1-20.tscn",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 461
     },
     {
@@ -34545,11 +34545,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-0-01.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2250
     },
     {
@@ -34559,11 +34559,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-0-02.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2251
     },
     {
@@ -34573,11 +34573,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-0-03.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2252
     },
     {
@@ -34587,11 +34587,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-0-04.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2253
     },
     {
@@ -34601,11 +34601,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-0-05.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2254
     },
     {
@@ -34615,11 +34615,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-0-06.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2255
     },
     {
@@ -34629,11 +34629,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-0-07.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2256
     },
     {
@@ -34643,11 +34643,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-0-08.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2257
     },
     {
@@ -34657,11 +34657,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-0-09.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2258
     },
     {
@@ -34671,11 +34671,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-0-10.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2259
     },
     {
@@ -34685,11 +34685,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-0-11.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2260
     },
     {
@@ -34699,11 +34699,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-0-12.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2261
     },
     {
@@ -34713,11 +34713,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-0-13.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2262
     },
     {
@@ -34727,11 +34727,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-0-14.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2263
     },
     {
@@ -34741,11 +34741,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-0-15.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2264
     },
     {
@@ -34755,11 +34755,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-0-16.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2265
     },
     {
@@ -34769,11 +34769,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-0-17.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2266
     },
     {
@@ -34783,11 +34783,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-1-01.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2267
     },
     {
@@ -34797,11 +34797,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-1-02.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2268
     },
     {
@@ -34811,11 +34811,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-1-03.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2269
     },
     {
@@ -34825,11 +34825,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-1-04.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2270
     },
     {
@@ -34839,11 +34839,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-1-05.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2271
     },
     {
@@ -34853,11 +34853,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-1-06.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2272
     },
     {
@@ -34867,11 +34867,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-1-07.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2273
     },
     {
@@ -34881,11 +34881,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-1-08.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2274
     },
     {
@@ -34895,11 +34895,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-1-09.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2275
     },
     {
@@ -34909,11 +34909,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-1-10.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2276
     },
     {
@@ -34923,11 +34923,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-1-11.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2277
     },
     {
@@ -34937,11 +34937,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "프레임·연출 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/vfx/presentation-1-12.tscn",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2278
     },
     {
@@ -35651,11 +35651,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-01.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2329
     },
     {
@@ -35665,11 +35665,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-02.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2330
     },
     {
@@ -35679,11 +35679,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-03.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2331
     },
     {
@@ -35693,11 +35693,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-04.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2332
     },
     {
@@ -35707,11 +35707,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-05.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2333
     },
     {
@@ -35721,11 +35721,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-06.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2334
     },
     {
@@ -35735,11 +35735,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-07.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2335
     },
     {
@@ -35749,11 +35749,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-08.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2336
     },
     {
@@ -35763,11 +35763,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-09.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2337
     },
     {
@@ -35777,11 +35777,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-10.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2338
     },
     {
@@ -35791,11 +35791,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-11.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2339
     },
     {
@@ -35805,11 +35805,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-12.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2340
     },
     {
@@ -35819,11 +35819,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-13.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2341
     },
     {
@@ -35833,11 +35833,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-14.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2342
     },
     {
@@ -35847,11 +35847,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-15.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2343
     },
     {
@@ -35861,11 +35861,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-16.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2344
     },
     {
@@ -35875,11 +35875,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-17.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2345
     },
     {
@@ -35889,11 +35889,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-18.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2346
     },
     {
@@ -35903,11 +35903,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-19.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2347
     },
     {
@@ -35917,11 +35917,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-20.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2348
     },
     {
@@ -35931,11 +35931,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-21.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2349
     },
     {
@@ -35945,11 +35945,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-22.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2350
     },
     {
@@ -35959,11 +35959,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-23.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2351
     },
     {
@@ -35973,11 +35973,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-24.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2352
     },
     {
@@ -35987,11 +35987,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-25.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2353
     },
     {
@@ -36001,11 +36001,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-26.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2354
     },
     {
@@ -36015,11 +36015,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-27.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2355
     },
     {
@@ -36029,11 +36029,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-28.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2356
     },
     {
@@ -36043,11 +36043,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-29.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2357
     },
     {
@@ -36057,11 +36057,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-30.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2358
     },
     {
@@ -36071,11 +36071,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-31.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2359
     },
     {
@@ -36085,11 +36085,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-32.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2360
     },
     {
@@ -36099,11 +36099,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-33.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2361
     },
     {
@@ -36113,11 +36113,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-34.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2362
     },
     {
@@ -36127,11 +36127,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-35.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2363
     },
     {
@@ -36141,11 +36141,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-36.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2364
     },
     {
@@ -36155,11 +36155,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-37.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2365
     },
     {
@@ -36169,11 +36169,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-38.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2366
     },
     {
@@ -36183,11 +36183,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-39.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2367
     },
     {
@@ -36197,11 +36197,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-0-40.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2368
     },
     {
@@ -36211,11 +36211,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-1-01.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2369
     },
     {
@@ -36225,11 +36225,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-1-02.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2370
     },
     {
@@ -36239,11 +36239,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-1-03.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2371
     },
     {
@@ -36253,11 +36253,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-1-04.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2372
     },
     {
@@ -36267,11 +36267,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-1-05.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2373
     },
     {
@@ -36281,11 +36281,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-1-06.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2374
     },
     {
@@ -36295,11 +36295,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-1-07.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2375
     },
     {
@@ -36309,11 +36309,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-1-08.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2376
     },
     {
@@ -36323,11 +36323,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-1-09.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2377
     },
     {
@@ -36337,11 +36337,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-1-10.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2378
     },
     {
@@ -36351,11 +36351,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-1-11.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2379
     },
     {
@@ -36365,11 +36365,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-1-12.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2380
     },
     {
@@ -36379,11 +36379,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-1-13.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2381
     },
     {
@@ -36393,11 +36393,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-1-14.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2382
     },
     {
@@ -36407,11 +36407,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-1-15.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2383
     },
     {
@@ -36421,11 +36421,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-1-16.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2384
     },
     {
@@ -36435,11 +36435,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-1-17.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2385
     },
     {
@@ -36449,11 +36449,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-2-01.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2386
     },
     {
@@ -36463,11 +36463,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-2-02.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2387
     },
     {
@@ -36477,11 +36477,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-2-03.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2388
     },
     {
@@ -36491,11 +36491,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-2-04.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2389
     },
     {
@@ -36505,11 +36505,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-2-05.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2390
     },
     {
@@ -36519,11 +36519,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-2-06.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2391
     },
     {
@@ -36533,11 +36533,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-2-07.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2392
     },
     {
@@ -36547,11 +36547,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-2-08.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2393
     },
     {
@@ -36561,11 +36561,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-2-09.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2394
     },
     {
@@ -36575,11 +36575,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-2-10.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2395
     },
     {
@@ -36589,11 +36589,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-2-11.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2396
     },
     {
@@ -36603,11 +36603,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-2-12.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2397
     },
     {
@@ -36617,11 +36617,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-2-13.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2398
     },
     {
@@ -36631,11 +36631,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-2-14.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2399
     },
     {
@@ -36645,11 +36645,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-2-15.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2400
     },
     {
@@ -36659,11 +36659,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-2-16.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2401
     },
     {
@@ -36673,11 +36673,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-2-17.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2402
     },
     {
@@ -36687,11 +36687,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-2-18.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2403
     },
     {
@@ -36701,11 +36701,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-2-19.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2404
     },
     {
@@ -36715,11 +36715,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-2-20.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2405
     },
     {
@@ -36729,11 +36729,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-2-21.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2406
     },
     {
@@ -36743,11 +36743,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-2-22.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2407
     },
     {
@@ -36757,11 +36757,11 @@
       "phase": 12,
       "region": "공용",
       "deliverable": "WAV 원본·게임용 변환",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/audio/audio-2-23.wav",
       "dependencies": [],
-      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외.",
+      "notes": "음향·음악은 이미지 생성 대상 아님. 별도 음원 제작·청취·루프 검증 필요. 성우 음성은 범위 제외. 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2408
     },
     {

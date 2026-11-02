@@ -1,0 +1,208 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/wood.tres" id="m1"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/linen.tres" id="m2"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/blue.tres" id="m3"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/trim.tres" id="m4"]
+
+[sub_resource type="BoxMesh" id="r1"]
+size = Vector3(1.15, 0.18, 2)
+
+[sub_resource type="BoxMesh" id="r2"]
+size = Vector3(1.05, 0.18, 1.88)
+
+[sub_resource type="BoxMesh" id="r3"]
+size = Vector3(1.06, 0.06, 1.2)
+
+[sub_resource type="BoxMesh" id="r4"]
+size = Vector3(0.72, 0.16, 0.4)
+
+[sub_resource type="BoxMesh" id="r5"]
+size = Vector3(1.2, 0.5, 0.12)
+
+[sub_resource type="BoxMesh" id="r6"]
+size = Vector3(1.2, 0.5, 0.12)
+
+[sub_resource type="BoxMesh" id="r7"]
+size = Vector3(1.15, 0.18, 2)
+
+[sub_resource type="BoxMesh" id="r8"]
+size = Vector3(1.05, 0.18, 1.88)
+
+[sub_resource type="BoxMesh" id="r9"]
+size = Vector3(1.06, 0.06, 1.2)
+
+[sub_resource type="BoxMesh" id="r10"]
+size = Vector3(0.72, 0.16, 0.4)
+
+[sub_resource type="BoxMesh" id="r11"]
+size = Vector3(1.2, 0.5, 0.12)
+
+[sub_resource type="BoxMesh" id="r12"]
+size = Vector3(1.2, 0.5, 0.12)
+
+[sub_resource type="BoxMesh" id="r13"]
+size = Vector3(0.1, 2.1, 0.1)
+
+[sub_resource type="BoxMesh" id="r14"]
+size = Vector3(0.1, 2.1, 0.1)
+
+[sub_resource type="BoxMesh" id="r15"]
+size = Vector3(0.1, 2.1, 0.1)
+
+[sub_resource type="BoxMesh" id="r16"]
+size = Vector3(0.1, 2.1, 0.1)
+
+[sub_resource type="BoxMesh" id="r17"]
+size = Vector3(0.36, 0.06, 0.06)
+
+[sub_resource type="BoxMesh" id="r18"]
+size = Vector3(0.36, 0.06, 0.06)
+
+[sub_resource type="BoxMesh" id="r19"]
+size = Vector3(0.36, 0.06, 0.06)
+
+[sub_resource type="BoxMesh" id="r20"]
+size = Vector3(0.36, 0.06, 0.06)
+
+[sub_resource type="BoxMesh" id="r21"]
+size = Vector3(0.36, 0.06, 0.06)
+
+[sub_resource type="BoxMesh" id="r22"]
+size = Vector3(0.06, 1.7, 0.06)
+
+[sub_resource type="BoxMesh" id="r23"]
+size = Vector3(0.06, 1.7, 0.06)
+
+[sub_resource type="BoxShape3D" id="r24"]
+size = Vector3(1.2, 1.9, 2.05)
+
+[node name="prop_1_02" type="Node3D"]
+metadata/asset_id = "prop-1-02"
+metadata/display_name = "이층 침대"
+metadata/grid_obstacles = [[-0.6, -1.025, 1.2, 2.05]]
+metadata/origin = "ground center; entry +Z"
+
+[node name="Frame0" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.35, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+
+[node name="Mattress0" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.52, 0)
+mesh = SubResource("r2")
+material_override = ExtResource("m2")
+
+[node name="Blanket0" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.63, 0.3)
+mesh = SubResource("r3")
+material_override = ExtResource("m3")
+
+[node name="Pillow0" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.65, -0.65)
+mesh = SubResource("r4")
+material_override = ExtResource("m2")
+
+[node name="Rail0-0.98" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.55, -0.98)
+mesh = SubResource("r5")
+material_override = ExtResource("m1")
+
+[node name="Rail00.98" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.55, 0.98)
+mesh = SubResource("r6")
+material_override = ExtResource("m1")
+
+[node name="Frame1.25" type="MeshInstance3D" parent="."]
+position = Vector3(0, 1.6, 0)
+mesh = SubResource("r7")
+material_override = ExtResource("m1")
+
+[node name="Mattress1.25" type="MeshInstance3D" parent="."]
+position = Vector3(0, 1.77, 0)
+mesh = SubResource("r8")
+material_override = ExtResource("m2")
+
+[node name="Blanket1.25" type="MeshInstance3D" parent="."]
+position = Vector3(0, 1.88, 0.3)
+mesh = SubResource("r9")
+material_override = ExtResource("m3")
+
+[node name="Pillow1.25" type="MeshInstance3D" parent="."]
+position = Vector3(0, 1.9, -0.65)
+mesh = SubResource("r10")
+material_override = ExtResource("m2")
+
+[node name="Rail1.25-0.98" type="MeshInstance3D" parent="."]
+position = Vector3(0, 1.8, -0.98)
+mesh = SubResource("r11")
+material_override = ExtResource("m1")
+
+[node name="Rail1.250.98" type="MeshInstance3D" parent="."]
+position = Vector3(0, 1.8, 0.98)
+mesh = SubResource("r12")
+material_override = ExtResource("m1")
+
+[node name="Post-0.55-0.94" type="MeshInstance3D" parent="."]
+position = Vector3(-0.55, 1.05, -0.94)
+mesh = SubResource("r13")
+material_override = ExtResource("m4")
+
+[node name="Post-0.550.94" type="MeshInstance3D" parent="."]
+position = Vector3(-0.55, 1.05, 0.94)
+mesh = SubResource("r14")
+material_override = ExtResource("m4")
+
+[node name="Post0.55-0.94" type="MeshInstance3D" parent="."]
+position = Vector3(0.55, 1.05, -0.94)
+mesh = SubResource("r15")
+material_override = ExtResource("m4")
+
+[node name="Post0.550.94" type="MeshInstance3D" parent="."]
+position = Vector3(0.55, 1.05, 0.94)
+mesh = SubResource("r16")
+material_override = ExtResource("m4")
+
+[node name="Rung0" type="MeshInstance3D" parent="."]
+position = Vector3(0.76, 0.25, 0.65)
+mesh = SubResource("r17")
+material_override = ExtResource("m1")
+
+[node name="Rung1" type="MeshInstance3D" parent="."]
+position = Vector3(0.76, 0.52, 0.65)
+mesh = SubResource("r18")
+material_override = ExtResource("m1")
+
+[node name="Rung2" type="MeshInstance3D" parent="."]
+position = Vector3(0.76, 0.79, 0.65)
+mesh = SubResource("r19")
+material_override = ExtResource("m1")
+
+[node name="Rung3" type="MeshInstance3D" parent="."]
+position = Vector3(0.76, 1.06, 0.65)
+mesh = SubResource("r20")
+material_override = ExtResource("m1")
+
+[node name="Rung4" type="MeshInstance3D" parent="."]
+position = Vector3(0.76, 1.33, 0.65)
+mesh = SubResource("r21")
+material_override = ExtResource("m1")
+
+[node name="Ladder0.5" type="MeshInstance3D" parent="."]
+position = Vector3(0.76, 0.85, 0.5)
+mesh = SubResource("r22")
+material_override = ExtResource("m4")
+
+[node name="Ladder0.8" type="MeshInstance3D" parent="."]
+position = Vector3(0.76, 0.85, 0.8)
+mesh = SubResource("r23")
+material_override = ExtResource("m4")
+
+[node name="Body1" type="StaticBody3D" parent="."]
+position = Vector3(0, 0.95, 0)
+
+[node name="Shape" type="CollisionShape3D" parent="Body1"]
+shape = SubResource("r24")

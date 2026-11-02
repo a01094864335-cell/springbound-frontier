@@ -1,0 +1,70 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/wood.tres" id="m1"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/linen.tres" id="m2"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/blue.tres" id="m3"]
+
+[sub_resource type="BoxMesh" id="r1"]
+size = Vector3(1.15, 0.18, 2)
+
+[sub_resource type="BoxMesh" id="r2"]
+size = Vector3(1.05, 0.18, 1.88)
+
+[sub_resource type="BoxMesh" id="r3"]
+size = Vector3(1.06, 0.06, 1.2)
+
+[sub_resource type="BoxMesh" id="r4"]
+size = Vector3(0.72, 0.16, 0.4)
+
+[sub_resource type="BoxMesh" id="r5"]
+size = Vector3(1.2, 0.5, 0.12)
+
+[sub_resource type="BoxMesh" id="r6"]
+size = Vector3(1.2, 0.5, 0.12)
+
+[sub_resource type="BoxShape3D" id="r7"]
+size = Vector3(1.2, 0.9, 2.05)
+
+[node name="prop_1_01" type="Node3D"]
+metadata/asset_id = "prop-1-01"
+metadata/display_name = "침대"
+metadata/grid_obstacles = [[-0.6, -1.025, 1.2, 2.05]]
+metadata/origin = "ground center; entry +Z"
+
+[node name="Frame0" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.35, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+
+[node name="Mattress0" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.52, 0)
+mesh = SubResource("r2")
+material_override = ExtResource("m2")
+
+[node name="Blanket0" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.63, 0.3)
+mesh = SubResource("r3")
+material_override = ExtResource("m3")
+
+[node name="Pillow0" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.65, -0.65)
+mesh = SubResource("r4")
+material_override = ExtResource("m2")
+
+[node name="Rail0-0.98" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.55, -0.98)
+mesh = SubResource("r5")
+material_override = ExtResource("m1")
+
+[node name="Rail00.98" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.55, 0.98)
+mesh = SubResource("r6")
+material_override = ExtResource("m1")
+
+[node name="Body1" type="StaticBody3D" parent="."]
+position = Vector3(0, 0.45, 0)
+
+[node name="Shape" type="CollisionShape3D" parent="Body1"]
+shape = SubResource("r7")

@@ -1,0 +1,165 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/wood.tres" id="m1"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/iron.tres" id="m2"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/linen.tres" id="m3"]
+
+[sub_resource type="BoxMesh" id="r1"]
+size = Vector3(0.08, 2, 0.08)
+
+[sub_resource type="BoxMesh" id="r2"]
+size = Vector3(0.08, 2, 0.08)
+
+[sub_resource type="BoxMesh" id="r3"]
+size = Vector3(2.05, 0.07, 0.07)
+
+[sub_resource type="BoxMesh" id="r4"]
+size = Vector3(0.12, 1.85, 0.05)
+
+[sub_resource type="BoxMesh" id="r5"]
+size = Vector3(0.12, 1.85, 0.05)
+
+[sub_resource type="BoxMesh" id="r6"]
+size = Vector3(0.12, 1.85, 0.05)
+
+[sub_resource type="BoxMesh" id="r7"]
+size = Vector3(0.12, 1.85, 0.05)
+
+[sub_resource type="BoxMesh" id="r8"]
+size = Vector3(0.12, 1.85, 0.05)
+
+[sub_resource type="BoxMesh" id="r9"]
+size = Vector3(0.12, 1.85, 0.05)
+
+[sub_resource type="BoxMesh" id="r10"]
+size = Vector3(0.12, 1.85, 0.05)
+
+[sub_resource type="BoxMesh" id="r11"]
+size = Vector3(0.12, 1.85, 0.05)
+
+[sub_resource type="BoxMesh" id="r12"]
+size = Vector3(0.12, 1.85, 0.05)
+
+[sub_resource type="BoxMesh" id="r13"]
+size = Vector3(0.12, 1.85, 0.05)
+
+[sub_resource type="BoxMesh" id="r14"]
+size = Vector3(0.12, 1.85, 0.05)
+
+[sub_resource type="BoxMesh" id="r15"]
+size = Vector3(0.12, 1.85, 0.05)
+
+[sub_resource type="BoxMesh" id="r16"]
+size = Vector3(0.12, 1.85, 0.05)
+
+[sub_resource type="BoxMesh" id="r17"]
+size = Vector3(0.12, 1.85, 0.05)
+
+[sub_resource type="BoxMesh" id="r18"]
+size = Vector3(0.12, 1.85, 0.05)
+
+[sub_resource type="BoxMesh" id="r19"]
+size = Vector3(0.12, 1.85, 0.05)
+
+[node name="prop_1_16" type="Node3D"]
+metadata/asset_id = "prop-1-16"
+metadata/display_name = "커튼"
+metadata/grid_obstacles = []
+metadata/origin = "ground center; entry +Z"
+
+[node name="Pole-0.95" type="MeshInstance3D" parent="."]
+position = Vector3(-0.95, 1, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+
+[node name="Pole0.95" type="MeshInstance3D" parent="."]
+position = Vector3(0.95, 1, 0)
+mesh = SubResource("r2")
+material_override = ExtResource("m1")
+
+[node name="Rod" type="MeshInstance3D" parent="."]
+position = Vector3(0, 2.02, 0)
+mesh = SubResource("r3")
+material_override = ExtResource("m2")
+
+[node name="Cloth0" type="MeshInstance3D" parent="."]
+position = Vector3(-0.88, 1.02, -0.03)
+mesh = SubResource("r4")
+material_override = ExtResource("m3")
+
+[node name="Cloth1" type="MeshInstance3D" parent="."]
+position = Vector3(-0.763, 1.02, 0.03)
+mesh = SubResource("r5")
+material_override = ExtResource("m3")
+
+[node name="Cloth2" type="MeshInstance3D" parent="."]
+position = Vector3(-0.646, 1.02, -0.03)
+mesh = SubResource("r6")
+material_override = ExtResource("m3")
+
+[node name="Cloth3" type="MeshInstance3D" parent="."]
+position = Vector3(-0.529, 1.02, 0.03)
+mesh = SubResource("r7")
+material_override = ExtResource("m3")
+
+[node name="Cloth4" type="MeshInstance3D" parent="."]
+position = Vector3(-0.412, 1.02, -0.03)
+mesh = SubResource("r8")
+material_override = ExtResource("m3")
+
+[node name="Cloth5" type="MeshInstance3D" parent="."]
+position = Vector3(-0.295, 1.02, 0.03)
+mesh = SubResource("r9")
+material_override = ExtResource("m3")
+
+[node name="Cloth6" type="MeshInstance3D" parent="."]
+position = Vector3(-0.178, 1.02, -0.03)
+mesh = SubResource("r10")
+material_override = ExtResource("m3")
+
+[node name="Cloth7" type="MeshInstance3D" parent="."]
+position = Vector3(-0.061, 1.02, 0.03)
+mesh = SubResource("r11")
+material_override = ExtResource("m3")
+
+[node name="Cloth8" type="MeshInstance3D" parent="."]
+position = Vector3(0.056, 1.02, -0.03)
+mesh = SubResource("r12")
+material_override = ExtResource("m3")
+
+[node name="Cloth9" type="MeshInstance3D" parent="."]
+position = Vector3(0.173, 1.02, 0.03)
+mesh = SubResource("r13")
+material_override = ExtResource("m3")
+
+[node name="Cloth10" type="MeshInstance3D" parent="."]
+position = Vector3(0.29, 1.02, -0.03)
+mesh = SubResource("r14")
+material_override = ExtResource("m3")
+
+[node name="Cloth11" type="MeshInstance3D" parent="."]
+position = Vector3(0.407, 1.02, 0.03)
+mesh = SubResource("r15")
+material_override = ExtResource("m3")
+
+[node name="Cloth12" type="MeshInstance3D" parent="."]
+position = Vector3(0.524, 1.02, -0.03)
+mesh = SubResource("r16")
+material_override = ExtResource("m3")
+
+[node name="Cloth13" type="MeshInstance3D" parent="."]
+position = Vector3(0.641, 1.02, 0.03)
+mesh = SubResource("r17")
+material_override = ExtResource("m3")
+
+[node name="Cloth14" type="MeshInstance3D" parent="."]
+position = Vector3(0.758, 1.02, -0.03)
+mesh = SubResource("r18")
+material_override = ExtResource("m3")
+
+[node name="Cloth15" type="MeshInstance3D" parent="."]
+position = Vector3(0.875, 1.02, 0.03)
+mesh = SubResource("r19")
+material_override = ExtResource("m3")

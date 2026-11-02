@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3]
+[ext_resource type="Shader" path="res://assets/production/vfx/effect.gdshader" id="1"]
+[ext_resource type="Script" path="res://assets/production/vfx/effect_player.gd" id="2"]
+[sub_resource type="ShaderMaterial" id="Material"]
+resource_local_to_scene = true
+shader = ExtResource("1")
+shader_parameter/effect = 8
+shader_parameter/tint = Color(0.5137254901960784, 0.6078431372549019, 0.6784313725490196, 0.8)
+shader_parameter/density = 5
+[sub_resource type="QuadMesh" id="Quad"]
+size = Vector2(14, 10)
+[node name="presentation_1_02" type="Node3D"]
+script = ExtResource("2")
+duration = 2
+loop = true
+metadata/asset_id = "presentation-1-02"
+metadata/display_name = "비 내림"
+[node name="Visual" type="MeshInstance3D" parent="."]
+position = Vector3(0, 5.0, 0)
+mesh = SubResource("Quad")
+material_override = SubResource("Material")
+cast_shadow = 0

@@ -1,0 +1,486 @@
+{
+  "count": 80,
+  "passed": true,
+  "checks": [
+    {
+      "id": "audio-0-01",
+      "peak": 0.3682861328125,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-02",
+      "peak": 0.42120361328125,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-03",
+      "peak": 0.36737060546875,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-04",
+      "peak": 0.42730712890625,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-05",
+      "peak": 0.3953857421875,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-06",
+      "peak": 0.235137939453125,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-07",
+      "peak": 0.349456787109375,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-08",
+      "peak": 0.270660400390625,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-09",
+      "peak": 0.349151611328125,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-10",
+      "peak": 0.493011474609375,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-11",
+      "peak": 0.7281494140625,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-12",
+      "peak": 0.7569580078125,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-13",
+      "peak": 0.71630859375,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-14",
+      "peak": 0.784515380859375,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-15",
+      "peak": 0.474151611328125,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-16",
+      "peak": 0.47418212890625,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-17",
+      "peak": 0.446319580078125,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-18",
+      "peak": 0.4476318359375,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-19",
+      "peak": 0.458526611328125,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-20",
+      "peak": 0.241943359375,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-21",
+      "peak": 0.2752685546875,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-22",
+      "peak": 0.44720458984375,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-23",
+      "peak": 0.273284912109375,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-24",
+      "peak": 0.271270751953125,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-25",
+      "peak": 0.257568359375,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-26",
+      "peak": 0.31298828125,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-27",
+      "peak": 0.29339599609375,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-28",
+      "peak": 0.2762451171875,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-29",
+      "peak": 0.295501708984375,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-30",
+      "peak": 0.470550537109375,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-31",
+      "peak": 0.474151611328125,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-32",
+      "peak": 0.4697265625,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-33",
+      "peak": 0.471343994140625,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-34",
+      "peak": 0.4713134765625,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-35",
+      "peak": 0.468963623046875,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-36",
+      "peak": 0.474151611328125,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-37",
+      "peak": 0.470611572265625,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-38",
+      "peak": 0.21209716796875,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-39",
+      "peak": 0.25994873046875,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-0-40",
+      "peak": 0.210174560546875,
+      "edge_jump": 0.0,
+      "loop": false
+    },
+    {
+      "id": "audio-1-01",
+      "peak": 0.218292236328125,
+      "edge_jump": 0.0040283203125,
+      "loop": true
+    },
+    {
+      "id": "audio-1-02",
+      "peak": 0.237152099609375,
+      "edge_jump": 0.004119873046875,
+      "loop": true
+    },
+    {
+      "id": "audio-1-03",
+      "peak": 0.253662109375,
+      "edge_jump": 0.007781982421875,
+      "loop": true
+    },
+    {
+      "id": "audio-1-04",
+      "peak": 0.2542724609375,
+      "edge_jump": 0.0093994140625,
+      "loop": true
+    },
+    {
+      "id": "audio-1-05",
+      "peak": 0.120849609375,
+      "edge_jump": 0.00115966796875,
+      "loop": true
+    },
+    {
+      "id": "audio-1-06",
+      "peak": 0.146331787109375,
+      "edge_jump": 0.001068115234375,
+      "loop": true
+    },
+    {
+      "id": "audio-1-07",
+      "peak": 0.229400634765625,
+      "edge_jump": 0.00677490234375,
+      "loop": true
+    },
+    {
+      "id": "audio-1-08",
+      "peak": 0.2716064453125,
+      "edge_jump": 0.0244140625,
+      "loop": true
+    },
+    {
+      "id": "audio-1-09",
+      "peak": 0.132171630859375,
+      "edge_jump": 0.001861572265625,
+      "loop": true
+    },
+    {
+      "id": "audio-1-10",
+      "peak": 0.121673583984375,
+      "edge_jump": 0.00067138671875,
+      "loop": true
+    },
+    {
+      "id": "audio-1-11",
+      "peak": 0.235748291015625,
+      "edge_jump": 0.00048828125,
+      "loop": true
+    },
+    {
+      "id": "audio-1-12",
+      "peak": 0.11761474609375,
+      "edge_jump": 0.00262451171875,
+      "loop": true
+    },
+    {
+      "id": "audio-1-13",
+      "peak": 0.298858642578125,
+      "edge_jump": 0.020172119140625,
+      "loop": true
+    },
+    {
+      "id": "audio-1-14",
+      "peak": 0.22760009765625,
+      "edge_jump": 0.00634765625,
+      "loop": true
+    },
+    {
+      "id": "audio-1-15",
+      "peak": 0.141326904296875,
+      "edge_jump": 0.007171630859375,
+      "loop": true
+    },
+    {
+      "id": "audio-1-16",
+      "peak": 0.127593994140625,
+      "edge_jump": 0.004302978515625,
+      "loop": true
+    },
+    {
+      "id": "audio-1-17",
+      "peak": 0.129486083984375,
+      "edge_jump": 0.0025634765625,
+      "loop": true
+    },
+    {
+      "id": "audio-2-01",
+      "peak": 0.3038330078125,
+      "edge_jump": 0.002044677734375,
+      "loop": true
+    },
+    {
+      "id": "audio-2-02",
+      "peak": 0.306365966796875,
+      "edge_jump": 0.002227783203125,
+      "loop": true
+    },
+    {
+      "id": "audio-2-03",
+      "peak": 0.311737060546875,
+      "edge_jump": 0.00299072265625,
+      "loop": true
+    },
+    {
+      "id": "audio-2-04",
+      "peak": 0.294158935546875,
+      "edge_jump": 0.001678466796875,
+      "loop": true
+    },
+    {
+      "id": "audio-2-05",
+      "peak": 0.3084716796875,
+      "edge_jump": 0.00146484375,
+      "loop": true
+    },
+    {
+      "id": "audio-2-06",
+      "peak": 0.31317138671875,
+      "edge_jump": 0.004608154296875,
+      "loop": true
+    },
+    {
+      "id": "audio-2-07",
+      "peak": 0.3082275390625,
+      "edge_jump": 0.003082275390625,
+      "loop": true
+    },
+    {
+      "id": "audio-2-08",
+      "peak": 0.3365478515625,
+      "edge_jump": 0.00201416015625,
+      "loop": true
+    },
+    {
+      "id": "audio-2-09",
+      "peak": 0.309722900390625,
+      "edge_jump": 0.001373291015625,
+      "loop": true
+    },
+    {
+      "id": "audio-2-10",
+      "peak": 0.282867431640625,
+      "edge_jump": 0.001617431640625,
+      "loop": true
+    },
+    {
+      "id": "audio-2-11",
+      "peak": 0.3270263671875,
+      "edge_jump": 0.00146484375,
+      "loop": true
+    },
+    {
+      "id": "audio-2-12",
+      "peak": 0.29034423828125,
+      "edge_jump": 0.00140380859375,
+      "loop": true
+    },
+    {
+      "id": "audio-2-13",
+      "peak": 0.313446044921875,
+      "edge_jump": 0.005615234375,
+      "loop": true
+    },
+    {
+      "id": "audio-2-14",
+      "peak": 0.306182861328125,
+      "edge_jump": 0.001800537109375,
+      "loop": true
+    },
+    {
+      "id": "audio-2-15",
+      "peak": 0.34521484375,
+      "edge_jump": 0.003326416015625,
+      "loop": true
+    },
+    {
+      "id": "audio-2-16",
+      "peak": 0.358306884765625,
+      "edge_jump": 0.00189208984375,
+      "loop": true
+    },
+    {
+      "id": "audio-2-17",
+      "peak": 0.355010986328125,
+      "edge_jump": 0.00146484375,
+      "loop": true
+    },
+    {
+      "id": "audio-2-18",
+      "peak": 0.330657958984375,
+      "edge_jump": 0.001953125,
+      "loop": true
+    },
+    {
+      "id": "audio-2-19",
+      "peak": 0.352630615234375,
+      "edge_jump": 0.002105712890625,
+      "loop": true
+    },
+    {
+      "id": "audio-2-20",
+      "peak": 0.340728759765625,
+      "edge_jump": 0.002166748046875,
+      "loop": true
+    },
+    {
+      "id": "audio-2-21",
+      "peak": 0.301025390625,
+      "edge_jump": 0.00048828125,
+      "loop": true
+    },
+    {
+      "id": "audio-2-22",
+      "peak": 0.3099365234375,
+      "edge_jump": 0.002105712890625,
+      "loop": true
+    },
+    {
+      "id": "audio-2-23",
+      "peak": 0.293975830078125,
+      "edge_jump": 0.001373291015625,
+      "loop": true
+    }
+  ]
+}
