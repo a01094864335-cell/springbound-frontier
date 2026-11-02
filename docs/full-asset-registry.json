@@ -3320,9 +3320,9 @@
       "phase": 3,
       "region": "서리골",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-frost-1-board-v1.png",
       "dependencies": [
         "map-frost"
       ],
@@ -3336,9 +3336,9 @@
       "phase": 3,
       "region": "서리골",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-frost-2-board-v1.png",
       "dependencies": [
         "map-frost"
       ],
@@ -3352,9 +3352,9 @@
       "phase": 3,
       "region": "서리골",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-frost-3-board-v1.png",
       "dependencies": [
         "map-frost"
       ],
@@ -3368,9 +3368,9 @@
       "phase": 3,
       "region": "서리골",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-frost-4-board-v1.png",
       "dependencies": [
         "map-frost"
       ],
@@ -3384,9 +3384,9 @@
       "phase": 3,
       "region": "서리골",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-frost-5-board-v1.png",
       "dependencies": [
         "map-frost"
       ],
@@ -3502,9 +3502,9 @@
       "phase": 3,
       "region": "돌샘·국경 연락소",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-border-1-board-v1.png",
       "dependencies": [
         "map-border"
       ],
@@ -3518,9 +3518,9 @@
       "phase": 3,
       "region": "돌샘·국경 연락소",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-border-2-board-v1.png",
       "dependencies": [
         "map-border"
       ],
@@ -3534,9 +3534,9 @@
       "phase": 3,
       "region": "돌샘·국경 연락소",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-border-3-board-v1.png",
       "dependencies": [
         "map-border"
       ],
@@ -3550,9 +3550,9 @@
       "phase": 3,
       "region": "돌샘·국경 연락소",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-border-4-board-v1.png",
       "dependencies": [
         "map-border"
       ],
@@ -3566,9 +3566,9 @@
       "phase": 3,
       "region": "돌샘·국경 연락소",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-border-5-board-v1.png",
       "dependencies": [
         "map-border"
       ],
@@ -3667,9 +3667,9 @@
       "phase": 3,
       "region": "피난 교량",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-refugee-1-board-v1.png",
       "dependencies": [
         "map-refugee"
       ],
@@ -3683,9 +3683,9 @@
       "phase": 3,
       "region": "피난 교량",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-refugee-2-board-v1.png",
       "dependencies": [
         "map-refugee"
       ],
@@ -3699,9 +3699,9 @@
       "phase": 3,
       "region": "피난 교량",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-refugee-3-board-v1.png",
       "dependencies": [
         "map-refugee"
       ],
@@ -3715,9 +3715,9 @@
       "phase": 3,
       "region": "피난 교량",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-refugee-4-board-v1.png",
       "dependencies": [
         "map-refugee"
       ],
@@ -3731,9 +3731,9 @@
       "phase": 3,
       "region": "피난 교량",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-refugee-5-board-v1.png",
       "dependencies": [
         "map-refugee"
       ],
@@ -3900,9 +3900,9 @@
       "phase": 3,
       "region": "아르덴 왕도",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-capital-1-board-v1.png",
       "dependencies": [
         "map-capital"
       ],
@@ -3916,9 +3916,9 @@
       "phase": 3,
       "region": "아르덴 왕도",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-capital-2-board-v1.png",
       "dependencies": [
         "map-capital"
       ],
@@ -3932,9 +3932,9 @@
       "phase": 3,
       "region": "아르덴 왕도",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-capital-3-board-v1.png",
       "dependencies": [
         "map-capital"
       ],
@@ -3948,9 +3948,9 @@
       "phase": 3,
       "region": "아르덴 왕도",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-capital-4-board-v1.png",
       "dependencies": [
         "map-capital"
       ],
@@ -3964,9 +3964,9 @@
       "phase": 3,
       "region": "아르덴 왕도",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-capital-5-board-v1.png",
       "dependencies": [
         "map-capital"
       ],
@@ -4099,9 +4099,9 @@
       "phase": 3,
       "region": "남방 학술도시",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-academy-1-board-v1.png",
       "dependencies": [
         "map-academy"
       ],
@@ -4115,9 +4115,9 @@
       "phase": 3,
       "region": "남방 학술도시",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-academy-2-board-v1.png",
       "dependencies": [
         "map-academy"
       ],
@@ -4131,9 +4131,9 @@
       "phase": 3,
       "region": "남방 학술도시",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-academy-3-board-v1.png",
       "dependencies": [
         "map-academy"
       ],
@@ -4147,9 +4147,9 @@
       "phase": 3,
       "region": "남방 학술도시",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-academy-4-board-v1.png",
       "dependencies": [
         "map-academy"
       ],
@@ -4163,9 +4163,9 @@
       "phase": 3,
       "region": "남방 학술도시",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-academy-5-board-v1.png",
       "dependencies": [
         "map-academy"
       ],
@@ -4298,9 +4298,9 @@
       "phase": 3,
       "region": "남방 항구",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-south-port-1-board-v1.png",
       "dependencies": [
         "map-south-port"
       ],
@@ -4314,9 +4314,9 @@
       "phase": 3,
       "region": "남방 항구",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-south-port-2-board-v1.png",
       "dependencies": [
         "map-south-port"
       ],
@@ -4330,9 +4330,9 @@
       "phase": 3,
       "region": "남방 항구",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-south-port-3-board-v1.png",
       "dependencies": [
         "map-south-port"
       ],
@@ -4346,9 +4346,9 @@
       "phase": 3,
       "region": "남방 항구",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-south-port-4-board-v1.png",
       "dependencies": [
         "map-south-port"
       ],
@@ -4362,9 +4362,9 @@
       "phase": 3,
       "region": "남방 항구",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-south-port-5-board-v1.png",
       "dependencies": [
         "map-south-port"
       ],
@@ -4463,9 +4463,9 @@
       "phase": 3,
       "region": "북방 시설",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-north-1-board-v1.png",
       "dependencies": [
         "map-north"
       ],
@@ -4479,9 +4479,9 @@
       "phase": 3,
       "region": "북방 시설",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-north-2-board-v1.png",
       "dependencies": [
         "map-north"
       ],
@@ -4495,9 +4495,9 @@
       "phase": 3,
       "region": "북방 시설",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-north-3-board-v1.png",
       "dependencies": [
         "map-north"
       ],
@@ -4511,9 +4511,9 @@
       "phase": 3,
       "region": "북방 시설",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-north-4-board-v1.png",
       "dependencies": [
         "map-north"
       ],
@@ -4527,9 +4527,9 @@
       "phase": 3,
       "region": "북방 시설",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-north-5-board-v1.png",
       "dependencies": [
         "map-north"
       ],
@@ -4645,9 +4645,9 @@
       "phase": 3,
       "region": "해양국 항만 도시",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-sea-1-board-v1.png",
       "dependencies": [
         "map-sea"
       ],
@@ -4661,9 +4661,9 @@
       "phase": 3,
       "region": "해양국 항만 도시",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-sea-2-board-v1.png",
       "dependencies": [
         "map-sea"
       ],
@@ -4677,9 +4677,9 @@
       "phase": 3,
       "region": "해양국 항만 도시",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-sea-3-board-v1.png",
       "dependencies": [
         "map-sea"
       ],
@@ -4693,9 +4693,9 @@
       "phase": 3,
       "region": "해양국 항만 도시",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-sea-4-board-v1.png",
       "dependencies": [
         "map-sea"
       ],
@@ -4709,9 +4709,9 @@
       "phase": 3,
       "region": "해양국 항만 도시",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-sea-5-board-v1.png",
       "dependencies": [
         "map-sea"
       ],
@@ -4827,9 +4827,9 @@
       "phase": 3,
       "region": "교단 성역",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-sanctuary-1-board-v1.png",
       "dependencies": [
         "map-sanctuary"
       ],
@@ -4843,9 +4843,9 @@
       "phase": 3,
       "region": "교단 성역",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-sanctuary-2-board-v1.png",
       "dependencies": [
         "map-sanctuary"
       ],
@@ -4859,9 +4859,9 @@
       "phase": 3,
       "region": "교단 성역",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-sanctuary-3-board-v1.png",
       "dependencies": [
         "map-sanctuary"
       ],
@@ -4875,9 +4875,9 @@
       "phase": 3,
       "region": "교단 성역",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-sanctuary-4-board-v1.png",
       "dependencies": [
         "map-sanctuary"
       ],
@@ -4891,9 +4891,9 @@
       "phase": 3,
       "region": "교단 성역",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-sanctuary-5-board-v1.png",
       "dependencies": [
         "map-sanctuary"
       ],
@@ -4992,9 +4992,9 @@
       "phase": 3,
       "region": "고대 중추",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-core-1-board-v1.png",
       "dependencies": [
         "map-core"
       ],
@@ -5008,9 +5008,9 @@
       "phase": 3,
       "region": "고대 중추",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-core-2-board-v1.png",
       "dependencies": [
         "map-core"
       ],
@@ -5024,9 +5024,9 @@
       "phase": 3,
       "region": "고대 중추",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-core-3-board-v1.png",
       "dependencies": [
         "map-core"
       ],
@@ -5040,9 +5040,9 @@
       "phase": 3,
       "region": "고대 중추",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-core-4-board-v1.png",
       "dependencies": [
         "map-core"
       ],
@@ -5056,9 +5056,9 @@
       "phase": 3,
       "region": "고대 중추",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-core-5-board-v1.png",
       "dependencies": [
         "map-core"
       ],
@@ -5123,9 +5123,9 @@
       "phase": 3,
       "region": "레온의 고향",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-leon-home-1-board-v1.png",
       "dependencies": [
         "map-leon-home"
       ],
@@ -5139,9 +5139,9 @@
       "phase": 3,
       "region": "레온의 고향",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-leon-home-2-board-v1.png",
       "dependencies": [
         "map-leon-home"
       ],
@@ -5155,9 +5155,9 @@
       "phase": 3,
       "region": "레온의 고향",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-leon-home-3-board-v1.png",
       "dependencies": [
         "map-leon-home"
       ],
@@ -5171,9 +5171,9 @@
       "phase": 3,
       "region": "레온의 고향",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-leon-home-4-board-v1.png",
       "dependencies": [
         "map-leon-home"
       ],
@@ -5187,9 +5187,9 @@
       "phase": 3,
       "region": "레온의 고향",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
+      "design_status": "외형 시안 제작",
       "runtime_status": "미연결",
-      "source": "",
+      "source": "assets/world-production/district-leon-home-5-board-v1.png",
       "dependencies": [
         "map-leon-home"
       ],

@@ -232,32 +232,32 @@
 231,building-frost-03,서리골 마을 상점,건물·시설,3,서리골,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-frost-03-board-v1.png,map-frost | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 232,building-frost-04,서리골 공용 창고,건물·시설,3,서리골,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-frost-04-board-v1.png,map-frost | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 233,building-frost-05,서리골 마을 입구,건물·시설,3,서리골,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-frost-05-board-v1.png,map-frost | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
-234,district-frost-1,서리골 광장 바닥,지역 환경 변형,3,서리골,개별 외형 보드 → 제작용 파일,대기,미연결,,map-frost,
-235,district-frost-2,서리골 주요 길,지역 환경 변형,3,서리골,개별 외형 보드 → 제작용 파일,대기,미연결,,map-frost,
-236,district-frost-3,서리골 지역 표지,지역 환경 변형,3,서리골,개별 외형 보드 → 제작용 파일,대기,미연결,,map-frost,
-237,district-frost-4,서리골 가로 조명,지역 환경 변형,3,서리골,개별 외형 보드 → 제작용 파일,대기,미연결,,map-frost,
-238,district-frost-5,서리골 경계 울타리,지역 환경 변형,3,서리골,개별 외형 보드 → 제작용 파일,대기,미연결,,map-frost,
+234,district-frost-1,서리골 광장 바닥,지역 환경 변형,3,서리골,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-frost-1-board-v1.png,map-frost,
+235,district-frost-2,서리골 주요 길,지역 환경 변형,3,서리골,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-frost-2-board-v1.png,map-frost,
+236,district-frost-3,서리골 지역 표지,지역 환경 변형,3,서리골,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-frost-3-board-v1.png,map-frost,
+237,district-frost-4,서리골 가로 조명,지역 환경 변형,3,서리골,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-frost-4-board-v1.png,map-frost,
+238,district-frost-5,서리골 경계 울타리,지역 환경 변형,3,서리골,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-frost-5-board-v1.png,map-frost,
 239,building-border-01,돌샘·국경 연락소 여관,건물·시설,3,돌샘·국경 연락소,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-border-01-board-v1.png,map-border | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 240,building-border-02,돌샘·국경 연락소 보급 상점,건물·시설,3,돌샘·국경 연락소,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-border-02-board-v1.png,map-border | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 241,building-border-03,돌샘·국경 연락소 진료소,건물·시설,3,돌샘·국경 연락소,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-border-03-board-v1.png,map-border | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 242,building-border-04,돌샘·국경 연락소 연락소,건물·시설,3,돌샘·국경 연락소,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-border-04-board-v1.png,map-border | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 243,building-border-05,돌샘·국경 연락소 초소,건물·시설,3,돌샘·국경 연락소,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-border-05-board-v1.png,map-border | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 244,building-border-06,돌샘·국경 연락소 훈련장,건물·시설,3,돌샘·국경 연락소,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-border-06-board-v1.png,map-border | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
-245,district-border-1,돌샘·국경 연락소 광장 바닥,지역 환경 변형,3,돌샘·국경 연락소,개별 외형 보드 → 제작용 파일,대기,미연결,,map-border,
-246,district-border-2,돌샘·국경 연락소 주요 길,지역 환경 변형,3,돌샘·국경 연락소,개별 외형 보드 → 제작용 파일,대기,미연결,,map-border,
-247,district-border-3,돌샘·국경 연락소 지역 표지,지역 환경 변형,3,돌샘·국경 연락소,개별 외형 보드 → 제작용 파일,대기,미연결,,map-border,
-248,district-border-4,돌샘·국경 연락소 가로 조명,지역 환경 변형,3,돌샘·국경 연락소,개별 외형 보드 → 제작용 파일,대기,미연결,,map-border,
-249,district-border-5,돌샘·국경 연락소 경계 울타리,지역 환경 변형,3,돌샘·국경 연락소,개별 외형 보드 → 제작용 파일,대기,미연결,,map-border,
+245,district-border-1,돌샘·국경 연락소 광장 바닥,지역 환경 변형,3,돌샘·국경 연락소,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-border-1-board-v1.png,map-border,
+246,district-border-2,돌샘·국경 연락소 주요 길,지역 환경 변형,3,돌샘·국경 연락소,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-border-2-board-v1.png,map-border,
+247,district-border-3,돌샘·국경 연락소 지역 표지,지역 환경 변형,3,돌샘·국경 연락소,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-border-3-board-v1.png,map-border,
+248,district-border-4,돌샘·국경 연락소 가로 조명,지역 환경 변형,3,돌샘·국경 연락소,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-border-4-board-v1.png,map-border,
+249,district-border-5,돌샘·국경 연락소 경계 울타리,지역 환경 변형,3,돌샘·국경 연락소,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-border-5-board-v1.png,map-border,
 250,building-refugee-01,피난 교량 교량,건물·시설,3,피난 교량,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-refugee-01-board-v1.png,map-refugee | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 251,building-refugee-02,피난 교량 검문소,건물·시설,3,피난 교량,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-refugee-02-board-v1.png,map-refugee | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 252,building-refugee-03,피난 교량 구호소,건물·시설,3,피난 교량,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-refugee-03-board-v1.png,map-refugee | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 253,building-refugee-04,피난 교량 천막,건물·시설,3,피난 교량,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-refugee-04-board-v1.png,map-refugee | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 254,building-refugee-05,피난 교량 보급소,건물·시설,3,피난 교량,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-refugee-05-board-v1.png,map-refugee | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
-255,district-refugee-1,피난 교량 광장 바닥,지역 환경 변형,3,피난 교량,개별 외형 보드 → 제작용 파일,대기,미연결,,map-refugee,
-256,district-refugee-2,피난 교량 주요 길,지역 환경 변형,3,피난 교량,개별 외형 보드 → 제작용 파일,대기,미연결,,map-refugee,
-257,district-refugee-3,피난 교량 지역 표지,지역 환경 변형,3,피난 교량,개별 외형 보드 → 제작용 파일,대기,미연결,,map-refugee,
-258,district-refugee-4,피난 교량 가로 조명,지역 환경 변형,3,피난 교량,개별 외형 보드 → 제작용 파일,대기,미연결,,map-refugee,
-259,district-refugee-5,피난 교량 경계 울타리,지역 환경 변형,3,피난 교량,개별 외형 보드 → 제작용 파일,대기,미연결,,map-refugee,
+255,district-refugee-1,피난 교량 광장 바닥,지역 환경 변형,3,피난 교량,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-refugee-1-board-v1.png,map-refugee,
+256,district-refugee-2,피난 교량 주요 길,지역 환경 변형,3,피난 교량,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-refugee-2-board-v1.png,map-refugee,
+257,district-refugee-3,피난 교량 지역 표지,지역 환경 변형,3,피난 교량,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-refugee-3-board-v1.png,map-refugee,
+258,district-refugee-4,피난 교량 가로 조명,지역 환경 변형,3,피난 교량,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-refugee-4-board-v1.png,map-refugee,
+259,district-refugee-5,피난 교량 경계 울타리,지역 환경 변형,3,피난 교량,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-refugee-5-board-v1.png,map-refugee,
 260,building-capital-01,아르덴 왕도 성문,건물·시설,3,아르덴 왕도,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-capital-01-board-v1.png,map-capital | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 261,building-capital-02,아르덴 왕도 성벽,건물·시설,3,아르덴 왕도,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-capital-02-board-v1.png,map-capital | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 262,building-capital-03,아르덴 왕도 주택,건물·시설,3,아르덴 왕도,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-capital-03-board-v1.png,map-capital | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
@@ -267,11 +267,11 @@
 266,building-capital-07,아르덴 왕도 병영,건물·시설,3,아르덴 왕도,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-capital-07-board-v1.png,map-capital | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 267,building-capital-08,아르덴 왕도 행정청,건물·시설,3,아르덴 왕도,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-capital-08-board-v1.png,map-capital | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 268,building-capital-09,아르덴 왕도 왕성 접견동,건물·시설,3,아르덴 왕도,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-capital-09-board-v1.png,map-capital | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
-269,district-capital-1,아르덴 왕도 광장 바닥,지역 환경 변형,3,아르덴 왕도,개별 외형 보드 → 제작용 파일,대기,미연결,,map-capital,
-270,district-capital-2,아르덴 왕도 주요 길,지역 환경 변형,3,아르덴 왕도,개별 외형 보드 → 제작용 파일,대기,미연결,,map-capital,
-271,district-capital-3,아르덴 왕도 지역 표지,지역 환경 변형,3,아르덴 왕도,개별 외형 보드 → 제작용 파일,대기,미연결,,map-capital,
-272,district-capital-4,아르덴 왕도 가로 조명,지역 환경 변형,3,아르덴 왕도,개별 외형 보드 → 제작용 파일,대기,미연결,,map-capital,
-273,district-capital-5,아르덴 왕도 경계 울타리,지역 환경 변형,3,아르덴 왕도,개별 외형 보드 → 제작용 파일,대기,미연결,,map-capital,
+269,district-capital-1,아르덴 왕도 광장 바닥,지역 환경 변형,3,아르덴 왕도,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-capital-1-board-v1.png,map-capital,
+270,district-capital-2,아르덴 왕도 주요 길,지역 환경 변형,3,아르덴 왕도,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-capital-2-board-v1.png,map-capital,
+271,district-capital-3,아르덴 왕도 지역 표지,지역 환경 변형,3,아르덴 왕도,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-capital-3-board-v1.png,map-capital,
+272,district-capital-4,아르덴 왕도 가로 조명,지역 환경 변형,3,아르덴 왕도,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-capital-4-board-v1.png,map-capital,
+273,district-capital-5,아르덴 왕도 경계 울타리,지역 환경 변형,3,아르덴 왕도,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-capital-5-board-v1.png,map-capital,
 274,building-academy-01,남방 학술도시 학술원,건물·시설,3,남방 학술도시,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-academy-01-board-v1.png,map-academy | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 275,building-academy-02,남방 학술도시 도서관,건물·시설,3,남방 학술도시,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-academy-02-board-v1.png,map-academy | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 276,building-academy-03,남방 학술도시 연구실 동,건물·시설,3,남방 학술도시,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-academy-03-board-v1.png,map-academy | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
@@ -279,11 +279,11 @@
 278,building-academy-05,남방 학술도시 유물 보관소,건물·시설,3,남방 학술도시,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-academy-05-board-v1.png,map-academy | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 279,building-academy-06,남방 학술도시 주택,건물·시설,3,남방 학술도시,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-academy-06-board-v1.png,map-academy | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 280,building-academy-07,남방 학술도시 여관,건물·시설,3,남방 학술도시,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-academy-07-board-v1.png,map-academy | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
-281,district-academy-1,남방 학술도시 광장 바닥,지역 환경 변형,3,남방 학술도시,개별 외형 보드 → 제작용 파일,대기,미연결,,map-academy,
-282,district-academy-2,남방 학술도시 주요 길,지역 환경 변형,3,남방 학술도시,개별 외형 보드 → 제작용 파일,대기,미연결,,map-academy,
-283,district-academy-3,남방 학술도시 지역 표지,지역 환경 변형,3,남방 학술도시,개별 외형 보드 → 제작용 파일,대기,미연결,,map-academy,
-284,district-academy-4,남방 학술도시 가로 조명,지역 환경 변형,3,남방 학술도시,개별 외형 보드 → 제작용 파일,대기,미연결,,map-academy,
-285,district-academy-5,남방 학술도시 경계 울타리,지역 환경 변형,3,남방 학술도시,개별 외형 보드 → 제작용 파일,대기,미연결,,map-academy,
+281,district-academy-1,남방 학술도시 광장 바닥,지역 환경 변형,3,남방 학술도시,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-academy-1-board-v1.png,map-academy,
+282,district-academy-2,남방 학술도시 주요 길,지역 환경 변형,3,남방 학술도시,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-academy-2-board-v1.png,map-academy,
+283,district-academy-3,남방 학술도시 지역 표지,지역 환경 변형,3,남방 학술도시,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-academy-3-board-v1.png,map-academy,
+284,district-academy-4,남방 학술도시 가로 조명,지역 환경 변형,3,남방 학술도시,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-academy-4-board-v1.png,map-academy,
+285,district-academy-5,남방 학술도시 경계 울타리,지역 환경 변형,3,남방 학술도시,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-academy-5-board-v1.png,map-academy,
 286,building-south-port-01,남방 항구 부두,건물·시설,3,남방 항구,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-south-port-01-board-v1.png,map-south-port | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 287,building-south-port-02,남방 항구 시장 점포,건물·시설,3,남방 항구,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-south-port-02-board-v1.png,map-south-port | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 288,building-south-port-03,남방 항구 선술집,건물·시설,3,남방 항구,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-south-port-03-board-v1.png,map-south-port | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
@@ -291,61 +291,61 @@
 290,building-south-port-05,남방 항구 화물 창고,건물·시설,3,남방 항구,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-south-port-05-board-v1.png,map-south-port | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 291,building-south-port-06,남방 항구 조선 작업장,건물·시설,3,남방 항구,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-south-port-06-board-v1.png,map-south-port | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 292,building-south-port-07,남방 항구 주택,건물·시설,3,남방 항구,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-south-port-07-board-v1.png,map-south-port | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
-293,district-south-port-1,남방 항구 광장 바닥,지역 환경 변형,3,남방 항구,개별 외형 보드 → 제작용 파일,대기,미연결,,map-south-port,
-294,district-south-port-2,남방 항구 주요 길,지역 환경 변형,3,남방 항구,개별 외형 보드 → 제작용 파일,대기,미연결,,map-south-port,
-295,district-south-port-3,남방 항구 지역 표지,지역 환경 변형,3,남방 항구,개별 외형 보드 → 제작용 파일,대기,미연결,,map-south-port,
-296,district-south-port-4,남방 항구 가로 조명,지역 환경 변형,3,남방 항구,개별 외형 보드 → 제작용 파일,대기,미연결,,map-south-port,
-297,district-south-port-5,남방 항구 경계 울타리,지역 환경 변형,3,남방 항구,개별 외형 보드 → 제작용 파일,대기,미연결,,map-south-port,
+293,district-south-port-1,남방 항구 광장 바닥,지역 환경 변형,3,남방 항구,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-south-port-1-board-v1.png,map-south-port,
+294,district-south-port-2,남방 항구 주요 길,지역 환경 변형,3,남방 항구,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-south-port-2-board-v1.png,map-south-port,
+295,district-south-port-3,남방 항구 지역 표지,지역 환경 변형,3,남방 항구,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-south-port-3-board-v1.png,map-south-port,
+296,district-south-port-4,남방 항구 가로 조명,지역 환경 변형,3,남방 항구,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-south-port-4-board-v1.png,map-south-port,
+297,district-south-port-5,남방 항구 경계 울타리,지역 환경 변형,3,남방 항구,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-south-port-5-board-v1.png,map-south-port,
 298,building-north-01,북방 시설 외곽 기지,건물·시설,3,북방 시설,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-north-01-board-v1.png,map-north | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 299,building-north-02,북방 시설 관측동,건물·시설,3,북방 시설,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-north-02-board-v1.png,map-north | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 300,building-north-03,북방 시설 동력실,건물·시설,3,북방 시설,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-north-03-board-v1.png,map-north | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 301,building-north-04,북방 시설 통제동,건물·시설,3,북방 시설,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-north-04-board-v1.png,map-north | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 302,building-north-05,북방 시설 시설 입구,건물·시설,3,북방 시설,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-north-05-board-v1.png,map-north | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
-303,district-north-1,북방 시설 광장 바닥,지역 환경 변형,3,북방 시설,개별 외형 보드 → 제작용 파일,대기,미연결,,map-north,
-304,district-north-2,북방 시설 주요 길,지역 환경 변형,3,북방 시설,개별 외형 보드 → 제작용 파일,대기,미연결,,map-north,
-305,district-north-3,북방 시설 지역 표지,지역 환경 변형,3,북방 시설,개별 외형 보드 → 제작용 파일,대기,미연결,,map-north,
-306,district-north-4,북방 시설 가로 조명,지역 환경 변형,3,북방 시설,개별 외형 보드 → 제작용 파일,대기,미연결,,map-north,
-307,district-north-5,북방 시설 경계 울타리,지역 환경 변형,3,북방 시설,개별 외형 보드 → 제작용 파일,대기,미연결,,map-north,
+303,district-north-1,북방 시설 광장 바닥,지역 환경 변형,3,북방 시설,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-north-1-board-v1.png,map-north,
+304,district-north-2,북방 시설 주요 길,지역 환경 변형,3,북방 시설,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-north-2-board-v1.png,map-north,
+305,district-north-3,북방 시설 지역 표지,지역 환경 변형,3,북방 시설,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-north-3-board-v1.png,map-north,
+306,district-north-4,북방 시설 가로 조명,지역 환경 변형,3,북방 시설,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-north-4-board-v1.png,map-north,
+307,district-north-5,북방 시설 경계 울타리,지역 환경 변형,3,북방 시설,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-north-5-board-v1.png,map-north,
 308,building-sea-01,해양국 항만 도시 부두,건물·시설,3,해양국 항만 도시,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-sea-01-board-v1.png,map-sea | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 309,building-sea-02,해양국 항만 도시 주택,건물·시설,3,해양국 항만 도시,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-sea-02-board-v1.png,map-sea | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 310,building-sea-03,해양국 항만 도시 교역소,건물·시설,3,해양국 항만 도시,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-sea-03-board-v1.png,map-sea | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 311,building-sea-04,해양국 항만 도시 선원 회관,건물·시설,3,해양국 항만 도시,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-sea-04-board-v1.png,map-sea | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 312,building-sea-05,해양국 항만 도시 관측소,건물·시설,3,해양국 항만 도시,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-sea-05-board-v1.png,map-sea | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 313,building-sea-06,해양국 항만 도시 여관,건물·시설,3,해양국 항만 도시,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-sea-06-board-v1.png,map-sea | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
-314,district-sea-1,해양국 항만 도시 광장 바닥,지역 환경 변형,3,해양국 항만 도시,개별 외형 보드 → 제작용 파일,대기,미연결,,map-sea,
-315,district-sea-2,해양국 항만 도시 주요 길,지역 환경 변형,3,해양국 항만 도시,개별 외형 보드 → 제작용 파일,대기,미연결,,map-sea,
-316,district-sea-3,해양국 항만 도시 지역 표지,지역 환경 변형,3,해양국 항만 도시,개별 외형 보드 → 제작용 파일,대기,미연결,,map-sea,
-317,district-sea-4,해양국 항만 도시 가로 조명,지역 환경 변형,3,해양국 항만 도시,개별 외형 보드 → 제작용 파일,대기,미연결,,map-sea,
-318,district-sea-5,해양국 항만 도시 경계 울타리,지역 환경 변형,3,해양국 항만 도시,개별 외형 보드 → 제작용 파일,대기,미연결,,map-sea,
+314,district-sea-1,해양국 항만 도시 광장 바닥,지역 환경 변형,3,해양국 항만 도시,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-sea-1-board-v1.png,map-sea,
+315,district-sea-2,해양국 항만 도시 주요 길,지역 환경 변형,3,해양국 항만 도시,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-sea-2-board-v1.png,map-sea,
+316,district-sea-3,해양국 항만 도시 지역 표지,지역 환경 변형,3,해양국 항만 도시,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-sea-3-board-v1.png,map-sea,
+317,district-sea-4,해양국 항만 도시 가로 조명,지역 환경 변형,3,해양국 항만 도시,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-sea-4-board-v1.png,map-sea,
+318,district-sea-5,해양국 항만 도시 경계 울타리,지역 환경 변형,3,해양국 항만 도시,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-sea-5-board-v1.png,map-sea,
 319,building-sanctuary-01,교단 성역 성역 문,건물·시설,3,교단 성역,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-sanctuary-01-board-v1.png,map-sanctuary | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 320,building-sanctuary-02,교단 성역 숙소,건물·시설,3,교단 성역,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-sanctuary-02-board-v1.png,map-sanctuary | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 321,building-sanctuary-03,교단 성역 진료소,건물·시설,3,교단 성역,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-sanctuary-03-board-v1.png,map-sanctuary | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 322,building-sanctuary-04,교단 성역 예배당,건물·시설,3,교단 성역,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-sanctuary-04-board-v1.png,map-sanctuary | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 323,building-sanctuary-05,교단 성역 회랑,건물·시설,3,교단 성역,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-sanctuary-05-board-v1.png,map-sanctuary | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 324,building-sanctuary-06,교단 성역 기록실,건물·시설,3,교단 성역,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-sanctuary-06-board-v1.png,map-sanctuary | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
-325,district-sanctuary-1,교단 성역 광장 바닥,지역 환경 변형,3,교단 성역,개별 외형 보드 → 제작용 파일,대기,미연결,,map-sanctuary,
-326,district-sanctuary-2,교단 성역 주요 길,지역 환경 변형,3,교단 성역,개별 외형 보드 → 제작용 파일,대기,미연결,,map-sanctuary,
-327,district-sanctuary-3,교단 성역 지역 표지,지역 환경 변형,3,교단 성역,개별 외형 보드 → 제작용 파일,대기,미연결,,map-sanctuary,
-328,district-sanctuary-4,교단 성역 가로 조명,지역 환경 변형,3,교단 성역,개별 외형 보드 → 제작용 파일,대기,미연결,,map-sanctuary,
-329,district-sanctuary-5,교단 성역 경계 울타리,지역 환경 변형,3,교단 성역,개별 외형 보드 → 제작용 파일,대기,미연결,,map-sanctuary,
+325,district-sanctuary-1,교단 성역 광장 바닥,지역 환경 변형,3,교단 성역,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-sanctuary-1-board-v1.png,map-sanctuary,
+326,district-sanctuary-2,교단 성역 주요 길,지역 환경 변형,3,교단 성역,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-sanctuary-2-board-v1.png,map-sanctuary,
+327,district-sanctuary-3,교단 성역 지역 표지,지역 환경 변형,3,교단 성역,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-sanctuary-3-board-v1.png,map-sanctuary,
+328,district-sanctuary-4,교단 성역 가로 조명,지역 환경 변형,3,교단 성역,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-sanctuary-4-board-v1.png,map-sanctuary,
+329,district-sanctuary-5,교단 성역 경계 울타리,지역 환경 변형,3,교단 성역,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-sanctuary-5-board-v1.png,map-sanctuary,
 330,building-core-01,고대 중추 진입문,건물·시설,3,고대 중추,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-core-01-board-v1.png,map-core | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 331,building-core-02,고대 중추 연결 회랑,건물·시설,3,고대 중추,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-core-02-board-v1.png,map-core | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 332,building-core-03,고대 중추 분기실,건물·시설,3,고대 중추,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-core-03-board-v1.png,map-core | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 333,building-core-04,고대 중추 제어실,건물·시설,3,고대 중추,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-core-04-board-v1.png,map-core | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 334,building-core-05,고대 중추 중심 구조물,건물·시설,3,고대 중추,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-core-05-board-v1.png,map-core | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
-335,district-core-1,고대 중추 광장 바닥,지역 환경 변형,3,고대 중추,개별 외형 보드 → 제작용 파일,대기,미연결,,map-core,
-336,district-core-2,고대 중추 주요 길,지역 환경 변형,3,고대 중추,개별 외형 보드 → 제작용 파일,대기,미연결,,map-core,
-337,district-core-3,고대 중추 지역 표지,지역 환경 변형,3,고대 중추,개별 외형 보드 → 제작용 파일,대기,미연결,,map-core,
-338,district-core-4,고대 중추 가로 조명,지역 환경 변형,3,고대 중추,개별 외형 보드 → 제작용 파일,대기,미연결,,map-core,
-339,district-core-5,고대 중추 경계 울타리,지역 환경 변형,3,고대 중추,개별 외형 보드 → 제작용 파일,대기,미연결,,map-core,
+335,district-core-1,고대 중추 광장 바닥,지역 환경 변형,3,고대 중추,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-core-1-board-v1.png,map-core,
+336,district-core-2,고대 중추 주요 길,지역 환경 변형,3,고대 중추,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-core-2-board-v1.png,map-core,
+337,district-core-3,고대 중추 지역 표지,지역 환경 변형,3,고대 중추,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-core-3-board-v1.png,map-core,
+338,district-core-4,고대 중추 가로 조명,지역 환경 변형,3,고대 중추,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-core-4-board-v1.png,map-core,
+339,district-core-5,고대 중추 경계 울타리,지역 환경 변형,3,고대 중추,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-core-5-board-v1.png,map-core,
 340,building-leon-home-01,레온의 고향 마을 입구,건물·시설,3,레온의 고향,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-leon-home-01-board-v1.png,map-leon-home | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 341,building-leon-home-02,레온의 고향 레온의 옛집,건물·시설,3,레온의 고향,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-leon-home-02-board-v1.png,map-leon-home | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
 342,building-leon-home-03,레온의 고향 기억의 장소,건물·시설,3,레온의 고향,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/building-leon-home-03-board-v1.png,map-leon-home | kit-wall-straight,서리골 등 기존 장면과 중복되는 기능은 새 제작 전 재사용 여부 검토.
-343,district-leon-home-1,레온의 고향 광장 바닥,지역 환경 변형,3,레온의 고향,개별 외형 보드 → 제작용 파일,대기,미연결,,map-leon-home,
-344,district-leon-home-2,레온의 고향 주요 길,지역 환경 변형,3,레온의 고향,개별 외형 보드 → 제작용 파일,대기,미연결,,map-leon-home,
-345,district-leon-home-3,레온의 고향 지역 표지,지역 환경 변형,3,레온의 고향,개별 외형 보드 → 제작용 파일,대기,미연결,,map-leon-home,
-346,district-leon-home-4,레온의 고향 가로 조명,지역 환경 변형,3,레온의 고향,개별 외형 보드 → 제작용 파일,대기,미연결,,map-leon-home,
-347,district-leon-home-5,레온의 고향 경계 울타리,지역 환경 변형,3,레온의 고향,개별 외형 보드 → 제작용 파일,대기,미연결,,map-leon-home,
+343,district-leon-home-1,레온의 고향 광장 바닥,지역 환경 변형,3,레온의 고향,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-leon-home-1-board-v1.png,map-leon-home,
+344,district-leon-home-2,레온의 고향 주요 길,지역 환경 변형,3,레온의 고향,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-leon-home-2-board-v1.png,map-leon-home,
+345,district-leon-home-3,레온의 고향 지역 표지,지역 환경 변형,3,레온의 고향,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-leon-home-3-board-v1.png,map-leon-home,
+346,district-leon-home-4,레온의 고향 가로 조명,지역 환경 변형,3,레온의 고향,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-leon-home-4-board-v1.png,map-leon-home,
+347,district-leon-home-5,레온의 고향 경계 울타리,지역 환경 변형,3,레온의 고향,개별 외형 보드 → 제작용 파일,외형 시안 제작,미연결,assets/world-production/district-leon-home-5-board-v1.png,map-leon-home,
 348,architecture-01-01,국경 산촌 벽 직선,지역 건축 부품,3,국경 산촌,개별 외형 보드 → 제작용 파일,대기,미연결,,,공용 부품과 중복되면 재사용·재질 변형으로 처리.
 349,architecture-01-02,국경 산촌 벽 모서리,지역 건축 부품,3,국경 산촌,개별 외형 보드 → 제작용 파일,대기,미연결,,,공용 부품과 중복되면 재사용·재질 변형으로 처리.
 350,architecture-01-03,국경 산촌 문,지역 건축 부품,3,국경 산촌,개별 외형 보드 → 제작용 파일,대기,미연결,,,공용 부품과 중복되면 재사용·재질 변형으로 처리.

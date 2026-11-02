@@ -1,7 +1,7 @@
 {
   "date": "2026-11-02",
-  "count": 87,
-  "scope": "12 construction modules + 11 proposed location layouts + 64 individual building/facility design boards; not runtime production assets",
+  "count": 142,
+  "scope": "12 construction modules + 11 location layouts + 64 building/facility boards + 55 district environment boards; appearance references only",
   "boards": [
     {
       "id": "kit-wall-straight",
@@ -1545,6 +1545,1018 @@
         "건물/시설 단독 외형·정면·측면·윗모습 구성 시각 확인. 외형 참고이며 실제 모델·타일·실내맵 데이터 아님.",
         "창·문·계단·장식·평면의 위치와 수가 뷰마다 다를 수 있음. 정확한 치수·동선·충돌은 모델 제작 때 단일 규격으로 정합화.",
         "지역 지도는 건축 양식 참고. 그림 속 문장·주변 소품이 신규 규칙이나 개별 제작 완료를 뜻하지 않음."
+      ]
+    },
+    {
+      "id": "district-frost-1",
+      "name": "서리골 광장 바닥",
+      "region": "서리골",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 서리골 광장 바닥 and exact ID district-frost-1. ONE asset type only. ONE repeatable SQUARE PLAZA FLOOR PATCH, broad flat traversable surface, no raised central monument, no buildings, no people. LEFT large slight-elevated three-quarter view of ONE square tile patch, RIGHT top true TOP VIEW of same patch, middle thin SIDE PROFILE, bottom JOIN showing this tile in color amid a 3x3 set of grey ghosted copies. Material pattern should meet opposite edges with minimal border discontinuity; no claim of mathematically seamless texture. Regional art direction: small snowy mountain village: uneven muted grey fieldstone paving, dark brown practical timber, simple black iron oil lantern, low timber fence with grey stone feet, restrained small snow patches. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-frost-1-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e303d66076230fabc3eb205d31a9b0d40d83f87512896e0b127ef5ee5dc0e407",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님.",
+        "반복 배치는 개념 예시. 가장자리 무봉제 접합은 미검증이며 중앙 문양을 그대로 반복하지 않음. 길은 직선 구간으로 코너·교차로는 별도 제작."
+      ]
+    },
+    {
+      "id": "district-frost-2",
+      "name": "서리골 주요 길",
+      "region": "서리골",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 서리골 주요 길 and exact ID district-frost-2. ONE asset type only. ONE repeatable STRAIGHT PATH MODULE, rectangular flat path aligned vertically in TOP view with clear straight edges and modest verge on both sides, no curves no diagonal fork no stairs no buildings. LEFT large three-quarter full segment, RIGHT top true TOP VIEW, middle thin SIDE PROFILE, bottom JOIN shows end-to-end repetition with neighboring segments ghosted grey. No bends added, no obstacles in center. Regional art direction: small snowy mountain village: uneven muted grey fieldstone paving, dark brown practical timber, simple black iron oil lantern, low timber fence with grey stone feet, restrained small snow patches. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-frost-2-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e01748eb01c910b78a2ff442f7b9e6c9e878c18844aaae9d4910bde3f0dce077",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님.",
+        "반복 배치는 개념 예시. 가장자리 무봉제 접합은 미검증이며 중앙 문양을 그대로 반복하지 않음. 길은 직선 구간으로 코너·교차로는 별도 제작."
+      ]
+    },
+    {
+      "id": "district-frost-3",
+      "name": "서리골 지역 표지",
+      "region": "서리골",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 서리골 지역 표지 and exact ID district-frost-3. ONE asset type only. ONE REGION WAYFINDING SIGN OR LOW MARKER, plain practical sign structure matching region, leave sign text BLANK or use one simple geometric region pictogram only, no invented place names or runic writing, not a gateway or building. LEFT full three-quarter view, RIGHT FRONT and SIDE views, bottom JOIN placement with only small ghosted floor patch, no additional props. Regional art direction: small snowy mountain village: uneven muted grey fieldstone paving, dark brown practical timber, simple black iron oil lantern, low timber fence with grey stone feet, restrained small snow patches. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-frost-3-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "fab9c06e83c6f66131253f9e03f0ef096b5c4324828986b5e80c6c6a39c0e8e7",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-frost-4",
+      "name": "서리골 가로 조명",
+      "region": "서리골",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 서리골 가로 조명 and exact ID district-frost-4. ONE asset type only. ONE STREET LIGHT FIXTURE, entirely visible post/housing and small foundation. Ordinary regions use a practical oil lantern (not electric), ancient regions use small restrained resonance inset; no giant glowing crystal, no scenery. LEFT complete three-quarter light, RIGHT FRONT and SIDE views, bottom JOIN shows base attached to small ghosted floor patch. No huge bloom or ornamental filigree. Regional art direction: small snowy mountain village: uneven muted grey fieldstone paving, dark brown practical timber, simple black iron oil lantern, low timber fence with grey stone feet, restrained small snow patches. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-frost-4-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f0dd72e09b0db166c939cbbcc9665b247ff3867de5a53e32f6262c908c46c7b3",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-frost-5",
+      "name": "서리골 경계 울타리",
+      "region": "서리골",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 서리골 경계 울타리 and exact ID district-frost-5. ONE asset type only. ONE STRAIGHT BOUNDARY FENCE / PARAPET MODULE with two end posts, completely visible, no gate or building. Region material matches design, simple repeatable segment. LEFT full three-quarter view, RIGHT FRONT and SIDE views, bottom JOIN shows active colored segment between two ghosted grey neighbors aligned in straight line. Gaps intentional but no broken or impossible joins. Regional art direction: small snowy mountain village: uneven muted grey fieldstone paving, dark brown practical timber, simple black iron oil lantern, low timber fence with grey stone feet, restrained small snow patches. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-frost-5-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "0cb772c88d591eb6ee794dd39adac6cc8dc87777309bd6e0d0c64b44b144fd7f",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-border-1",
+      "name": "돌샘·국경 연락소 광장 바닥",
+      "region": "돌샘·국경 연락소",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 돌샘·국경 연락소 광장 바닥 and exact ID district-border-1. ONE asset type only. ONE repeatable SQUARE PLAZA FLOOR PATCH, broad flat traversable surface, no raised central monument, no buildings, no people. LEFT large slight-elevated three-quarter view of ONE square tile patch, RIGHT top true TOP VIEW of same patch, middle thin SIDE PROFILE, bottom JOIN showing this tile in color amid a 3x3 set of grey ghosted copies. Material pattern should meet opposite edges with minimal border discontinuity; no claim of mathematically seamless texture. Regional art direction: winter border garrison: orderly dark grey stone paving, robust square timber posts with restrained navy bands, practical iron oil lantern, low grey stone and timber boundary. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-border-1-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4dd19819f3ce134ebba9d02ac9ecedb2f915071e3d46711845046a50c3785b9a",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님.",
+        "반복 배치는 개념 예시. 가장자리 무봉제 접합은 미검증이며 중앙 문양을 그대로 반복하지 않음. 길은 직선 구간으로 코너·교차로는 별도 제작."
+      ]
+    },
+    {
+      "id": "district-border-2",
+      "name": "돌샘·국경 연락소 주요 길",
+      "region": "돌샘·국경 연락소",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 돌샘·국경 연락소 주요 길 and exact ID district-border-2. ONE asset type only. ONE repeatable STRAIGHT PATH MODULE, rectangular flat path aligned vertically in TOP view with clear straight edges and modest verge on both sides, no curves no diagonal fork no stairs no buildings. LEFT large three-quarter full segment, RIGHT top true TOP VIEW, middle thin SIDE PROFILE, bottom JOIN shows end-to-end repetition with neighboring segments ghosted grey. No bends added, no obstacles in center. Regional art direction: winter border garrison: orderly dark grey stone paving, robust square timber posts with restrained navy bands, practical iron oil lantern, low grey stone and timber boundary. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-border-2-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6decce141b573d7d1130f44ce3a1b8c61c1b638dacf98bc6966ba95f2459b82f",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님.",
+        "반복 배치는 개념 예시. 가장자리 무봉제 접합은 미검증이며 중앙 문양을 그대로 반복하지 않음. 길은 직선 구간으로 코너·교차로는 별도 제작."
+      ]
+    },
+    {
+      "id": "district-border-3",
+      "name": "돌샘·국경 연락소 지역 표지",
+      "region": "돌샘·국경 연락소",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 돌샘·국경 연락소 지역 표지 and exact ID district-border-3. ONE asset type only. ONE REGION WAYFINDING SIGN OR LOW MARKER, plain practical sign structure matching region, leave sign text BLANK or use one simple geometric region pictogram only, no invented place names or runic writing, not a gateway or building. LEFT full three-quarter view, RIGHT FRONT and SIDE views, bottom JOIN placement with only small ghosted floor patch, no additional props. Regional art direction: winter border garrison: orderly dark grey stone paving, robust square timber posts with restrained navy bands, practical iron oil lantern, low grey stone and timber boundary. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-border-3-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8d2ffca9389e129ad2d570a366386a32ac4a3742aa819fb14d399193f0ef1089",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-border-4",
+      "name": "돌샘·국경 연락소 가로 조명",
+      "region": "돌샘·국경 연락소",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 돌샘·국경 연락소 가로 조명 and exact ID district-border-4. ONE asset type only. ONE STREET LIGHT FIXTURE, entirely visible post/housing and small foundation. Ordinary regions use a practical oil lantern (not electric), ancient regions use small restrained resonance inset; no giant glowing crystal, no scenery. LEFT complete three-quarter light, RIGHT FRONT and SIDE views, bottom JOIN shows base attached to small ghosted floor patch. No huge bloom or ornamental filigree. Regional art direction: winter border garrison: orderly dark grey stone paving, robust square timber posts with restrained navy bands, practical iron oil lantern, low grey stone and timber boundary. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-border-4-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4c03a94e6bf5b3f86f0c9b97ed3e49e9601d17f12fa5d442514613c9535d5100",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-border-5",
+      "name": "돌샘·국경 연락소 경계 울타리",
+      "region": "돌샘·국경 연락소",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 돌샘·국경 연락소 경계 울타리 and exact ID district-border-5. ONE asset type only. ONE STRAIGHT BOUNDARY FENCE / PARAPET MODULE with two end posts, completely visible, no gate or building. Region material matches design, simple repeatable segment. LEFT full three-quarter view, RIGHT FRONT and SIDE views, bottom JOIN shows active colored segment between two ghosted grey neighbors aligned in straight line. Gaps intentional but no broken or impossible joins. Regional art direction: winter border garrison: orderly dark grey stone paving, robust square timber posts with restrained navy bands, practical iron oil lantern, low grey stone and timber boundary. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-border-5-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "1f63ecbcf0925d903cd0d21df6e2aef17be60a9c752c997b0321181f913db08c",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-refugee-1",
+      "name": "피난 교량 광장 바닥",
+      "region": "피난 교량",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 피난 교량 광장 바닥 and exact ID district-refugee-1. ONE asset type only. ONE repeatable SQUARE PLAZA FLOOR PATCH, broad flat traversable surface, no raised central monument, no buildings, no people. LEFT large slight-elevated three-quarter view of ONE square tile patch, RIGHT top true TOP VIEW of same patch, middle thin SIDE PROFILE, bottom JOIN showing this tile in color amid a 3x3 set of grey ghosted copies. Material pattern should meet opposite edges with minimal border discontinuity; no claim of mathematically seamless texture. Regional art direction: temporary refugee crossing: packed muted brown earth and rough timber boarding, plain temporary timber sign with small original green leaf motif, portable oil lantern, rough timber rope boundary; no red crosses. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-refugee-1-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f1f2694aa0c7e447353915d8e4e78747015980577b603660ec1cbe038bca1130",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님.",
+        "반복 배치는 개념 예시. 가장자리 무봉제 접합은 미검증이며 중앙 문양을 그대로 반복하지 않음. 길은 직선 구간으로 코너·교차로는 별도 제작."
+      ]
+    },
+    {
+      "id": "district-refugee-2",
+      "name": "피난 교량 주요 길",
+      "region": "피난 교량",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 피난 교량 주요 길 and exact ID district-refugee-2. ONE asset type only. ONE repeatable STRAIGHT PATH MODULE, rectangular flat path aligned vertically in TOP view with clear straight edges and modest verge on both sides, no curves no diagonal fork no stairs no buildings. LEFT large three-quarter full segment, RIGHT top true TOP VIEW, middle thin SIDE PROFILE, bottom JOIN shows end-to-end repetition with neighboring segments ghosted grey. No bends added, no obstacles in center. Regional art direction: temporary refugee crossing: packed muted brown earth and rough timber boarding, plain temporary timber sign with small original green leaf motif, portable oil lantern, rough timber rope boundary; no red crosses. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-refugee-2-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "5a35b66356ff924a434d028e8fbc9c7a35de56f565b6be8d9a98fd020c5e37af",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님.",
+        "반복 배치는 개념 예시. 가장자리 무봉제 접합은 미검증이며 중앙 문양을 그대로 반복하지 않음. 길은 직선 구간으로 코너·교차로는 별도 제작."
+      ]
+    },
+    {
+      "id": "district-refugee-3",
+      "name": "피난 교량 지역 표지",
+      "region": "피난 교량",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 피난 교량 지역 표지 and exact ID district-refugee-3. ONE asset type only. ONE REGION WAYFINDING SIGN OR LOW MARKER, plain practical sign structure matching region, leave sign text BLANK or use one simple geometric region pictogram only, no invented place names or runic writing, not a gateway or building. LEFT full three-quarter view, RIGHT FRONT and SIDE views, bottom JOIN placement with only small ghosted floor patch, no additional props. Regional art direction: temporary refugee crossing: packed muted brown earth and rough timber boarding, plain temporary timber sign with small original green leaf motif, portable oil lantern, rough timber rope boundary; no red crosses. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-refugee-3-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d4a0d859ccc289fbf40a70ae3edfb8cdbe1be85b697247b0601b741d691701ef",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-refugee-4",
+      "name": "피난 교량 가로 조명",
+      "region": "피난 교량",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 피난 교량 가로 조명 and exact ID district-refugee-4. ONE asset type only. ONE STREET LIGHT FIXTURE, entirely visible post/housing and small foundation. Ordinary regions use a practical oil lantern (not electric), ancient regions use small restrained resonance inset; no giant glowing crystal, no scenery. LEFT complete three-quarter light, RIGHT FRONT and SIDE views, bottom JOIN shows base attached to small ghosted floor patch. No huge bloom or ornamental filigree. Regional art direction: temporary refugee crossing: packed muted brown earth and rough timber boarding, plain temporary timber sign with small original green leaf motif, portable oil lantern, rough timber rope boundary; no red crosses. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-refugee-4-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4d8923e0440324e40bfa4da6299682e526d79b016e072ee4fbba060bfa3960b4",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-refugee-5",
+      "name": "피난 교량 경계 울타리",
+      "region": "피난 교량",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 피난 교량 경계 울타리 and exact ID district-refugee-5. ONE asset type only. ONE STRAIGHT BOUNDARY FENCE / PARAPET MODULE with two end posts, completely visible, no gate or building. Region material matches design, simple repeatable segment. LEFT full three-quarter view, RIGHT FRONT and SIDE views, bottom JOIN shows active colored segment between two ghosted grey neighbors aligned in straight line. Gaps intentional but no broken or impossible joins. Regional art direction: temporary refugee crossing: packed muted brown earth and rough timber boarding, plain temporary timber sign with small original green leaf motif, portable oil lantern, rough timber rope boundary; no red crosses. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-refugee-5-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d613b716d2e53c9ee10f3ab764a04ac71f682896d012c8a63931d7543c237031",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-capital-1",
+      "name": "아르덴 왕도 광장 바닥",
+      "region": "아르덴 왕도",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 아르덴 왕도 광장 바닥 and exact ID district-capital-1. ONE asset type only. ONE repeatable SQUARE PLAZA FLOOR PATCH, broad flat traversable surface, no raised central monument, no buildings, no people. LEFT large slight-elevated three-quarter view of ONE square tile patch, RIGHT top true TOP VIEW of same patch, middle thin SIDE PROFILE, bottom JOIN showing this tile in color amid a 3x3 set of grey ghosted copies. Material pattern should meet opposite edges with minimal border discontinuity; no claim of mathematically seamless texture. Regional art direction: orderly royal capital: pale grey dressed stone square paving with restrained dark blue border, pale stone sign and modest bronze geometric star, simple iron bronze lantern, plain pale stone balustrade; no excessive gold. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-capital-1-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "384973c23a789b7c678c8f3e951dc992a8022ac1dc5e280bc292fec9cde9f5b8",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님.",
+        "반복 배치는 개념 예시. 가장자리 무봉제 접합은 미검증이며 중앙 문양을 그대로 반복하지 않음. 길은 직선 구간으로 코너·교차로는 별도 제작."
+      ]
+    },
+    {
+      "id": "district-capital-2",
+      "name": "아르덴 왕도 주요 길",
+      "region": "아르덴 왕도",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 아르덴 왕도 주요 길 and exact ID district-capital-2. ONE asset type only. ONE repeatable STRAIGHT PATH MODULE, rectangular flat path aligned vertically in TOP view with clear straight edges and modest verge on both sides, no curves no diagonal fork no stairs no buildings. LEFT large three-quarter full segment, RIGHT top true TOP VIEW, middle thin SIDE PROFILE, bottom JOIN shows end-to-end repetition with neighboring segments ghosted grey. No bends added, no obstacles in center. Regional art direction: orderly royal capital: pale grey dressed stone square paving with restrained dark blue border, pale stone sign and modest bronze geometric star, simple iron bronze lantern, plain pale stone balustrade; no excessive gold. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-capital-2-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6a85e906192b93b64f50c97b52a603af51ba6ae3a0f330910a3568f37068da62",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님.",
+        "반복 배치는 개념 예시. 가장자리 무봉제 접합은 미검증이며 중앙 문양을 그대로 반복하지 않음. 길은 직선 구간으로 코너·교차로는 별도 제작."
+      ]
+    },
+    {
+      "id": "district-capital-3",
+      "name": "아르덴 왕도 지역 표지",
+      "region": "아르덴 왕도",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 아르덴 왕도 지역 표지 and exact ID district-capital-3. ONE asset type only. ONE REGION WAYFINDING SIGN OR LOW MARKER, plain practical sign structure matching region, leave sign text BLANK or use one simple geometric region pictogram only, no invented place names or runic writing, not a gateway or building. LEFT full three-quarter view, RIGHT FRONT and SIDE views, bottom JOIN placement with only small ghosted floor patch, no additional props. Regional art direction: orderly royal capital: pale grey dressed stone square paving with restrained dark blue border, pale stone sign and modest bronze geometric star, simple iron bronze lantern, plain pale stone balustrade; no excessive gold. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-capital-3-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "629b6126c2ec7bc8a2cb4eb70d351ab3af991aa5b637d6d3963a4dc6e912c0c5",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-capital-4",
+      "name": "아르덴 왕도 가로 조명",
+      "region": "아르덴 왕도",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 아르덴 왕도 가로 조명 and exact ID district-capital-4. ONE asset type only. ONE STREET LIGHT FIXTURE, entirely visible post/housing and small foundation. Ordinary regions use a practical oil lantern (not electric), ancient regions use small restrained resonance inset; no giant glowing crystal, no scenery. LEFT complete three-quarter light, RIGHT FRONT and SIDE views, bottom JOIN shows base attached to small ghosted floor patch. No huge bloom or ornamental filigree. Regional art direction: orderly royal capital: pale grey dressed stone square paving with restrained dark blue border, pale stone sign and modest bronze geometric star, simple iron bronze lantern, plain pale stone balustrade; no excessive gold. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-capital-4-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f7329eea4880959c050de484958964f089ac100fe9ee8331a0a822a1dfedde24",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-capital-5",
+      "name": "아르덴 왕도 경계 울타리",
+      "region": "아르덴 왕도",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 아르덴 왕도 경계 울타리 and exact ID district-capital-5. ONE asset type only. ONE STRAIGHT BOUNDARY FENCE / PARAPET MODULE with two end posts, completely visible, no gate or building. Region material matches design, simple repeatable segment. LEFT full three-quarter view, RIGHT FRONT and SIDE views, bottom JOIN shows active colored segment between two ghosted grey neighbors aligned in straight line. Gaps intentional but no broken or impossible joins. Regional art direction: orderly royal capital: pale grey dressed stone square paving with restrained dark blue border, pale stone sign and modest bronze geometric star, simple iron bronze lantern, plain pale stone balustrade; no excessive gold. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-capital-5-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "15d8e6682affca6c05f8ec377430e4e1b4bc573e32485986ddc44771af502050",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-academy-1",
+      "name": "남방 학술도시 광장 바닥",
+      "region": "남방 학술도시",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 남방 학술도시 광장 바닥 and exact ID district-academy-1. ONE asset type only. ONE repeatable SQUARE PLAZA FLOOR PATCH, broad flat traversable surface, no raised central monument, no buildings, no people. LEFT large slight-elevated three-quarter view of ONE square tile patch, RIGHT top true TOP VIEW of same patch, middle thin SIDE PROFILE, bottom JOIN showing this tile in color amid a 3x3 set of grey ghosted copies. Material pattern should meet opposite edges with minimal border discontinuity; no claim of mathematically seamless texture. Regional art direction: warm academic city: pale sand-colored rectangular paving and muted terracotta edge, sandstone marker with small abstract survey-ring motif, plain bronze glass oil lamp, sandstone low wall with restrained iron rails. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-academy-1-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4ac9282f730427306f4a5ec9e9c9428a3327e477ed5974dfedc7ffb4099a3a7b",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님.",
+        "반복 배치는 개념 예시. 가장자리 무봉제 접합은 미검증이며 중앙 문양을 그대로 반복하지 않음. 길은 직선 구간으로 코너·교차로는 별도 제작."
+      ]
+    },
+    {
+      "id": "district-academy-2",
+      "name": "남방 학술도시 주요 길",
+      "region": "남방 학술도시",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 남방 학술도시 주요 길 and exact ID district-academy-2. ONE asset type only. ONE repeatable STRAIGHT PATH MODULE, rectangular flat path aligned vertically in TOP view with clear straight edges and modest verge on both sides, no curves no diagonal fork no stairs no buildings. LEFT large three-quarter full segment, RIGHT top true TOP VIEW, middle thin SIDE PROFILE, bottom JOIN shows end-to-end repetition with neighboring segments ghosted grey. No bends added, no obstacles in center. Regional art direction: warm academic city: pale sand-colored rectangular paving and muted terracotta edge, sandstone marker with small abstract survey-ring motif, plain bronze glass oil lamp, sandstone low wall with restrained iron rails. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-academy-2-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b786a1c9983d257ead0347e0c23198f226c9bb49cb6d7ebe67d240579f37bbf3",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님.",
+        "반복 배치는 개념 예시. 가장자리 무봉제 접합은 미검증이며 중앙 문양을 그대로 반복하지 않음. 길은 직선 구간으로 코너·교차로는 별도 제작."
+      ]
+    },
+    {
+      "id": "district-academy-3",
+      "name": "남방 학술도시 지역 표지",
+      "region": "남방 학술도시",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 남방 학술도시 지역 표지 and exact ID district-academy-3. ONE asset type only. ONE REGION WAYFINDING SIGN OR LOW MARKER, plain practical sign structure matching region, leave sign text BLANK or use one simple geometric region pictogram only, no invented place names or runic writing, not a gateway or building. LEFT full three-quarter view, RIGHT FRONT and SIDE views, bottom JOIN placement with only small ghosted floor patch, no additional props. Regional art direction: warm academic city: pale sand-colored rectangular paving and muted terracotta edge, sandstone marker with small abstract survey-ring motif, plain bronze glass oil lamp, sandstone low wall with restrained iron rails. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-academy-3-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "068491f4106a6a651a0fecee40d663b407796c647f18ea439ba65350d75b38a6",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-academy-4",
+      "name": "남방 학술도시 가로 조명",
+      "region": "남방 학술도시",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 남방 학술도시 가로 조명 and exact ID district-academy-4. ONE asset type only. ONE STREET LIGHT FIXTURE, entirely visible post/housing and small foundation. Ordinary regions use a practical oil lantern (not electric), ancient regions use small restrained resonance inset; no giant glowing crystal, no scenery. LEFT complete three-quarter light, RIGHT FRONT and SIDE views, bottom JOIN shows base attached to small ghosted floor patch. No huge bloom or ornamental filigree. Regional art direction: warm academic city: pale sand-colored rectangular paving and muted terracotta edge, sandstone marker with small abstract survey-ring motif, plain bronze glass oil lamp, sandstone low wall with restrained iron rails. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-academy-4-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7282e5bb17384f478150f50ff442b2760f2cbda53931fbfca73492abf6d8bbf7",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-academy-5",
+      "name": "남방 학술도시 경계 울타리",
+      "region": "남방 학술도시",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 남방 학술도시 경계 울타리 and exact ID district-academy-5. ONE asset type only. ONE STRAIGHT BOUNDARY FENCE / PARAPET MODULE with two end posts, completely visible, no gate or building. Region material matches design, simple repeatable segment. LEFT full three-quarter view, RIGHT FRONT and SIDE views, bottom JOIN shows active colored segment between two ghosted grey neighbors aligned in straight line. Gaps intentional but no broken or impossible joins. Regional art direction: warm academic city: pale sand-colored rectangular paving and muted terracotta edge, sandstone marker with small abstract survey-ring motif, plain bronze glass oil lamp, sandstone low wall with restrained iron rails. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-academy-5-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "a6beb423a9d7ed53aaf5fd33e640362a11f59a5a491e07d1f4f6d552793f353b",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-south-port-1",
+      "name": "남방 항구 광장 바닥",
+      "region": "남방 항구",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 남방 항구 광장 바닥 and exact ID district-south-port-1. ONE asset type only. ONE repeatable SQUARE PLAZA FLOOR PATCH, broad flat traversable surface, no raised central monument, no buildings, no people. LEFT large slight-elevated three-quarter view of ONE square tile patch, RIGHT top true TOP VIEW of same patch, middle thin SIDE PROFILE, bottom JOIN showing this tile in color amid a 3x3 set of grey ghosted copies. Material pattern should meet opposite edges with minimal border discontinuity; no claim of mathematically seamless texture. Regional art direction: working southern port: worn grey stone and brown boardwalk, weathered timber sign with small generic anchor pictogram, salt-worn iron oil lantern, timber posts and rope railing. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-south-port-1-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6d1ce08255d9f9dac474e62b3a5cb9b2638b31cd00bef61782176b3b557de8e0",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님.",
+        "반복 배치는 개념 예시. 가장자리 무봉제 접합은 미검증이며 중앙 문양을 그대로 반복하지 않음. 길은 직선 구간으로 코너·교차로는 별도 제작."
+      ]
+    },
+    {
+      "id": "district-south-port-2",
+      "name": "남방 항구 주요 길",
+      "region": "남방 항구",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 남방 항구 주요 길 and exact ID district-south-port-2. ONE asset type only. ONE repeatable STRAIGHT PATH MODULE, rectangular flat path aligned vertically in TOP view with clear straight edges and modest verge on both sides, no curves no diagonal fork no stairs no buildings. LEFT large three-quarter full segment, RIGHT top true TOP VIEW, middle thin SIDE PROFILE, bottom JOIN shows end-to-end repetition with neighboring segments ghosted grey. No bends added, no obstacles in center. Regional art direction: working southern port: worn grey stone and brown boardwalk, weathered timber sign with small generic anchor pictogram, salt-worn iron oil lantern, timber posts and rope railing. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-south-port-2-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "a713db5c9e39eb6b7fd3db9e40b0087843a49b7cdd494f9e3a853db00416de45",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님.",
+        "반복 배치는 개념 예시. 가장자리 무봉제 접합은 미검증이며 중앙 문양을 그대로 반복하지 않음. 길은 직선 구간으로 코너·교차로는 별도 제작."
+      ]
+    },
+    {
+      "id": "district-south-port-3",
+      "name": "남방 항구 지역 표지",
+      "region": "남방 항구",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 남방 항구 지역 표지 and exact ID district-south-port-3. ONE asset type only. ONE REGION WAYFINDING SIGN OR LOW MARKER, plain practical sign structure matching region, leave sign text BLANK or use one simple geometric region pictogram only, no invented place names or runic writing, not a gateway or building. LEFT full three-quarter view, RIGHT FRONT and SIDE views, bottom JOIN placement with only small ghosted floor patch, no additional props. Regional art direction: working southern port: worn grey stone and brown boardwalk, weathered timber sign with small generic anchor pictogram, salt-worn iron oil lantern, timber posts and rope railing. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-south-port-3-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c48d3b4977c33dbc55e1ea36ebdbd004699f16df30ba8b41982cd2f6fe447f49",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-south-port-4",
+      "name": "남방 항구 가로 조명",
+      "region": "남방 항구",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 남방 항구 가로 조명 and exact ID district-south-port-4. ONE asset type only. ONE STREET LIGHT FIXTURE, entirely visible post/housing and small foundation. Ordinary regions use a practical oil lantern (not electric), ancient regions use small restrained resonance inset; no giant glowing crystal, no scenery. LEFT complete three-quarter light, RIGHT FRONT and SIDE views, bottom JOIN shows base attached to small ghosted floor patch. No huge bloom or ornamental filigree. Regional art direction: working southern port: worn grey stone and brown boardwalk, weathered timber sign with small generic anchor pictogram, salt-worn iron oil lantern, timber posts and rope railing. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-south-port-4-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "db765bb07ea09c56d6a758f1221c0f1ab60701654865dc0bc89c26720ea7e68d",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-south-port-5",
+      "name": "남방 항구 경계 울타리",
+      "region": "남방 항구",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 남방 항구 경계 울타리 and exact ID district-south-port-5. ONE asset type only. ONE STRAIGHT BOUNDARY FENCE / PARAPET MODULE with two end posts, completely visible, no gate or building. Region material matches design, simple repeatable segment. LEFT full three-quarter view, RIGHT FRONT and SIDE views, bottom JOIN shows active colored segment between two ghosted grey neighbors aligned in straight line. Gaps intentional but no broken or impossible joins. Regional art direction: working southern port: worn grey stone and brown boardwalk, weathered timber sign with small generic anchor pictogram, salt-worn iron oil lantern, timber posts and rope railing. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-south-port-5-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "37f690b56b7c4557b57863f112ab195b4a2d7091b0709e9af69794b77d7804da",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-north-1",
+      "name": "북방 시설 광장 바닥",
+      "region": "북방 시설",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 북방 시설 광장 바닥 and exact ID district-north-1. ONE asset type only. ONE repeatable SQUARE PLAZA FLOOR PATCH, broad flat traversable surface, no raised central monument, no buildings, no people. LEFT large slight-elevated three-quarter view of ONE square tile patch, RIGHT top true TOP VIEW of same patch, middle thin SIDE PROFILE, bottom JOIN showing this tile in color amid a 3x3 set of grey ghosted copies. Material pattern should meet opposite edges with minimal border discontinuity; no claim of mathematically seamless texture. Regional art direction: snowbound ancient installation: broad dark grey stone slabs with few aged bronze inset channels, squat ancient stone waymarker with one shallow geometric groove, small recessed restrained teal resonance lamp in stone housing, low heavy stone parapet. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-north-1-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "60e3e1863979befc7826a774ac18e6dbf87659cf0c3562894c825398db1138a6",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님.",
+        "반복 배치는 개념 예시. 가장자리 무봉제 접합은 미검증이며 중앙 문양을 그대로 반복하지 않음. 길은 직선 구간으로 코너·교차로는 별도 제작."
+      ]
+    },
+    {
+      "id": "district-north-2",
+      "name": "북방 시설 주요 길",
+      "region": "북방 시설",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 북방 시설 주요 길 and exact ID district-north-2. ONE asset type only. ONE repeatable STRAIGHT PATH MODULE, rectangular flat path aligned vertically in TOP view with clear straight edges and modest verge on both sides, no curves no diagonal fork no stairs no buildings. LEFT large three-quarter full segment, RIGHT top true TOP VIEW, middle thin SIDE PROFILE, bottom JOIN shows end-to-end repetition with neighboring segments ghosted grey. No bends added, no obstacles in center. Regional art direction: snowbound ancient installation: broad dark grey stone slabs with few aged bronze inset channels, squat ancient stone waymarker with one shallow geometric groove, small recessed restrained teal resonance lamp in stone housing, low heavy stone parapet. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-north-2-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "410719256f6b1deae7f30951d12e08a3305a93ddabca97d936468127caadd3be",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님.",
+        "반복 배치는 개념 예시. 가장자리 무봉제 접합은 미검증이며 중앙 문양을 그대로 반복하지 않음. 길은 직선 구간으로 코너·교차로는 별도 제작."
+      ]
+    },
+    {
+      "id": "district-north-3",
+      "name": "북방 시설 지역 표지",
+      "region": "북방 시설",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 북방 시설 지역 표지 and exact ID district-north-3. ONE asset type only. ONE REGION WAYFINDING SIGN OR LOW MARKER, plain practical sign structure matching region, leave sign text BLANK or use one simple geometric region pictogram only, no invented place names or runic writing, not a gateway or building. LEFT full three-quarter view, RIGHT FRONT and SIDE views, bottom JOIN placement with only small ghosted floor patch, no additional props. Regional art direction: snowbound ancient installation: broad dark grey stone slabs with few aged bronze inset channels, squat ancient stone waymarker with one shallow geometric groove, small recessed restrained teal resonance lamp in stone housing, low heavy stone parapet. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-north-3-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6f63fd0d22023a685dee24dd62ee1652f64bf6f86d317d974ad0b48cff0b23db",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-north-4",
+      "name": "북방 시설 가로 조명",
+      "region": "북방 시설",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 북방 시설 가로 조명 and exact ID district-north-4. ONE asset type only. ONE STREET LIGHT FIXTURE, entirely visible post/housing and small foundation. Ordinary regions use a practical oil lantern (not electric), ancient regions use small restrained resonance inset; no giant glowing crystal, no scenery. LEFT complete three-quarter light, RIGHT FRONT and SIDE views, bottom JOIN shows base attached to small ghosted floor patch. No huge bloom or ornamental filigree. Regional art direction: snowbound ancient installation: broad dark grey stone slabs with few aged bronze inset channels, squat ancient stone waymarker with one shallow geometric groove, small recessed restrained teal resonance lamp in stone housing, low heavy stone parapet. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-north-4-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7e7aa6fcfda2d9e760e5a6f266453ced2dfb0082ee727c627d7c4b9d24c91c54",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-north-5",
+      "name": "북방 시설 경계 울타리",
+      "region": "북방 시설",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 북방 시설 경계 울타리 and exact ID district-north-5. ONE asset type only. ONE STRAIGHT BOUNDARY FENCE / PARAPET MODULE with two end posts, completely visible, no gate or building. Region material matches design, simple repeatable segment. LEFT full three-quarter view, RIGHT FRONT and SIDE views, bottom JOIN shows active colored segment between two ghosted grey neighbors aligned in straight line. Gaps intentional but no broken or impossible joins. Regional art direction: snowbound ancient installation: broad dark grey stone slabs with few aged bronze inset channels, squat ancient stone waymarker with one shallow geometric groove, small recessed restrained teal resonance lamp in stone housing, low heavy stone parapet. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-north-5-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "25faef27afb85d09c62404e4b444102e85c2e5b83e7c62664affeb24b6d14cc8",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-sea-1",
+      "name": "해양국 항만 도시 광장 바닥",
+      "region": "해양국 항만 도시",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 해양국 항만 도시 광장 바닥 and exact ID district-sea-1. ONE asset type only. ONE repeatable SQUARE PLAZA FLOOR PATCH, broad flat traversable surface, no raised central monument, no buildings, no people. LEFT large slight-elevated three-quarter view of ONE square tile patch, RIGHT top true TOP VIEW of same patch, middle thin SIDE PROFILE, bottom JOIN showing this tile in color amid a 3x3 set of grey ghosted copies. Material pattern should meet opposite edges with minimal border discontinuity; no claim of mathematically seamless texture. Regional art direction: distinct maritime white-stone city: pale limestone paving and sea-green narrow edge stones, white stone marker with small original abstract compass ring, restrained bronze oil lantern with sea-green cap, white stone posts with modest bronze rails. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-sea-1-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "008e180e94417af5d14d9ef7bd56e5b72abe7b6c319a1ef3a1df9d4d1b8892cd",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님.",
+        "반복 배치는 개념 예시. 가장자리 무봉제 접합은 미검증이며 중앙 문양을 그대로 반복하지 않음. 길은 직선 구간으로 코너·교차로는 별도 제작."
+      ]
+    },
+    {
+      "id": "district-sea-2",
+      "name": "해양국 항만 도시 주요 길",
+      "region": "해양국 항만 도시",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 해양국 항만 도시 주요 길 and exact ID district-sea-2. ONE asset type only. ONE repeatable STRAIGHT PATH MODULE, rectangular flat path aligned vertically in TOP view with clear straight edges and modest verge on both sides, no curves no diagonal fork no stairs no buildings. LEFT large three-quarter full segment, RIGHT top true TOP VIEW, middle thin SIDE PROFILE, bottom JOIN shows end-to-end repetition with neighboring segments ghosted grey. No bends added, no obstacles in center. Regional art direction: distinct maritime white-stone city: pale limestone paving and sea-green narrow edge stones, white stone marker with small original abstract compass ring, restrained bronze oil lantern with sea-green cap, white stone posts with modest bronze rails. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-sea-2-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "68095750ea177964217e272d56f5c4d172d20359cbeedd529b947afd680d43b7",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님.",
+        "반복 배치는 개념 예시. 가장자리 무봉제 접합은 미검증이며 중앙 문양을 그대로 반복하지 않음. 길은 직선 구간으로 코너·교차로는 별도 제작."
+      ]
+    },
+    {
+      "id": "district-sea-3",
+      "name": "해양국 항만 도시 지역 표지",
+      "region": "해양국 항만 도시",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 해양국 항만 도시 지역 표지 and exact ID district-sea-3. ONE asset type only. ONE REGION WAYFINDING SIGN OR LOW MARKER, plain practical sign structure matching region, leave sign text BLANK or use one simple geometric region pictogram only, no invented place names or runic writing, not a gateway or building. LEFT full three-quarter view, RIGHT FRONT and SIDE views, bottom JOIN placement with only small ghosted floor patch, no additional props. Regional art direction: distinct maritime white-stone city: pale limestone paving and sea-green narrow edge stones, white stone marker with small original abstract compass ring, restrained bronze oil lantern with sea-green cap, white stone posts with modest bronze rails. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-sea-3-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b308bd6c6244c3d606934f34228cb0bb773dec5c51db45d70d8da149cfdf1925",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-sea-4",
+      "name": "해양국 항만 도시 가로 조명",
+      "region": "해양국 항만 도시",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 해양국 항만 도시 가로 조명 and exact ID district-sea-4. ONE asset type only. ONE STREET LIGHT FIXTURE, entirely visible post/housing and small foundation. Ordinary regions use a practical oil lantern (not electric), ancient regions use small restrained resonance inset; no giant glowing crystal, no scenery. LEFT complete three-quarter light, RIGHT FRONT and SIDE views, bottom JOIN shows base attached to small ghosted floor patch. No huge bloom or ornamental filigree. Regional art direction: distinct maritime white-stone city: pale limestone paving and sea-green narrow edge stones, white stone marker with small original abstract compass ring, restrained bronze oil lantern with sea-green cap, white stone posts with modest bronze rails. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-sea-4-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "3d08af41f3f9abfb73710c1eaaf19412827c5f4efe88df436b0c4bd5d3d17142",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-sea-5",
+      "name": "해양국 항만 도시 경계 울타리",
+      "region": "해양국 항만 도시",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 해양국 항만 도시 경계 울타리 and exact ID district-sea-5. ONE asset type only. ONE STRAIGHT BOUNDARY FENCE / PARAPET MODULE with two end posts, completely visible, no gate or building. Region material matches design, simple repeatable segment. LEFT full three-quarter view, RIGHT FRONT and SIDE views, bottom JOIN shows active colored segment between two ghosted grey neighbors aligned in straight line. Gaps intentional but no broken or impossible joins. Regional art direction: distinct maritime white-stone city: pale limestone paving and sea-green narrow edge stones, white stone marker with small original abstract compass ring, restrained bronze oil lantern with sea-green cap, white stone posts with modest bronze rails. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-sea-5-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "884843bdaf1933e74d4cf924a6f61557c4137cef914a12e34e059a081829d1f2",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-sanctuary-1",
+      "name": "교단 성역 광장 바닥",
+      "region": "교단 성역",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 교단 성역 광장 바닥 and exact ID district-sanctuary-1. ONE asset type only. ONE repeatable SQUARE PLAZA FLOOR PATCH, broad flat traversable surface, no raised central monument, no buildings, no people. LEFT large slight-elevated three-quarter view of ONE square tile patch, RIGHT top true TOP VIEW of same patch, middle thin SIDE PROFILE, bottom JOIN showing this tile in color amid a 3x3 set of grey ghosted copies. Material pattern should meet opposite edges with minimal border discontinuity; no claim of mathematically seamless texture. Regional art direction: quiet pale limestone sanctuary: simple pale stone square paving and restrained leaf-ring border, plain limestone waymarker with original tiny leaf-ring motif, sheltered small bronze oil lamp, low pale stone boundary wall with plain coping; no real-world religious symbols. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-sanctuary-1-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "87bd44d2b7f210dbeac3c4c313ab10a431142049a125816bd824e2a34674f136",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님.",
+        "반복 배치는 개념 예시. 가장자리 무봉제 접합은 미검증이며 중앙 문양을 그대로 반복하지 않음. 길은 직선 구간으로 코너·교차로는 별도 제작."
+      ]
+    },
+    {
+      "id": "district-sanctuary-2",
+      "name": "교단 성역 주요 길",
+      "region": "교단 성역",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 교단 성역 주요 길 and exact ID district-sanctuary-2. ONE asset type only. ONE repeatable STRAIGHT PATH MODULE, rectangular flat path aligned vertically in TOP view with clear straight edges and modest verge on both sides, no curves no diagonal fork no stairs no buildings. LEFT large three-quarter full segment, RIGHT top true TOP VIEW, middle thin SIDE PROFILE, bottom JOIN shows end-to-end repetition with neighboring segments ghosted grey. No bends added, no obstacles in center. Regional art direction: quiet pale limestone sanctuary: simple pale stone square paving and restrained leaf-ring border, plain limestone waymarker with original tiny leaf-ring motif, sheltered small bronze oil lamp, low pale stone boundary wall with plain coping; no real-world religious symbols. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-sanctuary-2-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "26e8b315f304e21f82145ba09233dd0335602cb0bfa24819328329e56adacade",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님.",
+        "반복 배치는 개념 예시. 가장자리 무봉제 접합은 미검증이며 중앙 문양을 그대로 반복하지 않음. 길은 직선 구간으로 코너·교차로는 별도 제작."
+      ]
+    },
+    {
+      "id": "district-sanctuary-3",
+      "name": "교단 성역 지역 표지",
+      "region": "교단 성역",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 교단 성역 지역 표지 and exact ID district-sanctuary-3. ONE asset type only. ONE REGION WAYFINDING SIGN OR LOW MARKER, plain practical sign structure matching region, leave sign text BLANK or use one simple geometric region pictogram only, no invented place names or runic writing, not a gateway or building. LEFT full three-quarter view, RIGHT FRONT and SIDE views, bottom JOIN placement with only small ghosted floor patch, no additional props. Regional art direction: quiet pale limestone sanctuary: simple pale stone square paving and restrained leaf-ring border, plain limestone waymarker with original tiny leaf-ring motif, sheltered small bronze oil lamp, low pale stone boundary wall with plain coping; no real-world religious symbols. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-sanctuary-3-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "5dccb23c835ad105d7612a272e54c4d258379be43ff5f59e8e4b799dbe18a1c0",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-sanctuary-4",
+      "name": "교단 성역 가로 조명",
+      "region": "교단 성역",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 교단 성역 가로 조명 and exact ID district-sanctuary-4. ONE asset type only. ONE STREET LIGHT FIXTURE, entirely visible post/housing and small foundation. Ordinary regions use a practical oil lantern (not electric), ancient regions use small restrained resonance inset; no giant glowing crystal, no scenery. LEFT complete three-quarter light, RIGHT FRONT and SIDE views, bottom JOIN shows base attached to small ghosted floor patch. No huge bloom or ornamental filigree. Regional art direction: quiet pale limestone sanctuary: simple pale stone square paving and restrained leaf-ring border, plain limestone waymarker with original tiny leaf-ring motif, sheltered small bronze oil lamp, low pale stone boundary wall with plain coping; no real-world religious symbols. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-sanctuary-4-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d41b1f5af7f4afcb30918a1c885f20b578b7f7da481327aa46af29481dfa3fb1",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-sanctuary-5",
+      "name": "교단 성역 경계 울타리",
+      "region": "교단 성역",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 교단 성역 경계 울타리 and exact ID district-sanctuary-5. ONE asset type only. ONE STRAIGHT BOUNDARY FENCE / PARAPET MODULE with two end posts, completely visible, no gate or building. Region material matches design, simple repeatable segment. LEFT full three-quarter view, RIGHT FRONT and SIDE views, bottom JOIN shows active colored segment between two ghosted grey neighbors aligned in straight line. Gaps intentional but no broken or impossible joins. Regional art direction: quiet pale limestone sanctuary: simple pale stone square paving and restrained leaf-ring border, plain limestone waymarker with original tiny leaf-ring motif, sheltered small bronze oil lamp, low pale stone boundary wall with plain coping; no real-world religious symbols. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-sanctuary-5-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "edaa9808ff3c8b24bdcc8379144c04d5daf8087c2dc816f5e1192f5c879aa83c",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-core-1",
+      "name": "고대 중추 광장 바닥",
+      "region": "고대 중추",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 고대 중추 광장 바닥 and exact ID district-core-1. ONE asset type only. ONE repeatable SQUARE PLAZA FLOOR PATCH, broad flat traversable surface, no raised central monument, no buildings, no people. LEFT large slight-elevated three-quarter view of ONE square tile patch, RIGHT top true TOP VIEW of same patch, middle thin SIDE PROFILE, bottom JOIN showing this tile in color amid a 3x3 set of grey ghosted copies. Material pattern should meet opposite edges with minimal border discontinuity; no claim of mathematically seamless texture. Regional art direction: ancient cavern structure: broad worn dark grey stone slabs with modest bronze strip inlay, low stone-bronze geometric waymarker, very small recessed muted teal core lamp, plain stone-bronze parapet; no screens no neon. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-core-1-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "47bee2434cda3b8a97062b74749eb67af7952ceb0c427fddc9ac9d32a515e6e0",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님.",
+        "반복 배치는 개념 예시. 가장자리 무봉제 접합은 미검증이며 중앙 문양을 그대로 반복하지 않음. 길은 직선 구간으로 코너·교차로는 별도 제작."
+      ]
+    },
+    {
+      "id": "district-core-2",
+      "name": "고대 중추 주요 길",
+      "region": "고대 중추",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 고대 중추 주요 길 and exact ID district-core-2. ONE asset type only. ONE repeatable STRAIGHT PATH MODULE, rectangular flat path aligned vertically in TOP view with clear straight edges and modest verge on both sides, no curves no diagonal fork no stairs no buildings. LEFT large three-quarter full segment, RIGHT top true TOP VIEW, middle thin SIDE PROFILE, bottom JOIN shows end-to-end repetition with neighboring segments ghosted grey. No bends added, no obstacles in center. Regional art direction: ancient cavern structure: broad worn dark grey stone slabs with modest bronze strip inlay, low stone-bronze geometric waymarker, very small recessed muted teal core lamp, plain stone-bronze parapet; no screens no neon. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-core-2-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c2291cc70726e15b5232561e4854cb69ed912b946e514829c684542de7c76dad",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님.",
+        "반복 배치는 개념 예시. 가장자리 무봉제 접합은 미검증이며 중앙 문양을 그대로 반복하지 않음. 길은 직선 구간으로 코너·교차로는 별도 제작."
+      ]
+    },
+    {
+      "id": "district-core-3",
+      "name": "고대 중추 지역 표지",
+      "region": "고대 중추",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 고대 중추 지역 표지 and exact ID district-core-3. ONE asset type only. ONE REGION WAYFINDING SIGN OR LOW MARKER, plain practical sign structure matching region, leave sign text BLANK or use one simple geometric region pictogram only, no invented place names or runic writing, not a gateway or building. LEFT full three-quarter view, RIGHT FRONT and SIDE views, bottom JOIN placement with only small ghosted floor patch, no additional props. Regional art direction: ancient cavern structure: broad worn dark grey stone slabs with modest bronze strip inlay, low stone-bronze geometric waymarker, very small recessed muted teal core lamp, plain stone-bronze parapet; no screens no neon. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-core-3-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8bf31d0db1f9aaa6be56d08763696f6ce9de77aadb210596e4fcdc5b6370a144",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-core-4",
+      "name": "고대 중추 가로 조명",
+      "region": "고대 중추",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 고대 중추 가로 조명 and exact ID district-core-4. ONE asset type only. ONE STREET LIGHT FIXTURE, entirely visible post/housing and small foundation. Ordinary regions use a practical oil lantern (not electric), ancient regions use small restrained resonance inset; no giant glowing crystal, no scenery. LEFT complete three-quarter light, RIGHT FRONT and SIDE views, bottom JOIN shows base attached to small ghosted floor patch. No huge bloom or ornamental filigree. Regional art direction: ancient cavern structure: broad worn dark grey stone slabs with modest bronze strip inlay, low stone-bronze geometric waymarker, very small recessed muted teal core lamp, plain stone-bronze parapet; no screens no neon. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-core-4-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "83a35041bbb6265fe7dc43e203b5773e4de018d07adf57bc1a10d92e23720d15",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-core-5",
+      "name": "고대 중추 경계 울타리",
+      "region": "고대 중추",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 고대 중추 경계 울타리 and exact ID district-core-5. ONE asset type only. ONE STRAIGHT BOUNDARY FENCE / PARAPET MODULE with two end posts, completely visible, no gate or building. Region material matches design, simple repeatable segment. LEFT full three-quarter view, RIGHT FRONT and SIDE views, bottom JOIN shows active colored segment between two ghosted grey neighbors aligned in straight line. Gaps intentional but no broken or impossible joins. Regional art direction: ancient cavern structure: broad worn dark grey stone slabs with modest bronze strip inlay, low stone-bronze geometric waymarker, very small recessed muted teal core lamp, plain stone-bronze parapet; no screens no neon. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-core-5-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8f68496e662bab69736495b9d1a0f90d9e49daf012b6734f6d1f6e9b05a2fe26",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-leon-home-1",
+      "name": "레온의 고향 광장 바닥",
+      "region": "레온의 고향",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 레온의 고향 광장 바닥 and exact ID district-leon-home-1. ONE asset type only. ONE repeatable SQUARE PLAZA FLOOR PATCH, broad flat traversable surface, no raised central monument, no buildings, no people. LEFT large slight-elevated three-quarter view of ONE square tile patch, RIGHT top true TOP VIEW of same patch, middle thin SIDE PROFILE, bottom JOIN showing this tile in color amid a 3x3 set of grey ghosted copies. Material pattern should meet opposite edges with minimal border discontinuity; no claim of mathematically seamless texture. Regional art direction: peaceful modest rural village: packed earth with scattered flat grey stones, plain dark timber sign no military icon, small warm iron oil lamp on short wooden post, low rustic wood rail fence and modest planted grass. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-leon-home-1-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "42c60658205af55b65bbcc760c04d6965c606752354d2631f1ffeb90716a214d",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님.",
+        "반복 배치는 개념 예시. 가장자리 무봉제 접합은 미검증이며 중앙 문양을 그대로 반복하지 않음. 길은 직선 구간으로 코너·교차로는 별도 제작."
+      ]
+    },
+    {
+      "id": "district-leon-home-2",
+      "name": "레온의 고향 주요 길",
+      "region": "레온의 고향",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 레온의 고향 주요 길 and exact ID district-leon-home-2. ONE asset type only. ONE repeatable STRAIGHT PATH MODULE, rectangular flat path aligned vertically in TOP view with clear straight edges and modest verge on both sides, no curves no diagonal fork no stairs no buildings. LEFT large three-quarter full segment, RIGHT top true TOP VIEW, middle thin SIDE PROFILE, bottom JOIN shows end-to-end repetition with neighboring segments ghosted grey. No bends added, no obstacles in center. Regional art direction: peaceful modest rural village: packed earth with scattered flat grey stones, plain dark timber sign no military icon, small warm iron oil lamp on short wooden post, low rustic wood rail fence and modest planted grass. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-leon-home-2-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e6e4906c862be13912c625f33da3a23b82794784f443408575f053a3c56bc057",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님.",
+        "반복 배치는 개념 예시. 가장자리 무봉제 접합은 미검증이며 중앙 문양을 그대로 반복하지 않음. 길은 직선 구간으로 코너·교차로는 별도 제작."
+      ]
+    },
+    {
+      "id": "district-leon-home-3",
+      "name": "레온의 고향 지역 표지",
+      "region": "레온의 고향",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 레온의 고향 지역 표지 and exact ID district-leon-home-3. ONE asset type only. ONE REGION WAYFINDING SIGN OR LOW MARKER, plain practical sign structure matching region, leave sign text BLANK or use one simple geometric region pictogram only, no invented place names or runic writing, not a gateway or building. LEFT full three-quarter view, RIGHT FRONT and SIDE views, bottom JOIN placement with only small ghosted floor patch, no additional props. Regional art direction: peaceful modest rural village: packed earth with scattered flat grey stones, plain dark timber sign no military icon, small warm iron oil lamp on short wooden post, low rustic wood rail fence and modest planted grass. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-leon-home-3-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c7e6906f6595ed9b8422967844fc775a8c85bf0bd1c60f32036caa4ebd2fc3a7",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-leon-home-4",
+      "name": "레온의 고향 가로 조명",
+      "region": "레온의 고향",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 레온의 고향 가로 조명 and exact ID district-leon-home-4. ONE asset type only. ONE STREET LIGHT FIXTURE, entirely visible post/housing and small foundation. Ordinary regions use a practical oil lantern (not electric), ancient regions use small restrained resonance inset; no giant glowing crystal, no scenery. LEFT complete three-quarter light, RIGHT FRONT and SIDE views, bottom JOIN shows base attached to small ghosted floor patch. No huge bloom or ornamental filigree. Regional art direction: peaceful modest rural village: packed earth with scattered flat grey stones, plain dark timber sign no military icon, small warm iron oil lamp on short wooden post, low rustic wood rail fence and modest planted grass. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-leon-home-4-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "91621a9cc4262f5a17bc45e5455175b12831268501c0ce43933f5ca60a1a62b0",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "district-leon-home-5",
+      "name": "레온의 고향 경계 울타리",
+      "region": "레온의 고향",
+      "prompt": "Create ONE individual ENVIRONMENT ASSET REFERENCE BOARD for original fantasy JRPG Springbound Frontier. Warm ivory background, thin quiet brown rules, clean classic fantasy ink with restrained cel shading and BROAD SIMPLE material shapes, modest detail not photorealistic. Small title 레온의 고향 경계 울타리 and exact ID district-leon-home-5. ONE asset type only. ONE STRAIGHT BOUNDARY FENCE / PARAPET MODULE with two end posts, completely visible, no gate or building. Region material matches design, simple repeatable segment. LEFT full three-quarter view, RIGHT FRONT and SIDE views, bottom JOIN shows active colored segment between two ghosted grey neighbors aligned in straight line. Gaps intentional but no broken or impossible joins. Regional art direction: peaceful modest rural village: packed earth with scattered flat grey stones, plain dark timber sign no military icon, small warm iron oil lamp on short wooden post, low rustic wood rail fence and modest planted grass. Supplied image establishes only regional palette and materials, do not recreate full map. All parts visible with generous margin, no cropped ends, keep orthographic views consistent with main object. Small appropriate English view labels only, no measurements, no lore paragraphs, no UI, no characters. Avoid overdecorated spikes, extra banners, floating pieces, excessive tiny texture. This is appearance/modeling reference, NOT a production model or tile texture.",
+      "file": "district-leon-home-5-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "164d0dc10949b076f983d72fd349bdb8cdd1b5f1cd57d6137cd1fd2120226c10",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
+        "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
+        "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
       ]
     }
   ]
