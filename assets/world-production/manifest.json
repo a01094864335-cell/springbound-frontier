@@ -1,7 +1,7 @@
 {
   "date": "2026-11-02",
-  "count": 142,
-  "scope": "12 construction modules + 11 location layouts + 64 building/facility boards + 55 district environment boards; appearance references only",
+  "count": 214,
+  "scope": "214 appearance reference boards: modules12, location layouts11, buildings64, district environments55, regional architecture72; no new runtime assets",
   "boards": [
     {
       "id": "kit-wall-straight",
@@ -2557,6 +2557,1438 @@
         "지역 환경 단독 외형과 배치 참고 보드. 실제 모델·타일·텍스처·충돌·내비게이션 데이터가 아님.",
         "함께 그려진 조명·표지·울타리·식생은 모델 제작 시 분리. 주변 소품을 별도 제작 완료로 중복 집계하지 않음.",
         "뷰 사이 치수·장식·연결면을 정합화해야 함. 문양은 임시 시각 제안이며 세력 설정 확정이 아님."
+      ]
+    },
+    {
+      "id": "architecture-01-01",
+      "name": "국경 산촌 벽 직선",
+      "region": "국경 산촌",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 국경 산촌 벽 직선 exact ID architecture-01-01. Asset: straight structural wall module, front and side orthographic views and a simple end-to-end join inset; no windows or doors. Regional material family: grey fieldstone plinth, plain dark timber frame, cream plaster, muted slate roofing, practical rural construction. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-01-01-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "5ce731b37e961aa17073e4e2b69232c85c454e88d00877759721d909cb9d3f9a",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤."
+      ]
+    },
+    {
+      "id": "architecture-01-02",
+      "name": "국경 산촌 벽 모서리",
+      "region": "국경 산촌",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 국경 산촌 벽 모서리 exact ID architecture-01-02. Asset: 90 degree structural wall corner module, top and side views, L shaped walls with matching thickness. Regional material family: grey fieldstone plinth, plain dark timber frame, cream plaster, muted slate roofing, practical rural construction. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-01-02-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "622f701ac418a457cfd53246a0002dcf5b05cbf4e65021e5f69c5c4a0a6f5401",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤."
+      ]
+    },
+    {
+      "id": "architecture-01-03",
+      "name": "국경 산촌 문",
+      "region": "국경 산촌",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 국경 산촌 문 exact ID architecture-01-03. Asset: single door leaf and frame, front and side views, small closed/open view; ordinary entrance not giant gate. Regional material family: grey fieldstone plinth, plain dark timber frame, cream plaster, muted slate roofing, practical rural construction. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-01-03-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f33da4ffb412a9a6a16d9f2f03e25bbba7b83142d62321cafe4069d9e97147dd",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤.",
+        "열림 그림은 외형 참고. 경첩 피벗·충돌 전환·상호작용·열림 동작은 별도 구현."
+      ]
+    },
+    {
+      "id": "architecture-01-04",
+      "name": "국경 산촌 창",
+      "region": "국경 산촌",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 국경 산촌 창 exact ID architecture-01-04. Asset: single window and frame, front side and wall insertion views; simple readable silhouette. Regional material family: grey fieldstone plinth, plain dark timber frame, cream plaster, muted slate roofing, practical rural construction. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-01-04-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "56253f0ce8ae095cd10bcecee472b153131137f69c15fe812182683dd36ca6bd",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤."
+      ]
+    },
+    {
+      "id": "architecture-01-05",
+      "name": "국경 산촌 바닥",
+      "region": "국경 산촌",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 국경 산촌 바닥 exact ID architecture-01-05. Asset: plain square structural floor module, top and edge profile, small repeat join inset, no plaza, railings, lamps or central crest. Regional material family: grey fieldstone plinth, plain dark timber frame, cream plaster, muted slate roofing, practical rural construction. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-01-05-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d2a2f64e4a49de131365c1aad87ce5c09087fb46ce1ffd9035aa3ae70026ddb0",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "일부 보드는 두꺼운 기단을 포함. 실내 바닥·외부 광장과 구분하고 필요한 두께로 재설계. 무봉제 텍스처 아님."
+      ]
+    },
+    {
+      "id": "architecture-01-06",
+      "name": "국경 산촌 기둥",
+      "region": "국경 산촌",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 국경 산촌 기둥 exact ID architecture-01-06. Asset: single structural column with base and capital, front and side and base join views. Regional material family: grey fieldstone plinth, plain dark timber frame, cream plaster, muted slate roofing, practical rural construction. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-01-06-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7c34434a379a776cf69ef0c670e63c181849930f08984e4275edddc145c26eef",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화."
+      ]
+    },
+    {
+      "id": "architecture-01-07",
+      "name": "국경 산촌 계단",
+      "region": "국경 산촌",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 국경 산촌 계단 exact ID architecture-01-07. Asset: short straight staircase flight with simple landing, side and top views, readable consistent step count. Regional material family: grey fieldstone plinth, plain dark timber frame, cream plaster, muted slate roofing, practical rural construction. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-01-07-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d7a7f62cd661b0d4ac5ec2aebb3ada60bcf1efa73e06d7c751aebd771eed2482",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "계단 단수·단높이·통행 폭·캐릭터 이동 충돌은 모델 제작 단계에서 검증."
+      ]
+    },
+    {
+      "id": "architecture-01-08",
+      "name": "국경 산촌 난간",
+      "region": "국경 산촌",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 국경 산촌 난간 exact ID architecture-01-08. Asset: single straight railing span with two posts, front side and join views, no lights or signs. Regional material family: grey fieldstone plinth, plain dark timber frame, cream plaster, muted slate roofing, practical rural construction. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-01-08-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8932751030ff6ac03feae3b6f7206debcee36be691b08e9dea20fdb4f3ce072c",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화."
+      ]
+    },
+    {
+      "id": "architecture-01-09",
+      "name": "국경 산촌 천장·지붕",
+      "region": "국경 산촌",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 국경 산촌 천장·지붕 exact ID architecture-01-09. Asset: one roof-and-ceiling modular bay with simple eave, top and section profile showing underside, small join inset, no complete building. Regional material family: grey fieldstone plinth, plain dark timber frame, cream plaster, muted slate roofing, practical rural construction. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-01-09-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c27012cc6ada7d8f744548ff5bbb2af015fb303040534a6e89cc397bd1e48a9a",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "지붕 끝막음·용마루·처마·천장 분리 및 반복 구간 규격 확인. 시안의 단면 표시는 구조 데이터가 아님."
+      ]
+    },
+    {
+      "id": "architecture-02-01",
+      "name": "왕도 벽 직선",
+      "region": "왕도",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 왕도 벽 직선 exact ID architecture-02-01. Asset: straight structural wall module, front and side orthographic views and a simple end-to-end join inset; no windows or doors. Regional material family: pale limestone, restrained navy accents, dark slate roofing, simple classical civic shapes. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-02-01-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "47c786296c48dc07ae8566ff8a63151d1251e14823d8a12b34f222a602c993b6",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤."
+      ]
+    },
+    {
+      "id": "architecture-02-02",
+      "name": "왕도 벽 모서리",
+      "region": "왕도",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 왕도 벽 모서리 exact ID architecture-02-02. Asset: 90 degree structural wall corner module, top and side views, L shaped walls with matching thickness. Regional material family: pale limestone, restrained navy accents, dark slate roofing, simple classical civic shapes. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-02-02-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "5bc5a4f211d3be677eae66534d943a373026af58ce271729b5b2d94e77803f3d",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤."
+      ]
+    },
+    {
+      "id": "architecture-02-03",
+      "name": "왕도 문",
+      "region": "왕도",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 왕도 문 exact ID architecture-02-03. Asset: single door leaf and frame, front and side views, small closed/open view; ordinary entrance not giant gate. Regional material family: pale limestone, restrained navy accents, dark slate roofing, simple classical civic shapes. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-02-03-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "59f356f9f07e4b981792492e2cf61533deae4eca6b793af2edcfecddf59501cb",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤.",
+        "열림 그림은 외형 참고. 경첩 피벗·충돌 전환·상호작용·열림 동작은 별도 구현."
+      ]
+    },
+    {
+      "id": "architecture-02-04",
+      "name": "왕도 창",
+      "region": "왕도",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 왕도 창 exact ID architecture-02-04. Asset: single window and frame, front side and wall insertion views; simple readable silhouette. Regional material family: pale limestone, restrained navy accents, dark slate roofing, simple classical civic shapes. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-02-04-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "5fb508b1f96506af301d4ac141fb4bec5d940b3a4444f0f98895eeca6567b3d6",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤."
+      ]
+    },
+    {
+      "id": "architecture-02-05",
+      "name": "왕도 바닥",
+      "region": "왕도",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 왕도 바닥 exact ID architecture-02-05. Asset: plain square structural floor module, top and edge profile, small repeat join inset, no plaza, railings, lamps or central crest. Regional material family: pale limestone, restrained navy accents, dark slate roofing, simple classical civic shapes. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-02-05-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f035f25b75d336e978c5b4dc82153a7462b99c1826b744c464986eef33195e9c",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "일부 보드는 두꺼운 기단을 포함. 실내 바닥·외부 광장과 구분하고 필요한 두께로 재설계. 무봉제 텍스처 아님."
+      ]
+    },
+    {
+      "id": "architecture-02-06",
+      "name": "왕도 기둥",
+      "region": "왕도",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 왕도 기둥 exact ID architecture-02-06. Asset: single structural column with base and capital, front and side and base join views. Regional material family: pale limestone, restrained navy accents, dark slate roofing, simple classical civic shapes. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-02-06-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "59cb70fbf1d5ecbb286f436e0567fd882d32bc487b1c71bdd53398c2511e7477",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화."
+      ]
+    },
+    {
+      "id": "architecture-02-07",
+      "name": "왕도 계단",
+      "region": "왕도",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 왕도 계단 exact ID architecture-02-07. Asset: short straight staircase flight with simple landing, side and top views, readable consistent step count. Regional material family: pale limestone, restrained navy accents, dark slate roofing, simple classical civic shapes. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-02-07-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d802d664719408405157740d879b6990c95067b4aaab7b5505f18f32f7ce3caf",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "계단 단수·단높이·통행 폭·캐릭터 이동 충돌은 모델 제작 단계에서 검증."
+      ]
+    },
+    {
+      "id": "architecture-02-08",
+      "name": "왕도 난간",
+      "region": "왕도",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 왕도 난간 exact ID architecture-02-08. Asset: single straight railing span with two posts, front side and join views, no lights or signs. Regional material family: pale limestone, restrained navy accents, dark slate roofing, simple classical civic shapes. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-02-08-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "fe9ded4546caaf64814d172e83a1fe8ae6aa28f76826aaa2066fd14e5bf796e9",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화."
+      ]
+    },
+    {
+      "id": "architecture-02-09",
+      "name": "왕도 천장·지붕",
+      "region": "왕도",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 왕도 천장·지붕 exact ID architecture-02-09. Asset: one roof-and-ceiling modular bay with simple eave, top and section profile showing underside, small join inset, no complete building. Regional material family: pale limestone, restrained navy accents, dark slate roofing, simple classical civic shapes. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-02-09-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6562f9f0d7b486ce9c2878ee7401e322015d4f16edd7733501c86c9db3e7fb9d",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "지붕 끝막음·용마루·처마·천장 분리 및 반복 구간 규격 확인. 시안의 단면 표시는 구조 데이터가 아님."
+      ]
+    },
+    {
+      "id": "architecture-03-01",
+      "name": "학술도시 벽 직선",
+      "region": "학술도시",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 학술도시 벽 직선 exact ID architecture-03-01. Asset: straight structural wall module, front and side orthographic views and a simple end-to-end join inset; no windows or doors. Regional material family: warm sandstone, cream plaster, terracotta roofing, modest brass trim. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-03-01-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "531e3754fb5cdbe1979a71ada828c9e77b9ab5b47b19475140a41e7e1af04cb5",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤."
+      ]
+    },
+    {
+      "id": "architecture-03-02",
+      "name": "학술도시 벽 모서리",
+      "region": "학술도시",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 학술도시 벽 모서리 exact ID architecture-03-02. Asset: 90 degree structural wall corner module, top and side views, L shaped walls with matching thickness. Regional material family: warm sandstone, cream plaster, terracotta roofing, modest brass trim. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-03-02-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "57e4f9628bebf8cda6ae19389e5fd75458dee92c919a7b61b51ed608264099dc",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤."
+      ]
+    },
+    {
+      "id": "architecture-03-03",
+      "name": "학술도시 문",
+      "region": "학술도시",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 학술도시 문 exact ID architecture-03-03. Asset: single door leaf and frame, front and side views, small closed/open view; ordinary entrance not giant gate. Regional material family: warm sandstone, cream plaster, terracotta roofing, modest brass trim. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-03-03-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6e5915db847a589e3b822baf2af2376b68f871ffba0e7f9133419997cb650073",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤.",
+        "열림 그림은 외형 참고. 경첩 피벗·충돌 전환·상호작용·열림 동작은 별도 구현."
+      ]
+    },
+    {
+      "id": "architecture-03-04",
+      "name": "학술도시 창",
+      "region": "학술도시",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 학술도시 창 exact ID architecture-03-04. Asset: single window and frame, front side and wall insertion views; simple readable silhouette. Regional material family: warm sandstone, cream plaster, terracotta roofing, modest brass trim. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-03-04-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "3dfed577974785911c211f3a24799679a7a3c3d9dd08d995dd083998524dd8cf",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤."
+      ]
+    },
+    {
+      "id": "architecture-03-05",
+      "name": "학술도시 바닥",
+      "region": "학술도시",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 학술도시 바닥 exact ID architecture-03-05. Asset: plain square structural floor module, top and edge profile, small repeat join inset, no plaza, railings, lamps or central crest. Regional material family: warm sandstone, cream plaster, terracotta roofing, modest brass trim. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-03-05-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "a63550e905b6a68eb4f6bfb3e64ffa45a942a44d95f5f642478f05b62e02ddcc",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "일부 보드는 두꺼운 기단을 포함. 실내 바닥·외부 광장과 구분하고 필요한 두께로 재설계. 무봉제 텍스처 아님."
+      ]
+    },
+    {
+      "id": "architecture-03-06",
+      "name": "학술도시 기둥",
+      "region": "학술도시",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 학술도시 기둥 exact ID architecture-03-06. Asset: single structural column with base and capital, front and side and base join views. Regional material family: warm sandstone, cream plaster, terracotta roofing, modest brass trim. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-03-06-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e2b97de9b08336e9659925d9b9caa40e642a93c4d89535f413b048c761730fe8",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화."
+      ]
+    },
+    {
+      "id": "architecture-03-07",
+      "name": "학술도시 계단",
+      "region": "학술도시",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 학술도시 계단 exact ID architecture-03-07. Asset: short straight staircase flight with simple landing, side and top views, readable consistent step count. Regional material family: warm sandstone, cream plaster, terracotta roofing, modest brass trim. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-03-07-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "bc200d6918894abb2be1f00a7857259859a3f98cc0ee56055dad50ca94ab8d19",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "계단 단수·단높이·통행 폭·캐릭터 이동 충돌은 모델 제작 단계에서 검증."
+      ]
+    },
+    {
+      "id": "architecture-03-08",
+      "name": "학술도시 난간",
+      "region": "학술도시",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 학술도시 난간 exact ID architecture-03-08. Asset: single straight railing span with two posts, front side and join views, no lights or signs. Regional material family: warm sandstone, cream plaster, terracotta roofing, modest brass trim. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-03-08-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e26561497429d5446f32a9d59e84f8a5fceaab71700df00184e1e7c079b0ebff",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화."
+      ]
+    },
+    {
+      "id": "architecture-03-09",
+      "name": "학술도시 천장·지붕",
+      "region": "학술도시",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 학술도시 천장·지붕 exact ID architecture-03-09. Asset: one roof-and-ceiling modular bay with simple eave, top and section profile showing underside, small join inset, no complete building. Regional material family: warm sandstone, cream plaster, terracotta roofing, modest brass trim. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-03-09-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "48f3715af931bae747188839c46262bafd30ea1cf04444b40b38f88b65379276",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "지붕 끝막음·용마루·처마·천장 분리 및 반복 구간 규격 확인. 시안의 단면 표시는 구조 데이터가 아님."
+      ]
+    },
+    {
+      "id": "architecture-04-01",
+      "name": "남방 항만 벽 직선",
+      "region": "남방 항만",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 남방 항만 벽 직선 exact ID architecture-04-01. Asset: straight structural wall module, front and side orthographic views and a simple end-to-end join inset; no windows or doors. Regional material family: weathered warm timber, sandstone plinth, practical dark metal fittings, clay roof. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-04-01-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "626cbc448906770b6f58d0fbbabaaadeacb5b570d466c79df3a46d8930f7bea9",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤."
+      ]
+    },
+    {
+      "id": "architecture-04-02",
+      "name": "남방 항만 벽 모서리",
+      "region": "남방 항만",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 남방 항만 벽 모서리 exact ID architecture-04-02. Asset: 90 degree structural wall corner module, top and side views, L shaped walls with matching thickness. Regional material family: weathered warm timber, sandstone plinth, practical dark metal fittings, clay roof. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-04-02-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "a643709cd3a8086415de0ef3a91eab43be752c752ec61a6fd05f8a30fb9d0348",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤."
+      ]
+    },
+    {
+      "id": "architecture-04-03",
+      "name": "남방 항만 문",
+      "region": "남방 항만",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 남방 항만 문 exact ID architecture-04-03. Asset: single door leaf and frame, front and side views, small closed/open view; ordinary entrance not giant gate. Regional material family: weathered warm timber, sandstone plinth, practical dark metal fittings, clay roof. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-04-03-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f404305b819b70fc8f9c79253730c209f41bfee212dc080fdbdb7eca42ef41f3",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤.",
+        "열림 그림은 외형 참고. 경첩 피벗·충돌 전환·상호작용·열림 동작은 별도 구현."
+      ]
+    },
+    {
+      "id": "architecture-04-04",
+      "name": "남방 항만 창",
+      "region": "남방 항만",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 남방 항만 창 exact ID architecture-04-04. Asset: single window and frame, front side and wall insertion views; simple readable silhouette. Regional material family: weathered warm timber, sandstone plinth, practical dark metal fittings, clay roof. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-04-04-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "263fb1c2c189971e3ab96be5ecc4bb6a511482072813c5612424ddfd9d49700e",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤."
+      ]
+    },
+    {
+      "id": "architecture-04-05",
+      "name": "남방 항만 바닥",
+      "region": "남방 항만",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 남방 항만 바닥 exact ID architecture-04-05. Asset: plain square structural floor module, top and edge profile, small repeat join inset, no plaza, railings, lamps or central crest. Regional material family: weathered warm timber, sandstone plinth, practical dark metal fittings, clay roof. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-04-05-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f37e81030fa91b632b0d06ffdbb7d5e21bd35dc012c8ca3c47a260c82c91936d",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "일부 보드는 두꺼운 기단을 포함. 실내 바닥·외부 광장과 구분하고 필요한 두께로 재설계. 무봉제 텍스처 아님."
+      ]
+    },
+    {
+      "id": "architecture-04-06",
+      "name": "남방 항만 기둥",
+      "region": "남방 항만",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 남방 항만 기둥 exact ID architecture-04-06. Asset: single structural column with base and capital, front and side and base join views. Regional material family: weathered warm timber, sandstone plinth, practical dark metal fittings, clay roof. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-04-06-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9deafc540b4f97d39ed6d780638256aab61160796fe9378035de3265ade3c546",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화."
+      ]
+    },
+    {
+      "id": "architecture-04-07",
+      "name": "남방 항만 계단",
+      "region": "남방 항만",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 남방 항만 계단 exact ID architecture-04-07. Asset: short straight staircase flight with simple landing, side and top views, readable consistent step count. Regional material family: weathered warm timber, sandstone plinth, practical dark metal fittings, clay roof. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-04-07-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e7f1962529738cf3d8d7f56497be1b4ca89dec70248efddc62e48f2941dc9da3",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "계단 단수·단높이·통행 폭·캐릭터 이동 충돌은 모델 제작 단계에서 검증."
+      ]
+    },
+    {
+      "id": "architecture-04-08",
+      "name": "남방 항만 난간",
+      "region": "남방 항만",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 남방 항만 난간 exact ID architecture-04-08. Asset: single straight railing span with two posts, front side and join views, no lights or signs. Regional material family: weathered warm timber, sandstone plinth, practical dark metal fittings, clay roof. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-04-08-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "bddf909cf36abf29378c4cd682968bc40279bf45405ab5c4aa0637a95aa2e8da",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화."
+      ]
+    },
+    {
+      "id": "architecture-04-09",
+      "name": "남방 항만 천장·지붕",
+      "region": "남방 항만",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 남방 항만 천장·지붕 exact ID architecture-04-09. Asset: one roof-and-ceiling modular bay with simple eave, top and section profile showing underside, small join inset, no complete building. Regional material family: weathered warm timber, sandstone plinth, practical dark metal fittings, clay roof. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-04-09-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "2386ac2013d01077f3926645e1d3fa3924d55c392c24da4fd3d81c3eaa2b1a50",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "지붕 끝막음·용마루·처마·천장 분리 및 반복 구간 규격 확인. 시안의 단면 표시는 구조 데이터가 아님."
+      ]
+    },
+    {
+      "id": "architecture-05-01",
+      "name": "해양국 벽 직선",
+      "region": "해양국",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 해양국 벽 직선 exact ID architecture-05-01. Asset: straight structural wall module, front and side orthographic views and a simple end-to-end join inset; no windows or doors. Regional material family: white limestone, muted teal tile roofing and trims, simple brass fittings. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-05-01-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c14db06668e019f95c0d9f2112024e38d4e8c2b03719ceb944a3b5176db77ea7",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤."
+      ]
+    },
+    {
+      "id": "architecture-05-02",
+      "name": "해양국 벽 모서리",
+      "region": "해양국",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 해양국 벽 모서리 exact ID architecture-05-02. Asset: 90 degree structural wall corner module, top and side views, L shaped walls with matching thickness. Regional material family: white limestone, muted teal tile roofing and trims, simple brass fittings. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-05-02-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "36da7f7bfcc59f4c380534da769f47424fd1bf1e63b38d61d5ed130c7e34be65",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤."
+      ]
+    },
+    {
+      "id": "architecture-05-03",
+      "name": "해양국 문",
+      "region": "해양국",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 해양국 문 exact ID architecture-05-03. Asset: single door leaf and frame, front and side views, small closed/open view; ordinary entrance not giant gate. Regional material family: white limestone, muted teal tile roofing and trims, simple brass fittings. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-05-03-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "06300b42c770b1eead5923cccdf0a447a16b49d2903a33fbd790ae854c315841",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤.",
+        "열림 그림은 외형 참고. 경첩 피벗·충돌 전환·상호작용·열림 동작은 별도 구현."
+      ]
+    },
+    {
+      "id": "architecture-05-04",
+      "name": "해양국 창",
+      "region": "해양국",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 해양국 창 exact ID architecture-05-04. Asset: single window and frame, front side and wall insertion views; simple readable silhouette. Regional material family: white limestone, muted teal tile roofing and trims, simple brass fittings. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-05-04-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8c33d60ba8818d13289e87381434a11da25d7212131857dfbc5ad5b9db8f3dea",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤."
+      ]
+    },
+    {
+      "id": "architecture-05-05",
+      "name": "해양국 바닥",
+      "region": "해양국",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 해양국 바닥 exact ID architecture-05-05. Asset: plain square structural floor module, top and edge profile, small repeat join inset, no plaza, railings, lamps or central crest. Regional material family: white limestone, muted teal tile roofing and trims, simple brass fittings. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-05-05-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "32198e5ded0ab9a11ad155d5313935948412b9a431a438ee1c5753a5a52ccbff",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "일부 보드는 두꺼운 기단을 포함. 실내 바닥·외부 광장과 구분하고 필요한 두께로 재설계. 무봉제 텍스처 아님."
+      ]
+    },
+    {
+      "id": "architecture-05-06",
+      "name": "해양국 기둥",
+      "region": "해양국",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 해양국 기둥 exact ID architecture-05-06. Asset: single structural column with base and capital, front and side and base join views. Regional material family: white limestone, muted teal tile roofing and trims, simple brass fittings. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-05-06-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "563d22ef71b9c7fe75dd05f24ca2e6d72961a7565e6ccad1172fef587f101626",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화."
+      ]
+    },
+    {
+      "id": "architecture-05-07",
+      "name": "해양국 계단",
+      "region": "해양국",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 해양국 계단 exact ID architecture-05-07. Asset: short straight staircase flight with simple landing, side and top views, readable consistent step count. Regional material family: white limestone, muted teal tile roofing and trims, simple brass fittings. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-05-07-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "78281c90d62a7a37752fcac0fbe658072c8352ffbd3cb0ecd5dced682a57c1c5",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "계단 단수·단높이·통행 폭·캐릭터 이동 충돌은 모델 제작 단계에서 검증."
+      ]
+    },
+    {
+      "id": "architecture-05-08",
+      "name": "해양국 난간",
+      "region": "해양국",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 해양국 난간 exact ID architecture-05-08. Asset: single straight railing span with two posts, front side and join views, no lights or signs. Regional material family: white limestone, muted teal tile roofing and trims, simple brass fittings. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-05-08-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c1d228b87d6da14d5232fbd929a111c7a10fd8ac9542ba06d1cce77d07e513e8",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화."
+      ]
+    },
+    {
+      "id": "architecture-05-09",
+      "name": "해양국 천장·지붕",
+      "region": "해양국",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 해양국 천장·지붕 exact ID architecture-05-09. Asset: one roof-and-ceiling modular bay with simple eave, top and section profile showing underside, small join inset, no complete building. Regional material family: white limestone, muted teal tile roofing and trims, simple brass fittings. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-05-09-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7936f7440102e9c348b985f19ff5d4936e73e2e118b1283d74398b42e78bb430",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "지붕 끝막음·용마루·처마·천장 분리 및 반복 구간 규격 확인. 시안의 단면 표시는 구조 데이터가 아님."
+      ]
+    },
+    {
+      "id": "architecture-06-01",
+      "name": "성역 벽 직선",
+      "region": "성역",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 성역 벽 직선 exact ID architecture-06-01. Asset: straight structural wall module, front and side orthographic views and a simple end-to-end join inset; no windows or doors. Regional material family: ivory limestone, subdued olive motifs, simple stone arches, aged brass. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-06-01-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "dec0366844827435e9cb5976de5e86dfee172f8c9b6a6e9926c5241dd5de0d3f",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤."
+      ]
+    },
+    {
+      "id": "architecture-06-02",
+      "name": "성역 벽 모서리",
+      "region": "성역",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 성역 벽 모서리 exact ID architecture-06-02. Asset: 90 degree structural wall corner module, top and side views, L shaped walls with matching thickness. Regional material family: ivory limestone, subdued olive motifs, simple stone arches, aged brass. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-06-02-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "3dcc83b5a246a67ec7ad935bde5c52cd1cd083e762c14a523e068825654608b3",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤."
+      ]
+    },
+    {
+      "id": "architecture-06-03",
+      "name": "성역 문",
+      "region": "성역",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 성역 문 exact ID architecture-06-03. Asset: single door leaf and frame, front and side views, small closed/open view; ordinary entrance not giant gate. Regional material family: ivory limestone, subdued olive motifs, simple stone arches, aged brass. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-06-03-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b2745937e21a887d34b4ad5c14927bf6aa4132f7242f1bd06b9afef63c7b24c6",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤.",
+        "열림 그림은 외형 참고. 경첩 피벗·충돌 전환·상호작용·열림 동작은 별도 구현."
+      ]
+    },
+    {
+      "id": "architecture-06-04",
+      "name": "성역 창",
+      "region": "성역",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 성역 창 exact ID architecture-06-04. Asset: single window and frame, front side and wall insertion views; simple readable silhouette. Regional material family: ivory limestone, subdued olive motifs, simple stone arches, aged brass. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-06-04-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e3178a5d70857d40d75e86f3d2f488111c650d07f93ea2cb4159ff8b65d33151",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤."
+      ]
+    },
+    {
+      "id": "architecture-06-05",
+      "name": "성역 바닥",
+      "region": "성역",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 성역 바닥 exact ID architecture-06-05. Asset: plain square structural floor module, top and edge profile, small repeat join inset, no plaza, railings, lamps or central crest. Regional material family: ivory limestone, subdued olive motifs, simple stone arches, aged brass. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-06-05-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "769ceffef843a206f92f5b8630b0350b76212b1ae09944fd13ab9fcc2fec8226",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "일부 보드는 두꺼운 기단을 포함. 실내 바닥·외부 광장과 구분하고 필요한 두께로 재설계. 무봉제 텍스처 아님."
+      ]
+    },
+    {
+      "id": "architecture-06-06",
+      "name": "성역 기둥",
+      "region": "성역",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 성역 기둥 exact ID architecture-06-06. Asset: single structural column with base and capital, front and side and base join views. Regional material family: ivory limestone, subdued olive motifs, simple stone arches, aged brass. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-06-06-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d812b58d665d04b8fc85b66f2e99e823e9c8e79d41e110b675acc2ab87833c8b",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화."
+      ]
+    },
+    {
+      "id": "architecture-06-07",
+      "name": "성역 계단",
+      "region": "성역",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 성역 계단 exact ID architecture-06-07. Asset: short straight staircase flight with simple landing, side and top views, readable consistent step count. Regional material family: ivory limestone, subdued olive motifs, simple stone arches, aged brass. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-06-07-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "07dba0073b510227824a8fafb6a88f2e20fb50a8e10f849504c2c69eb461f449",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "계단 단수·단높이·통행 폭·캐릭터 이동 충돌은 모델 제작 단계에서 검증."
+      ]
+    },
+    {
+      "id": "architecture-06-08",
+      "name": "성역 난간",
+      "region": "성역",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 성역 난간 exact ID architecture-06-08. Asset: single straight railing span with two posts, front side and join views, no lights or signs. Regional material family: ivory limestone, subdued olive motifs, simple stone arches, aged brass. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-06-08-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "bfe3699674a7248220aef80ed87a93a122b03b0fba8064ac57c945f9fbf84d7d",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화."
+      ]
+    },
+    {
+      "id": "architecture-06-09",
+      "name": "성역 천장·지붕",
+      "region": "성역",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 성역 천장·지붕 exact ID architecture-06-09. Asset: one roof-and-ceiling modular bay with simple eave, top and section profile showing underside, small join inset, no complete building. Regional material family: ivory limestone, subdued olive motifs, simple stone arches, aged brass. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-06-09-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "eb1adc8f12c8b0662539e8a1aef7efdd3088bb5f20787d6deb2f7bfcfef3290f",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "지붕 끝막음·용마루·처마·천장 분리 및 반복 구간 규격 확인. 시안의 단면 표시는 구조 데이터가 아님."
+      ]
+    },
+    {
+      "id": "architecture-07-01",
+      "name": "북방 시설 벽 직선",
+      "region": "북방 시설",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 북방 시설 벽 직선 exact ID architecture-07-01. Asset: straight structural wall module, front and side orthographic views and a simple end-to-end join inset; no windows or doors. Regional material family: massive dark grey stone, muted bronze insets, sparse tiny teal core accents, snow only on exposed ledges. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-07-01-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e5b24884da6a506062164833a852e4f2860e31326b699a26e68c6f95213c070d",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤."
+      ]
+    },
+    {
+      "id": "architecture-07-02",
+      "name": "북방 시설 벽 모서리",
+      "region": "북방 시설",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 북방 시설 벽 모서리 exact ID architecture-07-02. Asset: 90 degree structural wall corner module, top and side views, L shaped walls with matching thickness. Regional material family: massive dark grey stone, muted bronze insets, sparse tiny teal core accents, snow only on exposed ledges. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-07-02-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "df1b515966a42fd5361552002a00e2a3613deb341c38663bf0a63c462c0e1060",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤."
+      ]
+    },
+    {
+      "id": "architecture-07-03",
+      "name": "북방 시설 문",
+      "region": "북방 시설",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 북방 시설 문 exact ID architecture-07-03. Asset: single door leaf and frame, front and side views, small closed/open view; ordinary entrance not giant gate. Regional material family: massive dark grey stone, muted bronze insets, sparse tiny teal core accents, snow only on exposed ledges. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-07-03-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c90bc1598fa82209b0285a2e0f561c10597027fef7c91f40278f564c67f78dd9",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤.",
+        "열림 그림은 외형 참고. 경첩 피벗·충돌 전환·상호작용·열림 동작은 별도 구현."
+      ]
+    },
+    {
+      "id": "architecture-07-04",
+      "name": "북방 시설 창",
+      "region": "북방 시설",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 북방 시설 창 exact ID architecture-07-04. Asset: single window and frame, front side and wall insertion views; simple readable silhouette. Regional material family: massive dark grey stone, muted bronze insets, sparse tiny teal core accents, snow only on exposed ledges. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-07-04-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d91a0c49ac9cd5e7ea122c577c676705d092f87d2375387848e891f08358f767",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤."
+      ]
+    },
+    {
+      "id": "architecture-07-05",
+      "name": "북방 시설 바닥",
+      "region": "북방 시설",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 북방 시설 바닥 exact ID architecture-07-05. Asset: plain square structural floor module, top and edge profile, small repeat join inset, no plaza, railings, lamps or central crest. Regional material family: massive dark grey stone, muted bronze insets, sparse tiny teal core accents, snow only on exposed ledges. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-07-05-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "12f3a1fb184f6bc49cdc11fcea9e3c0e9d94d38f2734bd9d65e572c5434c343f",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "일부 보드는 두꺼운 기단을 포함. 실내 바닥·외부 광장과 구분하고 필요한 두께로 재설계. 무봉제 텍스처 아님."
+      ]
+    },
+    {
+      "id": "architecture-07-06",
+      "name": "북방 시설 기둥",
+      "region": "북방 시설",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 북방 시설 기둥 exact ID architecture-07-06. Asset: single structural column with base and capital, front and side and base join views. Regional material family: massive dark grey stone, muted bronze insets, sparse tiny teal core accents, snow only on exposed ledges. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-07-06-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7b5998cc09a1e7668050f6abac047b86d92b9edf45281cdb75a34432fe8192e5",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화."
+      ]
+    },
+    {
+      "id": "architecture-07-07",
+      "name": "북방 시설 계단",
+      "region": "북방 시설",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 북방 시설 계단 exact ID architecture-07-07. Asset: short straight staircase flight with simple landing, side and top views, readable consistent step count. Regional material family: massive dark grey stone, muted bronze insets, sparse tiny teal core accents, snow only on exposed ledges. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-07-07-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "63056ee649d275f913ffec38e3f693650e81be4446be12f843fd4962a842a1cc",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "계단 단수·단높이·통행 폭·캐릭터 이동 충돌은 모델 제작 단계에서 검증."
+      ]
+    },
+    {
+      "id": "architecture-07-08",
+      "name": "북방 시설 난간",
+      "region": "북방 시설",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 북방 시설 난간 exact ID architecture-07-08. Asset: single straight railing span with two posts, front side and join views, no lights or signs. Regional material family: massive dark grey stone, muted bronze insets, sparse tiny teal core accents, snow only on exposed ledges. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-07-08-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f232b9c9d39073668024b154e2ea6d8337045b064319312a0ae756aa518490ec",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화."
+      ]
+    },
+    {
+      "id": "architecture-07-09",
+      "name": "북방 시설 천장·지붕",
+      "region": "북방 시설",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 북방 시설 천장·지붕 exact ID architecture-07-09. Asset: one roof-and-ceiling modular bay with simple eave, top and section profile showing underside, small join inset, no complete building. Regional material family: massive dark grey stone, muted bronze insets, sparse tiny teal core accents, snow only on exposed ledges. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-07-09-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6a031480afcd75b05dee4c6b39ad36e5d37faeb50c4f56096a9f88bc1618cdb4",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "지붕 끝막음·용마루·처마·천장 분리 및 반복 구간 규격 확인. 시안의 단면 표시는 구조 데이터가 아님."
+      ]
+    },
+    {
+      "id": "architecture-08-01",
+      "name": "고대 중추 벽 직선",
+      "region": "고대 중추",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 고대 중추 벽 직선 exact ID architecture-08-01. Asset: straight structural wall module, front and side orthographic views and a simple end-to-end join inset; no windows or doors. Regional material family: aged dark grey stone, sparse bronze channels, small dim teal insets, ancient geometric forms. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-08-01-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "56357f483ba68d7c0cd2c1006a12231be55b5e9b3b78b677afae4b722dcb3137",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤."
+      ]
+    },
+    {
+      "id": "architecture-08-02",
+      "name": "고대 중추 벽 모서리",
+      "region": "고대 중추",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 고대 중추 벽 모서리 exact ID architecture-08-02. Asset: 90 degree structural wall corner module, top and side views, L shaped walls with matching thickness. Regional material family: aged dark grey stone, sparse bronze channels, small dim teal insets, ancient geometric forms. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-08-02-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "35026f67507155280bf0299cd473bfc2109b8b08a1a4b8a9eee5da578de8dfd0",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤."
+      ]
+    },
+    {
+      "id": "architecture-08-03",
+      "name": "고대 중추 문",
+      "region": "고대 중추",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 고대 중추 문 exact ID architecture-08-03. Asset: single door leaf and frame, front and side views, small closed/open view; ordinary entrance not giant gate. Regional material family: aged dark grey stone, sparse bronze channels, small dim teal insets, ancient geometric forms. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-08-03-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d71f2e75d9ca5f9b69324938e8139d01febd8b879f65f86703840aaa465713df",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤.",
+        "열림 그림은 외형 참고. 경첩 피벗·충돌 전환·상호작용·열림 동작은 별도 구현."
+      ]
+    },
+    {
+      "id": "architecture-08-04",
+      "name": "고대 중추 창",
+      "region": "고대 중추",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 고대 중추 창 exact ID architecture-08-04. Asset: single window and frame, front side and wall insertion views; simple readable silhouette. Regional material family: aged dark grey stone, sparse bronze channels, small dim teal insets, ancient geometric forms. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-08-04-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "211c99ba9b81420c3400a32d1f960fe15de606af44db5bc791bd1257a6d3b4c9",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "부속 처마·벽 조각·기둥이 함께 표현되면 분리. 문·창 개구부와 벽 모듈을 같은 기준으로 맞춤."
+      ]
+    },
+    {
+      "id": "architecture-08-05",
+      "name": "고대 중추 바닥",
+      "region": "고대 중추",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 고대 중추 바닥 exact ID architecture-08-05. Asset: plain square structural floor module, top and edge profile, small repeat join inset, no plaza, railings, lamps or central crest. Regional material family: aged dark grey stone, sparse bronze channels, small dim teal insets, ancient geometric forms. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-08-05-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "3e9ae6ae7637dc554c1b1e9b0fff4be3522578286302c10e876397efbf650ba3",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "일부 보드는 두꺼운 기단을 포함. 실내 바닥·외부 광장과 구분하고 필요한 두께로 재설계. 무봉제 텍스처 아님."
+      ]
+    },
+    {
+      "id": "architecture-08-06",
+      "name": "고대 중추 기둥",
+      "region": "고대 중추",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 고대 중추 기둥 exact ID architecture-08-06. Asset: single structural column with base and capital, front and side and base join views. Regional material family: aged dark grey stone, sparse bronze channels, small dim teal insets, ancient geometric forms. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-08-06-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "fc4105fd93332326b89505f04396d307f898fa1b96672456597b484280d17e77",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화."
+      ]
+    },
+    {
+      "id": "architecture-08-07",
+      "name": "고대 중추 계단",
+      "region": "고대 중추",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 고대 중추 계단 exact ID architecture-08-07. Asset: short straight staircase flight with simple landing, side and top views, readable consistent step count. Regional material family: aged dark grey stone, sparse bronze channels, small dim teal insets, ancient geometric forms. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-08-07-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b8b8dd4a1df25d2aed6e04fed67ddef038528c60b8f6f527d47f72c00951c74f",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "계단 단수·단높이·통행 폭·캐릭터 이동 충돌은 모델 제작 단계에서 검증."
+      ]
+    },
+    {
+      "id": "architecture-08-08",
+      "name": "고대 중추 난간",
+      "region": "고대 중추",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 고대 중추 난간 exact ID architecture-08-08. Asset: single straight railing span with two posts, front side and join views, no lights or signs. Regional material family: aged dark grey stone, sparse bronze channels, small dim teal insets, ancient geometric forms. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-08-08-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "75f7c04b2c64fd36fe54422234fbfc132d3b1404a981f8237e2f1e5b5955bbdf",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화."
+      ]
+    },
+    {
+      "id": "architecture-08-09",
+      "name": "고대 중추 천장·지붕",
+      "region": "고대 중추",
+      "prompt": "Create ONE INDIVIDUAL MODULAR ARCHITECTURE ASSET modeling reference board for original classic fantasy JRPG Springbound Frontier. Warm ivory paper background, quiet thin brown rules, clean hand ink and restrained cel shading, low ornamentation, broad simple materials, modest detail. Title 고대 중추 천장·지붕 exact ID architecture-08-09. Asset: one roof-and-ceiling modular bay with simple eave, top and section profile showing underside, small join inset, no complete building. Regional material family: aged dark grey stone, sparse bronze channels, small dim teal insets, ancient geometric forms. Same regional module family should share wall thickness and basic trim language. Main three-quarter view on left, orthographic views on right and one small joint example. Only this specific module, no full house or scene, no surrounding vegetation, lamps, banners or props. Keep all parts fully visible and orthographic details consistent. Small English view labels, no numerical dimensions or lore. Appearance reference only, not runtime model or seamless texture.",
+      "file": "architecture-08-09-board-v1.png",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f39d7ea8c3a594a8292e3827d5db6bea49887251dd76b0798180b88d4f023738",
+      "status": "appearance_reference_only",
+      "runtime_connected": false,
+      "review_notes": [
+        "지역별 건축 모듈 외형 참고. 실제 모델·텍스처·충돌·게임 연결은 미제작.",
+        "동일 양식의 벽 두께·층고·개구부·바닥 두께·피벗·접합면 규격은 모델링에서 통일. 그림의 연결 예시는 스냅 검증 결과가 아님.",
+        "공용 부품 또는 지역 환경 시안과 겹치는 구조는 재사용·재질 변형 후보. 별도 고유 런타임 모델 제작을 강제하지 않음.",
+        "뷰별 치수·장식·단수 차이를 정합화하고 게임 카메라에서 세부 묘사를 단순화.",
+        "지붕 끝막음·용마루·처마·천장 분리 및 반복 구간 규격 확인. 시안의 단면 표시는 구조 데이터가 아님."
       ]
     }
   ]
