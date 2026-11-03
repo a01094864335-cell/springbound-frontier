@@ -1,0 +1,1714 @@
+[
+  {
+    "id": "field-01",
+    "name": "산길 확장",
+    "biome": "mountain",
+    "file": "game/assets/production/fields/field-01.tscn",
+    "path": "res://assets/production/fields/field-01.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        7,
+        -6
+      ],
+      [
+        -3,
+        -6
+      ],
+      [
+        -3,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        -15,
+        -15,
+        7,
+        24
+      ],
+      [
+        11,
+        -8,
+        4,
+        22
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "헤어핀 쉼터",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 770
+  },
+  {
+    "id": "field-02",
+    "name": "국경 숲길",
+    "biome": "forest",
+    "file": "game/assets/production/fields/field-02.tscn",
+    "path": "res://assets/production/fields/field-02.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        -7,
+        8
+      ],
+      [
+        -7,
+        -5
+      ],
+      [
+        3,
+        -5
+      ],
+      [
+        3,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        -15,
+        -15,
+        4,
+        28
+      ],
+      [
+        8,
+        -12,
+        7,
+        25
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "숲길 공터",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 732
+  },
+  {
+    "id": "field-03",
+    "name": "농경지",
+    "biome": "farm",
+    "file": "game/assets/production/fields/field-03.tscn",
+    "path": "res://assets/production/fields/field-03.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        0,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        -13,
+        -12,
+        8,
+        8
+      ],
+      [
+        5,
+        -12,
+        8,
+        8
+      ],
+      [
+        -13,
+        4,
+        8,
+        9
+      ],
+      [
+        5,
+        4,
+        8,
+        9
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "관개 수로 옆 쉼터",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 743
+  },
+  {
+    "id": "field-04",
+    "name": "국경 도로",
+    "biome": "road",
+    "file": "game/assets/production/fields/field-04.tscn",
+    "path": "res://assets/production/fields/field-04.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        0,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        -15,
+        -10,
+        9,
+        5
+      ],
+      [
+        6,
+        3,
+        9,
+        5
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "국경 이정표",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 965
+  },
+  {
+    "id": "field-05",
+    "name": "폐초소",
+    "biome": "ruin",
+    "file": "game/assets/production/fields/field-05.tscn",
+    "path": "res://assets/production/fields/field-05.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        6,
+        -9
+      ],
+      [
+        0,
+        -9
+      ],
+      [
+        0,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        -12,
+        -11,
+        5,
+        13
+      ],
+      [
+        -7,
+        -11,
+        4,
+        2
+      ],
+      [
+        10,
+        -11,
+        3,
+        14
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "초소 잔벽",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 929
+  },
+  {
+    "id": "field-06",
+    "name": "교량 양안",
+    "biome": "river",
+    "file": "game/assets/production/fields/field-06.tscn",
+    "path": "res://assets/production/fields/field-06.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        0,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        -16,
+        -3,
+        13,
+        6
+      ],
+      [
+        3,
+        -3,
+        13,
+        6
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "중앙 교량",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 903
+  },
+  {
+    "id": "field-07",
+    "name": "우회 협곡",
+    "biome": "canyon",
+    "file": "game/assets/production/fields/field-07.tscn",
+    "path": "res://assets/production/fields/field-07.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        -6,
+        17
+      ],
+      [
+        -6,
+        4
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        6,
+        -14
+      ],
+      [
+        0,
+        -14
+      ],
+      [
+        0,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        -2,
+        8,
+        18,
+        7
+      ],
+      [
+        -16,
+        -11,
+        17,
+        9
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "협곡 회랑",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 771
+  },
+  {
+    "id": "field-08",
+    "name": "강변 야영지",
+    "biome": "river",
+    "file": "game/assets/production/fields/field-08.tscn",
+    "path": "res://assets/production/fields/field-08.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        -5,
+        5
+      ],
+      [
+        -5,
+        -7
+      ],
+      [
+        0,
+        -7
+      ],
+      [
+        0,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        9,
+        -18,
+        7,
+        36
+      ],
+      [
+        -14,
+        -12,
+        5,
+        6
+      ],
+      [
+        -14,
+        4,
+        5,
+        6
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "강변 휴식 공터",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 756
+  },
+  {
+    "id": "field-09",
+    "name": "왕도 대로",
+    "biome": "city",
+    "file": "game/assets/production/fields/field-09.tscn",
+    "path": "res://assets/production/fields/field-09.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        0,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        -15,
+        -15,
+        8,
+        10
+      ],
+      [
+        7,
+        -15,
+        8,
+        10
+      ],
+      [
+        -15,
+        5,
+        8,
+        10
+      ],
+      [
+        7,
+        5,
+        8,
+        10
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "대로 중앙 광장",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 689
+  },
+  {
+    "id": "field-10",
+    "name": "성벽 외곽",
+    "biome": "city",
+    "file": "game/assets/production/fields/field-10.tscn",
+    "path": "res://assets/production/fields/field-10.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        -5,
+        17
+      ],
+      [
+        -5,
+        -10
+      ],
+      [
+        0,
+        -10
+      ],
+      [
+        0,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        5,
+        -18,
+        3,
+        36
+      ],
+      [
+        -15,
+        -5,
+        5,
+        8
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "성벽 순찰길",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 646
+  },
+  {
+    "id": "field-11",
+    "name": "남방 구릉",
+    "biome": "hill",
+    "file": "game/assets/production/fields/field-11.tscn",
+    "path": "res://assets/production/fields/field-11.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        7,
+        -7
+      ],
+      [
+        -2,
+        -7
+      ],
+      [
+        -2,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        -15,
+        -12,
+        8,
+        14
+      ],
+      [
+        11,
+        -3,
+        4,
+        18
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "구릉 전망 공터",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 855
+  },
+  {
+    "id": "field-12",
+    "name": "습지",
+    "biome": "marsh",
+    "file": "game/assets/production/fields/field-12.tscn",
+    "path": "res://assets/production/fields/field-12.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        -6,
+        9
+      ],
+      [
+        -6,
+        -3
+      ],
+      [
+        5,
+        -3
+      ],
+      [
+        5,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        -16,
+        -17,
+        7,
+        19
+      ],
+      [
+        -2,
+        2,
+        18,
+        4
+      ],
+      [
+        9,
+        -17,
+        7,
+        15
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "습지 건조 지대",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 743
+  },
+  {
+    "id": "field-13",
+    "name": "하천 나루",
+    "biome": "river",
+    "file": "game/assets/production/fields/field-13.tscn",
+    "path": "res://assets/production/fields/field-13.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        0,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        -16,
+        -4,
+        12,
+        8
+      ],
+      [
+        4,
+        -4,
+        12,
+        8
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "나루 연결 판교",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 869
+  },
+  {
+    "id": "field-14",
+    "name": "해안길",
+    "biome": "coast",
+    "file": "game/assets/production/fields/field-14.tscn",
+    "path": "res://assets/production/fields/field-14.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        -4,
+        8
+      ],
+      [
+        -4,
+        -8
+      ],
+      [
+        0,
+        -8
+      ],
+      [
+        0,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        8,
+        -18,
+        8,
+        36
+      ],
+      [
+        -15,
+        -8,
+        6,
+        12
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "해안 휴식 공터",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 714
+  },
+  {
+    "id": "field-15",
+    "name": "동굴",
+    "biome": "cave",
+    "file": "game/assets/production/fields/field-15.tscn",
+    "path": "res://assets/production/fields/field-15.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        6,
+        -5
+      ],
+      [
+        -4,
+        -5
+      ],
+      [
+        -4,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        -16,
+        -18,
+        6,
+        36
+      ],
+      [
+        11,
+        -18,
+        5,
+        36
+      ],
+      [
+        -10,
+        0,
+        11,
+        4
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "동굴 넓은 방",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 645
+  },
+  {
+    "id": "field-16",
+    "name": "폐광",
+    "biome": "mine",
+    "file": "game/assets/production/fields/field-16.tscn",
+    "path": "res://assets/production/fields/field-16.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        -6,
+        7
+      ],
+      [
+        -6,
+        -6
+      ],
+      [
+        4,
+        -6
+      ],
+      [
+        4,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        -16,
+        -18,
+        6,
+        36
+      ],
+      [
+        10,
+        -18,
+        6,
+        36
+      ],
+      [
+        -2,
+        -1,
+        12,
+        4
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "폐광 작업 공간",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 605
+  },
+  {
+    "id": "field-17",
+    "name": "버려진 저장 시설",
+    "biome": "ruin",
+    "file": "game/assets/production/fields/field-17.tscn",
+    "path": "res://assets/production/fields/field-17.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        -6,
+        9
+      ],
+      [
+        -6,
+        -9
+      ],
+      [
+        0,
+        -9
+      ],
+      [
+        0,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        -12,
+        -5,
+        3,
+        10
+      ],
+      [
+        -2,
+        -4,
+        13,
+        8
+      ],
+      [
+        10,
+        -13,
+        3,
+        8
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "저장 시설 통로",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 879
+  },
+  {
+    "id": "field-18",
+    "name": "설원",
+    "biome": "snow",
+    "file": "game/assets/production/fields/field-18.tscn",
+    "path": "res://assets/production/fields/field-18.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        0,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        -14,
+        -12,
+        7,
+        7
+      ],
+      [
+        7,
+        4,
+        7,
+        8
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "설원 바람막이",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 949
+  },
+  {
+    "id": "field-19",
+    "name": "얼어붙은 협곡",
+    "biome": "ice",
+    "file": "game/assets/production/fields/field-19.tscn",
+    "path": "res://assets/production/fields/field-19.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        -6,
+        17
+      ],
+      [
+        -6,
+        2
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        6,
+        -15
+      ],
+      [
+        0,
+        -15
+      ],
+      [
+        0,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        -1,
+        6,
+        17,
+        9
+      ],
+      [
+        -16,
+        -13,
+        17,
+        10
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "빙설 협곡",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 728
+  },
+  {
+    "id": "field-20",
+    "name": "북방 접근로",
+    "biome": "snow",
+    "file": "game/assets/production/fields/field-20.tscn",
+    "path": "res://assets/production/fields/field-20.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        5,
+        -7
+      ],
+      [
+        0,
+        -7
+      ],
+      [
+        0,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        -15,
+        -14,
+        8,
+        12
+      ],
+      [
+        10,
+        -2,
+        5,
+        17
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "북방 관측 공터",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 860
+  },
+  {
+    "id": "field-21",
+    "name": "해양국 상륙지",
+    "biome": "coast",
+    "file": "game/assets/production/fields/field-21.tscn",
+    "path": "res://assets/production/fields/field-21.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        -5,
+        6
+      ],
+      [
+        -5,
+        -7
+      ],
+      [
+        0,
+        -7
+      ],
+      [
+        0,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        8,
+        -18,
+        8,
+        36
+      ],
+      [
+        -15,
+        7,
+        8,
+        9
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "상륙 집결 공터",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 715
+  },
+  {
+    "id": "field-22",
+    "name": "순례길",
+    "biome": "sanctuary",
+    "file": "game/assets/production/fields/field-22.tscn",
+    "path": "res://assets/production/fields/field-22.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        0,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        -13,
+        -14,
+        5,
+        10
+      ],
+      [
+        8,
+        -14,
+        5,
+        10
+      ],
+      [
+        -13,
+        4,
+        5,
+        10
+      ],
+      [
+        8,
+        4,
+        5,
+        10
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "순례 쉼터",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 821
+  },
+  {
+    "id": "field-23",
+    "name": "오래된 묘역",
+    "biome": "sanctuary",
+    "file": "game/assets/production/fields/field-23.tscn",
+    "path": "res://assets/production/fields/field-23.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        -7
+      ],
+      [
+        0,
+        -7
+      ],
+      [
+        0,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        -12,
+        -13,
+        5,
+        6
+      ],
+      [
+        -12,
+        0,
+        5,
+        6
+      ],
+      [
+        -4,
+        -4,
+        6,
+        5
+      ],
+      [
+        9,
+        -13,
+        5,
+        6
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "묘역 중앙 공터",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 917
+  },
+  {
+    "id": "field-24",
+    "name": "지하 기록고",
+    "biome": "ancient",
+    "file": "game/assets/production/fields/field-24.tscn",
+    "path": "res://assets/production/fields/field-24.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        -6,
+        9
+      ],
+      [
+        -6,
+        -9
+      ],
+      [
+        0,
+        -9
+      ],
+      [
+        0,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        -13,
+        -6,
+        3,
+        12
+      ],
+      [
+        -2,
+        -6,
+        5,
+        12
+      ],
+      [
+        9,
+        -6,
+        4,
+        12
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "기록고 열람 공간",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 890
+  },
+  {
+    "id": "field-25",
+    "name": "유적 입구",
+    "biome": "ancient",
+    "file": "game/assets/production/fields/field-25.tscn",
+    "path": "res://assets/production/fields/field-25.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        0,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        -15,
+        -14,
+        10,
+        6
+      ],
+      [
+        5,
+        -14,
+        10,
+        6
+      ],
+      [
+        -13,
+        4,
+        5,
+        9
+      ],
+      [
+        8,
+        4,
+        5,
+        9
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "유적 전면 광장",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 811
+  },
+  {
+    "id": "field-26",
+    "name": "유적 회랑",
+    "biome": "ancient",
+    "file": "game/assets/production/fields/field-26.tscn",
+    "path": "res://assets/production/fields/field-26.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        6,
+        -8
+      ],
+      [
+        0,
+        -8
+      ],
+      [
+        0,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        -15,
+        -18,
+        6,
+        36
+      ],
+      [
+        11,
+        -18,
+        5,
+        36
+      ],
+      [
+        -9,
+        -3,
+        11,
+        6
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "회랑 분기 공간",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 588
+  },
+  {
+    "id": "field-27",
+    "name": "장치실",
+    "biome": "ancient",
+    "file": "game/assets/production/fields/field-27.tscn",
+    "path": "res://assets/production/fields/field-27.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        -7,
+        8
+      ],
+      [
+        -7,
+        -8
+      ],
+      [
+        0,
+        -8
+      ],
+      [
+        0,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        -3,
+        -3,
+        6,
+        6
+      ],
+      [
+        10,
+        -12,
+        3,
+        24
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "중앙 장치 기단",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 936
+  },
+  {
+    "id": "field-28",
+    "name": "붕괴 구역",
+    "biome": "ruin",
+    "file": "game/assets/production/fields/field-28.tscn",
+    "path": "res://assets/production/fields/field-28.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        -6,
+        9
+      ],
+      [
+        -6,
+        -2
+      ],
+      [
+        6,
+        -2
+      ],
+      [
+        6,
+        -17
+      ],
+      [
+        0,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        3,
+        5,
+        12,
+        10
+      ],
+      [
+        -16,
+        -15,
+        16,
+        8
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "붕괴 우회로",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 798
+  },
+  {
+    "id": "field-29",
+    "name": "중추 연결로",
+    "biome": "core",
+    "file": "game/assets/production/fields/field-29.tscn",
+    "path": "res://assets/production/fields/field-29.tscn",
+    "stage": "layout_blockout",
+    "runtime_connected": false,
+    "route": [
+      [
+        0,
+        17
+      ],
+      [
+        0,
+        -17
+      ]
+    ],
+    "obstacles": [
+      [
+        -16,
+        -18,
+        9,
+        36
+      ],
+      [
+        7,
+        -18,
+        9,
+        36
+      ]
+    ],
+    "bounds": [
+      -16,
+      -18,
+      32,
+      36
+    ],
+    "landmark": "중추 진입 플랫폼",
+    "player_radius": 0.4,
+    "combat_clearance": 2.8,
+    "notes": "평면 동선 검증용. 최종 지형 미술·지역 간 연결·적 배치는 미완료.",
+    "reachable_grid_cells": 455
+  }
+]

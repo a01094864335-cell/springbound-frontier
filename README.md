@@ -60,3 +60,5 @@ Springbound Frontier · 가제
 ## 2026-11-03 애셋 재개
 
 [아이콘49개 HTML 미리보기](docs/item-icons/index.html) · [작업 인수인계 및 미완료 범위](docs/asset-handoff-2026-11-03.md)
+
+[필드29종 동선 블록아웃 보기](docs/field-layouts/index.html) — 최종 지형 미술과 플레이 연결은 별도.

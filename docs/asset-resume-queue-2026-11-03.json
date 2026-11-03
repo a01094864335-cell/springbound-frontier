@@ -792,204 +792,204 @@
       "id": "field-01",
       "name": "산길 확장",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-02",
       "name": "국경 숲길",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-03",
       "name": "농경지",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-04",
       "name": "국경 도로",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-05",
       "name": "폐초소",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-06",
       "name": "교량 양안",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-07",
       "name": "우회 협곡",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-08",
       "name": "강변 야영지",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-09",
       "name": "왕도 대로",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-10",
       "name": "성벽 외곽",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-11",
       "name": "남방 구릉",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-12",
       "name": "습지",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-13",
       "name": "하천 나루",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-14",
       "name": "해안길",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-15",
       "name": "동굴",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-16",
       "name": "폐광",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-17",
       "name": "버려진 저장 시설",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-18",
       "name": "설원",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-19",
       "name": "얼어붙은 협곡",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-20",
       "name": "북방 접근로",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-21",
       "name": "해양국 상륙지",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-22",
       "name": "순례길",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-23",
       "name": "오래된 묘역",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-24",
       "name": "지하 기록고",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-25",
       "name": "유적 입구",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-26",
       "name": "유적 회랑",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-27",
       "name": "장치실",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-28",
       "name": "붕괴 구역",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "field-29",
       "name": "중추 연결로",
       "category": "필드 배치",
-      "state": "not_created",
-      "next_action": "기준 보드·기획 확인 후 제작"
+      "state": "layout_blockout_created",
+      "next_action": "최종 지형 미술·지역 연결·게임 플레이 검증"
     },
     {
       "id": "motion-pc-ael-0-0",
@@ -12555,5 +12555,10 @@
       "state": "not_created",
       "next_action": "기준 보드·기획 확인 후 제작"
     }
-  ]
+  ],
+  "current_counts": {
+    "external_draft_unavailable": 184,
+    "not_created": 1580,
+    "layout_blockout_created": 29
+  }
 }

@@ -1,7 +1,7 @@
 {
   "date": "2026-11-03",
   "baseline": "432c336f80b35b9fbd89888af1a8813317aae566",
-  "count": 200,
+  "count": 229,
   "scope": "Native first-pass assets. Not all remaining assets, not final art approval, not connected to prologue.",
   "entries": [
     {
@@ -1603,6 +1603,238 @@
       "stage": "native_first_pass",
       "runtime_connected": false,
       "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "field-01",
+      "file": "game/assets/production/fields/field-01.tscn",
+      "sha256": "2fc0134cb2744defcaa8bf0898f3bbf64136db908c8989d7d3d00031a08247fd",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-02",
+      "file": "game/assets/production/fields/field-02.tscn",
+      "sha256": "82eda03bc02adea1b9d3a8e40d059a6457c40482f0736180c1d6edefc25e574d",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-03",
+      "file": "game/assets/production/fields/field-03.tscn",
+      "sha256": "2d9da9fa5aea2551ec57da3038b8b32105e995397a01aa60558c05acb9bc158b",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-04",
+      "file": "game/assets/production/fields/field-04.tscn",
+      "sha256": "15f4faa9601d560b806af450c807a391ce0f28ca2da3ec13ad6c8866e7157f72",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-05",
+      "file": "game/assets/production/fields/field-05.tscn",
+      "sha256": "4d852f7a651d3e7c2f2f429f4b225a64c73a3d8cbc859cafc7beee6543b8717f",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-06",
+      "file": "game/assets/production/fields/field-06.tscn",
+      "sha256": "1d2550cbff86cccaed57b05498c2fbccb9cd9b7fc3668ad8d651eeaf3774c286",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-07",
+      "file": "game/assets/production/fields/field-07.tscn",
+      "sha256": "e7ff683d834658f5fe1444cd78f83a9f6a0b7f675f9bfc8c764a9f1197ab542e",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-08",
+      "file": "game/assets/production/fields/field-08.tscn",
+      "sha256": "ac55f31e8e536f30cf856cc604b6d4b926774ed76ce5b792cc4e51f436588ce6",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-09",
+      "file": "game/assets/production/fields/field-09.tscn",
+      "sha256": "85c8c7ba3ac44c08f8288af45567788db05743edc8aab5a931eab8535ed588e8",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-10",
+      "file": "game/assets/production/fields/field-10.tscn",
+      "sha256": "9808dfaf00d72061bff586597c728ad2446a7119c28a84a625544a606d06ed5f",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-11",
+      "file": "game/assets/production/fields/field-11.tscn",
+      "sha256": "19d0b03dd3cac37e9f31501c3730059a2614acf208efe245691004f0ed11d8a2",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-12",
+      "file": "game/assets/production/fields/field-12.tscn",
+      "sha256": "ea64d5977e7964e070bd3fe68a5a6aa8a060dd0f550697eae3070de739a62c1d",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-13",
+      "file": "game/assets/production/fields/field-13.tscn",
+      "sha256": "e9150dc4fab5c91c488769258ad82a57e75fff5edb8fb5fcc2e98e320a5f967f",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-14",
+      "file": "game/assets/production/fields/field-14.tscn",
+      "sha256": "ae75f9d4b2259a4c8abe3d67d34b934a2179eb8429096b5baa5be07c2d69785e",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-15",
+      "file": "game/assets/production/fields/field-15.tscn",
+      "sha256": "a3cae436ad079752907dc74938b0978cebe3c97dc9b5f79ace255eb0c8aa734b",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-16",
+      "file": "game/assets/production/fields/field-16.tscn",
+      "sha256": "08199dc0a6071b2b4257fb71c2c6790a7e4a8c7bbfd632630c3be8cc7f16c131",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-17",
+      "file": "game/assets/production/fields/field-17.tscn",
+      "sha256": "5652b1e9e3ce1432c44d0eba43a5abcef90996bc191146ccf7acdab01116fbdc",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-18",
+      "file": "game/assets/production/fields/field-18.tscn",
+      "sha256": "f34ca5157c94a9b118d55ab20c67f0ad485c05b8d7d8fdb3e4f6244627deb911",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-19",
+      "file": "game/assets/production/fields/field-19.tscn",
+      "sha256": "a467e98d00beff686d5daf7cf9941dba12789143f4335ff62fc1eaf8c322f767",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-20",
+      "file": "game/assets/production/fields/field-20.tscn",
+      "sha256": "3599b72cfcc13e40d1c57f0eb82abe130c0e1911ee822a847c290a369a6361f9",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-21",
+      "file": "game/assets/production/fields/field-21.tscn",
+      "sha256": "020d75933cfb0d4874e1cbe619a163ace81670a4cc5c247fb346d3c616683e00",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-22",
+      "file": "game/assets/production/fields/field-22.tscn",
+      "sha256": "0f63e65597a67e1c5ec9b8c7c8bb2ba6482056c17e04b3f1d5a833a0aa2586ef",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-23",
+      "file": "game/assets/production/fields/field-23.tscn",
+      "sha256": "36791ff1b0fa8e915e512b3db7276b0833189737571b9917d52c974b4193aa02",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-24",
+      "file": "game/assets/production/fields/field-24.tscn",
+      "sha256": "51aeadd229f458f6649b092faf9567044e99a0799bd3b9730a995930cc51ebb8",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-25",
+      "file": "game/assets/production/fields/field-25.tscn",
+      "sha256": "6a050aa3f57f0a8ef579f9fcc96bf3dbf40992e8be5397471408325b864d59c3",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-26",
+      "file": "game/assets/production/fields/field-26.tscn",
+      "sha256": "78a2c0bbae65a70fa5c7932775caef5c3c1039d8a073d4521c014e11699d60bc",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-27",
+      "file": "game/assets/production/fields/field-27.tscn",
+      "sha256": "f6379ea1a5509e3508d8e012a7e7a5df27c91dc135ad8d46d891ba3510de6e55",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-28",
+      "file": "game/assets/production/fields/field-28.tscn",
+      "sha256": "11cf6056681888779effdabcb0fe330c81eb8c4fcea5b53d288bf736ecae9811",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
+    },
+    {
+      "id": "field-29",
+      "file": "game/assets/production/fields/field-29.tscn",
+      "sha256": "442c365d3cd652a671b582256267f6e94973a000a4cb2db67b08a57be662ad11",
+      "stage": "layout_blockout",
+      "runtime_connected": false,
+      "validation": "Godot load and physics route/floor checks passed; final terrain art and gameplay integration pending"
     }
   ]
 }
