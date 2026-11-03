@@ -62,3 +62,9 @@ Springbound Frontier · 가제
 [아이콘49개 HTML 미리보기](docs/item-icons/index.html) · [작업 인수인계 및 미완료 범위](docs/asset-handoff-2026-11-03.md)
 
 [필드29종 동선 블록아웃 보기](docs/field-layouts/index.html) — 최종 지형 미술과 플레이 연결은 별도.
+
+## 잔여 전체 애셋 1차 제작
+
+[전체 검색·동작 재생 HTML](docs/remaining-assets/index.html) · [제작 범위와 검증](docs/full-remainder-production.md)
+
+잔여1,764항목의 1차 파일을 제작했습니다. 최종 픽셀 미술·규격 정합화·실제 게임 연결은 별도입니다. Godot 검토 장면: `res://tests/asset_production/remaining_browser.tscn`.

@@ -1,0 +1,17 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://assets/production/events/event_player.gd" id="script"]
+[node name="presentation_3_10" type="Node3D"]
+metadata/asset_id = "presentation-3-10"
+metadata/display_name = "장치 활성화"
+metadata/grid_obstacles = []
+metadata/stage = "event_visual_prototype"
+script = ExtResource("script")
+metadata/duration = 2.4
+metadata/gameplay_effects = false
+
+[node name="ActivationLight" type="OmniLight3D" parent="."]
+position = Vector3(0,1.6,0)
+light_color = Color(0.25,0.8,0.65,1)
+light_energy = 0.0
+omni_range = 3.0

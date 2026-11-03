@@ -1,0 +1,78 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/wood.tres" id="m1"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/brass.tres" id="m2"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/iron.tres" id="m3"]
+
+[sub_resource type="BoxMesh" id="r1"]
+size = Vector3(0.06, 1.4, 0.06)
+
+[sub_resource type="BoxMesh" id="r2"]
+size = Vector3(0.06, 1.4, 0.06)
+
+[sub_resource type="BoxMesh" id="r3"]
+size = Vector3(0.06, 1.4, 0.06)
+
+[sub_resource type="CylinderMesh" id="r4"]
+top_radius = 0.18
+bottom_radius = 0.18
+height = 0.25
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="r5"]
+top_radius = 0.09
+bottom_radius = 0.09
+height = 0.6
+radial_segments = 12
+rings = 1
+
+[sub_resource type="BoxShape3D" id="r6"]
+size = Vector3(1.3, 1.7, 1.3)
+
+[node name="prop_3_13" type="Node3D"]
+metadata/asset_id = "prop-3-13"
+metadata/display_name = "측량 삼각대"
+metadata/grid_obstacles = [[-0.65, -0.65, 1.3, 1.3]]
+metadata/stage = "native_first_pass"
+metadata/origin = "ground center"
+metadata/bounds = [1.3, 1.7, 1.3]
+metadata/recreated_from = "unavailable external draft; newly authored in this environment"
+metadata/final_art_approved = false
+
+[node name="Leg0" type="MeshInstance3D" parent="."]
+position = Vector3(0.35, 0.7, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+rotation_degrees = Vector3(0, 0, 24)
+
+[node name="Leg1" type="MeshInstance3D" parent="."]
+position = Vector3(-0.175, 0.7, 0.303109)
+mesh = SubResource("r2")
+material_override = ExtResource("m1")
+rotation_degrees = Vector3(20.7846, 0, -12)
+
+[node name="Leg2" type="MeshInstance3D" parent="."]
+position = Vector3(-0.175, 0.7, -0.303109)
+mesh = SubResource("r3")
+material_override = ExtResource("m1")
+rotation_degrees = Vector3(-20.7846, 0, -12)
+
+[node name="Instrument" type="MeshInstance3D" parent="."]
+position = Vector3(0, 1.5, 0)
+mesh = SubResource("r4")
+material_override = ExtResource("m2")
+
+[node name="Lens" type="MeshInstance3D" parent="."]
+position = Vector3(0, 1.6, 0)
+mesh = SubResource("r5")
+material_override = ExtResource("m3")
+rotation_degrees = Vector3(90, 0, 0)
+
+[node name="Body1" type="StaticBody3D" parent="."]
+position = Vector3(0, 0.85, 0)
+
+[node name="Shape" type="CollisionShape3D" parent="Body1"]
+shape = SubResource("r6")

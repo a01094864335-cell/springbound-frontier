@@ -1,0 +1,70 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/stone.tres" id="m1"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/wood.tres" id="m2"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/iron.tres" id="m3"]
+
+[sub_resource type="BoxMesh" id="r1"]
+size = Vector3(1.4, 0.4, 1.4)
+
+[sub_resource type="BoxMesh" id="r2"]
+size = Vector3(0.3, 3, 0.3)
+
+[sub_resource type="BoxMesh" id="r3"]
+size = Vector3(2, 0.2, 0.25)
+
+[sub_resource type="BoxMesh" id="r4"]
+size = Vector3(0.03, 1.6, 0.03)
+
+[sub_resource type="CylinderMesh" id="r5"]
+top_radius = 0.15
+bottom_radius = 0.15
+height = 0.2
+radial_segments = 12
+rings = 1
+
+[sub_resource type="BoxShape3D" id="r6"]
+size = Vector3(2.5, 3.3, 2)
+
+[node name="prop_5_07" type="Node3D"]
+metadata/asset_id = "prop-5-07"
+metadata/display_name = "선적 크레인"
+metadata/grid_obstacles = [[-1.25, -1.0, 2.5, 2]]
+metadata/stage = "native_first_pass"
+metadata/origin = "ground center"
+metadata/bounds = [2.5, 3.3, 2]
+metadata/recreated_from = "unavailable external draft; newly authored in this environment"
+metadata/final_art_approved = false
+
+[node name="Base" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.2, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+
+[node name="Upright" type="MeshInstance3D" parent="."]
+position = Vector3(0, 1.6, 0)
+mesh = SubResource("r2")
+material_override = ExtResource("m2")
+
+[node name="Jib" type="MeshInstance3D" parent="."]
+position = Vector3(0.8, 3, 0)
+mesh = SubResource("r3")
+material_override = ExtResource("m2")
+
+[node name="Cable" type="MeshInstance3D" parent="."]
+position = Vector3(1.6, 2.2, 0)
+mesh = SubResource("r4")
+material_override = ExtResource("m3")
+
+[node name="Hook" type="MeshInstance3D" parent="."]
+position = Vector3(1.6, 1.4, 0)
+mesh = SubResource("r5")
+material_override = ExtResource("m3")
+
+[node name="Body1" type="StaticBody3D" parent="."]
+position = Vector3(0, 1.65, 0)
+
+[node name="Shape" type="CollisionShape3D" parent="Body1"]
+shape = SubResource("r6")

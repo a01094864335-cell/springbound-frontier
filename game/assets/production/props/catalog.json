@@ -1,0 +1,2464 @@
+[
+  {
+    "id": "prop-2-01",
+    "name": "나무 상자",
+    "category": "생활 소품",
+    "file": "game/assets/production/props/prop-2-01.tscn",
+    "path": "res://assets/production/props/prop-2-01.tscn",
+    "bounds": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.5,
+        -0.5,
+        1.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "id": "prop-2-02",
+    "name": "뚜껑 열린 상자",
+    "category": "생활 소품",
+    "file": "game/assets/production/props/prop-2-02.tscn",
+    "path": "res://assets/production/props/prop-2-02.tscn",
+    "bounds": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.5,
+        -0.5,
+        1.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "id": "prop-2-03",
+    "name": "나무 통",
+    "category": "생활 소품",
+    "file": "game/assets/production/props/prop-2-03.tscn",
+    "path": "res://assets/production/props/prop-2-03.tscn",
+    "bounds": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.5,
+        -0.5,
+        1.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "id": "prop-2-04",
+    "name": "뚜껑 열린 통",
+    "category": "생활 소품",
+    "file": "game/assets/production/props/prop-2-04.tscn",
+    "path": "res://assets/production/props/prop-2-04.tscn",
+    "bounds": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.5,
+        -0.5,
+        1.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "id": "prop-2-05",
+    "name": "바구니",
+    "category": "생활 소품",
+    "file": "game/assets/production/props/prop-2-05.tscn",
+    "path": "res://assets/production/props/prop-2-05.tscn",
+    "bounds": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.5,
+        -0.5,
+        1.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "id": "prop-2-06",
+    "name": "물동이",
+    "category": "생활 소품",
+    "file": "game/assets/production/props/prop-2-06.tscn",
+    "path": "res://assets/production/props/prop-2-06.tscn",
+    "bounds": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.5,
+        -0.5,
+        1.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "id": "prop-2-07",
+    "name": "자루",
+    "category": "생활 소품",
+    "file": "game/assets/production/props/prop-2-07.tscn",
+    "path": "res://assets/production/props/prop-2-07.tscn",
+    "bounds": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.5,
+        -0.5,
+        1.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "id": "prop-2-08",
+    "name": "장작 더미",
+    "category": "생활 소품",
+    "file": "game/assets/production/props/prop-2-08.tscn",
+    "path": "res://assets/production/props/prop-2-08.tscn",
+    "bounds": [
+      1.5,
+      0.7,
+      1.4
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.75,
+        -0.7,
+        1.5,
+        1.4
+      ]
+    ]
+  },
+  {
+    "id": "prop-2-09",
+    "name": "우물 덮개",
+    "category": "생활 소품",
+    "file": "game/assets/production/props/prop-2-09.tscn",
+    "path": "res://assets/production/props/prop-2-09.tscn",
+    "bounds": [
+      1.5,
+      0.3,
+      1.5
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.75,
+        -0.75,
+        1.5,
+        1.5
+      ]
+    ]
+  },
+  {
+    "id": "prop-2-10",
+    "name": "빨랫줄",
+    "category": "생활 소품",
+    "file": "game/assets/production/props/prop-2-10.tscn",
+    "path": "res://assets/production/props/prop-2-10.tscn",
+    "bounds": [
+      3,
+      2,
+      0.6
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.5,
+        -0.3,
+        3,
+        0.6
+      ]
+    ]
+  },
+  {
+    "id": "prop-2-11",
+    "name": "빗자루",
+    "category": "생활 소품",
+    "file": "game/assets/production/props/prop-2-11.tscn",
+    "path": "res://assets/production/props/prop-2-11.tscn",
+    "bounds": [
+      0.5,
+      1.6,
+      0.2
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.25,
+        -0.1,
+        0.5,
+        0.2
+      ]
+    ]
+  },
+  {
+    "id": "prop-2-12",
+    "name": "표지판",
+    "category": "생활 소품",
+    "file": "game/assets/production/props/prop-2-12.tscn",
+    "path": "res://assets/production/props/prop-2-12.tscn",
+    "bounds": [
+      1.7,
+      1.7,
+      0.25
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.85,
+        -0.125,
+        1.7,
+        0.25
+      ]
+    ]
+  },
+  {
+    "id": "prop-2-13",
+    "name": "게시판",
+    "category": "생활 소품",
+    "file": "game/assets/production/props/prop-2-13.tscn",
+    "path": "res://assets/production/props/prop-2-13.tscn",
+    "bounds": [
+      1.7,
+      1.7,
+      0.25
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.85,
+        -0.125,
+        1.7,
+        0.25
+      ]
+    ]
+  },
+  {
+    "id": "prop-2-14",
+    "name": "점포 간판",
+    "category": "생활 소품",
+    "file": "game/assets/production/props/prop-2-14.tscn",
+    "path": "res://assets/production/props/prop-2-14.tscn",
+    "bounds": [
+      1.7,
+      1.7,
+      0.25
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.85,
+        -0.125,
+        1.7,
+        0.25
+      ]
+    ]
+  },
+  {
+    "id": "prop-2-15",
+    "name": "수레바퀴",
+    "category": "생활 소품",
+    "file": "game/assets/production/props/prop-2-15.tscn",
+    "path": "res://assets/production/props/prop-2-15.tscn",
+    "bounds": [
+      1.2,
+      1.2,
+      0.3
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.6,
+        -0.15,
+        1.2,
+        0.3
+      ]
+    ]
+  },
+  {
+    "id": "prop-2-16",
+    "name": "공용 수레",
+    "category": "생활 소품",
+    "file": "game/assets/production/props/prop-2-16.tscn",
+    "path": "res://assets/production/props/prop-2-16.tscn",
+    "bounds": [
+      1.8,
+      1.1,
+      2.6
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.9,
+        -1.3,
+        1.8,
+        2.6
+      ]
+    ]
+  },
+  {
+    "id": "prop-2-17",
+    "name": "빈 보물상자",
+    "category": "생활 소품",
+    "file": "game/assets/production/props/prop-2-17.tscn",
+    "path": "res://assets/production/props/prop-2-17.tscn",
+    "bounds": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.5,
+        -0.5,
+        1.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "id": "prop-2-18",
+    "name": "닫힌 보물상자",
+    "category": "생활 소품",
+    "file": "game/assets/production/props/prop-2-18.tscn",
+    "path": "res://assets/production/props/prop-2-18.tscn",
+    "bounds": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.5,
+        -0.5,
+        1.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "id": "prop-2-19",
+    "name": "열린 보물상자",
+    "category": "생활 소품",
+    "file": "game/assets/production/props/prop-2-19.tscn",
+    "path": "res://assets/production/props/prop-2-19.tscn",
+    "bounds": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.5,
+        -0.5,
+        1.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "id": "prop-3-01",
+    "name": "약초 건조대",
+    "category": "직업 소품",
+    "file": "game/assets/production/props/prop-3-01.tscn",
+    "path": "res://assets/production/props/prop-3-01.tscn",
+    "bounds": [
+      1.6,
+      1.8,
+      0.8
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.8,
+        -0.4,
+        1.6,
+        0.8
+      ]
+    ]
+  },
+  {
+    "id": "prop-3-02",
+    "name": "약절구",
+    "category": "직업 소품",
+    "file": "game/assets/production/props/prop-3-02.tscn",
+    "path": "res://assets/production/props/prop-3-02.tscn",
+    "bounds": [
+      0.8,
+      0.9,
+      0.8
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.4,
+        -0.4,
+        0.8,
+        0.8
+      ]
+    ]
+  },
+  {
+    "id": "prop-3-03",
+    "name": "약재 병",
+    "category": "직업 소품",
+    "file": "game/assets/production/props/prop-3-03.tscn",
+    "path": "res://assets/production/props/prop-3-03.tscn",
+    "bounds": [
+      0.5,
+      0.7,
+      0.5
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.25,
+        -0.25,
+        0.5,
+        0.5
+      ]
+    ]
+  },
+  {
+    "id": "prop-3-04",
+    "name": "진료 침상",
+    "category": "직업 소품",
+    "file": "game/assets/production/props/prop-3-04.tscn",
+    "path": "res://assets/production/props/prop-3-04.tscn",
+    "bounds": [
+      1.1,
+      0.8,
+      2.2
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.55,
+        -1.1,
+        1.1,
+        2.2
+      ]
+    ]
+  },
+  {
+    "id": "prop-3-05",
+    "name": "붕대 묶음",
+    "category": "직업 소품",
+    "file": "game/assets/production/props/prop-3-05.tscn",
+    "path": "res://assets/production/props/prop-3-05.tscn",
+    "bounds": [
+      0.9,
+      0.4,
+      0.6
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.45,
+        -0.3,
+        0.9,
+        0.6
+      ]
+    ]
+  },
+  {
+    "id": "prop-3-06",
+    "name": "들것",
+    "category": "직업 소품",
+    "file": "game/assets/production/props/prop-3-06.tscn",
+    "path": "res://assets/production/props/prop-3-06.tscn",
+    "bounds": [
+      1.1,
+      0.8,
+      2.2
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.55,
+        -1.1,
+        1.1,
+        2.2
+      ]
+    ]
+  },
+  {
+    "id": "prop-3-07",
+    "name": "대장간 화덕",
+    "category": "직업 소품",
+    "file": "game/assets/production/props/prop-3-07.tscn",
+    "path": "res://assets/production/props/prop-3-07.tscn",
+    "bounds": [
+      1.5,
+      1.5,
+      1.5
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.75,
+        -0.75,
+        1.5,
+        1.5
+      ]
+    ]
+  },
+  {
+    "id": "prop-3-08",
+    "name": "모루",
+    "category": "직업 소품",
+    "file": "game/assets/production/props/prop-3-08.tscn",
+    "path": "res://assets/production/props/prop-3-08.tscn",
+    "bounds": [
+      1.5,
+      1,
+      0.7
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.75,
+        -0.35,
+        1.5,
+        0.7
+      ]
+    ]
+  },
+  {
+    "id": "prop-3-09",
+    "name": "망치·집게",
+    "category": "직업 소품",
+    "file": "game/assets/production/props/prop-3-09.tscn",
+    "path": "res://assets/production/props/prop-3-09.tscn",
+    "bounds": [
+      0.8,
+      0.3,
+      1
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.4,
+        -0.5,
+        0.8,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "prop-3-10",
+    "name": "시장 진열대",
+    "category": "직업 소품",
+    "file": "game/assets/production/props/prop-3-10.tscn",
+    "path": "res://assets/production/props/prop-3-10.tscn",
+    "bounds": [
+      2.3,
+      1.1,
+      1.1
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.15,
+        -0.55,
+        2.3,
+        1.1
+      ]
+    ]
+  },
+  {
+    "id": "prop-3-11",
+    "name": "어망",
+    "category": "직업 소품",
+    "file": "game/assets/production/props/prop-3-11.tscn",
+    "path": "res://assets/production/props/prop-3-11.tscn",
+    "bounds": [
+      1.6,
+      0.2,
+      1.4
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": []
+  },
+  {
+    "id": "prop-3-12",
+    "name": "낚시 도구",
+    "category": "직업 소품",
+    "file": "game/assets/production/props/prop-3-12.tscn",
+    "path": "res://assets/production/props/prop-3-12.tscn",
+    "bounds": [
+      0.4,
+      0.3,
+      2.2
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.2,
+        -1.1,
+        0.4,
+        2.2
+      ]
+    ]
+  },
+  {
+    "id": "prop-3-13",
+    "name": "측량 삼각대",
+    "category": "직업 소품",
+    "file": "game/assets/production/props/prop-3-13.tscn",
+    "path": "res://assets/production/props/prop-3-13.tscn",
+    "bounds": [
+      1.3,
+      1.7,
+      1.3
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.65,
+        -0.65,
+        1.3,
+        1.3
+      ]
+    ]
+  },
+  {
+    "id": "prop-3-14",
+    "name": "측량 기기",
+    "category": "직업 소품",
+    "file": "game/assets/production/props/prop-3-14.tscn",
+    "path": "res://assets/production/props/prop-3-14.tscn",
+    "bounds": [
+      1.3,
+      1.7,
+      1.3
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.65,
+        -0.65,
+        1.3,
+        1.3
+      ]
+    ]
+  },
+  {
+    "id": "prop-3-15",
+    "name": "지도 펼침",
+    "category": "직업 소품",
+    "file": "game/assets/production/props/prop-3-15.tscn",
+    "path": "res://assets/production/props/prop-3-15.tscn",
+    "bounds": [
+      1.8,
+      1,
+      1.1
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.9,
+        -0.55,
+        1.8,
+        1.1
+      ]
+    ]
+  },
+  {
+    "id": "prop-3-16",
+    "name": "문서 묶음",
+    "category": "직업 소품",
+    "file": "game/assets/production/props/prop-3-16.tscn",
+    "path": "res://assets/production/props/prop-3-16.tscn",
+    "bounds": [
+      0.5,
+      0.3,
+      0.6
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.25,
+        -0.3,
+        0.5,
+        0.6
+      ]
+    ]
+  },
+  {
+    "id": "prop-3-17",
+    "name": "인장 도구",
+    "category": "직업 소품",
+    "file": "game/assets/production/props/prop-3-17.tscn",
+    "path": "res://assets/production/props/prop-3-17.tscn",
+    "bounds": [
+      0.7,
+      0.4,
+      0.5
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.35,
+        -0.25,
+        0.7,
+        0.5
+      ]
+    ]
+  },
+  {
+    "id": "prop-3-18",
+    "name": "연구 노트",
+    "category": "직업 소품",
+    "file": "game/assets/production/props/prop-3-18.tscn",
+    "path": "res://assets/production/props/prop-3-18.tscn",
+    "bounds": [
+      0.6,
+      0.2,
+      0.8
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.3,
+        -0.4,
+        0.6,
+        0.8
+      ]
+    ]
+  },
+  {
+    "id": "prop-3-19",
+    "name": "유물 보관함",
+    "category": "직업 소품",
+    "file": "game/assets/production/props/prop-3-19.tscn",
+    "path": "res://assets/production/props/prop-3-19.tscn",
+    "bounds": [
+      1,
+      1.1,
+      1
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.5,
+        -0.5,
+        1,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "prop-4-01",
+    "name": "목재 바리케이드",
+    "category": "군사·피난",
+    "file": "game/assets/production/props/prop-4-01.tscn",
+    "path": "res://assets/production/props/prop-4-01.tscn",
+    "bounds": [
+      3,
+      1.2,
+      0.8
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.5,
+        -0.4,
+        3,
+        0.8
+      ]
+    ]
+  },
+  {
+    "id": "prop-4-02",
+    "name": "천막 골조",
+    "category": "군사·피난",
+    "file": "game/assets/production/props/prop-4-02.tscn",
+    "path": "res://assets/production/props/prop-4-02.tscn",
+    "bounds": [
+      2.4,
+      2.1,
+      2.7
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.2,
+        -1.35,
+        2.4,
+        2.7
+      ]
+    ]
+  },
+  {
+    "id": "prop-4-03",
+    "name": "완성 천막",
+    "category": "군사·피난",
+    "file": "game/assets/production/props/prop-4-03.tscn",
+    "path": "res://assets/production/props/prop-4-03.tscn",
+    "bounds": [
+      2.4,
+      2.1,
+      2.7
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.2,
+        -1.35,
+        2.4,
+        2.7
+      ]
+    ]
+  },
+  {
+    "id": "prop-4-04",
+    "name": "피난민 짐",
+    "category": "군사·피난",
+    "file": "game/assets/production/props/prop-4-04.tscn",
+    "path": "res://assets/production/props/prop-4-04.tscn",
+    "bounds": [
+      1.5,
+      1,
+      1.2
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.75,
+        -0.6,
+        1.5,
+        1.2
+      ]
+    ]
+  },
+  {
+    "id": "prop-4-05",
+    "name": "보급 상자",
+    "category": "군사·피난",
+    "file": "game/assets/production/props/prop-4-05.tscn",
+    "path": "res://assets/production/props/prop-4-05.tscn",
+    "bounds": [
+      1.1,
+      1.1,
+      1.1
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.55,
+        -0.55,
+        1.1,
+        1.1
+      ]
+    ]
+  },
+  {
+    "id": "prop-4-06",
+    "name": "군 깃발",
+    "category": "군사·피난",
+    "file": "game/assets/production/props/prop-4-06.tscn",
+    "path": "res://assets/production/props/prop-4-06.tscn",
+    "bounds": [
+      1.2,
+      2.8,
+      0.4
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.6,
+        -0.2,
+        1.2,
+        0.4
+      ]
+    ]
+  },
+  {
+    "id": "prop-4-07",
+    "name": "무기 거치대",
+    "category": "군사·피난",
+    "file": "game/assets/production/props/prop-4-07.tscn",
+    "path": "res://assets/production/props/prop-4-07.tscn",
+    "bounds": [
+      2,
+      1.6,
+      0.8
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.0,
+        -0.4,
+        2,
+        0.8
+      ]
+    ]
+  },
+  {
+    "id": "prop-4-08",
+    "name": "방패 거치대",
+    "category": "군사·피난",
+    "file": "game/assets/production/props/prop-4-08.tscn",
+    "path": "res://assets/production/props/prop-4-08.tscn",
+    "bounds": [
+      2,
+      1.6,
+      0.8
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.0,
+        -0.4,
+        2,
+        0.8
+      ]
+    ]
+  },
+  {
+    "id": "prop-4-09",
+    "name": "훈련 표적",
+    "category": "군사·피난",
+    "file": "game/assets/production/props/prop-4-09.tscn",
+    "path": "res://assets/production/props/prop-4-09.tscn",
+    "bounds": [
+      1.2,
+      2,
+      0.5
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.6,
+        -0.25,
+        1.2,
+        0.5
+      ]
+    ]
+  },
+  {
+    "id": "prop-4-10",
+    "name": "야전 취사대",
+    "category": "군사·피난",
+    "file": "game/assets/production/props/prop-4-10.tscn",
+    "path": "res://assets/production/props/prop-4-10.tscn",
+    "bounds": [
+      1.2,
+      1.1,
+      1.1
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.6,
+        -0.55,
+        1.2,
+        1.1
+      ]
+    ]
+  },
+  {
+    "id": "prop-4-11",
+    "name": "야전 침상",
+    "category": "군사·피난",
+    "file": "game/assets/production/props/prop-4-11.tscn",
+    "path": "res://assets/production/props/prop-4-11.tscn",
+    "bounds": [
+      1.1,
+      0.7,
+      2.2
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.55,
+        -1.1,
+        1.1,
+        2.2
+      ]
+    ]
+  },
+  {
+    "id": "prop-4-12",
+    "name": "검문 차단봉",
+    "category": "군사·피난",
+    "file": "game/assets/production/props/prop-4-12.tscn",
+    "path": "res://assets/production/props/prop-4-12.tscn",
+    "bounds": [
+      3,
+      1.2,
+      0.8
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.5,
+        -0.4,
+        3,
+        0.8
+      ]
+    ]
+  },
+  {
+    "id": "prop-5-01",
+    "name": "부두 직선",
+    "category": "항만·운송",
+    "file": "game/assets/production/props/prop-5-01.tscn",
+    "path": "res://assets/production/props/prop-5-01.tscn",
+    "bounds": [
+      3,
+      0.5,
+      3
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.5,
+        -1.5,
+        3,
+        3
+      ]
+    ]
+  },
+  {
+    "id": "prop-5-02",
+    "name": "부두 모서리",
+    "category": "항만·운송",
+    "file": "game/assets/production/props/prop-5-02.tscn",
+    "path": "res://assets/production/props/prop-5-02.tscn",
+    "bounds": [
+      4.5,
+      0.5,
+      3
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -2.25,
+        -1.5,
+        4.5,
+        3
+      ]
+    ]
+  },
+  {
+    "id": "prop-5-03",
+    "name": "부두 계단",
+    "category": "항만·운송",
+    "file": "game/assets/production/props/prop-5-03.tscn",
+    "path": "res://assets/production/props/prop-5-03.tscn",
+    "bounds": [
+      2.2,
+      1.2,
+      3
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.1,
+        -1.5,
+        2.2,
+        3
+      ]
+    ]
+  },
+  {
+    "id": "prop-5-04",
+    "name": "계류 말뚝",
+    "category": "항만·운송",
+    "file": "game/assets/production/props/prop-5-04.tscn",
+    "path": "res://assets/production/props/prop-5-04.tscn",
+    "bounds": [
+      0.7,
+      1.3,
+      0.7
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.35,
+        -0.35,
+        0.7,
+        0.7
+      ]
+    ]
+  },
+  {
+    "id": "prop-5-05",
+    "name": "밧줄 뭉치",
+    "category": "항만·운송",
+    "file": "game/assets/production/props/prop-5-05.tscn",
+    "path": "res://assets/production/props/prop-5-05.tscn",
+    "bounds": [
+      1.4,
+      0.3,
+      1.1
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.7,
+        -0.55,
+        1.4,
+        1.1
+      ]
+    ]
+  },
+  {
+    "id": "prop-5-06",
+    "name": "밧줄 연결",
+    "category": "항만·운송",
+    "file": "game/assets/production/props/prop-5-06.tscn",
+    "path": "res://assets/production/props/prop-5-06.tscn",
+    "bounds": [
+      3,
+      0.3,
+      1.1
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.5,
+        -0.55,
+        3,
+        1.1
+      ]
+    ]
+  },
+  {
+    "id": "prop-5-07",
+    "name": "선적 크레인",
+    "category": "항만·운송",
+    "file": "game/assets/production/props/prop-5-07.tscn",
+    "path": "res://assets/production/props/prop-5-07.tscn",
+    "bounds": [
+      2.5,
+      3.3,
+      2
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.25,
+        -1.0,
+        2.5,
+        2
+      ]
+    ]
+  },
+  {
+    "id": "prop-5-08",
+    "name": "화물 더미",
+    "category": "항만·운송",
+    "file": "game/assets/production/props/prop-5-08.tscn",
+    "path": "res://assets/production/props/prop-5-08.tscn",
+    "bounds": [
+      2.3,
+      1.1,
+      2.3
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.15,
+        -1.15,
+        2.3,
+        2.3
+      ]
+    ]
+  },
+  {
+    "id": "prop-5-09",
+    "name": "정박선 외관",
+    "category": "항만·운송",
+    "file": "game/assets/production/props/prop-5-09.tscn",
+    "path": "res://assets/production/props/prop-5-09.tscn",
+    "bounds": [
+      3,
+      1.5,
+      6
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.5,
+        -3.0,
+        3,
+        6
+      ]
+    ]
+  },
+  {
+    "id": "prop-5-10",
+    "name": "선박 갑판",
+    "category": "항만·운송",
+    "file": "game/assets/production/props/prop-5-10.tscn",
+    "path": "res://assets/production/props/prop-5-10.tscn",
+    "bounds": [
+      2.2,
+      0.5,
+      3
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.1,
+        -1.5,
+        2.2,
+        3
+      ]
+    ]
+  },
+  {
+    "id": "prop-5-11",
+    "name": "선박 난간",
+    "category": "항만·운송",
+    "file": "game/assets/production/props/prop-5-11.tscn",
+    "path": "res://assets/production/props/prop-5-11.tscn",
+    "bounds": [
+      2.2,
+      1.4,
+      0.4
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.1,
+        -0.2,
+        2.2,
+        0.4
+      ]
+    ]
+  },
+  {
+    "id": "prop-5-12",
+    "name": "선박 돛대",
+    "category": "항만·운송",
+    "file": "game/assets/production/props/prop-5-12.tscn",
+    "path": "res://assets/production/props/prop-5-12.tscn",
+    "bounds": [
+      3,
+      4,
+      0.4
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.5,
+        -0.2,
+        3,
+        0.4
+      ]
+    ]
+  },
+  {
+    "id": "prop-5-13",
+    "name": "선박 돛",
+    "category": "항만·운송",
+    "file": "game/assets/production/props/prop-5-13.tscn",
+    "path": "res://assets/production/props/prop-5-13.tscn",
+    "bounds": [
+      2.8,
+      3,
+      0.2
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.4,
+        -0.1,
+        2.8,
+        0.2
+      ]
+    ]
+  },
+  {
+    "id": "prop-5-14",
+    "name": "구명정",
+    "category": "항만·운송",
+    "file": "game/assets/production/props/prop-5-14.tscn",
+    "path": "res://assets/production/props/prop-5-14.tscn",
+    "bounds": [
+      1.1,
+      0.7,
+      2.5
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.55,
+        -1.25,
+        1.1,
+        2.5
+      ]
+    ]
+  },
+  {
+    "id": "prop-5-15",
+    "name": "승선 발판",
+    "category": "항만·운송",
+    "file": "game/assets/production/props/prop-5-15.tscn",
+    "path": "res://assets/production/props/prop-5-15.tscn",
+    "bounds": [
+      2.2,
+      0.5,
+      3
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.1,
+        -1.5,
+        2.2,
+        3
+      ]
+    ]
+  },
+  {
+    "id": "prop-6-01",
+    "name": "유적 문 닫힘",
+    "category": "유적 장치",
+    "file": "game/assets/production/props/prop-6-01.tscn",
+    "path": "res://assets/production/props/prop-6-01.tscn",
+    "bounds": [
+      3,
+      3,
+      0.7
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.5,
+        -0.35,
+        3,
+        0.7
+      ]
+    ]
+  },
+  {
+    "id": "prop-6-02",
+    "name": "유적 문 열림",
+    "category": "유적 장치",
+    "file": "game/assets/production/props/prop-6-02.tscn",
+    "path": "res://assets/production/props/prop-6-02.tscn",
+    "bounds": [
+      3,
+      3,
+      0.7
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.6,
+        -0.35,
+        0.4,
+        0.7
+      ],
+      [
+        1.2,
+        -0.35,
+        0.4,
+        0.7
+      ]
+    ]
+  },
+  {
+    "id": "prop-6-03",
+    "name": "누름 스위치",
+    "category": "유적 장치",
+    "file": "game/assets/production/props/prop-6-03.tscn",
+    "path": "res://assets/production/props/prop-6-03.tscn",
+    "bounds": [
+      1.2,
+      0.6,
+      1.2
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.6,
+        -0.6,
+        1.2,
+        1.2
+      ]
+    ]
+  },
+  {
+    "id": "prop-6-04",
+    "name": "회전 스위치",
+    "category": "유적 장치",
+    "file": "game/assets/production/props/prop-6-04.tscn",
+    "path": "res://assets/production/props/prop-6-04.tscn",
+    "bounds": [
+      1.2,
+      0.6,
+      1.2
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.6,
+        -0.6,
+        1.2,
+        1.2
+      ]
+    ]
+  },
+  {
+    "id": "prop-6-05",
+    "name": "동력관 직선",
+    "category": "유적 장치",
+    "file": "game/assets/production/props/prop-6-05.tscn",
+    "path": "res://assets/production/props/prop-6-05.tscn",
+    "bounds": [
+      2,
+      0.5,
+      0.5
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.0,
+        -0.25,
+        2,
+        0.5
+      ]
+    ]
+  },
+  {
+    "id": "prop-6-06",
+    "name": "동력관 굽힘",
+    "category": "유적 장치",
+    "file": "game/assets/production/props/prop-6-06.tscn",
+    "path": "res://assets/production/props/prop-6-06.tscn",
+    "bounds": [
+      2,
+      0.5,
+      1.6
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.0,
+        -0.8,
+        2,
+        1.6
+      ]
+    ]
+  },
+  {
+    "id": "prop-6-07",
+    "name": "제어대 꺼짐",
+    "category": "유적 장치",
+    "file": "game/assets/production/props/prop-6-07.tscn",
+    "path": "res://assets/production/props/prop-6-07.tscn",
+    "bounds": [
+      1.6,
+      1.3,
+      0.9
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.8,
+        -0.45,
+        1.6,
+        0.9
+      ]
+    ]
+  },
+  {
+    "id": "prop-6-08",
+    "name": "제어대 가동",
+    "category": "유적 장치",
+    "file": "game/assets/production/props/prop-6-08.tscn",
+    "path": "res://assets/production/props/prop-6-08.tscn",
+    "bounds": [
+      1.6,
+      1.3,
+      0.9
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.8,
+        -0.45,
+        1.6,
+        0.9
+      ]
+    ]
+  },
+  {
+    "id": "prop-6-09",
+    "name": "소형 공명핵",
+    "category": "유적 장치",
+    "file": "game/assets/production/props/prop-6-09.tscn",
+    "path": "res://assets/production/props/prop-6-09.tscn",
+    "bounds": [
+      1.25,
+      1.25,
+      1.25
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.625,
+        -0.625,
+        1.25,
+        1.25
+      ]
+    ]
+  },
+  {
+    "id": "prop-6-10",
+    "name": "대형 공명핵",
+    "category": "유적 장치",
+    "file": "game/assets/production/props/prop-6-10.tscn",
+    "path": "res://assets/production/props/prop-6-10.tscn",
+    "bounds": [
+      2.75,
+      2.75,
+      2.75
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.375,
+        -1.375,
+        2.75,
+        2.75
+      ]
+    ]
+  },
+  {
+    "id": "prop-6-11",
+    "name": "봉인 구조물",
+    "category": "유적 장치",
+    "file": "game/assets/production/props/prop-6-11.tscn",
+    "path": "res://assets/production/props/prop-6-11.tscn",
+    "bounds": [
+      2.2,
+      2.3,
+      2.2
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.1,
+        -1.1,
+        2.2,
+        2.2
+      ]
+    ]
+  },
+  {
+    "id": "prop-6-12",
+    "name": "승강대",
+    "category": "유적 장치",
+    "file": "game/assets/production/props/prop-6-12.tscn",
+    "path": "res://assets/production/props/prop-6-12.tscn",
+    "bounds": [
+      2.5,
+      0.5,
+      2.5
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.25,
+        -1.25,
+        2.5,
+        2.5
+      ]
+    ]
+  },
+  {
+    "id": "prop-6-13",
+    "name": "붕괴 석판",
+    "category": "유적 장치",
+    "file": "game/assets/production/props/prop-6-13.tscn",
+    "path": "res://assets/production/props/prop-6-13.tscn",
+    "bounds": [
+      1.8,
+      0.5,
+      1.5
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.9,
+        -0.75,
+        1.8,
+        1.5
+      ]
+    ]
+  },
+  {
+    "id": "prop-6-14",
+    "name": "부서진 기둥",
+    "category": "유적 장치",
+    "file": "game/assets/production/props/prop-6-14.tscn",
+    "path": "res://assets/production/props/prop-6-14.tscn",
+    "bounds": [
+      2,
+      1.1,
+      0.9
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.0,
+        -0.45,
+        2,
+        0.9
+      ]
+    ]
+  },
+  {
+    "id": "prop-6-15",
+    "name": "조각 비문",
+    "category": "유적 장치",
+    "file": "game/assets/production/props/prop-6-15.tscn",
+    "path": "res://assets/production/props/prop-6-15.tscn",
+    "bounds": [
+      1.2,
+      1.5,
+      0.4
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.6,
+        -0.2,
+        1.2,
+        0.4
+      ]
+    ]
+  },
+  {
+    "id": "prop-7-01",
+    "name": "침엽수",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-01.tscn",
+    "path": "res://assets/production/props/prop-7-01.tscn",
+    "bounds": [
+      2.4,
+      4,
+      2.4
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.25,
+        -0.25,
+        0.5,
+        0.5
+      ]
+    ]
+  },
+  {
+    "id": "prop-7-02",
+    "name": "활엽수",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-02.tscn",
+    "path": "res://assets/production/props/prop-7-02.tscn",
+    "bounds": [
+      2.4,
+      4,
+      2.4
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.25,
+        -0.25,
+        0.5,
+        0.5
+      ]
+    ]
+  },
+  {
+    "id": "prop-7-03",
+    "name": "마른 나무",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-03.tscn",
+    "path": "res://assets/production/props/prop-7-03.tscn",
+    "bounds": [
+      2.4,
+      4,
+      2.4
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.25,
+        -0.25,
+        0.5,
+        0.5
+      ]
+    ]
+  },
+  {
+    "id": "prop-7-04",
+    "name": "눈 덮인 침엽수",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-04.tscn",
+    "path": "res://assets/production/props/prop-7-04.tscn",
+    "bounds": [
+      2.4,
+      4,
+      2.4
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.25,
+        -0.25,
+        0.5,
+        0.5
+      ]
+    ]
+  },
+  {
+    "id": "prop-7-05",
+    "name": "그루터기",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-05.tscn",
+    "path": "res://assets/production/props/prop-7-05.tscn",
+    "bounds": [
+      1,
+      0.7,
+      1
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.5,
+        -0.5,
+        1,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "prop-7-06",
+    "name": "쓰러진 통나무",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-06.tscn",
+    "path": "res://assets/production/props/prop-7-06.tscn",
+    "bounds": [
+      2.5,
+      0.7,
+      0.7
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.25,
+        -0.35,
+        2.5,
+        0.7
+      ]
+    ]
+  },
+  {
+    "id": "prop-7-07",
+    "name": "관목",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-07.tscn",
+    "path": "res://assets/production/props/prop-7-07.tscn",
+    "bounds": [
+      1.5,
+      0.6,
+      1.5
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": []
+  },
+  {
+    "id": "prop-7-08",
+    "name": "갈대",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-08.tscn",
+    "path": "res://assets/production/props/prop-7-08.tscn",
+    "bounds": [
+      1.5,
+      1.3,
+      1.5
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": []
+  },
+  {
+    "id": "prop-7-09",
+    "name": "풀 무더기",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-09.tscn",
+    "path": "res://assets/production/props/prop-7-09.tscn",
+    "bounds": [
+      1.5,
+      0.6,
+      1.5
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": []
+  },
+  {
+    "id": "prop-7-10",
+    "name": "약초 군락",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-10.tscn",
+    "path": "res://assets/production/props/prop-7-10.tscn",
+    "bounds": [
+      1.5,
+      0.6,
+      1.5
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": []
+  },
+  {
+    "id": "prop-7-11",
+    "name": "버섯 군락",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-11.tscn",
+    "path": "res://assets/production/props/prop-7-11.tscn",
+    "bounds": [
+      1.5,
+      0.6,
+      1.5
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": []
+  },
+  {
+    "id": "prop-7-12",
+    "name": "작은 바위",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-12.tscn",
+    "path": "res://assets/production/props/prop-7-12.tscn",
+    "bounds": [
+      1.3,
+      0.8,
+      1.3
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.65,
+        -0.65,
+        1.3,
+        1.3
+      ]
+    ]
+  },
+  {
+    "id": "prop-7-13",
+    "name": "큰 바위",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-13.tscn",
+    "path": "res://assets/production/props/prop-7-13.tscn",
+    "bounds": [
+      2,
+      0.8,
+      2
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.0,
+        -1.0,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "id": "prop-7-14",
+    "name": "절벽 직선",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-14.tscn",
+    "path": "res://assets/production/props/prop-7-14.tscn",
+    "bounds": [
+      3,
+      3,
+      0.8
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.5,
+        -0.4,
+        3,
+        0.8
+      ]
+    ]
+  },
+  {
+    "id": "prop-7-15",
+    "name": "절벽 모서리",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-15.tscn",
+    "path": "res://assets/production/props/prop-7-15.tscn",
+    "bounds": [
+      3,
+      3,
+      3
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.5,
+        -1.5,
+        3,
+        3
+      ]
+    ]
+  },
+  {
+    "id": "prop-7-16",
+    "name": "강둑 직선",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-16.tscn",
+    "path": "res://assets/production/props/prop-7-16.tscn",
+    "bounds": [
+      3,
+      0.7,
+      0.8
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.5,
+        -0.4,
+        3,
+        0.8
+      ]
+    ]
+  },
+  {
+    "id": "prop-7-17",
+    "name": "강둑 모서리",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-17.tscn",
+    "path": "res://assets/production/props/prop-7-17.tscn",
+    "bounds": [
+      3,
+      0.7,
+      3
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.5,
+        -1.5,
+        3,
+        3
+      ]
+    ]
+  },
+  {
+    "id": "prop-7-18",
+    "name": "강물 표면",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-18.tscn",
+    "path": "res://assets/production/props/prop-7-18.tscn",
+    "bounds": [
+      3,
+      0.1,
+      3
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": []
+  },
+  {
+    "id": "prop-7-19",
+    "name": "얕은 물",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-19.tscn",
+    "path": "res://assets/production/props/prop-7-19.tscn",
+    "bounds": [
+      3,
+      0.1,
+      3
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": []
+  },
+  {
+    "id": "prop-7-20",
+    "name": "습지 표면",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-20.tscn",
+    "path": "res://assets/production/props/prop-7-20.tscn",
+    "bounds": [
+      3,
+      0.1,
+      3
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": []
+  },
+  {
+    "id": "prop-7-21",
+    "name": "눈 바닥",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-21.tscn",
+    "path": "res://assets/production/props/prop-7-21.tscn",
+    "bounds": [
+      3,
+      0.1,
+      3
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": []
+  },
+  {
+    "id": "prop-7-22",
+    "name": "얼음 바닥",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-22.tscn",
+    "path": "res://assets/production/props/prop-7-22.tscn",
+    "bounds": [
+      3,
+      0.1,
+      3
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": []
+  },
+  {
+    "id": "prop-7-23",
+    "name": "흙길 직선",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-23.tscn",
+    "path": "res://assets/production/props/prop-7-23.tscn",
+    "bounds": [
+      3,
+      0.1,
+      3
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": []
+  },
+  {
+    "id": "prop-7-24",
+    "name": "흙길 모서리",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-24.tscn",
+    "path": "res://assets/production/props/prop-7-24.tscn",
+    "bounds": [
+      3,
+      0.1,
+      3
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": []
+  },
+  {
+    "id": "prop-7-25",
+    "name": "돌길 직선",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-25.tscn",
+    "path": "res://assets/production/props/prop-7-25.tscn",
+    "bounds": [
+      3,
+      0.1,
+      3
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": []
+  },
+  {
+    "id": "prop-7-26",
+    "name": "돌길 모서리",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-26.tscn",
+    "path": "res://assets/production/props/prop-7-26.tscn",
+    "bounds": [
+      3,
+      0.1,
+      3
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": []
+  },
+  {
+    "id": "prop-7-27",
+    "name": "포장도로 직선",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-27.tscn",
+    "path": "res://assets/production/props/prop-7-27.tscn",
+    "bounds": [
+      3,
+      0.1,
+      3
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": []
+  },
+  {
+    "id": "prop-7-28",
+    "name": "포장도로 모서리",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-28.tscn",
+    "path": "res://assets/production/props/prop-7-28.tscn",
+    "bounds": [
+      3,
+      0.1,
+      3
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": []
+  },
+  {
+    "id": "prop-7-29",
+    "name": "모래 해변",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-29.tscn",
+    "path": "res://assets/production/props/prop-7-29.tscn",
+    "bounds": [
+      3,
+      0.1,
+      3
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": []
+  },
+  {
+    "id": "prop-7-30",
+    "name": "동굴 벽",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-30.tscn",
+    "path": "res://assets/production/props/prop-7-30.tscn",
+    "bounds": [
+      3,
+      3,
+      0.8
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -1.5,
+        -0.4,
+        3,
+        0.8
+      ]
+    ]
+  },
+  {
+    "id": "prop-7-31",
+    "name": "동굴 입구",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-31.tscn",
+    "path": "res://assets/production/props/prop-7-31.tscn",
+    "bounds": [
+      4,
+      3,
+      1
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -2,
+        -0.5,
+        0.7,
+        1
+      ],
+      [
+        1.3,
+        -0.5,
+        0.7,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "prop-7-32",
+    "name": "광석 지형",
+    "category": "자연",
+    "file": "game/assets/production/props/prop-7-32.tscn",
+    "path": "res://assets/production/props/prop-7-32.tscn",
+    "bounds": [
+      1.4,
+      1.1,
+      1.4
+    ],
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true,
+    "collision_obstacles": [
+      [
+        -0.7,
+        -0.7,
+        1.4,
+        1.4
+      ]
+    ]
+  }
+]

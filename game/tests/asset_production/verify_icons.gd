@@ -8,8 +8,8 @@ func run() -> void:
 	var entries: Variant = JSON.parse_string(FileAccess.get_file_as_string("res://assets/production/icons/catalog.json"))
 	var failures: Array = []
 	var results: Array = []
-	if not entries is Array or entries.size() != 49:
-		push_error("Expected the 49 resumed icons")
+	if not entries is Array or entries.size() != 85:
+		push_error("Expected all 85 icons")
 		quit(1)
 		return
 	for entry in entries:

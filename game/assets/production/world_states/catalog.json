@@ -1,0 +1,162 @@
+[
+  {
+    "id": "world-state-1",
+    "name": "서리골 출발",
+    "file": "game/assets/production/world_states/world-state-1.tscn",
+    "path": "res://assets/production/world_states/world-state-1.tscn",
+    "stage": "world_state_blockout",
+    "runtime_connected": false,
+    "props": [
+      [
+        "prop-2-12",
+        [
+          -4,
+          0,
+          0
+        ]
+      ],
+      [
+        "prop-3-01",
+        [
+          4,
+          0,
+          2
+        ]
+      ],
+      [
+        "prop-7-04",
+        [
+          -5,
+          0,
+          -5
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "world-state-2",
+    "name": "서리골 귀환 피난 준비",
+    "file": "game/assets/production/world_states/world-state-2.tscn",
+    "path": "res://assets/production/world_states/world-state-2.tscn",
+    "stage": "world_state_blockout",
+    "runtime_connected": false,
+    "props": [
+      [
+        "prop-4-03",
+        [
+          -4,
+          0,
+          -3
+        ]
+      ],
+      [
+        "prop-4-04",
+        [
+          -4,
+          0,
+          3
+        ]
+      ],
+      [
+        "prop-4-05",
+        [
+          4,
+          0,
+          3
+        ]
+      ],
+      [
+        "prop-4-10",
+        [
+          4,
+          0,
+          -3
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "world-state-3",
+    "name": "서리골 에필로그 복구",
+    "file": "game/assets/production/world_states/world-state-3.tscn",
+    "path": "res://assets/production/world_states/world-state-3.tscn",
+    "stage": "world_state_blockout",
+    "runtime_connected": false,
+    "props": [
+      [
+        "prop-2-13",
+        [
+          -4,
+          0,
+          0
+        ]
+      ],
+      [
+        "prop-3-10",
+        [
+          4,
+          0,
+          -3
+        ]
+      ],
+      [
+        "prop-7-02",
+        [
+          -5,
+          0,
+          -5
+        ]
+      ],
+      [
+        "prop-2-16",
+        [
+          4,
+          0,
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "world-state-4",
+    "name": "레온의 고향 에필로그",
+    "file": "game/assets/production/world_states/world-state-4.tscn",
+    "path": "res://assets/production/world_states/world-state-4.tscn",
+    "stage": "world_state_blockout",
+    "runtime_connected": false,
+    "props": [
+      [
+        "prop-2-12",
+        [
+          -4,
+          0,
+          0
+        ]
+      ],
+      [
+        "prop-7-02",
+        [
+          -5,
+          0,
+          -5
+        ]
+      ],
+      [
+        "prop-7-07",
+        [
+          4,
+          0,
+          -3
+        ]
+      ],
+      [
+        "prop-3-18",
+        [
+          4,
+          0,
+          2
+        ]
+      ]
+    ]
+  }
+]

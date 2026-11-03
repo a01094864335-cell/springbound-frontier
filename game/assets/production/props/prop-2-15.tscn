@@ -1,0 +1,50 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/trim.tres" id="m1"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/wood.tres" id="m2"]
+
+[sub_resource type="CylinderMesh" id="r1"]
+top_radius = 0.6
+bottom_radius = 0.6
+height = 0.12
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="r2"]
+top_radius = 0.13
+bottom_radius = 0.13
+height = 0.22
+radial_segments = 12
+rings = 1
+
+[sub_resource type="BoxShape3D" id="r3"]
+size = Vector3(1.2, 1.2, 0.3)
+
+[node name="prop_2_15" type="Node3D"]
+metadata/asset_id = "prop-2-15"
+metadata/display_name = "수레바퀴"
+metadata/grid_obstacles = [[-0.6, -0.15, 1.2, 0.3]]
+metadata/stage = "native_first_pass"
+metadata/origin = "ground center"
+metadata/bounds = [1.2, 1.2, 0.3]
+metadata/recreated_from = "unavailable external draft; newly authored in this environment"
+metadata/final_art_approved = false
+
+[node name="Wheel" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.6, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+rotation_degrees = Vector3(90, 0, 0)
+
+[node name="Hub" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.6, 0.09)
+mesh = SubResource("r2")
+material_override = ExtResource("m2")
+rotation_degrees = Vector3(90, 0, 0)
+
+[node name="Body1" type="StaticBody3D" parent="."]
+position = Vector3(0, 0.6, 0)
+
+[node name="Shape" type="CollisionShape3D" parent="Body1"]
+shape = SubResource("r3")

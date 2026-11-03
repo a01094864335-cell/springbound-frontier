@@ -1,0 +1,1 @@
+{"passed":true,"results":[{"group":"motions","total":1563,"drawn":true},{"group":"props","total":112,"drawn":true},{"group":"ui","total":36,"drawn":true},{"group":"events","total":14,"drawn":true},{"group":"world_states","total":4,"drawn":true},{"group":"icons","total":85,"drawn":true}],"iconCount":85,"iconImages":255,"iconsLoaded":true,"errors":[],"missing":[]}

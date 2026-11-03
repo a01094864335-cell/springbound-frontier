@@ -1,0 +1,91 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/production/motions/event-overrides.png" id="atlas"]
+
+[sub_resource type="AtlasTexture" id="frame_0"]
+atlas = ExtResource("atlas")
+region = Rect2(0.000000, 0.000000, 330.000000, 342.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_1"]
+atlas = ExtResource("atlas")
+region = Rect2(330.000000, 0.000000, 289.000000, 342.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_2"]
+atlas = ExtResource("atlas")
+region = Rect2(619.000000, 0.000000, 291.000000, 342.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_3"]
+atlas = ExtResource("atlas")
+region = Rect2(910.000000, 0.000000, 312.000000, 342.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_4"]
+atlas = ExtResource("atlas")
+region = Rect2(0.000000, 342.000000, 330.000000, 289.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_5"]
+atlas = ExtResource("atlas")
+region = Rect2(330.000000, 342.000000, 289.000000, 289.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_6"]
+atlas = ExtResource("atlas")
+region = Rect2(619.000000, 342.000000, 291.000000, 289.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_7"]
+atlas = ExtResource("atlas")
+region = Rect2(910.000000, 342.000000, 312.000000, 289.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_8"]
+atlas = ExtResource("atlas")
+region = Rect2(0.000000, 631.000000, 330.000000, 296.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_9"]
+atlas = ExtResource("atlas")
+region = Rect2(330.000000, 631.000000, 289.000000, 296.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_10"]
+atlas = ExtResource("atlas")
+region = Rect2(619.000000, 631.000000, 291.000000, 296.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_11"]
+atlas = ExtResource("atlas")
+region = Rect2(910.000000, 631.000000, 312.000000, 296.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_12"]
+atlas = ExtResource("atlas")
+region = Rect2(0.000000, 927.000000, 330.000000, 360.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_13"]
+atlas = ExtResource("atlas")
+region = Rect2(330.000000, 927.000000, 289.000000, 360.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_14"]
+atlas = ExtResource("atlas")
+region = Rect2(619.000000, 927.000000, 291.000000, 360.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_15"]
+atlas = ExtResource("atlas")
+region = Rect2(910.000000, 927.000000, 312.000000, 360.000000)
+filter_clip = true
+
+[resource]
+animations = [
+{"frames": [{"duration": 1.0, "texture": SubResource("frame_0")}, {"duration": 1.0, "texture": SubResource("frame_1")}, {"duration": 1.0, "texture": SubResource("frame_2")}, {"duration": 1.0, "texture": SubResource("frame_3")}], "loop": true, "name": &"event-npc-leon-03", "speed": 6.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("frame_4")}, {"duration": 1.0, "texture": SubResource("frame_5")}, {"duration": 1.0, "texture": SubResource("frame_6")}, {"duration": 1.0, "texture": SubResource("frame_7")}], "loop": false, "name": &"event-npc-leon-04", "speed": 8.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("frame_8")}, {"duration": 1.0, "texture": SubResource("frame_9")}, {"duration": 1.0, "texture": SubResource("frame_10")}, {"duration": 1.0, "texture": SubResource("frame_11")}], "loop": true, "name": &"event-npc-leon-05", "speed": 8.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("frame_12")}, {"duration": 1.0, "texture": SubResource("frame_13")}, {"duration": 1.0, "texture": SubResource("frame_14")}, {"duration": 1.0, "texture": SubResource("frame_15")}], "loop": false, "name": &"event-first-victory-tremble", "speed": 8.0}
+]

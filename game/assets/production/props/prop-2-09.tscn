@@ -1,0 +1,34 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/wood.tres" id="m1"]
+
+[sub_resource type="CylinderMesh" id="r1"]
+top_radius = 0.75
+bottom_radius = 0.75
+height = 0.24
+radial_segments = 12
+rings = 1
+
+[sub_resource type="BoxShape3D" id="r2"]
+size = Vector3(1.5, 0.3, 1.5)
+
+[node name="prop_2_09" type="Node3D"]
+metadata/asset_id = "prop-2-09"
+metadata/display_name = "우물 덮개"
+metadata/grid_obstacles = [[-0.75, -0.75, 1.5, 1.5]]
+metadata/stage = "native_first_pass"
+metadata/origin = "ground center"
+metadata/bounds = [1.5, 0.3, 1.5]
+metadata/recreated_from = "unavailable external draft; newly authored in this environment"
+metadata/final_art_approved = false
+
+[node name="WellCover" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.12, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+
+[node name="Body1" type="StaticBody3D" parent="."]
+position = Vector3(0, 0.15, 0)
+
+[node name="Shape" type="CollisionShape3D" parent="Body1"]
+shape = SubResource("r2")

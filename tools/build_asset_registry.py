@@ -69,7 +69,8 @@ native_manifest=ROOT/'game/assets/production/manifest.json'
 if native_manifest.exists():
  for asset in json.loads(native_manifest.read_text())['entries']:
   target=next(x for x in rows if x['id']==asset['id'])
-  target.update(design_status='배치 블록아웃' if asset.get('stage')=='layout_blockout' else '제작 파일 1차',runtime_status='엔진 검증·플레이 미연결',source=asset['file'])
+  statuses={'layout_blockout':'배치 블록아웃','motion_prototype':'동작 초안·정합화 대기','event_visual_prototype':'연출 초안','world_state_blockout':'상태 배치 블록아웃'}
+  target.update(design_status=statuses.get(asset.get('stage'),'제작 파일 1차'),runtime_status='엔진 검증·플레이 미연결',source=asset['file'])
   target['notes']+=' 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.'
 
 # Preserve reported drafts from the other executor without claiming accessible files.

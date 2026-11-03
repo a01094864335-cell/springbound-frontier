@@ -1,37 +1,9 @@
 {
-	"count": 49,
+	"count": 85,
 	"failures": [],
 	"gameplay_connected": false,
 	"passed": true,
 	"results": [
-		{
-			"clear_corners": true,
-			"has_alpha": true,
-			"height": 1024,
-			"id": "icon-item-gloves-02",
-			"width": 1536
-		},
-		{
-			"clear_corners": true,
-			"has_alpha": true,
-			"height": 1024,
-			"id": "icon-item-gloves-03",
-			"width": 1536
-		},
-		{
-			"clear_corners": true,
-			"has_alpha": true,
-			"height": 1024,
-			"id": "icon-item-gloves-04",
-			"width": 1536
-		},
-		{
-			"clear_corners": true,
-			"has_alpha": true,
-			"height": 1024,
-			"id": "icon-item-gloves-05",
-			"width": 1536
-		},
 		{
 			"clear_corners": true,
 			"has_alpha": true,
@@ -70,36 +42,351 @@
 		{
 			"clear_corners": true,
 			"has_alpha": true,
+			"height": 1312,
+			"id": "icon-item-bows-01",
+			"width": 1199
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
 			"height": 1024,
-			"id": "icon-item-rings-01",
+			"id": "icon-item-bows-02",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1199,
+			"id": "icon-item-bows-03",
+			"width": 1312
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-bows-04",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1312,
+			"id": "icon-item-bows-05",
+			"width": 1199
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-daggers-01",
 			"width": 1536
 		},
 		{
 			"clear_corners": true,
 			"has_alpha": true,
 			"height": 1024,
-			"id": "icon-item-rings-02",
+			"id": "icon-item-daggers-02",
 			"width": 1536
 		},
 		{
 			"clear_corners": true,
 			"has_alpha": true,
 			"height": 1024,
-			"id": "icon-item-rings-03",
+			"id": "icon-item-daggers-03",
 			"width": 1536
 		},
 		{
 			"clear_corners": true,
 			"has_alpha": true,
 			"height": 1024,
-			"id": "icon-item-rings-04",
+			"id": "icon-item-daggers-04",
 			"width": 1536
 		},
 		{
 			"clear_corners": true,
 			"has_alpha": true,
 			"height": 1024,
-			"id": "icon-item-rings-05",
+			"id": "icon-item-daggers-05",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1254,
+			"id": "icon-item-exploration-tools-01",
+			"width": 1254
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-exploration-tools-02",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-exploration-tools-03",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1246,
+			"id": "icon-item-exploration-tools-04",
+			"width": 1263
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-exploration-tools-05",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-gloves-01",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-gloves-02",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-gloves-03",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-gloves-04",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-gloves-05",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-heavy-armor-01",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-heavy-armor-02",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-heavy-armor-03",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1199,
+			"id": "icon-item-heavy-armor-04",
+			"width": 1312
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-heavy-armor-05",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1199,
+			"id": "icon-item-herbs-and-materials-01",
+			"width": 1312
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1199,
+			"id": "icon-item-herbs-and-materials-02",
+			"width": 1312
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1199,
+			"id": "icon-item-herbs-and-materials-03",
+			"width": 1312
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1199,
+			"id": "icon-item-herbs-and-materials-04",
+			"width": 1312
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1199,
+			"id": "icon-item-herbs-and-materials-05",
+			"width": 1312
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1199,
+			"id": "icon-item-herbs-and-materials-06",
+			"width": 1312
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-key-and-keepsakes-01",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-key-and-keepsakes-02",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-key-and-keepsakes-03",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-key-and-keepsakes-04",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1199,
+			"id": "icon-item-light-armor-01",
+			"width": 1312
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1199,
+			"id": "icon-item-light-armor-02",
+			"width": 1312
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1199,
+			"id": "icon-item-light-armor-03",
+			"width": 1312
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1199,
+			"id": "icon-item-light-armor-04",
+			"width": 1312
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-light-armor-05",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1262,
+			"id": "icon-item-one-handed-swords-01",
+			"width": 1246
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-one-handed-swords-02",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-one-handed-swords-03",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-one-handed-swords-04",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-one-handed-swords-05",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-quest-and-records-01",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-quest-and-records-02",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-quest-and-records-03",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-quest-and-records-04",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-quest-and-records-05",
 			"width": 1536
 		},
 		{
@@ -175,141 +462,106 @@
 		{
 			"clear_corners": true,
 			"has_alpha": true,
-			"height": 1199,
-			"id": "icon-item-herbs-and-materials-01",
-			"width": 1312
-		},
-		{
-			"clear_corners": true,
-			"has_alpha": true,
-			"height": 1199,
-			"id": "icon-item-herbs-and-materials-02",
-			"width": 1312
-		},
-		{
-			"clear_corners": true,
-			"has_alpha": true,
-			"height": 1199,
-			"id": "icon-item-herbs-and-materials-03",
-			"width": 1312
-		},
-		{
-			"clear_corners": true,
-			"has_alpha": true,
-			"height": 1199,
-			"id": "icon-item-herbs-and-materials-04",
-			"width": 1312
-		},
-		{
-			"clear_corners": true,
-			"has_alpha": true,
-			"height": 1199,
-			"id": "icon-item-herbs-and-materials-05",
-			"width": 1312
-		},
-		{
-			"clear_corners": true,
-			"has_alpha": true,
-			"height": 1199,
-			"id": "icon-item-herbs-and-materials-06",
-			"width": 1312
-		},
-		{
-			"clear_corners": true,
-			"has_alpha": true,
-			"height": 1254,
-			"id": "icon-item-exploration-tools-01",
-			"width": 1254
-		},
-		{
-			"clear_corners": true,
-			"has_alpha": true,
 			"height": 1024,
-			"id": "icon-item-exploration-tools-02",
+			"id": "icon-item-rings-01",
 			"width": 1536
 		},
 		{
 			"clear_corners": true,
 			"has_alpha": true,
 			"height": 1024,
-			"id": "icon-item-exploration-tools-03",
-			"width": 1536
-		},
-		{
-			"clear_corners": true,
-			"has_alpha": true,
-			"height": 1246,
-			"id": "icon-item-exploration-tools-04",
-			"width": 1263
-		},
-		{
-			"clear_corners": true,
-			"has_alpha": true,
-			"height": 1024,
-			"id": "icon-item-exploration-tools-05",
+			"id": "icon-item-rings-02",
 			"width": 1536
 		},
 		{
 			"clear_corners": true,
 			"has_alpha": true,
 			"height": 1024,
-			"id": "icon-item-quest-and-records-01",
+			"id": "icon-item-rings-03",
 			"width": 1536
 		},
 		{
 			"clear_corners": true,
 			"has_alpha": true,
 			"height": 1024,
-			"id": "icon-item-quest-and-records-02",
+			"id": "icon-item-rings-04",
 			"width": 1536
 		},
 		{
 			"clear_corners": true,
 			"has_alpha": true,
 			"height": 1024,
-			"id": "icon-item-quest-and-records-03",
+			"id": "icon-item-rings-05",
 			"width": 1536
 		},
 		{
 			"clear_corners": true,
 			"has_alpha": true,
 			"height": 1024,
-			"id": "icon-item-quest-and-records-04",
+			"id": "icon-item-spears-01",
 			"width": 1536
 		},
 		{
 			"clear_corners": true,
 			"has_alpha": true,
 			"height": 1024,
-			"id": "icon-item-quest-and-records-05",
+			"id": "icon-item-spears-02",
 			"width": 1536
 		},
 		{
 			"clear_corners": true,
 			"has_alpha": true,
 			"height": 1024,
-			"id": "icon-item-key-and-keepsakes-01",
+			"id": "icon-item-spears-03",
 			"width": 1536
 		},
 		{
 			"clear_corners": true,
 			"has_alpha": true,
 			"height": 1024,
-			"id": "icon-item-key-and-keepsakes-02",
+			"id": "icon-item-spears-04",
 			"width": 1536
 		},
 		{
 			"clear_corners": true,
 			"has_alpha": true,
 			"height": 1024,
-			"id": "icon-item-key-and-keepsakes-03",
+			"id": "icon-item-spears-05",
 			"width": 1536
 		},
 		{
 			"clear_corners": true,
 			"has_alpha": true,
 			"height": 1024,
-			"id": "icon-item-key-and-keepsakes-04",
+			"id": "icon-item-staves-01",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-staves-02",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1261,
+			"id": "icon-item-staves-03",
+			"width": 1247
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-staves-04",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-staves-05",
 			"width": 1536
 		},
 		{

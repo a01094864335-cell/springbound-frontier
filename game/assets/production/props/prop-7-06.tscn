@@ -1,0 +1,35 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/wood.tres" id="m1"]
+
+[sub_resource type="CylinderMesh" id="r1"]
+top_radius = 0.3
+bottom_radius = 0.3
+height = 2.5
+radial_segments = 12
+rings = 1
+
+[sub_resource type="BoxShape3D" id="r2"]
+size = Vector3(2.5, 0.7, 0.7)
+
+[node name="prop_7_06" type="Node3D"]
+metadata/asset_id = "prop-7-06"
+metadata/display_name = "쓰러진 통나무"
+metadata/grid_obstacles = [[-1.25, -0.35, 2.5, 0.7]]
+metadata/stage = "native_first_pass"
+metadata/origin = "ground center"
+metadata/bounds = [2.5, 0.7, 0.7]
+metadata/recreated_from = "unavailable external draft; newly authored in this environment"
+metadata/final_art_approved = false
+
+[node name="Log" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.3, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+rotation_degrees = Vector3(0, 0, 90)
+
+[node name="Body1" type="StaticBody3D" parent="."]
+position = Vector3(0, 0.35, 0)
+
+[node name="Shape" type="CollisionShape3D" parent="Body1"]
+shape = SubResource("r2")

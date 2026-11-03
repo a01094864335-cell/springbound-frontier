@@ -1,0 +1,51 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/green.tres" id="m1"]
+
+[ext_resource type="PackedScene" path="res://assets/production/props/prop-2-16.tscn" id="p3"]
+[ext_resource type="PackedScene" path="res://assets/production/props/prop-7-02.tscn" id="p2"]
+[ext_resource type="PackedScene" path="res://assets/production/props/prop-3-10.tscn" id="p1"]
+[ext_resource type="PackedScene" path="res://assets/production/props/prop-2-13.tscn" id="p0"]
+[sub_resource type="BoxMesh" id="r1"]
+size = Vector3(16, 0.2, 16)
+
+[sub_resource type="BoxShape3D" id="r2"]
+size = Vector3(16,0.2,16)
+
+[node name="world_state_3" type="Node3D"]
+metadata/asset_id = "world-state-3"
+metadata/display_name = "서리골 에필로그 복구"
+metadata/grid_obstacles = []
+metadata/stage = "world_state_blockout"
+metadata/variation_only = true
+metadata/final_layout = false
+metadata/route_clearance = 4
+
+[node name="Ground" type="MeshInstance3D" parent="."]
+position = Vector3(0, -0.1, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+
+[node name="GroundBody" type="StaticBody3D" parent="."]
+position = Vector3(0,-0.1,0)
+
+[node name="Shape" type="CollisionShape3D" parent="GroundBody"]
+shape = SubResource("r2")
+
+[node name="Prop0" parent="." instance=ExtResource("p0")]
+position = Vector3(-4, 0, 0)
+
+[node name="Prop1" parent="." instance=ExtResource("p1")]
+position = Vector3(4, 0, -3)
+
+[node name="Prop2" parent="." instance=ExtResource("p2")]
+position = Vector3(-5, 0, -5)
+
+[node name="Prop3" parent="." instance=ExtResource("p3")]
+position = Vector3(4, 0, 4)
+
+[node name="Entry" type="Marker3D" parent="."]
+position = Vector3(0,0,6)
+
+[node name="Exit" type="Marker3D" parent="."]
+position = Vector3(0,0,-6)

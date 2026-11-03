@@ -1,0 +1,74 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/wood.tres" id="m1"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/trim.tres" id="m2"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/paper.tres" id="m3"]
+
+[sub_resource type="BoxMesh" id="r1"]
+size = Vector3(1.6, 0.12, 1)
+
+[sub_resource type="BoxMesh" id="r2"]
+size = Vector3(0.12, 0.8, 0.12)
+
+[sub_resource type="BoxMesh" id="r3"]
+size = Vector3(0.12, 0.8, 0.12)
+
+[sub_resource type="BoxMesh" id="r4"]
+size = Vector3(0.12, 0.8, 0.12)
+
+[sub_resource type="BoxMesh" id="r5"]
+size = Vector3(0.12, 0.8, 0.12)
+
+[sub_resource type="BoxMesh" id="r6"]
+size = Vector3(0.35, 0.025, 0.48)
+
+[sub_resource type="BoxShape3D" id="r7"]
+size = Vector3(1.8, 1, 1.1)
+
+[node name="prop_3_15" type="Node3D"]
+metadata/asset_id = "prop-3-15"
+metadata/display_name = "지도 펼침"
+metadata/grid_obstacles = [[-0.9, -0.55, 1.8, 1.1]]
+metadata/stage = "native_first_pass"
+metadata/origin = "ground center"
+metadata/bounds = [1.8, 1, 1.1]
+metadata/recreated_from = "unavailable external draft; newly authored in this environment"
+metadata/final_art_approved = false
+
+[node name="Top" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.8, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+
+[node name="Leg-0.68-0.38" type="MeshInstance3D" parent="."]
+position = Vector3(-0.68, 0.4, -0.38)
+mesh = SubResource("r2")
+material_override = ExtResource("m2")
+
+[node name="Leg-0.680.38" type="MeshInstance3D" parent="."]
+position = Vector3(-0.68, 0.4, 0.38)
+mesh = SubResource("r3")
+material_override = ExtResource("m2")
+
+[node name="Leg0.68-0.38" type="MeshInstance3D" parent="."]
+position = Vector3(0.68, 0.4, -0.38)
+mesh = SubResource("r4")
+material_override = ExtResource("m2")
+
+[node name="Leg0.680.38" type="MeshInstance3D" parent="."]
+position = Vector3(0.68, 0.4, 0.38)
+mesh = SubResource("r5")
+material_override = ExtResource("m2")
+
+[node name="Map" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.88, 0)
+mesh = SubResource("r6")
+material_override = ExtResource("m3")
+
+[node name="Body1" type="StaticBody3D" parent="."]
+position = Vector3(0, 0.5, 0)
+
+[node name="Shape" type="CollisionShape3D" parent="Body1"]
+shape = SubResource("r7")

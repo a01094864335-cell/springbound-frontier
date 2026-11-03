@@ -1,0 +1,11 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://assets/production/events/event_player.gd" id="script"]
+[node name="presentation_3_04" type="Node3D"]
+metadata/asset_id = "presentation-3-04"
+metadata/display_name = "레온 발견"
+metadata/grid_obstacles = []
+metadata/stage = "event_visual_prototype"
+script = ExtResource("script")
+metadata/duration = 3.2
+metadata/gameplay_effects = false

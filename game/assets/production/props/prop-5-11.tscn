@@ -1,0 +1,78 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/wood.tres" id="m1"]
+
+[sub_resource type="CylinderMesh" id="r1"]
+top_radius = 0.08
+bottom_radius = 0.08
+height = 1.2
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="r2"]
+top_radius = 0.08
+bottom_radius = 0.08
+height = 1.2
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="r3"]
+top_radius = 0.08
+bottom_radius = 0.08
+height = 1.2
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="r4"]
+top_radius = 0.08
+bottom_radius = 0.08
+height = 1.2
+radial_segments = 12
+rings = 1
+
+[sub_resource type="BoxMesh" id="r5"]
+size = Vector3(2.2, 0.12, 0.12)
+
+[sub_resource type="BoxShape3D" id="r6"]
+size = Vector3(2.2, 1.4, 0.4)
+
+[node name="prop_5_11" type="Node3D"]
+metadata/asset_id = "prop-5-11"
+metadata/display_name = "선박 난간"
+metadata/grid_obstacles = [[-1.1, -0.2, 2.2, 0.4]]
+metadata/stage = "native_first_pass"
+metadata/origin = "ground center"
+metadata/bounds = [2.2, 1.4, 0.4]
+metadata/recreated_from = "unavailable external draft; newly authored in this environment"
+metadata/final_art_approved = false
+
+[node name="RailPost0" type="MeshInstance3D" parent="."]
+position = Vector3(-1, 0.6, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+
+[node name="RailPost1" type="MeshInstance3D" parent="."]
+position = Vector3(-0.33, 0.6, 0)
+mesh = SubResource("r2")
+material_override = ExtResource("m1")
+
+[node name="RailPost2" type="MeshInstance3D" parent="."]
+position = Vector3(0.34, 0.6, 0)
+mesh = SubResource("r3")
+material_override = ExtResource("m1")
+
+[node name="RailPost3" type="MeshInstance3D" parent="."]
+position = Vector3(1.01, 0.6, 0)
+mesh = SubResource("r4")
+material_override = ExtResource("m1")
+
+[node name="Handrail" type="MeshInstance3D" parent="."]
+position = Vector3(0, 1.2, 0)
+mesh = SubResource("r5")
+material_override = ExtResource("m1")
+
+[node name="Body1" type="StaticBody3D" parent="."]
+position = Vector3(0, 0.7, 0)
+
+[node name="Shape" type="CollisionShape3D" parent="Body1"]
+shape = SubResource("r6")

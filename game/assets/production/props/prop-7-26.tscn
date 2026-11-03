@@ -1,0 +1,46 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/stone.tres" id="m1"]
+
+[sub_resource type="BoxMesh" id="r1"]
+size = Vector3(3, 0.1, 3)
+
+[sub_resource type="BoxMesh" id="r2"]
+size = Vector3(1.5, 0.04, 3)
+
+[sub_resource type="BoxMesh" id="r3"]
+size = Vector3(1.5, 0.04, 1.5)
+
+[sub_resource type="BoxShape3D" id="r4"]
+size = Vector3(3,0.1,3)
+
+[node name="prop_7_26" type="Node3D"]
+metadata/asset_id = "prop-7-26"
+metadata/display_name = "돌길 모서리"
+metadata/grid_obstacles = []
+metadata/stage = "native_first_pass"
+metadata/origin = "ground center"
+metadata/bounds = [3, 0.1, 3]
+metadata/recreated_from = "unavailable external draft; newly authored in this environment"
+metadata/final_art_approved = false
+
+[node name="Tile" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.05, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+
+[node name="Path" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.11, 0)
+mesh = SubResource("r2")
+material_override = ExtResource("m1")
+
+[node name="Turn" type="MeshInstance3D" parent="."]
+position = Vector3(0.75, 0.11, 0.75)
+mesh = SubResource("r3")
+material_override = ExtResource("m1")
+
+[node name="SurfaceBody" type="StaticBody3D" parent="."]
+position = Vector3(0,0.05,0)
+
+[node name="Shape" type="CollisionShape3D" parent="SurfaceBody"]
+shape = SubResource("r4")

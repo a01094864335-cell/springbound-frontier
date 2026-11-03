@@ -1,0 +1,82 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/wood.tres" id="m1"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/linen.tres" id="m2"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/blue.tres" id="m3"]
+
+[sub_resource type="CylinderMesh" id="r1"]
+top_radius = 0.08
+bottom_radius = 0.08
+height = 2
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="r2"]
+top_radius = 0.08
+bottom_radius = 0.08
+height = 2
+radial_segments = 12
+rings = 1
+
+[sub_resource type="BoxMesh" id="r3"]
+size = Vector3(2.8, 0.03, 0.03)
+
+[sub_resource type="BoxMesh" id="r4"]
+size = Vector3(0.55, 0.9, 0.025)
+
+[sub_resource type="BoxMesh" id="r5"]
+size = Vector3(0.55, 0.9, 0.025)
+
+[sub_resource type="BoxMesh" id="r6"]
+size = Vector3(0.55, 0.9, 0.025)
+
+[sub_resource type="BoxShape3D" id="r7"]
+size = Vector3(3, 2, 0.6)
+
+[node name="prop_2_10" type="Node3D"]
+metadata/asset_id = "prop-2-10"
+metadata/display_name = "빨랫줄"
+metadata/grid_obstacles = [[-1.5, -0.3, 3, 0.6]]
+metadata/stage = "native_first_pass"
+metadata/origin = "ground center"
+metadata/bounds = [3, 2, 0.6]
+metadata/recreated_from = "unavailable external draft; newly authored in this environment"
+metadata/final_art_approved = false
+
+[node name="Left" type="MeshInstance3D" parent="."]
+position = Vector3(-1.4, 1, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+
+[node name="Right" type="MeshInstance3D" parent="."]
+position = Vector3(1.4, 1, 0)
+mesh = SubResource("r2")
+material_override = ExtResource("m1")
+
+[node name="Rope" type="MeshInstance3D" parent="."]
+position = Vector3(0, 1.9, 0)
+mesh = SubResource("r3")
+material_override = ExtResource("m2")
+
+[node name="Cloth0" type="MeshInstance3D" parent="."]
+position = Vector3(-0.9, 1.35, 0)
+mesh = SubResource("r4")
+material_override = ExtResource("m3")
+
+[node name="Cloth1" type="MeshInstance3D" parent="."]
+position = Vector3(0, 1.35, 0)
+mesh = SubResource("r5")
+material_override = ExtResource("m2")
+
+[node name="Cloth2" type="MeshInstance3D" parent="."]
+position = Vector3(0.9, 1.35, 0)
+mesh = SubResource("r6")
+material_override = ExtResource("m3")
+
+[node name="Body1" type="StaticBody3D" parent="."]
+position = Vector3(0, 1, 0)
+
+[node name="Shape" type="CollisionShape3D" parent="Body1"]
+shape = SubResource("r7")

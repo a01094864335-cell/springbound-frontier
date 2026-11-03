@@ -1,0 +1,54 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/stone.tres" id="m1"]
+
+[sub_resource type="BoxMesh" id="r1"]
+size = Vector3(0.4, 3, 0.6)
+
+[sub_resource type="BoxMesh" id="r2"]
+size = Vector3(0.4, 3, 0.6)
+
+[sub_resource type="BoxMesh" id="r3"]
+size = Vector3(3, 0.3, 0.65)
+
+[sub_resource type="BoxMesh" id="r4"]
+size = Vector3(2.4, 2.7, 0.35)
+
+[sub_resource type="BoxShape3D" id="r5"]
+size = Vector3(3, 3, 0.7)
+
+[node name="prop_6_01" type="Node3D"]
+metadata/asset_id = "prop-6-01"
+metadata/display_name = "유적 문 닫힘"
+metadata/grid_obstacles = [[-1.5, -0.35, 3, 0.7]]
+metadata/stage = "native_first_pass"
+metadata/origin = "ground center"
+metadata/bounds = [3, 3, 0.7]
+metadata/recreated_from = "unavailable external draft; newly authored in this environment"
+metadata/final_art_approved = false
+
+[node name="Pillar-1.4" type="MeshInstance3D" parent="."]
+position = Vector3(-1.4, 1.5, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+
+[node name="Pillar1.4" type="MeshInstance3D" parent="."]
+position = Vector3(1.4, 1.5, 0)
+mesh = SubResource("r2")
+material_override = ExtResource("m1")
+
+[node name="Lintel" type="MeshInstance3D" parent="."]
+position = Vector3(0, 2.9, 0)
+mesh = SubResource("r3")
+material_override = ExtResource("m1")
+
+[node name="Door" type="MeshInstance3D" parent="."]
+position = Vector3(0, 1.35, 0)
+mesh = SubResource("r4")
+material_override = ExtResource("m1")
+
+[node name="Body1" type="StaticBody3D" parent="."]
+position = Vector3(0, 1.5, 0)
+
+[node name="Shape" type="CollisionShape3D" parent="Body1"]
+shape = SubResource("r5")
