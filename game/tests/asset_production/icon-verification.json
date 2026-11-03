@@ -1,0 +1,351 @@
+{
+	"count": 49,
+	"failures": [],
+	"gameplay_connected": false,
+	"passed": true,
+	"results": [
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-gloves-02",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-gloves-03",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-gloves-04",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-gloves-05",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1312,
+			"id": "icon-item-amulets-01",
+			"width": 1199
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1199,
+			"id": "icon-item-amulets-02",
+			"width": 1312
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1246,
+			"id": "icon-item-amulets-03",
+			"width": 1263
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-amulets-04",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1240,
+			"id": "icon-item-amulets-05",
+			"width": 1269
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-rings-01",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-rings-02",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-rings-03",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-rings-04",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-rings-05",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-recovery-and-cures-01",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1199,
+			"id": "icon-item-recovery-and-cures-02",
+			"width": 1312
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1199,
+			"id": "icon-item-recovery-and-cures-03",
+			"width": 1312
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1254,
+			"id": "icon-item-recovery-and-cures-04",
+			"width": 1254
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-recovery-and-cures-05",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-recovery-and-cures-06",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-recovery-and-cures-07",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-recovery-and-cures-08",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1199,
+			"id": "icon-item-recovery-and-cures-09",
+			"width": 1312
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-recovery-and-cures-10",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1199,
+			"id": "icon-item-herbs-and-materials-01",
+			"width": 1312
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1199,
+			"id": "icon-item-herbs-and-materials-02",
+			"width": 1312
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1199,
+			"id": "icon-item-herbs-and-materials-03",
+			"width": 1312
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1199,
+			"id": "icon-item-herbs-and-materials-04",
+			"width": 1312
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1199,
+			"id": "icon-item-herbs-and-materials-05",
+			"width": 1312
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1199,
+			"id": "icon-item-herbs-and-materials-06",
+			"width": 1312
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1254,
+			"id": "icon-item-exploration-tools-01",
+			"width": 1254
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-exploration-tools-02",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-exploration-tools-03",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1246,
+			"id": "icon-item-exploration-tools-04",
+			"width": 1263
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-exploration-tools-05",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-quest-and-records-01",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-quest-and-records-02",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-quest-and-records-03",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-quest-and-records-04",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-quest-and-records-05",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-key-and-keepsakes-01",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-key-and-keepsakes-02",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-key-and-keepsakes-03",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1024,
+			"id": "icon-item-key-and-keepsakes-04",
+			"width": 1536
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1199,
+			"id": "icon-shield-1",
+			"width": 1312
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1254,
+			"id": "icon-shield-2",
+			"width": 1254
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1254,
+			"id": "icon-shield-3",
+			"width": 1254
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1246,
+			"id": "icon-shield-4",
+			"width": 1262
+		},
+		{
+			"clear_corners": true,
+			"has_alpha": true,
+			"height": 1199,
+			"id": "icon-shield-5",
+			"width": 1312
+		}
+	]
+}

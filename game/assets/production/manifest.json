@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "baseline": "432c336f80b35b9fbd89888af1a8813317aae566",
-  "count": 151,
+  "count": 200,
   "scope": "Native first-pass assets. Not all remaining assets, not final art approval, not connected to prologue.",
   "entries": [
     {
@@ -1211,6 +1211,398 @@
       "stage": "native_first_pass",
       "runtime_connected": false,
       "validation": "WAV signal checks and Godot import; listening review pending"
+    },
+    {
+      "id": "icon-item-gloves-02",
+      "file": "game/assets/production/icons/icon-item-gloves-02.png",
+      "sha256": "f0780bb854d1969e2f92cfab6e67bfe96fda7b626cfda61909a5c41a756d7062",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-gloves-03",
+      "file": "game/assets/production/icons/icon-item-gloves-03.png",
+      "sha256": "a05f55d9e8402b70a4c351fe94b16f3728799c22301746533625b983808e3121",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-gloves-04",
+      "file": "game/assets/production/icons/icon-item-gloves-04.png",
+      "sha256": "19f67fab9f056daf2e0df1a4546ad4ff5a4f6311dd98846e8e924499fefeeb94",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-gloves-05",
+      "file": "game/assets/production/icons/icon-item-gloves-05.png",
+      "sha256": "13d9bf12c4b5ee478a01727a8b19470fe03b304db542f12570c12e712ae7c8bb",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-amulets-01",
+      "file": "game/assets/production/icons/icon-item-amulets-01.png",
+      "sha256": "4d3f1db18f00f1fe216c05457958a22cefb879e5b673daf820261612132e666b",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-amulets-02",
+      "file": "game/assets/production/icons/icon-item-amulets-02.png",
+      "sha256": "3a3fdf3ee0adca58fdb20d1052a9637aa667b568c2d30fd49027844fde13bdcd",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-amulets-03",
+      "file": "game/assets/production/icons/icon-item-amulets-03.png",
+      "sha256": "f5b4f678a124166fbb0b74f99032bb66e03cf5342e49de008ebfc978f55e47e5",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-amulets-04",
+      "file": "game/assets/production/icons/icon-item-amulets-04.png",
+      "sha256": "7d751479172257c495c5a0e304a06432b84819e0568d6ba00f5b851d2f8d4842",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-amulets-05",
+      "file": "game/assets/production/icons/icon-item-amulets-05.png",
+      "sha256": "b281b3433ac5c7719063d78092bb83f2a8294dd12d06309585e29d43fa44947a",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-rings-01",
+      "file": "game/assets/production/icons/icon-item-rings-01.png",
+      "sha256": "95939ccdd2562ccb6e343e0cc5314e84bac18fbcb0377ffd7f6e0901a9cb3226",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-rings-02",
+      "file": "game/assets/production/icons/icon-item-rings-02.png",
+      "sha256": "1c34d28216bbf120f1fe5f0cd9b0e77927838a25fa41f93db2beed6780803280",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-rings-03",
+      "file": "game/assets/production/icons/icon-item-rings-03.png",
+      "sha256": "8f9816e3b1d6d681adca92be47b03f65589883c49687ed19cf8d8582af1f6d25",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-rings-04",
+      "file": "game/assets/production/icons/icon-item-rings-04.png",
+      "sha256": "a31f5d34c536d64af617595263eb818cf1960dcec9cf2e60c033cbbba299bca3",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-rings-05",
+      "file": "game/assets/production/icons/icon-item-rings-05.png",
+      "sha256": "25c4e18f2f3b9843bf132a56a93c0bde0ea3e43441eb6f4c6931196aff02e274",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-recovery-and-cures-01",
+      "file": "game/assets/production/icons/icon-item-recovery-and-cures-01.png",
+      "sha256": "5af8f1bf3c65e682dc21ca41c14387d03551fdea90c1f6c28c5687753521e10e",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-recovery-and-cures-02",
+      "file": "game/assets/production/icons/icon-item-recovery-and-cures-02.png",
+      "sha256": "4cff2ce097af57408de1d3043745de98c77ba713af2ed92dc0c25df41024d414",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-recovery-and-cures-03",
+      "file": "game/assets/production/icons/icon-item-recovery-and-cures-03.png",
+      "sha256": "0496fc772629d1c83a458b488fbf20480046a57d5ecb07c472f482d7b833dd9d",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-recovery-and-cures-04",
+      "file": "game/assets/production/icons/icon-item-recovery-and-cures-04.png",
+      "sha256": "ef5b2baeddd15a37a672dd984d5edf4fd72b23b07b4c55fd14d16508e55333b3",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-recovery-and-cures-05",
+      "file": "game/assets/production/icons/icon-item-recovery-and-cures-05.png",
+      "sha256": "a5eaeeb4f20b9540d0987c255a6becb66d0db588edc8336b4cc63075859e663e",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-recovery-and-cures-06",
+      "file": "game/assets/production/icons/icon-item-recovery-and-cures-06.png",
+      "sha256": "cf52a2ab4e5d0697ce13794b1d2079a011094966337369fe97df197c2edb4f12",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-recovery-and-cures-07",
+      "file": "game/assets/production/icons/icon-item-recovery-and-cures-07.png",
+      "sha256": "d207e976c22a7989a73ec3aa06541adffbda00b01ac10ae309db3c736e2fc017",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-recovery-and-cures-08",
+      "file": "game/assets/production/icons/icon-item-recovery-and-cures-08.png",
+      "sha256": "36c48dc10d6679aae830285ee6abf0a42788cfd99eeb4b71dbb04e148579ac4d",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-recovery-and-cures-09",
+      "file": "game/assets/production/icons/icon-item-recovery-and-cures-09.png",
+      "sha256": "654a505ee56145917da79d76b196128aba356542dea521f05d726bfdd213c176",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-recovery-and-cures-10",
+      "file": "game/assets/production/icons/icon-item-recovery-and-cures-10.png",
+      "sha256": "7c9313bdc846cfaf1211e236c4f76c05cfccecc8e388294e364dc68f76ee9ad6",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-herbs-and-materials-01",
+      "file": "game/assets/production/icons/icon-item-herbs-and-materials-01.png",
+      "sha256": "2865fee0d1caf79fb0c8aae98b5bd978bc2b1baff48f573f877a97da3f070a8e",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-herbs-and-materials-02",
+      "file": "game/assets/production/icons/icon-item-herbs-and-materials-02.png",
+      "sha256": "04370df0f05767295f5b7fda5084ef1aeef1557e9e835af9f8655295547c90a4",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-herbs-and-materials-03",
+      "file": "game/assets/production/icons/icon-item-herbs-and-materials-03.png",
+      "sha256": "735cc78a7e54e96e3d805220da59128e9b18272c1ee2f16779acabdc6803d1d4",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-herbs-and-materials-04",
+      "file": "game/assets/production/icons/icon-item-herbs-and-materials-04.png",
+      "sha256": "b9f70ea0ae39e60757710dc22833e6e70d55ccd70705a386e0bf20a33064e128",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-herbs-and-materials-05",
+      "file": "game/assets/production/icons/icon-item-herbs-and-materials-05.png",
+      "sha256": "c3d7b7b8c8cdcfa198fa6a9a7af437294b27e2ef31717a5acbdd1fdf66f0ddd6",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-herbs-and-materials-06",
+      "file": "game/assets/production/icons/icon-item-herbs-and-materials-06.png",
+      "sha256": "259d698d7b78ebe23c84c16ea1a9c0a486252e62bfef62da9f00c6253c955471",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-exploration-tools-01",
+      "file": "game/assets/production/icons/icon-item-exploration-tools-01.png",
+      "sha256": "99fa941a308e5ace52f73053e97871cdc3fe9e3c40e19be231a3ed3ae2347b8d",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-exploration-tools-02",
+      "file": "game/assets/production/icons/icon-item-exploration-tools-02.png",
+      "sha256": "b496acd57121482f8c9280da5c4a3418f19961b504a4d2080bde32b00e84a593",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-exploration-tools-03",
+      "file": "game/assets/production/icons/icon-item-exploration-tools-03.png",
+      "sha256": "d402c8d25239787dce65f27b94709529fe43153776aa47fdba05c196a9789209",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-exploration-tools-04",
+      "file": "game/assets/production/icons/icon-item-exploration-tools-04.png",
+      "sha256": "63ad203952bf98204a8ca50dffc30cfbe441c29e200cb4952610ddc2da41dcf7",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-exploration-tools-05",
+      "file": "game/assets/production/icons/icon-item-exploration-tools-05.png",
+      "sha256": "db9eb604eb4c7369a6510472c884952435906e490f738b127244fefe461dde50",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-quest-and-records-01",
+      "file": "game/assets/production/icons/icon-item-quest-and-records-01.png",
+      "sha256": "7aed20a4a656f6a72a510c160382e9c5d71742c98bba6348653249455e536b8d",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-quest-and-records-02",
+      "file": "game/assets/production/icons/icon-item-quest-and-records-02.png",
+      "sha256": "6807e4ba2ffc036808a6d533f9c6ac0e5e5a44db1047f2f1f7da7f5e3299f1f6",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-quest-and-records-03",
+      "file": "game/assets/production/icons/icon-item-quest-and-records-03.png",
+      "sha256": "2ade2fdb635d0500bb534cdbff494142a166ceb41c7e1b2d539b0247077bb6b5",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-quest-and-records-04",
+      "file": "game/assets/production/icons/icon-item-quest-and-records-04.png",
+      "sha256": "a51f41f18710bf23c1a727055e17b1cd83bc8f445dd6e27b0f15161eb1051391",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-quest-and-records-05",
+      "file": "game/assets/production/icons/icon-item-quest-and-records-05.png",
+      "sha256": "4336ac8b627cb2cc4aaea0f2c9e11b06c0e00f062266cbcddd80e06c2e1d988f",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-key-and-keepsakes-01",
+      "file": "game/assets/production/icons/icon-item-key-and-keepsakes-01.png",
+      "sha256": "77c3c475c577a8e57f3ccd7a11950b12c5f8cb927390da0d9f3890a787d9c21b",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-key-and-keepsakes-02",
+      "file": "game/assets/production/icons/icon-item-key-and-keepsakes-02.png",
+      "sha256": "db159791f10104b76395db74e590bb422c2859521fc630974d241c5107e7db3e",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-key-and-keepsakes-03",
+      "file": "game/assets/production/icons/icon-item-key-and-keepsakes-03.png",
+      "sha256": "c4ef3ecfb097507e8eaa132f5a9122db0a5cd2764e9639f957c3e0bbb13b9ac7",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-item-key-and-keepsakes-04",
+      "file": "game/assets/production/icons/icon-item-key-and-keepsakes-04.png",
+      "sha256": "ee714dc4429bc7a5550d8dc2ade75f725156218790ab2019ba9f43ac5c27d2b5",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-shield-1",
+      "file": "game/assets/production/icons/icon-shield-1.png",
+      "sha256": "93cdb261d62f9184e2b58198dfd44919c3c92ece9c9d00c21c294e19dc6bde0c",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-shield-2",
+      "file": "game/assets/production/icons/icon-shield-2.png",
+      "sha256": "0e4ed3983729d756bfa776621fb3516ee89356335c04f3f8aebd89efa7ba7de7",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-shield-3",
+      "file": "game/assets/production/icons/icon-shield-3.png",
+      "sha256": "622e79825618cd3ea1e35fa1513a1d0779fb969191035fcb1548e3cd0aa23784",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-shield-4",
+      "file": "game/assets/production/icons/icon-shield-4.png",
+      "sha256": "6c1c35c3e0405acf8f52244d7dd175207961794263ee3798e511c9ea2382bdbb",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
+    },
+    {
+      "id": "icon-shield-5",
+      "file": "game/assets/production/icons/icon-shield-5.png",
+      "sha256": "3e6454527cacae461fa84c1156154d12be4d6c84c22b4cfe3edc6fd5a25b1b80",
+      "stage": "native_first_pass",
+      "runtime_connected": false,
+      "validation": "PNG alpha and padding checked; see icon-verification.json for engine results"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "scope": "Finite proposed full-game baseline. Runtime clips and reuse references are separate from unique artwork counts; new locations and abilities are not automatically approved.",
   "count": 2412,
   "counts": {
@@ -6843,11 +6843,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 462
     },
     {
@@ -6857,11 +6857,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 463
     },
     {
@@ -6871,11 +6871,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 464
     },
     {
@@ -6885,11 +6885,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 465
     },
     {
@@ -6899,11 +6899,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 466
     },
     {
@@ -6913,11 +6913,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 467
     },
     {
@@ -6927,11 +6927,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 468
     },
     {
@@ -6941,11 +6941,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 469
     },
     {
@@ -6955,11 +6955,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 470
     },
     {
@@ -6969,11 +6969,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 471
     },
     {
@@ -6983,11 +6983,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 472
     },
     {
@@ -6997,11 +6997,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 473
     },
     {
@@ -7011,11 +7011,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 474
     },
     {
@@ -7025,11 +7025,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 475
     },
     {
@@ -7039,11 +7039,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 476
     },
     {
@@ -7053,11 +7053,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 477
     },
     {
@@ -7067,11 +7067,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 478
     },
     {
@@ -7081,11 +7081,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 479
     },
     {
@@ -7095,11 +7095,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 480
     },
     {
@@ -7109,11 +7109,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 481
     },
     {
@@ -7123,11 +7123,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 482
     },
     {
@@ -7137,11 +7137,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 483
     },
     {
@@ -7151,11 +7151,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 484
     },
     {
@@ -7165,11 +7165,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 485
     },
     {
@@ -7179,11 +7179,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 486
     },
     {
@@ -7193,11 +7193,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 487
     },
     {
@@ -7207,11 +7207,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 488
     },
     {
@@ -7221,11 +7221,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 489
     },
     {
@@ -7235,11 +7235,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 490
     },
     {
@@ -7249,11 +7249,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 491
     },
     {
@@ -7263,11 +7263,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 492
     },
     {
@@ -7277,11 +7277,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 493
     },
     {
@@ -7291,11 +7291,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 494
     },
     {
@@ -7305,11 +7305,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 495
     },
     {
@@ -7319,11 +7319,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 496
     },
     {
@@ -7333,11 +7333,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 497
     },
     {
@@ -7347,11 +7347,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 498
     },
     {
@@ -7361,11 +7361,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 499
     },
     {
@@ -7375,11 +7375,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 500
     },
     {
@@ -7389,11 +7389,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 501
     },
     {
@@ -7403,11 +7403,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 502
     },
     {
@@ -7417,11 +7417,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 503
     },
     {
@@ -7431,11 +7431,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 504
     },
     {
@@ -7445,11 +7445,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 505
     },
     {
@@ -7459,11 +7459,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 506
     },
     {
@@ -7473,11 +7473,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 507
     },
     {
@@ -7487,11 +7487,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 508
     },
     {
@@ -7501,11 +7501,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 509
     },
     {
@@ -7515,11 +7515,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 510
     },
     {
@@ -7529,11 +7529,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 511
     },
     {
@@ -7543,11 +7543,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 512
     },
     {
@@ -7557,11 +7557,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 513
     },
     {
@@ -7571,11 +7571,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 514
     },
     {
@@ -7585,11 +7585,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 515
     },
     {
@@ -7599,11 +7599,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 516
     },
     {
@@ -7613,11 +7613,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 517
     },
     {
@@ -7627,11 +7627,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 518
     },
     {
@@ -7641,11 +7641,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 519
     },
     {
@@ -7655,11 +7655,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 520
     },
     {
@@ -7669,11 +7669,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 521
     },
     {
@@ -7683,11 +7683,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 522
     },
     {
@@ -7697,11 +7697,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 523
     },
     {
@@ -7711,11 +7711,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 524
     },
     {
@@ -7725,11 +7725,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 525
     },
     {
@@ -7739,11 +7739,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 526
     },
     {
@@ -7753,11 +7753,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 527
     },
     {
@@ -7767,11 +7767,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 528
     },
     {
@@ -7781,11 +7781,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 529
     },
     {
@@ -7795,11 +7795,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 530
     },
     {
@@ -7809,11 +7809,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 531
     },
     {
@@ -7823,11 +7823,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 532
     },
     {
@@ -7837,11 +7837,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 533
     },
     {
@@ -7851,11 +7851,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 534
     },
     {
@@ -7865,11 +7865,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 535
     },
     {
@@ -7879,11 +7879,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 536
     },
     {
@@ -7893,11 +7893,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 537
     },
     {
@@ -7907,11 +7907,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 538
     },
     {
@@ -7921,11 +7921,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 539
     },
     {
@@ -7935,11 +7935,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 540
     },
     {
@@ -7949,11 +7949,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 541
     },
     {
@@ -7963,11 +7963,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 542
     },
     {
@@ -7977,11 +7977,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 543
     },
     {
@@ -7991,11 +7991,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 544
     },
     {
@@ -8005,11 +8005,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 545
     },
     {
@@ -8019,11 +8019,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 546
     },
     {
@@ -8033,11 +8033,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 547
     },
     {
@@ -8047,11 +8047,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 548
     },
     {
@@ -8061,11 +8061,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 549
     },
     {
@@ -8075,11 +8075,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 550
     },
     {
@@ -8089,11 +8089,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 551
     },
     {
@@ -8103,11 +8103,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 552
     },
     {
@@ -8117,11 +8117,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 553
     },
     {
@@ -8131,11 +8131,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 554
     },
     {
@@ -8145,11 +8145,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 555
     },
     {
@@ -8159,11 +8159,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 556
     },
     {
@@ -8173,11 +8173,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 557
     },
     {
@@ -8187,11 +8187,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 558
     },
     {
@@ -8201,11 +8201,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 559
     },
     {
@@ -8215,11 +8215,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 560
     },
     {
@@ -8229,11 +8229,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 561
     },
     {
@@ -8243,11 +8243,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 562
     },
     {
@@ -8257,11 +8257,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 563
     },
     {
@@ -8271,11 +8271,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 564
     },
     {
@@ -8285,11 +8285,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 565
     },
     {
@@ -8299,11 +8299,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 566
     },
     {
@@ -8313,11 +8313,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 567
     },
     {
@@ -8327,11 +8327,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 568
     },
     {
@@ -8341,11 +8341,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 569
     },
     {
@@ -8355,11 +8355,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 570
     },
     {
@@ -8369,11 +8369,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 571
     },
     {
@@ -8383,11 +8383,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 572
     },
     {
@@ -8397,11 +8397,11 @@
       "phase": 5,
       "region": "공용",
       "deliverable": "개별 외형 보드 → 제작용 파일",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음.",
+      "notes": "기존 환경 43종과 대조 후 동일 물품은 재사용. 별도 신규 모델로 중복 집계하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 573
     },
     {
@@ -33185,13 +33185,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-one-handed-swords-01"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2165
     },
     {
@@ -33201,13 +33201,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-one-handed-swords-02"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2166
     },
     {
@@ -33217,13 +33217,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-one-handed-swords-03"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2167
     },
     {
@@ -33233,13 +33233,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-one-handed-swords-04"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2168
     },
     {
@@ -33249,13 +33249,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-one-handed-swords-05"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2169
     },
     {
@@ -33265,13 +33265,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-spears-01"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2170
     },
     {
@@ -33281,13 +33281,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-spears-02"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2171
     },
     {
@@ -33297,13 +33297,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-spears-03"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2172
     },
     {
@@ -33313,13 +33313,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-spears-04"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2173
     },
     {
@@ -33329,13 +33329,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-spears-05"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2174
     },
     {
@@ -33345,13 +33345,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-bows-01"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2175
     },
     {
@@ -33361,13 +33361,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-bows-02"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2176
     },
     {
@@ -33377,13 +33377,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-bows-03"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2177
     },
     {
@@ -33393,13 +33393,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-bows-04"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2178
     },
     {
@@ -33409,13 +33409,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-bows-05"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2179
     },
     {
@@ -33425,13 +33425,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-daggers-01"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2180
     },
     {
@@ -33441,13 +33441,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-daggers-02"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2181
     },
     {
@@ -33457,13 +33457,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-daggers-03"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2182
     },
     {
@@ -33473,13 +33473,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-daggers-04"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2183
     },
     {
@@ -33489,13 +33489,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-daggers-05"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2184
     },
     {
@@ -33505,13 +33505,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-staves-01"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2185
     },
     {
@@ -33521,13 +33521,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-staves-02"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2186
     },
     {
@@ -33537,13 +33537,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-staves-03"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2187
     },
     {
@@ -33553,13 +33553,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-staves-04"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2188
     },
     {
@@ -33569,13 +33569,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-staves-05"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2189
     },
     {
@@ -33585,13 +33585,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-light-armor-01"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2190
     },
     {
@@ -33601,13 +33601,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-light-armor-02"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2191
     },
     {
@@ -33617,13 +33617,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-light-armor-03"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2192
     },
     {
@@ -33633,13 +33633,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-light-armor-04"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2193
     },
     {
@@ -33649,13 +33649,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-light-armor-05"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2194
     },
     {
@@ -33665,13 +33665,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-heavy-armor-01"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2195
     },
     {
@@ -33681,13 +33681,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-heavy-armor-02"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2196
     },
     {
@@ -33697,13 +33697,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-heavy-armor-03"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2197
     },
     {
@@ -33713,13 +33713,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-heavy-armor-04"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2198
     },
     {
@@ -33729,13 +33729,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-heavy-armor-05"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2199
     },
     {
@@ -33745,13 +33745,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [
         "item-gloves-01"
       ],
-      "notes": "",
+      "notes": " PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2200
     },
     {
@@ -33761,13 +33761,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-gloves-02.png",
       "dependencies": [
         "item-gloves-02"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2201
     },
     {
@@ -33777,13 +33777,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-gloves-03.png",
       "dependencies": [
         "item-gloves-03"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2202
     },
     {
@@ -33793,13 +33793,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-gloves-04.png",
       "dependencies": [
         "item-gloves-04"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2203
     },
     {
@@ -33809,13 +33809,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-gloves-05.png",
       "dependencies": [
         "item-gloves-05"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2204
     },
     {
@@ -33825,13 +33825,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-amulets-01.png",
       "dependencies": [
         "item-amulets-01"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2205
     },
     {
@@ -33841,13 +33841,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-amulets-02.png",
       "dependencies": [
         "item-amulets-02"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2206
     },
     {
@@ -33857,13 +33857,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-amulets-03.png",
       "dependencies": [
         "item-amulets-03"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2207
     },
     {
@@ -33873,13 +33873,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-amulets-04.png",
       "dependencies": [
         "item-amulets-04"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2208
     },
     {
@@ -33889,13 +33889,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-amulets-05.png",
       "dependencies": [
         "item-amulets-05"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2209
     },
     {
@@ -33905,13 +33905,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-rings-01.png",
       "dependencies": [
         "item-rings-01"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2210
     },
     {
@@ -33921,13 +33921,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-rings-02.png",
       "dependencies": [
         "item-rings-02"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2211
     },
     {
@@ -33937,13 +33937,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-rings-03.png",
       "dependencies": [
         "item-rings-03"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2212
     },
     {
@@ -33953,13 +33953,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-rings-04.png",
       "dependencies": [
         "item-rings-04"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2213
     },
     {
@@ -33969,13 +33969,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-rings-05.png",
       "dependencies": [
         "item-rings-05"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2214
     },
     {
@@ -33985,13 +33985,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-recovery-and-cures-01.png",
       "dependencies": [
         "item-recovery-and-cures-01"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2215
     },
     {
@@ -34001,13 +34001,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-recovery-and-cures-02.png",
       "dependencies": [
         "item-recovery-and-cures-02"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2216
     },
     {
@@ -34017,13 +34017,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-recovery-and-cures-03.png",
       "dependencies": [
         "item-recovery-and-cures-03"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2217
     },
     {
@@ -34033,13 +34033,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-recovery-and-cures-04.png",
       "dependencies": [
         "item-recovery-and-cures-04"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2218
     },
     {
@@ -34049,13 +34049,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-recovery-and-cures-05.png",
       "dependencies": [
         "item-recovery-and-cures-05"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2219
     },
     {
@@ -34065,13 +34065,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-recovery-and-cures-06.png",
       "dependencies": [
         "item-recovery-and-cures-06"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2220
     },
     {
@@ -34081,13 +34081,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-recovery-and-cures-07.png",
       "dependencies": [
         "item-recovery-and-cures-07"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2221
     },
     {
@@ -34097,13 +34097,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-recovery-and-cures-08.png",
       "dependencies": [
         "item-recovery-and-cures-08"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2222
     },
     {
@@ -34113,13 +34113,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-recovery-and-cures-09.png",
       "dependencies": [
         "item-recovery-and-cures-09"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2223
     },
     {
@@ -34129,13 +34129,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-recovery-and-cures-10.png",
       "dependencies": [
         "item-recovery-and-cures-10"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2224
     },
     {
@@ -34145,13 +34145,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-herbs-and-materials-01.png",
       "dependencies": [
         "item-herbs-and-materials-01"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2225
     },
     {
@@ -34161,13 +34161,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-herbs-and-materials-02.png",
       "dependencies": [
         "item-herbs-and-materials-02"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2226
     },
     {
@@ -34177,13 +34177,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-herbs-and-materials-03.png",
       "dependencies": [
         "item-herbs-and-materials-03"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2227
     },
     {
@@ -34193,13 +34193,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-herbs-and-materials-04.png",
       "dependencies": [
         "item-herbs-and-materials-04"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2228
     },
     {
@@ -34209,13 +34209,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-herbs-and-materials-05.png",
       "dependencies": [
         "item-herbs-and-materials-05"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2229
     },
     {
@@ -34225,13 +34225,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-herbs-and-materials-06.png",
       "dependencies": [
         "item-herbs-and-materials-06"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2230
     },
     {
@@ -34241,13 +34241,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-exploration-tools-01.png",
       "dependencies": [
         "item-exploration-tools-01"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2231
     },
     {
@@ -34257,13 +34257,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-exploration-tools-02.png",
       "dependencies": [
         "item-exploration-tools-02"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2232
     },
     {
@@ -34273,13 +34273,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-exploration-tools-03.png",
       "dependencies": [
         "item-exploration-tools-03"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2233
     },
     {
@@ -34289,13 +34289,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-exploration-tools-04.png",
       "dependencies": [
         "item-exploration-tools-04"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2234
     },
     {
@@ -34305,13 +34305,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-exploration-tools-05.png",
       "dependencies": [
         "item-exploration-tools-05"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2235
     },
     {
@@ -34321,13 +34321,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-quest-and-records-01.png",
       "dependencies": [
         "item-quest-and-records-01"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2236
     },
     {
@@ -34337,13 +34337,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-quest-and-records-02.png",
       "dependencies": [
         "item-quest-and-records-02"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2237
     },
     {
@@ -34353,13 +34353,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-quest-and-records-03.png",
       "dependencies": [
         "item-quest-and-records-03"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2238
     },
     {
@@ -34369,13 +34369,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-quest-and-records-04.png",
       "dependencies": [
         "item-quest-and-records-04"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2239
     },
     {
@@ -34385,13 +34385,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-quest-and-records-05.png",
       "dependencies": [
         "item-quest-and-records-05"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2240
     },
     {
@@ -34401,13 +34401,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-key-and-keepsakes-01.png",
       "dependencies": [
         "item-key-and-keepsakes-01"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2241
     },
     {
@@ -34417,13 +34417,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-key-and-keepsakes-02.png",
       "dependencies": [
         "item-key-and-keepsakes-02"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2242
     },
     {
@@ -34433,13 +34433,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-key-and-keepsakes-03.png",
       "dependencies": [
         "item-key-and-keepsakes-03"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2243
     },
     {
@@ -34449,13 +34449,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 인벤토리 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-item-key-and-keepsakes-04.png",
       "dependencies": [
         "item-key-and-keepsakes-04"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2244
     },
     {
@@ -34465,13 +34465,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-shield-1.png",
       "dependencies": [
         "shield-1"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2245
     },
     {
@@ -34481,13 +34481,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-shield-2.png",
       "dependencies": [
         "shield-2"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2246
     },
     {
@@ -34497,13 +34497,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-shield-3.png",
       "dependencies": [
         "shield-3"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2247
     },
     {
@@ -34513,13 +34513,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-shield-4.png",
       "dependencies": [
         "shield-4"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2248
     },
     {
@@ -34529,13 +34529,13 @@
       "phase": 10,
       "region": "공용",
       "deliverable": "개별 투명 아이콘",
-      "design_status": "대기",
-      "runtime_status": "미연결",
-      "source": "",
+      "design_status": "제작 파일 1차",
+      "runtime_status": "엔진 검증·플레이 미연결",
+      "source": "game/assets/production/icons/icon-shield-5.png",
       "dependencies": [
         "shield-5"
       ],
-      "notes": "",
+      "notes": " 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.",
       "order": 2249
     },
     {
@@ -34951,11 +34951,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2279
     },
     {
@@ -34965,11 +34965,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2280
     },
     {
@@ -34979,11 +34979,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2281
     },
     {
@@ -34993,11 +34993,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2282
     },
     {
@@ -35007,11 +35007,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2283
     },
     {
@@ -35021,11 +35021,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2284
     },
     {
@@ -35035,11 +35035,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2285
     },
     {
@@ -35049,11 +35049,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2286
     },
     {
@@ -35063,11 +35063,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2287
     },
     {
@@ -35077,11 +35077,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2288
     },
     {
@@ -35091,11 +35091,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2289
     },
     {
@@ -35105,11 +35105,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2290
     },
     {
@@ -35119,11 +35119,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2291
     },
     {
@@ -35133,11 +35133,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2292
     },
     {
@@ -35147,11 +35147,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2293
     },
     {
@@ -35161,11 +35161,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2294
     },
     {
@@ -35175,11 +35175,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2295
     },
     {
@@ -35189,11 +35189,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2296
     },
     {
@@ -35203,11 +35203,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2297
     },
     {
@@ -35217,11 +35217,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2298
     },
     {
@@ -35231,11 +35231,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2299
     },
     {
@@ -35245,11 +35245,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2300
     },
     {
@@ -35259,11 +35259,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2301
     },
     {
@@ -35273,11 +35273,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2302
     },
     {
@@ -35287,11 +35287,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2303
     },
     {
@@ -35301,11 +35301,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2304
     },
     {
@@ -35315,11 +35315,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2305
     },
     {
@@ -35329,11 +35329,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2306
     },
     {
@@ -35343,11 +35343,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2307
     },
     {
@@ -35357,11 +35357,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2308
     },
     {
@@ -35371,11 +35371,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2309
     },
     {
@@ -35385,11 +35385,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2310
     },
     {
@@ -35399,11 +35399,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2311
     },
     {
@@ -35413,11 +35413,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2312
     },
     {
@@ -35427,11 +35427,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2313
     },
     {
@@ -35441,11 +35441,11 @@
       "phase": 11,
       "region": "공용",
       "deliverable": "UI 리소스",
-      "design_status": "대기",
-      "runtime_status": "미연결",
+      "design_status": "타 환경 초안·복구 대기",
+      "runtime_status": "파일 미확인",
       "source": "",
       "dependencies": [],
-      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음.",
+      "notes": "기존 게임 기능 여부와 분리. 효과 그림이 전투 규칙을 확정하지 않음. PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.",
       "order": 2314
     },
     {

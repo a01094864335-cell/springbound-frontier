@@ -56,3 +56,7 @@ Springbound Frontier · 가제
 [본편 전체 애셋 개별 제작 대장](docs/full-asset-registry.md) — 2,412개 관리 항목. [검색·시안 갤러리](docs/assets-registry/index.html) · [제작 진행 기록](docs/full-asset-production-progress.md). 누적 시안 214장(이번 지역 건축 부품 72장 추가), 전체 제작 진행 중.
 
 [네이티브 애셋 1차 제작·검증](docs/runtime-asset-production.md) — 151항목 실제 파일, 미제작 1,842항목. 최종 미술·음원 청취·플레이 연결은 미완료.
+
+## 2026-11-03 애셋 재개
+
+[아이콘49개 HTML 미리보기](docs/item-icons/index.html) · [작업 인수인계 및 미완료 범위](docs/asset-handoff-2026-11-03.md)

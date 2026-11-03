@@ -1,0 +1,884 @@
+[
+  {
+    "id": "icon-item-gloves-02",
+    "name": "가죽 여행 장갑 아이콘",
+    "path": "res://assets/production/icons/icon-item-gloves-02.png",
+    "file": "game/assets/production/icons/icon-item-gloves-02.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "f0780bb854d1969e2f92cfab6e67bfe96fda7b626cfda61909a5c41a756d7062",
+    "reference": "assets/item-boards/gloves-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 가죽 여행 장갑 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-gloves-03",
+    "name": "국경 방한 장갑 아이콘",
+    "path": "res://assets/production/icons/icon-item-gloves-03.png",
+    "file": "game/assets/production/icons/icon-item-gloves-03.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "a05f55d9e8402b70a4c351fe94b16f3728799c22301746533625b983808e3121",
+    "reference": "assets/item-boards/gloves-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 국경 방한 장갑 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-gloves-04",
+    "name": "병사용 철장갑 아이콘",
+    "path": "res://assets/production/icons/icon-item-gloves-04.png",
+    "file": "game/assets/production/icons/icon-item-gloves-04.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "19f67fab9f056daf2e0df1a4546ad4ff5a4f6311dd98846e8e924499fefeeb94",
+    "reference": "assets/item-boards/gloves-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 병사용 철장갑 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-gloves-05",
+    "name": "유적 탐사 장갑 아이콘",
+    "path": "res://assets/production/icons/icon-item-gloves-05.png",
+    "file": "game/assets/production/icons/icon-item-gloves-05.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "13d9bf12c4b5ee478a01727a8b19470fe03b304db542f12570c12e712ae7c8bb",
+    "reference": "assets/item-boards/gloves-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 유적 탐사 장갑 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-amulets-01",
+    "name": "매듭 부적 아이콘",
+    "path": "res://assets/production/icons/icon-item-amulets-01.png",
+    "file": "game/assets/production/icons/icon-item-amulets-01.png",
+    "width": 1199,
+    "height": 1312,
+    "sha256": "4d3f1db18f00f1fe216c05457958a22cefb879e5b673daf820261612132e666b",
+    "reference": "assets/item-boards/amulets-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 매듭 부적 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-amulets-02",
+    "name": "약초 주머니 부적 아이콘",
+    "path": "res://assets/production/icons/icon-item-amulets-02.png",
+    "file": "game/assets/production/icons/icon-item-amulets-02.png",
+    "width": 1312,
+    "height": 1199,
+    "sha256": "3a3fdf3ee0adca58fdb20d1052a9637aa667b568c2d30fd49027844fde13bdcd",
+    "reference": "assets/item-boards/amulets-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 약초 주머니 부적 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-amulets-03",
+    "name": "길잡이 목패 아이콘",
+    "path": "res://assets/production/icons/icon-item-amulets-03.png",
+    "file": "game/assets/production/icons/icon-item-amulets-03.png",
+    "width": 1263,
+    "height": 1246,
+    "sha256": "f5b4f678a124166fbb0b74f99032bb66e03cf5342e49de008ebfc978f55e47e5",
+    "reference": "assets/item-boards/amulets-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 길잡이 목패 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-amulets-04",
+    "name": "성역 수호 부적 아이콘",
+    "path": "res://assets/production/icons/icon-item-amulets-04.png",
+    "file": "game/assets/production/icons/icon-item-amulets-04.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "7d751479172257c495c5a0e304a06432b84819e0568d6ba00f5b851d2f8d4842",
+    "reference": "assets/item-boards/amulets-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 성역 수호 부적 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-amulets-05",
+    "name": "고대 각인 부적 아이콘",
+    "path": "res://assets/production/icons/icon-item-amulets-05.png",
+    "file": "game/assets/production/icons/icon-item-amulets-05.png",
+    "width": 1269,
+    "height": 1240,
+    "sha256": "b281b3433ac5c7719063d78092bb83f2a8294dd12d06309585e29d43fa44947a",
+    "reference": "assets/item-boards/amulets-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 고대 각인 부적 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-rings-01",
+    "name": "구리 반지 아이콘",
+    "path": "res://assets/production/icons/icon-item-rings-01.png",
+    "file": "game/assets/production/icons/icon-item-rings-01.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "95939ccdd2562ccb6e343e0cc5314e84bac18fbcb0377ffd7f6e0901a9cb3226",
+    "reference": "assets/item-boards/rings-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 구리 반지 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-rings-02",
+    "name": "철제 인장반지 아이콘",
+    "path": "res://assets/production/icons/icon-item-rings-02.png",
+    "file": "game/assets/production/icons/icon-item-rings-02.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "1c34d28216bbf120f1fe5f0cd9b0e77927838a25fa41f93db2beed6780803280",
+    "reference": "assets/item-boards/rings-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 철제 인장반지 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-rings-03",
+    "name": "은빛 수호반지 아이콘",
+    "path": "res://assets/production/icons/icon-item-rings-03.png",
+    "file": "game/assets/production/icons/icon-item-rings-03.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "8f9816e3b1d6d681adca92be47b03f65589883c49687ed19cf8d8582af1f6d25",
+    "reference": "assets/item-boards/rings-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 은빛 수호반지 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-rings-04",
+    "name": "청록석 반지 아이콘",
+    "path": "res://assets/production/icons/icon-item-rings-04.png",
+    "file": "game/assets/production/icons/icon-item-rings-04.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "a31f5d34c536d64af617595263eb818cf1960dcec9cf2e60c033cbbba299bca3",
+    "reference": "assets/item-boards/rings-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 청록석 반지 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-rings-05",
+    "name": "고대 각인반지 아이콘",
+    "path": "res://assets/production/icons/icon-item-rings-05.png",
+    "file": "game/assets/production/icons/icon-item-rings-05.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "25c4e18f2f3b9843bf132a56a93c0bde0ea3e43441eb6f4c6931196aff02e274",
+    "reference": "assets/item-boards/rings-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 고대 각인반지 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-recovery-and-cures-01",
+    "name": "소형 회복약 아이콘",
+    "path": "res://assets/production/icons/icon-item-recovery-and-cures-01.png",
+    "file": "game/assets/production/icons/icon-item-recovery-and-cures-01.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "5af8f1bf3c65e682dc21ca41c14387d03551fdea90c1f6c28c5687753521e10e",
+    "reference": "assets/item-boards/recovery-and-cures-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 소형 회복약 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-recovery-and-cures-02",
+    "name": "고급 회복약 아이콘",
+    "path": "res://assets/production/icons/icon-item-recovery-and-cures-02.png",
+    "file": "game/assets/production/icons/icon-item-recovery-and-cures-02.png",
+    "width": 1312,
+    "height": 1199,
+    "sha256": "4cff2ce097af57408de1d3043745de98c77ba713af2ed92dc0c25df41024d414",
+    "reference": "assets/item-boards/recovery-and-cures-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 고급 회복약 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-recovery-and-cures-03",
+    "name": "마나 회복약 아이콘",
+    "path": "res://assets/production/icons/icon-item-recovery-and-cures-03.png",
+    "file": "game/assets/production/icons/icon-item-recovery-and-cures-03.png",
+    "width": 1312,
+    "height": 1199,
+    "sha256": "0496fc772629d1c83a458b488fbf20480046a57d5ecb07c472f482d7b833dd9d",
+    "reference": "assets/item-boards/recovery-and-cures-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 마나 회복약 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-recovery-and-cures-04",
+    "name": "부활약 아이콘",
+    "path": "res://assets/production/icons/icon-item-recovery-and-cures-04.png",
+    "file": "game/assets/production/icons/icon-item-recovery-and-cures-04.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "ef5b2baeddd15a37a672dd984d5edf4fd72b23b07b4c55fd14d16508e55333b3",
+    "reference": "assets/item-boards/recovery-and-cures-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 부활약 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-recovery-and-cures-05",
+    "name": "붕대 아이콘",
+    "path": "res://assets/production/icons/icon-item-recovery-and-cures-05.png",
+    "file": "game/assets/production/icons/icon-item-recovery-and-cures-05.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "a5eaeeb4f20b9540d0987c255a6becb66d0db588edc8336b4cc63075859e663e",
+    "reference": "assets/item-boards/recovery-and-cures-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 붕대 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-recovery-and-cures-06",
+    "name": "식량 꾸러미 아이콘",
+    "path": "res://assets/production/icons/icon-item-recovery-and-cures-06.png",
+    "file": "game/assets/production/icons/icon-item-recovery-and-cures-06.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "cf52a2ab4e5d0697ce13794b1d2079a011094966337369fe97df197c2edb4f12",
+    "reference": "assets/item-boards/recovery-and-cures-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 식량 꾸러미 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-recovery-and-cures-07",
+    "name": "해독제 아이콘",
+    "path": "res://assets/production/icons/icon-item-recovery-and-cures-07.png",
+    "file": "game/assets/production/icons/icon-item-recovery-and-cures-07.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "d207e976c22a7989a73ec3aa06541adffbda00b01ac10ae309db3c736e2fc017",
+    "reference": "assets/item-boards/recovery-and-cures-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 해독제 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-recovery-and-cures-08",
+    "name": "마비 해제약 아이콘",
+    "path": "res://assets/production/icons/icon-item-recovery-and-cures-08.png",
+    "file": "game/assets/production/icons/icon-item-recovery-and-cures-08.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "36c48dc10d6679aae830285ee6abf0a42788cfd99eeb4b71dbb04e148579ac4d",
+    "reference": "assets/item-boards/recovery-and-cures-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 마비 해제약 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-recovery-and-cures-09",
+    "name": "침묵 해제약 아이콘",
+    "path": "res://assets/production/icons/icon-item-recovery-and-cures-09.png",
+    "file": "game/assets/production/icons/icon-item-recovery-and-cures-09.png",
+    "width": 1312,
+    "height": 1199,
+    "sha256": "654a505ee56145917da79d76b196128aba356542dea521f05d726bfdd213c176",
+    "reference": "assets/item-boards/recovery-and-cures-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 침묵 해제약 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-recovery-and-cures-10",
+    "name": "만능 치료약 아이콘",
+    "path": "res://assets/production/icons/icon-item-recovery-and-cures-10.png",
+    "file": "game/assets/production/icons/icon-item-recovery-and-cures-10.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "7c9313bdc846cfaf1211e236c4f76c05cfccecc8e388294e364dc68f76ee9ad6",
+    "reference": "assets/item-boards/recovery-and-cures-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 만능 치료약 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-herbs-and-materials-01",
+    "name": "지혈초 아이콘",
+    "path": "res://assets/production/icons/icon-item-herbs-and-materials-01.png",
+    "file": "game/assets/production/icons/icon-item-herbs-and-materials-01.png",
+    "width": 1312,
+    "height": 1199,
+    "sha256": "2865fee0d1caf79fb0c8aae98b5bd978bc2b1baff48f573f877a97da3f070a8e",
+    "reference": "assets/item-boards/herbs-and-materials-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 지혈초 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-herbs-and-materials-02",
+    "name": "해독초 아이콘",
+    "path": "res://assets/production/icons/icon-item-herbs-and-materials-02.png",
+    "file": "game/assets/production/icons/icon-item-herbs-and-materials-02.png",
+    "width": 1312,
+    "height": 1199,
+    "sha256": "04370df0f05767295f5b7fda5084ef1aeef1557e9e835af9f8655295547c90a4",
+    "reference": "assets/item-boards/herbs-and-materials-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 해독초 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-herbs-and-materials-03",
+    "name": "말린 약초 아이콘",
+    "path": "res://assets/production/icons/icon-item-herbs-and-materials-03.png",
+    "file": "game/assets/production/icons/icon-item-herbs-and-materials-03.png",
+    "width": 1312,
+    "height": 1199,
+    "sha256": "735cc78a7e54e96e3d805220da59128e9b18272c1ee2f16779acabdc6803d1d4",
+    "reference": "assets/item-boards/herbs-and-materials-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 말린 약초 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-herbs-and-materials-04",
+    "name": "해열제 재료 아이콘",
+    "path": "res://assets/production/icons/icon-item-herbs-and-materials-04.png",
+    "file": "game/assets/production/icons/icon-item-herbs-and-materials-04.png",
+    "width": 1312,
+    "height": 1199,
+    "sha256": "b9f70ea0ae39e60757710dc22833e6e70d55ccd70705a386e0bf20a33064e128",
+    "reference": "assets/item-boards/herbs-and-materials-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for original classic fantasy JRPG Springbound Frontier. Match item04 해열제 재료 in supplied board: an open folded cream paper packet containing a visible small heap of ochre yellow medicinal powder, with TWO small blue dried flowers lying beside packet as one compact bundle icon. Powder packet MUST be main silhouette, flowers secondary. Not flowers alone. Simple cel shaded broad shapes, strong outline, very modest detail, readable at64px. Center all objects complete, generous12percent transparent padding. NO background, glow, cast shadow, frame, board, labels or text. Real transparent PNG.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-herbs-and-materials-05",
+    "name": "철광석 아이콘",
+    "path": "res://assets/production/icons/icon-item-herbs-and-materials-05.png",
+    "file": "game/assets/production/icons/icon-item-herbs-and-materials-05.png",
+    "width": 1312,
+    "height": 1199,
+    "sha256": "c3d7b7b8c8cdcfa198fa6a9a7af437294b27e2ef31717a5acbdd1fdf66f0ddd6",
+    "reference": "assets/item-boards/herbs-and-materials-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 철광석 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-herbs-and-materials-06",
+    "name": "천 조각 아이콘",
+    "path": "res://assets/production/icons/icon-item-herbs-and-materials-06.png",
+    "file": "game/assets/production/icons/icon-item-herbs-and-materials-06.png",
+    "width": 1312,
+    "height": 1199,
+    "sha256": "259d698d7b78ebe23c84c16ea1a9c0a486252e62bfef62da9f00c6253c955471",
+    "reference": "assets/item-boards/herbs-and-materials-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 천 조각 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-exploration-tools-01",
+    "name": "밧줄 아이콘",
+    "path": "res://assets/production/icons/icon-item-exploration-tools-01.png",
+    "file": "game/assets/production/icons/icon-item-exploration-tools-01.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "99fa941a308e5ace52f73053e97871cdc3fe9e3c40e19be231a3ed3ae2347b8d",
+    "reference": "assets/item-boards/exploration-tools-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 밧줄 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-exploration-tools-02",
+    "name": "부싯돌 아이콘",
+    "path": "res://assets/production/icons/icon-item-exploration-tools-02.png",
+    "file": "game/assets/production/icons/icon-item-exploration-tools-02.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "b496acd57121482f8c9280da5c4a3418f19961b504a4d2080bde32b00e84a593",
+    "reference": "assets/item-boards/exploration-tools-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 부싯돌 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-exploration-tools-03",
+    "name": "휴대 등불 아이콘",
+    "path": "res://assets/production/icons/icon-item-exploration-tools-03.png",
+    "file": "game/assets/production/icons/icon-item-exploration-tools-03.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "d402c8d25239787dce65f27b94709529fe43153776aa47fdba05c196a9789209",
+    "reference": "assets/item-boards/exploration-tools-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 휴대 등불 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-exploration-tools-04",
+    "name": "곡괭이 아이콘",
+    "path": "res://assets/production/icons/icon-item-exploration-tools-04.png",
+    "file": "game/assets/production/icons/icon-item-exploration-tools-04.png",
+    "width": 1263,
+    "height": 1246,
+    "sha256": "63ad203952bf98204a8ca50dffc30cfbe441c29e200cb4952610ddc2da41dcf7",
+    "reference": "assets/item-boards/exploration-tools-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 곡괭이 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-exploration-tools-05",
+    "name": "야영 도구 아이콘",
+    "path": "res://assets/production/icons/icon-item-exploration-tools-05.png",
+    "file": "game/assets/production/icons/icon-item-exploration-tools-05.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "db9eb604eb4c7369a6510472c884952435906e490f738b127244fefe461dde50",
+    "reference": "assets/item-boards/exploration-tools-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 야영 도구 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-quest-and-records-01",
+    "name": "돌샘에 전할 약 아이콘",
+    "path": "res://assets/production/icons/icon-item-quest-and-records-01.png",
+    "file": "game/assets/production/icons/icon-item-quest-and-records-01.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "7aed20a4a656f6a72a510c160382e9c5d71742c98bba6348653249455e536b8d",
+    "reference": "assets/item-boards/quest-and-records-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 돌샘에 전할 약 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-quest-and-records-02",
+    "name": "배달 쪽지 아이콘",
+    "path": "res://assets/production/icons/icon-item-quest-and-records-02.png",
+    "file": "game/assets/production/icons/icon-item-quest-and-records-02.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "6807e4ba2ffc036808a6d533f9c6ac0e5e5a44db1047f2f1f7da7f5e3299f1f6",
+    "reference": "assets/item-boards/quest-and-records-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 배달 쪽지 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-quest-and-records-03",
+    "name": "조사 수첩 아이콘",
+    "path": "res://assets/production/icons/icon-item-quest-and-records-03.png",
+    "file": "game/assets/production/icons/icon-item-quest-and-records-03.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "2ade2fdb635d0500bb534cdbff494142a166ceb41c7e1b2d539b0247077bb6b5",
+    "reference": "assets/item-boards/quest-and-records-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 조사 수첩 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-quest-and-records-04",
+    "name": "여행 지도 아이콘",
+    "path": "res://assets/production/icons/icon-item-quest-and-records-04.png",
+    "file": "game/assets/production/icons/icon-item-quest-and-records-04.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "a51f41f18710bf23c1a727055e17b1cd83bc8f445dd6e27b0f15161eb1051391",
+    "reference": "assets/item-boards/quest-and-records-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 여행 지도 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-quest-and-records-05",
+    "name": "통행증 아이콘",
+    "path": "res://assets/production/icons/icon-item-quest-and-records-05.png",
+    "file": "game/assets/production/icons/icon-item-quest-and-records-05.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "4336ac8b627cb2cc4aaea0f2c9e11b06c0e00f062266cbcddd80e06c2e1d988f",
+    "reference": "assets/item-boards/quest-and-records-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 통행증 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-key-and-keepsakes-01",
+    "name": "공명석 아이콘",
+    "path": "res://assets/production/icons/icon-item-key-and-keepsakes-01.png",
+    "file": "game/assets/production/icons/icon-item-key-and-keepsakes-01.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "77c3c475c577a8e57f3ccd7a11950b12c5f8cb927390da0d9f3890a787d9c21b",
+    "reference": "assets/item-boards/key-and-keepsakes-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 공명석 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-key-and-keepsakes-02",
+    "name": "깨진 공명석 아이콘",
+    "path": "res://assets/production/icons/icon-item-key-and-keepsakes-02.png",
+    "file": "game/assets/production/icons/icon-item-key-and-keepsakes-02.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "db159791f10104b76395db74e590bb422c2859521fc630974d241c5107e7db3e",
+    "reference": "assets/item-boards/key-and-keepsakes-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 깨진 공명석 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-key-and-keepsakes-03",
+    "name": "니아의 선물 돌 아이콘",
+    "path": "res://assets/production/icons/icon-item-key-and-keepsakes-03.png",
+    "file": "game/assets/production/icons/icon-item-key-and-keepsakes-03.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "c4ef3ecfb097507e8eaa132f5a9122db0a5cd2764e9639f957c3e0bbb13b9ac7",
+    "reference": "assets/item-boards/key-and-keepsakes-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 니아의 선물 돌 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-item-key-and-keepsakes-04",
+    "name": "여행의 기념품 아이콘",
+    "path": "res://assets/production/icons/icon-item-key-and-keepsakes-04.png",
+    "file": "game/assets/production/icons/icon-item-key-and-keepsakes-04.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "ee714dc4429bc7a5550d8dc2ade75f725156218790ab2019ba9f43ac5c27d2b5",
+    "reference": "assets/item-boards/key-and-keepsakes-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 여행의 기념품 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-shield-1",
+    "name": "소형 철제 버클러 아이콘",
+    "path": "res://assets/production/icons/icon-shield-1.png",
+    "file": "game/assets/production/icons/icon-shield-1.png",
+    "width": 1312,
+    "height": 1199,
+    "sha256": "93cdb261d62f9184e2b58198dfd44919c3c92ece9c9d00c21c294e19dc6bde0c",
+    "reference": "assets/shield-boards/shields-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 소형 철제 버클러 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-shield-2",
+    "name": "여행자 목제 방패 아이콘",
+    "path": "res://assets/production/icons/icon-shield-2.png",
+    "file": "game/assets/production/icons/icon-shield-2.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "0e4ed3983729d756bfa776621fb3516ee89356335c04f3f8aebd89efa7ba7de7",
+    "reference": "assets/shield-boards/shields-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 여행자 목제 방패 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-shield-3",
+    "name": "국경 수비 방패 아이콘",
+    "path": "res://assets/production/icons/icon-shield-3.png",
+    "file": "game/assets/production/icons/icon-shield-3.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "622e79825618cd3ea1e35fa1513a1d0779fb969191035fcb1548e3cd0aa23784",
+    "reference": "assets/shield-boards/shields-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 국경 수비 방패 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-shield-4",
+    "name": "왕국 제식 방패 아이콘",
+    "path": "res://assets/production/icons/icon-shield-4.png",
+    "file": "game/assets/production/icons/icon-shield-4.png",
+    "width": 1262,
+    "height": 1246,
+    "sha256": "6c1c35c3e0405acf8f52244d7dd175207961794263ee3798e511c9ea2382bdbb",
+    "reference": "assets/shield-boards/shields-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 왕국 제식 방패 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  },
+  {
+    "id": "icon-shield-5",
+    "name": "고대 각인 방패 아이콘",
+    "path": "res://assets/production/icons/icon-shield-5.png",
+    "file": "game/assets/production/icons/icon-shield-5.png",
+    "width": 1312,
+    "height": 1199,
+    "sha256": "3e6454527cacae461fa84c1156154d12be4d6c84c22b4cfe3edc6fd5a25b1b80",
+    "reference": "assets/shield-boards/shields-board-v1.png",
+    "prompt": "Create ONE isolated inventory icon for the original fantasy JRPG Springbound Frontier: 고대 각인 방패 아이콘. Use the supplied board ONLY as a visual reference, select exactly the named item and preserve its recognizable material, silhouette and colors. Turn it into ONE simple clean readable classic fantasy JRPG inventory icon, modest cel shading and strong clear contour, broad shapes with very little texture. Center complete object with generous transparent padding about 12 percent every side. No board, no text, labels, frame, background, pedestal, floor shadow or extra items. Gloves are a paired equipment icon, all other objects single item unless reference requires a bundle. Simplify tiny details for small inventory display. Real transparent background, not a checkerboard illustration.",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "review_notes": [
+      "고해상도 투명 PNG 원본. 픽셀 규격·아틀라스 최적화 및 실제 인벤토리 연결은 별도.",
+      "반투명 외곽 음영이 일부 포함됨. 밝은/어두운 배경에서 48·64·96px 가독성을 후속 검토.",
+      "기존 보드의 단순화 변형. 능력·가격·장비 규칙은 변경하지 않음."
+    ]
+  }
+]

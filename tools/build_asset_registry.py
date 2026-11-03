@@ -72,6 +72,16 @@ if native_manifest.exists():
   target.update(design_status='제작 파일 1차',runtime_status='엔진 검증·플레이 미연결',source=asset['file'])
   target['notes']+=' 실제 파일 생성. 최종 미술·청취·게임 통합 검수는 별도.'
 
+# Preserve reported drafts from the other executor without claiming accessible files.
+resume_path=ROOT/'docs/asset-resume-queue-2026-11-03.json'
+if resume_path.exists():
+ for item in json.loads(resume_path.read_text())['entries']:
+  if item['state']=='external_draft_unavailable':
+   target=next(x for x in rows if x['id']==item['id'])
+   if target['design_status']=='대기':
+    target.update(design_status='타 환경 초안·복구 대기',runtime_status='파일 미확인')
+    target['notes']+=' PR14에서 로컬 초안이 보고됐으나 현재 작업 공간과 원격에 없음. 재제작 전 체크포인트 복구 필요.'
+
 rows.sort(key=lambda x:x['phase'])
 for i,x in enumerate(rows,1):x['order']=i
 assert len({x['id'] for x in rows})==len(rows)
@@ -79,11 +89,11 @@ ids={x['id'] for x in rows}
 for x in rows:
  assert all(d in ids for d in x['dependencies']),x['id']
  if x['source']:assert (ROOT/x['source']).is_file(),x['source']
-counts=collections.Counter(x['category'] for x in rows);data=dict(date='2026-11-02',scope='Finite proposed full-game baseline. Runtime clips and reuse references are separate from unique artwork counts; new locations and abilities are not automatically approved.',count=len(rows),counts=dict(counts),entries=rows)
+counts=collections.Counter(x['category'] for x in rows);data=dict(date='2026-11-03',scope='Finite proposed full-game baseline. Runtime clips and reuse references are separate from unique artwork counts; new locations and abilities are not automatically approved.',count=len(rows),counts=dict(counts),entries=rows)
 (ROOT/'docs/full-asset-registry.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
 with (ROOT/'docs/full-asset-registry.csv').open('w',newline='',encoding='utf-8-sig') as f:
  fields=['order','id','name','category','phase','region','deliverable','design_status','runtime_status','source','dependencies','notes'];w=csv.DictWriter(f,fieldnames=fields);w.writeheader();w.writerows({**x,'dependencies':' | '.join(x['dependencies'])} for x in rows)
-md='# 본편 전체 애셋 개별 제작 대장\n\n2026-11-02 · 총 **'+str(len(rows))+'개 관리 항목**. [검색 HTML](assets-registry/index.html) · [CSV](full-asset-registry.csv) · [JSON](full-asset-registry.json)\n\n## 범위와 집계\n\n본편 경로를 기준으로 기존 시안과 추가 제작 제안을 개별 ID로 기록했습니다. 이 목록은 확정된 출시 견적이 아닌 유한한 제작 기준안이며 새 지역 세부·동료 무기 허용 목록은 기존 기획과 대조 후 확정합니다. 애셋 수는 보드 장수나 고유 그림 수가 아닙니다. 방향별 동작 클립, 동일 원본을 참조하는 장비 조합, 기존 환경과 재사용할 소품, 배치도·음원도 각각 관리 항목입니다. 기존 보드가 있어도 실제 프레임과 런타임 연결은 완료로 표시하지 않습니다. 다중 방향 기본 동작과 무장 동작은 몸체를 공유할 수 있습니다. 상호 참조로 중복 제작을 줄입니다.\n\n## 제작 순서\n\n0. 기존 에셋 재사용 확인\n1. 공용 건축 부품 개별 보드\n2. 지역 전체 배치도\n3. 지역별 건물·건축·환경 변형\n4. 실내 배치\n5. 가구·자연·소품\n6. 필드 배치\n7. 인물 기본 동작\n8. 동료 무장·사건 동작\n9. 적군·몬스터 동작\n10. 아이템 독립 아이콘\n11. UI·VFX·이벤트\n12. 음향·음악\n13. 귀환·에필로그 상태 변화\n\n시안 → 프레임/모델 정리 → 엔진 연결 → 플레이 검증 순서로 관리합니다. 이미지 생성만으로 음향·3D 모델·애니메이션·UI 구현 완료를 선언하지 않습니다. 프롤로그 이후 통합 씬 제작은 배치·공용 부품과 함께 진행하며 이 목록의 존재가 플레이 화면 구현을 의미하지 않습니다.\n\n## 분류별 수량\n\n| 분류 | 관리 항목 수 |\n|---|---:|\n'
+md='# 본편 전체 애셋 개별 제작 대장\n\n2026-11-03 · 총 **'+str(len(rows))+'개 관리 항목**. [검색 HTML](assets-registry/index.html) · [CSV](full-asset-registry.csv) · [JSON](full-asset-registry.json)\n\n## 범위와 집계\n\n본편 경로를 기준으로 기존 시안과 추가 제작 제안을 개별 ID로 기록했습니다. 이 목록은 확정된 출시 견적이 아닌 유한한 제작 기준안이며 새 지역 세부·동료 무기 허용 목록은 기존 기획과 대조 후 확정합니다. 애셋 수는 보드 장수나 고유 그림 수가 아닙니다. 방향별 동작 클립, 동일 원본을 참조하는 장비 조합, 기존 환경과 재사용할 소품, 배치도·음원도 각각 관리 항목입니다. 기존 보드가 있어도 실제 프레임과 런타임 연결은 완료로 표시하지 않습니다. 다중 방향 기본 동작과 무장 동작은 몸체를 공유할 수 있습니다. 상호 참조로 중복 제작을 줄입니다.\n\n## 제작 순서\n\n0. 기존 에셋 재사용 확인\n1. 공용 건축 부품 개별 보드\n2. 지역 전체 배치도\n3. 지역별 건물·건축·환경 변형\n4. 실내 배치\n5. 가구·자연·소품\n6. 필드 배치\n7. 인물 기본 동작\n8. 동료 무장·사건 동작\n9. 적군·몬스터 동작\n10. 아이템 독립 아이콘\n11. UI·VFX·이벤트\n12. 음향·음악\n13. 귀환·에필로그 상태 변화\n\n시안 → 프레임/모델 정리 → 엔진 연결 → 플레이 검증 순서로 관리합니다. 이미지 생성만으로 음향·3D 모델·애니메이션·UI 구현 완료를 선언하지 않습니다. 프롤로그 이후 통합 씬 제작은 배치·공용 부품과 함께 진행하며 이 목록의 존재가 플레이 화면 구현을 의미하지 않습니다.\n\n## 분류별 수량\n\n| 분류 | 관리 항목 수 |\n|---|---:|\n'
 for k,v in counts.items():md+=f'| {k} | {v} |\n'
 md+='\n## 개별 목록\n\n| 순서 | ID | 이름 | 분류 | 단계 | 외형 상태 |\n|---:|---|---|---|---:|---|\n'
 for x in rows:md+=f'| {x["order"]} | {x["id"]} | {x["name"]} | {x["category"]} | {x["phase"]} | {x["design_status"]} |\n'
