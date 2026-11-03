@@ -2,8 +2,8 @@
   "main_quests": 42,
   "chapters": 8,
   "main_excerpt_lines": 258,
-  "side_events": 0,
-  "side_excerpt_lines": 0,
+  "side_events": 24,
+  "side_excerpt_lines": 144,
   "checks": [
     "메인 선행 조건 순환·미정의 ID 없음",
     "서브 해금 MQ·선행 이벤트 유효",

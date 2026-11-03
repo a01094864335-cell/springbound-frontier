@@ -27,12 +27,16 @@ if side:
         assert all(p in sid for p in e['prerequisites'])
         assert all(next(x['unlock'] for x in side if x['id']==p) <= e['unlock'] for p in e['prerequisites'])
         sid.add(e['id'])
+        for alt in e.get('alternate_prerequisites', []):
+            assert any(x.get('summary_flag') == alt for x in side), alt
         if e['deadline']:
             assert e['warning'] in ids and e['deadline'] in ids
             assert ids.index(e['unlock']) <= ids.index(e['warning']) < ids.index(e['deadline'])
         out.append(f"| {e['id']} | {e['character']} | [{e['title']}](#{e['id'].lower()}) | {e['unlock']} 완료 | {', '.join(e['prerequisites']) or '없음'} |")
     for e in side:
         out += ['',f"<a id=\"{e['id'].lower()}\"></a>",f"## {e['id']} · {e['title']}", '',f"- 인물·장소: {e['character']} · {e['location']}", f"- 해금: {e['unlock']} 완료 / 선행: {', '.join(e['prerequisites']) or '없음'}",f"- 플레이: {e['action']}",f"- 갈등과 변화: {e['change']}",f"- 선택과 반영: {e['choice']}",f"- 발생 기간: {e['availability']}",f"- 완료: {e['completion']}"]
+        if e.get('alternate_prerequisites'):
+            out += [f"- 대체 진입: {', '.join(e['alternate_prerequisites'])} 요약 확인으로 해당 선행 이벤트를 대신할 수 있다. 나머지 조건은 동일하다."]
         if e['deadline']:
             out += [f"- 사전 경고: {e['warning']} 완료 시 알림. {e['deadline']} 시작 전 재확인 후 해당 장면 종료.",f"- 놓친 경우: {e['fallback']}"]
         out += ['', '### 장면 대사 발췌', '']
