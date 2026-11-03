@@ -1,0 +1,9 @@
+{
+  "archive": "springbound-remaining-all-first-pass.zip",
+  "bytes": 274773958,
+  "sha256": "a26f6aa2dae5ebbba6cbaed69f141b6dc945d8446541bfc201685528fa6b61bb",
+  "literal_resource_paths_checked": true,
+  "standalone_project_imported": true,
+  "standalone_native_browser_passed": true,
+  "scope": "Remaining first-pass assets and their dependencies; not the complete story game."
+}
