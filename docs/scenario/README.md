@@ -8,6 +8,10 @@
 4. 원본 데이터: [메인](main-quests.json) · [서브](side-events.json)
 5. [구조 검증 결과](validation.json)
 
+## 프롤로그 상세 인계
+
+[MQ01~05 전체 대본·연출·조작 연결·외부 로컬 검수표](prologue/README.md) — 게임 구현·실행은 다른 로컬에서 진행한다.
+
 ## 기존 자료와의 우선순위
 
 [확정 기획](../confirmed-design.md), [인물 설정](../characters.md), [기존 프롤로그 원고](../prologue-dialogue.md), [전투·장비 규칙](../combat-equipment-and-motion-spec.md)을 함께 읽는다. 본 초안의 시설 작동 방식과 세부 사건은 새 제안이며, 확정 기획과 충돌하면 구현 전에 해당 항목을 검토한다. 기존 대화 데이터와 게임 코드는 이번 문서 작업으로 변경하지 않는다.
