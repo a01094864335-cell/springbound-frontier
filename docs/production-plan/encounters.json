@@ -1,0 +1,1196 @@
+[
+  {
+    "id": "B01",
+    "quest": "MQ03",
+    "map": "M03",
+    "required": true,
+    "enemies": [
+      "가시털 들쥐"
+    ],
+    "initial_count": 1,
+    "max_reinforcement_units": 0,
+    "spawn_cells": [
+      [
+        25,
+        17
+      ]
+    ],
+    "party_entry": [
+      20,
+      17
+    ],
+    "safety_exit": [
+      3,
+      15
+    ],
+    "pattern": "짧은 범위 도약 후 빈틈, 일반 물기는 예고 바닥 없음",
+    "success": "마물 격파·필수 안내 완료",
+    "failure": "전원 전투 불능",
+    "deadline_seconds": null,
+    "duration_target_seconds": [
+      45,
+      120
+    ],
+    "tier": 1,
+    "numbers_status": "초기 밸런스 제작안·실행 미검증",
+    "first_clear_xp": 120,
+    "first_clear_gold": 24,
+    "repeat_reward": "이번 초안은 0. 반복 등장/파밍 정책은 별도 검토"
+  },
+  {
+    "id": "B02",
+    "quest": "MQ06",
+    "map": "M03",
+    "required": false,
+    "enemies": [
+      "회색 들늑대"
+    ],
+    "initial_count": 2,
+    "max_reinforcement_units": 0,
+    "spawn_cells": [
+      [
+        32,
+        8
+      ],
+      [
+        32,
+        22
+      ],
+      [
+        35,
+        10
+      ],
+      [
+        35,
+        20
+      ]
+    ],
+    "party_entry": [
+      8,
+      15
+    ],
+    "safety_exit": [
+      3,
+      15
+    ],
+    "pattern": "길의 양쪽에서 접근, 안전 우회 가능",
+    "success": "교전 적 격파 또는 유효한 이탈 구역으로 후퇴",
+    "failure": "전원 전투 불능",
+    "deadline_seconds": null,
+    "duration_target_seconds": [
+      30,
+      60
+    ],
+    "tier": 2,
+    "numbers_status": "초기 밸런스 제작안·실행 미검증",
+    "first_clear_xp": 80,
+    "first_clear_gold": 16,
+    "repeat_reward": "이번 초안은 0. 반복 등장/파밍 정책은 별도 검토"
+  },
+  {
+    "id": "B03",
+    "quest": "MQ07",
+    "map": "M02",
+    "required": false,
+    "enemies": [
+      "돌등 멧돼지"
+    ],
+    "initial_count": 1,
+    "max_reinforcement_units": 0,
+    "spawn_cells": [
+      [
+        32,
+        8
+      ],
+      [
+        32,
+        22
+      ],
+      [
+        35,
+        10
+      ],
+      [
+        35,
+        20
+      ]
+    ],
+    "party_entry": [
+      8,
+      15
+    ],
+    "safety_exit": [
+      3,
+      15
+    ],
+    "pattern": "밭 바깥 통로, 정면 범위 돌진",
+    "success": "교전 적 격파 또는 유효한 이탈 구역으로 후퇴",
+    "failure": "전원 전투 불능",
+    "deadline_seconds": null,
+    "duration_target_seconds": [
+      30,
+      60
+    ],
+    "tier": 2,
+    "numbers_status": "초기 밸런스 제작안·실행 미검증",
+    "first_clear_xp": 80,
+    "first_clear_gold": 16,
+    "repeat_reward": "이번 초안은 0. 반복 등장/파밍 정책은 별도 검토"
+  },
+  {
+    "id": "B04",
+    "quest": "MQ10",
+    "map": "M05",
+    "required": false,
+    "enemies": [
+      "회색 들늑대"
+    ],
+    "initial_count": 2,
+    "max_reinforcement_units": 1,
+    "spawn_cells": [
+      [
+        32,
+        8
+      ],
+      [
+        32,
+        22
+      ],
+      [
+        35,
+        10
+      ],
+      [
+        35,
+        20
+      ]
+    ],
+    "party_entry": [
+      8,
+      15
+    ],
+    "safety_exit": [
+      3,
+      15
+    ],
+    "pattern": "뒤 수송로와 분리된 넓은 길목",
+    "success": "교전 적 격파 또는 유효한 이탈 구역으로 후퇴",
+    "failure": "전원 전투 불능",
+    "deadline_seconds": null,
+    "duration_target_seconds": [
+      30,
+      60
+    ],
+    "tier": 2,
+    "numbers_status": "초기 밸런스 제작안·실행 미검증",
+    "first_clear_xp": 80,
+    "first_clear_gold": 16,
+    "repeat_reward": "이번 초안은 0. 반복 등장/파밍 정책은 별도 검토"
+  },
+  {
+    "id": "B05",
+    "quest": "MQ11",
+    "map": "M07",
+    "required": false,
+    "enemies": [
+      "척후병"
+    ],
+    "initial_count": 1,
+    "max_reinforcement_units": 0,
+    "spawn_cells": [
+      [
+        32,
+        8
+      ],
+      [
+        32,
+        22
+      ],
+      [
+        35,
+        10
+      ],
+      [
+        35,
+        20
+      ]
+    ],
+    "party_entry": [
+      8,
+      15
+    ],
+    "safety_exit": [
+      3,
+      15
+    ],
+    "pattern": "교량 밖 정찰 구간, 허가/소개 생략 불가",
+    "success": "교전 적 격파 또는 유효한 이탈 구역으로 후퇴",
+    "failure": "전원 전투 불능",
+    "deadline_seconds": null,
+    "duration_target_seconds": [
+      30,
+      60
+    ],
+    "tier": 3,
+    "numbers_status": "초기 밸런스 제작안·실행 미검증",
+    "first_clear_xp": 90,
+    "first_clear_gold": 24,
+    "repeat_reward": "이번 초안은 0. 반복 등장/파밍 정책은 별도 검토"
+  },
+  {
+    "id": "B06",
+    "quest": "MQ12",
+    "map": "M07",
+    "required": false,
+    "enemies": [
+      "국경 검병"
+    ],
+    "initial_count": 2,
+    "max_reinforcement_units": 0,
+    "spawn_cells": [
+      [
+        32,
+        8
+      ],
+      [
+        32,
+        22
+      ],
+      [
+        35,
+        10
+      ],
+      [
+        35,
+        20
+      ]
+    ],
+    "party_entry": [
+      8,
+      15
+    ],
+    "safety_exit": [
+      3,
+      15
+    ],
+    "pattern": "수리 준비 구간 밖 짧은 차단, 필수 수리 방해 안 함",
+    "success": "교전 적 격파 또는 유효한 이탈 구역으로 후퇴",
+    "failure": "전원 전투 불능",
+    "deadline_seconds": null,
+    "duration_target_seconds": [
+      30,
+      60
+    ],
+    "tier": 3,
+    "numbers_status": "초기 밸런스 제작안·실행 미검증",
+    "first_clear_xp": 90,
+    "first_clear_gold": 24,
+    "repeat_reward": "이번 초안은 0. 반복 등장/파밍 정책은 별도 검토"
+  },
+  {
+    "id": "B07",
+    "quest": "MQ13",
+    "map": "M07",
+    "required": true,
+    "enemies": [
+      "국경 검병",
+      "국경 창병",
+      "군 궁병"
+    ],
+    "initial_count": 4,
+    "max_reinforcement_units": 2,
+    "spawn_cells": [
+      [
+        34,
+        10
+      ],
+      [
+        34,
+        20
+      ],
+      [
+        36,
+        12
+      ],
+      [
+        36,
+        18
+      ]
+    ],
+    "party_entry": [
+      26,
+      15
+    ],
+    "safety_exit": [
+      3,
+      15
+    ],
+    "pattern": "초기 검2 창1 궁1, 예고된 측면 검1씩 최대2회",
+    "success": "필수 수레 A안 인수 + 출전 인원 철수/구조 인계",
+    "failure": "전원 전투 불능 또는 호위 대상 파괴·명시된 기한 미달",
+    "deadline_seconds": 180,
+    "duration_target_seconds": [
+      120,
+      180
+    ],
+    "tier": 3,
+    "numbers_status": "초기 밸런스 제작안·실행 미검증",
+    "first_clear_xp": 180,
+    "first_clear_gold": 24,
+    "repeat_reward": "이번 초안은 0. 반복 등장/파밍 정책은 별도 검토"
+  },
+  {
+    "id": "B08",
+    "quest": "MQ20",
+    "map": "M12",
+    "required": false,
+    "enemies": [
+      "돌등 멧돼지"
+    ],
+    "initial_count": 2,
+    "max_reinforcement_units": 0,
+    "spawn_cells": [
+      [
+        32,
+        8
+      ],
+      [
+        32,
+        22
+      ],
+      [
+        35,
+        10
+      ],
+      [
+        35,
+        20
+      ]
+    ],
+    "party_entry": [
+      8,
+      15
+    ],
+    "safety_exit": [
+      3,
+      15
+    ],
+    "pattern": "일자 돌진을 다른 축 이동으로 회피",
+    "success": "교전 적 격파 또는 유효한 이탈 구역으로 후퇴",
+    "failure": "전원 전투 불능",
+    "deadline_seconds": null,
+    "duration_target_seconds": [
+      30,
+      60
+    ],
+    "tier": 4,
+    "numbers_status": "초기 밸런스 제작안·실행 미검증",
+    "first_clear_xp": 765,
+    "first_clear_gold": 120,
+    "repeat_reward": "이번 초안은 0. 반복 등장/파밍 정책은 별도 검토"
+  },
+  {
+    "id": "B09",
+    "quest": "MQ21",
+    "map": "M12",
+    "required": false,
+    "enemies": [
+      "회색 들늑대"
+    ],
+    "initial_count": 3,
+    "max_reinforcement_units": 0,
+    "spawn_cells": [
+      [
+        32,
+        8
+      ],
+      [
+        32,
+        22
+      ],
+      [
+        35,
+        10
+      ],
+      [
+        35,
+        20
+      ]
+    ],
+    "party_entry": [
+      8,
+      15
+    ],
+    "safety_exit": [
+      3,
+      15
+    ],
+    "pattern": "독립된 길목, 학술도시 의뢰와 무관",
+    "success": "교전 적 격파 또는 유효한 이탈 구역으로 후퇴",
+    "failure": "전원 전투 불능",
+    "deadline_seconds": null,
+    "duration_target_seconds": [
+      30,
+      60
+    ],
+    "tier": 5,
+    "numbers_status": "초기 밸런스 제작안·실행 미검증",
+    "first_clear_xp": 360,
+    "first_clear_gold": 50,
+    "repeat_reward": "이번 초안은 0. 반복 등장/파밍 정책은 별도 검토"
+  },
+  {
+    "id": "B10",
+    "quest": "MQ23",
+    "map": "M15",
+    "required": false,
+    "enemies": [
+      "공명에 물든 늑대"
+    ],
+    "initial_count": 2,
+    "max_reinforcement_units": 0,
+    "spawn_cells": [
+      [
+        32,
+        8
+      ],
+      [
+        32,
+        22
+      ],
+      [
+        35,
+        10
+      ],
+      [
+        35,
+        20
+      ]
+    ],
+    "party_entry": [
+      8,
+      15
+    ],
+    "safety_exit": [
+      3,
+      15
+    ],
+    "pattern": "시설 바깥 확인된 접근로, 능력 만능 해석 금지",
+    "success": "교전 적 격파 또는 유효한 이탈 구역으로 후퇴",
+    "failure": "전원 전투 불능",
+    "deadline_seconds": null,
+    "duration_target_seconds": [
+      30,
+      60
+    ],
+    "tier": 5,
+    "numbers_status": "초기 밸런스 제작안·실행 미검증",
+    "first_clear_xp": 360,
+    "first_clear_gold": 50,
+    "repeat_reward": "이번 초안은 0. 반복 등장/파밍 정책은 별도 검토"
+  },
+  {
+    "id": "B11",
+    "quest": "MQ24",
+    "map": "M16",
+    "required": false,
+    "enemies": [
+      "유적 감시구"
+    ],
+    "initial_count": 2,
+    "max_reinforcement_units": 0,
+    "spawn_cells": [
+      [
+        32,
+        8
+      ],
+      [
+        32,
+        22
+      ],
+      [
+        35,
+        10
+      ],
+      [
+        35,
+        20
+      ]
+    ],
+    "party_entry": [
+      8,
+      15
+    ],
+    "safety_exit": [
+      3,
+      15
+    ],
+    "pattern": "고장 구간 격리, 허가된 조사 통로와 분리",
+    "success": "교전 적 격파 또는 유효한 이탈 구역으로 후퇴",
+    "failure": "전원 전투 불능",
+    "deadline_seconds": null,
+    "duration_target_seconds": [
+      30,
+      60
+    ],
+    "tier": 5,
+    "numbers_status": "초기 밸런스 제작안·실행 미검증",
+    "first_clear_xp": 360,
+    "first_clear_gold": 50,
+    "repeat_reward": "이번 초안은 0. 반복 등장/파밍 정책은 별도 검토"
+  },
+  {
+    "id": "B12",
+    "quest": "MQ26",
+    "map": "M15",
+    "required": false,
+    "enemies": [
+      "석갑 수호체"
+    ],
+    "initial_count": 1,
+    "max_reinforcement_units": 0,
+    "spawn_cells": [
+      [
+        32,
+        8
+      ],
+      [
+        32,
+        22
+      ],
+      [
+        35,
+        10
+      ],
+      [
+        35,
+        20
+      ]
+    ],
+    "party_entry": [
+      8,
+      15
+    ],
+    "safety_exit": [
+      3,
+      15
+    ],
+    "pattern": "느린 범위 내려치기, 연구/과로 장면에 적 소환 안 함",
+    "success": "교전 적 격파 또는 유효한 이탈 구역으로 후퇴",
+    "failure": "전원 전투 불능",
+    "deadline_seconds": null,
+    "duration_target_seconds": [
+      30,
+      60
+    ],
+    "tier": 5,
+    "numbers_status": "초기 밸런스 제작안·실행 미검증",
+    "first_clear_xp": 360,
+    "first_clear_gold": 50,
+    "repeat_reward": "이번 초안은 0. 반복 등장/파밍 정책은 별도 검토"
+  },
+  {
+    "id": "B13",
+    "quest": "MQ27",
+    "map": "M18",
+    "required": false,
+    "enemies": [
+      "척후병"
+    ],
+    "initial_count": 2,
+    "max_reinforcement_units": 0,
+    "spawn_cells": [
+      [
+        32,
+        8
+      ],
+      [
+        32,
+        22
+      ],
+      [
+        35,
+        10
+      ],
+      [
+        35,
+        20
+      ]
+    ],
+    "party_entry": [
+      8,
+      15
+    ],
+    "safety_exit": [
+      3,
+      15
+    ],
+    "pattern": "항구 외곽 별도 일반 교전, 카이 계약 필수화 금지",
+    "success": "교전 적 격파 또는 유효한 이탈 구역으로 후퇴",
+    "failure": "전원 전투 불능",
+    "deadline_seconds": null,
+    "duration_target_seconds": [
+      30,
+      60
+    ],
+    "tier": 6,
+    "numbers_status": "초기 밸런스 제작안·실행 미검증",
+    "first_clear_xp": 480,
+    "first_clear_gold": 70,
+    "repeat_reward": "이번 초안은 0. 반복 등장/파밍 정책은 별도 검토"
+  },
+  {
+    "id": "B14",
+    "quest": "MQ28",
+    "map": "M19",
+    "required": false,
+    "enemies": [
+      "갈대턱 도마뱀"
+    ],
+    "initial_count": 2,
+    "max_reinforcement_units": 0,
+    "spawn_cells": [
+      [
+        32,
+        8
+      ],
+      [
+        32,
+        22
+      ],
+      [
+        35,
+        10
+      ],
+      [
+        35,
+        20
+      ]
+    ],
+    "party_entry": [
+      8,
+      15
+    ],
+    "safety_exit": [
+      3,
+      15
+    ],
+    "pattern": "접근 해안 측면, 선원에게 자동 피해 안 줌",
+    "success": "교전 적 격파 또는 유효한 이탈 구역으로 후퇴",
+    "failure": "전원 전투 불능",
+    "deadline_seconds": null,
+    "duration_target_seconds": [
+      30,
+      60
+    ],
+    "tier": 6,
+    "numbers_status": "초기 밸런스 제작안·실행 미검증",
+    "first_clear_xp": 480,
+    "first_clear_gold": 70,
+    "repeat_reward": "이번 초안은 0. 반복 등장/파밍 정책은 별도 검토"
+  },
+  {
+    "id": "B15",
+    "quest": "MQ29",
+    "map": "M20",
+    "required": false,
+    "enemies": [
+      "암각 소라게"
+    ],
+    "initial_count": 2,
+    "max_reinforcement_units": 0,
+    "spawn_cells": [
+      [
+        32,
+        8
+      ],
+      [
+        32,
+        22
+      ],
+      [
+        35,
+        10
+      ],
+      [
+        35,
+        20
+      ]
+    ],
+    "party_entry": [
+      8,
+      15
+    ],
+    "safety_exit": [
+      3,
+      15
+    ],
+    "pattern": "항만 밖 바위길, 협상 대표를 공격자로 단정 안 함",
+    "success": "교전 적 격파 또는 유효한 이탈 구역으로 후퇴",
+    "failure": "전원 전투 불능",
+    "deadline_seconds": null,
+    "duration_target_seconds": [
+      30,
+      60
+    ],
+    "tier": 6,
+    "numbers_status": "초기 밸런스 제작안·실행 미검증",
+    "first_clear_xp": 480,
+    "first_clear_gold": 70,
+    "repeat_reward": "이번 초안은 0. 반복 등장/파밍 정책은 별도 검토"
+  },
+  {
+    "id": "B16",
+    "quest": "MQ31",
+    "map": "M22",
+    "required": false,
+    "enemies": [
+      "균사 포식체"
+    ],
+    "initial_count": 1,
+    "max_reinforcement_units": 0,
+    "spawn_cells": [
+      [
+        32,
+        8
+      ],
+      [
+        32,
+        22
+      ],
+      [
+        35,
+        10
+      ],
+      [
+        35,
+        20
+      ]
+    ],
+    "party_entry": [
+      8,
+      15
+    ],
+    "safety_exit": [
+      3,
+      15
+    ],
+    "pattern": "피난길과 분리된 폐길, 새 상태이상 강제 안 함",
+    "success": "교전 적 격파 또는 유효한 이탈 구역으로 후퇴",
+    "failure": "전원 전투 불능",
+    "deadline_seconds": null,
+    "duration_target_seconds": [
+      30,
+      60
+    ],
+    "tier": 6,
+    "numbers_status": "초기 밸런스 제작안·실행 미검증",
+    "first_clear_xp": 480,
+    "first_clear_gold": 70,
+    "repeat_reward": "이번 초안은 0. 반복 등장/파밍 정책은 별도 검토"
+  },
+  {
+    "id": "B17",
+    "quest": "MQ32",
+    "map": "M22",
+    "required": false,
+    "enemies": [
+      "먹안개 나방"
+    ],
+    "initial_count": 2,
+    "max_reinforcement_units": 0,
+    "spawn_cells": [
+      [
+        32,
+        8
+      ],
+      [
+        32,
+        22
+      ],
+      [
+        35,
+        10
+      ],
+      [
+        35,
+        20
+      ]
+    ],
+    "party_entry": [
+      8,
+      15
+    ],
+    "safety_exit": [
+      3,
+      15
+    ],
+    "pattern": "가루 범위 예고, 독/침묵 부여는 이번 미채택",
+    "success": "교전 적 격파 또는 유효한 이탈 구역으로 후퇴",
+    "failure": "전원 전투 불능",
+    "deadline_seconds": null,
+    "duration_target_seconds": [
+      30,
+      60
+    ],
+    "tier": 7,
+    "numbers_status": "초기 밸런스 제작안·실행 미검증",
+    "first_clear_xp": 800,
+    "first_clear_gold": 120,
+    "repeat_reward": "이번 초안은 0. 반복 등장/파밍 정책은 별도 검토"
+  },
+  {
+    "id": "B18",
+    "quest": "MQ35",
+    "map": "M25",
+    "required": false,
+    "enemies": [
+      "국경 검병",
+      "국경 창병"
+    ],
+    "initial_count": 3,
+    "max_reinforcement_units": 0,
+    "spawn_cells": [
+      [
+        32,
+        8
+      ],
+      [
+        32,
+        22
+      ],
+      [
+        35,
+        10
+      ],
+      [
+        35,
+        20
+      ]
+    ],
+    "party_entry": [
+      8,
+      15
+    ],
+    "safety_exit": [
+      3,
+      15
+    ],
+    "pattern": "작전 거점 밖 폐초소 조사 후보, 외교 합의 파괴 금지",
+    "success": "교전 적 격파 또는 유효한 이탈 구역으로 후퇴",
+    "failure": "전원 전투 불능",
+    "deadline_seconds": null,
+    "duration_target_seconds": [
+      30,
+      60
+    ],
+    "tier": 7,
+    "numbers_status": "초기 밸런스 제작안·실행 미검증",
+    "first_clear_xp": 800,
+    "first_clear_gold": 120,
+    "repeat_reward": "이번 초안은 0. 반복 등장/파밍 정책은 별도 검토"
+  },
+  {
+    "id": "B19",
+    "quest": "MQ36",
+    "map": "M26",
+    "required": false,
+    "enemies": [
+      "유적 감시구",
+      "석갑 수호체"
+    ],
+    "initial_count": 3,
+    "max_reinforcement_units": 0,
+    "spawn_cells": [
+      [
+        32,
+        8
+      ],
+      [
+        32,
+        22
+      ],
+      [
+        35,
+        10
+      ],
+      [
+        35,
+        20
+      ]
+    ],
+    "party_entry": [
+      8,
+      15
+    ],
+    "safety_exit": [
+      3,
+      15
+    ],
+    "pattern": "입구 외곽 정리, 필수 수리조는 뒤에 안전 대기",
+    "success": "교전 적 격파 또는 유효한 이탈 구역으로 후퇴",
+    "failure": "전원 전투 불능",
+    "deadline_seconds": null,
+    "duration_target_seconds": [
+      30,
+      60
+    ],
+    "tier": 7,
+    "numbers_status": "초기 밸런스 제작안·실행 미검증",
+    "first_clear_xp": 800,
+    "first_clear_gold": 120,
+    "repeat_reward": "이번 초안은 0. 반복 등장/파밍 정책은 별도 검토"
+  },
+  {
+    "id": "B20",
+    "quest": "MQ37",
+    "map": "M26",
+    "required": true,
+    "enemies": [
+      "유적 감시구",
+      "석갑 수호체"
+    ],
+    "initial_count": 4,
+    "max_reinforcement_units": 2,
+    "spawn_cells": [
+      [
+        32,
+        8
+      ],
+      [
+        32,
+        22
+      ],
+      [
+        35,
+        10
+      ],
+      [
+        35,
+        20
+      ]
+    ],
+    "party_entry": [
+      8,
+      15
+    ],
+    "safety_exit": [
+      3,
+      15
+    ],
+    "pattern": "초기 감시2 수호2, 예고된 뒤 구역 감시1씩 최대2회",
+    "success": "필수 수리조·장비 인수 + 퇴로 + 입구 점검",
+    "failure": "전원 전투 불능 또는 호위 대상 파괴·명시된 기한 미달",
+    "deadline_seconds": 210,
+    "duration_target_seconds": [
+      150,
+      210
+    ],
+    "tier": 8,
+    "numbers_status": "초기 밸런스 제작안·실행 미검증",
+    "first_clear_xp": 604,
+    "first_clear_gold": 96,
+    "repeat_reward": "이번 초안은 0. 반복 등장/파밍 정책은 별도 검토"
+  },
+  {
+    "id": "B21",
+    "quest": "MQ38",
+    "map": "M27",
+    "required": false,
+    "enemies": [
+      "석갑 수호체"
+    ],
+    "initial_count": 2,
+    "max_reinforcement_units": 0,
+    "spawn_cells": [
+      [
+        32,
+        8
+      ],
+      [
+        32,
+        22
+      ],
+      [
+        35,
+        10
+      ],
+      [
+        35,
+        20
+      ]
+    ],
+    "party_entry": [
+      8,
+      15
+    ],
+    "safety_exit": [
+      3,
+      15
+    ],
+    "pattern": "비활성 점검 구간의 오작동체, 네리아 면담 강탈 안 함",
+    "success": "교전 적 격파 또는 유효한 이탈 구역으로 후퇴",
+    "failure": "전원 전투 불능",
+    "deadline_seconds": null,
+    "duration_target_seconds": [
+      30,
+      60
+    ],
+    "tier": 8,
+    "numbers_status": "초기 밸런스 제작안·실행 미검증",
+    "first_clear_xp": 302,
+    "first_clear_gold": 96,
+    "repeat_reward": "이번 초안은 0. 반복 등장/파밍 정책은 별도 검토"
+  },
+  {
+    "id": "B22",
+    "quest": "MQ39",
+    "map": "M27",
+    "required": false,
+    "enemies": [
+      "유적 감시구"
+    ],
+    "initial_count": 2,
+    "max_reinforcement_units": 0,
+    "spawn_cells": [
+      [
+        32,
+        8
+      ],
+      [
+        32,
+        22
+      ],
+      [
+        35,
+        10
+      ],
+      [
+        35,
+        20
+      ]
+    ],
+    "party_entry": [
+      8,
+      15
+    ],
+    "safety_exit": [
+      3,
+      15
+    ],
+    "pattern": "기록 인계와 분리된 통로, 실베르 군대 습격으로 단정 금지",
+    "success": "교전 적 격파 또는 유효한 이탈 구역으로 후퇴",
+    "failure": "전원 전투 불능",
+    "deadline_seconds": null,
+    "duration_target_seconds": [
+      30,
+      60
+    ],
+    "tier": 8,
+    "numbers_status": "초기 밸런스 제작안·실행 미검증",
+    "first_clear_xp": 302,
+    "first_clear_gold": 96,
+    "repeat_reward": "이번 초안은 0. 반복 등장/파밍 정책은 별도 검토"
+  },
+  {
+    "id": "B23",
+    "quest": "MQ40",
+    "map": "M27",
+    "required": false,
+    "enemies": [
+      "공명 융합체"
+    ],
+    "initial_count": 1,
+    "max_reinforcement_units": 0,
+    "spawn_cells": [
+      [
+        32,
+        8
+      ],
+      [
+        32,
+        22
+      ],
+      [
+        35,
+        10
+      ],
+      [
+        35,
+        20
+      ]
+    ],
+    "party_entry": [
+      8,
+      15
+    ],
+    "safety_exit": [
+      3,
+      15
+    ],
+    "pattern": "시작 보류 중 위험 구역 선택 접근, 강제 시간 소모 금지",
+    "success": "교전 적 격파 또는 유효한 이탈 구역으로 후퇴",
+    "failure": "전원 전투 불능",
+    "deadline_seconds": null,
+    "duration_target_seconds": [
+      30,
+      60
+    ],
+    "tier": 8,
+    "numbers_status": "초기 밸런스 제작안·실행 미검증",
+    "first_clear_xp": 302,
+    "first_clear_gold": 96,
+    "repeat_reward": "이번 초안은 0. 반복 등장/파밍 정책은 별도 검토"
+  },
+  {
+    "id": "B24",
+    "quest": "MQ41",
+    "map": "M29",
+    "required": true,
+    "enemies": [
+      "유적 감시구",
+      "석갑 수호체"
+    ],
+    "initial_count": 4,
+    "max_reinforcement_units": 4,
+    "spawn_cells": [
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        22
+      ],
+      [
+        32,
+        10
+      ],
+      [
+        32,
+        20
+      ]
+    ],
+    "party_entry": [
+      8,
+      15
+    ],
+    "safety_exit": [
+      3,
+      15
+    ],
+    "pattern": "전환 차단 단계 감시2 수호2, 유지 단계 감시1씩 최대4회",
+    "success": "강제 전환 차단 + 안전 유지 + 필수 완료 보고 + 운용 인수",
+    "failure": "전원 전투 불능 또는 제어 안전 여력 초과",
+    "deadline_seconds": null,
+    "duration_target_seconds": [
+      180,
+      300
+    ],
+    "tier": 8,
+    "numbers_status": "초기 밸런스 제작안·실행 미검증",
+    "first_clear_xp": 605,
+    "first_clear_gold": 96,
+    "repeat_reward": "이번 초안은 0. 반복 등장/파밍 정책은 별도 검토"
+  }
+]

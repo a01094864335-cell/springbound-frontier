@@ -1,0 +1,90 @@
+[
+  {
+    "chapter": 1,
+    "entry_level": 1,
+    "target_end_level": 3,
+    "main_xp_budget": 280,
+    "baseline_combat_xp_budget": 120,
+    "main_gold_budget": 120,
+    "base_encounter_count": 1,
+    "status": "검증용 목표·레벨 진입 제한 아님",
+    "main_only_minimum_xp": 400
+  },
+  {
+    "chapter": 2,
+    "entry_level": 3,
+    "target_end_level": 5,
+    "main_xp_budget": 560,
+    "baseline_combat_xp_budget": 240,
+    "main_gold_budget": 240,
+    "base_encounter_count": 3,
+    "status": "검증용 목표·레벨 진입 제한 아님",
+    "main_only_minimum_xp": 560
+  },
+  {
+    "chapter": 3,
+    "entry_level": 5,
+    "target_end_level": 7,
+    "main_xp_budget": 840,
+    "baseline_combat_xp_budget": 360,
+    "main_gold_budget": 360,
+    "base_encounter_count": 3,
+    "status": "검증용 목표·레벨 진입 제한 아님",
+    "main_only_minimum_xp": 1020
+  },
+  {
+    "chapter": 4,
+    "entry_level": 7,
+    "target_end_level": 10,
+    "main_xp_budget": 1785,
+    "baseline_combat_xp_budget": 765,
+    "main_gold_budget": 600,
+    "base_encounter_count": 1,
+    "status": "검증용 목표·레벨 진입 제한 아님",
+    "main_only_minimum_xp": 1785
+  },
+  {
+    "chapter": 5,
+    "entry_level": 10,
+    "target_end_level": 14,
+    "main_xp_budget": 3360,
+    "baseline_combat_xp_budget": 1440,
+    "main_gold_budget": 1000,
+    "base_encounter_count": 4,
+    "status": "검증용 목표·레벨 진입 제한 아님",
+    "main_only_minimum_xp": 3360
+  },
+  {
+    "chapter": 6,
+    "entry_level": 14,
+    "target_end_level": 18,
+    "main_xp_budget": 4480,
+    "baseline_combat_xp_budget": 1920,
+    "main_gold_budget": 1400,
+    "base_encounter_count": 4,
+    "status": "검증용 목표·레벨 진입 제한 아님",
+    "main_only_minimum_xp": 4480
+  },
+  {
+    "chapter": 7,
+    "entry_level": 18,
+    "target_end_level": 22,
+    "main_xp_budget": 5600,
+    "baseline_combat_xp_budget": 2400,
+    "main_gold_budget": 1800,
+    "base_encounter_count": 3,
+    "status": "검증용 목표·레벨 진입 제한 아님",
+    "main_only_minimum_xp": 5600
+  },
+  {
+    "chapter": 8,
+    "entry_level": 22,
+    "target_end_level": 25,
+    "main_xp_budget": 4935,
+    "baseline_combat_xp_budget": 2115,
+    "main_gold_budget": 2400,
+    "base_encounter_count": 5,
+    "status": "검증용 목표·레벨 진입 제한 아님",
+    "main_only_minimum_xp": 6144
+  }
+]

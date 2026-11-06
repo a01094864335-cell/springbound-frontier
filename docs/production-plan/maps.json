@@ -1,0 +1,2552 @@
+[
+  {
+    "id": "M01",
+    "name": "마르타의 집",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M01-P01",
+        "name": "마르타",
+        "cell": [
+          12,
+          10
+        ]
+      },
+      {
+        "id": "M01-P02",
+        "name": "약 꾸러미",
+        "cell": [
+          8,
+          10
+        ]
+      },
+      {
+        "id": "M01-P03",
+        "name": "지도",
+        "cell": [
+          16,
+          10
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "interior-01"
+    ],
+    "quests": [
+      "MQ01",
+      "MQ02",
+      "MQ07",
+      "MQ08",
+      "MQ09",
+      "MQ42"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M02"
+    ],
+    "portals": [
+      {
+        "id": "M01-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M02",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      }
+    ],
+    "blocked_rectangles": [],
+    "zone_notes": "중앙 직교 동선과 조사 가지길. 물리·가림·높이는 외부 로컬에서 검수."
+  },
+  {
+    "id": "M02",
+    "name": "서리골",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M02-P01",
+        "name": "우물",
+        "cell": [
+          12,
+          18
+        ]
+      },
+      {
+        "id": "M02-P02",
+        "name": "오르만",
+        "cell": [
+          8,
+          24
+        ]
+      },
+      {
+        "id": "M02-P03",
+        "name": "약초밭",
+        "cell": [
+          30,
+          20
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "map-frost"
+    ],
+    "quests": [
+      "MQ01",
+      "MQ06",
+      "MQ07",
+      "MQ09",
+      "MQ42"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M01",
+      "M03",
+      "M05"
+    ],
+    "portals": [
+      {
+        "id": "M02-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M01",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      },
+      {
+        "id": "M02-E2",
+        "cell": [
+          37,
+          15
+        ],
+        "target_map": "M03",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      },
+      {
+        "id": "M02-E3",
+        "cell": [
+          20,
+          27
+        ],
+        "target_map": "M05",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      }
+    ],
+    "blocked_rectangles": [],
+    "zone_notes": "중앙 길과 우물/여관/밭 가지길. 출발·피난·복구는 같은 맵의 상태 차이."
+  },
+  {
+    "id": "M03",
+    "name": "산길",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M03-P01",
+        "name": "표지",
+        "cell": [
+          10,
+          15
+        ]
+      },
+      {
+        "id": "M03-P02",
+        "name": "레온 발견",
+        "cell": [
+          22,
+          18
+        ]
+      },
+      {
+        "id": "M03-P03",
+        "name": "휴식 굽이",
+        "cell": [
+          30,
+          15
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "field-01"
+    ],
+    "quests": [
+      "MQ02",
+      "MQ03",
+      "MQ04",
+      "MQ06"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M02",
+      "M04"
+    ],
+    "portals": [
+      {
+        "id": "M03-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M02",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      },
+      {
+        "id": "M03-E2",
+        "cell": [
+          37,
+          15
+        ],
+        "target_map": "M04",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      }
+    ],
+    "blocked_rectangles": [],
+    "zone_notes": "레온 발견 위치는 통로 바깥 안전 포켓. 첫 전투 중 지역 출구 잠금은 안내 뒤 제한, 승리 후 해제."
+  },
+  {
+    "id": "M04",
+    "name": "돌샘 연락소·의무실",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M04-P01",
+        "name": "에다",
+        "cell": [
+          12,
+          20
+        ]
+      },
+      {
+        "id": "M04-P02",
+        "name": "할벤",
+        "cell": [
+          22,
+          20
+        ]
+      },
+      {
+        "id": "M04-P03",
+        "name": "차 탁자",
+        "cell": [
+          30,
+          15
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "interior-07",
+      "interior-06",
+      "map-border"
+    ],
+    "quests": [
+      "MQ04",
+      "MQ05"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M03"
+    ],
+    "portals": [
+      {
+        "id": "M04-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M03",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      }
+    ],
+    "blocked_rectangles": [],
+    "zone_notes": "중앙 직교 동선과 조사 가지길. 물리·가림·높이는 외부 로컬에서 검수."
+  },
+  {
+    "id": "M05",
+    "name": "국경 도로",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M05-P01",
+        "name": "전령",
+        "cell": [
+          12,
+          15
+        ]
+      },
+      {
+        "id": "M05-P02",
+        "name": "도렌",
+        "cell": [
+          22,
+          15
+        ]
+      },
+      {
+        "id": "M05-P03",
+        "name": "통행 보고",
+        "cell": [
+          30,
+          18
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "field-04"
+    ],
+    "quests": [
+      "MQ10",
+      "MQ15"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M02",
+      "M06"
+    ],
+    "portals": [
+      {
+        "id": "M05-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M02",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      },
+      {
+        "id": "M05-E2",
+        "cell": [
+          37,
+          15
+        ],
+        "target_map": "M06",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      }
+    ],
+    "blocked_rectangles": [],
+    "zone_notes": "중앙 직교 동선과 조사 가지길. 물리·가림·높이는 외부 로컬에서 검수."
+  },
+  {
+    "id": "M06",
+    "name": "피난 대기소·야영지",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M06-P01",
+        "name": "구호 담당",
+        "cell": [
+          12,
+          18
+        ]
+      },
+      {
+        "id": "M06-P02",
+        "name": "도렌",
+        "cell": [
+          22,
+          18
+        ]
+      },
+      {
+        "id": "M06-P03",
+        "name": "명부",
+        "cell": [
+          30,
+          18
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "field-08"
+    ],
+    "quests": [
+      "MQ10",
+      "MQ14",
+      "MQ15"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M05",
+      "M07",
+      "M08"
+    ],
+    "portals": [
+      {
+        "id": "M06-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M05",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      },
+      {
+        "id": "M06-E2",
+        "cell": [
+          37,
+          15
+        ],
+        "target_map": "M07",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      },
+      {
+        "id": "M06-E3",
+        "cell": [
+          20,
+          27
+        ],
+        "target_map": "M08",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      }
+    ],
+    "blocked_rectangles": [],
+    "zone_notes": "중앙 직교 동선과 조사 가지길. 물리·가림·높이는 외부 로컬에서 검수."
+  },
+  {
+    "id": "M07",
+    "name": "교량 양안",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M07-P01",
+        "name": "A안 인수",
+        "cell": [
+          8,
+          15
+        ]
+      },
+      {
+        "id": "M07-P02",
+        "name": "수비 책임자",
+        "cell": [
+          8,
+          22
+        ]
+      },
+      {
+        "id": "M07-P03",
+        "name": "B안 수레",
+        "cell": [
+          28,
+          15
+        ]
+      },
+      {
+        "id": "M07-P04",
+        "name": "리아",
+        "cell": [
+          26,
+          22
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "field-06",
+      "map-refugee"
+    ],
+    "quests": [
+      "MQ11",
+      "MQ12",
+      "MQ13"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M06"
+    ],
+    "portals": [
+      {
+        "id": "M07-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M06",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      }
+    ],
+    "blocked_rectangles": [
+      [
+        13,
+        0,
+        24,
+        11
+      ],
+      [
+        13,
+        19,
+        24,
+        29
+      ]
+    ],
+    "zone_notes": "A안 x2~12, 교량 x13~24/y12~18, B안 x25~37. A안 수신·B안 구조 수레 구분."
+  },
+  {
+    "id": "M08",
+    "name": "왕도 외곽",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M08-P01",
+        "name": "접수",
+        "cell": [
+          12,
+          18
+        ]
+      },
+      {
+        "id": "M08-P02",
+        "name": "성문",
+        "cell": [
+          22,
+          15
+        ]
+      },
+      {
+        "id": "M08-P03",
+        "name": "피난 숙소",
+        "cell": [
+          30,
+          20
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "field-10"
+    ],
+    "quests": [
+      "MQ15",
+      "MQ16",
+      "MQ20"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M06",
+      "M09",
+      "M12"
+    ],
+    "portals": [
+      {
+        "id": "M08-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M06",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      },
+      {
+        "id": "M08-E2",
+        "cell": [
+          37,
+          15
+        ],
+        "target_map": "M09",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      },
+      {
+        "id": "M08-E3",
+        "cell": [
+          20,
+          27
+        ],
+        "target_map": "M12",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      }
+    ],
+    "blocked_rectangles": [],
+    "zone_notes": "중앙 직교 동선과 조사 가지길. 물리·가림·높이는 외부 로컬에서 검수."
+  },
+  {
+    "id": "M09",
+    "name": "왕도 대로",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M09-P01",
+        "name": "발표문",
+        "cell": [
+          12,
+          18
+        ]
+      },
+      {
+        "id": "M09-P02",
+        "name": "연구 연락원",
+        "cell": [
+          22,
+          18
+        ]
+      },
+      {
+        "id": "M09-P03",
+        "name": "상점",
+        "cell": [
+          30,
+          20
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "field-09",
+      "map-capital"
+    ],
+    "quests": [
+      "MQ16",
+      "MQ19",
+      "MQ20"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M08",
+      "M10",
+      "M11"
+    ],
+    "portals": [
+      {
+        "id": "M09-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M08",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      },
+      {
+        "id": "M09-E2",
+        "cell": [
+          37,
+          15
+        ],
+        "target_map": "M10",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      },
+      {
+        "id": "M09-E3",
+        "cell": [
+          20,
+          27
+        ],
+        "target_map": "M11",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      }
+    ],
+    "blocked_rectangles": [],
+    "zone_notes": "중앙 직교 동선과 조사 가지길. 물리·가림·높이는 외부 로컬에서 검수."
+  },
+  {
+    "id": "M10",
+    "name": "왕도 행정청",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M10-P01",
+        "name": "실베르",
+        "cell": [
+          12,
+          18
+        ]
+      },
+      {
+        "id": "M10-P02",
+        "name": "열람 목록",
+        "cell": [
+          22,
+          18
+        ]
+      },
+      {
+        "id": "M10-P03",
+        "name": "서기",
+        "cell": [
+          30,
+          18
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "interior-11"
+    ],
+    "quests": [
+      "MQ16",
+      "MQ17"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M09"
+    ],
+    "portals": [
+      {
+        "id": "M10-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M09",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      }
+    ],
+    "blocked_rectangles": [],
+    "zone_notes": "중앙 직교 동선과 조사 가지길. 물리·가림·높이는 외부 로컬에서 검수."
+  },
+  {
+    "id": "M11",
+    "name": "왕도 구호 창고",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M11-P01",
+        "name": "담당관",
+        "cell": [
+          12,
+          18
+        ]
+      },
+      {
+        "id": "M11-P02",
+        "name": "상차",
+        "cell": [
+          22,
+          18
+        ]
+      },
+      {
+        "id": "M11-P03",
+        "name": "운송 인수",
+        "cell": [
+          30,
+          18
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "interior-16"
+    ],
+    "quests": [
+      "MQ18"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M09"
+    ],
+    "portals": [
+      {
+        "id": "M11-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M09",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      }
+    ],
+    "blocked_rectangles": [],
+    "zone_notes": "중앙 직교 동선과 조사 가지길. 물리·가림·높이는 외부 로컬에서 검수."
+  },
+  {
+    "id": "M12",
+    "name": "남방 구릉",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M12-P01",
+        "name": "연락소",
+        "cell": [
+          12,
+          18
+        ]
+      },
+      {
+        "id": "M12-P02",
+        "name": "휴식",
+        "cell": [
+          22,
+          18
+        ]
+      },
+      {
+        "id": "M12-P03",
+        "name": "학술도시 입구",
+        "cell": [
+          32,
+          15
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "field-11"
+    ],
+    "quests": [
+      "MQ20",
+      "MQ21"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M08",
+      "M13"
+    ],
+    "portals": [
+      {
+        "id": "M12-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M08",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      },
+      {
+        "id": "M12-E2",
+        "cell": [
+          37,
+          15
+        ],
+        "target_map": "M13",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      }
+    ],
+    "blocked_rectangles": [],
+    "zone_notes": "중앙 직교 동선과 조사 가지길. 물리·가림·높이는 외부 로컬에서 검수."
+  },
+  {
+    "id": "M13",
+    "name": "학술도시 광장",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M13-P01",
+        "name": "세나",
+        "cell": [
+          12,
+          18
+        ]
+      },
+      {
+        "id": "M13-P02",
+        "name": "측량 기준점",
+        "cell": [
+          22,
+          18
+        ]
+      },
+      {
+        "id": "M13-P03",
+        "name": "상점",
+        "cell": [
+          30,
+          20
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "map-academy"
+    ],
+    "quests": [
+      "MQ21",
+      "MQ22"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M12",
+      "M14",
+      "M15"
+    ],
+    "portals": [
+      {
+        "id": "M13-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M12",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      },
+      {
+        "id": "M13-E2",
+        "cell": [
+          37,
+          15
+        ],
+        "target_map": "M14",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      },
+      {
+        "id": "M13-E3",
+        "cell": [
+          20,
+          27
+        ],
+        "target_map": "M15",
+        "gate_requirement": "MQ22 완료·북방 허가"
+      }
+    ],
+    "blocked_rectangles": [],
+    "zone_notes": "중앙 직교 동선과 조사 가지길. 물리·가림·높이는 외부 로컬에서 검수."
+  },
+  {
+    "id": "M14",
+    "name": "학술도시 연구실",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M14-P01",
+        "name": "관측 원장",
+        "cell": [
+          12,
+          18
+        ]
+      },
+      {
+        "id": "M14-P02",
+        "name": "안전 관측",
+        "cell": [
+          22,
+          18
+        ]
+      },
+      {
+        "id": "M14-P03",
+        "name": "동의표",
+        "cell": [
+          30,
+          18
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "interior-13"
+    ],
+    "quests": [
+      "MQ21",
+      "MQ22"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M13"
+    ],
+    "portals": [
+      {
+        "id": "M14-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M13",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      }
+    ],
+    "blocked_rectangles": [],
+    "zone_notes": "중앙 직교 동선과 조사 가지길. 물리·가림·높이는 외부 로컬에서 검수."
+  },
+  {
+    "id": "M15",
+    "name": "북방 접근로",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M15-P01",
+        "name": "출입 확인",
+        "cell": [
+          12,
+          18
+        ]
+      },
+      {
+        "id": "M15-P02",
+        "name": "퇴로 표식",
+        "cell": [
+          22,
+          18
+        ]
+      },
+      {
+        "id": "M15-P03",
+        "name": "집결",
+        "cell": [
+          30,
+          18
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "field-20"
+    ],
+    "quests": [
+      "MQ23",
+      "MQ26"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M13",
+      "M16"
+    ],
+    "portals": [
+      {
+        "id": "M15-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M13",
+        "gate_requirement": "MQ22 완료·북방 허가"
+      },
+      {
+        "id": "M15-E2",
+        "cell": [
+          37,
+          15
+        ],
+        "target_map": "M16",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      }
+    ],
+    "blocked_rectangles": [],
+    "zone_notes": "중앙 직교 동선과 조사 가지길. 물리·가림·높이는 외부 로컬에서 검수."
+  },
+  {
+    "id": "M16",
+    "name": "북방 시설·장치실",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M16-P01",
+        "name": "네리아",
+        "cell": [
+          12,
+          18
+        ]
+      },
+      {
+        "id": "M16-P02",
+        "name": "연결 관측",
+        "cell": [
+          22,
+          18
+        ]
+      },
+      {
+        "id": "M16-P03",
+        "name": "제한 시험",
+        "cell": [
+          30,
+          18
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "field-27",
+      "map-north"
+    ],
+    "quests": [
+      "MQ23",
+      "MQ24",
+      "MQ25"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M15",
+      "M17"
+    ],
+    "portals": [
+      {
+        "id": "M16-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M15",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      },
+      {
+        "id": "M16-E2",
+        "cell": [
+          37,
+          15
+        ],
+        "target_map": "M17",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      }
+    ],
+    "blocked_rectangles": [],
+    "zone_notes": "중앙 직교 동선과 조사 가지길. 물리·가림·높이는 외부 로컬에서 검수."
+  },
+  {
+    "id": "M17",
+    "name": "북방 휴식·구호 거점",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M17-P01",
+        "name": "치료 담당",
+        "cell": [
+          12,
+          18
+        ]
+      },
+      {
+        "id": "M17-P02",
+        "name": "관측 인계",
+        "cell": [
+          22,
+          18
+        ]
+      },
+      {
+        "id": "M17-P03",
+        "name": "편지",
+        "cell": [
+          30,
+          18
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "interior-06"
+    ],
+    "quests": [
+      "MQ25",
+      "MQ26"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M16",
+      "M18"
+    ],
+    "portals": [
+      {
+        "id": "M17-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M16",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      },
+      {
+        "id": "M17-E2",
+        "cell": [
+          37,
+          15
+        ],
+        "target_map": "M18",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      }
+    ],
+    "blocked_rectangles": [],
+    "zone_notes": "중앙 직교 동선과 조사 가지길. 물리·가림·높이는 외부 로컬에서 검수."
+  },
+  {
+    "id": "M18",
+    "name": "남방 항구",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M18-P01",
+        "name": "카이",
+        "cell": [
+          12,
+          18
+        ]
+      },
+      {
+        "id": "M18-P02",
+        "name": "항구 장부",
+        "cell": [
+          22,
+          18
+        ]
+      },
+      {
+        "id": "M18-P03",
+        "name": "승선",
+        "cell": [
+          32,
+          15
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "map-south-port"
+    ],
+    "quests": [
+      "MQ27",
+      "MQ28"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M17",
+      "M19",
+      "M20"
+    ],
+    "portals": [
+      {
+        "id": "M18-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M17",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      },
+      {
+        "id": "M18-E2",
+        "cell": [
+          37,
+          15
+        ],
+        "target_map": "M19",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      },
+      {
+        "id": "M18-E3",
+        "cell": [
+          20,
+          27
+        ],
+        "target_map": "M20",
+        "gate_requirement": "MQ28 완료·승선 동의"
+      }
+    ],
+    "blocked_rectangles": [],
+    "zone_notes": "중앙 직교 동선과 조사 가지길. 물리·가림·높이는 외부 로컬에서 검수."
+  },
+  {
+    "id": "M19",
+    "name": "해안 구조 구간",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M19-P01",
+        "name": "생존자",
+        "cell": [
+          12,
+          18
+        ]
+      },
+      {
+        "id": "M19-P02",
+        "name": "기록함",
+        "cell": [
+          22,
+          18
+        ]
+      },
+      {
+        "id": "M19-P03",
+        "name": "치료 인계",
+        "cell": [
+          30,
+          18
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "field-14"
+    ],
+    "quests": [
+      "MQ28"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M18"
+    ],
+    "portals": [
+      {
+        "id": "M19-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M18",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      }
+    ],
+    "blocked_rectangles": [
+      [
+        0,
+        0,
+        39,
+        7
+      ]
+    ],
+    "zone_notes": "해안선 y8 아래는 물. 구조는 물가의 도달 가능한 구역에서 진행, 수영 조작 없음."
+  },
+  {
+    "id": "M20",
+    "name": "해양국 항만",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M20-P01",
+        "name": "관측소",
+        "cell": [
+          12,
+          18
+        ]
+      },
+      {
+        "id": "M20-P02",
+        "name": "통행 확인",
+        "cell": [
+          22,
+          18
+        ]
+      },
+      {
+        "id": "M20-P03",
+        "name": "선적",
+        "cell": [
+          30,
+          18
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "field-21",
+      "map-sea"
+    ],
+    "quests": [
+      "MQ29",
+      "MQ31"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M18",
+      "M21",
+      "M22"
+    ],
+    "portals": [
+      {
+        "id": "M20-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M18",
+        "gate_requirement": "MQ28 완료·승선 동의"
+      },
+      {
+        "id": "M20-E2",
+        "cell": [
+          37,
+          15
+        ],
+        "target_map": "M21",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      },
+      {
+        "id": "M20-E3",
+        "cell": [
+          20,
+          27
+        ],
+        "target_map": "M22",
+        "gate_requirement": "MQ31 완료·성역행 동의"
+      }
+    ],
+    "blocked_rectangles": [],
+    "zone_notes": "중앙 직교 동선과 조사 가지길. 물리·가림·높이는 외부 로컬에서 검수."
+  },
+  {
+    "id": "M21",
+    "name": "해양국 면담실",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M21-P01",
+        "name": "발테르",
+        "cell": [
+          12,
+          18
+        ]
+      },
+      {
+        "id": "M21-P02",
+        "name": "자료 대조",
+        "cell": [
+          22,
+          18
+        ]
+      },
+      {
+        "id": "M21-P03",
+        "name": "협력 서명",
+        "cell": [
+          30,
+          18
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "interior-09"
+    ],
+    "quests": [
+      "MQ30"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M20"
+    ],
+    "portals": [
+      {
+        "id": "M21-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M20",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      }
+    ],
+    "blocked_rectangles": [],
+    "zone_notes": "중앙 직교 동선과 조사 가지길. 물리·가림·높이는 외부 로컬에서 검수."
+  },
+  {
+    "id": "M22",
+    "name": "성역 순례길",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M22-P01",
+        "name": "전달편",
+        "cell": [
+          12,
+          18
+        ]
+      },
+      {
+        "id": "M22-P02",
+        "name": "대기소",
+        "cell": [
+          22,
+          18
+        ]
+      },
+      {
+        "id": "M22-P03",
+        "name": "성역 진입",
+        "cell": [
+          32,
+          15
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "field-22"
+    ],
+    "quests": [
+      "MQ31",
+      "MQ32"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M20",
+      "M23"
+    ],
+    "portals": [
+      {
+        "id": "M22-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M20",
+        "gate_requirement": "MQ31 완료·성역행 동의"
+      },
+      {
+        "id": "M22-E2",
+        "cell": [
+          37,
+          15
+        ],
+        "target_map": "M23",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      }
+    ],
+    "blocked_rectangles": [],
+    "zone_notes": "중앙 직교 동선과 조사 가지길. 물리·가림·높이는 외부 로컬에서 검수."
+  },
+  {
+    "id": "M23",
+    "name": "성역 구호·예배실",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M23-P01",
+        "name": "이리스",
+        "cell": [
+          12,
+          18
+        ]
+      },
+      {
+        "id": "M23-P02",
+        "name": "당사자 동의",
+        "cell": [
+          22,
+          18
+        ]
+      },
+      {
+        "id": "M23-P03",
+        "name": "구호 인수",
+        "cell": [
+          30,
+          18
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "interior-20",
+      "map-sanctuary"
+    ],
+    "quests": [
+      "MQ32",
+      "MQ34"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M22",
+      "M24",
+      "M25"
+    ],
+    "portals": [
+      {
+        "id": "M23-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M22",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      },
+      {
+        "id": "M23-E2",
+        "cell": [
+          37,
+          15
+        ],
+        "target_map": "M24",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      },
+      {
+        "id": "M23-E3",
+        "cell": [
+          20,
+          27
+        ],
+        "target_map": "M25",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      }
+    ],
+    "blocked_rectangles": [],
+    "zone_notes": "중앙 직교 동선과 조사 가지길. 물리·가림·높이는 외부 로컬에서 검수."
+  },
+  {
+    "id": "M24",
+    "name": "성역 기록실",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M24-P01",
+        "name": "누락 기록",
+        "cell": [
+          12,
+          18
+        ]
+      },
+      {
+        "id": "M24-P02",
+        "name": "정비 절차",
+        "cell": [
+          22,
+          18
+        ]
+      },
+      {
+        "id": "M24-P03",
+        "name": "기술자 검토",
+        "cell": [
+          30,
+          18
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "interior-21"
+    ],
+    "quests": [
+      "MQ32",
+      "MQ33"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M23"
+    ],
+    "portals": [
+      {
+        "id": "M24-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M23",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      }
+    ],
+    "blocked_rectangles": [],
+    "zone_notes": "중앙 직교 동선과 조사 가지길. 물리·가림·높이는 외부 로컬에서 검수."
+  },
+  {
+    "id": "M25",
+    "name": "통합 구호·작전 거점",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M25-P01",
+        "name": "수송·대피",
+        "cell": [
+          12,
+          18
+        ]
+      },
+      {
+        "id": "M25-P02",
+        "name": "수리조",
+        "cell": [
+          22,
+          18
+        ]
+      },
+      {
+        "id": "M25-P03",
+        "name": "연락 합의",
+        "cell": [
+          30,
+          18
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "field-08",
+      "interior-09"
+    ],
+    "quests": [
+      "MQ34",
+      "MQ35",
+      "MQ36"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M23",
+      "M26"
+    ],
+    "portals": [
+      {
+        "id": "M25-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M23",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      },
+      {
+        "id": "M25-E2",
+        "cell": [
+          37,
+          15
+        ],
+        "target_map": "M26",
+        "gate_requirement": "MQ36 완료·중추 출발 동의"
+      }
+    ],
+    "blocked_rectangles": [],
+    "zone_notes": "중앙 직교 동선과 조사 가지길. 물리·가림·높이는 외부 로컬에서 검수."
+  },
+  {
+    "id": "M26",
+    "name": "유적 입구",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        12,
+        24
+      ],
+      [
+        20,
+        24
+      ],
+      [
+        20,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M26-P01",
+        "name": "수리조 대기",
+        "cell": [
+          8,
+          15
+        ]
+      },
+      {
+        "id": "M26-P02",
+        "name": "입구 인수",
+        "cell": [
+          30,
+          15
+        ]
+      },
+      {
+        "id": "M26-P03",
+        "name": "예비 퇴로",
+        "cell": [
+          20,
+          24
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "field-25"
+    ],
+    "quests": [
+      "MQ37",
+      "MQ36"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M25",
+      "M27"
+    ],
+    "portals": [
+      {
+        "id": "M26-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M25",
+        "gate_requirement": "MQ36 완료·중추 출발 동의"
+      },
+      {
+        "id": "M26-E2",
+        "cell": [
+          37,
+          15
+        ],
+        "target_map": "M27",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      }
+    ],
+    "blocked_rectangles": [
+      [
+        14,
+        10,
+        18,
+        20
+      ]
+    ],
+    "zone_notes": "중앙 잔벽을 우회하는 직교 통로. 수리조는 안전 대기 지점에서 신호 뒤 이동."
+  },
+  {
+    "id": "M27",
+    "name": "유적 회랑·연결로",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M27-P01",
+        "name": "예비 통로",
+        "cell": [
+          12,
+          18
+        ]
+      },
+      {
+        "id": "M27-P02",
+        "name": "권한 표식",
+        "cell": [
+          22,
+          18
+        ]
+      },
+      {
+        "id": "M27-P03",
+        "name": "중추 진입",
+        "cell": [
+          32,
+          15
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "field-26",
+      "field-29"
+    ],
+    "quests": [
+      "MQ37",
+      "MQ38",
+      "MQ39",
+      "MQ40"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M26",
+      "M28"
+    ],
+    "portals": [
+      {
+        "id": "M27-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M26",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      },
+      {
+        "id": "M27-E2",
+        "cell": [
+          37,
+          15
+        ],
+        "target_map": "M28",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      }
+    ],
+    "blocked_rectangles": [],
+    "zone_notes": "중앙 직교 동선과 조사 가지길. 물리·가림·높이는 외부 로컬에서 검수."
+  },
+  {
+    "id": "M28",
+    "name": "중추 연락소",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M28-P01",
+        "name": "실베르",
+        "cell": [
+          12,
+          18
+        ]
+      },
+      {
+        "id": "M28-P02",
+        "name": "독립 인계",
+        "cell": [
+          22,
+          18
+        ]
+      },
+      {
+        "id": "M28-P03",
+        "name": "수신·보류",
+        "cell": [
+          30,
+          18
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "interior-09",
+      "map-core"
+    ],
+    "quests": [
+      "MQ39",
+      "MQ40"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M27",
+      "M29"
+    ],
+    "portals": [
+      {
+        "id": "M28-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M27",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      },
+      {
+        "id": "M28-E2",
+        "cell": [
+          37,
+          15
+        ],
+        "target_map": "M29",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      }
+    ],
+    "blocked_rectangles": [],
+    "zone_notes": "중앙 직교 동선과 조사 가지길. 물리·가림·높이는 외부 로컬에서 검수."
+  },
+  {
+    "id": "M29",
+    "name": "중추 통제실",
+    "grid": [
+      40,
+      30
+    ],
+    "entry": [
+      2,
+      15
+    ],
+    "exit": [
+      37,
+      15
+    ],
+    "spine": [
+      [
+        2,
+        15
+      ],
+      [
+        37,
+        15
+      ]
+    ],
+    "anchors": [
+      {
+        "id": "M29-P01",
+        "name": "네리아",
+        "cell": [
+          12,
+          18
+        ]
+      },
+      {
+        "id": "M29-P02",
+        "name": "강제 제어",
+        "cell": [
+          22,
+          18
+        ]
+      },
+      {
+        "id": "M29-P03",
+        "name": "안정·인수",
+        "cell": [
+          30,
+          18
+        ]
+      }
+    ],
+    "asset_candidates": [
+      "interior-22"
+    ],
+    "quests": [
+      "MQ38",
+      "MQ41",
+      "MQ42"
+    ],
+    "layout_status": "좌표 제작안·충돌/시야 미검증",
+    "main_connections": [
+      "M28"
+    ],
+    "portals": [
+      {
+        "id": "M29-E1",
+        "cell": [
+          2,
+          15
+        ],
+        "target_map": "M28",
+        "gate_requirement": "현재 장 접근 가능 상태. 후속 미구현이면 안전한 안내"
+      }
+    ],
+    "blocked_rectangles": [],
+    "zone_notes": "강제 제어(22,18), 안전 유지(18,10)/(28,22), 인수(30,18)를 서로 다른 단계 표식으로 표시."
+  }
+]
