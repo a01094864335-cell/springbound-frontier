@@ -17,7 +17,15 @@ func _draw() -> void:
 		draw_rect(Rect2(p, block.size * scale_map), Color("455b54"))
 	for point: Dictionary in world.interactions:
 		var p: Vector2 = (point.pos + bounds / 2.0) * scale_map + box.position
-		draw_circle(p, 3.0, Color("d8b374") if point.kind == "exit" else Color("a8d4b7"))
+		var label: String = world.goal_label(point)
+		draw_circle(p, 4.0 if not label.is_empty() else 2.5, Color("f2cf86") if not label.is_empty() else Color("a8b8ac"))
+		if not label.is_empty():
+			var font := ThemeDB.fallback_font
+			var offset := Vector2(6,-4)
+			if p.x > size.x*0.6: offset.x = -font.get_string_size(label,HORIZONTAL_ALIGNMENT_LEFT,-1,11).x-5
+			var at := p+offset
+			draw_string_outline(font,at,label,HORIZONTAL_ALIGNMENT_LEFT,-1,11,3,Color("172824"))
+			draw_string(font,at,label,HORIZONTAL_ALIGNMENT_LEFT,-1,11,Color("fff0ca"))
 	var player_pos: Vector2 = (Vector2(world.hero.position.x, world.hero.position.z) + bounds / 2.0) * scale_map + box.position
 	draw_circle(player_pos, 5.0, Color("fff3d9"))
 	draw_arc(player_pos, 8, 0, TAU, 24, Color("e6be79"), 1.2)

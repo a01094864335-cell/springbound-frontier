@@ -1,0 +1,16 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+QA_NOTICE: 새 목표: 우물 물통 채우기 · 여관에 수건 전달하기
+QA_NOTICE: 물통을 채웠다.
+QA_NOTICE: 수건을 전달했다.
+QA_NOTICE: 새 목표: 집 문 옆의 약 꾸러미 챙기기
+QA_NOTICE: 약 꾸러미를 챙겼다.
+QA_NOTICE: 새 목표: 북문을 지나 돌샘 연락소로 가기
+QA_NOTICE: 기록한 여행을 이어갑니다
+QA_NOTICE: 기록한 여행을 이어갑니다
+QA_NOTICE: 기록한 여행을 이어갑니다
+QA_NOTICE: 저장 기록을 읽을 수 없습니다
+QA_NOTICE: 저장하지 못했습니다. 저장 공간을 확인해 주세요.
+PROLOGUE_CONTRACT_QA: PASS assertions=25 []
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1028)

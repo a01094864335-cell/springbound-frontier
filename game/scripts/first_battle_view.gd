@@ -1,5 +1,7 @@
 extends Node
 ## Rendering/input adapter. Simulation and persistence live outside UI callbacks.
+const AudioBank = preload("res://assets/production/audio/audio_bank.gd")
+const Motion = preload("res://scripts/prologue_motion.gd")
 const Battle = preload("res://scripts/first_battle.gd")
 var world: Node
 var model = Battle.new()
@@ -21,6 +23,8 @@ var enemy_actor: Node3D
 var enemy_sprite: Sprite3D
 var enemy_caption: Label3D
 var sword: Node3D
+var danger_root: Node3D
+var danger_key := ""
 var target_ring: MeshInstance3D
 var destination_ring: MeshInstance3D
 var textures: Dictionary = {}
@@ -41,6 +45,7 @@ var resolved := false
 var threat_visible := false
 var cell_overlay: Node3D
 var overlay_key := ""
+var tutorial = preload("res://scripts/battle_tutorial.gd").new()
 
 func setup(owner_world: Node) -> void:
 	world = owner_world
@@ -49,6 +54,7 @@ func setup(owner_world: Node) -> void:
 	for i in range(4):
 		var audio := AudioStreamPlayer.new()
 		audio.volume_db = -19
+		audio.bus = "Effects"
 		add_child(audio)
 		audio_players.append(audio)
 
@@ -59,7 +65,9 @@ func show_threat() -> void:
 	threat_visible = true
 	if is_instance_valid(enemy_actor): return
 	_make_enemy()
-	enemy_actor.position = Vector3(5,0,5)
+	enemy_actor.position = Vector3(5,0,2.5)
+	var entrance := world.create_tween()
+	entrance.tween_property(enemy_actor,"position",Vector3(5,0,5),0.7)
 	enemy_caption.text = "가시털 들쥐"
 
 func start(checkpoint: Dictionary, restore_defeat := false) -> void:
@@ -73,6 +81,7 @@ func start(checkpoint: Dictionary, restore_defeat := false) -> void:
 	resolved = false
 	target_mode = ""
 	log_lines.clear()
+	_log("레온에게 검을 빌렸다. 명령을 고른 뒤 Space로 재개하자.")
 	enemy_flash = 0
 	hero_flash = 0
 	enemy_contact = 0
@@ -88,8 +97,14 @@ func start(checkpoint: Dictionary, restore_defeat := false) -> void:
 	_refresh()
 
 func stop() -> void:
+	world.combat_pose.clear()
 	model.active = false
 	model.outcome = ""
+	hero_flash = 0
+	enemy_flash = 0
+	enemy_contact = 0
+	tutorial.stage = "off"
+	tutorial.panel.hide()
 	if world.exploration_controls: world.exploration_controls.show()
 	threat_visible = false
 	world.hud.show()
@@ -99,6 +114,9 @@ func stop() -> void:
 	if is_instance_valid(enemy_actor): enemy_actor.queue_free()
 	enemy_actor = null
 	world.hero_sprite.modulate = Color.WHITE
+	if is_instance_valid(danger_root): danger_root.queue_free()
+	danger_root = null
+	danger_key = ""
 	if is_instance_valid(target_ring): target_ring.queue_free()
 	if is_instance_valid(destination_ring): destination_ring.queue_free()
 	target_ring = null
@@ -123,7 +141,11 @@ func tick(delta: float) -> void:
 		enemy_flash = maxf(0,enemy_flash-delta)
 		hero_flash = maxf(0,hero_flash-delta)
 		enemy_contact = maxf(0,enemy_contact-delta)
-	while not model.events.is_empty(): _event(model.events.pop_front())
+	while not model.events.is_empty():
+		_event(model.events.pop_front())
+		if resolved: return
+	tutorial.tick()
+	_update_danger()
 	if is_instance_valid(enemy_sprite):
 		enemy_sprite.modulate = Color("ff8d80") if enemy_flash > 0 else Color.WHITE
 		var pose := "front"
@@ -134,14 +156,24 @@ func tick(delta: float) -> void:
 		elif diff.z < 0: pose = "back"
 		enemy_sprite.texture = textures[pose]
 		enemy_sprite.offset.y = enemy_sprite.texture.get_height()/2.0
-		enemy_sprite.pixel_size = 1.0/enemy_sprite.texture.get_height()
+		enemy_sprite.pixel_size = 1.25/enemy_sprite.texture.get_height()
 		enemy_sprite.flip_h = pose in ["side","prepare","contact"] and diff.x > 0
-		enemy_caption.text = "가시털 들쥐 · 공격 준비" if model.enemy_windup > 0 else "가시털 들쥐"
+		enemy_caption.text = "물기까지 %.1f초 · 이동해서 회피!" % model.enemy_windup if model.enemy_windup > 0 else "가시털 들쥐"
+	if model.leap_windup > 0:
+		enemy_caption.text = "범위 도약 %.1f초 · 붉은 칸 밖으로!" % model.leap_windup
+		var jump := clampf(1.0-model.leap_windup/0.35, 0, 1)
+		enemy_actor.position = model.leap_origin.lerp(model.leap_target, jump) + Vector3(0,sin(jump*PI)*1.8,0)
+	if is_instance_valid(enemy_sprite):
+		var action := 2 if model.enemy_windup>0 or model.leap_windup>0 or enemy_contact>0 else (1 if model.enemy.moving else 0)
+		if enemy_flash>0: action=3
+		Motion.render(enemy_sprite,"combat-monster-spine-rat-%d-%d" % [action,Motion.direction(model.player.position-model.enemy.position)],fmod(model.elapsed*2.0,1.0),1.2)
 	world.hero_sprite.modulate = Color("ff9b87") if hero_flash > 0 else Color.WHITE
 	_refresh()
 	_update_cells()
+	world.combat_pose.render(model,hero_flash)
 
 func _event(event: Dictionary) -> void:
+	tutorial.event(str(event.kind))
 	match event.kind:
 		"item":
 			_sound("heal")
@@ -149,6 +181,8 @@ func _event(event: Dictionary) -> void:
 			world._combat_item_used(model.potions)
 		"enemy_hit": _sound("strike"); enemy_flash = 0.2; _log("가시털 들쥐에게 %d 피해" % event.amount)
 		"hero_hit": _sound("hurt"); enemy_contact = 0.18; hero_flash = 0.25; _log("에일이 %d 피해를 받았다" % event.amount)
+		"leap_prepare": _log("범위 도약 준비 · 붉은 위험 칸 밖으로 이동하세요.")
+		"leap_miss": _log("범위 도약을 피했다")
 		"enemy_prepare": _log("마물이 몸을 낮췄다. 거리를 벌리면 물기를 피할 수 있다.")
 		"enemy_miss": enemy_contact = 0.18; _log("마물의 물기를 피했다")
 		"hero_miss": _log("검이 닿지 않았다. 거리를 확인하자.")
@@ -164,6 +198,7 @@ func _event(event: Dictionary) -> void:
 			resolved = true
 			world._combat_defeat(model.potions)
 			_show_defeat()
+			world.combat_pose.render(model,0)
 
 func handle(event: InputEvent) -> bool:
 	if not busy(): return false
@@ -211,16 +246,20 @@ func handle(event: InputEvent) -> bool:
 		var point: Variant = _ground(event.position)
 		if point == null: return true
 		if event.button_index == MOUSE_BUTTON_RIGHT or target_mode == "move":
+			if not tutorial.allows("move"): return true
 			var cell := Vector3(roundf(point.x),0,roundf(point.z))
 			var route := _path(model.player.position,cell)
 			if world._blocked(cell) or route.is_empty() or cell.distance_to(model.enemy.position) < 0.8:
 				_log("이동할 수 없는 지점이야. 길 위를 선택하자.")
 			else:
-				model.select_order("move",cell)
+				if not model.select_order("move",cell):
+					_log("현재 위치와 다른 빈 칸을 선택하세요.")
+					return true
 				target_mode = ""
 				_show_destination(cell)
 				_log("이동 명령 선택 · Space로 재개")
 		elif _enemy_hit_screen(event.position):
+			if not tutorial.allows("attack"): return true
 			model.select_order("attack")
 			target_mode = ""
 			_log("가시털 들쥐 공격 선택 · Space로 재개")
@@ -228,11 +267,17 @@ func handle(event: InputEvent) -> bool:
 		return true
 	return false
 
+func show_guide() -> void:
+	panel.show()
+	tutorial.start()
+	_refresh()
+
 func _choose(value: String) -> void:
-	if not model.active: return
+	if not model.active or not tutorial.allows(value): return
 	model.paused = true
 	if value == "wait":
 		model.select_order("wait")
+		tutorial.command_selected("wait")
 		target_mode = ""
 	else:
 		target_mode = value
@@ -241,6 +286,7 @@ func _choose(value: String) -> void:
 	_refresh()
 
 func _item() -> void:
+	if not tutorial.allows("item"): return
 	if model.select_item():
 		target_mode = ""
 		_log("회복약 선택 · 재개할 때 즉시 사용")
@@ -254,6 +300,8 @@ func _retry(with_help: bool) -> void:
 	resolved = false
 	defeat_panel.hide()
 	panel.show()
+	tutorial.stage = "off"
+	tutorial.panel.hide()
 	enemy_flash = 0
 	hero_flash = 0
 	enemy_contact = 0
@@ -282,6 +330,7 @@ func _refresh() -> void:
 		help_label.text = "② 마물이 공격 준비를 하면 이동할 칸을 지정하고 Space로 재개해 피하세요."
 	elif target_mode.is_empty() and model.hp < Battle.MAX_HP and model.potions > 0 and not model.commands_used.has("item_used"):
 		help_label.text = "③ Space로 정지 → 회복약 선택 → Space 재개. 사용 뒤에는 잠시 기다립니다."
+	if tutorial.stage != "off": help_label.text = "Space 정지·재개  ·  우클릭 이동  ·  마물 클릭 공격"
 	if is_instance_valid(target_ring): target_ring.visible = model.order == "attack" and model.active
 	if is_instance_valid(destination_ring): destination_ring.visible = model.order == "move" and model.active
 
@@ -299,6 +348,7 @@ func _make_ui() -> void:
 	var layout := Control.new()
 	layout.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	panel.add_child(layout)
+	tutorial.setup(self,layout)
 	var status := _window(layout,Vector2(24,-158),Vector2(330,134),Control.PRESET_BOTTOM_LEFT)
 	var left := VBoxContainer.new()
 	status.add_child(left)
@@ -329,14 +379,14 @@ func _make_ui() -> void:
 	heading.position = Vector2(-160,24)
 	heading.size = Vector2(320,28)
 	heading.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	help_label = world._label(layout,"",14,Color("e5d9b5"))
-	help_label.set_anchors_and_offsets_preset(Control.PRESET_CENTER_BOTTOM)
-	help_label.position = Vector2(-250,-60)
-	help_label.size = Vector2(500,44)
+	var help_box := _window(layout,Vector2(-270,-76),Vector2(540,58),Control.PRESET_CENTER_BOTTOM)
+	help_label = world._label(help_box,"",14,Color("e5d9b5"))
 	help_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-	log_label = world._label(layout,"",14,Color("e2e6dc"))
+	var log_box := _window(layout,Vector2(24,24),Vector2(340,74),Control.PRESET_TOP_LEFT)
+	log_box.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	log_label = world._label(log_box,"",15,Color("e2e6dc"))
 	log_label.set_anchors_and_offsets_preset(Control.PRESET_TOP_LEFT)
-	log_label.position = Vector2(24,24)
+	log_label.position = Vector2.ZERO
 	log_label.size = Vector2(360,76)
 	log_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	for label in [heading,help_label,log_label]:
@@ -427,7 +477,7 @@ func _make_enemy() -> void:
 	enemy_sprite.shaded = false
 	enemy_sprite.alpha_cut = SpriteBase3D.ALPHA_CUT_DISCARD
 	enemy_sprite.texture = textures.front
-	enemy_sprite.pixel_size = 1.0/enemy_sprite.texture.get_height()
+	enemy_sprite.pixel_size = 1.25/enemy_sprite.texture.get_height()
 	enemy_sprite.offset.y = enemy_sprite.texture.get_height()/2.0
 	enemy_sprite.position.y = 0.04
 	enemy_actor.add_child(enemy_sprite)
@@ -510,7 +560,7 @@ func _make_weapon() -> void:
 
 func _sync_weapon() -> void:
 	if not is_instance_valid(sword): return
-	sword.visible = bool(world.combat.sword)
+	sword.visible = bool(world.combat.sword) and not world.combat_pose.overlay.visible
 	if model.active:
 		var diff: Vector3 = model.enemy.position-world.hero.position
 		var angle := atan2(-diff.x,-diff.z)
@@ -525,6 +575,7 @@ func _toggle_time() -> void:
 		_refresh()
 		return
 	model.toggle_time()
+	tutorial.time_changed()
 	_refresh()
 
 func _enemy_hit_screen(point: Vector2) -> bool:
@@ -532,35 +583,21 @@ func _enemy_hit_screen(point: Vector2) -> bool:
 	return Rect2(foot-Vector2(55,100),Vector2(110,115)).has_point(point)
 
 func _sound(kind: String) -> void:
-	var args := OS.get_cmdline_user_args()
-	if "--qa" in args or "--battle-qa" in args or "--battle-capture" in args or "--story-capture" in args: return
+	if DisplayServer.get_name()=="headless": return
 	if not sounds.has(kind):
-		var stream := AudioStreamWAV.new()
-		stream.format = AudioStreamWAV.FORMAT_16_BITS
-		stream.mix_rate = 22050
-		var duration := 0.25 if kind == "victory" else 0.10
-		var count := int(duration*22050)
-		var pcm := PackedByteArray()
-		pcm.resize(count*2)
-		var frequencies := {"strike":880.0,"hurt":125.0,"heal":660.0,"victory":523.25}
-		for i in range(count):
-			var t := float(i)/22050.0
-			var envelope := pow(1.0-float(i)/count,2)
-			var tone := sin(TAU*float(frequencies[kind])*t)
-			if kind in ["strike","hurt"]: tone = tone*0.5+sin(TAU*3127*t)*0.3
-			elif kind == "victory": tone = (tone+sin(TAU*659.25*t)+sin(TAU*783.99*t))/3.0
-			pcm.encode_s16(i*2,int(tone*envelope*14000))
-		stream.data = pcm
-		sounds[kind] = stream
-	var audio := audio_players[audio_index % audio_players.size()]
-	audio_index += 1
-	audio.stream = sounds[kind]
-	audio.play()
+		var ids := {"strike":"audio-0-07","hurt":"audio-0-14","heal":"audio-0-15","victory":"audio-0-36"}
+		sounds[kind]=AudioBank.stream(ids.get(kind,"audio-0-33"))
+	var player: AudioStreamPlayer=audio_players[audio_index%audio_players.size()]
+	audio_index+=1
+	player.stream=sounds[kind]
+	player.play()
 
 
 func _exit_tree() -> void:
 	for audio in audio_players:
-		if is_instance_valid(audio): audio.stop()
+		if is_instance_valid(audio):
+			audio.stop()
+			audio.stream = null
 	model.blocked = Callable()
 	model.pathfinder = Callable()
 	model.line_clear = Callable()
@@ -630,3 +667,25 @@ func _window(parent: Control, offset: Vector2, dimensions: Vector2, preset: int)
 	box.add_theme_stylebox_override("panel",style)
 	parent.add_child(box)
 	return box
+
+func _update_danger() -> void:
+	var key := str(model.leap_target) if model.active and model.leap_windup > 0 else ""
+	if key == danger_key: return
+	danger_key = key
+	if is_instance_valid(danger_root): danger_root.queue_free()
+	danger_root = null
+	if key.is_empty(): return
+	danger_root = Node3D.new()
+	world.map_root.add_child(danger_root)
+	for offset in [Vector3.ZERO, Vector3.LEFT, Vector3.RIGHT, Vector3.FORWARD, Vector3.BACK]:
+		var tile := MeshInstance3D.new()
+		var mesh := BoxMesh.new()
+		mesh.size = Vector3(0.94, 0.025, 0.94)
+		tile.mesh = mesh
+		tile.position = model.leap_target+offset+Vector3(0,0.08,0)
+		var material := StandardMaterial3D.new()
+		material.shading_mode = BaseMaterial3D.SHADING_MODE_UNSHADED
+		material.transparency = BaseMaterial3D.TRANSPARENCY_ALPHA
+		material.albedo_color = Color(0.9,0.19,0.1,0.6)
+		tile.material_override = material
+		danger_root.add_child(tile)

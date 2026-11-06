@@ -1,0 +1,17 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+QA_NOTICE: 새 목표: 우물 물통 채우기 · 여관에 수건 전달하기
+QA_NOTICE: 수건을 전달했다.
+QA_NOTICE: 물통을 채웠다.
+QA_NOTICE: 새 목표: 집 문 옆의 약 꾸러미 챙기기
+QA_NOTICE: 약 꾸러미를 챙겼다.
+QA_NOTICE: 새 목표: 북문을 지나 돌샘 연락소로 가기
+QA_NOTICE: 붕대 처치 완료 · 레온과 돌샘으로 향하자.
+QA_NOTICE: 약 전달 완료 · 빌린 검을 돌려주었다.
+QA_NOTICE: 밤이 지나고, 마지막 전달편의 기록이 도착했습니다. HP·MP는 유지됩니다.
+QA_NOTICE: 수신 시각과 발생 시각, 확인된 이름과 미확인 이름을 구분했습니다.
+QA_NOTICE: MQ05 완료 · 서리골로 돌아갈 준비를 기록했습니다.
+QA_NOTICE: 기록한 여행을 이어갑니다
+PROLOGUE_QA: PASS []
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1028)

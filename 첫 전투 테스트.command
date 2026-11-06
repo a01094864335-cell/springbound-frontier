@@ -3,6 +3,8 @@ set -e
 PROJECT_ROOT="$(cd "$(dirname "$0")" && pwd)"
 if [[ -x "$PROJECT_ROOT/.local/Godot.app/Contents/MacOS/Godot" ]]; then
   GAME_ENGINE="$PROJECT_ROOT/.local/Godot.app/Contents/MacOS/Godot"
+elif [[ -x "$PROJECT_ROOT/../springbound-frontier/.local/Godot.app/Contents/MacOS/Godot" ]]; then
+  GAME_ENGINE="$PROJECT_ROOT/../springbound-frontier/.local/Godot.app/Contents/MacOS/Godot"
 elif [[ -x /Applications/Godot.app/Contents/MacOS/Godot ]]; then
   GAME_ENGINE=/Applications/Godot.app/Contents/MacOS/Godot
 elif command -v godot >/dev/null 2>&1; then

@@ -1,0 +1,58 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+QA_NOTICE: 대사·목표 글자 크기  크게
+QA_NOTICE: 새 목표: 우물 물통 채우기 · 여관에 수건 전달하기
+E2E_STAGE 01-morning map=0 hp=48
+QA_NOTICE: 서리골로 · 다가가는 중
+QA_NOTICE: 서리골
+QA_NOTICE: 오르만과 이야기하기 · 다가가는 중
+QA_NOTICE: 수건을 전달했다.
+QA_NOTICE: 우물에서 물 긷기 · 다가가는 중
+QA_NOTICE: 물통을 채웠다.
+QA_NOTICE: 기록한 여행을 이어갑니다
+QA_NOTICE: 마르타의 집으로 · 다가가는 중
+QA_NOTICE: 마르타의 집
+QA_NOTICE: 마르타와 대화 · 다가가는 중
+QA_NOTICE: 새 목표: 집 문 옆의 약 꾸러미 챙기기
+QA_NOTICE: 약 꾸러미 챙기기 · 다가가는 중
+QA_NOTICE: 약 꾸러미를 챙겼다.
+QA_NOTICE: 마르타와 대화 · 다가가는 중
+QA_NOTICE: 새 목표: 북문을 지나 돌샘 연락소로 가기
+QA_NOTICE: 기록한 여행을 이어갑니다
+QA_NOTICE: 서리골로 · 다가가는 중
+QA_NOTICE: 서리골
+QA_NOTICE: 산길 · 돌샘 방면 · 다가가는 중
+QA_NOTICE: 고요한 산길
+E2E_STAGE 02-trail map=2 hp=48.0
+QA_NOTICE: 부상당한 여행자 살피기 · 다가가는 중
+E2E_STAGE 03-battle-paused map=2 hp=48.0
+E2E_STAGE 04-range-warning map=2 hp=48.0
+BATTLE_E2E_STATE off wait { "move": true, &"move_completed": true, "wait": true, &"range_dodge": true, "attack": true, &"attack_hit": true } hp=20
+E2E_STAGE 05-victory map=2 hp=20
+QA_NOTICE: 레온의 붕대 고정 돕기 · 다가가는 중
+QA_NOTICE: 붕대 처치 완료 · 레온과 돌샘으로 향하자.
+QA_NOTICE: 기록한 여행을 이어갑니다
+QA_NOTICE: 돌샘 연락소로 · 다가가는 중
+QA_NOTICE: 돌샘 연락소
+QA_NOTICE: 약 꾸러미 전달하기 · 다가가는 중
+QA_NOTICE: 약 전달 완료 · 빌린 검을 돌려주었다.
+QA_NOTICE: 기록한 여행을 이어갑니다
+E2E_STAGE 06-handoff map=3 hp=20.0
+QA_NOTICE: 레온과 쉬어 가기 · 다가가는 중
+QA_NOTICE: 밤이 지나고, 마지막 전달편의 기록이 도착했습니다. HP·MP는 유지됩니다.
+QA_NOTICE: 기록한 여행을 이어갑니다
+QA_NOTICE: 할벤과 이야기하기 · 다가가는 중
+QA_NOTICE: 수신 시각과 발생 시각, 확인된 이름과 미확인 이름을 구분했습니다.
+E2E_STAGE 07-records map=3 hp=20.0
+QA_NOTICE: 레온과 쉬어 가기 · 다가가는 중
+E2E_STAGE 08-choice map=3 hp=20.0
+QA_NOTICE: 기록한 여행을 이어갑니다
+QA_NOTICE: 레온과 쉬어 가기 · 다가가는 중
+QA_NOTICE: MQ05 완료 · 서리골로 돌아갈 준비를 기록했습니다.
+E2E_STAGE 09-complete map=3 hp=20.0
+QA_NOTICE: 기록한 여행을 이어갑니다
+QA_NOTICE: 레온과 쉬어 가기 · 다가가는 중
+QA_NOTICE: 저장 기록을 읽을 수 없습니다
+PROLOGUE_E2E: PASS choice=b []
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1028)
