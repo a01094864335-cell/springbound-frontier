@@ -1,0 +1,212 @@
+[
+  {
+    "number": 1,
+    "title": "전투 진입",
+    "description": "목표와 패배 조건을 짧게 알리는 시작 화면",
+    "scope": "기본",
+    "state": "intro"
+  },
+  {
+    "number": 2,
+    "title": "전투 진행",
+    "description": "명령창을 접고 필드와 아군 상태를 우선 표시",
+    "scope": "기본",
+    "state": "live"
+  },
+  {
+    "number": 3,
+    "title": "명령 정지",
+    "description": "시간이 멈췄음을 표시하고 세로 명령창 열기",
+    "scope": "기본",
+    "state": "command"
+  },
+  {
+    "number": 4,
+    "title": "이동 칸 선택",
+    "description": "현재 위치·경로·도착 칸을 구분",
+    "scope": "기본",
+    "state": "move"
+  },
+  {
+    "number": 5,
+    "title": "이동 불가",
+    "description": "지형이나 점유로 선택할 수 없는 칸 안내",
+    "scope": "예외",
+    "state": "blocked"
+  },
+  {
+    "number": 6,
+    "title": "공격 대상 선택",
+    "description": "대상 정보와 인접 공격 가능 칸 표시",
+    "scope": "기본",
+    "state": "attack"
+  },
+  {
+    "number": 7,
+    "title": "접근 후 공격",
+    "description": "사거리 밖 대상에게 접근하는 명령을 확인",
+    "scope": "기본",
+    "state": "approach"
+  },
+  {
+    "number": 8,
+    "title": "공격 준비와 적중",
+    "description": "준비 게이지·피해 숫자를 필드에 표시",
+    "scope": "기본",
+    "state": "hit"
+  },
+  {
+    "number": 9,
+    "title": "적의 공격 예고",
+    "description": "공격 준비와 위험 칸을 분명하게 표시",
+    "scope": "기본",
+    "state": "warning"
+  },
+  {
+    "number": 10,
+    "title": "회피와 빗나감",
+    "description": "위협이 끝난 결과를 작은 필드 피드백으로 표시",
+    "scope": "기본",
+    "state": "miss"
+  },
+  {
+    "number": 11,
+    "title": "아이템 목록",
+    "description": "수량·사용 불가 상태·효과를 같은 창에 표시",
+    "scope": "기본",
+    "state": "items"
+  },
+  {
+    "number": 12,
+    "title": "아이템 대상 선택",
+    "description": "회복 대상과 회복 후 예상 체력 표시",
+    "scope": "기본",
+    "state": "itemtarget"
+  },
+  {
+    "number": 13,
+    "title": "아이템 사용 예약",
+    "description": "재개 전 사용 예약과 취소 가능 상태",
+    "scope": "기본",
+    "state": "itemqueue"
+  },
+  {
+    "number": 14,
+    "title": "기술·마법 목록",
+    "description": "소모 마나·시전 시간·사용 가능 상태 비교",
+    "scope": "확장",
+    "state": "spells"
+  },
+  {
+    "number": 15,
+    "title": "마법 범위 선택",
+    "description": "대상 칸·범위·영향받는 유닛 표시",
+    "scope": "확장",
+    "state": "aoe"
+  },
+  {
+    "number": 16,
+    "title": "시전 진행과 취소",
+    "description": "시전 중 진행과 취소 확인을 분리",
+    "scope": "확장",
+    "state": "casting"
+  },
+  {
+    "number": 17,
+    "title": "동료 선택과 명령",
+    "description": "아군 목록에서 선택한 인물의 명령을 구분",
+    "scope": "확장",
+    "state": "party"
+  },
+  {
+    "number": 18,
+    "title": "캐릭터 상세",
+    "description": "능력치·현재 명령·상태를 확인하는 화면",
+    "scope": "확장",
+    "state": "character"
+  },
+  {
+    "number": 19,
+    "title": "적 정보",
+    "description": "알려진 적의 사거리·현재 행동을 확인",
+    "scope": "확장",
+    "state": "inspect"
+  },
+  {
+    "number": 20,
+    "title": "상태 이상",
+    "description": "남은 시간과 효과를 색상 외 텍스트로도 전달",
+    "scope": "확장",
+    "state": "ailment"
+  },
+  {
+    "number": 21,
+    "title": "전투 중 대화",
+    "description": "캐릭터와 필드를 보존하는 하단 대화창",
+    "scope": "기본",
+    "state": "dialog"
+  },
+  {
+    "number": 22,
+    "title": "조작 안내",
+    "description": "한 번에 한 동작을 설명하는 첫 전투 안내",
+    "scope": "기본",
+    "state": "tutorial"
+  },
+  {
+    "number": 23,
+    "title": "전투 일시정지",
+    "description": "명령 정지와 별개인 시스템 메뉴",
+    "scope": "기본",
+    "state": "pause"
+  },
+  {
+    "number": 24,
+    "title": "승리 결과",
+    "description": "승리와 다음 행동을 간결하게 안내",
+    "scope": "기본",
+    "state": "victory"
+  },
+  {
+    "number": 25,
+    "title": "패배",
+    "description": "패배 원인과 다시 할 수 있는 선택 표시",
+    "scope": "기본",
+    "state": "defeat"
+  },
+  {
+    "number": 26,
+    "title": "재도전 확인",
+    "description": "복구되는 상태와 남은 소모품을 구분",
+    "scope": "기본",
+    "state": "retry"
+  },
+  {
+    "number": 27,
+    "title": "전투 표시 설정",
+    "description": "격자·경로·사거리·피해 표시 옵션 디자인",
+    "scope": "설정안",
+    "state": "settings"
+  },
+  {
+    "number": 28,
+    "title": "키 설정",
+    "description": "현재 매핑·변경 선택·기본값 복원 화면",
+    "scope": "설정안",
+    "state": "keys"
+  },
+  {
+    "number": 29,
+    "title": "후퇴 확인",
+    "description": "불가능한 전투에서는 이유와 함께 비활성화",
+    "scope": "확장",
+    "state": "retreat"
+  },
+  {
+    "number": 30,
+    "title": "시작 화면으로",
+    "description": "전투 직전 기록으로 돌아가는 종료 확인",
+    "scope": "기본",
+    "state": "exit"
+  }
+]
