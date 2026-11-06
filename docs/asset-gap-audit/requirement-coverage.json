@@ -1,0 +1,1382 @@
+[
+  {
+    "id": "AR01",
+    "requirement": "마르타의 집 플레이 배치",
+    "candidate_ids": [
+      "interior-01"
+    ],
+    "related_gap_groups": [
+      "G24",
+      "G25",
+      "G27",
+      "G06"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR02",
+    "requirement": "서리골 플레이 배치",
+    "candidate_ids": [
+      "map-frost"
+    ],
+    "related_gap_groups": [
+      "G22",
+      "G19",
+      "G25",
+      "G27",
+      "G06"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR03",
+    "requirement": "산길 플레이 배치",
+    "candidate_ids": [
+      "field-01"
+    ],
+    "related_gap_groups": [
+      "G23",
+      "G25"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR04",
+    "requirement": "돌샘 연락소·의무실 플레이 배치",
+    "candidate_ids": [
+      "interior-07",
+      "interior-06",
+      "map-border"
+    ],
+    "related_gap_groups": [
+      "G24",
+      "G22",
+      "G25"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR05",
+    "requirement": "국경 도로 플레이 배치",
+    "candidate_ids": [
+      "field-04"
+    ],
+    "related_gap_groups": [
+      "G23",
+      "G25"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR06",
+    "requirement": "피난 대기소·야영지 플레이 배치",
+    "candidate_ids": [
+      "field-08"
+    ],
+    "related_gap_groups": [
+      "G23",
+      "G25"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR07",
+    "requirement": "교량 양안 플레이 배치",
+    "candidate_ids": [
+      "field-06",
+      "map-refugee"
+    ],
+    "related_gap_groups": [
+      "G23",
+      "G22",
+      "G25",
+      "G10",
+      "G11",
+      "G12",
+      "G26",
+      "G28",
+      "G33"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR08",
+    "requirement": "왕도 외곽 플레이 배치",
+    "candidate_ids": [
+      "field-10"
+    ],
+    "related_gap_groups": [
+      "G23",
+      "G25"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR09",
+    "requirement": "왕도 대로 플레이 배치",
+    "candidate_ids": [
+      "field-09",
+      "map-capital"
+    ],
+    "related_gap_groups": [
+      "G23",
+      "G22",
+      "G25"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR10",
+    "requirement": "왕도 행정청 플레이 배치",
+    "candidate_ids": [
+      "interior-11"
+    ],
+    "related_gap_groups": [
+      "G24",
+      "G25"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR11",
+    "requirement": "왕도 구호 창고 플레이 배치",
+    "candidate_ids": [
+      "interior-16"
+    ],
+    "related_gap_groups": [
+      "G24",
+      "G25"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR12",
+    "requirement": "남방 구릉 플레이 배치",
+    "candidate_ids": [
+      "field-11"
+    ],
+    "related_gap_groups": [
+      "G23",
+      "G25"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR13",
+    "requirement": "학술도시 광장 플레이 배치",
+    "candidate_ids": [
+      "map-academy"
+    ],
+    "related_gap_groups": [
+      "G22",
+      "G19",
+      "G25"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR14",
+    "requirement": "학술도시 연구실 플레이 배치",
+    "candidate_ids": [
+      "interior-13"
+    ],
+    "related_gap_groups": [
+      "G24",
+      "G25"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR15",
+    "requirement": "북방 접근로 플레이 배치",
+    "candidate_ids": [
+      "field-20"
+    ],
+    "related_gap_groups": [
+      "G23",
+      "G25"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR16",
+    "requirement": "북방 시설·장치실 플레이 배치",
+    "candidate_ids": [
+      "field-27",
+      "map-north"
+    ],
+    "related_gap_groups": [
+      "G23",
+      "G22",
+      "G25",
+      "G29"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR17",
+    "requirement": "북방 휴식·구호 거점 플레이 배치",
+    "candidate_ids": [
+      "interior-06"
+    ],
+    "related_gap_groups": [
+      "G24",
+      "G25",
+      "G29"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR18",
+    "requirement": "남방 항구 플레이 배치",
+    "candidate_ids": [
+      "map-south-port"
+    ],
+    "related_gap_groups": [
+      "G22",
+      "G19",
+      "G25",
+      "G29"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR19",
+    "requirement": "해안 구조 구간 플레이 배치",
+    "candidate_ids": [
+      "field-14"
+    ],
+    "related_gap_groups": [
+      "G23",
+      "G25",
+      "G29"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR20",
+    "requirement": "해양국 항만 플레이 배치",
+    "candidate_ids": [
+      "field-21",
+      "map-sea"
+    ],
+    "related_gap_groups": [
+      "G23",
+      "G22",
+      "G25",
+      "G29"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR21",
+    "requirement": "해양국 면담실 플레이 배치",
+    "candidate_ids": [
+      "interior-09"
+    ],
+    "related_gap_groups": [
+      "G24",
+      "G25"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR22",
+    "requirement": "성역 순례길 플레이 배치",
+    "candidate_ids": [
+      "field-22"
+    ],
+    "related_gap_groups": [
+      "G23",
+      "G25"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR23",
+    "requirement": "성역 구호·예배실 플레이 배치",
+    "candidate_ids": [
+      "interior-20",
+      "map-sanctuary"
+    ],
+    "related_gap_groups": [
+      "G24",
+      "G22",
+      "G25"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR24",
+    "requirement": "성역 기록실 플레이 배치",
+    "candidate_ids": [
+      "interior-21"
+    ],
+    "related_gap_groups": [
+      "G24",
+      "G25"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR25",
+    "requirement": "통합 구호·작전 거점 플레이 배치",
+    "candidate_ids": [
+      "field-08",
+      "interior-09"
+    ],
+    "related_gap_groups": [
+      "G23",
+      "G24",
+      "G25"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR26",
+    "requirement": "유적 입구 플레이 배치",
+    "candidate_ids": [
+      "field-25"
+    ],
+    "related_gap_groups": [
+      "G23",
+      "G25"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR27",
+    "requirement": "유적 회랑·연결로 플레이 배치",
+    "candidate_ids": [
+      "field-26",
+      "field-29"
+    ],
+    "related_gap_groups": [
+      "G23",
+      "G25"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR28",
+    "requirement": "중추 연락소 플레이 배치",
+    "candidate_ids": [
+      "interior-09",
+      "map-core"
+    ],
+    "related_gap_groups": [
+      "G24",
+      "G22",
+      "G25",
+      "G30",
+      "G36"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR29",
+    "requirement": "중추 통제실 플레이 배치",
+    "candidate_ids": [
+      "interior-22"
+    ],
+    "related_gap_groups": [
+      "G24",
+      "G25",
+      "G30",
+      "G36"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR30",
+    "requirement": "에일 방향·동작·무기 정합",
+    "candidate_ids": [
+      "motion-pc-ael-0-0",
+      "motion-pc-ael-0-1",
+      "motion-pc-ael-0-2",
+      "motion-pc-ael-0-3",
+      "motion-pc-ael-1-0",
+      "motion-pc-ael-1-1",
+      "motion-pc-ael-1-2",
+      "motion-pc-ael-1-3",
+      "motion-pc-ael-2-0",
+      "motion-pc-ael-2-1",
+      "motion-pc-ael-2-2",
+      "motion-pc-ael-2-3",
+      "party-0-0-0-0",
+      "party-0-0-0-1",
+      "party-0-0-0-2",
+      "party-0-0-0-3",
+      "party-0-0-1-0",
+      "party-0-0-1-1",
+      "party-0-0-1-2",
+      "party-0-0-1-3",
+      "party-0-0-2-0",
+      "party-0-0-2-1",
+      "party-0-0-2-2",
+      "party-0-0-2-3",
+      "party-0-0-3-0",
+      "party-0-0-3-1",
+      "party-0-0-3-2",
+      "party-0-0-3-3",
+      "party-0-0-4-0",
+      "party-0-0-4-1",
+      "party-0-0-4-2",
+      "party-0-0-4-3",
+      "party-0-0-5-0",
+      "party-0-0-5-1",
+      "party-0-0-5-2",
+      "party-0-0-5-3",
+      "party-0-1-0-0",
+      "party-0-1-0-1",
+      "party-0-1-0-2",
+      "party-0-1-0-3",
+      "party-0-1-1-0",
+      "party-0-1-1-1",
+      "party-0-1-1-2",
+      "party-0-1-1-3",
+      "party-0-1-2-0",
+      "party-0-1-2-1",
+      "party-0-1-2-2",
+      "party-0-1-2-3",
+      "party-0-1-3-0",
+      "party-0-1-3-1",
+      "party-0-1-3-2",
+      "party-0-1-3-3",
+      "party-0-1-4-0",
+      "party-0-1-4-1",
+      "party-0-1-4-2",
+      "party-0-1-4-3",
+      "party-0-1-5-0",
+      "party-0-1-5-1",
+      "party-0-1-5-2",
+      "party-0-1-5-3",
+      "party-0-2-0-0",
+      "party-0-2-0-1",
+      "party-0-2-0-2",
+      "party-0-2-0-3",
+      "party-0-2-1-0",
+      "party-0-2-1-1",
+      "party-0-2-1-2",
+      "party-0-2-1-3",
+      "party-0-2-2-0",
+      "party-0-2-2-1",
+      "party-0-2-2-2",
+      "party-0-2-2-3",
+      "party-0-2-3-0",
+      "party-0-2-3-1",
+      "party-0-2-3-2",
+      "party-0-2-3-3",
+      "party-0-2-4-0",
+      "party-0-2-4-1",
+      "party-0-2-4-2",
+      "party-0-2-4-3",
+      "party-0-2-5-0",
+      "party-0-2-5-1",
+      "party-0-2-5-2",
+      "party-0-2-5-3",
+      "party-0-3-0-0",
+      "party-0-3-0-1",
+      "party-0-3-0-2",
+      "party-0-3-0-3",
+      "party-0-3-1-0",
+      "party-0-3-1-1",
+      "party-0-3-1-2",
+      "party-0-3-1-3",
+      "party-0-3-2-0",
+      "party-0-3-2-1",
+      "party-0-3-2-2",
+      "party-0-3-2-3",
+      "party-0-3-3-0",
+      "party-0-3-3-1",
+      "party-0-3-3-2",
+      "party-0-3-3-3",
+      "party-0-3-4-0",
+      "party-0-3-4-1",
+      "party-0-3-4-2",
+      "party-0-3-4-3",
+      "party-0-3-5-0",
+      "party-0-3-5-1",
+      "party-0-3-5-2",
+      "party-0-3-5-3",
+      "party-0-4-0-0",
+      "party-0-4-0-1",
+      "party-0-4-0-2",
+      "party-0-4-0-3",
+      "party-0-4-1-0",
+      "party-0-4-1-1",
+      "party-0-4-1-2",
+      "party-0-4-1-3",
+      "party-0-4-2-0",
+      "party-0-4-2-1",
+      "party-0-4-2-2",
+      "party-0-4-2-3",
+      "party-0-4-3-0",
+      "party-0-4-3-1",
+      "party-0-4-3-2",
+      "party-0-4-3-3",
+      "party-0-4-4-0",
+      "party-0-4-4-1",
+      "party-0-4-4-2",
+      "party-0-4-4-3",
+      "party-0-4-5-0",
+      "party-0-4-5-1",
+      "party-0-4-5-2",
+      "party-0-4-5-3",
+      "party-0-5-0-0",
+      "party-0-5-0-1",
+      "party-0-5-0-2",
+      "party-0-5-0-3",
+      "party-0-5-1-0",
+      "party-0-5-1-1",
+      "party-0-5-1-2",
+      "party-0-5-1-3",
+      "party-0-5-2-0",
+      "party-0-5-2-1",
+      "party-0-5-2-2",
+      "party-0-5-2-3",
+      "party-0-5-3-0",
+      "party-0-5-3-1",
+      "party-0-5-3-2",
+      "party-0-5-3-3",
+      "party-0-5-4-0",
+      "party-0-5-4-1",
+      "party-0-5-4-2",
+      "party-0-5-4-3",
+      "party-0-5-5-0",
+      "party-0-5-5-1",
+      "party-0-5-5-2",
+      "party-0-5-5-3",
+      "party-0-6-0-0",
+      "party-0-6-0-1",
+      "party-0-6-0-2",
+      "party-0-6-0-3",
+      "party-0-6-1-0",
+      "party-0-6-1-1",
+      "party-0-6-1-2",
+      "party-0-6-1-3",
+      "party-0-6-2-0",
+      "party-0-6-2-1",
+      "party-0-6-2-2",
+      "party-0-6-2-3",
+      "party-0-6-3-0",
+      "party-0-6-3-1",
+      "party-0-6-3-2",
+      "party-0-6-3-3",
+      "party-0-6-4-0",
+      "party-0-6-4-1",
+      "party-0-6-4-2",
+      "party-0-6-4-3",
+      "party-0-6-5-0",
+      "party-0-6-5-1",
+      "party-0-6-5-2",
+      "party-0-6-5-3"
+    ],
+    "related_gap_groups": [
+      "G02",
+      "G04",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR31",
+    "requirement": "레온 방향·동작·무기 정합",
+    "candidate_ids": [
+      "motion-npc-leon-0-0",
+      "motion-npc-leon-0-1",
+      "motion-npc-leon-0-2",
+      "motion-npc-leon-0-3",
+      "motion-npc-leon-1-0",
+      "motion-npc-leon-1-1",
+      "motion-npc-leon-1-2",
+      "motion-npc-leon-1-3",
+      "motion-npc-leon-2-0",
+      "motion-npc-leon-2-1",
+      "motion-npc-leon-2-2",
+      "motion-npc-leon-2-3",
+      "party-1-0-0-0",
+      "party-1-0-0-1",
+      "party-1-0-0-2",
+      "party-1-0-0-3",
+      "party-1-0-1-0",
+      "party-1-0-1-1",
+      "party-1-0-1-2",
+      "party-1-0-1-3",
+      "party-1-0-2-0",
+      "party-1-0-2-1",
+      "party-1-0-2-2",
+      "party-1-0-2-3",
+      "party-1-0-3-0",
+      "party-1-0-3-1",
+      "party-1-0-3-2",
+      "party-1-0-3-3",
+      "party-1-0-4-0",
+      "party-1-0-4-1",
+      "party-1-0-4-2",
+      "party-1-0-4-3",
+      "party-1-0-5-0",
+      "party-1-0-5-1",
+      "party-1-0-5-2",
+      "party-1-0-5-3"
+    ],
+    "related_gap_groups": [
+      "G02",
+      "G04",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR32",
+    "requirement": "리아 방향·동작·무기 정합",
+    "candidate_ids": [
+      "motion-npc-ria-0-0",
+      "motion-npc-ria-0-1",
+      "motion-npc-ria-0-2",
+      "motion-npc-ria-0-3",
+      "motion-npc-ria-1-0",
+      "motion-npc-ria-1-1",
+      "motion-npc-ria-1-2",
+      "motion-npc-ria-1-3",
+      "motion-npc-ria-2-0",
+      "motion-npc-ria-2-1",
+      "motion-npc-ria-2-2",
+      "motion-npc-ria-2-3",
+      "party-2-0-0-0",
+      "party-2-0-0-1",
+      "party-2-0-0-2",
+      "party-2-0-0-3",
+      "party-2-0-1-0",
+      "party-2-0-1-1",
+      "party-2-0-1-2",
+      "party-2-0-1-3",
+      "party-2-0-2-0",
+      "party-2-0-2-1",
+      "party-2-0-2-2",
+      "party-2-0-2-3",
+      "party-2-0-3-0",
+      "party-2-0-3-1",
+      "party-2-0-3-2",
+      "party-2-0-3-3",
+      "party-2-0-4-0",
+      "party-2-0-4-1",
+      "party-2-0-4-2",
+      "party-2-0-4-3",
+      "party-2-0-5-0",
+      "party-2-0-5-1",
+      "party-2-0-5-2",
+      "party-2-0-5-3"
+    ],
+    "related_gap_groups": [
+      "G02",
+      "G04",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR33",
+    "requirement": "세나 방향·동작·무기 정합",
+    "candidate_ids": [
+      "motion-npc-sena-0-0",
+      "motion-npc-sena-0-1",
+      "motion-npc-sena-0-2",
+      "motion-npc-sena-0-3",
+      "motion-npc-sena-1-0",
+      "motion-npc-sena-1-1",
+      "motion-npc-sena-1-2",
+      "motion-npc-sena-1-3",
+      "motion-npc-sena-2-0",
+      "motion-npc-sena-2-1",
+      "motion-npc-sena-2-2",
+      "motion-npc-sena-2-3",
+      "party-3-0-0-0",
+      "party-3-0-0-1",
+      "party-3-0-0-2",
+      "party-3-0-0-3",
+      "party-3-0-1-0",
+      "party-3-0-1-1",
+      "party-3-0-1-2",
+      "party-3-0-1-3",
+      "party-3-0-2-0",
+      "party-3-0-2-1",
+      "party-3-0-2-2",
+      "party-3-0-2-3",
+      "party-3-0-3-0",
+      "party-3-0-3-1",
+      "party-3-0-3-2",
+      "party-3-0-3-3",
+      "party-3-0-4-0",
+      "party-3-0-4-1",
+      "party-3-0-4-2",
+      "party-3-0-4-3",
+      "party-3-0-5-0",
+      "party-3-0-5-1",
+      "party-3-0-5-2",
+      "party-3-0-5-3"
+    ],
+    "related_gap_groups": [
+      "G02",
+      "G04",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR34",
+    "requirement": "카이 방향·동작·무기 정합",
+    "candidate_ids": [
+      "motion-npc-kai-0-0",
+      "motion-npc-kai-0-1",
+      "motion-npc-kai-0-2",
+      "motion-npc-kai-0-3",
+      "motion-npc-kai-1-0",
+      "motion-npc-kai-1-1",
+      "motion-npc-kai-1-2",
+      "motion-npc-kai-1-3",
+      "motion-npc-kai-2-0",
+      "motion-npc-kai-2-1",
+      "motion-npc-kai-2-2",
+      "motion-npc-kai-2-3",
+      "party-4-0-0-0",
+      "party-4-0-0-1",
+      "party-4-0-0-2",
+      "party-4-0-0-3",
+      "party-4-0-1-0",
+      "party-4-0-1-1",
+      "party-4-0-1-2",
+      "party-4-0-1-3",
+      "party-4-0-2-0",
+      "party-4-0-2-1",
+      "party-4-0-2-2",
+      "party-4-0-2-3",
+      "party-4-0-3-0",
+      "party-4-0-3-1",
+      "party-4-0-3-2",
+      "party-4-0-3-3",
+      "party-4-0-4-0",
+      "party-4-0-4-1",
+      "party-4-0-4-2",
+      "party-4-0-4-3",
+      "party-4-0-5-0",
+      "party-4-0-5-1",
+      "party-4-0-5-2",
+      "party-4-0-5-3",
+      "party-4-1-0-0",
+      "party-4-1-0-1",
+      "party-4-1-0-2",
+      "party-4-1-0-3",
+      "party-4-1-1-0",
+      "party-4-1-1-1",
+      "party-4-1-1-2",
+      "party-4-1-1-3",
+      "party-4-1-2-0",
+      "party-4-1-2-1",
+      "party-4-1-2-2",
+      "party-4-1-2-3",
+      "party-4-1-3-0",
+      "party-4-1-3-1",
+      "party-4-1-3-2",
+      "party-4-1-3-3",
+      "party-4-1-4-0",
+      "party-4-1-4-1",
+      "party-4-1-4-2",
+      "party-4-1-4-3",
+      "party-4-1-5-0",
+      "party-4-1-5-1",
+      "party-4-1-5-2",
+      "party-4-1-5-3"
+    ],
+    "related_gap_groups": [
+      "G02",
+      "G04",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR35",
+    "requirement": "이리스 방향·동작·무기 정합",
+    "candidate_ids": [
+      "motion-npc-iris-0-0",
+      "motion-npc-iris-0-1",
+      "motion-npc-iris-0-2",
+      "motion-npc-iris-0-3",
+      "motion-npc-iris-1-0",
+      "motion-npc-iris-1-1",
+      "motion-npc-iris-1-2",
+      "motion-npc-iris-1-3",
+      "motion-npc-iris-2-0",
+      "motion-npc-iris-2-1",
+      "motion-npc-iris-2-2",
+      "motion-npc-iris-2-3",
+      "party-5-0-0-0",
+      "party-5-0-0-1",
+      "party-5-0-0-2",
+      "party-5-0-0-3",
+      "party-5-0-1-0",
+      "party-5-0-1-1",
+      "party-5-0-1-2",
+      "party-5-0-1-3",
+      "party-5-0-2-0",
+      "party-5-0-2-1",
+      "party-5-0-2-2",
+      "party-5-0-2-3",
+      "party-5-0-3-0",
+      "party-5-0-3-1",
+      "party-5-0-3-2",
+      "party-5-0-3-3",
+      "party-5-0-4-0",
+      "party-5-0-4-1",
+      "party-5-0-4-2",
+      "party-5-0-4-3",
+      "party-5-0-5-0",
+      "party-5-0-5-1",
+      "party-5-0-5-2",
+      "party-5-0-5-3"
+    ],
+    "related_gap_groups": [
+      "G02",
+      "G04",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR36",
+    "requirement": "가시털 들쥐 필수 적 가독성/동작",
+    "candidate_ids": [
+      "appearance-monster-spine-rat",
+      "combat-monster-spine-rat-0-0",
+      "combat-monster-spine-rat-0-1",
+      "combat-monster-spine-rat-0-2",
+      "combat-monster-spine-rat-0-3",
+      "combat-monster-spine-rat-1-0",
+      "combat-monster-spine-rat-1-1",
+      "combat-monster-spine-rat-1-2",
+      "combat-monster-spine-rat-1-3",
+      "combat-monster-spine-rat-2-0",
+      "combat-monster-spine-rat-2-1",
+      "combat-monster-spine-rat-2-2",
+      "combat-monster-spine-rat-2-3",
+      "combat-monster-spine-rat-3-0",
+      "combat-monster-spine-rat-3-1",
+      "combat-monster-spine-rat-3-2",
+      "combat-monster-spine-rat-3-3",
+      "combat-monster-spine-rat-4-0",
+      "combat-monster-spine-rat-4-1",
+      "combat-monster-spine-rat-4-2",
+      "combat-monster-spine-rat-4-3",
+      "special-monster-spine-rat"
+    ],
+    "related_gap_groups": [
+      "G04",
+      "G05",
+      "G13"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR37",
+    "requirement": "국경 검병 필수 적 가독성/동작",
+    "candidate_ids": [
+      "appearance-enemy-swordsman",
+      "combat-enemy-swordsman-0-0",
+      "combat-enemy-swordsman-0-1",
+      "combat-enemy-swordsman-0-2",
+      "combat-enemy-swordsman-0-3",
+      "combat-enemy-swordsman-1-0",
+      "combat-enemy-swordsman-1-1",
+      "combat-enemy-swordsman-1-2",
+      "combat-enemy-swordsman-1-3",
+      "combat-enemy-swordsman-2-0",
+      "combat-enemy-swordsman-2-1",
+      "combat-enemy-swordsman-2-2",
+      "combat-enemy-swordsman-2-3",
+      "combat-enemy-swordsman-3-0",
+      "combat-enemy-swordsman-3-1",
+      "combat-enemy-swordsman-3-2",
+      "combat-enemy-swordsman-3-3",
+      "combat-enemy-swordsman-4-0",
+      "combat-enemy-swordsman-4-1",
+      "combat-enemy-swordsman-4-2",
+      "combat-enemy-swordsman-4-3",
+      "special-enemy-swordsman"
+    ],
+    "related_gap_groups": [
+      "G04",
+      "G05",
+      "G13"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR38",
+    "requirement": "국경 창병 필수 적 가독성/동작",
+    "candidate_ids": [
+      "appearance-enemy-spearman",
+      "combat-enemy-spearman-0-0",
+      "combat-enemy-spearman-0-1",
+      "combat-enemy-spearman-0-2",
+      "combat-enemy-spearman-0-3",
+      "combat-enemy-spearman-1-0",
+      "combat-enemy-spearman-1-1",
+      "combat-enemy-spearman-1-2",
+      "combat-enemy-spearman-1-3",
+      "combat-enemy-spearman-2-0",
+      "combat-enemy-spearman-2-1",
+      "combat-enemy-spearman-2-2",
+      "combat-enemy-spearman-2-3",
+      "combat-enemy-spearman-3-0",
+      "combat-enemy-spearman-3-1",
+      "combat-enemy-spearman-3-2",
+      "combat-enemy-spearman-3-3",
+      "combat-enemy-spearman-4-0",
+      "combat-enemy-spearman-4-1",
+      "combat-enemy-spearman-4-2",
+      "combat-enemy-spearman-4-3",
+      "special-enemy-spearman"
+    ],
+    "related_gap_groups": [
+      "G04",
+      "G05",
+      "G13"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR39",
+    "requirement": "군 궁병 필수 적 가독성/동작",
+    "candidate_ids": [
+      "appearance-enemy-archer",
+      "combat-enemy-archer-0-0",
+      "combat-enemy-archer-0-1",
+      "combat-enemy-archer-0-2",
+      "combat-enemy-archer-0-3",
+      "combat-enemy-archer-1-0",
+      "combat-enemy-archer-1-1",
+      "combat-enemy-archer-1-2",
+      "combat-enemy-archer-1-3",
+      "combat-enemy-archer-2-0",
+      "combat-enemy-archer-2-1",
+      "combat-enemy-archer-2-2",
+      "combat-enemy-archer-2-3",
+      "combat-enemy-archer-3-0",
+      "combat-enemy-archer-3-1",
+      "combat-enemy-archer-3-2",
+      "combat-enemy-archer-3-3",
+      "combat-enemy-archer-4-0",
+      "combat-enemy-archer-4-1",
+      "combat-enemy-archer-4-2",
+      "combat-enemy-archer-4-3",
+      "special-enemy-archer"
+    ],
+    "related_gap_groups": [
+      "G04",
+      "G05",
+      "G13"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR40",
+    "requirement": "유적 감시구 필수 적 가독성/동작",
+    "candidate_ids": [
+      "appearance-monster-sentinel-orb",
+      "combat-monster-sentinel-orb-0-0",
+      "combat-monster-sentinel-orb-0-1",
+      "combat-monster-sentinel-orb-0-2",
+      "combat-monster-sentinel-orb-0-3",
+      "combat-monster-sentinel-orb-1-0",
+      "combat-monster-sentinel-orb-1-1",
+      "combat-monster-sentinel-orb-1-2",
+      "combat-monster-sentinel-orb-1-3",
+      "combat-monster-sentinel-orb-2-0",
+      "combat-monster-sentinel-orb-2-1",
+      "combat-monster-sentinel-orb-2-2",
+      "combat-monster-sentinel-orb-2-3",
+      "combat-monster-sentinel-orb-3-0",
+      "combat-monster-sentinel-orb-3-1",
+      "combat-monster-sentinel-orb-3-2",
+      "combat-monster-sentinel-orb-3-3",
+      "combat-monster-sentinel-orb-4-0",
+      "combat-monster-sentinel-orb-4-1",
+      "combat-monster-sentinel-orb-4-2",
+      "combat-monster-sentinel-orb-4-3",
+      "special-monster-sentinel-orb"
+    ],
+    "related_gap_groups": [
+      "G04",
+      "G05",
+      "G13"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR41",
+    "requirement": "석갑 수호체 필수 적 가독성/동작",
+    "candidate_ids": [
+      "appearance-monster-stone-guardian",
+      "combat-monster-stone-guardian-0-0",
+      "combat-monster-stone-guardian-0-1",
+      "combat-monster-stone-guardian-0-2",
+      "combat-monster-stone-guardian-0-3",
+      "combat-monster-stone-guardian-1-0",
+      "combat-monster-stone-guardian-1-1",
+      "combat-monster-stone-guardian-1-2",
+      "combat-monster-stone-guardian-1-3",
+      "combat-monster-stone-guardian-2-0",
+      "combat-monster-stone-guardian-2-1",
+      "combat-monster-stone-guardian-2-2",
+      "combat-monster-stone-guardian-2-3",
+      "combat-monster-stone-guardian-3-0",
+      "combat-monster-stone-guardian-3-1",
+      "combat-monster-stone-guardian-3-2",
+      "combat-monster-stone-guardian-3-3",
+      "combat-monster-stone-guardian-4-0",
+      "combat-monster-stone-guardian-4-1",
+      "combat-monster-stone-guardian-4-2",
+      "combat-monster-stone-guardian-4-3",
+      "special-monster-stone-guardian"
+    ],
+    "related_gap_groups": [
+      "G04",
+      "G05",
+      "G13"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR42",
+    "requirement": "첫 전투·레온 사건",
+    "candidate_ids": [
+      "presentation-3-04",
+      "presentation-3-05",
+      "presentation-3-06",
+      "presentation-3-07",
+      "presentation-3-08"
+    ],
+    "related_gap_groups": [
+      "G04",
+      "G05",
+      "G08",
+      "G14",
+      "G42"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR43",
+    "requirement": "지역 상태",
+    "candidate_ids": [
+      "world-state-1",
+      "world-state-2",
+      "world-state-3"
+    ],
+    "related_gap_groups": [
+      "G27",
+      "G28",
+      "G29",
+      "G30"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR44",
+    "requirement": "전투 선택/명령/위험",
+    "candidate_ids": [
+      "presentation-2-13",
+      "presentation-2-14",
+      "presentation-2-15",
+      "presentation-2-16",
+      "presentation-2-17"
+    ],
+    "related_gap_groups": [
+      "G31",
+      "G32"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR45",
+    "requirement": "즉시 아이템·재도전",
+    "candidate_ids": [
+      "presentation-2-22",
+      "presentation-2-23",
+      "presentation-2-33"
+    ],
+    "related_gap_groups": [
+      "G08",
+      "G34"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR46",
+    "requirement": "증언 동의/원본 보관",
+    "candidate_ids": [
+      "presentation-2-01",
+      "presentation-2-03",
+      "presentation-2-09"
+    ],
+    "related_gap_groups": [
+      "G14",
+      "G35"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR47",
+    "requirement": "중추 준비/보고/판본",
+    "candidate_ids": [
+      "presentation-2-09",
+      "presentation-2-10",
+      "presentation-3-10"
+    ],
+    "related_gap_groups": [
+      "G30",
+      "G36"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR48",
+    "requirement": "상점·장비·관계",
+    "candidate_ids": [
+      "presentation-2-21",
+      "presentation-2-24",
+      "presentation-2-25",
+      "presentation-2-26"
+    ],
+    "related_gap_groups": [
+      "G39",
+      "G40"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR49",
+    "requirement": "아이템 아이콘 장면 적용",
+    "candidate_ids": [
+      "icon-item-one-handed-swords-01",
+      "icon-item-one-handed-swords-02",
+      "icon-item-one-handed-swords-03",
+      "icon-item-one-handed-swords-04",
+      "icon-item-one-handed-swords-05",
+      "icon-item-spears-01",
+      "icon-item-spears-02",
+      "icon-item-spears-03",
+      "icon-item-spears-04",
+      "icon-item-spears-05",
+      "icon-item-bows-01",
+      "icon-item-bows-02",
+      "icon-item-bows-03",
+      "icon-item-bows-04",
+      "icon-item-bows-05",
+      "icon-item-daggers-01",
+      "icon-item-daggers-02",
+      "icon-item-daggers-03",
+      "icon-item-daggers-04",
+      "icon-item-daggers-05",
+      "icon-item-staves-01",
+      "icon-item-staves-02",
+      "icon-item-staves-03",
+      "icon-item-staves-04",
+      "icon-item-staves-05",
+      "icon-item-light-armor-01",
+      "icon-item-light-armor-02",
+      "icon-item-light-armor-03",
+      "icon-item-light-armor-04",
+      "icon-item-light-armor-05",
+      "icon-item-heavy-armor-01",
+      "icon-item-heavy-armor-02",
+      "icon-item-heavy-armor-03",
+      "icon-item-heavy-armor-04",
+      "icon-item-heavy-armor-05",
+      "icon-item-gloves-01",
+      "icon-item-gloves-02",
+      "icon-item-gloves-03",
+      "icon-item-gloves-04",
+      "icon-item-gloves-05",
+      "icon-item-amulets-01",
+      "icon-item-amulets-02",
+      "icon-item-amulets-03",
+      "icon-item-amulets-04",
+      "icon-item-amulets-05",
+      "icon-item-rings-01",
+      "icon-item-rings-02",
+      "icon-item-rings-03",
+      "icon-item-rings-04",
+      "icon-item-rings-05",
+      "icon-item-recovery-and-cures-01",
+      "icon-item-recovery-and-cures-02",
+      "icon-item-recovery-and-cures-03",
+      "icon-item-recovery-and-cures-04",
+      "icon-item-recovery-and-cures-05",
+      "icon-item-recovery-and-cures-06",
+      "icon-item-recovery-and-cures-07",
+      "icon-item-recovery-and-cures-08",
+      "icon-item-recovery-and-cures-09",
+      "icon-item-recovery-and-cures-10",
+      "icon-item-herbs-and-materials-01",
+      "icon-item-herbs-and-materials-02",
+      "icon-item-herbs-and-materials-03",
+      "icon-item-herbs-and-materials-04",
+      "icon-item-herbs-and-materials-05",
+      "icon-item-herbs-and-materials-06",
+      "icon-item-exploration-tools-01",
+      "icon-item-exploration-tools-02",
+      "icon-item-exploration-tools-03",
+      "icon-item-exploration-tools-04",
+      "icon-item-exploration-tools-05",
+      "icon-item-quest-and-records-01",
+      "icon-item-quest-and-records-02",
+      "icon-item-quest-and-records-03",
+      "icon-item-quest-and-records-04",
+      "icon-item-quest-and-records-05",
+      "icon-item-key-and-keepsakes-01",
+      "icon-item-key-and-keepsakes-02",
+      "icon-item-key-and-keepsakes-03",
+      "icon-item-key-and-keepsakes-04",
+      "icon-shield-1",
+      "icon-shield-2",
+      "icon-shield-3",
+      "icon-shield-4",
+      "icon-shield-5"
+    ],
+    "related_gap_groups": [
+      "G39"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR50",
+    "requirement": "효과음 장면 적용",
+    "candidate_ids": [
+      "audio-0-01",
+      "audio-0-02",
+      "audio-0-03",
+      "audio-0-04",
+      "audio-0-05",
+      "audio-0-06",
+      "audio-0-07",
+      "audio-0-08",
+      "audio-0-09",
+      "audio-0-10",
+      "audio-0-11",
+      "audio-0-12",
+      "audio-0-13",
+      "audio-0-14",
+      "audio-0-15",
+      "audio-0-16",
+      "audio-0-17",
+      "audio-0-18",
+      "audio-0-19",
+      "audio-0-20",
+      "audio-0-21",
+      "audio-0-22",
+      "audio-0-23",
+      "audio-0-24",
+      "audio-0-25",
+      "audio-0-26",
+      "audio-0-27",
+      "audio-0-28",
+      "audio-0-29",
+      "audio-0-30",
+      "audio-0-31",
+      "audio-0-32",
+      "audio-0-33",
+      "audio-0-34",
+      "audio-0-35",
+      "audio-0-36",
+      "audio-0-37",
+      "audio-0-38",
+      "audio-0-39",
+      "audio-0-40"
+    ],
+    "related_gap_groups": [
+      "G43",
+      "G45"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR51",
+    "requirement": "환경음 장면 적용",
+    "candidate_ids": [
+      "audio-1-01",
+      "audio-1-02",
+      "audio-1-03",
+      "audio-1-04",
+      "audio-1-05",
+      "audio-1-06",
+      "audio-1-07",
+      "audio-1-08",
+      "audio-1-09",
+      "audio-1-10",
+      "audio-1-11",
+      "audio-1-12",
+      "audio-1-13",
+      "audio-1-14",
+      "audio-1-15",
+      "audio-1-16",
+      "audio-1-17"
+    ],
+    "related_gap_groups": [
+      "G44"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  },
+  {
+    "id": "AR52",
+    "requirement": "음악 장면 적용",
+    "candidate_ids": [
+      "audio-2-01",
+      "audio-2-02",
+      "audio-2-03",
+      "audio-2-04",
+      "audio-2-05",
+      "audio-2-06",
+      "audio-2-07",
+      "audio-2-08",
+      "audio-2-09",
+      "audio-2-10",
+      "audio-2-11",
+      "audio-2-12",
+      "audio-2-13",
+      "audio-2-14",
+      "audio-2-15",
+      "audio-2-16",
+      "audio-2-17",
+      "audio-2-18",
+      "audio-2-19",
+      "audio-2-20",
+      "audio-2-21",
+      "audio-2-22",
+      "audio-2-23"
+    ],
+    "related_gap_groups": [
+      "G44"
+    ],
+    "review": "경로 존재에서 내용/연결/품질 부족으로 상세화. 새 제작 필요 수와 동일하지 않음"
+  }
+]
