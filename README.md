@@ -84,3 +84,7 @@ Springbound Frontier · 가제
 [전체 검색·동작 재생 HTML](docs/remaining-assets/index.html) · [제작 범위와 검증](docs/full-remainder-production.md)
 
 잔여1,764항목의 1차 파일을 제작했습니다. 최종 픽셀 미술·규격 정합화·실제 게임 연결은 별도입니다. Godot 검토 장면: `res://tests/asset_production/remaining_browser.tscn`.
+
+## MQ01~05 적용·실행 검수 (2026-11-06)
+
+[실제 플레이 범위·E2E 결과·재현 방법](docs/prologue-mq01-05-complete.md). `프롤로그 플레이.command`로 시작하고 `프롤로그 E2E 점검.command`로 분리된 QA 기록에서 검수합니다.

@@ -3,13 +3,14 @@ const Story = preload("res://scripts/prologue_story.gd")
 const Battle = preload("res://scripts/first_battle.gd")
 
 static func fresh() -> Dictionary:
-	return {"hp":Battle.MAX_HP,"mp":0,"potions":2,"won":false,"sword":false,"mode":"story","checkpoint":{}}
+	return {"hp":Battle.MAX_HP,"mp":0,"potions":2,"won":false,"victory_source":"unplayed","sword":false,"mode":"story","checkpoint":{}}
 
-static func decode(value: Variant, version: int, met_leon: bool, delivered: bool, map_index: int) -> Dictionary:
+static func decode(value: Variant, version: int, met_leon: bool, delivered: bool, map_index: int, saved_story: Dictionary = {}) -> Dictionary:
 	var result := fresh()
 	if version < 3:
 		# Existing prototype journeys already past Leon are not forced to replay.
 		result.won = met_leon or delivered
+		result.victory_source = "legacy_skipped" if result.won else "unplayed"
 		return result
 	if not value is Dictionary: return {}
 	for field in ["hp","mp","potions"]:
@@ -19,7 +20,7 @@ static func decode(value: Variant, version: int, met_leon: bool, delivered: bool
 		if not value.get(field) is bool: return {}
 	if value.get("mode") not in ["story","tactical"] or not value.get("checkpoint") is Dictionary: return {}
 	if (met_leon or delivered) and not value.won: return {}
-	if delivered and value.sword: return {}
+	if delivered and value.sword and not saved_story.get("departure",false): return {}
 	var cp: Dictionary = value.checkpoint
 	if not cp.is_empty():
 		if map_index != 2 or value.won or met_leon or delivered or not value.sword: return {}
@@ -33,6 +34,8 @@ static func decode(value: Variant, version: int, met_leon: bool, delivered: bool
 		if not validator.restore(3,true,false,false,cp.story): return {}
 		if value.hp != cp.hp or value.mp != cp.mp: return {}
 	result = value.duplicate(true)
+	result.victory_source = value.get("victory_source", "played" if value.won else "unplayed")
+	if result.victory_source not in ["unplayed","played","legacy_skipped"]: return {}
 	return result
 
 static func _integer(value: Variant) -> bool:

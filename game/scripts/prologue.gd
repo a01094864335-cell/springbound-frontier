@@ -5,6 +5,29 @@ const CombatProgress = preload("res://scripts/combat_progress.gd")
 const PrologueStory = preload("res://scripts/prologue_story.gd")
 const CAST := {"오르만":"orman", "니아":"nia", "도렌":"doren", "베라":"vera", "로크":"roke", "에다":"eda", "할벤":"halven"}
 
+const PrologueAudio = preload("res://scripts/prologue_audio.gd")
+const Companion = preload("res://scripts/prologue_companion.gd")
+const Motion = preload("res://scripts/prologue_motion.gd")
+const CombatPose = preload("res://scripts/prologue_combat_pose.gd")
+var travel: Node
+var stage: Node
+var audio: Node
+var companion: Node
+var combat_pose = CombatPose.new()
+var choice_panel: PanelContainer
+var choice_buttons: Array[Button] = []
+var completion_panel: PanelContainer
+var completion_text: Label
+var completion_continue: Button
+var settings_path := "user://presentation.cfg"
+var injured_leon: Node3D
+var leon_obstacle := Rect2()
+var environment_scenes: Dictionary = {}
+var medicine_visual: Node3D
+var medicine_marker: Label3D
+var play_seconds := 0.0
+var new_game_confirm: ConfirmationDialog
+
 const MapView = preload("res://scripts/map_view.gd")
 const SAVE_PATH := "user://prologue_save.json"
 var save_path: String = SAVE_PATH
@@ -78,7 +101,7 @@ var last_input_axis := 0
 var step_settle_remaining := 0.0
 var walk_atlas: Texture2D
 var terrain_atlas: Texture2D
-var terrain_materials: Array[StandardMaterial3D] = []
+var terrain_materials: Array[Material] = []
 var foot_offsets: Array[float] = []
 var leon_texture: Texture2D
 var tree_texture: Texture2D
@@ -108,7 +131,17 @@ func _ready() -> void:
 	elif "--battle-capture" in arguments: save_path = "user://first_battle_capture_save.json"
 	elif "--story-capture" in arguments: save_path = "user://story_capture_save.json"
 	elif "--qa" in arguments: save_path = "user://prologue_qa_save.json"
-	qa_mode = "--qa" in arguments
+	elif "--capture" in arguments: save_path = "user://environment_capture_save.json"
+	qa_mode = Array(arguments).any(func(arg): return arg in ["--qa","--playthrough-qa","--battle-qa","--battle-input-qa","--battle-capture","--story-capture","--capture"])
+	if "--playthrough-qa" in arguments: save_path = "user://prologue_playthrough_qa.json"
+	if qa_mode: settings_path = "user://presentation_qa.cfg"
+	for argument in arguments:
+		if qa_mode and argument.begins_with("--qa-data-dir="):
+			var directory := argument.trim_prefix("--qa-data-dir=")
+			if directory.is_absolute_path():
+				DirAccess.make_dir_recursive_absolute(directory)
+				save_path=directory.path_join(save_path.get_file())
+				settings_path=directory.path_join("presentation_qa.cfg")
 	body_font = SystemFont.new()
 	body_font.font_names = PackedStringArray(["Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans CJK KR", "sans-serif"])
 	title_font = SystemFont.new()
@@ -125,15 +158,29 @@ func _ready() -> void:
 		tree_texture = load("res://assets/snow-spruce.png")
 		tree_used = tree_texture.get_image().get_used_rect()
 	_prepare_surface_materials()
+	travel = preload("res://scripts/prologue_navigation.gd").new()
+	add_child(travel)
+	travel.setup(self)
+	stage = preload("res://scripts/prologue_stage.gd").new()
+	add_child(stage)
+	stage.setup(self)
 	_setup_world()
+	audio = PrologueAudio.new()
+	add_child(audio)
+	companion = Companion.new()
+	add_child(companion)
+	companion.setup(self)
 	_setup_ui()
+	_make_return_choice_ui()
 	battle_view = FirstBattleView.new()
 	add_child(battle_view)
 	battle_view.setup(self)
+	combat_pose.setup(self)
+	_load_presentation()
 	_load_map(1, Vector3(0, 0, 9))
 	hud.hide()
 	title_screen.show()
-	if qa_mode:
+	if "--qa" in arguments:
 		call_deferred("_run_qa")
 	elif "--battle-input-qa" in arguments:
 		qa_mode = true
@@ -230,20 +277,36 @@ func _cylinder(pos: Vector3, radius: float, height: float, color: Color, top_rad
 	return mesh
 
 func _rock(pos: Vector3, scale_value: Vector3, snow := true) -> void:
+	# A closed, faceted boulder: broad solid top instead of the old ring-like cap.
+	var tool := SurfaceTool.new()
+	tool.begin(Mesh.PRIMITIVE_TRIANGLES)
+	var top := Vector3(0,0.48,0)
+	for i in range(7):
+		var angle := TAU*i/7.0
+		var next := TAU*(i+1)/7.0
+		var upper := Vector3(cos(angle)*0.42,0.24,sin(angle)*0.42)
+		var upper_next := Vector3(cos(next)*0.42,0.24,sin(next)*0.42)
+		var lower := Vector3(cos(angle)*0.5,-0.3,sin(angle)*0.5)
+		var lower_next := Vector3(cos(next)*0.5,-0.3,sin(next)*0.5)
+		for vertex in [top,upper_next,upper]:
+			tool.set_color(Color("dce6dc") if snow else Color("85958d"))
+			tool.add_vertex(vertex)
+		for vertex in [upper,upper_next,lower_next,upper,lower_next,lower,Vector3(0,-0.3,0),lower,lower_next]:
+			tool.set_color(Color("7c8d86"))
+			tool.add_vertex(vertex)
+	tool.generate_normals()
 	var rock := MeshInstance3D.new()
-	var geometry := SphereMesh.new()
-	geometry.radial_segments = 7
-	geometry.rings = 3
-	rock.mesh = geometry
+	rock.mesh = tool.commit()
 	rock.position = pos
 	rock.scale = scale_value
-	rock.material_override = _material(Color("637977"))
-	_texture_surface(rock,2)
+	var material := StandardMaterial3D.new()
+	material.vertex_color_use_as_albedo = true
+	material.roughness = 1.0
+	material.cull_mode = BaseMaterial3D.CULL_DISABLED
+	rock.material_override = material
 	map_root.add_child(rock)
 	if scale_value.x > 1.0:
 		obstacles.append(Rect2(Vector2(pos.x-scale_value.x*0.4,pos.z-scale_value.z*0.4),Vector2(scale_value.x*0.8,scale_value.z*0.8)))
-	if snow:
-		_cylinder(pos + Vector3(0, scale_value.y * 0.35, 0), scale_value.x * 0.44, 0.12, Color("dce9de"))
 
 func _tree(x: float, z: float, tree_scale := 1.0) -> void:
 	if not tree_texture: return
@@ -320,23 +383,19 @@ func _path(rect: Rect2, color := Color("a1ab96")) -> void:
 	map_paths.append(rect)
 	var road := _box(Vector3(rect.get_center().x, 0.035, rect.get_center().y),Vector3(rect.size.x,0.05,rect.size.y),color)
 	_texture_surface(road,3 if map_id == 0 else 0)
+	if map_id != 0:
+		var road_material := road.material_override.duplicate() as ShaderMaterial
+		road_material.set_shader_parameter("road_bounds",Vector4(rect.get_center().x,rect.get_center().y,rect.size.x/2,rect.size.y/2))
+		road.material_override = road_material
 	for i in range(int(rect.get_area() / 6.0)):
 		var p := Vector3(rng.randf_range(rect.position.x,rect.end.x),0.07,rng.randf_range(rect.position.y,rect.end.y))
 		var stone := _box(p,Vector3(rng.randf_range(0.15,0.45),0.03,rng.randf_range(0.1,0.3)),color.darkened(0.10))
 		stone.rotation.y = rng.randf_range(-1,1)
 
 func _lantern(x: float, z: float) -> void:
-	_cylinder(Vector3(x,1.25,z),0.08,2.5,Color("4b5b52"))
-	_box(Vector3(x,2.5,z),Vector3(0.38,0.5,0.38),Color("e3c483"))
-	_box(Vector3(x,2.8,z),Vector3(0.5,0.12,0.5),Color("4b5b52"))
-	var light := OmniLight3D.new()
-	light.position = Vector3(x,2.5,z)
-	light.light_color = Color("ffd699")
-	light.light_energy = 0.8
-	light.omni_range = 5.0
-	map_root.add_child(light)
+	_environment_prop("lantern_post",Vector3(x,0,z))
 
-func _marker(pos: Vector3, text: String, color := Color("eee1b3")) -> void:
+func _marker(pos: Vector3, text: String, color := Color("eee1b3")) -> Label3D:
 	var label := Label3D.new()
 	label.text = text
 	label.font = body_font
@@ -349,6 +408,7 @@ func _marker(pos: Vector3, text: String, color := Color("eee1b3")) -> void:
 	label.no_depth_test = true
 	label.visibility_range_end = 65.0
 	map_root.add_child(label)
+	return label
 
 func _actor(row: int) -> Node3D:
 	var actor := Node3D.new()
@@ -385,13 +445,15 @@ func _actor(row: int) -> Node3D:
 	actor.add_child(shadow)
 	return actor
 
-func _npc(row: int, pos: Vector3, npc_name: String) -> void:
+func _npc(row: int, pos: Vector3, npc_name: String) -> Node3D:
 	var actor := _actor(row)
 	actor.name = npc_name
 	actor.position = pos
 	map_root.add_child(actor)
-	_marker(pos + Vector3(0,4.2,0),npc_name)
+	var caption := _marker(pos + Vector3(0,3.0,0),npc_name)
+	caption.reparent(actor)
 	obstacles.append(Rect2(Vector2(pos.x-0.35,pos.z-0.35),Vector2(0.7,0.7)))
+	return actor
 
 func _interact(pos: Vector2, title: String, kind: String, data: Dictionary = {}) -> void:
 	var point := {"pos":pos,"title":title,"kind":kind}
@@ -402,12 +464,17 @@ func _interact(pos: Vector2, title: String, kind: String, data: Dictionary = {})
 
 func _load_map(index: int, spawn: Vector3) -> void:
 	if battle_view: battle_view.stop()
+	if travel: travel.cancel()
+	if stage: stage.finish()
 	if map_root:
 		remove_child(map_root)
 		map_root.queue_free()
 	map_root = Node3D.new()
 	map_root.name = "Map"
 	add_child(map_root)
+	injured_leon = null
+	medicine_visual = null
+	medicine_marker = null
 	map_id = index
 	map_size = MAP_SIZES[index]
 	map_paths.clear()
@@ -431,13 +498,17 @@ func _load_map(index: int, spawn: Vector3) -> void:
 	_build_navigation()
 	walker.reset(spawn)
 	hero.position = walker.position
+	_set_walk_frame()
 	pending_step = Vector2i.ZERO
 	step_settle_remaining = 0.0
 	camera.size = zoom
 	_update_camera(1.0, true)
 	_update_quest()
+	companion.reset_for_map()
+	_refresh_music()
+	stage.map_ready()
 	location_label.text = NAMES[index]
-	chapter_label.text = CHAPTERS[index]
+	chapter_label.text = "다음 날 아침 · 돌샘의 기록" if index==3 and story.done("tea") else CHAPTERS[index]
 	atmosphere.environment.background_color = Color("d3cdb5") if index == 0 else Color("9fb9ba")
 	sun.light_energy = 0.42 if index == 0 else 0.52
 	if index != 0:
@@ -452,29 +523,19 @@ func _build_home() -> void:
 	_box(Vector3(8.6,1.2,0),Vector3(0.45,2.4,16),Color("b5aa89"),true)
 	for x in [-7.0,0.0,7.0]:
 		_box(Vector3(x,1.65,-7.16),Vector3(0.22,3.3,0.2),Color("635e46"))
-	_box(Vector3(0,0.08,0.3),Vector3(5.5,0.05,4.5),Color("6c8072"))
-	_box(Vector3(0,1.0,0),Vector3(3.2,0.25,1.9),Color("6c5640"),true)
-	for x in [-1.3,1.3]:
-		for z in [-0.65,0.65]:
-			_box(Vector3(x,0.5,z),Vector3(0.18,1.0,0.18),Color("65533d"))
-	_cylinder(Vector3(0.6,1.25,0.1),0.28,0.25,Color("b8af8c"))
-	_cylinder(Vector3(-0.6,1.3,-0.2),0.12,0.35,Color("b79d5c"))
-	_box(Vector3(-5.6,0.6,-4.8),Vector3(3,0.9,3.5),Color("655741"),true)
-	_box(Vector3(-5.6,1.1,-4.4),Vector3(2.8,0.25,2.3),Color("698a81"))
-	_box(Vector3(-5.6,1.16,-5.8),Vector3(2.3,0.22,0.65),Color("e2dac2"))
-	_box(Vector3(5.7,1.0,-5.5),Vector3(3.4,2.0,1.6),Color("6b5e44"),true)
-	for i in range(5):
-		_cylinder(Vector3(4.5+i*0.55,2.18,-5.4),0.17,0.35,Color("638b69"))
-		for j in range(3):
-			_box(Vector3(4.4+i*0.57,0.5+j*0.5,-4.65),Vector3(0.32,0.35,0.25),Color("b69c70"))
-	_box(Vector3(4.0,0.55,3.6),Vector3(1.2,1.1,1),Color("6d6650"),true)
-	_marker(Vector3(4,1.9,3.6),"◇  돌샘에 전할 약")
+	_environment_prop("woven_rug",Vector3(0,0,0.3))
+	_environment_prop("wood_table",Vector3.ZERO)
+	_environment_prop("mortar_and_pestle",Vector3(0.6,1.125,0.1))
+	_environment_prop("medicine_bottle",Vector3(-0.6,1.125,-0.2))
+	_environment_prop("herbalist_bed",Vector3(-5.6,0,-4.8))
+	_environment_prop("medicine_shelf",Vector3(5.7,0,-5.5))
+	_environment_prop("medicine_stand",Vector3(4,0,3.6))
+	medicine_visual = _environment_prop("medicine_parcel",Vector3(4,1.1,3.6))
+	medicine_marker = _marker(Vector3(4,1.9,3.6),"◇  돌샘에 전할 약")
 	_interact(Vector2(4,3.6),"약 꾸러미 챙기기","medicine")
 	_npc(2,Vector3(3,0,-1.5),"마르타")
 	_interact(Vector2(3,-1.5),"마르타와 대화","marta")
-	_box(Vector3(-2.5,1.7,-7.2),Vector3(2,1.7,0.12),Color("a8c9c3"))
-	_box(Vector3(-2.5,1.7,-7.05),Vector3(0.12,1.8,0.1),Color("655c44"))
-	_box(Vector3(-2.5,1.7,-7.05),Vector3(2.1,0.12,0.1),Color("655c44"))
+	_environment_prop("interior_window",Vector3(-2.5,0,-7.2))
 	_interact(Vector2(-5.6,-3),"침대 옆 지도 살피기","room_map")
 	_interact(Vector2(-2.5,-6.4),"창가의 약초 살피기","window")
 	_interact(Vector2(0,6.7),"서리골로","exit",{"map":1,"spawn":Vector3(-7,0,7)})
@@ -484,13 +545,12 @@ func _build_village() -> void:
 	_path(Rect2(-2.6,-17,5.2,35))
 	_path(Rect2(-16,4,32,4.5))
 	_path(Rect2(-10,0,4,7))
-	_house(-8,-2,6,5,Color("6d7f75"))
-	_house(9,-8,6.5,5.5,Color("6c7c7c"))
-	_house(-10,-12,5.5,4.5,Color("7d7568"))
-	_house(10,9,6,5,Color("707f6a"))
-	_stone_well(Vector2(0,6.2),false)
-	obstacles.append(Rect2(-1,5.2,2,2))
-	_border_gate(Vector2(0,-15.2))
+	_environment_prop("herbalist_house",Vector3(-8,0,-2),true)
+	_environment_prop("village_inn",Vector3(9,0,-8),true)
+	_environment_prop("village_cottage",Vector3(-10,0,-12),true)
+	_environment_prop("village_store",Vector3(10,0,9),true)
+	_environment_prop("village_well",Vector3(0,0,6.2),true)
+	_environment_prop("border_gate",Vector3(0,0,-15.2),true)
 	_lantern(-3.8,8.8)
 	_lantern(3.6,-9)
 	_fence(Vector2(-17,10),Vector2(-5,10))
@@ -502,7 +562,7 @@ func _build_village() -> void:
 		var z := rng.randf_range(-17,17)
 		if abs(x) > 3 and not _blocked(Vector3(x,0,z),0.6) and not _near_story_cast(Vector2(x,z)):
 			_rock(Vector3(x,0.1,z),Vector3(0.4,0.35,0.4))
-	_story_npc("오르만",Vector3(-12,0,-7),"inn")
+	_story_npc("오르만",Vector3(7,0,-3),"inn")
 	_story_npc("니아",Vector3(5,0,12),"nia")
 	_story_npc("도렌",Vector3(-5,0,6.5),"doren")
 	_story_npc("베라",Vector3(12,0,-3.5),"vera")
@@ -515,8 +575,7 @@ func _build_village() -> void:
 	_interact(Vector2(0,-16.4),"산길 · 돌샘 방면","exit",{"map":2,"spawn":Vector3(0,0,23),"requires_medicine":true})
 	_marker(Vector3(0,2.0,-13),"돌샘  ↑")
 	_interact(Vector2(4,5),"마을 게시판 읽기","notice")
-	_box(Vector3(4,1.15,5),Vector3(1.6,1.4,0.2),Color("6b6650"),true)
-	_box(Vector3(4,1.2,5.13),Vector3(1.3,1.05,0.04),Color("d7cfab"))
+	_environment_prop("notice_board",Vector3(4,0,5))
 
 func _build_trail() -> void:
 	_path(Rect2(-2.2,10,4.4,16))
@@ -534,14 +593,22 @@ func _build_trail() -> void:
 	# Cliffs and the stream are impassable: the broad switchback is the walkable route.
 	_box(Vector3(-8,0.15,7),Vector3(7,0.3,19),Color("658984"),true)
 	_box(Vector3(-8,-0.05,7),Vector3(6.6,0.1,19),Color("81b4b0"))
+	for bank_z in range(-2,18,2):
+		_rock(Vector3(-10.9+rng.randf_range(-0.3,0.3),0.1,bank_z),Vector3(1.0,0.45,1.5))
+		_rock(Vector3(-5.0+rng.randf_range(-0.2,0.2),0.1,bank_z),Vector3(0.8,0.35,1.4))
 	for z in [-2,3,8,13,17]:
 		_rock(Vector3(-3.7,0.3,z),Vector3(1.5,1.5,1.6))
 	for z in [-21,-16,-11]:
 		_rock(Vector3(0,0.3,z),Vector3(1.6,2,1.4))
-	if not arrived:
-		_npc(1,Vector3(10.2,0,3),"레온 · 부상")
-		_interact(Vector2(10.2,3),"부상당한 여행자 살피기","leon")
-	_cylinder(Vector3(11.4,0.15,3.8),0.25,0.25,Color("75664a"))
+	if not met_leon:
+		injured_leon = _npc(1,Vector3(10.2,0,3),"부상당한 여행자")
+		leon_obstacle = obstacles.back()
+		var injured_sprite := injured_leon.get_node("Sprite") as Sprite3D
+		injured_sprite.rotation.z = 0.14
+		injured_sprite.modulate = Color("c8d0db")
+	_interact(Vector2(10.2,3),"부상당한 여행자 살피기","leon")
+	_environment_prop("traveler_pack",Vector3(11.4,0,3.8))
+	_environment_prop("trail_sign",Vector3(2,0,9))
 	_interact(Vector2(0,24),"서리골로","exit",{"map":1,"spawn":Vector3(0,0,-14.2)})
 	_interact(Vector2(-6,-24),"돌샘 연락소로","exit",{"map":3,"spawn":Vector3(-2,0,13),"requires_leon":true})
 	_marker(Vector3(4,1.3,9),"돌샘  →")
@@ -553,24 +620,27 @@ func _build_trail() -> void:
 func _build_well() -> void:
 	_path(Rect2(-4,-13,5,29),Color("a5ac91"))
 	_path(Rect2(-13,-1,27,5),Color("a5ac91"))
-	_house(8,-6,8,6,Color("6a7b70"))
-	_house(-10,-8,5,5,Color("7b7461"))
-	_stone_well(Vector2(-1,0),true)
-	obstacles.append(Rect2(-2.4,-1.4,2.8,2.8))
+	_environment_prop("border_office",Vector3(8,0,-6),true)
+	_environment_prop("mountain_cottage",Vector3(-10,0,-8),true)
+	_environment_prop("covered_well",Vector3(-1,0,0),true)
 	_lantern(2.0,6)
 	_lantern(5.4,-1)
 	for x in [-15,15]:
 		for z in [-13,-5,8,13]: _tree(x,z,0.95)
 	_fence(Vector2(-15,-14),Vector2(15,-14))
-	_box(Vector3(3,0.6,6),Vector3(2,1.2,1.2),Color("8b7857"),true)
-	_box(Vector3(5.3,0.4,6),Vector3(1.5,0.8,1.1),Color("a28a64"),true)
+	_environment_prop("stacked_crates",Vector3(3,0,6))
+	_environment_prop("supply_crate",Vector3(5.3,0,6))
 	_environment_prop("wood_table",Vector3(-6.5,0,7))
 	_cylinder(Vector3(-7.1,1.25,7),0.16,0.2,Color("c6b393"))
 	_cylinder(Vector3(-5.8,1.25,7),0.16,0.2,Color("c6b393"))
-	_npc(1,Vector3(-5,0,4),"레온")
-	_interact(Vector2(-5,4),"레온과 쉬어 가기","leon_arrival")
+	_box(Vector3(-5,0.25,6),Vector3(0.65,0.5,0.65),Color("927b5e"))
+	if arrived:
+		var resting_leon := _npc(1,Vector3(-5,0,6),"레온 · 의무실 인수")
+		Motion.render(resting_leon.get_node("Sprite"),"event-npc-leon-03",0.0,2.3)
+		resting_leon.get_node("Sprite").scale.y = 0.82
+	_interact(Vector2(-5,6),"레온과 쉬어 가기","leon_arrival")
 	_story_npc("할벤",Vector3(8,0,1.5),"halven")
-	_story_npc("에다",Vector3(11,0,1.5),"eda")
+	_story_npc("에다",Vector3(7.5,0,2.5),"eda")
 	_interact(Vector2(6,1.5),"약 꾸러미 전달하기","delivery")
 	_marker(Vector3(8,2,-2),"◇  국경 연락소")
 	_interact(Vector2(-2,14.7),"산길로","exit",{"map":2,"spawn":Vector3(-6,0,-21.7)})
@@ -604,7 +674,7 @@ func _blocked(pos: Vector3, radius := 0.29) -> bool:
 
 func _physics_process(delta: float) -> void:
 	elapsed += delta
-	if not started or paused or transitioning or dialog_panel.visible or history_panel.visible:
+	if not started or paused or transitioning or dialog_panel.visible or history_panel.visible or (completion_panel and completion_panel.visible):
 		return
 	if battle_view and battle_view.busy():
 		battle_view.tick(delta)
@@ -615,6 +685,7 @@ func _physics_process(delta: float) -> void:
 	if input_direction != Vector2i.ZERO:
 		has_walk_target = false
 		route.clear()
+		travel.cancel()
 	if not walker.moving and step_settle_remaining <= 0:
 		var requested := pending_step if pending_step != Vector2i.ZERO else input_direction
 		pending_step = Vector2i.ZERO
@@ -634,10 +705,13 @@ func _physics_process(delta: float) -> void:
 	walker.advance(delta)
 	if was_moving and not walker.moving:
 		step_settle_remaining = 0.06
+		audio.cue("step")
 	hero.position = walker.position
 	_set_walk_frame()
+	companion.tick(delta)
 	_update_camera(delta)
 	_update_nearest()
+	travel.tick(delta)
 	_update_occlusion()
 	minimap.queue_redraw()
 
@@ -656,17 +730,17 @@ func _set_walk_frame() -> void:
 	else: facing = 3
 	hero_sprite.position = Vector3(0,0.04,0)
 	hero_sprite.rotation = Vector3.ZERO
-	hero_sprite.flip_h = facing == 3
-	if walk_atlas:
-		# Reuse the same gait and foot registration for both horizontal directions.
-		var animation_row := 2 if facing == 3 else facing
-		hero_sprite.frame = animation_row*4 + walker.animation_column()
-		if not foot_offsets.is_empty(): hero_sprite.offset.y = foot_offsets[hero_sprite.frame]
-	else:
-		hero_sprite.frame = mini(facing,2)
-		hero_sprite.flip_h = facing == 3
+	var direction_id := 2 if facing==3 else (3 if facing==2 else facing)
+	Motion.render(hero_sprite,"motion-pc-ael-%d-%d" % [1 if walker.moving else 0,direction_id],walker.progress if walker.moving else 0.0)
 
 func _process(delta: float) -> void:
+	if started and not paused and not title_screen.visible:
+		play_seconds += delta
+	if not paused and not dialog_panel.visible:
+		combat_pose.tick(delta)
+	_refresh_music()
+	if stage and stage.focused and dialog_panel.visible:
+		camera.position = camera.position.lerp(stage.focus+CAMERA_OFFSET,1.0-exp(-delta*4))
 	if not paused and not (battle_view and battle_view.busy() and battle_view.model.paused):
 		for flake in particles:
 			flake.position.y -= delta * 0.42
@@ -709,16 +783,24 @@ func _update_occlusion() -> void:
 					screen_bounds = screen_bounds.expand(point)
 		var hidden := behind and screen_bounds.has_point(hero_screen)
 		for mesh: MeshInstance3D in item.meshes:
-			mesh.transparency = 0.74 if hidden else 0.0
+			mesh.transparency = 0.88 if hidden else 0.0
 
 func _update_nearest() -> void:
+	if companion.active and is_instance_valid(companion.actor):
+		for point in interactions:
+			if point.kind == ("leon_arrival" if map_id == 3 else "leon"): point.pos = Vector2(companion.actor.position.x,companion.actor.position.z)
 	current_interaction = {}
 	var closest := 2.35
 	for point in interactions:
+		if companion.active and point.kind == "leon": continue
 		var distance := Vector2(hero.position.x,hero.position.z).distance_to(point.pos)
 		if distance < closest:
 			closest = distance
 			current_interaction = point
+	if current_interaction.is_empty() and companion.active:
+		for point in interactions:
+			if point.kind == "leon" and Vector2(hero.position.x,hero.position.z).distance_to(point.pos) < 2.35:
+				current_interaction = point
 	prompt_label.visible = not current_interaction.is_empty()
 	if prompt_label.visible: prompt_label.text = _key_name("interact") + "   " + current_interaction.title
 
@@ -728,11 +810,20 @@ func _configure_inputs() -> void:
 		if not InputMap.has_action(action): InputMap.add_action(action)
 		var key := InputEventKey.new()
 		var config := ConfigFile.new()
-		config.load("user://controls.cfg")
+		if not qa_mode: config.load("user://controls.cfg")
 		key.physical_keycode = int(config.get_value("keys",action,bindings[action]))
+		InputMap.action_erase_events(action)
 		InputMap.action_add_event(action,key)
 
 func _unhandled_input(event: InputEvent) -> void:
+	if choice_panel and choice_panel.visible:
+		if event is InputEventKey and event.pressed and not event.echo:
+			if event.keycode in [KEY_1, KEY_2]: _choose_return("a" if event.keycode == KEY_1 else "b")
+			elif event.keycode == KEY_ENTER:
+				for button in choice_buttons:
+					if button.has_focus(): button.pressed.emit(); break
+		get_viewport().set_input_as_handled()
+		return
 	if battle_view and battle_view.busy() and not dialog_panel.visible:
 		if battle_view.handle(event): get_viewport().set_input_as_handled()
 		return
@@ -760,6 +851,7 @@ func _unhandled_input(event: InputEvent) -> void:
 			_load_game()
 			return
 		if dialog_panel.visible:
+			if event.keycode in [KEY_F5, KEY_F9]: _toast("대화를 마친 뒤 저장·불러오기를 이용해 주세요.")
 			get_viewport().set_input_as_handled()
 			if event.is_action_pressed("interact") or event.keycode in [KEY_ENTER,KEY_SPACE]: _advance_dialog()
 			return
@@ -777,12 +869,8 @@ func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseButton and started and not paused and not dialog_panel.visible and not transitioning and not history_panel.visible:
 		if event.button_index == MOUSE_BUTTON_WHEEL_UP and event.pressed: zoom = clampf(zoom-1,13,24)
 		if event.button_index == MOUSE_BUTTON_WHEEL_DOWN and event.pressed: zoom = clampf(zoom+1,13,24)
-		if event.button_index == MOUSE_BUTTON_RIGHT and event.pressed:
-			var ray_origin := camera.project_ray_origin(event.position)
-			var ray_direction := camera.project_ray_normal(event.position)
-			var ground = Plane(Vector3.UP,0.0).intersects_ray(ray_origin,ray_direction)
-			if ground != null and not _blocked(ground):
-				_set_click_route(ground)
+		if event.button_index in [MOUSE_BUTTON_LEFT,MOUSE_BUTTON_RIGHT] and event.pressed:
+			travel.click(event.position)
 
 func _activate_interaction() -> void:
 	if current_interaction.is_empty() or walker.moving or dialog_panel.visible or transitioning or (battle_view and battle_view.busy()): return
@@ -801,17 +889,43 @@ func _activate_interaction() -> void:
 			if point.get("requires_leon",false) and not met_leon:
 				_dialog([["에일","한쪽 발을 끈 자국이 저 굽이로 이어져. 다친 사람이 있는지 살펴보고 가자.",0]])
 				return
+			if map_id==3 and arrived and not story.done("departure"):
+				_toast("차를 마시고, 다음 날 기록과 출발 확인을 마친 뒤 길을 정하자.")
+				return
+			if story.done("departure"):
+				_toast("다음 구간은 서리골 귀환입니다. 현재는 돌샘의 안전 지점에서 기록을 이어갈 수 있습니다.")
+				return
 			_transition(point.map,point.spawn)
 		_: _play_scene(story.scene_for(point.kind,has_medicine,met_leon,arrived))
 
 func _play_scene(scene: String) -> void:
+	if scene == "firstbattle_help":
+		battle_view.show_guide()
+		return
 	if scene == "leon_bridge" and not combat.won:
 		battle_view.show_threat()
 		_play_scene("leon_danger")
 		return
 	_dialog(story.lines(scene),func():
 		story.finish(scene)
-		if scene == "medicine": has_medicine = true
+		if scene == "homeward":
+			_show_return_choice()
+			return
+		if scene == "tea":
+			_update_quest()
+			_save_game(false)
+			_next_morning()
+			return
+		if scene == "leon_first":
+			if is_instance_valid(injured_leon):
+				for child in injured_leon.get_children():
+					if child is Label3D: child.text = "레온 · 왼쪽 다리 부상"
+			_update_quest()
+			_play_scene("leon_bridge")
+			return
+		if scene == "medicine":
+			has_medicine = true
+			audio.cue("pickup")
 		if scene == "leon_danger":
 			_play_scene("sword_loan")
 			return
@@ -824,14 +938,23 @@ func _play_scene(scene: String) -> void:
 			battle_view.panel.show()
 			battle_view._refresh()
 			return
-		if scene == "leon_bridge": met_leon = true
+		if scene == "leon_bridge":
+			met_leon = true
+			if is_instance_valid(injured_leon):
+				injured_leon.hide()
+				obstacles.erase(leon_obstacle)
+				_build_navigation()
+			companion.reset_for_map()
+		if scene == "departure": combat.sword = true
 		if scene == "delivery":
 			arrived = true
 			combat.sword = false
+			companion.rest_at(Vector3(-5,0,6))
 		_update_quest()
 		var feedback: String = story.data.get("completion_feedback",{}).get(scene,"")
 		if not feedback.is_empty(): _toast(feedback)
 		if not qa_mode: _save_game(false)
+		if scene == "departure": _show_completion()
 	,scene)
 
 func _transition(index: int, spawn: Vector3) -> void:
@@ -848,8 +971,14 @@ func _transition(index: int, spawn: Vector3) -> void:
 	await tween.finished
 	transitioning = false
 	_toast(NAMES[index])
+	if index == 2 and not story.done("trail_intro") and not met_leon:
+		_play_scene("trail_intro")
+	elif index == 3 and not story.done("arrival") and not arrived:
+		_play_scene("arrival")
 
 func _dialog(lines: Array, action := Callable(), scene := "") -> void:
+	travel.cancel()
+	stage.begin(scene)
 	active_scene = scene
 	dialog_lines = lines.duplicate(true)
 	dialogue_total = lines.size()
@@ -860,13 +989,15 @@ func _dialog(lines: Array, action := Callable(), scene := "") -> void:
 	has_walk_target = false
 	prompt_label.hide()
 	dialog_panel.show()
+	if audio: audio.cue("talk")
 	ui_root.move_child(dialog_panel,-1)
 	_advance_dialog()
 
 func _advance_dialog() -> void:
-	if history_panel.visible: return
+	if history_panel.visible or (choice_panel and choice_panel.visible): return
 	if dialog_lines.is_empty():
 		dialog_panel.hide()
+		stage.finish()
 		var completion := dialog_action
 		dialog_action = Callable()
 		if completion.is_valid(): completion.call()
@@ -892,14 +1023,25 @@ func _advance_dialog() -> void:
 		if ResourceLoader.exists(path):
 			var atlas := AtlasTexture.new()
 			atlas.atlas = load(path)
-			atlas.region = Rect2(560,615,225,320) if int(line[2]) != 2 else Rect2(600,640,220,310)
+			var concerned := active_scene in ["opening","request","leon_first","leon_danger","sword_loan","leon_after_battle","leon_bridge"]
+			var expression := str(line[3]) if line.size() > 3 else ("concern" if concerned else "calm")
+			atlas.region = Rect2(1290,650,195,300) if expression == "concern" else Rect2(815,645,195,300)
+			if int(line[2]) == 2: atlas.region = Rect2(1290,650,195,300) if expression == "concern" else Rect2(600,650,195,300)
 			portrait.texture = atlas
 
 func _update_quest() -> void:
-	if hero_status_label: hero_status_label.text = "에일  HP %d / 48" % int(combat.hp)
+	if is_instance_valid(medicine_visual): medicine_visual.visible = not has_medicine
+	if is_instance_valid(medicine_marker): medicine_marker.visible = not has_medicine
+	if hero_status_label: hero_status_label.text = "에일  HP %d / 48 · 약 %d" % [int(combat.hp),int(combat.potions)]
 	if difficulty_button: difficulty_button.text = "난이도: " + ("전술" if combat.mode == "tactical" else "스토리")
-	if story.done("closing"):
-		objective_label.text = "오늘의 배달을 마쳤다\n돌샘에서 쉬거나 마을을 둘러보자"
+	if story.done("departure"):
+		objective_label.text = "MQ05 완료 · 귀향 준비\n다음 목표: 서리골 주민과 우물 확인"
+	elif story.done("homeward"):
+		objective_label.text = "출발 전 확인\n레온과 에다에게 몸 상태 확인받기"
+	elif story.done("records"):
+		objective_label.text = "서리골에서 온 보고\n레온과 귀향 이야기 나누기"
+	elif story.done("tea"):
+		objective_label.text = "다음 날 아침\n할벤에게 귀환 명부와 가동 기록 확인"
 	elif arrived:
 		objective_label.text = "전달을 마쳤다\n레온과 따뜻한 차 한 잔 나누기"
 	elif met_leon:
@@ -917,28 +1059,36 @@ func _update_quest() -> void:
 	elif story.errands_done():
 		objective_label.text = "아침 심부름 완료\n집으로 돌아가 마르타와 이야기하기"
 	elif story.done("morning"):
-		objective_label.text = "아침 심부름 · 순서 자유\n%s 물 긷기  /  %s 여관 수건" % ["✓" if story.done("water") else "○","✓" if story.done("towels") else "○"]
+		objective_label.text = "아침 심부름 · 순서 자유\n%s 우물 물  /  %s 여관 오르만" % ["✓" if story.done("water") else "○","✓" if story.done("towels") else "○"]
 	else:
 		objective_label.text = "서리골의 아침\n마르타와 아침 이야기 나누기"
 	for point in interactions:
+		if point.kind == "delivery": point.title = "에다에게 인사하기" if arrived else "약 꾸러미 전달하기"
 		if point.kind == "leon":
 			point.title = "레온과 대화" if met_leon else ("레온의 붕대 고정 돕기" if story.done("leon_found") else "부상당한 여행자 살피기")
 
 func _save_game(notify := true, internal := false) -> bool:
+	if (dialog_panel.visible or (choice_panel and choice_panel.visible)) and not internal:
+		if notify: _toast("대화와 선택을 마친 뒤 기록해 주세요.")
+		return false
 	if battle_view and battle_view.busy() and not internal:
 		if notify: _toast("전투 중에는 전투 직전 기록을 유지합니다")
 		return false
-	var save := {"version":3,"combat":combat.duplicate(true),"story":story.flags.duplicate(),"map":map_id,"position":[walker.target.x,walker.target.z],"medicine":has_medicine,"leon":met_leon,"arrived":arrived}
+	var save := {"version":4,"combat":combat.duplicate(true),"story":story.snapshot(),"map":map_id,"position":[walker.target.x,walker.target.z],"medicine":has_medicine,"leon":met_leon,"arrived":arrived}
 	var temporary := save_path + ".tmp"
 	var file := FileAccess.open(temporary,FileAccess.WRITE)
 	if file == null:
-		if notify: _toast("저장하지 못했습니다. 저장 공간을 확인해 주세요.")
+		_toast("저장하지 못했습니다. 저장 공간을 확인해 주세요.")
 		return false
 	file.store_string(JSON.stringify(save))
 	file.flush()
+	var write_error := file.get_error()
 	file.close()
+	if write_error != OK:
+		_toast("기록을 저장하지 못했습니다. 저장 공간을 확인해 주세요.")
+		return false
 	if DirAccess.rename_absolute(temporary,save_path) != OK:
-		if notify: _toast("기록을 교체하지 못했습니다. 저장 공간을 확인해 주세요.")
+		_toast("기록을 교체하지 못했습니다. 저장 공간을 확인해 주세요.")
 		return false
 	if title_resume: title_resume.disabled = false
 	if notify: _toast("여행을 기록했습니다")
@@ -952,7 +1102,7 @@ func _load_game() -> void:
 		_toast("아직 저장된 여행이 없습니다")
 		return
 	var value = JSON.parse_string(FileAccess.get_file_as_string(save_path))
-	if not value is Dictionary or (value.get("version") != 1 and value.get("version") != 2 and value.get("version") != 3):
+	if not value is Dictionary or (value.get("version") != 1 and value.get("version") != 2 and value.get("version") != 3 and value.get("version") != 4):
 		_toast("저장 기록을 읽을 수 없습니다")
 		return
 	var index := int(value.get("map",-1))
@@ -967,13 +1117,25 @@ func _load_game() -> void:
 	if not (coords[0] is float or coords[0] is int) or not (coords[1] is float or coords[1] is int):
 		_toast("저장 기록을 읽을 수 없습니다")
 		return
-	var loaded_combat := CombatProgress.decode(value.get("combat"),int(value.version),value.leon,value.arrived,index)
+	if not is_finite(float(coords[0])) or not is_finite(float(coords[1])) or absf(float(coords[0])) > MAP_SIZES[index].x or absf(float(coords[1])) > MAP_SIZES[index].y:
+		_toast("저장 위치를 읽을 수 없습니다")
+		return
+	var loaded_combat := CombatProgress.decode(value.get("combat"),int(value.version),value.leon,value.arrived,index,value.get("story",{}))
 	if loaded_combat.is_empty():
 		_toast("전투 진행 기록을 읽을 수 없습니다")
 		return
-	if not story.restore(int(value.version),value.medicine,value.leon,value.arrived,value.get("story")):
+	var restored_story = PrologueStory.new()
+	if not restored_story.restore(int(value.version),value.medicine,value.leon,value.arrived,value.get("story")):
 		_toast("이야기 진행 기록을 읽을 수 없습니다")
 		return
+	if int(value.version)<4:
+		var backup := save_path+".v%d.bak" % int(value.version)
+		if not FileAccess.file_exists(backup) and DirAccess.copy_absolute(save_path,backup)!=OK:
+			_toast("이전 기록의 백업을 만들지 못했습니다. 원본을 유지합니다.")
+			return
+	story=restored_story
+	completion_panel.hide()
+	choice_panel.hide()
 	combat = loaded_combat
 	history_panel.hide()
 	dialogue_history.clear()
@@ -1004,6 +1166,9 @@ func _safe_spawn(index: int) -> Vector3:
 	return [Vector3(0,0,4),Vector3(0,0,12),Vector3(0,0,23),Vector3(-2,0,13)][index]
 
 func _new_game() -> void:
+	choice_panel.hide()
+	completion_panel.hide()
+	play_seconds = 0
 	if battle_view: battle_view.stop()
 	combat = CombatProgress.fresh()
 	story.reset()
@@ -1099,13 +1264,16 @@ func _setup_ui() -> void:
 	location_label = _label(location_stack,"",21,Color("f0e6c9"))
 	var quest := PanelContainer.new()
 	quest.position = Vector2(30,104)
-	quest.custom_minimum_size = Vector2(260,76)
+	quest.custom_minimum_size = Vector2(280,90)
+	quest.size.x = 280
 	quest.add_theme_stylebox_override("panel",_panel_style(Color(0.035,0.065,0.16,0.91),Color("8b7c57")))
 	hud.add_child(quest)
 	var quest_stack := VBoxContainer.new()
 	quest.add_child(quest_stack)
 	_label(quest_stack,"◇  지금의 여정",13,Color("d3b77c"))
 	objective_label = _label(quest_stack,"",15)
+	objective_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	objective_label.custom_minimum_size.x = 236
 	var map_container := VBoxContainer.new()
 	map_container.set_anchors_and_offsets_preset(Control.PRESET_TOP_RIGHT)
 	map_container.offset_left = -210
@@ -1125,7 +1293,7 @@ func _setup_ui() -> void:
 	bottom.set_anchors_and_offsets_preset(Control.PRESET_BOTTOM_WIDE)
 	bottom.offset_left = 30
 	bottom.anchor_right = 0
-	bottom.offset_right = 330
+	bottom.offset_right = 410
 	bottom.offset_top = -82
 	bottom.offset_bottom = -24
 	bottom.add_theme_stylebox_override("panel",_panel_style(Color(0.035,0.065,0.16,0.96),Color("b7a06e")))
@@ -1137,14 +1305,17 @@ func _setup_ui() -> void:
 	var face := TextureRect.new()
 	var face_atlas := AtlasTexture.new()
 	face_atlas.atlas = load("res://assets/ael-portrait.png")
-	face_atlas.region = Rect2(560,615,225,250)
+	face_atlas.region = Rect2(815,645,195,250)
 	face.texture = face_atlas
 	face.custom_minimum_size = Vector2(45,48)
 	face.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 	face.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
 	bottom_row.add_child(face)
 	bottom_row.move_child(face,0)
-	var controls := _label(hud,"WASD 한 걸음 이동   ·   E 대화   ·   Esc 메뉴",13,Color("f0e6cf"))
+	var heal := _button(bottom_row,"회복",_field_heal)
+	heal.custom_minimum_size = Vector2(50,32)
+	heal.add_theme_font_size_override("font_size",14)
+	var controls := _label(hud,"클릭 이동·대화  ·  WASD / E  ·  M 지도  ·  Esc 메뉴",13,Color("f0e6cf"))
 	exploration_controls = controls
 	controls.set_anchors_and_offsets_preset(Control.PRESET_BOTTOM_RIGHT)
 	controls.offset_left = -470
@@ -1176,6 +1347,14 @@ func _setup_ui() -> void:
 	_make_history_ui()
 	_make_title_ui()
 	_make_pause_ui()
+	_make_completion_ui()
+	new_game_confirm = ConfirmationDialog.new()
+	new_game_confirm.title = "새로운 여정"
+	new_game_confirm.dialog_text = "새 여정을 시작하면 기존 여행 기록이 다음 저장 때 교체됩니다."
+	new_game_confirm.ok_button_text = "새 여정 시작"
+	new_game_confirm.cancel_button_text = "돌아가기"
+	new_game_confirm.confirmed.connect(_new_game)
+	ui_root.add_child(new_game_confirm)
 	fade = ColorRect.new()
 	fade.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	fade.color = Color(0.03,0.07,0.06,0)
@@ -1239,7 +1418,7 @@ func _make_title_ui() -> void:
 	var spacer := Control.new()
 	spacer.custom_minimum_size.y = 18
 	panel.add_child(spacer)
-	var start := _button(panel,"새로운 여정   →",_new_game)
+	var start := _button(panel,"새로운 여정   →",_request_new_game)
 	start.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
 	title_resume = _button(panel,"여행 이어가기",_load_game)
 	title_resume.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
@@ -1253,34 +1432,147 @@ func _make_pause_ui() -> void:
 	ui_root.add_child(pause_screen)
 	var shade := ColorRect.new()
 	shade.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
-	shade.color = Color(0.03,0.07,0.06,0.78)
+	shade.color = Color(0.03,0.07,0.06,0.9)
 	pause_screen.add_child(shade)
+	var columns := HBoxContainer.new()
+	columns.position = Vector2(170,60)
+	columns.size = Vector2(940,600)
+	columns.add_theme_constant_override("separation",65)
+	pause_screen.add_child(columns)
 	var stack := VBoxContainer.new()
-	stack.set_anchors_and_offsets_preset(Control.PRESET_CENTER)
-	stack.offset_left = -180
-	stack.offset_right = 180
-	stack.offset_top = -310
-	stack.offset_bottom = 310
-	stack.add_theme_constant_override("separation",12)
-	pause_screen.add_child(stack)
+	stack.add_theme_constant_override("separation",10)
+	columns.add_child(stack)
 	_label(stack,"잠시 쉬어 가기",30,Color("e8dbb4"))
-	_label(stack,"F5 저장   ·   F9 불러오기   ·   M 지도\n우클릭 목적지 이동   ·   휠 화면 확대",15,Color("aebfa9"))
 	_button(stack,"여행 계속하기",func(): _set_pause(false))
 	_button(stack,"지난 대화 보기 · Tab",_toggle_history)
 	_button(stack,"여행 기록하기",func(): _save_game())
 	_button(stack,"기록 불러오기",_load_game)
 	difficulty_button = _button(stack,"난이도: 스토리",_toggle_difficulty)
-	_button(stack,"글자 크기 조절",_toggle_text_scale)
-	_button(stack,"이동·상호작용 키 설정",func(): binding_panel.visible = not binding_panel.visible)
-	_button(stack,"시작 화면으로",func(): paused = false; started = false; pause_screen.hide(); hud.hide(); title_screen.show())
+	_button(stack,"프롤로그 완료 기록",func():
+		if story.done("closing"): _set_pause(false); _show_completion()
+		else: _toast("돌샘에서 레온과 이야기를 마치면 볼 수 있습니다")
+	)
+	_button(stack,"시작 화면으로",_return_to_title)
+	_button(stack,"저장하고 종료",func():
+		if _save_game(false): get_tree().quit()
+		else: _toast("저장하지 못했습니다. 종료 전에 다시 확인해 주세요.")
+	)
+	var settings := VBoxContainer.new()
+	settings.add_theme_constant_override("separation",16)
+	columns.add_child(settings)
+	_label(settings,"조작과 소리",26,Color("e8dbb4"))
+	_label(settings,"WASD 이동 · Shift 빠르게 걷기
+E 대화/조사 · 우클릭 목적지
+F5 저장 · F9 불러오기 · M 지도
+전투: 명령 지정 후 Space 재개",17)
+	_button(settings,"대사·목표 글자 크기",_toggle_text_scale)
+	_button(settings,"이동·상호작용 키 설정",func(): binding_panel.visible = not binding_panel.visible)
+	for kind in ["음악","효과음"]:
+		_label(settings,kind+" 음량",16)
+		var slider := HSlider.new()
+		slider.name = "MusicVolume" if kind == "음악" else "EffectsVolume"
+		slider.min_value = 0
+		slider.max_value = 1
+		slider.step = 0.05
+		slider.value = audio.music_level if kind == "음악" else audio.effects_level
+		slider.custom_minimum_size = Vector2(320,28)
+		settings.add_child(slider)
+		var is_music: bool = kind == "음악"
+		slider.value_changed.connect(func(value):
+			audio.set_levels(value if is_music else audio.music_level,audio.effects_level if is_music else value)
+			_save_presentation()
+		)
 	pause_screen.hide()
 	_make_binding_ui()
 
 func _toggle_text_scale() -> void:
 	ui_scale = 1.15 if ui_scale == 1.0 else 1.0
-	dialog_label.add_theme_font_size_override("font_size",int(22*ui_scale))
-	objective_label.add_theme_font_size_override("font_size",int(17*ui_scale))
+	_apply_text_scale()
+	_save_presentation()
 	_toast("대사·목표 글자 크기  " + ("크게" if ui_scale > 1 else "기본"))
+
+func _apply_text_scale() -> void:
+	dialog_label.add_theme_font_size_override("font_size",int(22*ui_scale))
+	objective_label.add_theme_font_size_override("font_size",int(15*ui_scale))
+	dialog_panel.offset_top = -300 if ui_scale > 1 else -270
+	for button in choice_buttons: button.add_theme_font_size_override("font_size",int(19*ui_scale))
+	if completion_text: completion_text.add_theme_font_size_override("font_size",int(20*ui_scale))
+
+func _save_presentation() -> void:
+	if qa_mode: return
+	var config := ConfigFile.new()
+	config.set_value("display","text_scale",ui_scale)
+	config.set_value("sound","music",audio.music_level)
+	config.set_value("sound","effects",audio.effects_level)
+	config.save(settings_path)
+
+func _load_presentation() -> void:
+	if qa_mode: return
+	var config := ConfigFile.new()
+	if config.load(settings_path) != OK: return
+	var scale_value = config.get_value("display","text_scale",1.0)
+	var music = config.get_value("sound","music",0.55)
+	var effects = config.get_value("sound","effects",0.7)
+	if scale_value is float or scale_value is int: ui_scale = 1.15 if float(scale_value)>1.0 else 1.0
+	if (music is float or music is int) and (effects is float or effects is int): audio.set_levels(float(music),float(effects))
+	_apply_text_scale()
+	for slider in pause_screen.find_children("*Volume","HSlider",true,false):
+		slider.set_value_no_signal(audio.music_level if slider.name == "MusicVolume" else audio.effects_level)
+
+func _refresh_music() -> void:
+	if not audio: return
+	var next := "hearth"
+	if story.done("closing") or map_id == 3: next = "arrival"
+	elif battle_view and battle_view.busy(): next = "battle"
+	elif map_id == 2: next = "trail"
+	audio.select(next)
+
+func _make_completion_ui() -> void:
+	completion_panel = PanelContainer.new()
+	completion_panel.set_anchors_and_offsets_preset(Control.PRESET_CENTER)
+	completion_panel.offset_left = -380
+	completion_panel.offset_right = 380
+	completion_panel.offset_top = -230
+	completion_panel.offset_bottom = 230
+	completion_panel.add_theme_stylebox_override("panel",_panel_style(Color("101d39"),Color("d8bf82")))
+	ui_root.add_child(completion_panel)
+	var stack := VBoxContainer.new()
+	stack.add_theme_constant_override("separation",18)
+	completion_panel.add_child(stack)
+	_label(stack,"PROLOGUE COMPLETE",16,Color("d8bf82"))
+	_label(stack,"국경에 닿은 작은 온기",32)
+	completion_text = _label(stack,"",20)
+	completion_text.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	_label(stack,"약과 환자를 인계하고, 다음 날 명부와 서리골 보고를 확인했습니다.
+레온과 쉬어 가며 서리골로 돌아가기로 했습니다.",18)
+	completion_continue = _button(stack,"돌샘 더 둘러보기 · Esc",_close_completion)
+	_button(stack,"시작 화면으로",_return_to_title)
+	completion_panel.hide()
+
+func _show_completion() -> void:
+	completion_text.text = "MQ01~05 완료 · 서리골의 아침 → 첫 전투 → 돌샘 인계 → 귀향 결정\n에일 HP %d / 48 · 남은 회복약 %d개" % [int(combat.hp),int(combat.potions)]
+	completion_panel.show()
+	ui_root.move_child(completion_panel,-1)
+	completion_continue.grab_focus()
+	audio.cue("complete")
+
+func _close_completion() -> void:
+	completion_panel.hide()
+	get_viewport().gui_release_focus()
+
+func _return_to_title() -> void:
+	choice_panel.hide()
+	completion_panel.hide()
+	_set_pause(false)
+	started = false
+	hud.hide()
+	title_screen.show()
+	companion.active = false
+	combat_pose.clear()
+
+func _request_new_game() -> void:
+	if FileAccess.file_exists(save_path): new_game_confirm.popup_centered()
+	else: _new_game()
 
 func _run_qa() -> void:
 	await get_tree().process_frame
@@ -1311,7 +1603,7 @@ func _run_qa() -> void:
 	if not story.done("farewell"): errors.append("Farewell missing")
 	walker.direction = Vector2i.LEFT
 	_set_walk_frame()
-	if not hero_sprite.flip_h or hero_sprite.frame < 8 or hero_sprite.frame > 11: errors.append("Left walk does not reuse right gait")
+	if hero_sprite.flip_h or not str(hero_sprite.get_meta("active_clip", "")).ends_with("-2"): errors.append("Native left-facing motion not selected")
 	walker.direction = Vector2i.RIGHT
 	_set_walk_frame()
 	if not is_equal_approx(hero_sprite.position.y,0.04) or hero_sprite.rotation != Vector3.ZERO: errors.append("Sprite is not foot anchored")
@@ -1371,6 +1663,12 @@ func _run_qa() -> void:
 	while dialog_panel.visible: _advance_dialog()
 	if not arrived: errors.append("Delivery interaction failed")
 	_qa_interact("leon_arrival")
+	while transitioning: await get_tree().process_frame
+	_qa_interact("halven")
+	_qa_interact("leon_arrival")
+	_choose_return("b")
+	_qa_finish_dialog()
+	_qa_interact("leon_arrival")
 	if not story.done("closing"): errors.append("Closing scene missing")
 	var history_key := InputEventKey.new()
 	history_key.keycode = KEY_TAB
@@ -1413,12 +1711,14 @@ func _route_reachable() -> bool:
 	return true
 
 func _run_capture() -> void:
-	var output := ProjectSettings.globalize_path("res://../docs/screenshots")
+	qa_mode = true
+	var output := ProjectSettings.globalize_path("res://../docs/screenshots/environment-integration")
 	DirAccess.make_dir_recursive_absolute(output)
 	await get_tree().create_timer(0.8).timeout
 	await RenderingServer.frame_post_draw
 	get_viewport().get_texture().get_image().save_png(output + "/00-title.png")
 	_new_game()
+	_qa_finish_dialog()
 	for index in range(4):
 		has_medicine = index > 0
 		met_leon = index == 3
@@ -1433,6 +1733,7 @@ func _run_capture() -> void:
 	await get_tree().create_timer(0.4).timeout
 	await RenderingServer.frame_post_draw
 	get_viewport().get_texture().get_image().save_png(output + "/05-dialogue.png")
+	_qa_finish_dialog()
 	_load_map(2,Vector3(8,0,3))
 	walker.direction = Vector2i.DOWN
 	_set_walk_frame()
@@ -1460,6 +1761,8 @@ func _build_navigation() -> void:
 			navigation.set_point_solid(Vector2i(x,y),_blocked(world_point,0.37))
 
 func _set_click_route(target: Vector3) -> void:
+	route.clear()
+	has_walk_target = false
 	var start_position: Vector3 = walker.target if walker.moving else hero.position
 	var logical_start: Vector2 = walker.to_grid(start_position)/GridWalker.CELL
 	var logical_end: Vector2 = walker.to_grid(target)/GridWalker.CELL
@@ -1540,22 +1843,13 @@ func _key_name(action: String) -> String:
 	return OS.get_keycode_string(InputMap.action_get_events(action)[0].physical_keycode)
 
 func _prepare_surface_materials() -> void:
-	if not terrain_atlas: return
-	var image := terrain_atlas.get_image()
-	if image.is_compressed(): image.decompress()
-	var width := image.get_width()/3
-	var height := image.get_height()/2
+	var shader := load("res://assets/terrain_soft.gdshader")
+	var colors := [Color("9da68e"),Color("c6d5ce"),Color("788b85"),Color("9b8267"),Color("a8b6a4"),Color("778e86")]
 	for index in range(6):
-		var region := image.get_region(Rect2i((index%3)*width,(index/3)*height,width,height))
-		var material := StandardMaterial3D.new()
-		material.albedo_texture = ImageTexture.create_from_image(region)
-		material.texture_filter = BaseMaterial3D.TEXTURE_FILTER_NEAREST
-		material.uv1_triplanar = true
-		material.uv1_world_triplanar = true
-		material.uv1_scale = Vector3.ONE * (0.24 if index == 1 else 0.42)
-		material.roughness = 1.0
-		material.metallic_specular = 0.05
-		material.cull_mode = BaseMaterial3D.CULL_DISABLED
+		var material := ShaderMaterial.new()
+		material.shader = shader
+		material.set_shader_parameter("base_color",colors[index])
+		material.set_shader_parameter("grain",0.035 if index == 1 else 0.07)
 		terrain_materials.append(material)
 
 func _texture_surface(mesh: MeshInstance3D, index: int) -> void:
@@ -1724,7 +2018,7 @@ func _run_walk_capture() -> void:
 	get_tree().quit()
 
 func _near_story_cast(pos: Vector2) -> bool:
-	for point in [Vector2(-12,-7),Vector2(5,12),Vector2(-5,6.5),Vector2(12,-3.5),Vector2(3.5,-13)]:
+	for point in [Vector2(7,-3),Vector2(5,12),Vector2(-5,6.5),Vector2(12,-3.5),Vector2(3.5,-13)]:
 		if pos.distance_to(point) < 2.8: return true
 	return false
 
@@ -1778,7 +2072,7 @@ func _story_npc(npc_name: String, pos: Vector3, kind: String) -> void:
 	actor.add_child(sprite)
 	_marker(pos+Vector3(0,character_height*CAMERA_OFFSET.length()/CAMERA_OFFSET.z+0.4,0),npc_name)
 	obstacles.append(Rect2(pos.x-0.35,pos.z-0.35,0.7,0.7))
-	_interact(Vector2(pos.x,pos.z),npc_name+"와 이야기하기",kind)
+	_interact(Vector2(pos.x,pos.z),npc_name+("과" if npc_name in ["오르만","도렌","할벤"] else "와")+" 이야기하기",kind)
 
 func _make_history_ui() -> void:
 	history_panel = PanelContainer.new()
@@ -1882,15 +2176,40 @@ func _story_screenshot(filename: String) -> void:
 	print("STORY_CAPTURE: ",filename)
 
 
-func _environment_prop(id: String, pos: Vector3) -> void:
-	var scene: PackedScene = load("res://assets/environment/scenes/"+id+".tscn")
+func _environment_prop(id: String, pos: Vector3, fades := false) -> Node3D:
+	if not environment_scenes.has(id):
+		environment_scenes[id] = load("res://assets/environment/scenes/"+id+".tscn")
+	var scene := environment_scenes[id] as PackedScene
+	if scene == null:
+		push_error("Missing environment scene: " + id)
+		return null
 	var node := scene.instantiate() as Node3D
 	node.position = pos
 	map_root.add_child(node)
+	for child in node.find_children("*","MeshInstance3D",true,false):
+		var mesh := child as MeshInstance3D
+		var material: Material = mesh.material_override
+		if material and material.resource_path.contains("surface_"):
+			var index := material.resource_path.get_file().trim_prefix("surface_").trim_suffix(".tres").to_int()
+			if index >= 0 and index < terrain_materials.size(): mesh.material_override = terrain_materials[index]
+	# GridWalker uses rectangles, independently of the scene's physics bodies.
 	for rect in node.get_meta("grid_obstacles",[]):
 		obstacles.append(Rect2(pos.x+float(rect[0]),pos.z+float(rect[1]),float(rect[2]),float(rect[3])))
+	if fades:
+		var meshes: Array[MeshInstance3D] = []
+		for child in node.find_children("*","MeshInstance3D",true,false):
+			meshes.append(child as MeshInstance3D)
+		if not meshes.is_empty():
+			occluders.append({"pos":Vector2(pos.x,pos.z),"meshes":meshes})
+	return node
 
 func _input(event: InputEvent) -> void:
+	if completion_panel and completion_panel.visible:
+		if event is InputEventKey and event.pressed and event.keycode in [KEY_ESCAPE,KEY_TAB]:
+			_close_completion()
+			if event.keycode == KEY_TAB: _toggle_history()
+			get_viewport().set_input_as_handled()
+		return
 	if battle_view and battle_view.busy() and event is InputEventKey and not dialog_panel.visible:
 		if battle_view.handle(event):
 			get_viewport().set_input_as_handled()
@@ -1950,8 +2269,10 @@ func _combat_victory(health: int, mana: int, remaining: int) -> void:
 	combat.mp = mana
 	combat.potions = remaining
 	combat.won = true
+	combat.victory_source = "played"
 	combat.checkpoint = {}
 	battle_view.stop()
+	combat_pose.victory()
 	_update_quest()
 	if not qa_mode: _save_game(false,true)
 	_play_scene("leon_after_battle")
@@ -1979,11 +2300,12 @@ func _launch_battle_test() -> void:
 	qa_mode = true
 	_prepare_battle_test()
 	qa_mode = false
-	_play_scene("leon_bridge")
+	battle_view.show_guide()
 
 func _qa_win_first_battle(finish_treatment := true) -> void:
 	_qa_finish_dialog()
 	if not battle_view.model.active: return
+	battle_view.tutorial.finish()
 	battle_view.model.select_order("attack")
 	battle_view.model.paused = false
 	var budget := 4000
@@ -2005,6 +2327,7 @@ func _run_battle_qa() -> void:
 	_qa_finish_dialog()
 	if met_leon or combat.won or not battle_view.model.active: errors.append("Encounter bypassed first fight")
 	if not combat.sword or combat.checkpoint.is_empty(): errors.append("Sword/checkpoint missing")
+	battle_view.tutorial.finish()
 	var before: Vector3 = hero.position
 	var enemy_before: Vector3 = battle_view.model.enemy.position
 	var snow_before: Vector3 = particles[0].position
@@ -2035,7 +2358,7 @@ func _run_battle_qa() -> void:
 		if battle_view.model.outcome == "defeat": break
 	if not battle_view.defeat_panel.visible or met_leon or combat.won: errors.append("Defeat progresses story")
 	battle_view._retry(true)
-	if not dialog_panel.visible or active_scene != "firstbattle_help": errors.append("Retry help not optional/reachable")
+	if not battle_view.tutorial.panel.visible: errors.append("Retry help not optional/reachable")
 	_qa_finish_dialog()
 	_qa_win_first_battle(false)
 	if met_leon or battle_view.busy() or dialog_panel.visible: errors.append("Victory skipped return-to-Leon interaction")
@@ -2055,6 +2378,12 @@ func _run_battle_qa() -> void:
 	_load_map(3,Vector3(5,0,2))
 	_qa_interact("delivery")
 	if not arrived or combat.sword: errors.append("Delivery or sword return failed")
+	_qa_interact("leon_arrival")
+	while transitioning: await get_tree().process_frame
+	_qa_interact("halven")
+	_qa_interact("leon_arrival")
+	_choose_return("a")
+	_qa_finish_dialog()
 	_qa_interact("leon_arrival")
 	if not story.done("closing"): errors.append("Prologue ending unreachable after battle")
 	if not _qa_tactical_no_items(): errors.append("Tactical fight cannot be won without items on actual trail")
@@ -2105,12 +2434,13 @@ func _qa_tactical_no_items() -> bool:
 	combat.potions = 0
 	_play_scene("leon_bridge")
 	_qa_finish_dialog()
+	battle_view.tutorial.finish()
 	battle_view.model.select_order("attack")
 	battle_view.model.paused = false
 	for i in range(18000):
 		var model = battle_view.model
 		if not model.active: break
-		if model.enemy_windup > 0.4 and model.order == "attack" and not model.player.moving:
+		if (model.enemy_windup > 0.4 or model.leap_windup>0.7) and model.order == "attack" and not model.player.moving:
 			var choices: Array[Vector3] = []
 			for offset in [Vector3.LEFT*2,Vector3.RIGHT*2,Vector3.FORWARD*2,Vector3.BACK*2]:
 				var target: Vector3 = model.player.position+offset
@@ -2120,12 +2450,13 @@ func _qa_tactical_no_items() -> bool:
 				choices.sort_custom(func(a,b): return a.distance_to(model.enemy.position) > b.distance_to(model.enemy.position))
 				model.select_order("move",choices[0])
 				model.paused = false
-		elif model.order == "wait" and model.enemy_windup <= 0:
+		elif model.order == "wait" and model.enemy_windup <= 0 and model.leap_windup<=0:
 			model.select_order("attack")
 			model.paused = false
 		_physics_process(0.02)
 	_qa_finish_dialog()
 	if combat.won: _qa_complete_treatment()
+	print("TACTICAL_NO_ITEM_RESULT: ", combat, " enemy_hp=",battle_view.model.enemy_hp)
 	return combat.won and met_leon and combat.potions == 0 and combat.hp > 0
 
 func _inject_battle_click(point: Vector2, mouse_button := MOUSE_BUTTON_LEFT) -> void:
@@ -2154,6 +2485,7 @@ func _run_battle_input_qa() -> void:
 	_prepare_battle_test()
 	_play_scene("leon_bridge")
 	_qa_finish_dialog()
+	battle_view.tutorial.finish()
 	for i in range(4): await get_tree().process_frame
 	battle_view._choose("move")
 	var keyboard_start: Vector3 = battle_view.keyboard_cell
@@ -2232,3 +2564,80 @@ func _qa_complete_treatment() -> void:
 	_update_nearest()
 	_activate_interaction()
 	_qa_finish_dialog()
+
+func goal_label(point: Dictionary) -> String:
+	var kind: String = point.kind
+	if kind == "marta" and map_id == 0 and (not story.done("morning") or story.errands_done() and not story.done("farewell")): return "마르타"
+	if kind == "medicine" and story.done("request") and not has_medicine: return "약 꾸러미"
+	if kind == "water" and story.done("morning") and not story.done("water"): return "우물"
+	if kind == "inn" and story.done("morning") and not story.done("towels"): return "오르만"
+	if kind == "leon" and not met_leon: return "여행자" if not story.done("leon_found") else "레온"
+	if kind == "delivery" and met_leon and not arrived: return "에다 · 전달"
+	if kind == "leon_arrival" and arrived and not story.done("closing"): return "레온 · 차 한 잔"
+	if kind == "exit":
+		if map_id == 0 and story.done("morning") and not story.errands_done(): return "마을로"
+		if map_id == 1 and point.map == 0 and story.errands_done() and not story.done("farewell"): return "집으로"
+		if map_id == 1 and point.map == 2 and story.done("farewell"): return "돌샘 방면"
+		if map_id == 2 and point.map == 3 and met_leon: return "돌샘 연락소"
+	return ""
+
+func _field_heal() -> void:
+	if not started or dialog_panel.visible or transitioning or battle_view.busy(): return
+	if combat.hp >= 48: _toast("지금은 회복할 필요가 없어요."); return
+	if combat.potions <= 0: _toast("남은 회복약이 없어요."); return
+	var before := int(combat.hp)
+	combat.hp = mini(48,before+24)
+	combat.potions -= 1
+	audio.cue("pickup")
+	_update_quest()
+	if not qa_mode: _save_game(false)
+	_toast("HP +%d · 회복약 %d개 남음" % [int(combat.hp)-before,int(combat.potions)])
+
+func _make_return_choice_ui() -> void:
+	choice_panel = PanelContainer.new()
+	choice_panel.set_anchors_and_offsets_preset(Control.PRESET_CENTER)
+	choice_panel.offset_left = -420
+	choice_panel.offset_right = 420
+	choice_panel.offset_top = -140
+	choice_panel.offset_bottom = 140
+	choice_panel.add_theme_stylebox_override("panel", _panel_style(Color("101d39")))
+	ui_root.add_child(choice_panel)
+	var stack := VBoxContainer.new()
+	stack.add_theme_constant_override("separation", 16)
+	choice_panel.add_child(stack)
+	_label(stack, "레온과 돌아갈 길", 24)
+	_label(stack, "어느 답을 골라도 서리골을 확인하러 갑니다.", 18)
+	choice_buttons.append(_button(stack, "1 · 같이 가요. 대신 쉬는 때는 제가 정할게요.", func(): _choose_return("a")))
+	choice_buttons.append(_button(stack, "2 · 마을을 잘 아는 사람과 보고를 잘 아는 사람이 가는 거네요.", func(): _choose_return("b")))
+	choice_panel.hide()
+
+func _show_return_choice() -> void:
+	choice_panel.show()
+	ui_root.move_child(choice_panel, -1)
+	choice_buttons[0].grab_focus()
+
+func _choose_return(answer: String) -> void:
+	if not choice_panel.visible or answer not in ["a", "b"]: return
+	choice_panel.hide()
+	_play_scene("homeward_" + answer)
+
+func _next_morning() -> void:
+	transitioning = true
+	var tween := create_tween()
+	tween.tween_property(fade, "color:a", 1.0, 0.35)
+	await tween.finished
+	chapter_label.text = "다음 날 아침 · 돌샘의 기록"
+	_toast("밤이 지나고, 마지막 전달편의 기록이 도착했습니다. HP·MP는 유지됩니다.")
+	tween = create_tween()
+	tween.tween_property(fade, "color:a", 0.0, 0.45)
+	await tween.finished
+	transitioning = false
+	_update_quest()
+
+func _notification(what: int) -> void:
+	if what!=NOTIFICATION_APPLICATION_FOCUS_OUT or not is_node_ready() or qa_mode or not started: return
+	if battle_view and battle_view.busy():
+		battle_view.model.paused=true
+		battle_view._refresh()
+	elif not transitioning and not dialog_panel.visible and not choice_panel.visible:
+		_set_pause(true)

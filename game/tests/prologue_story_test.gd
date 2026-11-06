@@ -14,14 +14,17 @@ func _initialize() -> void:
 		story.finish("request")
 		story.finish("farewell")
 		story.finish("leon_first")
-		story.finish("closing")
-		var snapshot: Dictionary = story.flags.duplicate()
-		if not story.restore(2,true,true,true,snapshot): errors.append("V2 roundtrip rejected")
-		if story.restore(2,true,true,true,{"morning":"true"}): errors.append("Malformed flags accepted")
-		if story.flags != snapshot: errors.append("Failed load changed live state")
+		story.finish("tea")
+		story.finish("records")
+		story.finish("homeward_a")
+		story.finish("departure")
+		var snapshot: Dictionary = story.snapshot()
+		if not story.restore(4,true,true,true,snapshot): errors.append("V2 roundtrip rejected")
+		if story.restore(4,true,true,true,{"morning":"true"}): errors.append("Malformed flags accepted")
+		if story.snapshot() != snapshot: errors.append("Failed load changed live state")
 		var impossible := snapshot.duplicate()
 		impossible.water = false
-		if story.restore(2,true,true,true,impossible): errors.append("Impossible progress accepted")
+		if story.restore(4,true,true,true,impossible): errors.append("Impossible progress accepted")
 	for progressed in [false,true]:
 		if not story.restore(1,progressed,progressed,progressed,null): errors.append("V1 rejected")
 		if story.done("farewell") != progressed or story.done("closing"): errors.append("V1 migration incorrect")
@@ -29,17 +32,17 @@ func _initialize() -> void:
 	var medicine := false
 	var leon := false
 	var delivered := false
-	for scene in ["opening","well_first","inn_first","request","medicine","farewell","leon_first","leon_bridge","delivery","closing"]:
+	for scene in ["opening","well_first","inn_first","request","medicine","farewell","leon_first","leon_bridge","delivery","tea","records","homeward_a","departure"]:
 		story.finish(scene)
 		medicine = medicine or scene == "medicine"
 		leon = leon or scene == "leon_bridge"
 		delivered = delivered or scene == "delivery"
 		var restored = Story.new()
-		if not restored.restore(2,medicine,leon,delivered,story.flags.duplicate()): errors.append("Stage load rejected: "+scene)
-		if restored.flags != story.flags: errors.append("Stage load changed progress: "+scene)
-	var historical: Dictionary = story.flags.duplicate()
+		if not restored.restore(4,medicine,leon,delivered,story.snapshot()): errors.append("Stage load rejected: "+scene)
+		if restored.snapshot() != story.snapshot(): errors.append("Stage load changed progress: "+scene)
+	var historical: Dictionary = story.snapshot()
 	historical.erase("leon_found")
-	if not story.restore(2,true,true,true,historical) or not story.done("leon_found"): errors.append("Existing V2 save migration failed")
+	if not story.restore(4,true,true,true,historical) or not story.done("leon_found"): errors.append("Existing V2 save migration failed")
 	story.reset()
 	if story.scene_for("nia",false,false,false) != "nia": errors.append("Early Nia mentions departure")
 	if story.scene_for("roke",false,false,false) != "roke_before_trip": errors.append("Early gate dialogue assumes delivery")
@@ -53,7 +56,7 @@ func _initialize() -> void:
 	story.finish("leon_first")
 	if story.scene_for("leon",true,false,false) != "leon_bridge": errors.append("Encounter does not return control before aid")
 	if story.scene_for("tracks",true,false,false) != "tracks_after": errors.append("Known footprints treated as unknown")
-	if story.scene_for("tracks",true,true,true) != "tracks_return": errors.append("Delivered medicine still described as pending")
+	if story.scene_for("tracks",true,true,true) != "tracks": errors.append("Delivered medicine still described as pending")
 	if story.scene_for("medicine",true,true,true) != "parcel_delivered": errors.append("Delivered parcel still needs packing")
 	for kind in ["marta","medicine","water","inn","leon","leon_arrival","delivery","halven","eda","room_map","nia","roke","doren","vera","tracks","window","notice","trail_sign"]:
 		for state in [[false,false,false],[true,false,false],[true,true,false],[true,true,true]]:
@@ -64,9 +67,10 @@ func _initialize() -> void:
 		if story.lines(scene).is_empty() or story.title(scene).is_empty(): errors.append("Empty scene: "+scene)
 		for line in story.lines(scene):
 			line_count += 1
-			if line.size() != 3 or line[0].is_empty() or line[1].is_empty(): errors.append("Invalid dialogue")
+			if line.size() not in [3,4] or line[0].is_empty() or line[1].is_empty(): errors.append("Invalid dialogue")
 			if line[0] == "서술": errors.append("Novel prose in game dialogue: "+scene)
 			if line[1].length() > 100: errors.append("Page too long: "+scene)
+			if line.size() == 4 and line[3] not in ["calm","concern"]: errors.append("Invalid expression")
 			if int(line[2]) not in [-1,0,1,2]: errors.append("Invalid portrait")
 	print("PROLOGUE_STORY_QA: %s (%d scenes / %d lines) %s" % ["PASS" if errors.is_empty() else "FAIL",story.data.scenes.size(),line_count,errors])
 	quit(0 if errors.is_empty() else 1)

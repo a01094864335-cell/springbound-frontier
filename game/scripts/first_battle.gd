@@ -12,6 +12,12 @@ const REACH := 1.3
 const ITEM_HEAL := 24
 const ITEM_RECOVERY := 1.2
 
+const LEAP_WINDUP := 1.6
+var tutorial_hold := false
+var leap_windup := 0.0
+var leap_target := Vector3.ZERO
+var leap_origin := Vector3.ZERO
+var enemy_attacks := 0
 var player = GridWalker.new()
 var enemy = GridWalker.new()
 var hp := MAX_HP
@@ -66,10 +72,13 @@ func retry() -> void:
 	elapsed = 0
 	events.clear()
 	commands_used.clear()
+	tutorial_hold = false
+	leap_windup = 0
+	enemy_attacks = 0
 
 func select_order(value: String, target := Vector3.ZERO) -> bool:
 	if not active or value not in ["attack","move","wait"]: return false
-	if value == "move" and blocked.call(target): return false
+	if value == "move" and (blocked.call(target) or target.distance_to(player.position)<0.01): return false
 	paused = true
 	pending_item = false
 	# A changed order may cancel preparation, but never erases recovery.
@@ -132,6 +141,20 @@ func _tick(dt: float) -> void:
 	if enemy_hp <= 0:
 		_finish("victory")
 		return
+	if leap_windup > 0:
+		leap_windup = maxf(0, leap_windup-dt)
+		if leap_windup <= 0:
+			var offset: Vector3 = player.position-leap_target
+			if absf(offset.x)+absf(offset.z) <= 1.15:
+				var damage := 5 if mode == "story" else 7
+				hp = maxi(0, hp-damage)
+				events.append({"kind":"hero_hit", "amount":damage, "attack":"leap"})
+			else:
+				commands_used.range_dodge = true
+				events.append({"kind":"leap_miss"})
+			if not blocked.call(leap_target) and player.position.distance_to(leap_target) > 0.8:
+				enemy.reset(leap_target)
+			enemy_cooldown = ENEMY_RECOVERY
 	if enemy_windup > 0:
 		enemy_windup = maxf(0,enemy_windup-dt)
 		if enemy_windup <= 0:
@@ -158,10 +181,13 @@ func _tick(dt: float) -> void:
 				hero_windup = HERO_WINDUP
 				events.append({"kind":"hero_prepare"})
 			else: _walk_toward(player,enemy.position,true)
-	if not enemy.moving and enemy_windup <= 0 and enemy_cooldown <= 0:
+	if not tutorial_hold and not enemy.moving and enemy_windup <= 0 and leap_windup <= 0 and enemy_cooldown <= 0:
 		if in_reach():
-			enemy_windup = ENEMY_WINDUP
-			events.append({"kind":"enemy_prepare"})
+			enemy_attacks += 1
+			if enemy_attacks % 3 == 0: begin_leap()
+			else:
+				enemy_windup = ENEMY_WINDUP
+				events.append({"kind":"enemy_prepare"})
 		else: _walk_toward(enemy,player.position,false)
 
 func _walk_toward(actor: RefCounted, target: Vector3, is_hero: bool) -> void:
@@ -189,3 +215,11 @@ func _finish(result: String) -> void:
 	enemy_windup = 0
 	order = "wait"
 	events.append({"kind":result})
+
+func begin_leap() -> void:
+	if not active or leap_windup > 0: return
+	leap_origin = enemy.position
+	leap_target = player.target
+	leap_windup = LEAP_WINDUP
+	enemy_windup = 0
+	events.append({"kind":"leap_prepare"})

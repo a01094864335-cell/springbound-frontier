@@ -1,6 +1,8 @@
 extends RefCounted
 ## Narrative state commits only after the last line, independently of map reloads.
 const FLAGS := ["morning", "water", "towels", "request", "farewell", "closing", "nia", "doren", "vera", "roke", "leon_arrival", "halven", "eda", "leon_found"]
+const EXTRA_FLAGS := ["trail_intro", "treatment", "arrival", "tea", "records", "homeward", "departure"]
+var return_choice := ""
 var flags: Dictionary = {}
 var data: Dictionary
 
@@ -9,7 +11,8 @@ func _init() -> void:
 	reset()
 
 func reset() -> void:
-	for flag in FLAGS: flags[flag] = false
+	return_choice = ""
+	for flag in FLAGS + EXTRA_FLAGS: flags[flag] = false
 
 func done(flag: String) -> bool:
 	return flags.get(flag, false)
@@ -20,7 +23,13 @@ func errands_done() -> bool:
 func finish(scene: String) -> void:
 	var changes := {"opening":"morning", "well_first":"water", "inn_first":"towels", "request":"request", "farewell":"farewell", "closing":"closing"}
 	if changes.has(scene): flags[changes[scene]] = true
-	if scene in FLAGS: flags[scene] = true
+	if scene in FLAGS + EXTRA_FLAGS and scene != "homeward": flags[scene] = true
+	if scene == "leon_bridge": flags.treatment = true
+	if scene == "arrival": flags.leon_arrival = true
+	if scene == "homeward_a" or scene == "homeward_b":
+		return_choice = scene.right(1)
+		flags.homeward = true
+	if scene == "departure": flags.closing = true
 	if scene == "nia_late": flags.nia = true
 	if scene == "leon_first": flags.leon_found = true
 
@@ -53,7 +62,26 @@ func restore(version: int, medicine: bool, leon: bool, delivered: bool, saved: V
 		if leon and not (medicine and next.farewell and next.leon_found): return false
 		if delivered and not leon: return false
 		if next.closing and not delivered: return false
+	# Older saves keep their location and completed delivery. Only new story steps resume.
+	for flag in EXTRA_FLAGS:
+		if saved is Dictionary and saved.has(flag) and not saved[flag] is bool: return false
+		next[flag] = saved.get(flag, false) if saved is Dictionary else false
+	var choice := ""
+	if saved is Dictionary:
+		if not saved.get("return_choice", "") is String: return false
+		choice = saved.get("return_choice", "")
+	if choice not in ["", "a", "b"]: return false
+	if next.tea and not delivered: return false
+	if next.records and not next.tea: return false
+	if next.homeward and (not next.records or choice.is_empty()): return false
+	if next.departure and not next.homeward: return false
+	# closing meant tea in v3; it becomes the final MQ05 boundary only in new saves.
+	if version < 4 and not (saved is Dictionary and saved.has("departure")):
+		next.tea = next.closing
+		next.closing = false
+	if next.closing != next.departure: return false
 	flags = next
+	return_choice = choice
 	return true
 
 func scene_for(kind: String, medicine: bool, leon: bool, delivered: bool) -> String:
@@ -82,16 +110,21 @@ func scene_for(kind: String, medicine: bool, leon: bool, delivered: bool) -> Str
 			if leon: return "leon_again"
 			return "leon_bridge" if done("leon_found") else "leon_first"
 		"leon_arrival":
-			if delivered: return "rest_again" if done("closing") else "closing"
+			if delivered:
+				if done("departure"): return "rest_again"
+				if not done("tea"): return "tea"
+				if not done("records"): return "morning_wait"
+				return "departure" if done("homeward") else "homeward"
 			return "leon_arrival_again" if done("leon_arrival") else "leon_arrival"
 		"delivery", "halven", "eda":
 			if not medicine or not leon: return "office_wait_eda" if kind == "eda" else "office_wait"
 			if not delivered: return "delivery"
+			if kind == "halven" and done("tea") and not done("records"): return "records"
 			if kind == "delivery": return "delivery_again"
 			return kind+"_again" if done(kind) else kind
-		"room_map": return "map_after" if delivered else "map"
+		"room_map": return "map"
 		"nia":
-			if delivered: return "nia_return" if done("nia") else "nia_late"
+			if delivered: return "nia_again" if done("nia") else "nia_late"
 			if done("nia"): return "nia_departure" if medicine else "nia_again"
 			return "nia"
 		"roke":
@@ -102,6 +135,11 @@ func scene_for(kind: String, medicine: bool, leon: bool, delivered: bool) -> Str
 			return "doren_again" if done("doren") else "doren"
 		"vera": return "vera_again" if done("vera") else "vera"
 		"tracks":
-			if delivered: return "tracks_return"
+			if delivered: return "tracks"
 			return "tracks_after" if done("leon_found") or leon else "tracks"
 	return kind
+
+func snapshot() -> Dictionary:
+	var result := flags.duplicate()
+	result.return_choice = return_choice
+	return result
