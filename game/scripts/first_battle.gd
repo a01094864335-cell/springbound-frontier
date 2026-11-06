@@ -4,15 +4,15 @@ const GridWalker = preload("res://scripts/grid_walker.gd")
 const MAX_HP := 48
 const ENEMY_HP := 84
 const HERO_DAMAGE := 6
-const HERO_WINDUP := 0.45
-const HERO_RECOVERY := 1.55
+const HERO_WINDUP := 0.24
+const HERO_RECOVERY := 0.86
 const ENEMY_WINDUP := 0.85
-const ENEMY_RECOVERY := 2.0
-const REACH := 1.3
+const ENEMY_RECOVERY := 1.65
+const REACH := 1.48
 const ITEM_HEAL := 24
 const ITEM_RECOVERY := 1.2
 
-const LEAP_WINDUP := 1.6
+const LEAP_WINDUP := 1.25
 var tutorial_hold := false
 var leap_windup := 0.0
 var leap_target := Vector3.ZERO
@@ -79,7 +79,7 @@ func retry() -> void:
 func select_order(value: String, target := Vector3.ZERO) -> bool:
 	if not active or value not in ["attack","move","wait"]: return false
 	if value == "move" and (blocked.call(target) or target.distance_to(player.position)<0.01): return false
-	paused = true
+	# An order preserves explicit tactical pause instead of stopping every command.
 	pending_item = false
 	# A changed order may cancel preparation, but never erases recovery.
 	if order != value or value == "move": hero_windup = 0
@@ -90,7 +90,6 @@ func select_order(value: String, target := Vector3.ZERO) -> bool:
 
 func select_item() -> bool:
 	if not active or hp <= 0 or hp >= MAX_HP or potions <= 0 or hero_cooldown > 0 or pending_item: return false
-	paused = true
 	pending_item = true
 	commands_used.item = true
 	return true
@@ -99,10 +98,7 @@ func toggle_time() -> void:
 	if active: paused = not paused
 
 func in_reach() -> bool:
-	# A sword connects only between settled cardinal neighbours.
-	if player.moving or enemy.moving: return false
-	var offset: Vector3 = player.position-enemy.position
-	return is_equal_approx(absf(offset.x)+absf(offset.z),1.0) and line_clear.call(player.position,enemy.position)
+	return player.position.distance_to(enemy.position)<=REACH and line_clear.call(player.position,enemy.position)
 
 func advance(delta: float) -> void:
 	if not active or paused or delta <= 0: return
@@ -154,7 +150,7 @@ func _tick(dt: float) -> void:
 				events.append({"kind":"leap_miss"})
 			if not blocked.call(leap_target) and player.position.distance_to(leap_target) > 0.8:
 				enemy.reset(leap_target)
-			enemy_cooldown = ENEMY_RECOVERY
+			enemy_cooldown = 2.2
 	if enemy_windup > 0:
 		enemy_windup = maxf(0,enemy_windup-dt)
 		if enemy_windup <= 0:
@@ -176,11 +172,12 @@ func _tick(dt: float) -> void:
 				commands_used.move_completed = true
 				events.append({"kind":"arrived"})
 			else: _walk_toward(player,destination,true)
-		elif order == "attack" and hero_cooldown <= 0:
-			if in_reach():
-				hero_windup = HERO_WINDUP
+		elif order == "attack":
+			if not in_reach(): _walk_toward(player,enemy.position,true)
+			elif hero_cooldown<=0:
+				hero_windup=HERO_WINDUP
 				events.append({"kind":"hero_prepare"})
-			else: _walk_toward(player,enemy.position,true)
+
 	if not tutorial_hold and not enemy.moving and enemy_windup <= 0 and leap_windup <= 0 and enemy_cooldown <= 0:
 		if in_reach():
 			enemy_attacks += 1

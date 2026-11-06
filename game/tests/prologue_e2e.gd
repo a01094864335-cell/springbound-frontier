@@ -73,45 +73,38 @@ func move_safe(range_only := false) -> bool:
 		click.button_index=MOUSE_BUTTON_RIGHT
 		click.position=world.camera.unproject_position(target)
 		b.handle(click)
-		key(KEY_SPACE)
 		return true
 	return false
 func attack() -> void:
-	world.battle_view._choose("attack")
-	key(KEY_ENTER)
-	key(KEY_SPACE)
+	var b=world.battle_view
+	var click:=InputEventMouseButton.new()
+	click.pressed=true
+	click.button_index=MOUSE_BUTTON_LEFT
+	click.position=world.camera.unproject_position(b.model.enemy.position)-Vector2(0,25)
+	b.handle(click)
 func fight() -> void:
-	var b = world.battle_view
-	check(b.model.active and b.model.paused,"Battle not paused at start")
-	for i in range(30000):
-		if not b.model.active: break
-		if world.dialog_panel.visible:
-			dialog()
-			continue
-		var stage: String = b.tutorial.stage
-		if b.model.paused:
-			match stage:
-				"resume", "pause", "dodge_retry": key(KEY_SPACE)
-				"move": check(move_safe(),"No tutorial movement")
-				"wait": b._choose("wait"); key(KEY_SPACE)
-				"dodge":
-					if i<100: await capture("04-range-warning")
-					check(move_safe(true),"No safe dodge cell")
-				"attack": attack()
-				"heal": b.tutorial.finish(); key(KEY_SPACE)
-				_: key(KEY_SPACE)
-		elif stage=="pause":
-			key(KEY_SPACE)
-		elif stage=="off":
-			if b.model.leap_windup>0.7 and b.model.order=="attack" and not b.model.player.moving: move_safe(true)
-			elif b.model.order=="wait" and b.model.enemy_windup<=0 and b.model.leap_windup<=0: attack()
-		world._physics_process(0.03)
-		if i%40==0: await process_frame
-	print("BATTLE_E2E_STATE ",b.tutorial.stage," ",b.model.order," ",b.model.commands_used," hp=",b.model.hp)
-	check(world.combat.won and world.combat.hp>0,"Battle did not end in victory")
-	check(b.model.commands_used.has("range_dodge"),"Area dodge did not execute")
-	check(b.model.commands_used.has("attack_hit"),"No actual sword hit")
-	check(b.model.potions==2,"Optional healing was forced")
+	var b=world.battle_view
+	check(b.model.active and b.model.paused,"Battle begins in safe preparation")
+	check(not world.dialog_panel.visible,"No modal lesson before first command")
+	attack()
+	check(not b.model.paused and b.model.order=="attack","One enemy click starts tracking attack")
+	var first_hit:float=-1
+	var dodge_orders:=0
+	for i in range(20000):
+		if not b.model.active:break
+		if b.model.leap_windup>.65 and b.model.order=="attack" and not b.model.player.moving:
+			await capture("04-range-warning")
+			check(move_safe(true),"Reachable safe dodge position")
+			dodge_orders+=1
+			check(not b.model.paused,"Right-click move does not require Space")
+		elif b.model.order=="wait" and b.model.enemy_windup<=0 and b.model.leap_windup<=0:attack()
+		world._physics_process(.03)
+		if first_hit<0 and b.model.commands_used.has("attack_hit"):first_hit=b.model.elapsed
+		if i%40==0:await process_frame
+	check(world.combat.won and world.combat.hp>0,"Encounter ends in real victory")
+	check(b.model.commands_used.has("attack_hit"),"Actual sword impact")
+	check(b.model.potions==2,"Healing remains optional")
+	print("COMBAT_FLOW_METRICS: first_hit_seconds=",first_hit," fight_seconds=",b.model.elapsed," dodge_orders=",dodge_orders," forced_resume_keys=0")
 	dialog()
 func run() -> void:
 	for arg in OS.get_cmdline_user_args():

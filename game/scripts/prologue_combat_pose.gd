@@ -1,4 +1,5 @@
 extends RefCounted
+const Battle = preload("res://scripts/first_battle.gd")
 const Motion = preload("res://scripts/prologue_motion.gd")
 var world: Node
 var overlay: Sprite3D
@@ -24,8 +25,8 @@ func render(model, flash: float) -> void:
 	var phase: float = model.player.progress if model.player.moving else fmod(model.elapsed,1.0)
 	if model.hero_windup>0:
 		action=2
-		phase=1.0-model.hero_windup/0.45
-	elif model.hero_cooldown>1.2:
+		phase=1.0-model.hero_windup/Battle.HERO_WINDUP
+	elif model.hero_cooldown>Battle.HERO_RECOVERY*.75:
 		action=2
 		phase=0.99
 	if flash>0: action=3; phase=0.5

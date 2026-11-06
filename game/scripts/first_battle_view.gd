@@ -3,6 +3,12 @@ extends Node
 const AudioBank = preload("res://assets/production/audio/audio_bank.gd")
 const Motion = preload("res://scripts/prologue_motion.gd")
 const Battle = preload("res://scripts/first_battle.gd")
+var manual_pause := false
+var started_by_player := false
+var hero_action: Label
+var enemy_action: Label
+var hero_action_bar: ProgressBar
+var enemy_action_bar: ProgressBar
 var world: Node
 var model = Battle.new()
 var panel: PanelContainer
@@ -79,9 +85,11 @@ func start(checkpoint: Dictionary, restore_defeat := false) -> void:
 	world.walker = model.player
 	world.hero.position = model.player.position
 	resolved = false
+	manual_pause=false
+	started_by_player=false
 	target_mode = ""
 	log_lines.clear()
-	_log("레온에게 검을 빌렸다. 명령을 고른 뒤 Space로 재개하자.")
+	_log("레온에게 검을 빌렸다. 적을 클릭해 싸우거나, 우클릭으로 이동하자.")
 	enemy_flash = 0
 	hero_flash = 0
 	enemy_contact = 0
@@ -179,8 +187,8 @@ func _event(event: Dictionary) -> void:
 			_sound("heal")
 			_log("에일 회복 +%d · 회복약 %d개 남음" % [event.amount,model.potions])
 			world._combat_item_used(model.potions)
-		"enemy_hit": _sound("strike"); enemy_flash = 0.2; _log("가시털 들쥐에게 %d 피해" % event.amount)
-		"hero_hit": _sound("hurt"); enemy_contact = 0.18; hero_flash = 0.25; _log("에일이 %d 피해를 받았다" % event.amount)
+		"enemy_hit": _sound("strike"); enemy_flash=0.15; _damage_number(model.enemy.position,event.amount,false); _log("가시털 들쥐에게 %d 피해" % event.amount)
+		"hero_hit": _sound("hurt"); enemy_contact=0.18; hero_flash=0.18; _damage_number(model.player.position,event.amount,true); _log("에일이 %d 피해를 받았다" % event.amount)
 		"leap_prepare": _log("범위 도약 준비 · 붉은 위험 칸 밖으로 이동하세요.")
 		"leap_miss": _log("범위 도약을 피했다")
 		"enemy_prepare": _log("마물이 몸을 낮췄다. 거리를 벌리면 물기를 피할 수 있다.")
@@ -208,7 +216,7 @@ func handle(event: InputEvent) -> bool:
 		if not target_mode.is_empty() and event.keycode in [KEY_UP,KEY_DOWN,KEY_LEFT,KEY_RIGHT,KEY_ENTER]:
 			if event.keycode == KEY_ENTER:
 				if target_mode == "attack":
-					model.select_order("attack")
+					_issue_order("attack")
 					target_mode = ""
 				else:
 					var click := InputEventMouseButton.new()
@@ -226,8 +234,15 @@ func handle(event: InputEvent) -> bool:
 		if event.keycode in [KEY_SPACE,KEY_ESCAPE]:
 			if event.keycode == KEY_ESCAPE and not target_mode.is_empty():
 				target_mode = ""
-				_log("대상 선택 취소 · 현재 명령은 유지됩니다")
+				model.paused=manual_pause or not started_by_player
+				_log("선택 취소 · 현재 명령 유지")
 			else: _toggle_time()
+			_refresh()
+			return true
+		if event.keycode in [KEY_A,KEY_S,KEY_I]:
+			if event.keycode==KEY_A:_issue_order("attack")
+			elif event.keycode==KEY_S:_issue_order("wait")
+			else:_item()
 			_refresh()
 			return true
 		if event.keycode in [KEY_F5,KEY_F9]:
@@ -252,17 +267,17 @@ func handle(event: InputEvent) -> bool:
 			if world._blocked(cell) or route.is_empty() or cell.distance_to(model.enemy.position) < 0.8:
 				_log("이동할 수 없는 지점이야. 길 위를 선택하자.")
 			else:
-				if not model.select_order("move",cell):
+				if not _issue_order("move",cell):
 					_log("현재 위치와 다른 빈 칸을 선택하세요.")
 					return true
 				target_mode = ""
 				_show_destination(cell)
-				_log("이동 명령 선택 · Space로 재개")
+				_log("이동 · 도착하면 대기")
 		elif _enemy_hit_screen(event.position):
 			if not tutorial.allows("attack"): return true
-			model.select_order("attack")
+			_issue_order("attack")
 			target_mode = ""
-			_log("가시털 들쥐 공격 선택 · Space로 재개")
+			_log("가시털 들쥐 추적 · 반복 공격")
 		_refresh()
 		return true
 	return false
@@ -272,24 +287,30 @@ func show_guide() -> void:
 	tutorial.start()
 	_refresh()
 
+func _issue_order(value: String, target:=Vector3.ZERO) -> bool:
+	if not model.select_order(value,target):return false
+	started_by_player=true
+	model.paused=manual_pause
+	target_mode=""
+	return true
+
 func _choose(value: String) -> void:
-	if not model.active or not tutorial.allows(value): return
-	model.paused = true
-	if value == "wait":
-		model.select_order("wait")
-		tutorial.command_selected("wait")
-		target_mode = ""
+	if not model.active:return
+	if value in ["wait","attack"]:
+		_issue_order(value)
 	else:
-		target_mode = value
-		keyboard_cell = model.player.target
-		keyboard_target = true
+		model.paused=true
+		target_mode="move"
+		keyboard_cell=model.player.target
+		keyboard_target=true
 	_refresh()
 
 func _item() -> void:
-	if not tutorial.allows("item"): return
 	if model.select_item():
-		target_mode = ""
-		_log("회복약 선택 · 재개할 때 즉시 사용")
+		started_by_player=true
+		target_mode=""
+		model.paused=manual_pause
+		_log("개인 회복약 사용" if not manual_pause else "개인 회복약 예약 · 재개 시 발동")
 	_refresh()
 
 func _retry(with_help: bool) -> void:
@@ -298,6 +319,8 @@ func _retry(with_help: bool) -> void:
 	world.walker = model.player
 	world.hero.position = model.player.position
 	resolved = false
+	manual_pause=false
+	started_by_player=false
 	defeat_panel.hide()
 	panel.show()
 	tutorial.stage = "off"
@@ -312,25 +335,38 @@ func _retry(with_help: bool) -> void:
 	if with_help: world._play_scene("firstbattle_help")
 
 func _refresh() -> void:
-	heading.text = "첫 전투 · " + ("명령 정지" if model.paused else "시간 진행 중")
+	heading.text="전술 정지 · Space로 재개" if manual_pause else ("적을 클릭해 전투 시작" if not started_by_player else "전투 중 · Space로 전술 정지")
 	health.text = "에일  HP %d / %d   MP %d   회복약 %d개" % [model.hp,Battle.MAX_HP,model.mp,model.potions]
 	enemy_health.text = "가시털 들쥐  HP %d / %d" % [model.enemy_hp,Battle.ENEMY_HP]
 	hero_bar.value = model.hp
 	enemy_bar.value = model.enemy_hp
-	var labels := {"wait":"대기","attack":"마물에게 접근해 반복 공격","move":"선택한 칸으로 이동"}
+	var labels := {"wait":"대기","attack":"추적 · 반복 공격","move":"선택한 칸으로 이동"}
 	order_label.text = "에일의 명령: "+labels[model.order]+(" · 회복약 사용 예약" if model.pending_item else "")
 	if model.hero_cooldown > 0: order_label.text += " · 행동 후 대기 %.1f초" % model.hero_cooldown
 	resume_button.text = "재개 · Space" if model.paused else "정지 · Space"
 	item_button.text = "회복약 (%d)" % model.potions
 	item_button.disabled = not model.active or model.hp >= Battle.MAX_HP or model.potions <= 0 or model.hero_cooldown > 0 or model.pending_item
-	help_label.text = "이동 칸: 방향키 → Enter · 마우스로도 선택" if target_mode == "move" else ("마물 선택: Enter / 클릭 · 인접 1칸 공격" if target_mode == "attack" else "명령을 고른 뒤 Space로 재개 · 우클릭 이동 · 마물 클릭 공격")
-	if target_mode.is_empty() and not model.commands_used.has("attack_hit"):
-		help_label.text = "① 공격 → 마물 클릭 → Space 재개. 사거리까지 다가가 반복 공격합니다."
-	elif target_mode.is_empty() and not model.commands_used.has("dodge"):
-		help_label.text = "② 마물이 공격 준비를 하면 이동할 칸을 지정하고 Space로 재개해 피하세요."
-	elif target_mode.is_empty() and model.hp < Battle.MAX_HP and model.potions > 0 and not model.commands_used.has("item_used"):
-		help_label.text = "③ Space로 정지 → 회복약 선택 → Space 재개. 사용 뒤에는 잠시 기다립니다."
-	if tutorial.stage != "off": help_label.text = "Space 정지·재개  ·  우클릭 이동  ·  마물 클릭 공격"
+	help_label.text="이동할 곳 클릭 / 방향키 → Enter · Esc 취소" if target_mode=="move" else "적 클릭 / A 공격 · 우클릭 이동 · S 대기 · I 회복약 · Space 전술 정지"
+	if hero_action:
+		if model.hero_windup>0:
+			hero_action.text="공격 준비"
+			hero_action_bar.value=1.0-model.hero_windup/Battle.HERO_WINDUP
+		elif model.hero_cooldown>0:
+			hero_action.text="다음 행동 %.1f초 · 이동 가능" % model.hero_cooldown
+			hero_action_bar.value=1.0-model.hero_cooldown/maxf(Battle.HERO_RECOVERY,Battle.ITEM_RECOVERY)
+		else:
+			hero_action.text="행동 가능"
+			hero_action_bar.value=1.0
+	if enemy_action:
+		if model.leap_windup>0:
+			enemy_action.text="범위 도약 %.1f초" % model.leap_windup
+			enemy_action_bar.value=1.0-model.leap_windup/Battle.LEAP_WINDUP
+		elif model.enemy_windup>0:
+			enemy_action.text="물기 준비 %.1f초" % model.enemy_windup
+			enemy_action_bar.value=1.0-model.enemy_windup/Battle.ENEMY_WINDUP
+		else:
+			enemy_action.text="착지 뒤 빈틈 %.1f초" % model.enemy_cooldown if model.enemy_cooldown>1.7 else ("행동 후 대기 %.1f초" % model.enemy_cooldown if model.enemy_cooldown>0 else "접근 중")
+			enemy_action_bar.value=1.0-model.enemy_cooldown/2.2
 	if is_instance_valid(target_ring): target_ring.visible = model.order == "attack" and model.active
 	if is_instance_valid(destination_ring): destination_ring.visible = model.order == "move" and model.active
 
@@ -349,31 +385,37 @@ func _make_ui() -> void:
 	layout.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	panel.add_child(layout)
 	tutorial.setup(self,layout)
-	var status := _window(layout,Vector2(24,-158),Vector2(330,134),Control.PRESET_BOTTOM_LEFT)
+	var status := _window(layout,Vector2(24,-202),Vector2(330,178),Control.PRESET_BOTTOM_LEFT)
 	var left := VBoxContainer.new()
 	status.add_child(left)
 	world._label(left,"PLAYER  /  에일",13,Color("d6d3bd"))
 	health = world._label(left,"",16)
 	hero_bar = _bar(left,Battle.MAX_HP,Color("76ba9d"))
+	hero_action=world._label(left,"",14)
+	hero_action_bar=_bar(left,1,Color("e2c68b"))
+	hero_action_bar.custom_minimum_size.y=5
 	order_label = world._label(left,"",14)
 	order_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-	var target := _window(layout,Vector2(-298,24),Vector2(274,82),Control.PRESET_TOP_RIGHT)
+	var target := _window(layout,Vector2(-298,24),Vector2(274,132),Control.PRESET_TOP_RIGHT)
 	var target_stack := VBoxContainer.new()
 	target.add_child(target_stack)
 	world._label(target_stack,"TARGET",12,Color("c8bca5"))
 	enemy_health = world._label(target_stack,"",16)
 	enemy_bar = _bar(target_stack,Battle.ENEMY_HP,Color("bb7470"))
+	enemy_action=world._label(target_stack,"",14)
+	enemy_action_bar=_bar(target_stack,1,Color("e7ad69"))
+	enemy_action_bar.custom_minimum_size.y=5
 	var commands := _window(layout,Vector2(-218,-328),Vector2(194,304),Control.PRESET_BOTTOM_RIGHT)
 	var buttons := VBoxContainer.new()
 	buttons.add_theme_constant_override("separation",3)
 	commands.add_child(buttons)
 	world._label(buttons,"COMMAND  /  에일",14,Color("e6d3a3"))
-	attack_button = _small_button(buttons,"공격",func(): _choose("attack"))
+	attack_button = _small_button(buttons,"공격 · A",func(): _choose("attack"))
 	move_button = _small_button(buttons,"이동",func(): _choose("move"))
-	_small_button(buttons,"대기",func(): _choose("wait"))
+	_small_button(buttons,"대기 · S",func(): _choose("wait"))
 	item_button = _small_button(buttons,"회복약",_item)
 	resume_button = _small_button(buttons,"재개 · Space",_toggle_time)
-	_small_button(buttons,"조작 안내",func(): model.paused = true; world._play_scene("firstbattle_help"))
+	_small_button(buttons,"짧은 안내",func(): world._play_scene("firstbattle_help"))
 	heading = world._label(layout,"",18,Color("f1d89d"))
 	heading.set_anchors_and_offsets_preset(Control.PRESET_CENTER_TOP)
 	heading.position = Vector2(-160,24)
@@ -575,6 +617,8 @@ func _toggle_time() -> void:
 		_refresh()
 		return
 	model.toggle_time()
+	manual_pause=model.paused
+	started_by_player=true
 	tutorial.time_changed()
 	_refresh()
 
@@ -621,14 +665,18 @@ func _update_cells() -> void:
 	cell_overlay = Node3D.new()
 	world.map_root.add_child(cell_overlay)
 	# The board appears while issuing commands, keeping the moving field readable.
-	if model.paused:
+	if model.paused and target_mode=="move":
 		for x in range(roundi(origin.x)-6,roundi(origin.x)+7):
 			for z in range(roundi(origin.z)-6,roundi(origin.z)+7):
 				var cell := Vector3(x,0,z)
 				if not world._blocked(cell): _cell_outline(cell,Color(0.55,0.8,0.9,0.26),0.018)
-		for direction in [Vector3.LEFT,Vector3.RIGHT,Vector3.FORWARD,Vector3.BACK]:
-			var cell: Vector3 = model.enemy.target+direction
-			if not world._blocked(cell): _cell_outline(cell,Color(1,0.48,0.25,0.85),0.04)
+	if model.paused:
+		for x in range(-1,2):
+			for z in range(-1,2):
+				if x==0 and z==0:continue
+				var cell:Vector3=model.enemy.target+Vector3(x,0,z)
+				if not world._blocked(cell) and cell.distance_to(model.enemy.target)<=Battle.REACH and _line_clear(cell,model.enemy.target):
+					_cell_outline(cell,Color(1,.48,.25,.75),.035)
 	var goal: Vector3 = hover if model.paused and target_mode == "move" else model.destination
 	if model.order == "move" or (model.paused and target_mode == "move"):
 		var route := _path(origin,goal)
@@ -689,3 +737,18 @@ func _update_danger() -> void:
 		material.albedo_color = Color(0.9,0.19,0.1,0.6)
 		tile.material_override = material
 		danger_root.add_child(tile)
+
+func _damage_number(position: Vector3, amount: int, on_hero: bool) -> void:
+	var label:=Label3D.new()
+	label.text=str(amount)
+	label.billboard=BaseMaterial3D.BILLBOARD_ENABLED
+	label.font_size=44
+	label.outline_size=9
+	label.modulate=Color("ffb4a1") if on_hero else Color("ffe7b1")
+	label.no_depth_test=true
+	label.position=position+Vector3(0,2.6,0)
+	world.map_root.add_child(label)
+	var tween:=create_tween().set_parallel(true)
+	tween.tween_property(label,"position:y",label.position.y+.8,.65)
+	tween.tween_property(label,"modulate:a",0.0,.65).set_trans(Tween.TRANS_QUAD)
+	tween.chain().tween_callback(label.queue_free)

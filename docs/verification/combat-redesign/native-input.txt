@@ -1,0 +1,10 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M2
+
+QA_NOTICE: 새 목표: 우물 물통 채우기 · 여관에 수건 전달하기
+QA_NOTICE: 물통을 채웠다.
+QA_NOTICE: 수건을 전달했다.
+QA_NOTICE: 새 목표: 집 문 옆의 약 꾸러미 챙기기
+QA_NOTICE: 약 꾸러미를 챙겼다.
+QA_NOTICE: 새 목표: 북문을 지나 돌샘 연락소로 가기
+COMBAT_INPUT_QA: PASS checks=20 first_hit=0.65 []

@@ -2440,7 +2440,7 @@ func _qa_tactical_no_items() -> bool:
 	for i in range(18000):
 		var model = battle_view.model
 		if not model.active: break
-		if (model.enemy_windup > 0.4 or model.leap_windup>0.7) and model.order == "attack" and not model.player.moving:
+		if ((model.enemy_windup>.28 and model.enemy_windup<.55) or model.leap_windup>.7) and model.order=="attack" and not model.player.moving and model.hero_windup<=0:
 			var choices: Array[Vector3] = []
 			for offset in [Vector3.LEFT*2,Vector3.RIGHT*2,Vector3.FORWARD*2,Vector3.BACK*2]:
 				var target: Vector3 = model.player.position+offset
@@ -2481,79 +2481,11 @@ func _inject_battle_key(key: Key) -> void:
 	Input.parse_input_event(event)
 
 func _run_battle_input_qa() -> void:
-	var errors: Array[String] = []
-	_prepare_battle_test()
-	_play_scene("leon_bridge")
-	_qa_finish_dialog()
-	battle_view.tutorial.finish()
-	for i in range(4): await get_tree().process_frame
-	battle_view._choose("move")
-	var keyboard_start: Vector3 = battle_view.keyboard_cell
-	_inject_battle_key(KEY_RIGHT)
 	await get_tree().process_frame
-	if battle_view.keyboard_cell != keyboard_start+Vector3.RIGHT: errors.append("Keyboard cell cursor failed")
-	_inject_battle_key(KEY_ENTER)
-	await get_tree().process_frame
-	if battle_view.model.order != "move" or battle_view.model.destination != keyboard_start+Vector3.RIGHT: errors.append("Keyboard move confirmation failed")
-	battle_view._choose("attack")
-	_inject_battle_key(KEY_ENTER)
-	await get_tree().process_frame
-	if battle_view.model.order != "attack" or not battle_view.target_mode.is_empty(): errors.append("Keyboard attack confirmation failed")
-	_inject_battle_click(battle_view.attack_button.get_global_rect().get_center())
-	await get_tree().process_frame
-	if battle_view.target_mode != "attack": errors.append("Attack GUI button did not enter target selection")
-	_inject_battle_key(KEY_SPACE)
-	await get_tree().process_frame
-	if not battle_view.model.paused: errors.append("Incomplete selection resumed time")
-	var target: Vector2 = camera.unproject_position(battle_view.model.enemy.position)-Vector2(0,25)
-	_inject_battle_click(target)
-	await get_tree().process_frame
-	if battle_view.model.order != "attack" or not battle_view.model.paused: errors.append("Enemy click did not queue attack")
-	_inject_battle_key(KEY_SPACE)
-	await get_tree().process_frame
-	if battle_view.model.paused: errors.append("Space did not resume")
-	_inject_battle_key(KEY_SPACE)
-	await get_tree().process_frame
-	if not battle_view.model.paused: errors.append("Space did not pause")
-	var point := camera.unproject_position(Vector3(7,0,5))
-	_inject_battle_click(point,MOUSE_BUTTON_RIGHT)
-	await get_tree().process_frame
-	if battle_view.model.order != "move" or battle_view.model.destination != Vector3(7,0,5): errors.append("Right click did not queue tile movement")
-	_inject_battle_click(battle_view.move_button.get_global_rect().get_center())
-	await get_tree().process_frame
-	_inject_battle_key(KEY_ESCAPE)
-	await get_tree().process_frame
-	if not battle_view.target_mode.is_empty() or not battle_view.model.paused: errors.append("Escape failed to cancel target selection")
-	battle_view.model.hp = 20
-	battle_view.model.hero_cooldown = 0
-	battle_view._refresh()
-	await get_tree().process_frame
-	_inject_battle_click(battle_view.item_button.get_global_rect().get_center())
-	await get_tree().process_frame
-	if not battle_view.model.pending_item or battle_view.model.potions != 2: errors.append("Item GUI consumed before resume or failed selection")
-	_inject_battle_key(KEY_SPACE)
-	await get_tree().process_frame
-	_physics_process(0.02)
-	if battle_view.model.potions != 1: errors.append("Item GUI failed to consume exactly one")
-	battle_view._sound("strike")
-	battle_view._sound("hurt")
-	battle_view._sound("victory")
-	battle_view.model.hp = 1
-	battle_view.model.select_order("wait")
-	battle_view.model.paused = false
-	for i in range(2000):
-		_physics_process(0.05)
-		if battle_view.model.outcome == "defeat": break
-	await get_tree().process_frame
-	if not battle_view.defeat_panel.visible: errors.append("Defeat GUI not visible")
-	_inject_battle_key(KEY_ENTER)
-	await get_tree().process_frame
-	if not battle_view.model.active or battle_view.defeat_panel.visible or battle_view.model.potions != 1: errors.append("Keyboard retry did not preserve spent inventory")
-	battle_view.stop()
-	for audio in battle_view.audio_players: audio.stop()
-	for i in range(4): await get_tree().process_frame
-	print("FIRST_BATTLE_INPUT_QA: ","PASS" if errors.is_empty() else "FAIL"," ",errors)
-	get_tree().quit(0 if errors.is_empty() else 1)
+	set_physics_process(false)
+	var probe=preload("res://tests/combat_input_probe.gd").new()
+	var result:Dictionary=await probe.run(self)
+	get_tree().quit(0 if result.passed else 1)
 
 
 func _qa_complete_treatment() -> void:
@@ -2638,6 +2570,7 @@ func _notification(what: int) -> void:
 	if what!=NOTIFICATION_APPLICATION_FOCUS_OUT or not is_node_ready() or qa_mode or not started: return
 	if battle_view and battle_view.busy():
 		battle_view.model.paused=true
+		battle_view.manual_pause=true
 		battle_view._refresh()
 	elif not transitioning and not dialog_panel.visible and not choice_panel.visible:
 		_set_pause(true)
