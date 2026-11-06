@@ -14,4 +14,8 @@ else
   read '?Enter를 누르면 종료합니다.'
   exit 1
 fi
+if [[ ! -f "$PROJECT_ROOT/game/.godot/uid_cache.bin" ]]; then
+  echo '처음 실행할 애셋을 준비하고 있습니다.'
+  "$GAME_ENGINE" --headless --editor --path "$PROJECT_ROOT/game" --import --quit
+fi
 exec "$GAME_ENGINE" --path "$PROJECT_ROOT/game"

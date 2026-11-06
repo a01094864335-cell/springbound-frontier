@@ -13,6 +13,8 @@ engine=next((x for x in candidates if x and Path(x).is_file()),None)
 if not engine: sys.exit('Godot 4.6.3 경로를 --engine 또는 GODOT_BIN으로 지정하세요.')
 out=(a.output or Path(tempfile.mkdtemp(prefix='springbound-prologue-qa-'))).resolve()
 out.mkdir(parents=True,exist_ok=True)
+if not (ROOT/'game/.godot/uid_cache.bin').exists():
+ subprocess.run([engine,'--headless','--editor','--path',str(ROOT/'game'),'--log-file',str(out/'import.log'),'--import','--quit'],check=True)
 checks=[('grid',['--script','res://tests/grid_walker_test.gd']),('story',['--script','res://tests/prologue_story_test.gd']),('environment',['--script','res://tests/environment_pack_test.gd']),('battle_core',['--script','res://tests/first_battle_test.gd']),('presentation',['--script','res://tests/presentation_test.gd']),('contracts',['--script','res://tests/prologue_contract_test.gd','--','--playthrough-qa']),('world',['--','--qa']),('battle_integration',['--','--battle-qa'])]
 for choice in ['a','b']:checks.append(('e2e_'+choice,['--script','res://tests/prologue_e2e.gd','--','--playthrough-qa','--choice='+choice]+(['--mute','--large-text'] if choice=='b' else [])+['--qa-output='+str(out/('e2e_'+choice))]))
 if a.native:
