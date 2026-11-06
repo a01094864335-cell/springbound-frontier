@@ -16,6 +16,8 @@ Springbound Frontier · 가제
 
 ## 작업자 시작 문서
 
+[현재 기준 애셋 부족분 전수 조사](docs/asset-gap-audit/README.md) — 전체2412참조·활성동작/아이콘/음원·29맵/52요구 대조·우선 작업46묶음
+
 [전편 통합 제작안·외부 로컬 구현 작업58개](docs/production-plan/README.md) — 전편 충돌 수정·맵29·전투24·성장/경제·에셋2412참조 대조
 
 [전체 42메인·24서브 상세 원고 색인](docs/scenario/remaining/coverage.md) · [MQ16~42·남은 서브 19종 전체 인계](docs/scenario/remaining/README.md) — 왕도부터 결말까지·중추 전투/연락·검수 50항목

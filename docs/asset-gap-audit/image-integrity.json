@@ -1,0 +1,5911 @@
+{
+  "asset_commit": "63ae017a26d036c2fba002fe79ac2393d1bcd8ee",
+  "source_and_transitive_images": 492,
+  "entries": [
+    {
+      "file": "assets/character-boards/ael-board-v1.png",
+      "byte_count": 2050787,
+      "sha256": "6330419091682fc720633692027f360b03985e37c2fab7576031c193f8e4d390",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/generic-npcs/arden-soldier-common-board-v1.png",
+      "byte_count": 2211823,
+      "sha256": "e8fa900d6da98bb79d6753aa5712098d1676de77cbd41aeaf1134893b8706fc1",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/generic-npcs/dock-worker-common-board-v1.png",
+      "byte_count": 2271582,
+      "sha256": "be750bd8d38a449f2ca6a5366375f1bfb2e1ea07441c98e9bbcf9d9ea36b27b4",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/generic-npcs/elder-resident-board-v1.png",
+      "byte_count": 2276404,
+      "sha256": "dd0ae09ced7198a87f2a4ab12bf7db8202d4a368b9507b399b2a4720bc2a9b8c",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/generic-npcs/field-acolyte-common-board-v1.png",
+      "byte_count": 2345455,
+      "sha256": "d78566125a7fae1a3cad0d7834a6352ed8dc1ff418fd634d85362c94b19daedc",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/generic-npcs/merchant-common-board-v1.png",
+      "byte_count": 2302446,
+      "sha256": "4afcb8387aee8ec7b2137f62f5d897b6bd068ad826cedc9f923d4a45543fc054",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/generic-npcs/miner-common-board-v1.png",
+      "byte_count": 2364231,
+      "sha256": "05a8ce2f73aa9d8005086544525e9ddbf05b17ae7e5b8ac0fc3729f0b6dafd3c",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/generic-npcs/refugee-common-board-v1.png",
+      "byte_count": 2445666,
+      "sha256": "409cafe991c41c88e9bc5dd61a415cd7538750b16d4a7fbf6cc7ca9b76156e9e",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/generic-npcs/researcher-common-board-v1.png",
+      "byte_count": 2218506,
+      "sha256": "1225112a68b468243563b967e8d76327d2099cc7f98e09d0eecde9f37bb6e215",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/generic-npcs/traveler-common-board-v1.png",
+      "byte_count": 2289015,
+      "sha256": "e8b04a7127ebf0537a1843a5e4706fc40b149d0e3818cbacb558237dad257e63",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/generic-npcs/velk-soldier-common-board-v1.png",
+      "byte_count": 2274727,
+      "sha256": "ae8ad103b540050f4498dfd91c156ac23b7bb46a8fa74b9fdc864544921b427b",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/generic-npcs/village-child-board-v1.png",
+      "byte_count": 2358674,
+      "sha256": "7f01b6aded6e44a65488b4c243c9de8c517988d895bdc93debfb8753f5e20126",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/generic-npcs/village-man-board-v1.png",
+      "byte_count": 2197391,
+      "sha256": "107f143e08a22af9bdf8fbc2d6db96c5a07c348381d5b183de24bf37b5b8388e",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/generic-npcs/village-woman-board-v1.png",
+      "byte_count": 2377595,
+      "sha256": "e667ecaa5ec0bfa904e51877cad5f3e0572d96791e6069622970ebe3c181c1e4",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/generic-npcs/wood-worker-board-v1.png",
+      "byte_count": 2351783,
+      "sha256": "e0177e1ac7e9eef407b979dbb981fd8d2b29d4451afb0d490b32c81489b5d854",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/iris-board-v1.png",
+      "byte_count": 2471419,
+      "sha256": "76606fdfccb844fd9e1efcae9df3787ebcd47ae60c49858c08a0f88753f2307a",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/kai-board-v1.png",
+      "byte_count": 2103207,
+      "sha256": "6af2b6bc58c3a64cb76b3e925d0fd87c1c46502d2a96f0276a69efdfa030acd8",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/leon-board-v2.png",
+      "byte_count": 2255595,
+      "sha256": "11ed7a2641a0f9d6b2173b088e5cc56e86688a6ac14d5c832d2079b52ce48b1b",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/marta-board-v1.png",
+      "byte_count": 2401112,
+      "sha256": "70808deca59d2e375a9b91e16df9be8398fe0fb6e760287d1bef2b535f1e5e8a",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/ria-board-v2.png",
+      "byte_count": 2179073,
+      "sha256": "9dc7a683826422b9fe27d1c726d995d455ffc3e4ff5b21690a2f62af475630c2",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/sena-board-v2.png",
+      "byte_count": 2293487,
+      "sha256": "e575b234e01bde502c1d5b9fa07ea966fc69177096300127b2190a90f1901a95",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/supporting-cast/adel-board-v1.png",
+      "byte_count": 2291594,
+      "sha256": "07c2243ae23024257c559de3edab865587c45e6014b97c00c6e0305eabb8d2fe",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/supporting-cast/bern-board-v1.png",
+      "byte_count": 2272876,
+      "sha256": "9c09c6c85fb439ea7d7a035562d4e4f34d6e55e3313318d209eda0d69467d312",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/supporting-cast/bram-board-v1.png",
+      "byte_count": 2347016,
+      "sha256": "ce9e2cc2123fc7c915d5a60377aeff5a86ddcf9c8fcb03ec4d4be64ad0712e82",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/supporting-cast/doren-board-v1.png",
+      "byte_count": 2394428,
+      "sha256": "1f8a72f24aa3eee948a68639c579a2b23d1a0351b2972854cdf225ddcdb2d46f",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/supporting-cast/eda-board-v1.png",
+      "byte_count": 2222522,
+      "sha256": "142e8dbb8e61988d7aed57052fd50fe81aee786320d18dca7ae1b1ace259f007",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/supporting-cast/estelle-board-v1.png",
+      "byte_count": 2296844,
+      "sha256": "eb3cd023067a88bd6e868a90c6ba96816e97ae99e6f3330f353d6ffffcd6534b",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/supporting-cast/grain-board-v1.png",
+      "byte_count": 2315733,
+      "sha256": "f87631c67fd24d44155b4adf41da3a0bcea62b72d0f9fd664e764438c2b24590",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/supporting-cast/halven-board-v1.png",
+      "byte_count": 2261579,
+      "sha256": "60aebdfa1ff9f543cddfa2b7a4a1c7f79fbd7aa70cafb23bb9059790ce8f807b",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/supporting-cast/letia-board-v1.png",
+      "byte_count": 2205712,
+      "sha256": "1fe1efc4574234e889bd07a27b634c7520f69c1703c525560f080d58f43d8f41",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/supporting-cast/luca-board-v1.png",
+      "byte_count": 2287545,
+      "sha256": "c45659159929720fb2f287516284ec2e66665f7a0e86f297a32d3ffa5a242c32",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/supporting-cast/mirena-board-v1.png",
+      "byte_count": 2238840,
+      "sha256": "4d6029103707ca4a32a5456e8c62e1389b054fcdc982b74a0c1c3fec1f1c805b",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/supporting-cast/nadia-board-v1.png",
+      "byte_count": 2359045,
+      "sha256": "02292afeab9e52a030fe83f36809c8d59b315837ef26325d86e5c8ca0a2c124f",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/supporting-cast/nia-board-v1.png",
+      "byte_count": 2280679,
+      "sha256": "e7313c75cb06f98240b46a4a115c7f030026f57e8555f23779b2dd77281dbfc5",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/supporting-cast/orman-board-v1.png",
+      "byte_count": 2212855,
+      "sha256": "9f089f2e09b696ceb9292430139b2b5ba1e21142a14ea5b87ebdb7fc0aa3f3b6",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/supporting-cast/oswin-board-v1.png",
+      "byte_count": 2476888,
+      "sha256": "2a67f9cc3291a26716eb8caac4106cd2a44ef6fbd52f88366196444f7cd48014",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/supporting-cast/pell-board-v1.png",
+      "byte_count": 2404528,
+      "sha256": "c82f33f11b74fb8417f4a51fef1995c854694348400edd305b76cdae832faba3",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/supporting-cast/raul-board-v1.png",
+      "byte_count": 2212050,
+      "sha256": "294d742e2c7306abfba02cb6062ba6b3549a0d62ff5f2a1fbb5d73da18c2d85c",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/supporting-cast/roke-board-v1.png",
+      "byte_count": 2270874,
+      "sha256": "f459d982e96227a3acb3dddb226ff7435465760eeff1bdff78c1d63320af5f3a",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/supporting-cast/sabel-board-v1.png",
+      "byte_count": 2470868,
+      "sha256": "4a347a99b6189e873c1378849ee76bc14bc8ff3ba9736df71eeb090ee4e4875c",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/supporting-cast/selma-board-v1.png",
+      "byte_count": 2367393,
+      "sha256": "6a4e47db71efe53819ed192e2cbaac88040eee59a2c76f41dd903bc15d8b2b62",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/supporting-cast/sever-board-v1.png",
+      "byte_count": 2312891,
+      "sha256": "56bffc3ba1d0066847f3adfaccc2abcc86566fd56ad23679901d7bb034c726f2",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/supporting-cast/teo-board-v1.png",
+      "byte_count": 2252304,
+      "sha256": "1d88dae6267db9f654b3d00715836a5b7d357e923d36323d6c4c2c37b5eb3a5d",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/supporting-cast/toma-board-v1.png",
+      "byte_count": 2304867,
+      "sha256": "2a901bd2b2839d6eaab411fb563ee334d68dfe20d171fce00ce1f77df2d8b10d",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/supporting-cast/vasco-board-v1.png",
+      "byte_count": 2315767,
+      "sha256": "2f0dbc5ffe0b34c8dda309a86be62f689c615a397c510dce5a8469f189c78190",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/supporting-cast/vera-board-v1.png",
+      "byte_count": 2254056,
+      "sha256": "54d1dbdaa19893aaf2fabadda7ca84cc4a7ec6a832b5d963dbdadcd32854f97d",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/character-boards/supporting-cast/yuno-board-v1.png",
+      "byte_count": 2219606,
+      "sha256": "cc330424154ac5633575d4e0c9462a20f71da66d9ea686c532bc96ea6f307c9c",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/enemy-boards/archer-board-v1.png",
+      "byte_count": 2280045,
+      "sha256": "e86bab78c690248faead1e75d3f357b5b1398fd5bac37336c231fe5d5a32d663",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/enemy-boards/axe-mercenary-board-v1.png",
+      "byte_count": 2373680,
+      "sha256": "6d3ecfa5e1231678e26da16979dbbb502428012cac8c6a29c4547e51c241789d",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/enemy-boards/battle-mage-board-v1.png",
+      "byte_count": 2237024,
+      "sha256": "e5984c64bf50f948af2a955671d73e124880dfb2f55042a6de118e3d7c339575",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/enemy-boards/edran-board-v1.png",
+      "byte_count": 2431309,
+      "sha256": "e317ff73b586f96946ce74ec1b67ca06d62b4b3a6e7881a48def34aff6f841b3",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/enemy-boards/heavy-knight-board-v1.png",
+      "byte_count": 2365559,
+      "sha256": "b791ebf0c2b74652977d68412cf605844e06d648d7da9262ebf0f4d98f36b6b5",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/enemy-boards/karen-board-v1.png",
+      "byte_count": 2351055,
+      "sha256": "8bcf705dedb7ae9df56a9aea7eb0193448aee0982691afb7e8353e2cb6d9ab28",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/enemy-boards/medic-board-v1.png",
+      "byte_count": 2237275,
+      "sha256": "4b4c33fb4b2f2bdddeb881db485d01f36a7e241a08d542447319a13140d83126",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/enemy-boards/neria-board-v1.png",
+      "byte_count": 2326004,
+      "sha256": "b0aac43d290289e82787e14480cb345633f4e98868f16e8997fbafc53ea75143",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/enemy-boards/roek-board-v1.png",
+      "byte_count": 2433061,
+      "sha256": "f49d1d9c9455c8de7354be6142ee078059cab3ede30f0fd662bc7173c16e5d1a",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/enemy-boards/scout-board-v1.png",
+      "byte_count": 2243184,
+      "sha256": "8917440f0cfca0afb5475dbbaaa4554db69715f8e9513e1ccc83d0d7eb41ac59",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/enemy-boards/silber-board-v1.png",
+      "byte_count": 2293357,
+      "sha256": "bae3a12d2703888558b9c8835ead1a031e5d19db188abeb6384ad2c954aece6a",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/enemy-boards/spearman-board-v1.png",
+      "byte_count": 2308267,
+      "sha256": "3bfdbdd5c2f0a8934f1863c4ec9be36f49e1042e38a41b90a825e7cd65c79c61",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/enemy-boards/swordsman-board-v1.png",
+      "byte_count": 2372582,
+      "sha256": "6a8412dd8e49383c73dc48e094654adfa9a0d26768ad1d4a80bb003e3902fa83",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/enemy-boards/valter-board-v1.png",
+      "byte_count": 2340621,
+      "sha256": "611804ce4cc53a6a3cefab52d6d7fa6e1549a172f0e34f25c5171542b152b5e4",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/item-boards/amulets-board-v1.png",
+      "byte_count": 1786568,
+      "sha256": "0de03d0e9a3b604a192d1c6276f0386d74c15c5d6819a7da0cfffff4e5d03fb4",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/item-boards/bows-board-v1.png",
+      "byte_count": 1610628,
+      "sha256": "2baa147c04a16587b4047e98f360f76675fe9b5c7afe61be24df7499b3eff8b6",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/item-boards/daggers-board-v1.png",
+      "byte_count": 1719682,
+      "sha256": "5b5b1a528f91578ce2afca5da19982469ffdbda86469db12fdcb51dbb4c23fe8",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/item-boards/exploration-tools-board-v1.png",
+      "byte_count": 1943069,
+      "sha256": "b54f5457d36bab426456ac498d7fde73456e2b788222afe2a62e0ef6ce3f6bd8",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/item-boards/gloves-board-v1.png",
+      "byte_count": 2210324,
+      "sha256": "59c5af34c7b16bcd6d5f49813f56f9b8de1095cb64dc259b7fac9dd3c0eee6d6",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/item-boards/heavy-armor-board-v1.png",
+      "byte_count": 2203424,
+      "sha256": "f1d993f975ddc79f0a48897ae58c2363ce5a9d910f92ed0990677b8a73981056",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/item-boards/herbs-and-materials-board-v1.png",
+      "byte_count": 2139656,
+      "sha256": "f265c4bd8e3364c5da61018ab952c41e742af95ee330cea31d8d25e2543f7400",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1312,
+        1199
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/item-boards/key-and-keepsakes-board-v1.png",
+      "byte_count": 1807804,
+      "sha256": "d01bff86f2688f650c18b613c874c9605bb60374203649b3fd33ae696de11559",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/item-boards/light-armor-board-v1.png",
+      "byte_count": 2276964,
+      "sha256": "89be2d5f899851a80cff27be425c7668203137b859883973ae8345607bd90eff",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/item-boards/one-handed-swords-board-v1.png",
+      "byte_count": 1691690,
+      "sha256": "2b67f05b3971e6c5549c2ccae55ade5e152905c1faf06a4c60ef1917c5e4a628",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/item-boards/quest-and-records-board-v1.png",
+      "byte_count": 1847733,
+      "sha256": "7864e78e88fc5d5a6f6d681892c5e02db521dee60bc24da76c4a612654ef4430",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/item-boards/recovery-and-cures-board-v1.png",
+      "byte_count": 1866232,
+      "sha256": "5897ec1a341ff3c390bc603823d5dd55538ce1330fa557d0fe44e2aa71853ee8",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/item-boards/rings-board-v1.png",
+      "byte_count": 1823537,
+      "sha256": "e680e5f3633b009fb37701c2fc6437bc7ffe70e339f029da2fc1690d2ac1b2ee",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/item-boards/spears-board-v1.png",
+      "byte_count": 1517445,
+      "sha256": "9b72cec2bf29d8ca3f0ec917f299021bfc88f4812cad1b513baf1f3dac256172",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/item-boards/staves-board-v1.png",
+      "byte_count": 1582514,
+      "sha256": "45f86583273b45686f72c0611a1b6856931c065df926101c22108b135fafd243",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/monster-boards/cave-spider-board-v1.png",
+      "byte_count": 2443269,
+      "sha256": "69e32f7d20c892f77feadedf75fc0b36686ce49170477cadfd168e867c57ad1a",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/monster-boards/fungal-feeder-board-v1.png",
+      "byte_count": 2555767,
+      "sha256": "f60b9b7cff25ed74c52148a6d5414c17a86f89e21d0179d096765cef81d71021",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/monster-boards/gatekeeper-board-v1.png",
+      "byte_count": 2467644,
+      "sha256": "a6876b2d8673010d54e5cd1631688cc120a4bae5c6a09c324e06aa0557253140",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/monster-boards/grey-wolf-board-v1.png",
+      "byte_count": 2125440,
+      "sha256": "71f84a53956a1ee14c66bce1978adc0180e2d7464afc0dea294ebe58c950fff6",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/monster-boards/mist-moth-board-v1.png",
+      "byte_count": 2371860,
+      "sha256": "d4f69589b4a1e92aa72ff7c24299d42e1c3837522c3d23624e27dee0dbf82bc8",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/monster-boards/reed-lizard-board-v1.png",
+      "byte_count": 2460899,
+      "sha256": "7530f20dc2928987b017d7b080dae5537cfc56dacd45e29d81cf480438a3b077",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/monster-boards/resonance-fusion-board-v2.png",
+      "byte_count": 2273147,
+      "sha256": "9c262c852bd29c5c1e7e5db1a6bb35a3242c2d7db51c02921bfd548501672ea2",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/monster-boards/resonant-wolf-board-v1.png",
+      "byte_count": 2536831,
+      "sha256": "0bc74883f0f4ba99079163a05f20f57c1c129351d344219add2cd8195cb19ba3",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/monster-boards/rock-hermit-board-v1.png",
+      "byte_count": 2455276,
+      "sha256": "509f9a390d7bf92103727e93421d27de77b5eddd9a8a38c76ba2834999d1af72",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1774,
+        887
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/monster-boards/rooted-resonance-board-v1.png",
+      "byte_count": 2563809,
+      "sha256": "f2e9d634621ea69ff0dbba381824d58005f561a90c48434878cb3ab990810a5d",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/monster-boards/scar-alpha-board-v1.png",
+      "byte_count": 2324838,
+      "sha256": "d3cc452061a134cb2c41dacef788ac6c9e9f59b7de2bee2ad253c0105908fb2b",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/monster-boards/sentinel-orb-board-v1.png",
+      "byte_count": 1890684,
+      "sha256": "95ae175590cb50111d470653604457f6bcf08aa1eed961bc6d7023b29908c4b7",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/monster-boards/spine-rat-board-v1.png",
+      "byte_count": 1958982,
+      "sha256": "0751dcef8cbb4a7aa5f687e9ae4780b578b73c8d2bca0a116b7008aa8eae8696",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1774,
+        887
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/monster-boards/stone-boar-board-v1.png",
+      "byte_count": 2500405,
+      "sha256": "70aab99007777d75ff8a8394d0388ad9f354f5de1a8292e3b3d6dcf8ef1715cf",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/monster-boards/stone-guardian-board-v1.png",
+      "byte_count": 2676434,
+      "sha256": "361389be6829ac77f4a34e37df5563d5ae5b06b869dfd9a32708a7f10b3afc95",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/monster-boards/stoneback-king-board-v1.png",
+      "byte_count": 2658577,
+      "sha256": "5f32701b7b57bba5cc5ddf1f5a923973619384e4e9da15ee922817f45883ba50",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/shield-boards/shields-board-v1.png",
+      "byte_count": 2065535,
+      "sha256": "fbd73caee3b857aa49b85bcab9fda434dd3b9816374f9f6b61f7f6030e4edefd",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1774,
+        887
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-01-01-board-v1.png",
+      "byte_count": 2535150,
+      "sha256": "5ce731b37e961aa17073e4e2b69232c85c454e88d00877759721d909cb9d3f9a",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-01-02-board-v1.png",
+      "byte_count": 2258059,
+      "sha256": "622f701ac418a457cfd53246a0002dcf5b05cbf4e65021e5f69c5c4a0a6f5401",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-01-03-board-v1.png",
+      "byte_count": 2552818,
+      "sha256": "f33da4ffb412a9a6a16d9f2f03e25bbba7b83142d62321cafe4069d9e97147dd",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-01-04-board-v1.png",
+      "byte_count": 2358573,
+      "sha256": "56253f0ce8ae095cd10bcecee472b153131137f69c15fe812182683dd36ca6bd",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-01-05-board-v1.png",
+      "byte_count": 2266764,
+      "sha256": "d2a2f64e4a49de131365c1aad87ce5c09087fb46ce1ffd9035aa3ae70026ddb0",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-01-06-board-v1.png",
+      "byte_count": 2183714,
+      "sha256": "7c34434a379a776cf69ef0c670e63c181849930f08984e4275edddc145c26eef",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-01-07-board-v1.png",
+      "byte_count": 2414907,
+      "sha256": "d7a7f62cd661b0d4ac5ec2aebb3ada60bcf1efa73e06d7c751aebd771eed2482",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-01-08-board-v1.png",
+      "byte_count": 2352068,
+      "sha256": "8932751030ff6ac03feae3b6f7206debcee36be691b08e9dea20fdb4f3ce072c",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-01-09-board-v1.png",
+      "byte_count": 2478909,
+      "sha256": "c27012cc6ada7d8f744548ff5bbb2af015fb303040534a6e89cc397bd1e48a9a",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-02-01-board-v1.png",
+      "byte_count": 2461935,
+      "sha256": "47c786296c48dc07ae8566ff8a63151d1251e14823d8a12b34f222a602c993b6",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-02-02-board-v1.png",
+      "byte_count": 2425175,
+      "sha256": "5bc5a4f211d3be677eae66534d943a373026af58ce271729b5b2d94e77803f3d",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-02-03-board-v1.png",
+      "byte_count": 2208459,
+      "sha256": "59f356f9f07e4b981792492e2cf61533deae4eca6b793af2edcfecddf59501cb",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-02-04-board-v1.png",
+      "byte_count": 2334367,
+      "sha256": "5fb508b1f96506af301d4ac141fb4bec5d940b3a4444f0f98895eeca6567b3d6",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-02-05-board-v1.png",
+      "byte_count": 2273079,
+      "sha256": "f035f25b75d336e978c5b4dc82153a7462b99c1826b744c464986eef33195e9c",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-02-06-board-v1.png",
+      "byte_count": 2324507,
+      "sha256": "59cb70fbf1d5ecbb286f436e0567fd882d32bc487b1c71bdd53398c2511e7477",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-02-07-board-v1.png",
+      "byte_count": 2447832,
+      "sha256": "d802d664719408405157740d879b6990c95067b4aaab7b5505f18f32f7ce3caf",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-02-08-board-v1.png",
+      "byte_count": 2348644,
+      "sha256": "fe9ded4546caaf64814d172e83a1fe8ae6aa28f76826aaa2066fd14e5bf796e9",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-02-09-board-v1.png",
+      "byte_count": 2355512,
+      "sha256": "6562f9f0d7b486ce9c2878ee7401e322015d4f16edd7733501c86c9db3e7fb9d",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-03-01-board-v1.png",
+      "byte_count": 2383489,
+      "sha256": "531e3754fb5cdbe1979a71ada828c9e77b9ab5b47b19475140a41e7e1af04cb5",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-03-02-board-v1.png",
+      "byte_count": 2278126,
+      "sha256": "57e4f9628bebf8cda6ae19389e5fd75458dee92c919a7b61b51ed608264099dc",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-03-03-board-v1.png",
+      "byte_count": 1975184,
+      "sha256": "6e5915db847a589e3b822baf2af2376b68f871ffba0e7f9133419997cb650073",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-03-04-board-v1.png",
+      "byte_count": 2541249,
+      "sha256": "3dfed577974785911c211f3a24799679a7a3c3d9dd08d995dd083998524dd8cf",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-03-05-board-v1.png",
+      "byte_count": 2373752,
+      "sha256": "a63550e905b6a68eb4f6bfb3e64ffa45a942a44d95f5f642478f05b62e02ddcc",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-03-06-board-v1.png",
+      "byte_count": 2108714,
+      "sha256": "e2b97de9b08336e9659925d9b9caa40e642a93c4d89535f413b048c761730fe8",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-03-07-board-v1.png",
+      "byte_count": 2184554,
+      "sha256": "bc200d6918894abb2be1f00a7857259859a3f98cc0ee56055dad50ca94ab8d19",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-03-08-board-v1.png",
+      "byte_count": 2069720,
+      "sha256": "e26561497429d5446f32a9d59e84f8a5fceaab71700df00184e1e7c079b0ebff",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-03-09-board-v1.png",
+      "byte_count": 2429390,
+      "sha256": "48f3715af931bae747188839c46262bafd30ea1cf04444b40b38f88b65379276",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-04-01-board-v1.png",
+      "byte_count": 2566467,
+      "sha256": "626cbc448906770b6f58d0fbbabaaadeacb5b570d466c79df3a46d8930f7bea9",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-04-02-board-v1.png",
+      "byte_count": 2552080,
+      "sha256": "a643709cd3a8086415de0ef3a91eab43be752c752ec61a6fd05f8a30fb9d0348",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-04-03-board-v1.png",
+      "byte_count": 2455481,
+      "sha256": "f404305b819b70fc8f9c79253730c209f41bfee212dc080fdbdb7eca42ef41f3",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-04-04-board-v1.png",
+      "byte_count": 2601304,
+      "sha256": "263fb1c2c189971e3ab96be5ecc4bb6a511482072813c5612424ddfd9d49700e",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-04-05-board-v1.png",
+      "byte_count": 2369396,
+      "sha256": "f37e81030fa91b632b0d06ffdbb7d5e21bd35dc012c8ca3c47a260c82c91936d",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-04-06-board-v1.png",
+      "byte_count": 2406135,
+      "sha256": "9deafc540b4f97d39ed6d780638256aab61160796fe9378035de3265ade3c546",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-04-07-board-v1.png",
+      "byte_count": 2376910,
+      "sha256": "e7f1962529738cf3d8d7f56497be1b4ca89dec70248efddc62e48f2941dc9da3",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-04-08-board-v1.png",
+      "byte_count": 2239469,
+      "sha256": "bddf909cf36abf29378c4cd682968bc40279bf45405ab5c4aa0637a95aa2e8da",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-04-09-board-v1.png",
+      "byte_count": 2495816,
+      "sha256": "2386ac2013d01077f3926645e1d3fa3924d55c392c24da4fd3d81c3eaa2b1a50",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-05-01-board-v1.png",
+      "byte_count": 2402373,
+      "sha256": "c14db06668e019f95c0d9f2112024e38d4e8c2b03719ceb944a3b5176db77ea7",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-05-02-board-v1.png",
+      "byte_count": 2454179,
+      "sha256": "36da7f7bfcc59f4c380534da769f47424fd1bf1e63b38d61d5ed130c7e34be65",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-05-03-board-v1.png",
+      "byte_count": 2696146,
+      "sha256": "06300b42c770b1eead5923cccdf0a447a16b49d2903a33fbd790ae854c315841",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-05-04-board-v1.png",
+      "byte_count": 2535845,
+      "sha256": "8c33d60ba8818d13289e87381434a11da25d7212131857dfbc5ad5b9db8f3dea",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-05-05-board-v1.png",
+      "byte_count": 2139141,
+      "sha256": "32198e5ded0ab9a11ad155d5313935948412b9a431a438ee1c5753a5a52ccbff",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-05-06-board-v1.png",
+      "byte_count": 2266961,
+      "sha256": "563d22ef71b9c7fe75dd05f24ca2e6d72961a7565e6ccad1172fef587f101626",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-05-07-board-v1.png",
+      "byte_count": 2460688,
+      "sha256": "78281c90d62a7a37752fcac0fbe658072c8352ffbd3cb0ecd5dced682a57c1c5",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-05-08-board-v1.png",
+      "byte_count": 2222629,
+      "sha256": "c1d228b87d6da14d5232fbd929a111c7a10fd8ac9542ba06d1cce77d07e513e8",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-05-09-board-v1.png",
+      "byte_count": 2726793,
+      "sha256": "7936f7440102e9c348b985f19ff5d4936e73e2e118b1283d74398b42e78bb430",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-06-01-board-v1.png",
+      "byte_count": 2508696,
+      "sha256": "dec0366844827435e9cb5976de5e86dfee172f8c9b6a6e9926c5241dd5de0d3f",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-06-02-board-v1.png",
+      "byte_count": 2484635,
+      "sha256": "3dcc83b5a246a67ec7ad935bde5c52cd1cd083e762c14a523e068825654608b3",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-06-03-board-v1.png",
+      "byte_count": 2289625,
+      "sha256": "b2745937e21a887d34b4ad5c14927bf6aa4132f7242f1bd06b9afef63c7b24c6",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-06-04-board-v1.png",
+      "byte_count": 2389858,
+      "sha256": "e3178a5d70857d40d75e86f3d2f488111c650d07f93ea2cb4159ff8b65d33151",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-06-05-board-v1.png",
+      "byte_count": 2706222,
+      "sha256": "769ceffef843a206f92f5b8630b0350b76212b1ae09944fd13ab9fcc2fec8226",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-06-06-board-v1.png",
+      "byte_count": 2064791,
+      "sha256": "d812b58d665d04b8fc85b66f2e99e823e9c8e79d41e110b675acc2ab87833c8b",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-06-07-board-v1.png",
+      "byte_count": 2542380,
+      "sha256": "07dba0073b510227824a8fafb6a88f2e20fb50a8e10f849504c2c69eb461f449",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-06-08-board-v1.png",
+      "byte_count": 2267570,
+      "sha256": "bfe3699674a7248220aef80ed87a93a122b03b0fba8064ac57c945f9fbf84d7d",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-06-09-board-v1.png",
+      "byte_count": 2580074,
+      "sha256": "eb1adc8f12c8b0662539e8a1aef7efdd3088bb5f20787d6deb2f7bfcfef3290f",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-07-01-board-v1.png",
+      "byte_count": 2455397,
+      "sha256": "e5b24884da6a506062164833a852e4f2860e31326b699a26e68c6f95213c070d",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-07-02-board-v1.png",
+      "byte_count": 2389789,
+      "sha256": "df1b515966a42fd5361552002a00e2a3613deb341c38663bf0a63c462c0e1060",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-07-03-board-v1.png",
+      "byte_count": 2795121,
+      "sha256": "c90bc1598fa82209b0285a2e0f561c10597027fef7c91f40278f564c67f78dd9",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-07-04-board-v1.png",
+      "byte_count": 2742781,
+      "sha256": "d91a0c49ac9cd5e7ea122c577c676705d092f87d2375387848e891f08358f767",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-07-05-board-v1.png",
+      "byte_count": 2596222,
+      "sha256": "12f3a1fb184f6bc49cdc11fcea9e3c0e9d94d38f2734bd9d65e572c5434c343f",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-07-06-board-v1.png",
+      "byte_count": 2570982,
+      "sha256": "7b5998cc09a1e7668050f6abac047b86d92b9edf45281cdb75a34432fe8192e5",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-07-07-board-v1.png",
+      "byte_count": 2554471,
+      "sha256": "63056ee649d275f913ffec38e3f693650e81be4446be12f843fd4962a842a1cc",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-07-08-board-v1.png",
+      "byte_count": 2395919,
+      "sha256": "f232b9c9d39073668024b154e2ea6d8337045b064319312a0ae756aa518490ec",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-07-09-board-v1.png",
+      "byte_count": 2578221,
+      "sha256": "6a031480afcd75b05dee4c6b39ad36e5d37faeb50c4f56096a9f88bc1618cdb4",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-08-01-board-v1.png",
+      "byte_count": 2499788,
+      "sha256": "56357f483ba68d7c0cd2c1006a12231be55b5e9b3b78b677afae4b722dcb3137",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-08-02-board-v1.png",
+      "byte_count": 2421990,
+      "sha256": "35026f67507155280bf0299cd473bfc2109b8b08a1a4b8a9eee5da578de8dfd0",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-08-03-board-v1.png",
+      "byte_count": 2606999,
+      "sha256": "d71f2e75d9ca5f9b69324938e8139d01febd8b879f65f86703840aaa465713df",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-08-04-board-v1.png",
+      "byte_count": 2516292,
+      "sha256": "211c99ba9b81420c3400a32d1f960fe15de606af44db5bc791bd1257a6d3b4c9",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-08-05-board-v1.png",
+      "byte_count": 2516366,
+      "sha256": "3e9ae6ae7637dc554c1b1e9b0fff4be3522578286302c10e876397efbf650ba3",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-08-06-board-v1.png",
+      "byte_count": 2561431,
+      "sha256": "fc4105fd93332326b89505f04396d307f898fa1b96672456597b484280d17e77",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-08-07-board-v1.png",
+      "byte_count": 2674937,
+      "sha256": "b8b8dd4a1df25d2aed6e04fed67ddef038528c60b8f6f527d47f72c00951c74f",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-08-08-board-v1.png",
+      "byte_count": 2433400,
+      "sha256": "75f7c04b2c64fd36fe54422234fbfc132d3b1404a981f8237e2f1e5b5955bbdf",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/architecture-08-09-board-v1.png",
+      "byte_count": 2667072,
+      "sha256": "f39d7ea8c3a594a8292e3827d5db6bea49887251dd76b0798180b88d4f023738",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-academy-01-board-v1.png",
+      "byte_count": 2537835,
+      "sha256": "68e942e20cde80f67fe6c6b5c751496197b906931229669ba750f38a703048e1",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-academy-02-board-v1.png",
+      "byte_count": 2627371,
+      "sha256": "f9e75f61b7668ee47b465c893f9980a6c68b669afd9c0004f4c3aec24919c89c",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-academy-03-board-v1.png",
+      "byte_count": 2487392,
+      "sha256": "60bd8b53ecf8b21fb93a6131b4fbc8b1720564123d740a282d7fc9313f9ac447",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-academy-04-board-v1.png",
+      "byte_count": 2436550,
+      "sha256": "a330d3dea7b7aec7110b271ed86a7c23ee9892d8daf063ef80355e52970c1e72",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-academy-05-board-v1.png",
+      "byte_count": 2447197,
+      "sha256": "63b5fcfea65ceefe2d28a6b8cb927c756a201a243e2783ec5b4cc00a96efe9d8",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-academy-06-board-v1.png",
+      "byte_count": 2214866,
+      "sha256": "445d51a39eccda9c2af1057b1c55a13203244533a68be5b2d15e0d184eed50a4",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-academy-07-board-v1.png",
+      "byte_count": 2519807,
+      "sha256": "489b40daf1738ae76961e90301a1271c54e47d70a95fd451f6152df2e1abe18a",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-border-01-board-v1.png",
+      "byte_count": 2769064,
+      "sha256": "7f14d51c458383e4a286ef1c5b1919baf0acc06bac1e0ca0a7ea345975dc7402",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-border-02-board-v1.png",
+      "byte_count": 2686153,
+      "sha256": "4f1f61ab2f6ea22ce5eae1501293eb9c39ee379c6507dadff4dfbfae209d8bfe",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-border-03-board-v1.png",
+      "byte_count": 2631283,
+      "sha256": "c2e8ce5ceacd863fe35859a7aa7706b8821df7fe56435c67d06e394095a4b99a",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-border-04-board-v1.png",
+      "byte_count": 2676804,
+      "sha256": "440c18d77b2e9f405ed3969f0312f23ecf55026db983269728adc4c02afc7d1f",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-border-05-board-v1.png",
+      "byte_count": 2771911,
+      "sha256": "524fc18846bee2bf432b707c57998edb414e3b2eff4ebf6cfa27605a22a0f66f",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-border-06-board-v1.png",
+      "byte_count": 2641236,
+      "sha256": "3bb8d46c871120cac3e839104c912640b11f93fa691501c5ca39ee636a0537a4",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-capital-01-board-v1.png",
+      "byte_count": 2325795,
+      "sha256": "7c981e207238aec2ae203773b933e4946b2d4495e3ea6fb9aac960891704146d",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-capital-02-board-v1.png",
+      "byte_count": 2303205,
+      "sha256": "05e1f32487df3e0fe7358ca637f38f136919535af38dce3b6f8e3c2de8642b5b",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-capital-03-board-v1.png",
+      "byte_count": 2395972,
+      "sha256": "73b50bf3a0bfe4949d1dc2649eed4b67cfead6dfed8a451bf0702995d158db66",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-capital-04-board-v1.png",
+      "byte_count": 2415221,
+      "sha256": "3076b47890d6a44ca62b88ecad098e21ecf222506803f932826c2c9113223e9b",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-capital-05-board-v1.png",
+      "byte_count": 2613426,
+      "sha256": "a9df161fd44f9f8e4595b68d39ce12ed8499b54d17f7581902c7b6c74d1459f3",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-capital-06-board-v1.png",
+      "byte_count": 2527227,
+      "sha256": "7d98f239ef92adb9828fb108b21dbe53b3cf7fee6f2947f4fd4b71243d835fb1",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-capital-07-board-v1.png",
+      "byte_count": 2471668,
+      "sha256": "f7b452a4d042e497141181ce3352ec1a7537ce1ce63a11caed77d30167540508",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-capital-08-board-v1.png",
+      "byte_count": 2528471,
+      "sha256": "033bff6bedc87f70e2ff39a085a7c0a6ff871347bbcda7eeac5ca57a1d90a002",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-capital-09-board-v1.png",
+      "byte_count": 2636864,
+      "sha256": "4cfcc6b7697332b00d726bc1fbc9a73236193c9390e778234fb931ecfa659b74",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-core-01-board-v1.png",
+      "byte_count": 2649719,
+      "sha256": "650f26aebf804ae185ebf655bf46b4ce0d46af6778dc8d40a122f45d20558ceb",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-core-02-board-v1.png",
+      "byte_count": 2434862,
+      "sha256": "ceb70cc195fad31a4cade663ca7dd25c1397bd930d34d625f1598150bdacf589",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-core-03-board-v1.png",
+      "byte_count": 2712638,
+      "sha256": "06699dca79a9f637bb28115607f4b2dee71db166638ebcfaa28a6326b47aa6a8",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-core-04-board-v1.png",
+      "byte_count": 2733306,
+      "sha256": "4bdb6e7e73c68ed5b51abf9fb847db977047bcedcb7e9554f2604f8e48cb1525",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-core-05-board-v1.png",
+      "byte_count": 2540538,
+      "sha256": "371004d4aefde923462ba53db6680065cb742be611d5ffee44d09a1ef17c2b77",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-frost-01-board-v1.png",
+      "byte_count": 2619562,
+      "sha256": "6439043def78047b5c7833ec17b0e46d8159f4493cfb257b6bbeea84b63f3216",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-frost-02-board-v1.png",
+      "byte_count": 2713352,
+      "sha256": "e1553f0c04231d5aeb4506ffb01b3b7f81403d5a604a2c575c039137efc54526",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-frost-03-board-v1.png",
+      "byte_count": 2682513,
+      "sha256": "ae6b232ee8d9d958c5626d9bb7f92cae799462acf15addbb3e71b194a8517a1f",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-frost-04-board-v1.png",
+      "byte_count": 2746563,
+      "sha256": "0dc681bd07931218f74bc7d7c9ca3c80624605b9e8e15bde2aaaadd83216ff35",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-frost-05-board-v1.png",
+      "byte_count": 2552521,
+      "sha256": "69aa05bc467fa67ceee7b401fc772ecfa4d5301238256d112dcd7d8eef660522",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-leon-home-01-board-v1.png",
+      "byte_count": 2488349,
+      "sha256": "c372f7d16c570f9c466ab384014466c88543d7337b2a528d1135c7af6eb35167",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-leon-home-02-board-v1.png",
+      "byte_count": 2746890,
+      "sha256": "a44af700bc96e21b31a75f3a8211427dfceec78a2f2a5a585660cc4912694d8a",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-leon-home-03-board-v1.png",
+      "byte_count": 2539557,
+      "sha256": "1a9016cd408ed3c59e59c93c59da70e2c3e9f7509b012bbdf8013aa643878e23",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-north-01-board-v1.png",
+      "byte_count": 2703186,
+      "sha256": "14c228e86d3c505b01637af336eeebcb1bee514efcdec734e217d87363ff7641",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-north-02-board-v1.png",
+      "byte_count": 2765588,
+      "sha256": "78fccea778a12eee73bb22ae4174410003708755c3507f46e444d5ab1a067e6b",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-north-03-board-v1.png",
+      "byte_count": 2818947,
+      "sha256": "1f1b4410831b3de227c7362dce6f2ec88bda717381973c6b396099846b1fc437",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-north-04-board-v1.png",
+      "byte_count": 2722183,
+      "sha256": "903aa79d3053d5a3a2d454c3800dc6bece7abe64c3f0c3576c0db8bf44031cad",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-north-05-board-v1.png",
+      "byte_count": 2580175,
+      "sha256": "dbea509bbd7ce482ae28d67a8fd38c23e08f978c18e630bca0662cdf474e33d1",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-refugee-01-board-v1.png",
+      "byte_count": 2368965,
+      "sha256": "489782c261084aea80bfe1edd2285c4979e7f214765890ace06cbfc48be82e8f",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-refugee-02-board-v1.png",
+      "byte_count": 2575975,
+      "sha256": "c65fe6db9b03848b892068ed21dab2c14e620f7ded39179fada9e2b6d96b22ec",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-refugee-03-board-v1.png",
+      "byte_count": 2339848,
+      "sha256": "c277942cff74f9d823862a60682384044bea9053740af53a5906135f63a53c3f",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-refugee-04-board-v1.png",
+      "byte_count": 2186160,
+      "sha256": "e46c46e5ae5cc445cff34a321a523a843d8c7d7b8302e0fbe2d9cab15593ec88",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-refugee-05-board-v1.png",
+      "byte_count": 2391144,
+      "sha256": "d7eceb7ffc0a0601d2d688b5f85fc3420a15ba767945aeb17bdc5f50e5650e97",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-sanctuary-01-board-v1.png",
+      "byte_count": 2345316,
+      "sha256": "664785aae6ab32787377f152fd12f3c724fd42278a22eabc703c3c7efee4a16f",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-sanctuary-02-board-v1.png",
+      "byte_count": 2257966,
+      "sha256": "e0b01bcad38eacad5e285a05976d4f57b29972a39adff4f62dca3ad702be5f45",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-sanctuary-03-board-v1.png",
+      "byte_count": 2293179,
+      "sha256": "a39fa1bff3facf6b38cd3fe7e875524e80534b14ae4d3c5adad6c8d2de2afcab",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-sanctuary-04-board-v1.png",
+      "byte_count": 2412797,
+      "sha256": "d61c455f79ffbae7d5470bcd0b24af5e13e25df03c9a7339ad8860c0575b49bc",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-sanctuary-05-board-v1.png",
+      "byte_count": 2232155,
+      "sha256": "5d9467ad4ce906c167226322f211e7593c193cebf09e83bcbb3932f7853130f2",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-sanctuary-06-board-v1.png",
+      "byte_count": 2417868,
+      "sha256": "a4f645d63aa5c1d2fd424abf05733f35837eedb954ff68b8e9ea73cebfc0a5cc",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-sea-01-board-v1.png",
+      "byte_count": 2331406,
+      "sha256": "4a0b1a8a25fc5a9fcf51d9f8c4b912146ba93d41f30f69a6be219f36411eeb64",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-sea-02-board-v1.png",
+      "byte_count": 2261925,
+      "sha256": "e8476b61ad2ffcf30e6c628c7c445bc43e68aa8020cda9d5a5e9c0b4bace8e53",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-sea-03-board-v1.png",
+      "byte_count": 2449073,
+      "sha256": "3423f1d22da637688e229f7a1571ce706c50bcfa6f3c63b3055a9e0626b85d11",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-sea-04-board-v1.png",
+      "byte_count": 2278766,
+      "sha256": "29ce7976484f2548997d72254e83a612a30e551341fd0ad0bdd5180c99d353cd",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-sea-05-board-v1.png",
+      "byte_count": 2508313,
+      "sha256": "5dce992e1920eb129c90715990a92cd3e26987247850618a584298fb5040bfa8",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-sea-06-board-v1.png",
+      "byte_count": 2479666,
+      "sha256": "bf7d191fd655c0216ecc5187a9053fbf29eea57a39e6293f0654cc165482fd57",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-south-port-01-board-v1.png",
+      "byte_count": 2786160,
+      "sha256": "0b88a460a1d760d4f040f61eb6b7363d1baee05cbb92af4077d76e07c0b71ee1",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-south-port-02-board-v1.png",
+      "byte_count": 2708051,
+      "sha256": "064f3ea5a3c8a1e178e6a6a7e8e8848b921d740099868a8a87e051e6b28a49b1",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-south-port-03-board-v1.png",
+      "byte_count": 2762916,
+      "sha256": "c05da198ed4589bac374f7b705ee8491dbf7cd915e44a727d6b6be835a014cf6",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-south-port-04-board-v1.png",
+      "byte_count": 2849231,
+      "sha256": "1b881a99e452872545ec836ebfbfe1e504663b1b355c102825d8f066c1cd2abe",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-south-port-05-board-v1.png",
+      "byte_count": 2591354,
+      "sha256": "07f28e610fb6fae0f95878827b9c370765f01b2b43ad15c578878d9380942e92",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-south-port-06-board-v1.png",
+      "byte_count": 2878416,
+      "sha256": "573b081ecb3cbb55af8811320abe281d72a89e35165ae31da2c6747e4efdd21c",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/building-south-port-07-board-v1.png",
+      "byte_count": 2713478,
+      "sha256": "914ab5dc310a3e2a14befa88178369a7bedcab0f789edf8a326ad68426fcff0d",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-academy-1-board-v1.png",
+      "byte_count": 2213935,
+      "sha256": "4ac9282f730427306f4a5ec9e9c9428a3327e477ed5974dfedc7ffb4099a3a7b",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-academy-2-board-v1.png",
+      "byte_count": 2134384,
+      "sha256": "b786a1c9983d257ead0347e0c23198f226c9bb49cb6d7ebe67d240579f37bbf3",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-academy-3-board-v1.png",
+      "byte_count": 2095590,
+      "sha256": "068491f4106a6a651a0fecee40d663b407796c647f18ea439ba65350d75b38a6",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-academy-4-board-v1.png",
+      "byte_count": 1969389,
+      "sha256": "7282e5bb17384f478150f50ff442b2760f2cbda53931fbfca73492abf6d8bbf7",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-academy-5-board-v1.png",
+      "byte_count": 1923249,
+      "sha256": "a6beb423a9d7ed53aaf5fd33e640362a11f59a5a491e07d1f4f6d552793f353b",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-border-1-board-v1.png",
+      "byte_count": 2407632,
+      "sha256": "4dd19819f3ce134ebba9d02ac9ecedb2f915071e3d46711845046a50c3785b9a",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-border-2-board-v1.png",
+      "byte_count": 2560055,
+      "sha256": "6decce141b573d7d1130f44ce3a1b8c61c1b638dacf98bc6966ba95f2459b82f",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-border-3-board-v1.png",
+      "byte_count": 2342443,
+      "sha256": "8d2ffca9389e129ad2d570a366386a32ac4a3742aa819fb14d399193f0ef1089",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-border-4-board-v1.png",
+      "byte_count": 2125725,
+      "sha256": "4c03a94e6bf5b3f86f0c9b97ed3e49e9601d17f12fa5d442514613c9535d5100",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-border-5-board-v1.png",
+      "byte_count": 2326014,
+      "sha256": "1f63ecbcf0925d903cd0d21df6e2aef17be60a9c752c997b0321181f913db08c",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-capital-1-board-v1.png",
+      "byte_count": 2379981,
+      "sha256": "384973c23a789b7c678c8f3e951dc992a8022ac1dc5e280bc292fec9cde9f5b8",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-capital-2-board-v1.png",
+      "byte_count": 2113356,
+      "sha256": "6a85e906192b93b64f50c97b52a603af51ba6ae3a0f330910a3568f37068da62",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-capital-3-board-v1.png",
+      "byte_count": 2023145,
+      "sha256": "629b6126c2ec7bc8a2cb4eb70d351ab3af991aa5b637d6d3963a4dc6e912c0c5",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-capital-4-board-v1.png",
+      "byte_count": 2021717,
+      "sha256": "f7329eea4880959c050de484958964f089ac100fe9ee8331a0a822a1dfedde24",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-capital-5-board-v1.png",
+      "byte_count": 1978579,
+      "sha256": "15d8e6682affca6c05f8ec377430e4e1b4bc573e32485986ddc44771af502050",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-core-1-board-v1.png",
+      "byte_count": 2611137,
+      "sha256": "47bee2434cda3b8a97062b74749eb67af7952ceb0c427fddc9ac9d32a515e6e0",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-core-2-board-v1.png",
+      "byte_count": 2432834,
+      "sha256": "c2291cc70726e15b5232561e4854cb69ed912b946e514829c684542de7c76dad",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-core-3-board-v1.png",
+      "byte_count": 2346663,
+      "sha256": "8bf31d0db1f9aaa6be56d08763696f6ce9de77aadb210596e4fcdc5b6370a144",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-core-4-board-v1.png",
+      "byte_count": 2193335,
+      "sha256": "83a35041bbb6265fe7dc43e203b5773e4de018d07adf57bc1a10d92e23720d15",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-core-5-board-v1.png",
+      "byte_count": 2026950,
+      "sha256": "8f68496e662bab69736495b9d1a0f90d9e49daf012b6734f6d1f6e9b05a2fe26",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-frost-1-board-v1.png",
+      "byte_count": 2679952,
+      "sha256": "e303d66076230fabc3eb205d31a9b0d40d83f87512896e0b127ef5ee5dc0e407",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-frost-2-board-v1.png",
+      "byte_count": 2703530,
+      "sha256": "e01748eb01c910b78a2ff442f7b9e6c9e878c18844aaae9d4910bde3f0dce077",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-frost-3-board-v1.png",
+      "byte_count": 2454755,
+      "sha256": "fab9c06e83c6f66131253f9e03f0ef096b5c4324828986b5e80c6c6a39c0e8e7",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-frost-4-board-v1.png",
+      "byte_count": 2329319,
+      "sha256": "f0dd72e09b0db166c939cbbcc9665b247ff3867de5a53e32f6262c908c46c7b3",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-frost-5-board-v1.png",
+      "byte_count": 2438767,
+      "sha256": "0cb772c88d591eb6ee794dd39adac6cc8dc87777309bd6e0d0c64b44b144fd7f",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-leon-home-1-board-v1.png",
+      "byte_count": 2311378,
+      "sha256": "42c60658205af55b65bbcc760c04d6965c606752354d2631f1ffeb90716a214d",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-leon-home-2-board-v1.png",
+      "byte_count": 2499403,
+      "sha256": "e6e4906c862be13912c625f33da3a23b82794784f443408575f053a3c56bc057",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-leon-home-3-board-v1.png",
+      "byte_count": 2244775,
+      "sha256": "c7e6906f6595ed9b8422967844fc775a8c85bf0bd1c60f32036caa4ebd2fc3a7",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-leon-home-4-board-v1.png",
+      "byte_count": 2289544,
+      "sha256": "91621a9cc4262f5a17bc45e5455175b12831268501c0ce43933f5ca60a1a62b0",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-leon-home-5-board-v1.png",
+      "byte_count": 2304943,
+      "sha256": "164d0dc10949b076f983d72fd349bdb8cdd1b5f1cd57d6137cd1fd2120226c10",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-north-1-board-v1.png",
+      "byte_count": 2543334,
+      "sha256": "60e3e1863979befc7826a774ac18e6dbf87659cf0c3562894c825398db1138a6",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-north-2-board-v1.png",
+      "byte_count": 2634727,
+      "sha256": "410719256f6b1deae7f30951d12e08a3305a93ddabca97d936468127caadd3be",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-north-3-board-v1.png",
+      "byte_count": 2489376,
+      "sha256": "6f63fd0d22023a685dee24dd62ee1652f64bf6f86d317d974ad0b48cff0b23db",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-north-4-board-v1.png",
+      "byte_count": 2306656,
+      "sha256": "7e7aa6fcfda2d9e760e5a6f266453ced2dfb0082ee727c627d7c4b9d24c91c54",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-north-5-board-v1.png",
+      "byte_count": 2284106,
+      "sha256": "25faef27afb85d09c62404e4b444102e85c2e5b83e7c62664affeb24b6d14cc8",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-refugee-1-board-v1.png",
+      "byte_count": 2567245,
+      "sha256": "f1f2694aa0c7e447353915d8e4e78747015980577b603660ec1cbe038bca1130",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-refugee-2-board-v1.png",
+      "byte_count": 2327704,
+      "sha256": "5a35b66356ff924a434d028e8fbc9c7a35de56f565b6be8d9a98fd020c5e37af",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-refugee-3-board-v1.png",
+      "byte_count": 2204771,
+      "sha256": "d4a0d859ccc289fbf40a70ae3edfb8cdbe1be85b697247b0601b741d691701ef",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-refugee-4-board-v1.png",
+      "byte_count": 2084607,
+      "sha256": "4d8923e0440324e40bfa4da6299682e526d79b016e072ee4fbba060bfa3960b4",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-refugee-5-board-v1.png",
+      "byte_count": 2179272,
+      "sha256": "d613b716d2e53c9ee10f3ab764a04ac71f682896d012c8a63931d7543c237031",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-sanctuary-1-board-v1.png",
+      "byte_count": 2247202,
+      "sha256": "87bd44d2b7f210dbeac3c4c313ab10a431142049a125816bd824e2a34674f136",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-sanctuary-2-board-v1.png",
+      "byte_count": 2204143,
+      "sha256": "26e8b315f304e21f82145ba09233dd0335602cb0bfa24819328329e56adacade",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-sanctuary-3-board-v1.png",
+      "byte_count": 2156156,
+      "sha256": "5dccb23c835ad105d7612a272e54c4d258379be43ff5f59e8e4b799dbe18a1c0",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-sanctuary-4-board-v1.png",
+      "byte_count": 1668309,
+      "sha256": "d41b1f5af7f4afcb30918a1c885f20b578b7f7da481327aa46af29481dfa3fb1",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-sanctuary-5-board-v1.png",
+      "byte_count": 2100421,
+      "sha256": "edaa9808ff3c8b24bdcc8379144c04d5daf8087c2dc816f5e1192f5c879aa83c",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-sea-1-board-v1.png",
+      "byte_count": 2077784,
+      "sha256": "008e180e94417af5d14d9ef7bd56e5b72abe7b6c319a1ef3a1df9d4d1b8892cd",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-sea-2-board-v1.png",
+      "byte_count": 2050496,
+      "sha256": "68095750ea177964217e272d56f5c4d172d20359cbeedd529b947afd680d43b7",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-sea-3-board-v1.png",
+      "byte_count": 2166818,
+      "sha256": "b308bd6c6244c3d606934f34228cb0bb773dec5c51db45d70d8da149cfdf1925",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-sea-4-board-v1.png",
+      "byte_count": 1980455,
+      "sha256": "3d08af41f3f9abfb73710c1eaaf19412827c5f4efe88df436b0c4bd5d3d17142",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-sea-5-board-v1.png",
+      "byte_count": 2033045,
+      "sha256": "884843bdaf1933e74d4cf924a6f61557c4137cef914a12e34e059a081829d1f2",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-south-port-1-board-v1.png",
+      "byte_count": 2608885,
+      "sha256": "6d1ce08255d9f9dac474e62b3a5cb9b2638b31cd00bef61782176b3b557de8e0",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-south-port-2-board-v1.png",
+      "byte_count": 2626733,
+      "sha256": "a713db5c9e39eb6b7fd3db9e40b0087843a49b7cdd494f9e3a853db00416de45",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-south-port-3-board-v1.png",
+      "byte_count": 2515531,
+      "sha256": "c48d3b4977c33dbc55e1ea36ebdbd004699f16df30ba8b41982cd2f6fe447f49",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-south-port-4-board-v1.png",
+      "byte_count": 2289067,
+      "sha256": "db765bb07ea09c56d6a758f1221c0f1ab60701654865dc0bc89c26720ea7e68d",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/district-south-port-5-board-v1.png",
+      "byte_count": 2484529,
+      "sha256": "37f690b56b7c4557b57863f112ab195b4a2d7091b0709e9af69794b77d7804da",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/kit-door-frame-board-v1.png",
+      "byte_count": 1921204,
+      "sha256": "ece047246f70dd53203683e8f1873988907984c991eb9db0a9ace26264860142",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/kit-door-leaf-board-v1.png",
+      "byte_count": 2022325,
+      "sha256": "61fa8d2acf08d6e7f2e37ac56e26b7724536d1bbf0b359177d3a63dfd6e2cf75",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/kit-roof-corner-board-v2.png",
+      "byte_count": 1827858,
+      "sha256": "0abb8f92680eadd771c45be6a0584cb38e327074835db38cc5c0c7f9a81c3e60",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/kit-roof-ridge-board-v1.png",
+      "byte_count": 2314380,
+      "sha256": "10a41b3aafd7a3090867ce255aff983f2c2fb874abe16f5bd5f004a5bc7ab55a",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/kit-roof-slope-board-v1.png",
+      "byte_count": 2272170,
+      "sha256": "ace1db8b7f76418e86ae4e271fd5f25fbb63bdc22cade7d34e61337ed42d56cb",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/kit-stone-foundation-board-v1.png",
+      "byte_count": 2026854,
+      "sha256": "b088da296a973e1c6fa291b57c0410b0257e639c2bb76f0570f60008aa682225",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/kit-stone-stairs-board-v1.png",
+      "byte_count": 2113751,
+      "sha256": "e4919c400f0d31492efb4bdd1408092993832e022a6412403f5ae0d634d3b0be",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/kit-timber-pillar-board-v1.png",
+      "byte_count": 1720557,
+      "sha256": "27d7e0e434898a15aadffbd6359fe99582e7be4fa762ccc239bdac7195abb1e4",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/kit-wall-corner-board-v1.png",
+      "byte_count": 2282044,
+      "sha256": "d17b4bc2f6f7d771296c31bc671b6183af8a8eb48271d2116379d7f755c1f751",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/kit-wall-straight-board-v1.png",
+      "byte_count": 2025016,
+      "sha256": "39fe84335a98380aa5cbf5eebfe373eaeda8ddb291c31be5ac7958b8862a76cf",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/kit-window-frame-board-v1.png",
+      "byte_count": 1942757,
+      "sha256": "21f5d08d4761d2a77fab6c0b1ae4c7750ae89e916d9cd78bedd36a52b87a890b",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/kit-window-shutters-board-v1.png",
+      "byte_count": 2023214,
+      "sha256": "61f774d96edba8fd00018e3ddfe945b270aa8abdaad8fea92f8a028370753f2b",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/map-academy-board-v1.png",
+      "byte_count": 3257885,
+      "sha256": "dee0601d51a4f8c1cb5ce3decfc0b1f331a9f206291fb61088ecd4d1c10219e8",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/map-border-board-v1.png",
+      "byte_count": 3221115,
+      "sha256": "1bbe33b4193958fb101523a302110bd04a5cac1eadfa7ca48390fbd37c5207c5",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/map-capital-board-v1.png",
+      "byte_count": 3418663,
+      "sha256": "6f49f54b5dbc1b14842b3783082e3835f842af6014fb2332a4cabbca83266706",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/map-core-board-v1.png",
+      "byte_count": 2853791,
+      "sha256": "542e24642caa337e8fc11166fe39222e2358d4283cf3436739500219fd43ea00",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/map-frost-board-v1.png",
+      "byte_count": 3515756,
+      "sha256": "037f0f629c82b4337f1a7b8fccf5e39257d75dd67ca34d5561bdce172856f47e",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/map-leon-home-board-v1.png",
+      "byte_count": 3140309,
+      "sha256": "b5882f308c999c2207e70068e716445e7db203ec17c8b49840190a01955d22f1",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/map-north-board-v1.png",
+      "byte_count": 3258159,
+      "sha256": "9c00778f8b769742137f2b3d750cd4a8b1aa3fb6b36d8fb08ce48c704573770d",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/map-refugee-board-v1.png",
+      "byte_count": 3247479,
+      "sha256": "0a6b34b4641f95d385fa2bce6bad715487ddb6799e28486607deed2e1027e6c8",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/map-sanctuary-board-v1.png",
+      "byte_count": 3004513,
+      "sha256": "f327329e47f27c827ca223bfa33c834a2e4fe621356fcce8f36d4b344aefb16d",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/map-sea-board-v1.png",
+      "byte_count": 2948186,
+      "sha256": "e96b316154d6d1841e22fd434089fa027899fccee6eea9547035263e4eb3adf2",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "assets/world-production/map-south-port-board-v1.png",
+      "byte_count": 3227641,
+      "sha256": "8493017d5cb06b68799bcc62b9e1bf92fcdc78c9faa2ffa426350bd8ba79ad6d",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/assets/ael-portrait.png",
+      "byte_count": 2050787,
+      "sha256": "6330419091682fc720633692027f360b03985e37c2fab7576031c193f8e4d390",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-amulets-01.png",
+      "byte_count": 341249,
+      "sha256": "4d3f1db18f00f1fe216c05457958a22cefb879e5b673daf820261612132e666b",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1199,
+        1312
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-amulets-02.png",
+      "byte_count": 408843,
+      "sha256": "3a3fdf3ee0adca58fdb20d1052a9637aa667b568c2d30fd49027844fde13bdcd",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-amulets-03.png",
+      "byte_count": 372117,
+      "sha256": "f5b4f678a124166fbb0b74f99032bb66e03cf5342e49de008ebfc978f55e47e5",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1263,
+        1246
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-amulets-04.png",
+      "byte_count": 1075738,
+      "sha256": "7d751479172257c495c5a0e304a06432b84819e0568d6ba00f5b851d2f8d4842",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-amulets-05.png",
+      "byte_count": 426526,
+      "sha256": "b281b3433ac5c7719063d78092bb83f2a8294dd12d06309585e29d43fa44947a",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1269,
+        1240
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-bows-01.png",
+      "byte_count": 259905,
+      "sha256": "9bd44e8f84f49f3234424fd3206ea0ce8259400f6ac23caf22887e756bb793d8",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1199,
+        1312
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-bows-02.png",
+      "byte_count": 874933,
+      "sha256": "6e1d330a39bb604fd4b91564fb6b10f62d529973b7fba33f4f6ecb58e9b3b4c4",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-bows-03.png",
+      "byte_count": 283289,
+      "sha256": "7894a8a713ff127e134a4fdfc97f58dffb328dd95ed817af3202c549cffbfa4b",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-bows-04.png",
+      "byte_count": 838904,
+      "sha256": "13cab4f1bbb9d5f67ecc0ecd5b9416e06afabcfc55b34a73a93122c01d04a4a1",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-bows-05.png",
+      "byte_count": 277114,
+      "sha256": "6b54011adf6c1bc4412bc36f0a6ca8dcf497a35177339b769268ca9e5a2a705d",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1199,
+        1312
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-daggers-01.png",
+      "byte_count": 847027,
+      "sha256": "c3f5184fef957a4be2eac54f89eeee83215d7aabe5f271c3a905d550a27df9b6",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-daggers-02.png",
+      "byte_count": 821996,
+      "sha256": "6da539b49d8113f53ea51a5b6f686f28bac4e4e8e496c4f4ac706b437cfbb927",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-daggers-03.png",
+      "byte_count": 874124,
+      "sha256": "9f6f5e7644e07a59f0439a2a392129ee3f8735eaeb677a5ec9f136d8c1b2380d",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-daggers-04.png",
+      "byte_count": 860293,
+      "sha256": "c4dc390f38bfb5e6c32f2a1e03203bc6fdc42fcc49153931c4adb9992e5bc82e",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-daggers-05.png",
+      "byte_count": 874319,
+      "sha256": "0c4c2b7301e7134e4e341318a32f9bd20ceeae2ff78546fbb2f3ec2665c654f3",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-exploration-tools-01.png",
+      "byte_count": 743184,
+      "sha256": "99fa941a308e5ace52f73053e97871cdc3fe9e3c40e19be231a3ed3ae2347b8d",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-exploration-tools-02.png",
+      "byte_count": 991105,
+      "sha256": "b496acd57121482f8c9280da5c4a3418f19961b504a4d2080bde32b00e84a593",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-exploration-tools-03.png",
+      "byte_count": 1013596,
+      "sha256": "d402c8d25239787dce65f27b94709529fe43153776aa47fdba05c196a9789209",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-exploration-tools-04.png",
+      "byte_count": 360115,
+      "sha256": "63ad203952bf98204a8ca50dffc30cfbe441c29e200cb4952610ddc2da41dcf7",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1263,
+        1246
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-exploration-tools-05.png",
+      "byte_count": 1082021,
+      "sha256": "db9eb604eb4c7369a6510472c884952435906e490f738b127244fefe461dde50",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-gloves-01.png",
+      "byte_count": 1173309,
+      "sha256": "59816bf175a7e4e4648231ea89c3e94d21a160f46fe923d2e81adb6e6b7ed776",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-gloves-02.png",
+      "byte_count": 1103581,
+      "sha256": "f0780bb854d1969e2f92cfab6e67bfe96fda7b626cfda61909a5c41a756d7062",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-gloves-03.png",
+      "byte_count": 1085902,
+      "sha256": "a05f55d9e8402b70a4c351fe94b16f3728799c22301746533625b983808e3121",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-gloves-04.png",
+      "byte_count": 1119253,
+      "sha256": "19f67fab9f056daf2e0df1a4546ad4ff5a4f6311dd98846e8e924499fefeeb94",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-gloves-05.png",
+      "byte_count": 1133324,
+      "sha256": "13d9bf12c4b5ee478a01727a8b19470fe03b304db542f12570c12e712ae7c8bb",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-heavy-armor-01.png",
+      "byte_count": 1123631,
+      "sha256": "5d768e21de67de4802c13fa6b710359d7d86d2084d1cbcd64128a8b4bf70af9f",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-heavy-armor-02.png",
+      "byte_count": 1134072,
+      "sha256": "565bb1c4f1827593a66676ec99171164918fbb792449a54a8928a08e49369151",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-heavy-armor-03.png",
+      "byte_count": 1153847,
+      "sha256": "6fa3a3a3c0377a6127c5f4511677c49294afaa1d6b535d023c325f81f7fa966e",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-heavy-armor-04.png",
+      "byte_count": 770635,
+      "sha256": "e8f467dc6a4340a2bb8a0c0a81aef2a9b1331de2d1c752e02ef846a6578ed709",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-heavy-armor-05.png",
+      "byte_count": 1142033,
+      "sha256": "f0a47f095794cd44ada85f320c4c57c734d8964dd216d57b970bbcf2a252d30c",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-herbs-and-materials-01.png",
+      "byte_count": 805223,
+      "sha256": "2865fee0d1caf79fb0c8aae98b5bd978bc2b1baff48f573f877a97da3f070a8e",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-herbs-and-materials-02.png",
+      "byte_count": 745272,
+      "sha256": "04370df0f05767295f5b7fda5084ef1aeef1557e9e835af9f8655295547c90a4",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-herbs-and-materials-03.png",
+      "byte_count": 730128,
+      "sha256": "735cc78a7e54e96e3d805220da59128e9b18272c1ee2f16779acabdc6803d1d4",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-herbs-and-materials-04.png",
+      "byte_count": 700835,
+      "sha256": "b9f70ea0ae39e60757710dc22833e6e70d55ccd70705a386e0bf20a33064e128",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-herbs-and-materials-05.png",
+      "byte_count": 506069,
+      "sha256": "c3d7b7b8c8cdcfa198fa6a9a7af437294b27e2ef31717a5acbdd1fdf66f0ddd6",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-herbs-and-materials-06.png",
+      "byte_count": 666831,
+      "sha256": "259d698d7b78ebe23c84c16ea1a9c0a486252e62bfef62da9f00c6253c955471",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-key-and-keepsakes-01.png",
+      "byte_count": 903583,
+      "sha256": "77c3c475c577a8e57f3ccd7a11950b12c5f8cb927390da0d9f3890a787d9c21b",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-key-and-keepsakes-02.png",
+      "byte_count": 993219,
+      "sha256": "db159791f10104b76395db74e590bb422c2859521fc630974d241c5107e7db3e",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-key-and-keepsakes-03.png",
+      "byte_count": 963742,
+      "sha256": "c4ef3ecfb097507e8eaa132f5a9122db0a5cd2764e9639f957c3e0bbb13b9ac7",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-key-and-keepsakes-04.png",
+      "byte_count": 947165,
+      "sha256": "ee714dc4429bc7a5550d8dc2ade75f725156218790ab2019ba9f43ac5c27d2b5",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-light-armor-01.png",
+      "byte_count": 754936,
+      "sha256": "56b8048b359e417ae0207293adfb8c5d5d7a7b95ae1e3cde6f094cf7b8bfa422",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-light-armor-02.png",
+      "byte_count": 640604,
+      "sha256": "bc989468b35332e39247a18283b04ab236f72fe11c2a58fcb4d8029c556d5b26",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-light-armor-03.png",
+      "byte_count": 661716,
+      "sha256": "58673122e0930058608a3f4e1ba66829809959fa0d06c46fa5cae0e8af011811",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-light-armor-04.png",
+      "byte_count": 737979,
+      "sha256": "072a2a333b0ace805732e820f358368cbff5f7cf772a8d2a214c5c7b623e9379",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-light-armor-05.png",
+      "byte_count": 1082176,
+      "sha256": "ae9b5a60663d8fa1d5494d5193f9799f75aa44dc903dd18d711bee4e3bea5774",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-one-handed-swords-01.png",
+      "byte_count": 320795,
+      "sha256": "500a79ee0c5ba219cdfe4bcc752087db0ab38799a70c2166748873131d7df4ad",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1246,
+        1262
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-one-handed-swords-02.png",
+      "byte_count": 857283,
+      "sha256": "86e10f018c357b54d39925003c05592ca0df8566132517520c8b905daa1d6f18",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-one-handed-swords-03.png",
+      "byte_count": 808255,
+      "sha256": "971dc0991ac5fbf88fc3d221b84dc221c39cddf67681924e4a739bf5b8ce6021",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-one-handed-swords-04.png",
+      "byte_count": 921772,
+      "sha256": "8988b78b50df31268b5606a431b3a462ad9632210b1672ccf5c96d5724ad1570",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-one-handed-swords-05.png",
+      "byte_count": 1083631,
+      "sha256": "33233a4038bfb2f52a2cd435632350d69898080362c503f4c36b55643239d8cf",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-quest-and-records-01.png",
+      "byte_count": 1122089,
+      "sha256": "7aed20a4a656f6a72a510c160382e9c5d71742c98bba6348653249455e536b8d",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-quest-and-records-02.png",
+      "byte_count": 1012739,
+      "sha256": "6807e4ba2ffc036808a6d533f9c6ac0e5e5a44db1047f2f1f7da7f5e3299f1f6",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-quest-and-records-03.png",
+      "byte_count": 1101377,
+      "sha256": "2ade2fdb635d0500bb534cdbff494142a166ceb41c7e1b2d539b0247077bb6b5",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-quest-and-records-04.png",
+      "byte_count": 1049074,
+      "sha256": "a51f41f18710bf23c1a727055e17b1cd83bc8f445dd6e27b0f15161eb1051391",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-quest-and-records-05.png",
+      "byte_count": 980124,
+      "sha256": "4336ac8b627cb2cc4aaea0f2c9e11b06c0e00f062266cbcddd80e06c2e1d988f",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-recovery-and-cures-01.png",
+      "byte_count": 935716,
+      "sha256": "5af8f1bf3c65e682dc21ca41c14387d03551fdea90c1f6c28c5687753521e10e",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-recovery-and-cures-02.png",
+      "byte_count": 559852,
+      "sha256": "4cff2ce097af57408de1d3043745de98c77ba713af2ed92dc0c25df41024d414",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-recovery-and-cures-03.png",
+      "byte_count": 317071,
+      "sha256": "0496fc772629d1c83a458b488fbf20480046a57d5ecb07c472f482d7b833dd9d",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-recovery-and-cures-04.png",
+      "byte_count": 479478,
+      "sha256": "ef5b2baeddd15a37a672dd984d5edf4fd72b23b07b4c55fd14d16508e55333b3",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-recovery-and-cures-05.png",
+      "byte_count": 1019065,
+      "sha256": "a5eaeeb4f20b9540d0987c255a6becb66d0db588edc8336b4cc63075859e663e",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-recovery-and-cures-06.png",
+      "byte_count": 1114358,
+      "sha256": "cf52a2ab4e5d0697ce13794b1d2079a011094966337369fe97df197c2edb4f12",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-recovery-and-cures-07.png",
+      "byte_count": 970751,
+      "sha256": "d207e976c22a7989a73ec3aa06541adffbda00b01ac10ae309db3c736e2fc017",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-recovery-and-cures-08.png",
+      "byte_count": 1008600,
+      "sha256": "36c48dc10d6679aae830285ee6abf0a42788cfd99eeb4b71dbb04e148579ac4d",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-recovery-and-cures-09.png",
+      "byte_count": 466917,
+      "sha256": "654a505ee56145917da79d76b196128aba356542dea521f05d726bfdd213c176",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-recovery-and-cures-10.png",
+      "byte_count": 903197,
+      "sha256": "7c9313bdc846cfaf1211e236c4f76c05cfccecc8e388294e364dc68f76ee9ad6",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-rings-01.png",
+      "byte_count": 981178,
+      "sha256": "95939ccdd2562ccb6e343e0cc5314e84bac18fbcb0377ffd7f6e0901a9cb3226",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-rings-02.png",
+      "byte_count": 920814,
+      "sha256": "1c34d28216bbf120f1fe5f0cd9b0e77927838a25fa41f93db2beed6780803280",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-rings-03.png",
+      "byte_count": 976361,
+      "sha256": "8f9816e3b1d6d681adca92be47b03f65589883c49687ed19cf8d8582af1f6d25",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-rings-04.png",
+      "byte_count": 1019934,
+      "sha256": "a31f5d34c536d64af617595263eb818cf1960dcec9cf2e60c033cbbba299bca3",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-rings-05.png",
+      "byte_count": 1087878,
+      "sha256": "25c4e18f2f3b9843bf132a56a93c0bde0ea3e43441eb6f4c6931196aff02e274",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-spears-01.png",
+      "byte_count": 790278,
+      "sha256": "72b916dc77739693cab931b9900d94e6b2ab1a6c1dadbc972931889053e049f1",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-spears-02.png",
+      "byte_count": 776238,
+      "sha256": "b1f291ab56b395d64b743c14c20067f6839eb0d63d1caac9790c855072ac6e8a",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-spears-03.png",
+      "byte_count": 756988,
+      "sha256": "9988fe57a144ed9ca93565614b4c2fabbd42d0a0e525b8cd407bedfbfc9e1fbd",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-spears-04.png",
+      "byte_count": 849865,
+      "sha256": "a5c348c5e84be4adeb4759981124f7285ed193e7adc7a6e280f37783574fbbfc",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-spears-05.png",
+      "byte_count": 770905,
+      "sha256": "876d6322060a5bab42b91945d938f54aac06a6600afbb1c4848cdc232cee5475",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-staves-01.png",
+      "byte_count": 803544,
+      "sha256": "468455011c7093b24a07e398818f81efccd154937be2d00be8a3794c858c7e30",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-staves-02.png",
+      "byte_count": 900934,
+      "sha256": "6fef8a042be8e30ac4a08c6453f24b9357e1c09df57c33339cacd58e1a4c911f",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-staves-03.png",
+      "byte_count": 223307,
+      "sha256": "f96a21cf8f7339e5f200f6d433e65a50c64b97d31ab72df84caf3f5d9939b6e3",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1247,
+        1261
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-staves-04.png",
+      "byte_count": 769171,
+      "sha256": "659c3f4d2d30897402ce69e27494fe3293688b83ffda53b3e887222b156b8de1",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-item-staves-05.png",
+      "byte_count": 817065,
+      "sha256": "a01298e423cc9b95efc5bce97d24566e777b4eae0ed5bbcf7b2eeaee55f2c2bd",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-shield-1.png",
+      "byte_count": 833900,
+      "sha256": "93cdb261d62f9184e2b58198dfd44919c3c92ece9c9d00c21c294e19dc6bde0c",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-shield-2.png",
+      "byte_count": 815027,
+      "sha256": "0e4ed3983729d756bfa776621fb3516ee89356335c04f3f8aebd89efa7ba7de7",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-shield-3.png",
+      "byte_count": 817569,
+      "sha256": "622e79825618cd3ea1e35fa1513a1d0779fb969191035fcb1548e3cd0aa23784",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-shield-4.png",
+      "byte_count": 707677,
+      "sha256": "6c1c35c3e0405acf8f52244d7dd175207961794263ee3798e511c9ea2382bdbb",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1262,
+        1246
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/icons/icon-shield-5.png",
+      "byte_count": 961353,
+      "sha256": "3e6454527cacae461fa84c1156154d12be4d6c84c22b4cfe3edc6fd5a25b1b80",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/enemy-archer.png",
+      "byte_count": 2354000,
+      "sha256": "7a2657bac8042b1934c72962b18dafc890b81bb134ce77d1584ef15895c1d2fe",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/enemy-axe-mercenary.png",
+      "byte_count": 1855653,
+      "sha256": "f2ec0604d77e6b5983f9de5e7e03fc91d917a9d7400085dc9b7c8784482f0fb4",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1513,
+        1040
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/enemy-battle-mage.png",
+      "byte_count": 2197756,
+      "sha256": "a0e23b2b4869a7cf6980bf07816d0a50fc8b6f553b6e15a66d4cba74a043d5a7",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1070,
+        1470
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/enemy-edran.png",
+      "byte_count": 2909743,
+      "sha256": "f387f0f5c0a65349775adccc05dbf0c238948b2dd0a981355cb1bec43c05e3a8",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1512,
+        1040
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/enemy-heavy-knight.png",
+      "byte_count": 2454239,
+      "sha256": "29a7321c49e2775e86a665ce120e1ed25e6e3d8b3c3b6785c6196d93ef4f8d04",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/enemy-karen.png",
+      "byte_count": 1993525,
+      "sha256": "38c1e112a0ed41b771bba345a7a46448b33ef34a2d124ad90110680073ee3ab1",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1070,
+        1470
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/enemy-medic.png",
+      "byte_count": 2386498,
+      "sha256": "fe81490dd2fe051f9cbc1365b2b73374caa8b2d45a8131b6c96236bcc5ad04c3",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/enemy-neria.png",
+      "byte_count": 2050752,
+      "sha256": "e33e36a59704963f001f9bf7288500e4db206f9d087c44ee47e7b1cdf9c5df28",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1470,
+        1070
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/enemy-roek.png",
+      "byte_count": 2458056,
+      "sha256": "730b8c2dfe4a7af7dfdbd702b5045c1aef9af520ec5b2e133ebb77b257afe360",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/enemy-scout.png",
+      "byte_count": 1843268,
+      "sha256": "432856c119dd659acba323bc6d8fb4de3a231e52558f20c220ada5fb1004883f",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1070,
+        1470
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/enemy-silber.png",
+      "byte_count": 2137804,
+      "sha256": "cefa6112171659265d48a915b8e27d6f956e978c7e01814314e7b7a4e4f239f7",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1070,
+        1470
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/enemy-spearman.png",
+      "byte_count": 2066793,
+      "sha256": "306ad9dd10ee16e4f6fac28dda90e7ccf9082d0f8b254d257f7c71f2a06462d6",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1070,
+        1470
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/enemy-swordsman.png",
+      "byte_count": 2377770,
+      "sha256": "e20ffbe409f825618599d82024c3dcf24fb3334a86fc3752ec239d0417123b37",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/enemy-valter.png",
+      "byte_count": 2455612,
+      "sha256": "2ee59ed8c33e7242edd2534e9340212bc2533d07803b46e6d6a7deab24857a68",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1070,
+        1470
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/event-overrides.png",
+      "byte_count": 1595441,
+      "sha256": "ca8e346d6d7efd83372ef460827ebbc79f966cc0fbf5046758589d6a36006bb7",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1222,
+        1287
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/monster-cave-spider.png",
+      "byte_count": 2657878,
+      "sha256": "5b1de9556195272e1d692663b14fcb90c06cc23945b91d97555f07b0137f5a34",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/monster-fungal-feeder.png",
+      "byte_count": 3012174,
+      "sha256": "843eb2c96ebe16f2ff60acf007245339399b5ca4c4a7caa53178e0480a9298b1",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/monster-gatekeeper.png",
+      "byte_count": 2093161,
+      "sha256": "24ff5e352415a6270998f4e5fdc5bf979f4ae6ac78e3ab6db30869aa91bfa6f4",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1513,
+        1040
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/monster-grey-wolf.png",
+      "byte_count": 3803486,
+      "sha256": "ff67f013d91791225bfb7bce18d5df506f45d154989b636ec568854e7438562f",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/monster-mist-moth.png",
+      "byte_count": 2686917,
+      "sha256": "e2a9a47d5d77bea156edef04f801392a6053cd480e2ff5a85ea48ed41265be81",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/monster-reed-lizard.png",
+      "byte_count": 2746307,
+      "sha256": "d08335b741f7025cdb2e0f3607c4addd0f289876eeb6159a1a2d7aeab0564778",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/monster-resonance-fusion.png",
+      "byte_count": 2471481,
+      "sha256": "ef56cfddf8022360b709a3431714ab26eb6682d0fc3d67a3320abc37ae3f0224",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1464,
+        1074
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/monster-resonant-wolf.png",
+      "byte_count": 2677002,
+      "sha256": "8a96cd9af22f13363a772f8fca2cbf583484427c14754f5c4d4fd64c7adbfc55",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1514,
+        1039
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/monster-rock-hermit.png",
+      "byte_count": 2377303,
+      "sha256": "ff79cd439adb987e356c5ffa9fedff3b1acecb9ee200aa51a754495eb5d4bfbc",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1774,
+        887
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/monster-rooted-resonance.png",
+      "byte_count": 2553685,
+      "sha256": "292eca264441562a5916c4911d7c72eef8c39687fc9cbd3ba0d3fb40551c8e10",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1512,
+        1040
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/monster-scar-alpha.png",
+      "byte_count": 2190817,
+      "sha256": "07d498df2e566ee9a2c1321f782310f32ad42f4c8c412ff904d0ddd15da68d8d",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1070,
+        1470
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/monster-sentinel-orb.png",
+      "byte_count": 2552095,
+      "sha256": "33aa089505b9f571db20c34780d953bbcb4729adef1691e6c738d223a20d14c4",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/monster-spine-rat.png",
+      "byte_count": 2373465,
+      "sha256": "bd19b28e6f9706aac852a8b6dd8e1b40e330cf8d05b7cebe3729e8000e87734d",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1464,
+        1074
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/monster-stone-boar.png",
+      "byte_count": 2144257,
+      "sha256": "7d6e7ead111d5fd75c85cf300e9efb6e70d1eab6b06db77af1de06069e68fc8c",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1464,
+        1075
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/monster-stone-guardian.png",
+      "byte_count": 2446960,
+      "sha256": "f5d9c7bbbf376026cdf3841d105bd3189888ad729603177f43a0347b019c622f",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1070,
+        1470
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/monster-stoneback-king.png",
+      "byte_count": 2748893,
+      "sha256": "ba7d0dd29ca1a713760120a0d83cfba0b366a4339747a44bbaba34ce77d6c91d",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-adel.png",
+      "byte_count": 2105939,
+      "sha256": "2fe5e9472d8570893b7e9e3cad9bb1e1bd9bc3f072d1f287060923fbccce08ef",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1263,
+        1246
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-bern.png",
+      "byte_count": 1925453,
+      "sha256": "e5f478f4a73d1665e0a7cf746d0b7291348f581f4f75a7d1f4b4114178cd06dc",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-bram.png",
+      "byte_count": 1988287,
+      "sha256": "d14610e1724123bb253a7d3b3f763c98518203a72dabcccc5987f199a016d820",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-doren.png",
+      "byte_count": 2422913,
+      "sha256": "5b79adca20970d15dde0b8439c73c61e4be22726ac9aedd2b0590313bca954ac",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1341,
+        1173
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-eda.png",
+      "byte_count": 1959591,
+      "sha256": "7888efc840333c363bc6e586c8ada60dedbb26b311c68dee468e175f00d1efd3",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1341,
+        1173
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-estelle.png",
+      "byte_count": 1817332,
+      "sha256": "f1795dfd68c565de01ee2389e6f01af4daea48a7a8fbd1c03dffef611e7c3144",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-grain.png",
+      "byte_count": 1974467,
+      "sha256": "967cf7c2ec66cc2eb5c00a231753ea8e07da387ea4529c8234b936f7e4686799",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1261,
+        1247
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-halven.png",
+      "byte_count": 1517872,
+      "sha256": "b3a2e5171ebbc339daedc7b032f2073c3c03fc6d0c5b7ac500d84d735514c739",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-iris.png",
+      "byte_count": 2053642,
+      "sha256": "b80f6e5646ad8f5c81c81f9657e72d0a52b563733d36ead409bbdf6e5ddf2eb0",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1260,
+        1248
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-kai.png",
+      "byte_count": 1502652,
+      "sha256": "748deb8c7e26103730bcf47fba686c7a65da2f49b9524d77230b890d4abc77cf",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1086,
+        1448
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-leon.png",
+      "byte_count": 2166196,
+      "sha256": "f2354f7ca74e3c6c0e84fde24b6e2011300aa9c830433b5c0a7cb0eff1d523e7",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1260,
+        1249
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-letia.png",
+      "byte_count": 1733944,
+      "sha256": "e61f6cb976b60ab82b0e0dd5b895f4f5b1c7db4494e285371eb5ac38a68e770a",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-luca.png",
+      "byte_count": 1760003,
+      "sha256": "9873546d24de1b4b96b63793c1e641f7a72495c9894d5cfead45633790b29ab1",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-marta.png",
+      "byte_count": 1790427,
+      "sha256": "f1a7bc3c1f57f30cc0ef91793468f620579c20bc8edb6fc1abe2e8cb27ab7b25",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-mirena.png",
+      "byte_count": 1737936,
+      "sha256": "d553fac80bfd254000f441c6b81fc2ab18baf4f9dcb0a36cdd6c9c285e4a5a64",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-nadia.png",
+      "byte_count": 2074111,
+      "sha256": "ad41d9ee1d555e09b0461ecd5bb91d00cb20423c8280af1a0b9deabfec2c7d0c",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1263,
+        1246
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-nia.png",
+      "byte_count": 2017975,
+      "sha256": "50da1cb03fa48920aaa64ac67aaf529016a14c42cb1c3d6c717afde789ffe464",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1341,
+        1173
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-orman.png",
+      "byte_count": 1911455,
+      "sha256": "f0a4798b0e0b1e61a6e7fabb9ea67dc7abc9c4cce80fa2453500b4fdd9fffae8",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-oswin.png",
+      "byte_count": 1904568,
+      "sha256": "72730866ef453769a2f5d74afbd2eae3aed9ba94ec0b5a156f88883488740fef",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-pell.png",
+      "byte_count": 1862807,
+      "sha256": "9d052e20231598dde935cd2ff2e5d85eaf11d58319c4252fd777ead5cd53a98e",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1341,
+        1173
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-raul.png",
+      "byte_count": 1808643,
+      "sha256": "6585d7085b850113b228d9b6013fb01d877adee11d463c960b6531a4dce42e6f",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-ria.png",
+      "byte_count": 2182681,
+      "sha256": "96623dffdef981ea47e2ccb45595dafb49693383b896235047a7d80a67757ef6",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1261,
+        1247
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-roke.png",
+      "byte_count": 2294716,
+      "sha256": "25c4dcd7c8e6b6ffcd56a858015375d082658210013a822f66292a61ab27fc2b",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-sabel.png",
+      "byte_count": 1982286,
+      "sha256": "05242a7e18dfdd10af972f4e998d2b9c3788ee15be15b1a00fae98cd10efb426",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-selma.png",
+      "byte_count": 1890603,
+      "sha256": "8a05036a7947959fee58b41451842f9821ff55a2814b32e78ce204042e3535a8",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-sena.png",
+      "byte_count": 2044704,
+      "sha256": "3903b9a048bca681e86e4c0cce27f330ea9f9c486bf8518b265a513432f6d985",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1258,
+        1250
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-sever.png",
+      "byte_count": 1871787,
+      "sha256": "0f30007a9a07343108304ba6c65de115ea4fc40e96478f1a6832d3161785b2a7",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-teo.png",
+      "byte_count": 1995998,
+      "sha256": "64de5e2c5598c2f680686afbbd34c5662996e39706d7e4585701556eb8b8c74a",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-toma.png",
+      "byte_count": 1780049,
+      "sha256": "fc5e441ad0d2774992a7f25308beaa0104970455485928b378a5544b461021a1",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-type-arden-soldier-common.png",
+      "byte_count": 1940779,
+      "sha256": "a9fc9883cbbf1af11a48ea6a65c446e12f3aee72c7fa958100745382a4b8ffc8",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1261,
+        1247
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-type-dock-worker-common.png",
+      "byte_count": 1687023,
+      "sha256": "19b144e0c7b49e0f1b1903e0eb2f9751638cb88d4950919d0d2a696557d16efb",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1341,
+        1173
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-type-elder-resident.png",
+      "byte_count": 2225407,
+      "sha256": "54a28304720cffca862fc240e10b4b51ebf1fc921fc0baf33f7c67d897720f2a",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1341,
+        1173
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-type-field-acolyte-common.png",
+      "byte_count": 1966669,
+      "sha256": "ae1ab4a42d4ed643e46f7f1ce480bb7df7c774ac9d379c5a3dedd878612d04cb",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1341,
+        1173
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-type-merchant-common.png",
+      "byte_count": 3373330,
+      "sha256": "0b28151d56422deccc3cbc4472352ac7fe065231fa11fac5281960d6ba9f706b",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1341,
+        1173
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-type-miner-common.png",
+      "byte_count": 2312518,
+      "sha256": "344558f2d5b8c7303e63ae2acfd5404621fc6371a8c682daf41a52d884c5f2f7",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1341,
+        1173
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-type-refugee-common.png",
+      "byte_count": 1937320,
+      "sha256": "147be48975fdba12aca91e963a6db7e63da5f2e2dca454138bf6a50723a3fe86",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1341,
+        1173
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-type-researcher-common.png",
+      "byte_count": 1396239,
+      "sha256": "c4953f4e206bb7b0132c865dae46a319b64b649433619cd9aea76bc278200c7e",
+      "decoded": true,
+      "error": null,
+      "size": [
+        948,
+        1659
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-type-traveler-common.png",
+      "byte_count": 2207960,
+      "sha256": "fc87a5676b4287c492be07b1245ee2e2bf4f6437eaf3676bc136c7af0c1b8788",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1341,
+        1173
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-type-velk-soldier-common.png",
+      "byte_count": 1956327,
+      "sha256": "28783f4a74ad5a26e1515d3ca9816e716b2458b8c42bc786e4c33f45fd4dbcf2",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1263,
+        1246
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-type-village-child.png",
+      "byte_count": 1991933,
+      "sha256": "080d83b7dc1aa10d75c48544a917f999bafe75a74acef55a30d787ecda7c0bbe",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1341,
+        1173
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-type-village-man.png",
+      "byte_count": 1801138,
+      "sha256": "24b33e5388932c04c76c5778ce098b84daf5c2fda8780f73277599f173d2f2c6",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1341,
+        1173
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-type-village-woman.png",
+      "byte_count": 1837647,
+      "sha256": "f3c16616c2d81fa30404d693621f2f98c8f61139888e49fc226641aaead2f7f0",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1341,
+        1173
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-type-wood-worker.png",
+      "byte_count": 1837977,
+      "sha256": "25ff71a5ba7d870be847720b7fc694a005e2a4c4a101eec06e5a3e3186c6ffc9",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1341,
+        1173
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-vasco.png",
+      "byte_count": 2351398,
+      "sha256": "3900b0521c28d327979ee9dd7e433ddda5ec3acb0260dd9cfb42dae510aaa9c2",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-vera.png",
+      "byte_count": 1726652,
+      "sha256": "602a1d943a6193f857b31b375324635f2d467bce2d9c883c10d519e511f2404d",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/npc-yuno.png",
+      "byte_count": 1667609,
+      "sha256": "b24b5250897ee41932d9f7188f36afc4dd14932fd3fa34d3a41e4b772cbe3547",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/party-0-0.png",
+      "byte_count": 2329673,
+      "sha256": "53dbffc3ec47d61b3f18f125a3863646fae1bdba64fef98080d71d8aae9910c3",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/party-0-1.png",
+      "byte_count": 2586629,
+      "sha256": "1de734a18978606746183f3e39ddc0ceec87b32d8e464a5495e98809bc8b7d84",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/party-0-2.png",
+      "byte_count": 2312237,
+      "sha256": "cd4968f512ad95f194fc127a2215897c8735379e99bd5987feef8c5ccc0d38ef",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/party-0-3.png",
+      "byte_count": 2225935,
+      "sha256": "9b728bb20b9027c81ddb57d9438fe181708005a2d6f87f65667c1dd2188ec65a",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/party-0-4.png",
+      "byte_count": 2776725,
+      "sha256": "efde33973edd2afc7e828292b4313f9ca9ffef6f1d6f870fbd219bce6a28931c",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/party-0-5.png",
+      "byte_count": 2716088,
+      "sha256": "e497ab4443e4ef782be0b33a900e3d8ba0f2ec92073c8f02ca565b5433594a0a",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/party-0-6.png",
+      "byte_count": 2792343,
+      "sha256": "ea59d518ba30e1aad6c4a945a51d108c8e261073129c8208531e0457f102a441",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/party-1-0.png",
+      "byte_count": 2666081,
+      "sha256": "8617635ee4a1c02ec12ae651942910ce3917ff827d62f329823fc7112270f5f2",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/party-2-0.png",
+      "byte_count": 2824502,
+      "sha256": "5b536f7b221287b4598693d3b0181997f4ff08499df5c16a866692a22dcccc14",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/party-3-0.png",
+      "byte_count": 2905822,
+      "sha256": "1ef7197cf9e81e95c43143bfc61fa90111ce92ac92a42abdccca65ae1dba8280",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/party-4-0.png",
+      "byte_count": 2678447,
+      "sha256": "b0071349724c4783a21bfe3b913ec4aafe678fb11d118b34e20987094cb9a1f4",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/party-4-1.png",
+      "byte_count": 2706839,
+      "sha256": "ae38b003cf580fd1aa858087c324143309fb32b5a8022d670c16643004a40ec8",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/party-5-0.png",
+      "byte_count": 2439988,
+      "sha256": "bb17d4242533ce40482fbe261f20264dedff4b936ccfb1f42777ec0455a2c4f6",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/pc-ael.png",
+      "byte_count": 1728696,
+      "sha256": "bb6960aaacf7001ccdee92cd33d834c2059fee7c7ffe2bcbd97fc930740b15c4",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/victory-ael-0.png",
+      "byte_count": 1336759,
+      "sha256": "a47d16942be9fa2193bfd1fb9d7253e7dc4c98a6fd547a99461fa1ea6139ae53",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1261,
+        1247
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/victory-ael-1.png",
+      "byte_count": 1327429,
+      "sha256": "910aeca585969623ece05c5f6667ce1fcc6d9e8024c9756d0d97e8f21d663b4b",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1246,
+        1262
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/victory-ael-2.png",
+      "byte_count": 1380838,
+      "sha256": "fe5f2843b993f2432e400d56609ced39f74baea0518ae42e711c3b97f8121932",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1086,
+        1448
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/victory-ael-3.png",
+      "byte_count": 1241134,
+      "sha256": "3c475281aea2a0baba9fc0d67b55fa39f2d3b421926f94b09fbc28579d7be66f",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1247,
+        1261
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/victory-ael-4.png",
+      "byte_count": 1329746,
+      "sha256": "2387b26496c93731f9983fa942743d4cbe68aeceb3969ed2c90f2efc24cab3ae",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1261,
+        1247
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/victory-ael-5.png",
+      "byte_count": 1276702,
+      "sha256": "f806ff9ce13c17037678f1266c9704fb2077700184031d79be1bcdea4af0d2da",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1247,
+        1261
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/production/motions/victory-ael-6.png",
+      "byte_count": 1164972,
+      "sha256": "de6737c09a6387eb8a23f7163781fd368770239e7f3b6f0f764adde95ec25492",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1247,
+        1261
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/assets/snow-spruce.png",
+      "byte_count": 1731940,
+      "sha256": "1e3786b83a462df469e343861c62880bfe5d4815b1ccd784cf0c3675b72e2d41",
+      "decoded": true,
+      "error": null,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    }
+  ],
+  "manifest_hash_mismatches": []
+}

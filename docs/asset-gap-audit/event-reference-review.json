@@ -1,0 +1,173 @@
+[
+  {
+    "id": "presentation-3-01",
+    "name": "문 개폐",
+    "actor_clips": [],
+    "missing_actor_clips": [],
+    "prop_ids": [],
+    "missing_prop_ids": [],
+    "runtime_connected": false,
+    "gameplay_effects": false
+  },
+  {
+    "id": "presentation-3-02",
+    "name": "상자 개폐",
+    "actor_clips": [],
+    "missing_actor_clips": [],
+    "prop_ids": [
+      "prop-2-17"
+    ],
+    "missing_prop_ids": [],
+    "runtime_connected": false,
+    "gameplay_effects": false
+  },
+  {
+    "id": "presentation-3-03",
+    "name": "약 전달",
+    "actor_clips": [
+      "motion-pc-ael-2-3",
+      "motion-npc-marta-2-2"
+    ],
+    "missing_actor_clips": [],
+    "prop_ids": [
+      "prop-3-03"
+    ],
+    "missing_prop_ids": [],
+    "runtime_connected": false,
+    "gameplay_effects": false
+  },
+  {
+    "id": "presentation-3-04",
+    "name": "레온 발견",
+    "actor_clips": [
+      "motion-pc-ael-0-3",
+      "event-npc-leon-03"
+    ],
+    "missing_actor_clips": [],
+    "prop_ids": [],
+    "missing_prop_ids": [],
+    "runtime_connected": false,
+    "gameplay_effects": false
+  },
+  {
+    "id": "presentation-3-05",
+    "name": "검 대여",
+    "actor_clips": [
+      "event-pc-ael-07",
+      "event-npc-leon-04"
+    ],
+    "missing_actor_clips": [],
+    "prop_ids": [],
+    "missing_prop_ids": [],
+    "runtime_connected": false,
+    "gameplay_effects": false
+  },
+  {
+    "id": "presentation-3-06",
+    "name": "응급처치",
+    "actor_clips": [
+      "event-pc-ael-06",
+      "event-npc-leon-03"
+    ],
+    "missing_actor_clips": [],
+    "prop_ids": [
+      "prop-3-05"
+    ],
+    "missing_prop_ids": [],
+    "runtime_connected": false,
+    "gameplay_effects": false
+  },
+  {
+    "id": "presentation-3-07",
+    "name": "첫 승리 떨림",
+    "actor_clips": [
+      "event-first-victory-tremble"
+    ],
+    "missing_actor_clips": [],
+    "prop_ids": [],
+    "missing_prop_ids": [],
+    "runtime_connected": false,
+    "gameplay_effects": false
+  },
+  {
+    "id": "presentation-3-08",
+    "name": "부상자 부축",
+    "actor_clips": [
+      "motion-pc-ael-1-3",
+      "event-npc-leon-05"
+    ],
+    "missing_actor_clips": [],
+    "prop_ids": [],
+    "missing_prop_ids": [],
+    "runtime_connected": false,
+    "gameplay_effects": false
+  },
+  {
+    "id": "presentation-3-09",
+    "name": "천막 설치",
+    "actor_clips": [],
+    "missing_actor_clips": [],
+    "prop_ids": [
+      "prop-4-03"
+    ],
+    "missing_prop_ids": [],
+    "runtime_connected": false,
+    "gameplay_effects": false
+  },
+  {
+    "id": "presentation-3-10",
+    "name": "장치 활성화",
+    "actor_clips": [],
+    "missing_actor_clips": [],
+    "prop_ids": [
+      "prop-6-08"
+    ],
+    "missing_prop_ids": [],
+    "runtime_connected": false,
+    "gameplay_effects": false
+  },
+  {
+    "id": "presentation-3-11",
+    "name": "배 출항",
+    "actor_clips": [],
+    "missing_actor_clips": [],
+    "prop_ids": [
+      "prop-5-09"
+    ],
+    "missing_prop_ids": [],
+    "runtime_connected": false,
+    "gameplay_effects": false
+  },
+  {
+    "id": "presentation-3-12",
+    "name": "배 입항",
+    "actor_clips": [],
+    "missing_actor_clips": [],
+    "prop_ids": [
+      "prop-5-09"
+    ],
+    "missing_prop_ids": [],
+    "runtime_connected": false,
+    "gameplay_effects": false
+  },
+  {
+    "id": "presentation-3-13",
+    "name": "교량 손상",
+    "actor_clips": [],
+    "missing_actor_clips": [],
+    "prop_ids": [],
+    "missing_prop_ids": [],
+    "runtime_connected": false,
+    "gameplay_effects": false
+  },
+  {
+    "id": "presentation-3-14",
+    "name": "교량 복구",
+    "actor_clips": [],
+    "missing_actor_clips": [],
+    "prop_ids": [],
+    "missing_prop_ids": [],
+    "runtime_connected": false,
+    "gameplay_effects": false
+  }
+]

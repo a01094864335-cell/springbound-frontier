@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-06",
+  "scope": "고정 Git 커밋의 전수 정적 내용 대조 및 시각6샘플; 게임 실행 아님",
+  "checks": [
+    "2412 ID/879경로·스토리 기준205참조와 원격 파일 대조",
+    "46작업 묶음·우선순위·근거/관련ID·CSV 대응",
+    "29맵·52요구 전체 범위 일치",
+    "98아틀라스·1563활성클립·6252프레임·312기초 슬롯 결과 일치",
+    "492이미지 디코딩/183manifest 해시·85아이콘·80WAV 결과",
+    "2476 literal참조·14사건의동적 actor/prop ID 누락 없음",
+    "경계 후보283/기존260/합집합331을 잘림 확정과 구분",
+    "변경 README/docs 범위·상대링크 대상"
+  ],
+  "game_executed": false,
+  "all_art_visually_approved": false,
+  "audio_listened": false,
+  "missing_registered_source_paths": 0,
+  "gap_groups": 46
+}

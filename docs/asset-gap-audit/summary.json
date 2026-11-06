@@ -1,0 +1,140 @@
+{
+  "asset_commit": "63ae017a26d036c2fba002fe79ac2393d1bcd8ee",
+  "registry_references": 2412,
+  "unique_registry_paths": 879,
+  "registry_missing_paths": [],
+  "atlas_count": 98,
+  "active_clips": 1563,
+  "frame_references": 6252,
+  "unique_atlas_rectangles": 6252,
+  "active_clip_problem_count": 0,
+  "out_of_bounds_frames": 0,
+  "blank_frames_alpha32": 0,
+  "not_48x64_frame_references": 6252,
+  "near_side_or_top_clip_candidates": 283,
+  "source_review_flag_count": 260,
+  "identical_frame_clip_candidates": 0,
+  "explicit_unapproved_motion_clips": 1563,
+  "native_catalogs": {
+    "props": {
+      "count": 112,
+      "runtime_connected_false": 112,
+      "stages": {
+        "native_first_pass": 112
+      }
+    },
+    "ui": {
+      "count": 36,
+      "runtime_connected_false": 36,
+      "stages": {
+        "native_first_pass": 36
+      }
+    },
+    "events": {
+      "count": 14,
+      "runtime_connected_false": 14,
+      "stages": {
+        "event_visual_prototype": 14
+      }
+    },
+    "world_states": {
+      "count": 4,
+      "runtime_connected_false": 4,
+      "stages": {
+        "world_state_blockout": 4
+      }
+    },
+    "fields": {
+      "count": 29,
+      "runtime_connected_false": 29,
+      "stages": {
+        "layout_blockout": 29
+      }
+    },
+    "audio": {
+      "count": 80,
+      "runtime_connected_false": 0,
+      "stages": {
+        "not_stated": 80
+      }
+    },
+    "vfx": {
+      "count": 29,
+      "runtime_connected_false": 0,
+      "stages": {
+        "native shader effect; gameplay connection pending": 29
+      }
+    },
+    "icons": {
+      "count": 85,
+      "runtime_connected_false": 85,
+      "stages": {
+        "native_first_pass": 85
+      }
+    }
+  },
+  "icons": 85,
+  "small_icon_exports": 0,
+  "audio_files": 80,
+  "silent_audio": 0,
+  "hard_clipped_audio": 0,
+  "literal_dependency_edges": 2476,
+  "missing_literal_dependencies": [],
+  "dynamic_dependency_expressions_unresolved": 1,
+  "packaged_font_files": [],
+  "portrait_named_files": [
+    "game/assets/ael-portrait.png",
+    "game/assets/marta-portrait.png",
+    "game/assets/leon-portrait.png"
+  ],
+  "game_executed": false,
+  "visual_sample_only": true,
+  "audio_listened": false,
+  "humanoid_clips": 933,
+  "humanoid_frame_references": 3732,
+  "enemy_motion_clips": 630,
+  "boundary_heuristic_vs_previous": {
+    "intersection": 212,
+    "new_heuristic_only": 71,
+    "previous_only": 48,
+    "union_review_candidates": 331
+  },
+  "weapon_loadout_required_slots": 312,
+  "weapon_loadout_missing_slots": 0,
+  "catalog_reference_only_categories": {
+    "인물 보드": 47,
+    "적군·몬스터 외형": 30,
+    "아이템 도안": 85,
+    "공용 건축 부품": 12,
+    "맵 배치": 11,
+    "건물·시설": 64,
+    "지역 환경 변형": 55,
+    "지역 건축 부품": 72
+  },
+  "gap_groups": 46,
+  "gap_groups_by_priority": {
+    "P0": 20,
+    "P1": 26
+  },
+  "reviewed_registry_entries": 2412,
+  "reviewed_maps": 29,
+  "reviewed_requirement_groups": 52,
+  "fully_visually_reviewed_all": false,
+  "visual_samples_reviewed": 6,
+  "baseline_delivery": {
+    "main_commit": "991614382ffdc36c529a0294eaa3fdc79b253b4a",
+    "plan_commit": "e2bfe5a25b49b9129bc3629041d5de00cfda1e50",
+    "asset_commit": "63ae017a26d036c2fba002fe79ac2393d1bcd8ee",
+    "asset_is_ancestor_of_main": false,
+    "plan_is_ancestor_of_main": false
+  },
+  "gap_groups_by_work_kind": {
+    "자료 인수·데이터/기능 연결": 22,
+    "최종 미술·추출/재사용": 12,
+    "검수·방침 선정": 3,
+    "추가 표현·사건 조립 설계": 9
+  },
+  "source_and_transitive_image_files_decoded": 492,
+  "image_decode_errors": 0,
+  "motion_and_icon_manifest_hash_mismatches": 0
+}
