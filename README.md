@@ -54,3 +54,19 @@ Springbound Frontier · 가제
 [몬스터 보드 16종](docs/monster-boards.md) — 일반 12종·보스 4종. [HTML 갤러리](assets/monster-boards/index.html).
 [인간 적군 보드 14종](docs/enemy-character-boards.md) — 주요 인물 6명·일반 병종 8종. [HTML 갤러리](assets/enemy-boards/index.html).
 [방패 조합 기획과 시안](docs/shield-loadouts.md) — 한손검+방패·단검+버클러 각 16포즈, 방패 외형 5종. [통합 HTML 갤러리](assets/combat-motion-boards/ael/index.html).
+
+[본편 전체 애셋 개별 제작 대장](docs/full-asset-registry.md) — 2,412개 관리 항목. [검색·시안 갤러리](docs/assets-registry/index.html) · [제작 진행 기록](docs/full-asset-production-progress.md). 누적 시안 214장(이번 지역 건축 부품 72장 추가), 전체 제작 진행 중.
+
+[네이티브 애셋 1차 제작·검증](docs/runtime-asset-production.md) — 151항목 실제 파일, 미제작 1,842항목. 최종 미술·음원 청취·플레이 연결은 미완료.
+
+## 2026-11-03 애셋 재개
+
+[아이콘49개 HTML 미리보기](docs/item-icons/index.html) · [작업 인수인계 및 미완료 범위](docs/asset-handoff-2026-11-03.md)
+
+[필드29종 동선 블록아웃 보기](docs/field-layouts/index.html) — 최종 지형 미술과 플레이 연결은 별도.
+
+## 잔여 전체 애셋 1차 제작
+
+[전체 검색·동작 재생 HTML](docs/remaining-assets/index.html) · [제작 범위와 검증](docs/full-remainder-production.md)
+
+잔여1,764항목의 1차 파일을 제작했습니다. 최종 픽셀 미술·규격 정합화·실제 게임 연결은 별도입니다. Godot 검토 장면: `res://tests/asset_production/remaining_browser.tscn`.

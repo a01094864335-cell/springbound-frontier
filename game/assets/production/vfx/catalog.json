@@ -1,0 +1,234 @@
+[
+  {
+    "id": "presentation-0-01",
+    "name": "검 베기",
+    "path": "res://assets/production/vfx/presentation-0-01.tscn",
+    "duration": 0.36,
+    "loop": false,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-0-02",
+    "name": "단검 베기",
+    "path": "res://assets/production/vfx/presentation-0-02.tscn",
+    "duration": 0.22,
+    "loop": false,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-0-03",
+    "name": "창 찌르기",
+    "path": "res://assets/production/vfx/presentation-0-03.tscn",
+    "duration": 0.32,
+    "loop": false,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-0-04",
+    "name": "둔기 충격",
+    "path": "res://assets/production/vfx/presentation-0-04.tscn",
+    "duration": 0.35,
+    "loop": false,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-0-05",
+    "name": "방패 충격",
+    "path": "res://assets/production/vfx/presentation-0-05.tscn",
+    "duration": 0.38,
+    "loop": false,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-0-06",
+    "name": "일반 피격",
+    "path": "res://assets/production/vfx/presentation-0-06.tscn",
+    "duration": 0.32,
+    "loop": false,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-0-07",
+    "name": "화살",
+    "path": "res://assets/production/vfx/presentation-0-07.tscn",
+    "duration": 0.25,
+    "loop": false,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-0-08",
+    "name": "화살 명중",
+    "path": "res://assets/production/vfx/presentation-0-08.tscn",
+    "duration": 0.28,
+    "loop": false,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-0-09",
+    "name": "공명 펄스",
+    "path": "res://assets/production/vfx/presentation-0-09.tscn",
+    "duration": 0.8,
+    "loop": false,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-0-10",
+    "name": "시전 준비",
+    "path": "res://assets/production/vfx/presentation-0-10.tscn",
+    "duration": 1,
+    "loop": false,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-0-11",
+    "name": "회복",
+    "path": "res://assets/production/vfx/presentation-0-11.tscn",
+    "duration": 1.2,
+    "loop": false,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-0-12",
+    "name": "전투 불능 표시",
+    "path": "res://assets/production/vfx/presentation-0-12.tscn",
+    "duration": 1,
+    "loop": false,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-0-13",
+    "name": "몬스터 소멸",
+    "path": "res://assets/production/vfx/presentation-0-13.tscn",
+    "duration": 0.8,
+    "loop": false,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-0-14",
+    "name": "거미줄",
+    "path": "res://assets/production/vfx/presentation-0-14.tscn",
+    "duration": 0.8,
+    "loop": false,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-0-15",
+    "name": "나방 가루",
+    "path": "res://assets/production/vfx/presentation-0-15.tscn",
+    "duration": 1,
+    "loop": false,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-0-16",
+    "name": "균사 뻗기",
+    "path": "res://assets/production/vfx/presentation-0-16.tscn",
+    "duration": 0.75,
+    "loop": false,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-0-17",
+    "name": "뿌리 충격",
+    "path": "res://assets/production/vfx/presentation-0-17.tscn",
+    "duration": 0.6,
+    "loop": false,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-1-01",
+    "name": "눈 내림",
+    "path": "res://assets/production/vfx/presentation-1-01.tscn",
+    "duration": 8,
+    "loop": true,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-1-02",
+    "name": "비 내림",
+    "path": "res://assets/production/vfx/presentation-1-02.tscn",
+    "duration": 2,
+    "loop": true,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-1-03",
+    "name": "낮은 안개",
+    "path": "res://assets/production/vfx/presentation-1-03.tscn",
+    "duration": 18,
+    "loop": true,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-1-04",
+    "name": "강물 물결",
+    "path": "res://assets/production/vfx/presentation-1-04.tscn",
+    "duration": 4,
+    "loop": true,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-1-05",
+    "name": "해안 파도",
+    "path": "res://assets/production/vfx/presentation-1-05.tscn",
+    "duration": 8,
+    "loop": true,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-1-06",
+    "name": "굴뚝 연기",
+    "path": "res://assets/production/vfx/presentation-1-06.tscn",
+    "duration": 8,
+    "loop": true,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-1-07",
+    "name": "모닥불",
+    "path": "res://assets/production/vfx/presentation-1-07.tscn",
+    "duration": 2,
+    "loop": true,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-1-08",
+    "name": "횃불",
+    "path": "res://assets/production/vfx/presentation-1-08.tscn",
+    "duration": 1.5,
+    "loop": true,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-1-09",
+    "name": "공명 입자",
+    "path": "res://assets/production/vfx/presentation-1-09.tscn",
+    "duration": 9,
+    "loop": true,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-1-10",
+    "name": "장치 가동 빛",
+    "path": "res://assets/production/vfx/presentation-1-10.tscn",
+    "duration": 6,
+    "loop": true,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-1-11",
+    "name": "낙엽",
+    "path": "res://assets/production/vfx/presentation-1-11.tscn",
+    "duration": 10,
+    "loop": true,
+    "stage": "native shader effect; gameplay connection pending"
+  },
+  {
+    "id": "presentation-1-12",
+    "name": "눈 발자국",
+    "path": "res://assets/production/vfx/presentation-1-12.tscn",
+    "duration": 1,
+    "loop": false,
+    "stage": "native shader effect; gameplay connection pending"
+  }
+]

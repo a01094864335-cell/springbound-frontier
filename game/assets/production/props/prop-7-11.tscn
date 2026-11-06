@@ -1,0 +1,183 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/linen.tres" id="m1"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/clay.tres" id="m2"]
+
+[sub_resource type="CylinderMesh" id="r1"]
+top_radius = 0.04
+bottom_radius = 0.04
+height = 0.3
+radial_segments = 12
+rings = 1
+
+[sub_resource type="SphereMesh" id="r2"]
+radius = 0.18
+height = 0.36
+radial_segments = 12
+rings = 6
+
+[sub_resource type="CylinderMesh" id="r3"]
+top_radius = 0.04
+bottom_radius = 0.04
+height = 0.3
+radial_segments = 12
+rings = 1
+
+[sub_resource type="SphereMesh" id="r4"]
+radius = 0.18
+height = 0.36
+radial_segments = 12
+rings = 6
+
+[sub_resource type="CylinderMesh" id="r5"]
+top_radius = 0.04
+bottom_radius = 0.04
+height = 0.3
+radial_segments = 12
+rings = 1
+
+[sub_resource type="SphereMesh" id="r6"]
+radius = 0.18
+height = 0.36
+radial_segments = 12
+rings = 6
+
+[sub_resource type="CylinderMesh" id="r7"]
+top_radius = 0.04
+bottom_radius = 0.04
+height = 0.3
+radial_segments = 12
+rings = 1
+
+[sub_resource type="SphereMesh" id="r8"]
+radius = 0.18
+height = 0.36
+radial_segments = 12
+rings = 6
+
+[sub_resource type="CylinderMesh" id="r9"]
+top_radius = 0.04
+bottom_radius = 0.04
+height = 0.3
+radial_segments = 12
+rings = 1
+
+[sub_resource type="SphereMesh" id="r10"]
+radius = 0.18
+height = 0.36
+radial_segments = 12
+rings = 6
+
+[sub_resource type="CylinderMesh" id="r11"]
+top_radius = 0.04
+bottom_radius = 0.04
+height = 0.3
+radial_segments = 12
+rings = 1
+
+[sub_resource type="SphereMesh" id="r12"]
+radius = 0.18
+height = 0.36
+radial_segments = 12
+rings = 6
+
+[sub_resource type="CylinderMesh" id="r13"]
+top_radius = 0.04
+bottom_radius = 0.04
+height = 0.3
+radial_segments = 12
+rings = 1
+
+[sub_resource type="SphereMesh" id="r14"]
+radius = 0.18
+height = 0.36
+radial_segments = 12
+rings = 6
+
+[node name="prop_7_11" type="Node3D"]
+metadata/asset_id = "prop-7-11"
+metadata/display_name = "버섯 군락"
+metadata/grid_obstacles = []
+metadata/stage = "native_first_pass"
+metadata/origin = "ground center"
+metadata/bounds = [1.5, 0.6, 1.5]
+metadata/recreated_from = "unavailable external draft; newly authored in this environment"
+metadata/final_art_approved = false
+
+[node name="Stem0" type="MeshInstance3D" parent="."]
+position = Vector3(0.5, 0.16, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+
+[node name="Cap0" type="MeshInstance3D" parent="."]
+position = Vector3(0.5, 0.32, 0)
+mesh = SubResource("r2")
+material_override = ExtResource("m2")
+scale = Vector3(1, 0.4, 1)
+
+[node name="Stem1" type="MeshInstance3D" parent="."]
+position = Vector3(-0.368697, 0.16, 0.337732)
+mesh = SubResource("r3")
+material_override = ExtResource("m1")
+
+[node name="Cap1" type="MeshInstance3D" parent="."]
+position = Vector3(-0.368697, 0.32, 0.337732)
+mesh = SubResource("r4")
+material_override = ExtResource("m2")
+scale = Vector3(1, 0.4, 1)
+
+[node name="Stem2" type="MeshInstance3D" parent="."]
+position = Vector3(0.0437495, 0.16, -0.498082)
+mesh = SubResource("r5")
+material_override = ExtResource("m1")
+
+[node name="Cap2" type="MeshInstance3D" parent="."]
+position = Vector3(0.0437495, 0.32, -0.498082)
+mesh = SubResource("r6")
+material_override = ExtResource("m2")
+scale = Vector3(1, 0.4, 1)
+
+[node name="Stem3" type="MeshInstance3D" parent="."]
+position = Vector3(0.304176, 0.16, 0.396834)
+mesh = SubResource("r7")
+material_override = ExtResource("m1")
+
+[node name="Cap3" type="MeshInstance3D" parent="."]
+position = Vector3(0.304176, 0.32, 0.396834)
+mesh = SubResource("r8")
+material_override = ExtResource("m2")
+scale = Vector3(1, 0.4, 1)
+
+[node name="Stem4" type="MeshInstance3D" parent="."]
+position = Vector3(-0.492344, 0.16, -0.0871634)
+mesh = SubResource("r9")
+material_override = ExtResource("m1")
+
+[node name="Cap4" type="MeshInstance3D" parent="."]
+position = Vector3(-0.492344, 0.32, -0.0871634)
+mesh = SubResource("r10")
+material_override = ExtResource("m2")
+scale = Vector3(1, 0.4, 1)
+
+[node name="Stem5" type="MeshInstance3D" parent="."]
+position = Vector3(0.421927, 0.16, -0.268286)
+mesh = SubResource("r11")
+material_override = ExtResource("m1")
+
+[node name="Cap5" type="MeshInstance3D" parent="."]
+position = Vector3(0.421927, 0.32, -0.268286)
+mesh = SubResource("r12")
+material_override = ExtResource("m2")
+scale = Vector3(1, 0.4, 1)
+
+[node name="Stem6" type="MeshInstance3D" parent="."]
+position = Vector3(-0.129909, 0.16, 0.482829)
+mesh = SubResource("r13")
+material_override = ExtResource("m1")
+
+[node name="Cap6" type="MeshInstance3D" parent="."]
+position = Vector3(-0.129909, 0.32, 0.482829)
+mesh = SubResource("r14")
+material_override = ExtResource("m2")
+scale = Vector3(1, 0.4, 1)

@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3]
+[ext_resource type="Shader" path="res://assets/production/vfx/effect.gdshader" id="1"]
+[ext_resource type="Script" path="res://assets/production/vfx/effect_player.gd" id="2"]
+[sub_resource type="ShaderMaterial" id="Material"]
+resource_local_to_scene = true
+shader = ExtResource("1")
+shader_parameter/effect = 10
+shader_parameter/tint = Color(0.7058823529411765, 0.8313725490196079, 0.8470588235294118, 0.8)
+shader_parameter/density = 1
+[sub_resource type="QuadMesh" id="Quad"]
+size = Vector2(9, 3)
+[node name="presentation_1_05" type="Node3D"]
+script = ExtResource("2")
+duration = 8
+loop = true
+metadata/asset_id = "presentation-1-05"
+metadata/display_name = "해안 파도"
+[node name="Visual" type="MeshInstance3D" parent="."]
+position = Vector3(0, 1.5, 0)
+mesh = SubResource("Quad")
+material_override = SubResource("Material")
+cast_shadow = 0

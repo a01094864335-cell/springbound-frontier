@@ -1,0 +1,96 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/wood.tres" id="m1"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/green.tres" id="m2"]
+
+[sub_resource type="CylinderMesh" id="r1"]
+top_radius = 0.13
+bottom_radius = 0.2
+height = 2.6
+radial_segments = 12
+rings = 1
+
+[sub_resource type="SphereMesh" id="r2"]
+radius = 0.95
+height = 1.9
+radial_segments = 12
+rings = 6
+
+[sub_resource type="SphereMesh" id="r3"]
+radius = 0.95
+height = 1.9
+radial_segments = 12
+rings = 6
+
+[sub_resource type="SphereMesh" id="r4"]
+radius = 0.95
+height = 1.9
+radial_segments = 12
+rings = 6
+
+[sub_resource type="SphereMesh" id="r5"]
+radius = 0.95
+height = 1.9
+radial_segments = 12
+rings = 6
+
+[sub_resource type="SphereMesh" id="r6"]
+radius = 0.95
+height = 1.9
+radial_segments = 12
+rings = 6
+
+[sub_resource type="BoxShape3D" id="r7"]
+size = Vector3(0.5, 2, 0.5)
+
+[node name="prop_7_02" type="Node3D"]
+metadata/asset_id = "prop-7-02"
+metadata/display_name = "활엽수"
+metadata/grid_obstacles = [[-0.25, -0.25, 0.5, 0.5]]
+metadata/stage = "native_first_pass"
+metadata/origin = "ground center"
+metadata/bounds = [2.4, 4, 2.4]
+metadata/recreated_from = "unavailable external draft; newly authored in this environment"
+metadata/final_art_approved = false
+
+[node name="Trunk" type="MeshInstance3D" parent="."]
+position = Vector3(0, 1.3, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+
+[node name="Leaves0" type="MeshInstance3D" parent="."]
+position = Vector3(0.6, 2.5, 0)
+mesh = SubResource("r2")
+material_override = ExtResource("m2")
+scale = Vector3(1, 1, 1)
+
+[node name="Leaves1" type="MeshInstance3D" parent="."]
+position = Vector3(0.18541, 3, 0.570634)
+mesh = SubResource("r3")
+material_override = ExtResource("m2")
+scale = Vector3(1, 1, 1)
+
+[node name="Leaves2" type="MeshInstance3D" parent="."]
+position = Vector3(-0.48541, 2.5, 0.352671)
+mesh = SubResource("r4")
+material_override = ExtResource("m2")
+scale = Vector3(1, 1, 1)
+
+[node name="Leaves3" type="MeshInstance3D" parent="."]
+position = Vector3(-0.48541, 3, -0.352671)
+mesh = SubResource("r5")
+material_override = ExtResource("m2")
+scale = Vector3(1, 1, 1)
+
+[node name="Leaves4" type="MeshInstance3D" parent="."]
+position = Vector3(0.18541, 2.5, -0.570634)
+mesh = SubResource("r6")
+material_override = ExtResource("m2")
+scale = Vector3(1, 1, 1)
+
+[node name="Body1" type="StaticBody3D" parent="."]
+position = Vector3(0, 1, 0)
+
+[node name="Shape" type="CollisionShape3D" parent="Body1"]
+shape = SubResource("r7")

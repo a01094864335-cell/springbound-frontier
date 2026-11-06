@@ -1,0 +1,1127 @@
+[
+  {
+    "id": "presentation-3-01",
+    "name": "문 개폐",
+    "duration": 2.4,
+    "actors": [],
+    "props": [],
+    "tracks": [
+      {
+        "node": "DoorPivot",
+        "property": "rotation_degrees",
+        "keys": [
+          {
+            "time": 0,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 0.8,
+            "value": [
+              0,
+              -95,
+              0
+            ]
+          },
+          {
+            "time": 1.5,
+            "value": [
+              0,
+              -95,
+              0
+            ]
+          },
+          {
+            "time": 2.4,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "runtime_connected": false,
+    "stage": "event_visual_prototype",
+    "gameplay_effects": false,
+    "file": "game/assets/production/events/presentation-3-01.tscn",
+    "path": "res://assets/production/events/presentation-3-01.tscn"
+  },
+  {
+    "id": "presentation-3-02",
+    "name": "상자 개폐",
+    "duration": 2.4,
+    "actors": [],
+    "props": [
+      {
+        "node": "Chest",
+        "id": "prop-2-17",
+        "position": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "node": "LidPivot",
+        "property": "rotation_degrees",
+        "keys": [
+          {
+            "time": 0,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 0.9,
+            "value": [
+              -100,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 1.5,
+            "value": [
+              -100,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 2.4,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "runtime_connected": false,
+    "stage": "event_visual_prototype",
+    "gameplay_effects": false,
+    "file": "game/assets/production/events/presentation-3-02.tscn",
+    "path": "res://assets/production/events/presentation-3-02.tscn"
+  },
+  {
+    "id": "presentation-3-03",
+    "name": "약 전달",
+    "duration": 2.4,
+    "actors": [
+      {
+        "node": "Ael",
+        "actor": "pc-ael",
+        "clip": "motion-pc-ael-2-3",
+        "position": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "node": "Marta",
+        "actor": "npc-marta",
+        "clip": "motion-npc-marta-2-2",
+        "position": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "props": [
+      {
+        "node": "Medicine",
+        "id": "prop-3-03",
+        "position": [
+          -0.7,
+          1,
+          0
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "node": "Medicine",
+        "property": "position",
+        "keys": [
+          {
+            "time": 0,
+            "value": [
+              -0.7,
+              1,
+              0
+            ]
+          },
+          {
+            "time": 1.2,
+            "value": [
+              0.7,
+              1,
+              0
+            ]
+          },
+          {
+            "time": 2.4,
+            "value": [
+              0.7,
+              1,
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "runtime_connected": false,
+    "stage": "event_visual_prototype",
+    "gameplay_effects": false,
+    "file": "game/assets/production/events/presentation-3-03.tscn",
+    "path": "res://assets/production/events/presentation-3-03.tscn"
+  },
+  {
+    "id": "presentation-3-04",
+    "name": "레온 발견",
+    "duration": 3.2,
+    "actors": [
+      {
+        "node": "Ael",
+        "actor": "pc-ael",
+        "clip": "motion-pc-ael-0-3",
+        "position": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "node": "Leon",
+        "actor": "npc-leon",
+        "clip": "event-npc-leon-03",
+        "position": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "props": [],
+    "tracks": [
+      {
+        "node": "Ael",
+        "property": "position",
+        "keys": [
+          {
+            "time": 0,
+            "value": [
+              -3,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 1.5,
+            "value": [
+              -1,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 3.2,
+            "value": [
+              -1,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "runtime_connected": false,
+    "stage": "event_visual_prototype",
+    "gameplay_effects": false,
+    "file": "game/assets/production/events/presentation-3-04.tscn",
+    "path": "res://assets/production/events/presentation-3-04.tscn"
+  },
+  {
+    "id": "presentation-3-05",
+    "name": "검 대여",
+    "duration": 3.2,
+    "actors": [
+      {
+        "node": "Ael",
+        "actor": "pc-ael",
+        "clip": "event-pc-ael-07",
+        "position": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "node": "Leon",
+        "actor": "npc-leon",
+        "clip": "event-npc-leon-04",
+        "position": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "props": [],
+    "tracks": [
+      {
+        "node": "BorrowedSword",
+        "property": "position",
+        "keys": [
+          {
+            "time": 0,
+            "value": [
+              0.6,
+              0.9,
+              0
+            ]
+          },
+          {
+            "time": 1.7,
+            "value": [
+              -0.6,
+              0.9,
+              0
+            ]
+          },
+          {
+            "time": 3.2,
+            "value": [
+              -0.6,
+              0.9,
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "runtime_connected": false,
+    "stage": "event_visual_prototype",
+    "gameplay_effects": false,
+    "file": "game/assets/production/events/presentation-3-05.tscn",
+    "path": "res://assets/production/events/presentation-3-05.tscn"
+  },
+  {
+    "id": "presentation-3-06",
+    "name": "응급처치",
+    "duration": 3.2,
+    "actors": [
+      {
+        "node": "Ael",
+        "actor": "pc-ael",
+        "clip": "event-pc-ael-06",
+        "position": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "node": "Leon",
+        "actor": "npc-leon",
+        "clip": "event-npc-leon-03",
+        "position": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "props": [
+      {
+        "node": "Bandages",
+        "id": "prop-3-05",
+        "position": [
+          0,
+          0,
+          0.4
+        ]
+      }
+    ],
+    "tracks": [],
+    "runtime_connected": false,
+    "stage": "event_visual_prototype",
+    "gameplay_effects": false,
+    "file": "game/assets/production/events/presentation-3-06.tscn",
+    "path": "res://assets/production/events/presentation-3-06.tscn"
+  },
+  {
+    "id": "presentation-3-07",
+    "name": "첫 승리 떨림",
+    "duration": 3.2,
+    "actors": [
+      {
+        "node": "Ael",
+        "actor": "pc-ael",
+        "clip": "event-first-victory-tremble",
+        "position": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "props": [],
+    "tracks": [
+      {
+        "node": "Ael",
+        "property": "rotation_degrees",
+        "keys": [
+          {
+            "time": 0,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 0.3,
+            "value": [
+              0,
+              2,
+              0
+            ]
+          },
+          {
+            "time": 0.6,
+            "value": [
+              0,
+              -2,
+              0
+            ]
+          },
+          {
+            "time": 0.9,
+            "value": [
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "time": 1.3,
+            "value": [
+              0,
+              -1,
+              0
+            ]
+          },
+          {
+            "time": 2,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 3.2,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "runtime_connected": false,
+    "stage": "event_visual_prototype",
+    "gameplay_effects": false,
+    "file": "game/assets/production/events/presentation-3-07.tscn",
+    "path": "res://assets/production/events/presentation-3-07.tscn"
+  },
+  {
+    "id": "presentation-3-08",
+    "name": "부상자 부축",
+    "duration": 3.2,
+    "actors": [
+      {
+        "node": "Ael",
+        "actor": "pc-ael",
+        "clip": "motion-pc-ael-1-3",
+        "position": [
+          -0.45,
+          0,
+          0
+        ]
+      },
+      {
+        "node": "Leon",
+        "actor": "npc-leon",
+        "clip": "event-npc-leon-05",
+        "position": [
+          0.45,
+          0,
+          0
+        ]
+      }
+    ],
+    "props": [],
+    "tracks": [
+      {
+        "node": "Ael",
+        "property": "position",
+        "keys": [
+          {
+            "time": 0,
+            "value": [
+              -0.45,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 3.2,
+            "value": [
+              1.55,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "node": "Leon",
+        "property": "position",
+        "keys": [
+          {
+            "time": 0,
+            "value": [
+              0.45,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 3.2,
+            "value": [
+              2.45,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "runtime_connected": false,
+    "stage": "event_visual_prototype",
+    "gameplay_effects": false,
+    "file": "game/assets/production/events/presentation-3-08.tscn",
+    "path": "res://assets/production/events/presentation-3-08.tscn"
+  },
+  {
+    "id": "presentation-3-09",
+    "name": "천막 설치",
+    "duration": 2.4,
+    "actors": [],
+    "props": [
+      {
+        "node": "Tent",
+        "id": "prop-4-03",
+        "position": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "node": "Tent",
+        "property": "scale",
+        "keys": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.03,
+              1
+            ]
+          },
+          {
+            "time": 1.8,
+            "value": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "time": 2.4,
+            "value": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      }
+    ],
+    "runtime_connected": false,
+    "stage": "event_visual_prototype",
+    "gameplay_effects": false,
+    "file": "game/assets/production/events/presentation-3-09.tscn",
+    "path": "res://assets/production/events/presentation-3-09.tscn"
+  },
+  {
+    "id": "presentation-3-10",
+    "name": "장치 활성화",
+    "duration": 2.4,
+    "actors": [],
+    "props": [
+      {
+        "node": "Console",
+        "id": "prop-6-08",
+        "position": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "node": "ActivationLight",
+        "property": "light_energy",
+        "keys": [
+          {
+            "time": 0,
+            "value": 0
+          },
+          {
+            "time": 1.2,
+            "value": 2
+          },
+          {
+            "time": 2.4,
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "runtime_connected": false,
+    "stage": "event_visual_prototype",
+    "gameplay_effects": false,
+    "file": "game/assets/production/events/presentation-3-10.tscn",
+    "path": "res://assets/production/events/presentation-3-10.tscn"
+  },
+  {
+    "id": "presentation-3-11",
+    "name": "배 출항",
+    "duration": 4,
+    "actors": [],
+    "props": [
+      {
+        "node": "Ship",
+        "id": "prop-5-09",
+        "position": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "node": "Ship",
+        "property": "position",
+        "keys": [
+          {
+            "time": 0,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 4,
+            "value": [
+              0,
+              0,
+              -6
+            ]
+          }
+        ]
+      }
+    ],
+    "runtime_connected": false,
+    "stage": "event_visual_prototype",
+    "gameplay_effects": false,
+    "file": "game/assets/production/events/presentation-3-11.tscn",
+    "path": "res://assets/production/events/presentation-3-11.tscn"
+  },
+  {
+    "id": "presentation-3-12",
+    "name": "배 입항",
+    "duration": 4,
+    "actors": [],
+    "props": [
+      {
+        "node": "Ship",
+        "id": "prop-5-09",
+        "position": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "node": "Ship",
+        "property": "position",
+        "keys": [
+          {
+            "time": 0,
+            "value": [
+              0,
+              0,
+              -6
+            ]
+          },
+          {
+            "time": 4,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "runtime_connected": false,
+    "stage": "event_visual_prototype",
+    "gameplay_effects": false,
+    "file": "game/assets/production/events/presentation-3-12.tscn",
+    "path": "res://assets/production/events/presentation-3-12.tscn"
+  },
+  {
+    "id": "presentation-3-13",
+    "name": "교량 손상",
+    "duration": 2.4,
+    "actors": [],
+    "props": [],
+    "tracks": [
+      {
+        "node": "PlankPivot0",
+        "property": "rotation_degrees",
+        "keys": [
+          {
+            "time": 0,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 0.6,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 1.4,
+            "value": [
+              0,
+              0,
+              -50
+            ]
+          },
+          {
+            "time": 2.4,
+            "value": [
+              0,
+              0,
+              -50
+            ]
+          }
+        ]
+      },
+      {
+        "node": "PlankPivot1",
+        "property": "rotation_degrees",
+        "keys": [
+          {
+            "time": 0,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 0.85,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 1.65,
+            "value": [
+              0,
+              0,
+              50
+            ]
+          },
+          {
+            "time": 2.4,
+            "value": [
+              0,
+              0,
+              50
+            ]
+          }
+        ]
+      },
+      {
+        "node": "PlankPivot2",
+        "property": "rotation_degrees",
+        "keys": [
+          {
+            "time": 0,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 1.1,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 1.9,
+            "value": [
+              0,
+              0,
+              -50
+            ]
+          },
+          {
+            "time": 2.4,
+            "value": [
+              0,
+              0,
+              -50
+            ]
+          }
+        ]
+      },
+      {
+        "node": "PlankPivot3",
+        "property": "rotation_degrees",
+        "keys": [
+          {
+            "time": 0,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 1.35,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 2.15,
+            "value": [
+              0,
+              0,
+              50
+            ]
+          },
+          {
+            "time": 2.4,
+            "value": [
+              0,
+              0,
+              50
+            ]
+          }
+        ]
+      },
+      {
+        "node": "PlankPivot4",
+        "property": "rotation_degrees",
+        "keys": [
+          {
+            "time": 0,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 1.6,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 2.4,
+            "value": [
+              0,
+              0,
+              -50
+            ]
+          },
+          {
+            "time": 2.4,
+            "value": [
+              0,
+              0,
+              -50
+            ]
+          }
+        ]
+      }
+    ],
+    "runtime_connected": false,
+    "stage": "event_visual_prototype",
+    "gameplay_effects": false,
+    "file": "game/assets/production/events/presentation-3-13.tscn",
+    "path": "res://assets/production/events/presentation-3-13.tscn"
+  },
+  {
+    "id": "presentation-3-14",
+    "name": "교량 복구",
+    "duration": 2.4,
+    "actors": [],
+    "props": [],
+    "tracks": [
+      {
+        "node": "PlankPivot0",
+        "property": "rotation_degrees",
+        "keys": [
+          {
+            "time": 0,
+            "value": [
+              0,
+              0,
+              -50
+            ]
+          },
+          {
+            "time": 0.6,
+            "value": [
+              0,
+              0,
+              -50
+            ]
+          },
+          {
+            "time": 1.4,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 2.4,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "node": "PlankPivot1",
+        "property": "rotation_degrees",
+        "keys": [
+          {
+            "time": 0,
+            "value": [
+              0,
+              0,
+              50
+            ]
+          },
+          {
+            "time": 0.85,
+            "value": [
+              0,
+              0,
+              50
+            ]
+          },
+          {
+            "time": 1.65,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 2.4,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "node": "PlankPivot2",
+        "property": "rotation_degrees",
+        "keys": [
+          {
+            "time": 0,
+            "value": [
+              0,
+              0,
+              -50
+            ]
+          },
+          {
+            "time": 1.1,
+            "value": [
+              0,
+              0,
+              -50
+            ]
+          },
+          {
+            "time": 1.9,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 2.4,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "node": "PlankPivot3",
+        "property": "rotation_degrees",
+        "keys": [
+          {
+            "time": 0,
+            "value": [
+              0,
+              0,
+              50
+            ]
+          },
+          {
+            "time": 1.35,
+            "value": [
+              0,
+              0,
+              50
+            ]
+          },
+          {
+            "time": 2.15,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 2.4,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "node": "PlankPivot4",
+        "property": "rotation_degrees",
+        "keys": [
+          {
+            "time": 0,
+            "value": [
+              0,
+              0,
+              -50
+            ]
+          },
+          {
+            "time": 1.6,
+            "value": [
+              0,
+              0,
+              -50
+            ]
+          },
+          {
+            "time": 2.4,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 2.4,
+            "value": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "runtime_connected": false,
+    "stage": "event_visual_prototype",
+    "gameplay_effects": false,
+    "file": "game/assets/production/events/presentation-3-14.tscn",
+    "path": "res://assets/production/events/presentation-3-14.tscn"
+  }
+]

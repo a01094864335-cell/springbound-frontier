@@ -1,0 +1,60 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/clay.tres" id="m1"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/trim.tres" id="m2"]
+
+[sub_resource type="CylinderMesh" id="r1"]
+top_radius = 0.24
+bottom_radius = 0.38
+height = 0.8
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="r2"]
+top_radius = 0.27
+bottom_radius = 0.27
+height = 0.07
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="r3"]
+top_radius = 0.19
+bottom_radius = 0.19
+height = 0.01
+radial_segments = 12
+rings = 1
+
+[sub_resource type="BoxShape3D" id="r4"]
+size = Vector3(1, 1, 1)
+
+[node name="prop_2_06" type="Node3D"]
+metadata/asset_id = "prop-2-06"
+metadata/display_name = "물동이"
+metadata/grid_obstacles = [[-0.5, -0.5, 1.0, 1.0]]
+metadata/stage = "native_first_pass"
+metadata/origin = "ground center"
+metadata/bounds = [1.0, 1.0, 1.0]
+metadata/recreated_from = "unavailable external draft; newly authored in this environment"
+metadata/final_art_approved = false
+
+[node name="Jar" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.4, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+
+[node name="Rim" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.82, 0)
+mesh = SubResource("r2")
+material_override = ExtResource("m1")
+
+[node name="Opening" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.86, 0)
+mesh = SubResource("r3")
+material_override = ExtResource("m2")
+
+[node name="Body1" type="StaticBody3D" parent="."]
+position = Vector3(0, 0.5, 0)
+
+[node name="Shape" type="CollisionShape3D" parent="Body1"]
+shape = SubResource("r4")

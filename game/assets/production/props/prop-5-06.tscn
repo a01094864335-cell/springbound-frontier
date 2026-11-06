@@ -1,0 +1,95 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/linen.tres" id="m1"]
+
+[sub_resource type="CylinderMesh" id="r1"]
+top_radius = 0.25
+bottom_radius = 0.25
+height = 0.06
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="r2"]
+top_radius = 0.25
+bottom_radius = 0.25
+height = 0.06
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="r3"]
+top_radius = 0.25
+bottom_radius = 0.25
+height = 0.06
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="r4"]
+top_radius = 0.25
+bottom_radius = 0.25
+height = 0.06
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="r5"]
+top_radius = 0.25
+bottom_radius = 0.25
+height = 0.06
+radial_segments = 12
+rings = 1
+
+[sub_resource type="BoxMesh" id="r6"]
+size = Vector3(3, 0.05, 0.05)
+
+[sub_resource type="BoxShape3D" id="r7"]
+size = Vector3(3, 0.3, 1.1)
+
+[node name="prop_5_06" type="Node3D"]
+metadata/asset_id = "prop-5-06"
+metadata/display_name = "밧줄 연결"
+metadata/grid_obstacles = [[-1.5, -0.55, 3, 1.1]]
+metadata/stage = "native_first_pass"
+metadata/origin = "ground center"
+metadata/bounds = [3, 0.3, 1.1]
+metadata/recreated_from = "unavailable external draft; newly authored in this environment"
+metadata/final_art_approved = false
+
+[node name="Rope0" type="MeshInstance3D" parent="."]
+position = Vector3(-0.4, 0.12, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+rotation_degrees = Vector3(90, 0, 0)
+
+[node name="Rope1" type="MeshInstance3D" parent="."]
+position = Vector3(-0.2, 0.12, 0)
+mesh = SubResource("r2")
+material_override = ExtResource("m1")
+rotation_degrees = Vector3(90, 0, 0)
+
+[node name="Rope2" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.12, 0)
+mesh = SubResource("r3")
+material_override = ExtResource("m1")
+rotation_degrees = Vector3(90, 0, 0)
+
+[node name="Rope3" type="MeshInstance3D" parent="."]
+position = Vector3(0.2, 0.12, 0)
+mesh = SubResource("r4")
+material_override = ExtResource("m1")
+rotation_degrees = Vector3(90, 0, 0)
+
+[node name="Rope4" type="MeshInstance3D" parent="."]
+position = Vector3(0.4, 0.12, 0)
+mesh = SubResource("r5")
+material_override = ExtResource("m1")
+rotation_degrees = Vector3(90, 0, 0)
+
+[node name="RopeSpan" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.2, 0)
+mesh = SubResource("r6")
+material_override = ExtResource("m1")
+
+[node name="Body1" type="StaticBody3D" parent="."]
+position = Vector3(0, 0.15, 0)
+
+[node name="Shape" type="CollisionShape3D" parent="Body1"]
+shape = SubResource("r7")

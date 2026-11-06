@@ -1,0 +1,72 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/paper.tres" id="m1"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/blue.tres" id="m2"]
+
+[sub_resource type="BoxMesh" id="r1"]
+size = Vector3(0.35, 0.025, 0.48)
+
+[sub_resource type="BoxMesh" id="r2"]
+size = Vector3(0.35, 0.025, 0.48)
+
+[sub_resource type="BoxMesh" id="r3"]
+size = Vector3(0.35, 0.025, 0.48)
+
+[sub_resource type="BoxMesh" id="r4"]
+size = Vector3(0.35, 0.025, 0.48)
+
+[sub_resource type="BoxMesh" id="r5"]
+size = Vector3(0.35, 0.025, 0.48)
+
+[sub_resource type="BoxMesh" id="r6"]
+size = Vector3(0.06, 0.03, 0.5)
+
+[sub_resource type="BoxShape3D" id="r7"]
+size = Vector3(0.5, 0.3, 0.6)
+
+[node name="prop_3_16" type="Node3D"]
+metadata/asset_id = "prop-3-16"
+metadata/display_name = "문서 묶음"
+metadata/grid_obstacles = [[-0.25, -0.3, 0.5, 0.6]]
+metadata/stage = "native_first_pass"
+metadata/origin = "ground center"
+metadata/bounds = [0.5, 0.3, 0.6]
+metadata/recreated_from = "unavailable external draft; newly authored in this environment"
+metadata/final_art_approved = false
+
+[node name="Paper0" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.04, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+
+[node name="Paper1" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.08, 0)
+mesh = SubResource("r2")
+material_override = ExtResource("m1")
+
+[node name="Paper2" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.12, 0)
+mesh = SubResource("r3")
+material_override = ExtResource("m1")
+
+[node name="Paper3" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.16, 0)
+mesh = SubResource("r4")
+material_override = ExtResource("m1")
+
+[node name="Paper4" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.2, 0)
+mesh = SubResource("r5")
+material_override = ExtResource("m1")
+
+[node name="Tie" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.25, 0)
+mesh = SubResource("r6")
+material_override = ExtResource("m2")
+
+[node name="Body1" type="StaticBody3D" parent="."]
+position = Vector3(0, 0.15, 0)
+
+[node name="Shape" type="CollisionShape3D" parent="Body1"]
+shape = SubResource("r7")

@@ -1,0 +1,123 @@
+{
+	"count": 29,
+	"failures": [],
+	"passed": true,
+	"results": [
+		{
+			"id": "field-01",
+			"route_samples": 107
+		},
+		{
+			"id": "field-02",
+			"route_samples": 107
+		},
+		{
+			"id": "field-03",
+			"route_samples": 69
+		},
+		{
+			"id": "field-04",
+			"route_samples": 69
+		},
+		{
+			"id": "field-05",
+			"route_samples": 97
+		},
+		{
+			"id": "field-06",
+			"route_samples": 69
+		},
+		{
+			"id": "field-07",
+			"route_samples": 122
+		},
+		{
+			"id": "field-08",
+			"route_samples": 93
+		},
+		{
+			"id": "field-09",
+			"route_samples": 69
+		},
+		{
+			"id": "field-10",
+			"route_samples": 92
+		},
+		{
+			"id": "field-11",
+			"route_samples": 105
+		},
+		{
+			"id": "field-12",
+			"route_samples": 107
+		},
+		{
+			"id": "field-13",
+			"route_samples": 69
+		},
+		{
+			"id": "field-14",
+			"route_samples": 89
+		},
+		{
+			"id": "field-15",
+			"route_samples": 105
+		},
+		{
+			"id": "field-16",
+			"route_samples": 105
+		},
+		{
+			"id": "field-17",
+			"route_samples": 97
+		},
+		{
+			"id": "field-18",
+			"route_samples": 69
+		},
+		{
+			"id": "field-19",
+			"route_samples": 122
+		},
+		{
+			"id": "field-20",
+			"route_samples": 93
+		},
+		{
+			"id": "field-21",
+			"route_samples": 93
+		},
+		{
+			"id": "field-22",
+			"route_samples": 69
+		},
+		{
+			"id": "field-23",
+			"route_samples": 97
+		},
+		{
+			"id": "field-24",
+			"route_samples": 97
+		},
+		{
+			"id": "field-25",
+			"route_samples": 69
+		},
+		{
+			"id": "field-26",
+			"route_samples": 97
+		},
+		{
+			"id": "field-27",
+			"route_samples": 101
+		},
+		{
+			"id": "field-28",
+			"route_samples": 122
+		},
+		{
+			"id": "field-29",
+			"route_samples": 69
+		}
+	]
+}

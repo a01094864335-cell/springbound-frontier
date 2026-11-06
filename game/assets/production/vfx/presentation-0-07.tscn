@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3]
+[ext_resource type="Shader" path="res://assets/production/vfx/effect.gdshader" id="1"]
+[ext_resource type="Script" path="res://assets/production/vfx/effect_player.gd" id="2"]
+[sub_resource type="ShaderMaterial" id="Material"]
+resource_local_to_scene = true
+shader = ExtResource("1")
+shader_parameter/effect = 1
+shader_parameter/tint = Color(0.792156862745098, 0.7176470588235294, 0.5411764705882353, 0.8)
+shader_parameter/density = 1
+[sub_resource type="QuadMesh" id="Quad"]
+size = Vector2(1.8, 0.45)
+[node name="presentation_0_07" type="Node3D"]
+script = ExtResource("2")
+duration = 0.25
+loop = false
+metadata/asset_id = "presentation-0-07"
+metadata/display_name = "화살"
+[node name="Visual" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.225, 0)
+mesh = SubResource("Quad")
+material_override = SubResource("Material")
+cast_shadow = 0

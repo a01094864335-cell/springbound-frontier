@@ -1,0 +1,44 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/wood.tres" id="m1"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/linen.tres" id="m2"]
+
+[sub_resource type="CylinderMesh" id="r1"]
+top_radius = 0.08
+bottom_radius = 0.08
+height = 1.6
+radial_segments = 12
+rings = 1
+
+[sub_resource type="BoxMesh" id="r2"]
+size = Vector3(0.48, 0.45, 0.16)
+
+[sub_resource type="BoxShape3D" id="r3"]
+size = Vector3(0.5, 1.6, 0.2)
+
+[node name="prop_2_11" type="Node3D"]
+metadata/asset_id = "prop-2-11"
+metadata/display_name = "빗자루"
+metadata/grid_obstacles = [[-0.25, -0.1, 0.5, 0.2]]
+metadata/stage = "native_first_pass"
+metadata/origin = "ground center"
+metadata/bounds = [0.5, 1.6, 0.2]
+metadata/recreated_from = "unavailable external draft; newly authored in this environment"
+metadata/final_art_approved = false
+
+[node name="BroomHandle" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.8, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+
+[node name="Bristles" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.23, 0)
+mesh = SubResource("r2")
+material_override = ExtResource("m2")
+
+[node name="Body1" type="StaticBody3D" parent="."]
+position = Vector3(0, 0.8, 0)
+
+[node name="Shape" type="CollisionShape3D" parent="Body1"]
+shape = SubResource("r3")

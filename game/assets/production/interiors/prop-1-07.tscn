@@ -1,0 +1,160 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/wood.tres" id="m1"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/trim.tres" id="m2"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/brass.tres" id="m3"]
+
+[sub_resource type="BoxMesh" id="r1"]
+size = Vector3(0.1, 1.9, 0.48)
+
+[sub_resource type="BoxMesh" id="r2"]
+size = Vector3(0.1, 1.9, 0.48)
+
+[sub_resource type="BoxMesh" id="r3"]
+size = Vector3(1.5, 1.9, 0.06)
+
+[sub_resource type="BoxMesh" id="r4"]
+size = Vector3(1.5, 0.08, 0.48)
+
+[sub_resource type="BoxMesh" id="r5"]
+size = Vector3(1.5, 0.08, 0.48)
+
+[sub_resource type="BoxMesh" id="r6"]
+size = Vector3(1.5, 0.08, 0.48)
+
+[sub_resource type="BoxMesh" id="r7"]
+size = Vector3(1.5, 0.08, 0.48)
+
+[sub_resource type="BoxMesh" id="r8"]
+size = Vector3(1.5, 0.08, 0.48)
+
+[sub_resource type="BoxMesh" id="r9"]
+size = Vector3(0.71, 1.78, 0.07)
+
+[sub_resource type="CylinderMesh" id="r10"]
+top_radius = 0.035
+bottom_radius = 0.035
+height = 0.07
+radial_segments = 12
+rings = 1
+
+[sub_resource type="BoxMesh" id="r11"]
+size = Vector3(0.71, 1.78, 0.07)
+
+[sub_resource type="CylinderMesh" id="r12"]
+top_radius = 0.035
+bottom_radius = 0.035
+height = 0.07
+radial_segments = 12
+rings = 1
+
+[sub_resource type="BoxMesh" id="r13"]
+size = Vector3(0.63, 0.05, 0.025)
+
+[sub_resource type="BoxMesh" id="r14"]
+size = Vector3(0.63, 0.05, 0.025)
+
+[sub_resource type="BoxMesh" id="r15"]
+size = Vector3(0.63, 0.05, 0.025)
+
+[sub_resource type="BoxMesh" id="r16"]
+size = Vector3(0.63, 0.05, 0.025)
+
+[sub_resource type="BoxShape3D" id="r17"]
+size = Vector3(1.5, 1.9, 0.48)
+
+[node name="prop_1_07" type="Node3D"]
+metadata/asset_id = "prop-1-07"
+metadata/display_name = "찬장"
+metadata/grid_obstacles = [[-0.75, -0.24, 1.5, 0.48]]
+metadata/origin = "ground center; entry +Z"
+
+[node name="Side-0.75" type="MeshInstance3D" parent="."]
+position = Vector3(-0.75, 0.95, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+
+[node name="Side0.75" type="MeshInstance3D" parent="."]
+position = Vector3(0.75, 0.95, 0)
+mesh = SubResource("r2")
+material_override = ExtResource("m1")
+
+[node name="Back" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.95, -0.24)
+mesh = SubResource("r3")
+material_override = ExtResource("m2")
+
+[node name="Shelf0.1" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.1, 0)
+mesh = SubResource("r4")
+material_override = ExtResource("m1")
+
+[node name="Shelf0.55" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.55, 0)
+mesh = SubResource("r5")
+material_override = ExtResource("m1")
+
+[node name="Shelf1.0" type="MeshInstance3D" parent="."]
+position = Vector3(0, 1, 0)
+mesh = SubResource("r6")
+material_override = ExtResource("m1")
+
+[node name="Shelf1.45" type="MeshInstance3D" parent="."]
+position = Vector3(0, 1.45, 0)
+mesh = SubResource("r7")
+material_override = ExtResource("m1")
+
+[node name="Shelf1.9" type="MeshInstance3D" parent="."]
+position = Vector3(0, 1.9, 0)
+mesh = SubResource("r8")
+material_override = ExtResource("m1")
+
+[node name="Door-0.375" type="MeshInstance3D" parent="."]
+position = Vector3(-0.375, 0.95, 0.27)
+mesh = SubResource("r9")
+material_override = ExtResource("m1")
+
+[node name="Pull-0.375" type="MeshInstance3D" parent="."]
+position = Vector3(-0.075, 1.05, 0.34)
+mesh = SubResource("r10")
+material_override = ExtResource("m3")
+rotation_degrees = Vector3(90, 0, 0)
+
+[node name="Door0.375" type="MeshInstance3D" parent="."]
+position = Vector3(0.375, 0.95, 0.27)
+mesh = SubResource("r11")
+material_override = ExtResource("m1")
+
+[node name="Pull0.375" type="MeshInstance3D" parent="."]
+position = Vector3(0.075, 1.05, 0.34)
+mesh = SubResource("r12")
+material_override = ExtResource("m3")
+rotation_degrees = Vector3(90, 0, 0)
+
+[node name="DoorTrim-0.3750.16" type="MeshInstance3D" parent="."]
+position = Vector3(-0.375, 0.16, 0.315)
+mesh = SubResource("r13")
+material_override = ExtResource("m2")
+
+[node name="DoorTrim-0.3751.74" type="MeshInstance3D" parent="."]
+position = Vector3(-0.375, 1.74, 0.315)
+mesh = SubResource("r14")
+material_override = ExtResource("m2")
+
+[node name="DoorTrim0.3750.16" type="MeshInstance3D" parent="."]
+position = Vector3(0.375, 0.16, 0.315)
+mesh = SubResource("r15")
+material_override = ExtResource("m2")
+
+[node name="DoorTrim0.3751.74" type="MeshInstance3D" parent="."]
+position = Vector3(0.375, 1.74, 0.315)
+mesh = SubResource("r16")
+material_override = ExtResource("m2")
+
+[node name="Body1" type="StaticBody3D" parent="."]
+position = Vector3(0, 0.95, 0)
+
+[node name="Shape" type="CollisionShape3D" parent="Body1"]
+shape = SubResource("r17")

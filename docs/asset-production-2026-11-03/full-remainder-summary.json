@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-03",
+  "baseline_count": 2412,
+  "existing_references": 205,
+  "appearance_boards": 214,
+  "first_pass_file_ids": 1993,
+  "newly_requested_ids_created": 1764,
+  "auxiliary_clips": 1,
+  "first_pass_file_missing": 0,
+  "final_art_approved": false,
+  "gameplay_integrated": false,
+  "motion_sheets": 98,
+  "motion_clips": 1563,
+  "motion_frame_references": 6252,
+  "cell_review_flags": 260,
+  "prior_external_drafts_recreated": 184,
+  "prior_external_checkpoint_restored": false,
+  "stages": {
+    "native_first_pass": 384,
+    "layout_blockout": 29,
+    "event_visual_prototype": 14,
+    "world_state_blockout": 4,
+    "motion_prototype": 1562
+  }
+}

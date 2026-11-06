@@ -1,0 +1,487 @@
+{
+	"count": 80,
+	"listening_review": false,
+	"passed": true,
+	"results": [
+		{
+			"duration": 0.5,
+			"id": "audio-0-01",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 0.5,
+			"id": "audio-0-02",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 0.5,
+			"id": "audio-0-03",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 0.5,
+			"id": "audio-0-04",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 0.5,
+			"id": "audio-0-05",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 0.5,
+			"id": "audio-0-06",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 0.5,
+			"id": "audio-0-07",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 0.5,
+			"id": "audio-0-08",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 0.5,
+			"id": "audio-0-09",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 0.5,
+			"id": "audio-0-10",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 0.5,
+			"id": "audio-0-11",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 0.5,
+			"id": "audio-0-12",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 0.5,
+			"id": "audio-0-13",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 0.5,
+			"id": "audio-0-14",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 0.5,
+			"id": "audio-0-15",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 0.5,
+			"id": "audio-0-16",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 1.2,
+			"id": "audio-0-17",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 1.2,
+			"id": "audio-0-18",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 1.2,
+			"id": "audio-0-19",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 1.2,
+			"id": "audio-0-20",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 1.2,
+			"id": "audio-0-21",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 1.2,
+			"id": "audio-0-22",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 1.2,
+			"id": "audio-0-23",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 1.2,
+			"id": "audio-0-24",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 1.2,
+			"id": "audio-0-25",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 1.2,
+			"id": "audio-0-26",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 0.5,
+			"id": "audio-0-27",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 0.5,
+			"id": "audio-0-28",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 0.5,
+			"id": "audio-0-29",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 0.5,
+			"id": "audio-0-30",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 0.5,
+			"id": "audio-0-31",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 0.5,
+			"id": "audio-0-32",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 0.5,
+			"id": "audio-0-33",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 0.5,
+			"id": "audio-0-34",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 0.5,
+			"id": "audio-0-35",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 0.5,
+			"id": "audio-0-36",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 0.5,
+			"id": "audio-0-37",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 1.2,
+			"id": "audio-0-38",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 1.2,
+			"id": "audio-0-39",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 1.2,
+			"id": "audio-0-40",
+			"loaded": true,
+			"loop_configured": false
+		},
+		{
+			"duration": 15.0,
+			"id": "audio-1-01",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 15.0,
+			"id": "audio-1-02",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 15.0,
+			"id": "audio-1-03",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 15.0,
+			"id": "audio-1-04",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 15.0,
+			"id": "audio-1-05",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 15.0,
+			"id": "audio-1-06",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 15.0,
+			"id": "audio-1-07",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 15.0,
+			"id": "audio-1-08",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 15.0,
+			"id": "audio-1-09",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 15.0,
+			"id": "audio-1-10",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 15.0,
+			"id": "audio-1-11",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 15.0,
+			"id": "audio-1-12",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 15.0,
+			"id": "audio-1-13",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 15.0,
+			"id": "audio-1-14",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 15.0,
+			"id": "audio-1-15",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 15.0,
+			"id": "audio-1-16",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 15.0,
+			"id": "audio-1-17",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 50.5263038548753,
+			"id": "audio-2-01",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 45.7142857142857,
+			"id": "audio-2-02",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 39.1836734693878,
+			"id": "audio-2-03",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 43.6363265306122,
+			"id": "audio-2-04",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 53.3333333333333,
+			"id": "audio-2-05",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 36.9230385487528,
+			"id": "audio-2-06",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 41.7390929705215,
+			"id": "audio-2-07",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 35.5555555555556,
+			"id": "audio-2-08",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 49.2307482993197,
+			"id": "audio-2-09",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 48.0,
+			"id": "audio-2-10",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 34.2857142857143,
+			"id": "audio-2-11",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 56.470566893424,
+			"id": "audio-2-12",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 54.8571428571429,
+			"id": "audio-2-13",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 60.0,
+			"id": "audio-2-14",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 28.235283446712,
+			"id": "audio-2-15",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 26.6666666666667,
+			"id": "audio-2-16",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 30.0,
+			"id": "audio-2-17",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 33.1034467120181,
+			"id": "audio-2-18",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 32.0,
+			"id": "audio-2-19",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 30.4761904761905,
+			"id": "audio-2-20",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 58.1818140589569,
+			"id": "audio-2-21",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 46.8292517006803,
+			"id": "audio-2-22",
+			"loaded": true,
+			"loop_configured": true
+		},
+		{
+			"duration": 51.8918820861678,
+			"id": "audio-2-23",
+			"loaded": true,
+			"loop_configured": true
+		}
+	]
+}

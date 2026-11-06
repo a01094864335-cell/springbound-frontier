@@ -1,0 +1,24 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/wood.tres" id="m1"]
+
+[ext_resource type="Script" path="res://assets/production/events/event_player.gd" id="script"]
+[sub_resource type="BoxMesh" id="r1"]
+size = Vector3(1.2,2.1,0.12)
+
+[node name="presentation_3_01" type="Node3D"]
+metadata/asset_id = "presentation-3-01"
+metadata/display_name = "문 개폐"
+metadata/grid_obstacles = []
+metadata/stage = "event_visual_prototype"
+script = ExtResource("script")
+metadata/duration = 2.4
+metadata/gameplay_effects = false
+
+[node name="DoorPivot" type="Node3D" parent="."]
+position = Vector3(-0.6,0,0)
+
+[node name="Door" type="MeshInstance3D" parent="DoorPivot"]
+position = Vector3(0.6,1.05,0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")

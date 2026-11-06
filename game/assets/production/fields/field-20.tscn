@@ -1,0 +1,264 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="m1"]
+albedo_color = Color(0.7607843137254902,0.796078431372549,0.8156862745098039,1)
+roughness = 0.95
+
+[sub_resource type="BoxMesh" id="b1"]
+size = Vector3(32,0.2,36)
+
+[sub_resource type="BoxShape3D" id="s1"]
+size = Vector3(32,0.2,36)
+
+[sub_resource type="StandardMaterial3D" id="m4"]
+albedo_color = Color(0.27058823529411763,0.3058823529411765,0.3137254901960784,1)
+roughness = 0.95
+
+[sub_resource type="BoxMesh" id="b4"]
+size = Vector3(8,2.2,12)
+
+[sub_resource type="BoxShape3D" id="s4"]
+size = Vector3(8,2.2,12)
+
+[sub_resource type="StandardMaterial3D" id="m7"]
+albedo_color = Color(0.27058823529411763,0.3058823529411765,0.3137254901960784,1)
+roughness = 0.95
+
+[sub_resource type="BoxMesh" id="b7"]
+size = Vector3(5,2.2,17)
+
+[sub_resource type="BoxShape3D" id="s7"]
+size = Vector3(5,2.2,17)
+
+[sub_resource type="StandardMaterial3D" id="m10"]
+albedo_color = Color(0.20392156862745098,0.24705882352941178,0.2627450980392157,1)
+roughness = 0.95
+
+[sub_resource type="BoxMesh" id="b10"]
+size = Vector3(1,2,38)
+
+[sub_resource type="BoxShape3D" id="s10"]
+size = Vector3(1,2,38)
+
+[sub_resource type="StandardMaterial3D" id="m13"]
+albedo_color = Color(0.20392156862745098,0.24705882352941178,0.2627450980392157,1)
+roughness = 0.95
+
+[sub_resource type="BoxMesh" id="b13"]
+size = Vector3(1,2,38)
+
+[sub_resource type="BoxShape3D" id="s13"]
+size = Vector3(1,2,38)
+
+[sub_resource type="StandardMaterial3D" id="m16"]
+albedo_color = Color(0.20392156862745098,0.24705882352941178,0.2627450980392157,1)
+roughness = 0.95
+
+[sub_resource type="BoxMesh" id="b16"]
+size = Vector3(13,2,1)
+
+[sub_resource type="BoxShape3D" id="s16"]
+size = Vector3(13,2,1)
+
+[sub_resource type="StandardMaterial3D" id="m19"]
+albedo_color = Color(0.20392156862745098,0.24705882352941178,0.2627450980392157,1)
+roughness = 0.95
+
+[sub_resource type="BoxMesh" id="b19"]
+size = Vector3(13,2,1)
+
+[sub_resource type="BoxShape3D" id="s19"]
+size = Vector3(13,2,1)
+
+[sub_resource type="StandardMaterial3D" id="m22"]
+albedo_color = Color(0.20392156862745098,0.24705882352941178,0.2627450980392157,1)
+roughness = 0.95
+
+[sub_resource type="BoxMesh" id="b22"]
+size = Vector3(13,2,1)
+
+[sub_resource type="BoxShape3D" id="s22"]
+size = Vector3(13,2,1)
+
+[sub_resource type="StandardMaterial3D" id="m25"]
+albedo_color = Color(0.20392156862745098,0.24705882352941178,0.2627450980392157,1)
+roughness = 0.95
+
+[sub_resource type="BoxMesh" id="b25"]
+size = Vector3(13,2,1)
+
+[sub_resource type="BoxShape3D" id="s25"]
+size = Vector3(13,2,1)
+
+[sub_resource type="StandardMaterial3D" id="m28"]
+albedo_color = Color(0.6784313725490196,0.6078431372549019,0.4627450980392157,1)
+roughness = 0.95
+
+[sub_resource type="BoxMesh" id="b28"]
+size = Vector3(2.8,0.23,14.8)
+
+[sub_resource type="StandardMaterial3D" id="m30"]
+albedo_color = Color(0.6784313725490196,0.6078431372549019,0.4627450980392157,1)
+roughness = 0.95
+
+[sub_resource type="BoxMesh" id="b30"]
+size = Vector3(7.8,0.23,2.8)
+
+[sub_resource type="StandardMaterial3D" id="m32"]
+albedo_color = Color(0.6784313725490196,0.6078431372549019,0.4627450980392157,1)
+roughness = 0.95
+
+[sub_resource type="BoxMesh" id="b32"]
+size = Vector3(2.8,0.23,14.8)
+
+[sub_resource type="StandardMaterial3D" id="m34"]
+albedo_color = Color(0.6784313725490196,0.6078431372549019,0.4627450980392157,1)
+roughness = 0.95
+
+[sub_resource type="BoxMesh" id="b34"]
+size = Vector3(7.8,0.23,2.8)
+
+[sub_resource type="StandardMaterial3D" id="m36"]
+albedo_color = Color(0.6784313725490196,0.6078431372549019,0.4627450980392157,1)
+roughness = 0.95
+
+[sub_resource type="BoxMesh" id="b36"]
+size = Vector3(2.8,0.23,12.8)
+
+[node name="field_20" type="Node3D"]
+metadata/asset_id = "field-20"
+metadata/display_name = "북방 접근로"
+metadata/stage = "layout_blockout"
+
+[node name="Ground" type="MeshInstance3D" parent="."]
+position = Vector3(0.0,0.1,0.0)
+mesh = SubResource("b1")
+material_override = SubResource("m1")
+
+[node name="GroundBody" type="StaticBody3D" parent="."]
+position = Vector3(0.0,0.1,0.0)
+
+[node name="Shape" type="CollisionShape3D" parent="GroundBody"]
+shape = SubResource("s1")
+
+[node name="Obstacle0" type="MeshInstance3D" parent="."]
+position = Vector3(-11.0,1.1,-8.0)
+mesh = SubResource("b4")
+material_override = SubResource("m4")
+
+[node name="Obstacle0Body" type="StaticBody3D" parent="."]
+position = Vector3(-11.0,1.1,-8.0)
+
+[node name="Shape" type="CollisionShape3D" parent="Obstacle0Body"]
+shape = SubResource("s4")
+
+[node name="Obstacle1" type="MeshInstance3D" parent="."]
+position = Vector3(12.5,1.1,6.5)
+mesh = SubResource("b7")
+material_override = SubResource("m7")
+
+[node name="Obstacle1Body" type="StaticBody3D" parent="."]
+position = Vector3(12.5,1.1,6.5)
+
+[node name="Shape" type="CollisionShape3D" parent="Obstacle1Body"]
+shape = SubResource("s7")
+
+[node name="Boundary0" type="MeshInstance3D" parent="."]
+position = Vector3(-16.5,1.0,0.0)
+mesh = SubResource("b10")
+material_override = SubResource("m10")
+
+[node name="Boundary0Body" type="StaticBody3D" parent="."]
+position = Vector3(-16.5,1.0,0.0)
+
+[node name="Shape" type="CollisionShape3D" parent="Boundary0Body"]
+shape = SubResource("s10")
+
+[node name="Boundary1" type="MeshInstance3D" parent="."]
+position = Vector3(16.5,1.0,0.0)
+mesh = SubResource("b13")
+material_override = SubResource("m13")
+
+[node name="Boundary1Body" type="StaticBody3D" parent="."]
+position = Vector3(16.5,1.0,0.0)
+
+[node name="Shape" type="CollisionShape3D" parent="Boundary1Body"]
+shape = SubResource("s13")
+
+[node name="EntryLeft" type="MeshInstance3D" parent="."]
+position = Vector3(-9.5,1.0,18.5)
+mesh = SubResource("b16")
+material_override = SubResource("m16")
+
+[node name="EntryLeftBody" type="StaticBody3D" parent="."]
+position = Vector3(-9.5,1.0,18.5)
+
+[node name="Shape" type="CollisionShape3D" parent="EntryLeftBody"]
+shape = SubResource("s16")
+
+[node name="EntryRight" type="MeshInstance3D" parent="."]
+position = Vector3(9.5,1.0,18.5)
+mesh = SubResource("b19")
+material_override = SubResource("m19")
+
+[node name="EntryRightBody" type="StaticBody3D" parent="."]
+position = Vector3(9.5,1.0,18.5)
+
+[node name="Shape" type="CollisionShape3D" parent="EntryRightBody"]
+shape = SubResource("s19")
+
+[node name="ExitLeft" type="MeshInstance3D" parent="."]
+position = Vector3(-9.5,1.0,-18.5)
+mesh = SubResource("b22")
+material_override = SubResource("m22")
+
+[node name="ExitLeftBody" type="StaticBody3D" parent="."]
+position = Vector3(-9.5,1.0,-18.5)
+
+[node name="Shape" type="CollisionShape3D" parent="ExitLeftBody"]
+shape = SubResource("s22")
+
+[node name="ExitRight" type="MeshInstance3D" parent="."]
+position = Vector3(9.5,1.0,-18.5)
+mesh = SubResource("b25")
+material_override = SubResource("m25")
+
+[node name="ExitRightBody" type="StaticBody3D" parent="."]
+position = Vector3(9.5,1.0,-18.5)
+
+[node name="Shape" type="CollisionShape3D" parent="ExitRightBody"]
+shape = SubResource("s25")
+
+[node name="Route0" type="MeshInstance3D" parent="."]
+position = Vector3(0.0,0.115,11.0)
+mesh = SubResource("b28")
+material_override = SubResource("m28")
+
+[node name="Route1" type="MeshInstance3D" parent="."]
+position = Vector3(2.5,0.115,5.0)
+mesh = SubResource("b30")
+material_override = SubResource("m30")
+
+[node name="Route2" type="MeshInstance3D" parent="."]
+position = Vector3(5.0,0.115,-1.0)
+mesh = SubResource("b32")
+material_override = SubResource("m32")
+
+[node name="Route3" type="MeshInstance3D" parent="."]
+position = Vector3(2.5,0.115,-7.0)
+mesh = SubResource("b34")
+material_override = SubResource("m34")
+
+[node name="Route4" type="MeshInstance3D" parent="."]
+position = Vector3(0.0,0.115,-11.999999999999998)
+mesh = SubResource("b36")
+material_override = SubResource("m36")
+
+[node name="Entry" type="Marker3D" parent="."]
+position = Vector3(0,0.3,17)
+
+[node name="Exit" type="Marker3D" parent="."]
+position = Vector3(0,0.3,-17)
+
+[node name="Objective" type="Marker3D" parent="."]
+position = Vector3(5,0.3,-7)

@@ -1,0 +1,328 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/wood.tres" id="m1"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/iron.tres" id="m2"]
+
+[sub_resource type="BoxMesh" id="r1"]
+size = Vector3(1, 0.12, 1)
+
+[sub_resource type="BoxMesh" id="r2"]
+size = Vector3(0.1, 0.22, 1)
+
+[sub_resource type="BoxMesh" id="r3"]
+size = Vector3(1, 0.22, 0.1)
+
+[sub_resource type="BoxMesh" id="r4"]
+size = Vector3(0.1, 0.22, 1)
+
+[sub_resource type="BoxMesh" id="r5"]
+size = Vector3(1, 0.22, 0.1)
+
+[sub_resource type="BoxMesh" id="r6"]
+size = Vector3(0.1, 0.22, 1)
+
+[sub_resource type="BoxMesh" id="r7"]
+size = Vector3(1, 0.22, 0.1)
+
+[sub_resource type="BoxMesh" id="r8"]
+size = Vector3(0.1, 0.22, 1)
+
+[sub_resource type="BoxMesh" id="r9"]
+size = Vector3(1, 0.22, 0.1)
+
+[sub_resource type="BoxMesh" id="r10"]
+size = Vector3(0.1, 0.22, 1)
+
+[sub_resource type="BoxMesh" id="r11"]
+size = Vector3(1, 0.22, 0.1)
+
+[sub_resource type="BoxMesh" id="r12"]
+size = Vector3(0.1, 0.22, 1)
+
+[sub_resource type="BoxMesh" id="r13"]
+size = Vector3(1, 0.22, 0.1)
+
+[sub_resource type="BoxMesh" id="r14"]
+size = Vector3(1.04, 0.1, 1.04)
+
+[sub_resource type="BoxMesh" id="r15"]
+size = Vector3(0.08, 1, 1.02)
+
+[sub_resource type="BoxMesh" id="r16"]
+size = Vector3(0.08, 1, 1.02)
+
+[sub_resource type="BoxMesh" id="r17"]
+size = Vector3(1, 0.12, 1)
+
+[sub_resource type="BoxMesh" id="r18"]
+size = Vector3(0.1, 0.22, 1)
+
+[sub_resource type="BoxMesh" id="r19"]
+size = Vector3(1, 0.22, 0.1)
+
+[sub_resource type="BoxMesh" id="r20"]
+size = Vector3(0.1, 0.22, 1)
+
+[sub_resource type="BoxMesh" id="r21"]
+size = Vector3(1, 0.22, 0.1)
+
+[sub_resource type="BoxMesh" id="r22"]
+size = Vector3(0.1, 0.22, 1)
+
+[sub_resource type="BoxMesh" id="r23"]
+size = Vector3(1, 0.22, 0.1)
+
+[sub_resource type="BoxMesh" id="r24"]
+size = Vector3(0.1, 0.22, 1)
+
+[sub_resource type="BoxMesh" id="r25"]
+size = Vector3(1, 0.22, 0.1)
+
+[sub_resource type="BoxMesh" id="r26"]
+size = Vector3(0.1, 0.22, 1)
+
+[sub_resource type="BoxMesh" id="r27"]
+size = Vector3(1, 0.22, 0.1)
+
+[sub_resource type="BoxMesh" id="r28"]
+size = Vector3(0.1, 0.22, 1)
+
+[sub_resource type="BoxMesh" id="r29"]
+size = Vector3(1, 0.22, 0.1)
+
+[sub_resource type="BoxMesh" id="r30"]
+size = Vector3(1.04, 0.1, 1.04)
+
+[sub_resource type="BoxMesh" id="r31"]
+size = Vector3(0.08, 1, 1.02)
+
+[sub_resource type="BoxMesh" id="r32"]
+size = Vector3(0.08, 1, 1.02)
+
+[sub_resource type="CylinderMesh" id="r33"]
+top_radius = 0.36
+bottom_radius = 0.42
+height = 1
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="r34"]
+top_radius = 0.39
+bottom_radius = 0.435
+height = 0.08
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="r35"]
+top_radius = 0.39
+bottom_radius = 0.435
+height = 0.08
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="r36"]
+top_radius = 0.35
+bottom_radius = 0.35
+height = 0.04
+radial_segments = 12
+rings = 1
+
+[sub_resource type="BoxShape3D" id="r37"]
+size = Vector3(2.3, 1.1, 2.3)
+
+[node name="prop_5_08" type="Node3D"]
+metadata/asset_id = "prop-5-08"
+metadata/display_name = "화물 더미"
+metadata/grid_obstacles = [[-1.15, -1.15, 2.3, 2.3]]
+metadata/stage = "native_first_pass"
+metadata/origin = "ground center"
+metadata/bounds = [2.3, 1.1, 2.3]
+metadata/recreated_from = "unavailable external draft; newly authored in this environment"
+metadata/final_art_approved = false
+
+[node name="ABottom" type="MeshInstance3D" parent="."]
+position = Vector3(-0.55, 0.06, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+
+[node name="AWallX0-1" type="MeshInstance3D" parent="."]
+position = Vector3(-1, 0.2, 0)
+mesh = SubResource("r2")
+material_override = ExtResource("m1")
+
+[node name="AWallZ0-1" type="MeshInstance3D" parent="."]
+position = Vector3(-0.55, 0.2, -0.45)
+mesh = SubResource("r3")
+material_override = ExtResource("m1")
+
+[node name="AWallX01" type="MeshInstance3D" parent="."]
+position = Vector3(-0.1, 0.2, 0)
+mesh = SubResource("r4")
+material_override = ExtResource("m1")
+
+[node name="AWallZ01" type="MeshInstance3D" parent="."]
+position = Vector3(-0.55, 0.2, 0.45)
+mesh = SubResource("r5")
+material_override = ExtResource("m1")
+
+[node name="AWallX1-1" type="MeshInstance3D" parent="."]
+position = Vector3(-1, 0.46, 0)
+mesh = SubResource("r6")
+material_override = ExtResource("m1")
+
+[node name="AWallZ1-1" type="MeshInstance3D" parent="."]
+position = Vector3(-0.55, 0.46, -0.45)
+mesh = SubResource("r7")
+material_override = ExtResource("m1")
+
+[node name="AWallX11" type="MeshInstance3D" parent="."]
+position = Vector3(-0.1, 0.46, 0)
+mesh = SubResource("r8")
+material_override = ExtResource("m1")
+
+[node name="AWallZ11" type="MeshInstance3D" parent="."]
+position = Vector3(-0.55, 0.46, 0.45)
+mesh = SubResource("r9")
+material_override = ExtResource("m1")
+
+[node name="AWallX2-1" type="MeshInstance3D" parent="."]
+position = Vector3(-1, 0.72, 0)
+mesh = SubResource("r10")
+material_override = ExtResource("m1")
+
+[node name="AWallZ2-1" type="MeshInstance3D" parent="."]
+position = Vector3(-0.55, 0.72, -0.45)
+mesh = SubResource("r11")
+material_override = ExtResource("m1")
+
+[node name="AWallX21" type="MeshInstance3D" parent="."]
+position = Vector3(-0.1, 0.72, 0)
+mesh = SubResource("r12")
+material_override = ExtResource("m1")
+
+[node name="AWallZ21" type="MeshInstance3D" parent="."]
+position = Vector3(-0.55, 0.72, 0.45)
+mesh = SubResource("r13")
+material_override = ExtResource("m1")
+
+[node name="ALid" type="MeshInstance3D" parent="."]
+position = Vector3(-0.55, 0.9, 0)
+mesh = SubResource("r14")
+material_override = ExtResource("m1")
+
+[node name="ABand-1" type="MeshInstance3D" parent="."]
+position = Vector3(-0.85, 0.5, 0)
+mesh = SubResource("r15")
+material_override = ExtResource("m2")
+
+[node name="ABand1" type="MeshInstance3D" parent="."]
+position = Vector3(-0.25, 0.5, 0)
+mesh = SubResource("r16")
+material_override = ExtResource("m2")
+
+[node name="BBottom" type="MeshInstance3D" parent="."]
+position = Vector3(0.55, 0.06, 0)
+mesh = SubResource("r17")
+material_override = ExtResource("m1")
+
+[node name="BWallX0-1" type="MeshInstance3D" parent="."]
+position = Vector3(0.1, 0.2, 0)
+mesh = SubResource("r18")
+material_override = ExtResource("m1")
+
+[node name="BWallZ0-1" type="MeshInstance3D" parent="."]
+position = Vector3(0.55, 0.2, -0.45)
+mesh = SubResource("r19")
+material_override = ExtResource("m1")
+
+[node name="BWallX01" type="MeshInstance3D" parent="."]
+position = Vector3(1, 0.2, 0)
+mesh = SubResource("r20")
+material_override = ExtResource("m1")
+
+[node name="BWallZ01" type="MeshInstance3D" parent="."]
+position = Vector3(0.55, 0.2, 0.45)
+mesh = SubResource("r21")
+material_override = ExtResource("m1")
+
+[node name="BWallX1-1" type="MeshInstance3D" parent="."]
+position = Vector3(0.1, 0.46, 0)
+mesh = SubResource("r22")
+material_override = ExtResource("m1")
+
+[node name="BWallZ1-1" type="MeshInstance3D" parent="."]
+position = Vector3(0.55, 0.46, -0.45)
+mesh = SubResource("r23")
+material_override = ExtResource("m1")
+
+[node name="BWallX11" type="MeshInstance3D" parent="."]
+position = Vector3(1, 0.46, 0)
+mesh = SubResource("r24")
+material_override = ExtResource("m1")
+
+[node name="BWallZ11" type="MeshInstance3D" parent="."]
+position = Vector3(0.55, 0.46, 0.45)
+mesh = SubResource("r25")
+material_override = ExtResource("m1")
+
+[node name="BWallX2-1" type="MeshInstance3D" parent="."]
+position = Vector3(0.1, 0.72, 0)
+mesh = SubResource("r26")
+material_override = ExtResource("m1")
+
+[node name="BWallZ2-1" type="MeshInstance3D" parent="."]
+position = Vector3(0.55, 0.72, -0.45)
+mesh = SubResource("r27")
+material_override = ExtResource("m1")
+
+[node name="BWallX21" type="MeshInstance3D" parent="."]
+position = Vector3(1, 0.72, 0)
+mesh = SubResource("r28")
+material_override = ExtResource("m1")
+
+[node name="BWallZ21" type="MeshInstance3D" parent="."]
+position = Vector3(0.55, 0.72, 0.45)
+mesh = SubResource("r29")
+material_override = ExtResource("m1")
+
+[node name="BLid" type="MeshInstance3D" parent="."]
+position = Vector3(0.55, 0.9, 0)
+mesh = SubResource("r30")
+material_override = ExtResource("m1")
+
+[node name="BBand-1" type="MeshInstance3D" parent="."]
+position = Vector3(0.25, 0.5, 0)
+mesh = SubResource("r31")
+material_override = ExtResource("m2")
+
+[node name="BBand1" type="MeshInstance3D" parent="."]
+position = Vector3(0.85, 0.5, 0)
+mesh = SubResource("r32")
+material_override = ExtResource("m2")
+
+[node name="CBody" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.5, 1)
+mesh = SubResource("r33")
+material_override = ExtResource("m1")
+
+[node name="CBand0.14" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.14, 1)
+mesh = SubResource("r34")
+material_override = ExtResource("m2")
+
+[node name="CBand0.85" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.85, 1)
+mesh = SubResource("r35")
+material_override = ExtResource("m2")
+
+[node name="CTop" type="MeshInstance3D" parent="."]
+position = Vector3(0, 1.01, 1)
+mesh = SubResource("r36")
+material_override = ExtResource("m1")
+
+[node name="Body1" type="StaticBody3D" parent="."]
+position = Vector3(0, 0.55, 0)
+
+[node name="Shape" type="CollisionShape3D" parent="Body1"]
+shape = SubResource("r37")

@@ -1,0 +1,166 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/wood.tres" id="m1"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/iron.tres" id="m2"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/linen.tres" id="m3"]
+
+[sub_resource type="BoxMesh" id="r1"]
+size = Vector3(0.65, 0.12, 0.65)
+
+[sub_resource type="BoxMesh" id="r2"]
+size = Vector3(0.1, 0.22, 0.65)
+
+[sub_resource type="BoxMesh" id="r3"]
+size = Vector3(0.65, 0.22, 0.1)
+
+[sub_resource type="BoxMesh" id="r4"]
+size = Vector3(0.1, 0.22, 0.65)
+
+[sub_resource type="BoxMesh" id="r5"]
+size = Vector3(0.65, 0.22, 0.1)
+
+[sub_resource type="BoxMesh" id="r6"]
+size = Vector3(0.1, 0.22, 0.65)
+
+[sub_resource type="BoxMesh" id="r7"]
+size = Vector3(0.65, 0.22, 0.1)
+
+[sub_resource type="BoxMesh" id="r8"]
+size = Vector3(0.1, 0.22, 0.65)
+
+[sub_resource type="BoxMesh" id="r9"]
+size = Vector3(0.65, 0.22, 0.1)
+
+[sub_resource type="BoxMesh" id="r10"]
+size = Vector3(0.1, 0.22, 0.65)
+
+[sub_resource type="BoxMesh" id="r11"]
+size = Vector3(0.65, 0.22, 0.1)
+
+[sub_resource type="BoxMesh" id="r12"]
+size = Vector3(0.1, 0.22, 0.65)
+
+[sub_resource type="BoxMesh" id="r13"]
+size = Vector3(0.65, 0.22, 0.1)
+
+[sub_resource type="BoxMesh" id="r14"]
+size = Vector3(0.69, 0.1, 0.69)
+
+[sub_resource type="BoxMesh" id="r15"]
+size = Vector3(0.052, 1, 0.67)
+
+[sub_resource type="BoxMesh" id="r16"]
+size = Vector3(0.052, 1, 0.67)
+
+[sub_resource type="SphereMesh" id="r17"]
+radius = 0.3
+height = 0.6
+radial_segments = 12
+rings = 6
+
+[sub_resource type="BoxShape3D" id="r18"]
+size = Vector3(1.5, 1, 1.2)
+
+[node name="prop_4_04" type="Node3D"]
+metadata/asset_id = "prop-4-04"
+metadata/display_name = "피난민 짐"
+metadata/grid_obstacles = [[-0.75, -0.6, 1.5, 1.2]]
+metadata/stage = "native_first_pass"
+metadata/origin = "ground center"
+metadata/bounds = [1.5, 1, 1.2]
+metadata/recreated_from = "unavailable external draft; newly authored in this environment"
+metadata/final_art_approved = false
+
+[node name="LuggageBottom" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.06, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+
+[node name="LuggageWallX0-1" type="MeshInstance3D" parent="."]
+position = Vector3(-0.275, 0.2, 0)
+mesh = SubResource("r2")
+material_override = ExtResource("m1")
+
+[node name="LuggageWallZ0-1" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.2, -0.275)
+mesh = SubResource("r3")
+material_override = ExtResource("m1")
+
+[node name="LuggageWallX01" type="MeshInstance3D" parent="."]
+position = Vector3(0.275, 0.2, 0)
+mesh = SubResource("r4")
+material_override = ExtResource("m1")
+
+[node name="LuggageWallZ01" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.2, 0.275)
+mesh = SubResource("r5")
+material_override = ExtResource("m1")
+
+[node name="LuggageWallX1-1" type="MeshInstance3D" parent="."]
+position = Vector3(-0.275, 0.46, 0)
+mesh = SubResource("r6")
+material_override = ExtResource("m1")
+
+[node name="LuggageWallZ1-1" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.46, -0.275)
+mesh = SubResource("r7")
+material_override = ExtResource("m1")
+
+[node name="LuggageWallX11" type="MeshInstance3D" parent="."]
+position = Vector3(0.275, 0.46, 0)
+mesh = SubResource("r8")
+material_override = ExtResource("m1")
+
+[node name="LuggageWallZ11" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.46, 0.275)
+mesh = SubResource("r9")
+material_override = ExtResource("m1")
+
+[node name="LuggageWallX2-1" type="MeshInstance3D" parent="."]
+position = Vector3(-0.275, 0.72, 0)
+mesh = SubResource("r10")
+material_override = ExtResource("m1")
+
+[node name="LuggageWallZ2-1" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.72, -0.275)
+mesh = SubResource("r11")
+material_override = ExtResource("m1")
+
+[node name="LuggageWallX21" type="MeshInstance3D" parent="."]
+position = Vector3(0.275, 0.72, 0)
+mesh = SubResource("r12")
+material_override = ExtResource("m1")
+
+[node name="LuggageWallZ21" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.72, 0.275)
+mesh = SubResource("r13")
+material_override = ExtResource("m1")
+
+[node name="LuggageLid" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.9, 0)
+mesh = SubResource("r14")
+material_override = ExtResource("m1")
+
+[node name="LuggageBand-1" type="MeshInstance3D" parent="."]
+position = Vector3(-0.195, 0.5, 0)
+mesh = SubResource("r15")
+material_override = ExtResource("m2")
+
+[node name="LuggageBand1" type="MeshInstance3D" parent="."]
+position = Vector3(0.195, 0.5, 0)
+mesh = SubResource("r16")
+material_override = ExtResource("m2")
+
+[node name="Bundle" type="MeshInstance3D" parent="."]
+position = Vector3(0.5, 0.25, 0.3)
+mesh = SubResource("r17")
+material_override = ExtResource("m3")
+scale = Vector3(1, 1, 1)
+
+[node name="Body1" type="StaticBody3D" parent="."]
+position = Vector3(0, 0.5, 0)
+
+[node name="Shape" type="CollisionShape3D" parent="Body1"]
+shape = SubResource("r18")

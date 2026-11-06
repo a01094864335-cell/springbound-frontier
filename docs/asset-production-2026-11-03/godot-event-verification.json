@@ -1,0 +1,97 @@
+{
+	"count": 18,
+	"failures": [],
+	"passed": true,
+	"results": [
+		{
+			"id": "presentation-3-01",
+			"loaded": true,
+			"skip_once": true
+		},
+		{
+			"id": "presentation-3-02",
+			"loaded": true,
+			"skip_once": true
+		},
+		{
+			"id": "presentation-3-03",
+			"loaded": true,
+			"skip_once": true
+		},
+		{
+			"id": "presentation-3-04",
+			"loaded": true,
+			"skip_once": true
+		},
+		{
+			"id": "presentation-3-05",
+			"loaded": true,
+			"skip_once": true
+		},
+		{
+			"id": "presentation-3-06",
+			"loaded": true,
+			"skip_once": true
+		},
+		{
+			"id": "presentation-3-07",
+			"loaded": true,
+			"skip_once": true
+		},
+		{
+			"id": "presentation-3-08",
+			"loaded": true,
+			"skip_once": true
+		},
+		{
+			"id": "presentation-3-09",
+			"loaded": true,
+			"skip_once": true
+		},
+		{
+			"id": "presentation-3-10",
+			"loaded": true,
+			"skip_once": true
+		},
+		{
+			"id": "presentation-3-11",
+			"loaded": true,
+			"skip_once": true
+		},
+		{
+			"id": "presentation-3-12",
+			"loaded": true,
+			"skip_once": true
+		},
+		{
+			"id": "presentation-3-13",
+			"loaded": true,
+			"skip_once": true
+		},
+		{
+			"id": "presentation-3-14",
+			"loaded": true,
+			"skip_once": true
+		},
+		{
+			"id": "world-state-1",
+			"lane_clear": true,
+			"loaded": true
+		},
+		{
+			"id": "world-state-2",
+			"lane_clear": true,
+			"loaded": true
+		},
+		{
+			"id": "world-state-3",
+			"lane_clear": true,
+			"loaded": true
+		},
+		{
+			"id": "world-state-4",
+			"lane_clear": true,
+			"loaded": true
+		}
+	]
+}

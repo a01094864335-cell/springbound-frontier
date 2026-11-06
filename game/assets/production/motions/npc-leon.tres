@@ -1,0 +1,322 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/production/motions/npc-leon.png" id="atlas"]
+
+[sub_resource type="AtlasTexture" id="frame_0"]
+atlas = ExtResource("atlas")
+region = Rect2(0.000000, 0.000000, 167.000000, 155.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_1"]
+atlas = ExtResource("atlas")
+region = Rect2(167.000000, 0.000000, 158.000000, 155.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_2"]
+atlas = ExtResource("atlas")
+region = Rect2(325.000000, 0.000000, 157.000000, 155.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_3"]
+atlas = ExtResource("atlas")
+region = Rect2(482.000000, 0.000000, 153.000000, 155.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_4"]
+atlas = ExtResource("atlas")
+region = Rect2(635.000000, 0.000000, 151.000000, 155.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_5"]
+atlas = ExtResource("atlas")
+region = Rect2(786.000000, 0.000000, 160.000000, 155.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_6"]
+atlas = ExtResource("atlas")
+region = Rect2(946.000000, 0.000000, 161.000000, 155.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_7"]
+atlas = ExtResource("atlas")
+region = Rect2(1107.000000, 0.000000, 153.000000, 155.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_8"]
+atlas = ExtResource("atlas")
+region = Rect2(0.000000, 155.000000, 167.000000, 156.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_9"]
+atlas = ExtResource("atlas")
+region = Rect2(167.000000, 155.000000, 158.000000, 156.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_10"]
+atlas = ExtResource("atlas")
+region = Rect2(325.000000, 155.000000, 157.000000, 156.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_11"]
+atlas = ExtResource("atlas")
+region = Rect2(482.000000, 155.000000, 153.000000, 156.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_12"]
+atlas = ExtResource("atlas")
+region = Rect2(635.000000, 155.000000, 151.000000, 156.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_13"]
+atlas = ExtResource("atlas")
+region = Rect2(786.000000, 155.000000, 160.000000, 156.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_14"]
+atlas = ExtResource("atlas")
+region = Rect2(946.000000, 155.000000, 161.000000, 156.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_15"]
+atlas = ExtResource("atlas")
+region = Rect2(1107.000000, 155.000000, 153.000000, 156.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_16"]
+atlas = ExtResource("atlas")
+region = Rect2(0.000000, 311.000000, 167.000000, 155.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_17"]
+atlas = ExtResource("atlas")
+region = Rect2(167.000000, 311.000000, 158.000000, 155.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_18"]
+atlas = ExtResource("atlas")
+region = Rect2(325.000000, 311.000000, 157.000000, 155.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_19"]
+atlas = ExtResource("atlas")
+region = Rect2(482.000000, 311.000000, 153.000000, 155.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_20"]
+atlas = ExtResource("atlas")
+region = Rect2(635.000000, 311.000000, 151.000000, 155.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_21"]
+atlas = ExtResource("atlas")
+region = Rect2(786.000000, 311.000000, 160.000000, 155.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_22"]
+atlas = ExtResource("atlas")
+region = Rect2(946.000000, 311.000000, 161.000000, 155.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_23"]
+atlas = ExtResource("atlas")
+region = Rect2(1107.000000, 311.000000, 153.000000, 155.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_24"]
+atlas = ExtResource("atlas")
+region = Rect2(0.000000, 466.000000, 167.000000, 155.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_25"]
+atlas = ExtResource("atlas")
+region = Rect2(167.000000, 466.000000, 158.000000, 155.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_26"]
+atlas = ExtResource("atlas")
+region = Rect2(325.000000, 466.000000, 157.000000, 155.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_27"]
+atlas = ExtResource("atlas")
+region = Rect2(482.000000, 466.000000, 153.000000, 155.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_28"]
+atlas = ExtResource("atlas")
+region = Rect2(635.000000, 466.000000, 151.000000, 155.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_29"]
+atlas = ExtResource("atlas")
+region = Rect2(786.000000, 466.000000, 160.000000, 155.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_30"]
+atlas = ExtResource("atlas")
+region = Rect2(946.000000, 466.000000, 161.000000, 155.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_31"]
+atlas = ExtResource("atlas")
+region = Rect2(1107.000000, 466.000000, 153.000000, 155.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_32"]
+atlas = ExtResource("atlas")
+region = Rect2(0.000000, 621.000000, 167.000000, 149.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_33"]
+atlas = ExtResource("atlas")
+region = Rect2(167.000000, 621.000000, 158.000000, 149.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_34"]
+atlas = ExtResource("atlas")
+region = Rect2(325.000000, 621.000000, 157.000000, 149.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_35"]
+atlas = ExtResource("atlas")
+region = Rect2(482.000000, 621.000000, 153.000000, 149.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_36"]
+atlas = ExtResource("atlas")
+region = Rect2(635.000000, 621.000000, 151.000000, 149.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_37"]
+atlas = ExtResource("atlas")
+region = Rect2(786.000000, 621.000000, 160.000000, 149.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_38"]
+atlas = ExtResource("atlas")
+region = Rect2(946.000000, 621.000000, 161.000000, 149.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_39"]
+atlas = ExtResource("atlas")
+region = Rect2(1107.000000, 621.000000, 153.000000, 149.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_40"]
+atlas = ExtResource("atlas")
+region = Rect2(0.000000, 770.000000, 167.000000, 151.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_41"]
+atlas = ExtResource("atlas")
+region = Rect2(167.000000, 770.000000, 158.000000, 151.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_42"]
+atlas = ExtResource("atlas")
+region = Rect2(325.000000, 770.000000, 157.000000, 151.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_43"]
+atlas = ExtResource("atlas")
+region = Rect2(482.000000, 770.000000, 153.000000, 151.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_44"]
+atlas = ExtResource("atlas")
+region = Rect2(635.000000, 770.000000, 151.000000, 151.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_45"]
+atlas = ExtResource("atlas")
+region = Rect2(786.000000, 770.000000, 160.000000, 151.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_46"]
+atlas = ExtResource("atlas")
+region = Rect2(946.000000, 770.000000, 161.000000, 151.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_47"]
+atlas = ExtResource("atlas")
+region = Rect2(1107.000000, 770.000000, 153.000000, 151.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_48"]
+atlas = ExtResource("atlas")
+region = Rect2(0.000000, 921.000000, 167.000000, 152.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_49"]
+atlas = ExtResource("atlas")
+region = Rect2(167.000000, 921.000000, 158.000000, 152.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_50"]
+atlas = ExtResource("atlas")
+region = Rect2(325.000000, 921.000000, 157.000000, 152.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_51"]
+atlas = ExtResource("atlas")
+region = Rect2(482.000000, 921.000000, 153.000000, 152.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_52"]
+atlas = ExtResource("atlas")
+region = Rect2(635.000000, 921.000000, 151.000000, 152.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_53"]
+atlas = ExtResource("atlas")
+region = Rect2(786.000000, 921.000000, 160.000000, 152.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_54"]
+atlas = ExtResource("atlas")
+region = Rect2(946.000000, 921.000000, 161.000000, 152.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_55"]
+atlas = ExtResource("atlas")
+region = Rect2(1107.000000, 921.000000, 153.000000, 152.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_56"]
+atlas = ExtResource("atlas")
+region = Rect2(0.000000, 1073.000000, 167.000000, 176.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_57"]
+atlas = ExtResource("atlas")
+region = Rect2(167.000000, 1073.000000, 158.000000, 176.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_58"]
+atlas = ExtResource("atlas")
+region = Rect2(325.000000, 1073.000000, 157.000000, 176.000000)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="frame_59"]
+atlas = ExtResource("atlas")
+region = Rect2(482.000000, 1073.000000, 153.000000, 176.000000)
+filter_clip = true
+
+[resource]
+animations = [
+{"frames": [{"duration": 1.0, "texture": SubResource("frame_0")}, {"duration": 1.0, "texture": SubResource("frame_1")}, {"duration": 1.0, "texture": SubResource("frame_2")}, {"duration": 1.0, "texture": SubResource("frame_3")}], "loop": true, "name": &"motion-npc-leon-0-0", "speed": 6.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("frame_4")}, {"duration": 1.0, "texture": SubResource("frame_5")}, {"duration": 1.0, "texture": SubResource("frame_6")}, {"duration": 1.0, "texture": SubResource("frame_7")}], "loop": true, "name": &"motion-npc-leon-0-1", "speed": 6.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("frame_8")}, {"duration": 1.0, "texture": SubResource("frame_9")}, {"duration": 1.0, "texture": SubResource("frame_10")}, {"duration": 1.0, "texture": SubResource("frame_11")}], "loop": true, "name": &"motion-npc-leon-0-2", "speed": 6.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("frame_12")}, {"duration": 1.0, "texture": SubResource("frame_13")}, {"duration": 1.0, "texture": SubResource("frame_14")}, {"duration": 1.0, "texture": SubResource("frame_15")}], "loop": true, "name": &"motion-npc-leon-0-3", "speed": 6.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("frame_16")}, {"duration": 1.0, "texture": SubResource("frame_17")}, {"duration": 1.0, "texture": SubResource("frame_18")}, {"duration": 1.0, "texture": SubResource("frame_19")}], "loop": true, "name": &"motion-npc-leon-1-0", "speed": 8.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("frame_20")}, {"duration": 1.0, "texture": SubResource("frame_21")}, {"duration": 1.0, "texture": SubResource("frame_22")}, {"duration": 1.0, "texture": SubResource("frame_23")}], "loop": true, "name": &"motion-npc-leon-1-1", "speed": 8.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("frame_24")}, {"duration": 1.0, "texture": SubResource("frame_25")}, {"duration": 1.0, "texture": SubResource("frame_26")}, {"duration": 1.0, "texture": SubResource("frame_27")}], "loop": true, "name": &"motion-npc-leon-1-2", "speed": 8.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("frame_28")}, {"duration": 1.0, "texture": SubResource("frame_29")}, {"duration": 1.0, "texture": SubResource("frame_30")}, {"duration": 1.0, "texture": SubResource("frame_31")}], "loop": true, "name": &"motion-npc-leon-1-3", "speed": 8.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("frame_32")}, {"duration": 1.0, "texture": SubResource("frame_33")}, {"duration": 1.0, "texture": SubResource("frame_34")}, {"duration": 1.0, "texture": SubResource("frame_35")}], "loop": true, "name": &"motion-npc-leon-2-0", "speed": 8.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("frame_36")}, {"duration": 1.0, "texture": SubResource("frame_37")}, {"duration": 1.0, "texture": SubResource("frame_38")}, {"duration": 1.0, "texture": SubResource("frame_39")}], "loop": true, "name": &"motion-npc-leon-2-1", "speed": 8.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("frame_40")}, {"duration": 1.0, "texture": SubResource("frame_41")}, {"duration": 1.0, "texture": SubResource("frame_42")}, {"duration": 1.0, "texture": SubResource("frame_43")}], "loop": true, "name": &"motion-npc-leon-2-2", "speed": 8.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("frame_44")}, {"duration": 1.0, "texture": SubResource("frame_45")}, {"duration": 1.0, "texture": SubResource("frame_46")}, {"duration": 1.0, "texture": SubResource("frame_47")}], "loop": true, "name": &"motion-npc-leon-2-3", "speed": 8.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("frame_48")}, {"duration": 1.0, "texture": SubResource("frame_49")}, {"duration": 1.0, "texture": SubResource("frame_50")}, {"duration": 1.0, "texture": SubResource("frame_51")}], "loop": true, "name": &"event-npc-leon-03", "speed": 6.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("frame_52")}, {"duration": 1.0, "texture": SubResource("frame_53")}, {"duration": 1.0, "texture": SubResource("frame_54")}, {"duration": 1.0, "texture": SubResource("frame_55")}], "loop": false, "name": &"event-npc-leon-04", "speed": 8.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("frame_56")}, {"duration": 1.0, "texture": SubResource("frame_57")}, {"duration": 1.0, "texture": SubResource("frame_58")}, {"duration": 1.0, "texture": SubResource("frame_59")}], "loop": true, "name": &"event-npc-leon-05", "speed": 8.0}
+]

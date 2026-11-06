@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://assets/production/ui/asset_widget.gd" id="1"]
+
+[node name="nameplate" type="PanelContainer"]
+custom_minimum_size = Vector2(640, 360)
+script = ExtResource("1")
+asset_id = "presentation-2-02"

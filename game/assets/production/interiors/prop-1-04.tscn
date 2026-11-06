@@ -1,0 +1,76 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/wood.tres" id="m1"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/trim.tres" id="m2"]
+
+[sub_resource type="BoxMesh" id="r1"]
+size = Vector3(2.8, 0.12, 1.05)
+
+[sub_resource type="BoxMesh" id="r2"]
+size = Vector3(0.11, 0.78, 0.11)
+
+[sub_resource type="BoxMesh" id="r3"]
+size = Vector3(0.11, 0.78, 0.11)
+
+[sub_resource type="BoxMesh" id="r4"]
+size = Vector3(0.11, 0.78, 0.11)
+
+[sub_resource type="BoxMesh" id="r5"]
+size = Vector3(0.11, 0.78, 0.11)
+
+[sub_resource type="BoxMesh" id="r6"]
+size = Vector3(2.62, 0.2, 0.08)
+
+[sub_resource type="BoxMesh" id="r7"]
+size = Vector3(2.62, 0.2, 0.08)
+
+[sub_resource type="BoxShape3D" id="r8"]
+size = Vector3(2.8, 1.2, 1.05)
+
+[node name="prop_1_04" type="Node3D"]
+metadata/asset_id = "prop-1-04"
+metadata/display_name = "긴 식탁"
+metadata/grid_obstacles = [[-1.4, -0.525, 2.8, 1.05]]
+metadata/origin = "ground center; entry +Z"
+
+[node name="Top" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.78, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+
+[node name="Leg1" type="MeshInstance3D" parent="."]
+position = Vector3(-1.25, 0.39, -0.375)
+mesh = SubResource("r2")
+material_override = ExtResource("m2")
+
+[node name="Leg2" type="MeshInstance3D" parent="."]
+position = Vector3(-1.25, 0.39, 0.375)
+mesh = SubResource("r3")
+material_override = ExtResource("m2")
+
+[node name="Leg3" type="MeshInstance3D" parent="."]
+position = Vector3(1.25, 0.39, -0.375)
+mesh = SubResource("r4")
+material_override = ExtResource("m2")
+
+[node name="Leg4" type="MeshInstance3D" parent="."]
+position = Vector3(1.25, 0.39, 0.375)
+mesh = SubResource("r5")
+material_override = ExtResource("m2")
+
+[node name="Apron-0.405" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.6, -0.405)
+mesh = SubResource("r6")
+material_override = ExtResource("m2")
+
+[node name="Apron0.405" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.6, 0.405)
+mesh = SubResource("r7")
+material_override = ExtResource("m2")
+
+[node name="Body1" type="StaticBody3D" parent="."]
+position = Vector3(0, 0.6, 0)
+
+[node name="Shape" type="CollisionShape3D" parent="Body1"]
+shape = SubResource("r8")

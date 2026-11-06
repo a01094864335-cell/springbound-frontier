@@ -1,0 +1,11 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://assets/production/events/event_player.gd" id="script"]
+[node name="presentation_3_06" type="Node3D"]
+metadata/asset_id = "presentation-3-06"
+metadata/display_name = "응급처치"
+metadata/grid_obstacles = []
+metadata/stage = "event_visual_prototype"
+script = ExtResource("script")
+metadata/duration = 3.2
+metadata/gameplay_effects = false

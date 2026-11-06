@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/iron.tres" id="m1"]
+
+[ext_resource type="Script" path="res://assets/production/events/event_player.gd" id="script"]
+[sub_resource type="BoxMesh" id="r1"]
+size = Vector3(0.08, 0.9, 0.04)
+
+[node name="presentation_3_05" type="Node3D"]
+metadata/asset_id = "presentation-3-05"
+metadata/display_name = "검 대여"
+metadata/grid_obstacles = []
+metadata/stage = "event_visual_prototype"
+script = ExtResource("script")
+metadata/duration = 3.2
+metadata/gameplay_effects = false
+
+[node name="BorrowedSword" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.9, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")

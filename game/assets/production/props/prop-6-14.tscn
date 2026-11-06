@@ -1,0 +1,47 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/stone.tres" id="m1"]
+
+[sub_resource type="CylinderMesh" id="r1"]
+top_radius = 0.4
+bottom_radius = 0.4
+height = 1
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="r2"]
+top_radius = 0.35
+bottom_radius = 0.35
+height = 1.6
+radial_segments = 12
+rings = 1
+
+[sub_resource type="BoxShape3D" id="r3"]
+size = Vector3(2, 1.1, 0.9)
+
+[node name="prop_6_14" type="Node3D"]
+metadata/asset_id = "prop-6-14"
+metadata/display_name = "부서진 기둥"
+metadata/grid_obstacles = [[-1.0, -0.45, 2, 0.9]]
+metadata/stage = "native_first_pass"
+metadata/origin = "ground center"
+metadata/bounds = [2, 1.1, 0.9]
+metadata/recreated_from = "unavailable external draft; newly authored in this environment"
+metadata/final_art_approved = false
+
+[node name="Stump" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.5, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+
+[node name="Fallen" type="MeshInstance3D" parent="."]
+position = Vector3(0.7, 0.35, 0)
+mesh = SubResource("r2")
+material_override = ExtResource("m1")
+rotation_degrees = Vector3(0, 0, 80)
+
+[node name="Body1" type="StaticBody3D" parent="."]
+position = Vector3(0, 0.55, 0)
+
+[node name="Shape" type="CollisionShape3D" parent="Body1"]
+shape = SubResource("r3")

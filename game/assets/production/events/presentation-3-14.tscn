@@ -1,0 +1,63 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/wood.tres" id="m1"]
+
+[ext_resource type="Script" path="res://assets/production/events/event_player.gd" id="script"]
+[sub_resource type="BoxMesh" id="r1"]
+size = Vector3(2.8,0.15,0.45)
+
+[sub_resource type="BoxMesh" id="r2"]
+size = Vector3(2.8,0.15,0.45)
+
+[sub_resource type="BoxMesh" id="r3"]
+size = Vector3(2.8,0.15,0.45)
+
+[sub_resource type="BoxMesh" id="r4"]
+size = Vector3(2.8,0.15,0.45)
+
+[sub_resource type="BoxMesh" id="r5"]
+size = Vector3(2.8,0.15,0.45)
+
+[node name="presentation_3_14" type="Node3D"]
+metadata/asset_id = "presentation-3-14"
+metadata/display_name = "교량 복구"
+metadata/grid_obstacles = []
+metadata/stage = "event_visual_prototype"
+script = ExtResource("script")
+metadata/duration = 2.4
+metadata/gameplay_effects = false
+
+[node name="PlankPivot0" type="Node3D" parent="."]
+position = Vector3(0,0,-1.0)
+
+[node name="Plank" type="MeshInstance3D" parent="PlankPivot0"]
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+
+[node name="PlankPivot1" type="Node3D" parent="."]
+position = Vector3(0,0,-0.5)
+
+[node name="Plank" type="MeshInstance3D" parent="PlankPivot1"]
+mesh = SubResource("r2")
+material_override = ExtResource("m1")
+
+[node name="PlankPivot2" type="Node3D" parent="."]
+position = Vector3(0,0,0.0)
+
+[node name="Plank" type="MeshInstance3D" parent="PlankPivot2"]
+mesh = SubResource("r3")
+material_override = ExtResource("m1")
+
+[node name="PlankPivot3" type="Node3D" parent="."]
+position = Vector3(0,0,0.5)
+
+[node name="Plank" type="MeshInstance3D" parent="PlankPivot3"]
+mesh = SubResource("r4")
+material_override = ExtResource("m1")
+
+[node name="PlankPivot4" type="Node3D" parent="."]
+position = Vector3(0,0,1.0)
+
+[node name="Plank" type="MeshInstance3D" parent="PlankPivot4"]
+mesh = SubResource("r5")
+material_override = ExtResource("m1")

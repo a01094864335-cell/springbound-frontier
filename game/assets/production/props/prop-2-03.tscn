@@ -1,0 +1,72 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/wood.tres" id="m1"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/iron.tres" id="m2"]
+
+[sub_resource type="CylinderMesh" id="r1"]
+top_radius = 0.36
+bottom_radius = 0.42
+height = 1
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="r2"]
+top_radius = 0.39
+bottom_radius = 0.435
+height = 0.08
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="r3"]
+top_radius = 0.39
+bottom_radius = 0.435
+height = 0.08
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="r4"]
+top_radius = 0.35
+bottom_radius = 0.35
+height = 0.04
+radial_segments = 12
+rings = 1
+
+[sub_resource type="BoxShape3D" id="r5"]
+size = Vector3(1, 1, 1)
+
+[node name="prop_2_03" type="Node3D"]
+metadata/asset_id = "prop-2-03"
+metadata/display_name = "나무 통"
+metadata/grid_obstacles = [[-0.5, -0.5, 1.0, 1.0]]
+metadata/stage = "native_first_pass"
+metadata/origin = "ground center"
+metadata/bounds = [1.0, 1.0, 1.0]
+metadata/recreated_from = "unavailable external draft; newly authored in this environment"
+metadata/final_art_approved = false
+
+[node name="BarrelBody" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.5, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+
+[node name="BarrelBand0.14" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.14, 0)
+mesh = SubResource("r2")
+material_override = ExtResource("m2")
+
+[node name="BarrelBand0.85" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.85, 0)
+mesh = SubResource("r3")
+material_override = ExtResource("m2")
+
+[node name="BarrelTop" type="MeshInstance3D" parent="."]
+position = Vector3(0, 1.01, 0)
+mesh = SubResource("r4")
+material_override = ExtResource("m1")
+
+[node name="Body1" type="StaticBody3D" parent="."]
+position = Vector3(0, 0.5, 0)
+
+[node name="Shape" type="CollisionShape3D" parent="Body1"]
+shape = SubResource("r5")

@@ -1,0 +1,91 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/iron.tres" id="m1"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/brass.tres" id="m2"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/linen.tres" id="m3"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/fire.tres" id="m4"]
+
+[sub_resource type="CylinderMesh" id="r1"]
+top_radius = 0.14
+bottom_radius = 0.14
+height = 0.06
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="r2"]
+top_radius = 0.025
+bottom_radius = 0.025
+height = 0.32
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="r3"]
+top_radius = 0.09
+bottom_radius = 0.09
+height = 0.035
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="r4"]
+top_radius = 0.045
+bottom_radius = 0.045
+height = 0.18
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="r5"]
+top_radius = 0.0
+bottom_radius = 0.035
+height = 0.08
+radial_segments = 12
+rings = 1
+
+[sub_resource type="BoxMesh" id="r6"]
+size = Vector3(0.15, 0.4, 0.06)
+
+[sub_resource type="BoxMesh" id="r7"]
+size = Vector3(0.04, 0.05, 0.25)
+
+[node name="prop_1_20" type="Node3D"]
+metadata/asset_id = "prop-1-20"
+metadata/display_name = "벽등"
+metadata/grid_obstacles = []
+metadata/origin = "ground center; entry +Z"
+
+[node name="Base" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.03, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+
+[node name="Stem" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.2, 0)
+mesh = SubResource("r2")
+material_override = ExtResource("m2")
+
+[node name="Cup" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.36, 0)
+mesh = SubResource("r3")
+material_override = ExtResource("m2")
+
+[node name="Wax" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.46, 0)
+mesh = SubResource("r4")
+material_override = ExtResource("m3")
+
+[node name="Flame" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.58, 0)
+mesh = SubResource("r5")
+material_override = ExtResource("m4")
+
+[node name="WallMount" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.25, -0.16)
+mesh = SubResource("r6")
+material_override = ExtResource("m1")
+
+[node name="Bracket" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.1, -0.07)
+mesh = SubResource("r7")
+material_override = ExtResource("m1")

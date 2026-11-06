@@ -1,0 +1,51 @@
+[gd_scene format=3]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/blue.tres" id="m1"]
+
+[ext_resource type="Material" path="res://assets/production/interiors/materials/linen.tres" id="m2"]
+
+[sub_resource type="BoxMesh" id="r1"]
+size = Vector3(2.4, 0.024, 1.5)
+
+[sub_resource type="BoxMesh" id="r2"]
+size = Vector3(0.06, 0.008, 1.35)
+
+[sub_resource type="BoxMesh" id="r3"]
+size = Vector3(0.06, 0.008, 1.35)
+
+[sub_resource type="BoxMesh" id="r4"]
+size = Vector3(2.2, 0.008, 0.06)
+
+[sub_resource type="BoxMesh" id="r5"]
+size = Vector3(2.2, 0.008, 0.06)
+
+[node name="prop_1_17" type="Node3D"]
+metadata/asset_id = "prop-1-17"
+metadata/display_name = "깔개"
+metadata/grid_obstacles = []
+metadata/origin = "ground center; entry +Z"
+
+[node name="Rug" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.012, 0)
+mesh = SubResource("r1")
+material_override = ExtResource("m1")
+
+[node name="RugBorder-1.1" type="MeshInstance3D" parent="."]
+position = Vector3(-1.1, 0.026, 0)
+mesh = SubResource("r2")
+material_override = ExtResource("m2")
+
+[node name="RugBorder1.1" type="MeshInstance3D" parent="."]
+position = Vector3(1.1, 0.026, 0)
+mesh = SubResource("r3")
+material_override = ExtResource("m2")
+
+[node name="RugBorderZ-0.65" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.026, -0.65)
+mesh = SubResource("r4")
+material_override = ExtResource("m2")
+
+[node name="RugBorderZ0.65" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.026, 0.65)
+mesh = SubResource("r5")
+material_override = ExtResource("m2")

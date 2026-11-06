@@ -1,0 +1,362 @@
+[
+  {
+    "id": "presentation-2-01",
+    "name": "대화창",
+    "kind": "dialogue",
+    "path": "res://assets/production/ui/presentation-2-01.tscn",
+    "file": "game/assets/production/ui/presentation-2-01.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-02",
+    "name": "대화 이름표",
+    "kind": "nameplate",
+    "path": "res://assets/production/ui/presentation-2-02.tscn",
+    "file": "game/assets/production/ui/presentation-2-02.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-03",
+    "name": "선택지",
+    "kind": "choices",
+    "path": "res://assets/production/ui/presentation-2-03.tscn",
+    "file": "game/assets/production/ui/presentation-2-03.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-04",
+    "name": "초상화 영역",
+    "kind": "portrait",
+    "path": "res://assets/production/ui/presentation-2-04.tscn",
+    "file": "game/assets/production/ui/presentation-2-04.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-05",
+    "name": "상호작용 표시",
+    "kind": "interaction",
+    "path": "res://assets/production/ui/presentation-2-05.tscn",
+    "file": "game/assets/production/ui/presentation-2-05.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-06",
+    "name": "퀘스트 수락",
+    "kind": "quest_accept",
+    "path": "res://assets/production/ui/presentation-2-06.tscn",
+    "file": "game/assets/production/ui/presentation-2-06.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-07",
+    "name": "퀘스트 갱신",
+    "kind": "quest_update",
+    "path": "res://assets/production/ui/presentation-2-07.tscn",
+    "file": "game/assets/production/ui/presentation-2-07.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-08",
+    "name": "퀘스트 완료",
+    "kind": "quest_complete",
+    "path": "res://assets/production/ui/presentation-2-08.tscn",
+    "file": "game/assets/production/ui/presentation-2-08.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-09",
+    "name": "목표 표시",
+    "kind": "objective",
+    "path": "res://assets/production/ui/presentation-2-09.tscn",
+    "file": "game/assets/production/ui/presentation-2-09.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-10",
+    "name": "지역 지도",
+    "kind": "local_map",
+    "path": "res://assets/production/ui/presentation-2-10.tscn",
+    "file": "game/assets/production/ui/presentation-2-10.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-11",
+    "name": "월드맵",
+    "kind": "world_map",
+    "path": "res://assets/production/ui/presentation-2-11.tscn",
+    "file": "game/assets/production/ui/presentation-2-11.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-12",
+    "name": "지도 목적지",
+    "kind": "destination",
+    "path": "res://assets/production/ui/presentation-2-12.tscn",
+    "file": "game/assets/production/ui/presentation-2-12.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-13",
+    "name": "전투 명령창",
+    "kind": "commands",
+    "path": "res://assets/production/ui/presentation-2-13.tscn",
+    "file": "game/assets/production/ui/presentation-2-13.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-14",
+    "name": "대상 선택",
+    "kind": "target",
+    "path": "res://assets/production/ui/presentation-2-14.tscn",
+    "file": "game/assets/production/ui/presentation-2-14.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-15",
+    "name": "이동 목적지",
+    "kind": "move_target",
+    "path": "res://assets/production/ui/presentation-2-15.tscn",
+    "file": "game/assets/production/ui/presentation-2-15.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-16",
+    "name": "사거리 표시",
+    "kind": "range",
+    "path": "res://assets/production/ui/presentation-2-16.tscn",
+    "file": "game/assets/production/ui/presentation-2-16.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-17",
+    "name": "위험 범위",
+    "kind": "danger",
+    "path": "res://assets/production/ui/presentation-2-17.tscn",
+    "file": "game/assets/production/ui/presentation-2-17.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-18",
+    "name": "HP 바",
+    "kind": "hp",
+    "path": "res://assets/production/ui/presentation-2-18.tscn",
+    "file": "game/assets/production/ui/presentation-2-18.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-19",
+    "name": "MP 바",
+    "kind": "mp",
+    "path": "res://assets/production/ui/presentation-2-19.tscn",
+    "file": "game/assets/production/ui/presentation-2-19.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-20",
+    "name": "상태 아이콘",
+    "kind": "status",
+    "path": "res://assets/production/ui/presentation-2-20.tscn",
+    "file": "game/assets/production/ui/presentation-2-20.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-21",
+    "name": "장비창",
+    "kind": "equipment",
+    "path": "res://assets/production/ui/presentation-2-21.tscn",
+    "file": "game/assets/production/ui/presentation-2-21.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-22",
+    "name": "가방창",
+    "kind": "inventory",
+    "path": "res://assets/production/ui/presentation-2-22.tscn",
+    "file": "game/assets/production/ui/presentation-2-22.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-23",
+    "name": "아이템 상세",
+    "kind": "item_detail",
+    "path": "res://assets/production/ui/presentation-2-23.tscn",
+    "file": "game/assets/production/ui/presentation-2-23.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-24",
+    "name": "상점 구매",
+    "kind": "buy",
+    "path": "res://assets/production/ui/presentation-2-24.tscn",
+    "file": "game/assets/production/ui/presentation-2-24.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-25",
+    "name": "상점 판매",
+    "kind": "sell",
+    "path": "res://assets/production/ui/presentation-2-25.tscn",
+    "file": "game/assets/production/ui/presentation-2-25.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-26",
+    "name": "관계 기록",
+    "kind": "relations",
+    "path": "res://assets/production/ui/presentation-2-26.tscn",
+    "file": "game/assets/production/ui/presentation-2-26.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-27",
+    "name": "저장 목록",
+    "kind": "save",
+    "path": "res://assets/production/ui/presentation-2-27.tscn",
+    "file": "game/assets/production/ui/presentation-2-27.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-28",
+    "name": "불러오기 목록",
+    "kind": "load",
+    "path": "res://assets/production/ui/presentation-2-28.tscn",
+    "file": "game/assets/production/ui/presentation-2-28.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-29",
+    "name": "설정",
+    "kind": "settings",
+    "path": "res://assets/production/ui/presentation-2-29.tscn",
+    "file": "game/assets/production/ui/presentation-2-29.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-30",
+    "name": "키 설정",
+    "kind": "keys",
+    "path": "res://assets/production/ui/presentation-2-30.tscn",
+    "file": "game/assets/production/ui/presentation-2-30.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-31",
+    "name": "일시 정지",
+    "kind": "pause",
+    "path": "res://assets/production/ui/presentation-2-31.tscn",
+    "file": "game/assets/production/ui/presentation-2-31.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-32",
+    "name": "전투 결과",
+    "kind": "results",
+    "path": "res://assets/production/ui/presentation-2-32.tscn",
+    "file": "game/assets/production/ui/presentation-2-32.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-33",
+    "name": "전투 재시도",
+    "kind": "retry",
+    "path": "res://assets/production/ui/presentation-2-33.tscn",
+    "file": "game/assets/production/ui/presentation-2-33.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-34",
+    "name": "타이틀",
+    "kind": "title",
+    "path": "res://assets/production/ui/presentation-2-34.tscn",
+    "file": "game/assets/production/ui/presentation-2-34.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-35",
+    "name": "크레딧",
+    "kind": "credits",
+    "path": "res://assets/production/ui/presentation-2-35.tscn",
+    "file": "game/assets/production/ui/presentation-2-35.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  },
+  {
+    "id": "presentation-2-36",
+    "name": "로딩 표시",
+    "kind": "loading",
+    "path": "res://assets/production/ui/presentation-2-36.tscn",
+    "file": "game/assets/production/ui/presentation-2-36.tscn",
+    "stage": "native_first_pass",
+    "runtime_connected": false,
+    "recreated": true
+  }
+]
