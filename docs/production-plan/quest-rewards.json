@@ -1,0 +1,380 @@
+[
+  {
+    "quest": "MQ01",
+    "xp": 56,
+    "gold": 24,
+    "mandatory_state_reward": "두 심부름 뒤 집에서 배달을 상의한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ02",
+    "xp": 56,
+    "gold": 24,
+    "mandatory_state_reward": "레온에게 접근해 이동 불가와 주변 위협을 확인한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ03",
+    "xp": 56,
+    "gold": 24,
+    "mandatory_state_reward": "필수 조작 안내 후 튜토리얼 전투에 승리한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ04",
+    "xp": 56,
+    "gold": 24,
+    "mandatory_state_reward": "상처를 안정시키고 돌샘까지 동행할 준비를 마친다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ05",
+    "xp": 56,
+    "gold": 24,
+    "mandatory_state_reward": "배달 완료·환자 인계·조사대 귀환자 확인 후 귀향을 결정한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ06",
+    "xp": 112,
+    "gold": 48,
+    "mandatory_state_reward": "귀환로의 접근 가능한 주민과 길 상태를 확인한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ07",
+    "xp": 112,
+    "gold": 48,
+    "mandatory_state_reward": "생활 피해 세 지점과 환자 상황을 기록한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ08",
+    "xp": 112,
+    "gold": 48,
+    "mandatory_state_reward": "최소 두 시기에서 변화의 선후 관계를 확인한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ09",
+    "xp": 112,
+    "gold": 48,
+    "mandatory_state_reward": "수송 인원과 약재·식량 인계표를 마련한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ10",
+    "xp": 112,
+    "gold": 48,
+    "mandatory_state_reward": "교량 봉쇄와 남겨진 피난민의 위치를 확인한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ11",
+    "xp": 168,
+    "gold": 72,
+    "mandatory_state_reward": "접근군·민간인·교량 상태에 대한 현황을 합의한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ12",
+    "xp": 168,
+    "gold": 72,
+    "mandatory_state_reward": "수레 수리·환자 탑승·퇴로 표식을 완료한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ13",
+    "xp": 168,
+    "gold": 72,
+    "mandatory_state_reward": "필수 수송대 도착과 아군 철수를 함께 달성한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ14",
+    "xp": 168,
+    "gold": 72,
+    "mandatory_state_reward": "생존자·미확인자·증언의 출처를 기록한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ15",
+    "xp": 168,
+    "gold": 72,
+    "mandatory_state_reward": "증언 사본과 마을 지원 요청을 각각 인계한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ16",
+    "xp": 357,
+    "gold": 120,
+    "mandatory_state_reward": "공식 발표 원문과 지원 담당 부서를 확인한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ17",
+    "xp": 357,
+    "gold": 120,
+    "mandatory_state_reward": "원본 위치와 누락 구간을 확인하고 사본을 보전한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ18",
+    "xp": 357,
+    "gold": 120,
+    "mandatory_state_reward": "물자 배정과 실제 출발을 확인한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ19",
+    "xp": 357,
+    "gold": 120,
+    "mandatory_state_reward": "학술도시의 독립 측량 의뢰를 확보한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ20",
+    "xp": 357,
+    "gold": 120,
+    "mandatory_state_reward": "서리골에 진행 보고를 남기고 남방행을 확정한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ21",
+    "xp": 560,
+    "gold": 167,
+    "mandatory_state_reward": "관측 조건과 자료 차이의 재현 가능성을 확인한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ22",
+    "xp": 560,
+    "gold": 167,
+    "mandatory_state_reward": "반복 관측으로 변화 방향만 확인하고 한계를 명시한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ23",
+    "xp": 560,
+    "gold": 167,
+    "mandatory_state_reward": "조사 허가·안전 절차·철수 조건을 갖춘다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ24",
+    "xp": 560,
+    "gold": 167,
+    "mandatory_state_reward": "한 지역의 조정이 다른 지역에 미치는 지연을 측정한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ25",
+    "xp": 560,
+    "gold": 166,
+    "mandatory_state_reward": "현지 개선 뒤 외부 이상을 감지해 추가 조정을 보류한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ26",
+    "xp": 560,
+    "gold": 166,
+    "mandatory_state_reward": "에일의 회복과 역할 재분담 뒤 해양 관측 확보를 결정한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ27",
+    "xp": 896,
+    "gold": 280,
+    "mandatory_state_reward": "카이와 관측 자료 확보·승선 계약을 맺는다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ28",
+    "xp": 896,
+    "gold": 280,
+    "mandatory_state_reward": "구조·기록 보전·선원 가족 통지를 마친다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ29",
+    "xp": 896,
+    "gold": 280,
+    "mandatory_state_reward": "독립 자료로 부담 전가 가설을 확인한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ30",
+    "xp": 896,
+    "gold": 280,
+    "mandatory_state_reward": "제한적 구조 협력과 자료 교환 조건을 합의한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ31",
+    "xp": 896,
+    "gold": 280,
+    "mandatory_state_reward": "통행 보장 실행을 확인하고 보호된 자료 교환을 마친다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ32",
+    "xp": 1120,
+    "gold": 360,
+    "mandatory_state_reward": "당사자 동의·익명화·독립 사본 보전을 갖춘다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ33",
+    "xp": 1120,
+    "gold": 360,
+    "mandatory_state_reward": "중추·현장 장치·물자 준비의 상호 의존을 확인한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ34",
+    "xp": 1120,
+    "gold": 360,
+    "mandatory_state_reward": "공개 자료와 제한 자료를 나누고 협상 대표를 확보한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ35",
+    "xp": 1120,
+    "gold": 360,
+    "mandatory_state_reward": "필수 보급·퇴로·담당자의 인계를 확인한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ36",
+    "xp": 1120,
+    "gold": 360,
+    "mandatory_state_reward": "모든 필수 거점의 준비 확인을 받고 중추로 출발한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ37",
+    "xp": 823,
+    "gold": 400,
+    "mandatory_state_reward": "필수 수리조·예비 통로·중추 입구를 확보한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ38",
+    "xp": 823,
+    "gold": 400,
+    "mandatory_state_reward": "계획의 효과·고정되는 피해·철회 가능성을 검증한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ39",
+    "xp": 823,
+    "gold": 400,
+    "mandatory_state_reward": "보전 자료와 합의서 사본을 안전한 인계자에게 넘긴다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ40",
+    "xp": 822,
+    "gold": 400,
+    "mandatory_state_reward": "준비 여부 재확인과 안전한 시작 시각을 다시 합의한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ41",
+    "xp": 822,
+    "gold": 400,
+    "mandatory_state_reward": "전환 저지·중추 안정 유지·필수 거점 완료 확인을 달성한다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  },
+  {
+    "quest": "MQ42",
+    "xp": 822,
+    "gold": 400,
+    "mandatory_state_reward": "생존자 인계와 단계적 복구·감시 체계의 출발을 확인한다하고 마르타와 귀환 대화를 마치고 관계별 후일담을 본다",
+    "equipment_reward": "최신 보드에서 선택할 동급 대체품 구매/체험 기회. 무료 모든 무기 지급 아님",
+    "battle_xp_separate": true,
+    "status": "금액/EXP 제작안"
+  }
+]

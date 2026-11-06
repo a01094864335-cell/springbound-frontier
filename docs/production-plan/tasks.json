@@ -1,0 +1,878 @@
+[
+  {
+    "id": "T01",
+    "title": "기준 커밋·인계 범위 고정",
+    "owner_role": "기술 리드",
+    "dependencies": [],
+    "scope": "전체",
+    "work": "PR14·PR18·현행 로컬 코드 차이 목록과 원본 보관",
+    "acceptance": "문서·에셋·코드 기준 추적 가능",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "첫 제작본 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T02",
+    "title": "확정/제작안 충돌표 반영",
+    "owner_role": "기획·기술",
+    "dependencies": [
+      "T01"
+    ],
+    "scope": "전체",
+    "work": "A01~A07와 확정 규칙을 구현에 매핑",
+    "acceptance": "제작안이 확정을 덮지 않음",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "첫 제작본 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T03",
+    "title": "수치·기술 시제품 검토",
+    "owner_role": "전투 기획",
+    "dependencies": [
+      "T02"
+    ],
+    "scope": "전체",
+    "work": "레벨·피해·가격·기술의 미정 분리",
+    "acceptance": "표본과 결정 대상 표기",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "첫 제작본 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T04",
+    "title": "진행·이벤트·저장 계약",
+    "owner_role": "기술",
+    "dependencies": [
+      "T02"
+    ],
+    "scope": "전체",
+    "work": "원자적 완료·인계·선택·만료·요약·이관",
+    "acceptance": "기록창이 지급/소비 재실행 안 함",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "첫 제작본 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T05",
+    "title": "에셋 인수·의존성",
+    "owner_role": "기술·아트",
+    "dependencies": [
+      "T01"
+    ],
+    "scope": "AR01~AR52",
+    "work": "2412참조·879경로 실제 파일 인수",
+    "acceptance": "존재·미술 품질·게임 연결 구분",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "첫 제작본 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T06",
+    "title": "29맵 블록아웃",
+    "owner_role": "레벨",
+    "dependencies": [
+      "T02",
+      "T05"
+    ],
+    "scope": "M01~M29",
+    "work": "출입 대상·직교 경로·NPC·차단 영역",
+    "acceptance": "필수 조사/출구·수레 교행·카메라 검수",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "첫 제작본 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T07",
+    "title": "입력·UI 정지·가독성",
+    "owner_role": "기술·UI",
+    "dependencies": [
+      "T04",
+      "T05"
+    ],
+    "scope": "전체",
+    "work": "입력 해제·바인딩·확대·정지",
+    "acceptance": "대화 닫기/전투 재개 중복 없음",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "첫 제작본 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T08",
+    "title": "2~4인 직접 명령",
+    "owner_role": "전투 기술",
+    "dependencies": [
+      "T07"
+    ],
+    "scope": "B07,B20,B24",
+    "work": "인물 선택·이동/공격/대기·실행",
+    "acceptance": "에일 KO여도 생존 동료 지휘·최대4",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "첫 제작본 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T09",
+    "title": "공격·범위·마법",
+    "owner_role": "전투 기술",
+    "dependencies": [
+      "T03",
+      "T08"
+    ],
+    "scope": "전체",
+    "work": "일반/범위·시전/발동/행동 후 대기",
+    "acceptance": "일반 바닥 예고 없음·범위만 예고",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "첫 제작본 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T10",
+    "title": "즉시 아이템·사용자 대기",
+    "owner_role": "전투 기술",
+    "dependencies": [
+      "T03",
+      "T08"
+    ],
+    "scope": "전체",
+    "work": "생존 사용자·거리 무제한·효과·소비1회",
+    "acceptance": "선행 동작 지연·파티 공통 쿨다운 없음",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "첫 제작본 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T11",
+    "title": "KO·부활·승리 복귀",
+    "owner_role": "전투 기술",
+    "dependencies": [
+      "T09",
+      "T10"
+    ],
+    "scope": "전체",
+    "work": "전원 패배·생존 지휘·부활·낮은 HP 복귀",
+    "acceptance": "생존 HP/MP 유지·KO MP 복원 없음",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "첫 제작본 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T12",
+    "title": "재도전·소비 이력",
+    "owner_role": "기술·QA",
+    "dependencies": [
+      "T04",
+      "T10",
+      "T11"
+    ],
+    "scope": "전체",
+    "work": "전투 전 복귀·소모품 미복구 ledger",
+    "acceptance": "재도전/안내/저장복귀 소비 일치",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "첫 제작본 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T13",
+    "title": "편성·무장·동작",
+    "owner_role": "기술·아트",
+    "dependencies": [
+      "T05",
+      "T08"
+    ],
+    "scope": "전체",
+    "work": "에일 전 무기·동료 직업·공용 방어/장신구",
+    "acceptance": "보관/장착/기술/전투 참가 분리",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "첫 제작본 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T14",
+    "title": "프롤로그 공간·순서",
+    "owner_role": "기술·레벨",
+    "dependencies": [
+      "T04",
+      "T06",
+      "T07"
+    ],
+    "scope": "MQ01~05",
+    "work": "집/마을/산길/돌샘·심부름 자유 순서",
+    "acceptance": "선택 조사0개로 배달 가능",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "첫 제작본 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T15",
+    "title": "인물·표정·걷기",
+    "owner_role": "아트·연출",
+    "dependencies": [
+      "T05",
+      "T13",
+      "T14"
+    ],
+    "scope": "MQ01~05",
+    "work": "발 포즈·부상·초상화·페이지",
+    "acceptance": "정지 그림 흔들기로 걷기 대체 금지",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "첫 제작본 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T16",
+    "title": "발견·검·처치",
+    "owner_role": "기술·연출",
+    "dependencies": [
+      "T14",
+      "T15"
+    ],
+    "scope": "MQ02~04",
+    "work": "임시 처치·대여·승리 후 마무리",
+    "acceptance": "레온 비전투·배달 약 소비 불가",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "첫 제작본 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T17",
+    "title": "첫 전투·범위 도약",
+    "owner_role": "전투·기술",
+    "dependencies": [
+      "T09",
+      "T12",
+      "T16"
+    ],
+    "scope": "B01",
+    "work": "정지/이동/대기/회피/공격/선택 회복",
+    "acceptance": "첫 타격 뒤 안내·소모품0 검수",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "첫 제작본 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T18",
+    "title": "돌샘 인계·귀향 결정",
+    "owner_role": "기술·연출",
+    "dependencies": [
+      "T17"
+    ],
+    "scope": "MQ05",
+    "work": "에다/할벤/차/밤/기록/선택",
+    "acceptance": "약·환자·명부 인수1회·원인 미확정",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "첫 제작본 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T19",
+    "title": "구버전 프롤로그 이관",
+    "owner_role": "기술·QA",
+    "dependencies": [
+      "T04",
+      "T18"
+    ],
+    "scope": "MQ01~10",
+    "work": "v1/v2 출발/동행/배달/귀향 분석",
+    "acceptance": "심부름 재강제·허위승리·순간이동 없음",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "첫 제작본 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T20",
+    "title": "프롤로그 기능 검수",
+    "owner_role": "QA",
+    "dependencies": [
+      "T12",
+      "T18",
+      "T19"
+    ],
+    "scope": "MQ01~05",
+    "work": "35항목·완주/패배/재도전/저장",
+    "acceptance": "영상·미검증 표현 구분·미술 승인 별도",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "첫 제작본 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T21",
+    "title": "귀환·조사·준비",
+    "owner_role": "기술·연출",
+    "dependencies": [
+      "T20"
+    ],
+    "scope": "MQ06~10",
+    "work": "3지점/3준비·출발 취소·명부",
+    "acceptance": "순서 자유·시기 경고2회",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T22",
+    "title": "초기 서브·요약",
+    "owner_role": "기술·연출",
+    "dependencies": [
+      "T04",
+      "T21"
+    ],
+    "scope": "SE01,SE16,SE19~21,SE23",
+    "work": "부분 진행/출발/만료/재개/실제 요약",
+    "acceptance": "만료·완료·summary 분리",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T23",
+    "title": "양안·구조 준비",
+    "owner_role": "레벨·연출",
+    "dependencies": [
+      "T06",
+      "T21"
+    ],
+    "scope": "MQ11~12",
+    "work": "두 수레·리아·수리/인수/퇴로",
+    "acceptance": "실제 수리/탑승·수송 위치 유지",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T24",
+    "title": "호위·KO 구조 인계",
+    "owner_role": "전투·기술",
+    "dependencies": [
+      "T08",
+      "T11",
+      "T12",
+      "T23"
+    ],
+    "scope": "B07",
+    "work": "2인·수레·철수/구조·기한",
+    "acceptance": "한 명 KO 즉패 아님·0부활품 구조",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T25",
+    "title": "교량 기록·왕도행 검수",
+    "owner_role": "기술·QA",
+    "dependencies": [
+      "T24"
+    ],
+    "scope": "MQ13~15",
+    "work": "증언/보호/접수·36항목",
+    "acceptance": "전멸 불필요·접수와 지원 분리",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T26",
+    "title": "왕도·물자·의뢰",
+    "owner_role": "기술·연출",
+    "dependencies": [
+      "T25"
+    ],
+    "scope": "MQ16~20",
+    "work": "누락/보전/지원/의뢰/편지/출발",
+    "acceptance": "실제 출발·재진료·검 기간",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T27",
+    "title": "상점·재고·매입·휴식",
+    "owner_role": "기술·기획",
+    "dependencies": [
+      "T03",
+      "T10",
+      "T26"
+    ],
+    "scope": "SH01~08",
+    "work": "비싼 강력품·중요품·재입고",
+    "acceptance": "저장/출입 재입고·차익·0골드 잠김 없음",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T28",
+    "title": "보상·동등 EXP·전문화",
+    "owner_role": "기술·기획",
+    "dependencies": [
+      "T03",
+      "T13",
+      "T27"
+    ],
+    "scope": "MQ01~42",
+    "work": "MQ/전투 보상·대기동료·전문화",
+    "acceptance": "서브/노가다0으로 가능·장착 잠금 없음",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T29",
+    "title": "학술도시·감각 한계",
+    "owner_role": "기술·연출",
+    "dependencies": [
+      "T26"
+    ],
+    "scope": "MQ21~22",
+    "work": "세나·재측정·동의·근거리",
+    "acceptance": "원격/범인 탐지 없음·중단/재개",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T30",
+    "title": "북방·연결 관측",
+    "owner_role": "기술·레벨",
+    "dependencies": [
+      "T06",
+      "T29"
+    ],
+    "scope": "MQ23~24",
+    "work": "네리아/허가/안전/완충",
+    "acceptance": "임의 조작 영구파괴 없음",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T31",
+    "title": "시험·경고·분담",
+    "owner_role": "기술·연출",
+    "dependencies": [
+      "T30"
+    ],
+    "scope": "MQ25~26",
+    "work": "승인/지연경고/보류/피로/인계",
+    "acceptance": "무단 역조정·위험은폐·무한보상 없음",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T32",
+    "title": "항구 계약·역할",
+    "owner_role": "기술·연출",
+    "dependencies": [
+      "T31"
+    ],
+    "scope": "MQ27",
+    "work": "카이·임금·기상·동의",
+    "acceptance": "흥정 실수로 메인 차단 없음",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T33",
+    "title": "해안 구조·기록·가족",
+    "owner_role": "기술·레벨",
+    "dependencies": [
+      "T06",
+      "T32"
+    ],
+    "scope": "MQ28",
+    "work": "접근·생존·치료·허가·통지",
+    "acceptance": "수영/배조종/새 보스 필수 아님",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T34",
+    "title": "독립 기록 검증",
+    "owner_role": "기술·연출",
+    "dependencies": [
+      "T33"
+    ],
+    "scope": "MQ29",
+    "work": "육지/선박/관측소3출처",
+    "acceptance": "유일 원인 과장 없음",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T35",
+    "title": "협상·이행 확인",
+    "owner_role": "기술·연출",
+    "dependencies": [
+      "T34"
+    ],
+    "scope": "MQ30~31",
+    "work": "통행·공격 중단·실제 수송",
+    "acceptance": "명령서만으로 성공/면책 아님",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T36",
+    "title": "성역·절차 검토",
+    "owner_role": "기술·연출",
+    "dependencies": [
+      "T35"
+    ],
+    "scope": "MQ32~33",
+    "work": "이리스/누락/동의/절차/기술자",
+    "acceptance": "책 한 번으로 초기화 없음",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T37",
+    "title": "증언·보호·보전",
+    "owner_role": "기술·기획",
+    "dependencies": [
+      "T04",
+      "T36"
+    ],
+    "scope": "MQ14,MQ32~39",
+    "work": "공개/보호/출처/동의/인수",
+    "acceptance": "개인 공개 거절해도 기관 근거 가능",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T38",
+    "title": "대표·필수4준비",
+    "owner_role": "기술·연출",
+    "dependencies": [
+      "T36",
+      "T37"
+    ],
+    "scope": "MQ34~35",
+    "work": "판본·수송/대피/수리/연락",
+    "acceptance": "서브·호감·희귀품 필수 없음",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T39",
+    "title": "신호·응답·보류",
+    "owner_role": "기술·기획",
+    "dependencies": [
+      "T04",
+      "T38"
+    ],
+    "scope": "MQ36~40",
+    "work": "거점 ID·신호·판본·시각·예비",
+    "acceptance": "미응답을 완료/배신으로 추정 안 함",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T40",
+    "title": "거리·여력 산정",
+    "owner_role": "기획·레벨",
+    "dependencies": [
+      "T06",
+      "T39"
+    ],
+    "scope": "MQ36~41",
+    "work": "지도/왕복/교대/유한 여력",
+    "acceptance": "156h 표본과 실제 대조·불가면 수정",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T41",
+    "title": "수리조 진입 호위",
+    "owner_role": "전투·기술",
+    "dependencies": [
+      "T09",
+      "T12",
+      "T13",
+      "T40"
+    ],
+    "scope": "B20,MQ37",
+    "work": "인수·퇴로·입구 점검",
+    "acceptance": "주인공 돌파/전멸만으로 완료 없음",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T42",
+    "title": "중앙 계획·대안",
+    "owner_role": "기술·연출",
+    "dependencies": [
+      "T41"
+    ],
+    "scope": "MQ38",
+    "work": "효과·희생·철회불가·준비",
+    "acceptance": "새 신/만능 장치 추가 없음",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T43",
+    "title": "파견·권한/증거 분리",
+    "owner_role": "기술·연출",
+    "dependencies": [
+      "T37",
+      "T42"
+    ],
+    "scope": "MQ39",
+    "work": "합의·대표·독립 인수",
+    "acceptance": "증거와 지휘 분리·자동 면책 없음",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T44",
+    "title": "응답 지연·재확인",
+    "owner_role": "기술·연출",
+    "dependencies": [
+      "T39",
+      "T40",
+      "T43"
+    ],
+    "scope": "MQ40",
+    "work": "예비선·이송·여력·판본",
+    "acceptance": "무한 대기/충전/미응답 시작 없음",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T45",
+    "title": "중추 저지·유지·인수",
+    "owner_role": "전투·기술",
+    "dependencies": [
+      "T11",
+      "T12",
+      "T13",
+      "T44"
+    ],
+    "scope": "B24,MQ41",
+    "work": "최대4·제어·교대·보고·인수",
+    "acceptance": "전멸/대사만 승리 아님",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T46",
+    "title": "복구·책임·구호 인계",
+    "owner_role": "기술·연출",
+    "dependencies": [
+      "T45"
+    ],
+    "scope": "MQ42",
+    "work": "길/식량/운용/자료·단계 귀환",
+    "acceptance": "즉시 봄·책임 종결 없음",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T47",
+    "title": "귀향·기본 후일담",
+    "owner_role": "기술·연출",
+    "dependencies": [
+      "T46"
+    ],
+    "scope": "MQ42",
+    "work": "마르타·5동료 근황·단일결말",
+    "acceptance": "개인 이벤트0개여도 완결",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T48",
+    "title": "전체 SE24 조건·재개",
+    "owner_role": "기술·연출",
+    "dependencies": [
+      "T22",
+      "T37",
+      "T47"
+    ],
+    "scope": "SE01~24",
+    "work": "선행/기한/요약/거점/한쪽 선택",
+    "acceptance": "자동 연애·허위기억·중복보상 없음",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T49",
+    "title": "후일담 감상·재감상",
+    "owner_role": "기술·UI",
+    "dependencies": [
+      "T07",
+      "T47",
+      "T48"
+    ],
+    "scope": "MQ42",
+    "work": "해금 장면·기본근황 별도",
+    "acceptance": "새 엔딩후 자유탐험 자동 도입 없음",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "전편 기능",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T50",
+    "title": "최종 아트·스케일 검수",
+    "owner_role": "아트·QA",
+    "dependencies": [
+      "T05",
+      "T06",
+      "T13",
+      "T49"
+    ],
+    "scope": "AR01~52",
+    "work": "4방향·손/발·표정·무기·UI",
+    "acceptance": "파일과 최종 품질/연결 분리",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "최종 표현·검수",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T51",
+    "title": "권한·청취·루프·믹스",
+    "owner_role": "오디오·QA",
+    "dependencies": [
+      "T05",
+      "T49"
+    ],
+    "scope": "전체",
+    "work": "합성음 포함 권한/음량/중첩",
+    "acceptance": "파일/신호 검사가 청취 대체 안 함",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "최종 표현·검수",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T52",
+    "title": "서브·일반교전0 완주",
+    "owner_role": "QA·기획",
+    "dependencies": [
+      "T27",
+      "T28",
+      "T49"
+    ],
+    "scope": "MQ01~42",
+    "work": "필수4전투·준비·인수·엔딩",
+    "acceptance": "0골드/0아이템 회수·파밍 강제 없음",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "최종 표현·검수",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T53",
+    "title": "전술/스토리·24배치",
+    "owner_role": "QA·전투",
+    "dependencies": [
+      "T24",
+      "T45",
+      "T52"
+    ],
+    "scope": "B01~24",
+    "work": "모드/시전/소비/호위·동일 보상",
+    "acceptance": "난이도가 관계·줄거리 보상 줄이지 않음",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "최종 표현·검수",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T54",
+    "title": "전편 저장·이관·손상",
+    "owner_role": "기술·QA",
+    "dependencies": [
+      "T04",
+      "T19",
+      "T49"
+    ],
+    "scope": "전체",
+    "work": "경계/구버전/후속/손상/실패",
+    "acceptance": "원본보존·역행·허위완료 없음",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "최종 표현·검수",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T55",
+    "title": "Windows 빌드·호환",
+    "owner_role": "빌드·QA",
+    "dependencies": [
+      "T50",
+      "T51",
+      "T53",
+      "T54"
+    ],
+    "scope": "전체",
+    "work": "Windows 렌더/입력/음향/저장",
+    "acceptance": "문서 검증으로 대신 통과 안 함",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "최종 표현·검수",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T56",
+    "title": "성능·로딩·가림·경계",
+    "owner_role": "기술·QA",
+    "dependencies": [
+      "T55"
+    ],
+    "scope": "M01~29",
+    "work": "기기 측정·밀집·연속전환",
+    "acceptance": "미정 수치 약속 대신 측정·병목 기록",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "최종 표현·검수",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T57",
+    "title": "키변경·확대·음소거",
+    "owner_role": "UI·QA",
+    "dependencies": [
+      "T07",
+      "T50",
+      "T55"
+    ],
+    "scope": "전체",
+    "work": "입력/양안/아이콘/대사 가독",
+    "acceptance": "색·소리·작은 글씨만 필수정보 없음",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "최종 표현·검수",
+    "execution_location": "다른 로컬"
+  },
+  {
+    "id": "T58",
+    "title": "리뷰·잔여·출시 준비 보고",
+    "owner_role": "기획·기술",
+    "dependencies": [
+      "T52",
+      "T53",
+      "T54",
+      "T55",
+      "T56",
+      "T57"
+    ],
+    "scope": "전체",
+    "work": "증거·미검증·PR·권한·배포범위",
+    "acceptance": "문서/기능/미술/실행검증 별도 보고",
+    "status": "외부 로컬 수행 결과 미확인",
+    "phase": "최종 표현·검수",
+    "execution_location": "다른 로컬"
+  }
+]
