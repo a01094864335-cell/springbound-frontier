@@ -24,11 +24,11 @@ func _new(mode := "story", items := 2):
 func _initialize() -> void:
 	var b = _new()
 	b.enemy.reset(Vector3(1,0,1))
-	if b.in_reach(): errors.append("Diagonal cells allow sword attack")
+	if not b.in_reach(): errors.append("Diagonal contact incorrectly rejected")
 	b.enemy.reset(Vector3.RIGHT)
 	if not b.in_reach(): errors.append("Cardinal adjacent cell cannot be attacked")
 	b.player.begin(Vector2i.LEFT,_wall)
-	if b.in_reach(): errors.append("Moving actor can attack between cells")
+	if not b.in_reach(): errors.append("Moving target becomes invulnerable without leaving reach")
 	b = _new()
 	b.select_order("attack")
 	b.advance(2)
@@ -38,7 +38,7 @@ func _initialize() -> void:
 		b.advance(0.02)
 		if not b.active: break
 	if b.outcome != "victory" or b.hp <= 0: errors.append("Story battle cannot be won with basic attack")
-	if b.elapsed < 20 or b.elapsed > 60: errors.append("First fight pacing out of target")
+	if b.elapsed < 8 or b.elapsed > 30: errors.append("First fight pacing out of target")
 	var story_seconds: float = b.elapsed
 	var survivor_hp: int = b.hp
 	var wins: int = b.events.filter(func(event): return event.kind == "victory").size()
@@ -96,14 +96,14 @@ func _initialize() -> void:
 	b.toggle_time()
 	for i in range(18000):
 		if not b.active: break
-		if b.enemy_windup > 0.4 and b.order == "attack" and not b.player.moving:
+		if ((b.enemy_windup > 0.28 and b.enemy_windup < 0.55) or b.leap_windup > 0.7) and b.order == "attack" and not b.player.moving and b.hero_windup<=0:
 			var away := Vector3(0,0,2) if b.player.position.z >= b.enemy.position.z else Vector3(0,0,-2)
 			if _wall(b.player.position+away): away = Vector3(2,0,0)
 			b.select_order("move",b.player.position+away)
-			b.toggle_time()
-		elif b.order == "wait" and b.enemy_windup <= 0:
+			if b.paused: errors.append("A new move order pauses running combat")
+		elif b.order == "wait" and b.enemy_windup <= 0 and b.leap_windup<=0:
 			b.select_order("attack")
-			b.toggle_time()
+			if b.paused: errors.append("A new attack order pauses running combat")
 		b.advance(0.02)
 	if b.outcome != "victory": errors.append("Tactical retry with zero items is unwinnable")
 	print("STORY_BATTLE_RESULT: %.2fs, HP %d/48" % [story_seconds,survivor_hp])

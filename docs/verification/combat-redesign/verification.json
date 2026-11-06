@@ -1,0 +1,86 @@
+{
+  "scope": "MQ01–05; Windows build and independent first-time player review excluded",
+  "checks": {
+    "grid": {
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 0.48,
+      "summary": [
+        "GRID_WALKER_QA: PASS (cardinal steps, collision, exact endpoints, grounded feet, leg frames)"
+      ]
+    },
+    "story": {
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 0.21,
+      "summary": [
+        "PROLOGUE_STORY_QA: PASS (77 scenes / 347 lines) []"
+      ]
+    },
+    "environment": {
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 0.31,
+      "summary": [
+        "ENVIRONMENT_PACK_QA: PASS (43 scenes) []"
+      ]
+    },
+    "battle_core": {
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 0.36,
+      "summary": [
+        "FIRST_BATTLE_QA: PASS []"
+      ]
+    },
+    "presentation": {
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 3.61,
+      "summary": [
+        "PRESENTATION_QA: PASS []"
+      ]
+    },
+    "contracts": {
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 3.13,
+      "summary": [
+        "PROLOGUE_CONTRACT_QA: PASS assertions=20 []"
+      ]
+    },
+    "world": {
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 5.26,
+      "summary": [
+        "PROLOGUE_QA: PASS []"
+      ]
+    },
+    "battle_integration": {
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 8.17,
+      "summary": [
+        "FIRST_BATTLE_INTEGRATION_QA: PASS []"
+      ]
+    },
+    "e2e_a": {
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 8.18,
+      "summary": [
+        "PROLOGUE_E2E: PASS choice=a []"
+      ]
+    },
+    "e2e_b": {
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 8.56,
+      "summary": [
+        "PROLOGUE_E2E: PASS choice=b []"
+      ]
+    }
+  },
+  "passed": true
+}

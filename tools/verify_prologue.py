@@ -18,7 +18,7 @@ if not (ROOT/'game/.godot/uid_cache.bin').exists():
 checks=[('grid',['--script','res://tests/grid_walker_test.gd']),('story',['--script','res://tests/prologue_story_test.gd']),('environment',['--script','res://tests/environment_pack_test.gd']),('battle_core',['--script','res://tests/first_battle_test.gd']),('presentation',['--script','res://tests/presentation_test.gd']),('contracts',['--script','res://tests/prologue_contract_test.gd','--','--playthrough-qa']),('world',['--','--qa']),('battle_integration',['--','--battle-qa'])]
 for choice in ['a','b']:checks.append(('e2e_'+choice,['--script','res://tests/prologue_e2e.gd','--','--playthrough-qa','--choice='+choice]+(['--mute','--large-text'] if choice=='b' else [])+['--qa-output='+str(out/('e2e_'+choice))]))
 if a.native:
- checks += [('native_input',['--','--battle-input-qa']),('native_e2e',['--script','res://tests/prologue_e2e.gd','--','--playthrough-qa','--qa-output='+str(out/'native_e2e')])]
+ checks += [('native_input',['--script','res://tests/combat_flow_test.gd','--','--playthrough-qa']),('native_e2e',['--script','res://tests/prologue_e2e.gd','--','--playthrough-qa','--qa-output='+str(out/'native_e2e')])]
 report={'scope':'MQ01–05; Windows build and independent first-time player review excluded','checks':{}}
 for name,args in checks:
  native=name.startswith('native_')
