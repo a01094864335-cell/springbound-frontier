@@ -16,6 +16,8 @@ Springbound Frontier · 가제
 
 ## 작업자 시작 문서
 
+[전체 42메인·24서브 상세 원고 색인](docs/scenario/remaining/coverage.md) · [MQ16~42·남은 서브 19종 전체 인계](docs/scenario/remaining/README.md) — 왕도부터 결말까지·중추 전투/연락·검수 50항목
+
 [MQ11~15 교량 구조 편 상세 대본·전투·구현 인계](docs/scenario/bridge/README.md) — 리아 소개·호위와 철수·왕도행·검수 36항목
 
 [MQ06~10 고향 귀환 편 상세 대본·구현 인계](docs/scenario/homecoming/README.md) — 마을 서브 4종·출발 경고·검수 33항목
