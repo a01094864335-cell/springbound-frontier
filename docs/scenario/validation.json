@@ -1,0 +1,14 @@
+{
+  "main_quests": 42,
+  "chapters": 8,
+  "main_excerpt_lines": 258,
+  "side_events": 24,
+  "side_excerpt_lines": 144,
+  "checks": [
+    "메인 선행 조건 순환·미정의 ID 없음",
+    "서브 해금 MQ·선행 이벤트 유효",
+    "서브 선행의 해금 시점이 역전되지 않음",
+    "기간 한정 이벤트 사전 경고가 종료보다 앞섬",
+    "메인 대사 ID 중복 없음"
+  ]
+}
